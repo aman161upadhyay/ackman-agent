@@ -1,0 +1,94 @@
+{
+  "audit_notes": "Both candidates C1 and C2 demonstrate high fidelity to the provided documents, accurately citing financial figures and operational context as of the 2023-02-10 cutoff. No semantic leakage was detected.",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "Candidate accurately reflects the primary drivers, valuation, and operational context provided in the source documents.",
+      "drivers": [
+        {
+          "candidate_quote": "A dominant, capital-light search and advertising franchise with a powerful network-effect-driven moat.",
+          "document": "D01_business_overview.md",
+          "document_quote": "The company maintains a dominant search monopoly protected by massive scale and an unrivaled data advantage",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The candidate aligns with the source's description of search dominance and scale-based moat.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "We are able to acquire our stake at a discounted ~15.0x EV/EBIT multiple due to temporary AI-related market sentiment.",
+          "document": "D04_price_valuation.md",
+          "document_quote": "Subtracting the simplified $99.061 billion net-cash measure gives illustrative enterprise value of $1,119.79 billion. Dividing by FY2022 operating income produces approximately 15.0x EV/EBIT.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The candidate's valuation calculation matches the document's derivation.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Management is taking disciplined action to streamline the cost base, including a 12,000-employee workforce reduction.",
+          "document": "D03_latest_results.md",
+          "document_quote": "January's approximately 12,000-role workforce reduction is expected to produce $1.9-$2.3 billion of severance/related charges",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The candidate reflects the documented cost-efficiency action.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Massive free cash flow generation of $60 billion in 2022 allows for aggressive and persistent share repurchases.",
+          "document": "D02_financial_snapshot.md",
+          "document_quote": "Calculated FCF is $60,010 million. ... Repurchases consumed $59,296 million in 2022",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The candidate's figures for FCF and repurchase activity are supported by the document.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "none",
+      "primary_cause": "none"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "The candidate identifies the core drivers and valuation metrics correctly based on the provided documents.",
+      "drivers": [
+        {
+          "candidate_quote": "A dominant, cash-generative advertising monopoly with significant barriers to entry and a fortress balance sheet.",
+          "document": "D01_business_overview.md",
+          "document_quote": "Advertising is the primary monetization engine. ... The company maintains a durable competitive advantage through its unparalleled search scale",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The candidate accurately captures the business profile and competitive moat.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Market dislocation caused by hyperbolic concerns over AI-driven disruption and a temporary execution misstep.",
+          "document": "D05_market_concerns.md",
+          "document_quote": "The market interpretation is that an incumbent protecting a lucrative model may be less nimble than a challenger seeking share. ... We believe the market is overreacting to short-term noise and temporary execution errors",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The candidate captures the market sentiment described regarding AI disruption and temporary execution issues.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Attractive entry valuation at ~15x EV/EBIT for a business with durable, long-term growth prospects.",
+          "document": "D04_price_valuation.md",
+          "document_quote": "Dividing by FY2022 operating income produces approximately 15.0x EV/EBIT.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The valuation multiple cited is supported by the data pack.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Disciplined capital allocation and recent cost-efficiency initiatives driving margin expansion.",
+          "document": "D03_latest_results.md",
+          "document_quote": "Pichai says the company is well positioned as AI reaches an inflection point and describes a journey to “re-engineer our cost structure in a durable way”.",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The candidate correctly identifies the cost-restructuring initiative.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "none",
+      "primary_cause": "none"
+    }
+  ],
+  "semantic_leakage": []
+}

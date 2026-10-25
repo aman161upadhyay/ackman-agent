@@ -1,0 +1,156 @@
+{
+  "as_of_date": "2022-10-28",
+  "mode": "new",
+  "docs": {
+    "D01_business_overview.md": "Title: An installed processor franchise undertaking a manufacturing transformation\nSource: compiled from: https://www.intc.com/news-events/press-releases/detail/1586/intel-reports-third-quarter-2022-financial-results; https://www.sec.gov/Archives/edgar/data/50863/000005086322000038/intc-20221001.htm\nDate: 2022-10-27\n\nIntel designs and manufactures processors and related semiconductor products. Its installed position in PCs and servers, software compatibility, customer relationships and engineering resources are meaningful advantages. Those advantages do not remove the need to maintain competitive products and manufacturing processes.\n\nThe company's IDM2.0 strategy combines internal manufacturing, selected external foundry use and a business manufacturing chips for other designers. CEO Pat Gelsinger is pursuing a demanding process-development roadmap alongside new capacity. The transition is not merely closing a temporary utilization gap in an unchanged asset base.\n\nThe latest segment organization separates Client Computing, Datacenter and AI, Network and Edge, Accelerated Computing Systems and Graphics, Mobileye, and Intel Foundry Services. Prior segment data have been recast for this organization; old segment totals should not be compared without checking definitions.\n\nIn Q3, Client Computing revenue is approximatelyUS$8.1 billion, down17%; Datacenter and AI isUS$4.2 billion, down27%. Network and Edge grows14% toUS$2.3 billion. Foundry Services revenue isUS$171 million, a small operation relative to the established processor businesses.\n\nDemand is cyclical and product-specific. A weak PC replacement cycle and customer inventory reductions can depress near-term sales. Competitive server and client products can also change market share independently of the cycle. An assumed macro recovery does not establish technical leadership.\n\nManufacturing entails expensive equipment, facilities, process development and execution risk. Product delays or poor yields can undermine returns on installed assets. A merchant foundry also needs external customer trust, design support and reliable delivery; captive manufacturing scale alone does not prove it can win attractive outside business.\n\nManagement says Intel4 is moving toward high-volume manufacturing and subsequent nodes are progressing. These are current milestones and expectations, not completed future production economics. Mobileye has listed on Nasdaq during the week, providing an asset-value event but not solving the core manufacturing challenge.\n\nThe investment question is whether the installed franchise and engineering capability can finance a competitive reset on acceptable returns. Investors must distinguish a durable customer ecosystem from the less predictable profitability of each process generation and the substantial capital needed to remain relevant.\n",
+    "D02_financial_snapshot.md": "Title: Earnings remain positive while cash after investment turns negative\nSource: compiled from: https://www.intc.com/news-events/press-releases/detail/1586/intel-reports-third-quarter-2022-financial-results; https://www.sec.gov/Archives/edgar/data/50863/000005086322000038/intc-20221001.htm\nDate: 2022-10-27\n\nUS$ billions unless stated. The quarter ends October1. The release explicitly separates GAAP and adjusted figures and notes the prior-year NAND business divestiture affects comparisons.\n\n| Q3 metric | 2022 | 2021 |\n|---|---:|---:|\n| GAAP revenue | 15.3 | 19.2 |\n| Non-GAAP revenue | 15.3 | 18.1 |\n| GAAP gross margin | 42.6% | 56.0% |\n| Non-GAAP gross margin | 45.9% | 58.3% |\n| GAAP operating margin | −1.1% | 27.2% |\n| Non-GAAP operating margin | 10.8% | 31.8% |\n| GAAP diluted EPS | 0.25 | 1.67 |\n| Non-GAAP diluted EPS | 0.59 | 1.45 |\n\nThe quarter includes US$664 million restructuring charges. Removing that item does not restore prior profitability: the adjusted operating-margin decline is also substantial. Net income of approximatelyUS$1.0 billion coexists with a GAAP operating loss because below-operating items and tax effects matter.\n\nQuarterly operating cash flow is approximatelyUS$1.0 billion while dividends areUS$1.5 billion. For the first nine months, operating cash flow isUS$7.730 billion and cash additions to property/equipmentUS$19.145 billion. The simple difference is negativeUS$11.415 billion, calculated before considering asset sales, partner funding and Intel's adjustments.\n\nIntel's adjusted free-cash-flow measure is not identical to that subtraction. Capital offsets and the definition of net investment must be reconciled. Financing capacity may fund a temporary investment wave, but accounting EPS does not show cash available after all reinvestment.\n\nThe filing reports4.127 billion outstanding common shares. Cash and equivalents areUS$4.529 billion; this is not total liquidity because short-term investments also exist. No complete net-debt figure is inferred from cash alone.\n\nFull-year guidance isUS$63–64 billion revenue, GAAP EPSUS$2.00 and adjusted EPSUS$1.95. The release shows approximatelyUS$25 billion capital spending on a GAAP basis, US$21 billion after its non-GAAP adjustments, and negativeUS$2–4 billion adjusted FCF.\n\nThe financial test is whether investment produces competitive economics before liquidity or capital returns become constrained. A large existing revenue base is valuable, but it is not proof that new capacity earns its cost of capital.\n",
+    "D04_price_and_valuation.md": "Title: A five-percent dividend yield is not a cash-flow valuation\nSource: compiled from: https://query1.finance.yahoo.com/v8/finance/chart/INTC?period1=1635033600&period2=1667001600&interval=1d; https://www.intc.com/news-events/press-releases/detail/1586/intel-reports-third-quarter-2022-financial-results\nDate: 2022-10-28\n\nHistorical unadjusted October28 close isUS$29.07, up approximately10.7% fromUS$26.27 the prior session. Volume is91.70 million shares versus a calculated20-session average46.08 million. The preceding approximatelyone-year observation window recordsUS$56.28 high andUS$24.59 low.\n\nThe stock has therefore lost almost half its value from that observed high, despite the positive earnings reaction. The percentage decline measures the change in price, not whether the business has retained the same intrinsic value.\n\nUsing4.127 billion October1 shares gives approximatelyUS$119.97 billion common capitalization, calculated. Share count, price and statement dates are not identical, so this is an indicative market value rather than a precise enterprise valuation.\n\nThe quarterly dividend rate ofUS$0.365 impliesUS$1.46 annually and approximately5.0% indicated yield if maintained. The rate is not a guaranteed bond coupon. Quarterly operating cash flow is below dividends even before capital investment.\n\nAt the new full-year GAAP EPS guidanceUS$2.00, price/earnings is approximately14.5x. At adjusted EPSUS$1.95 it is14.9x. A roughly13x screen may use a trailing or different adjusted estimate; it should not be represented as the multiple on these new annual forecasts.\n\nNeither multiple captures the gap between reported earnings and cash reinvestment. Intel forecasts negativeUS$2–4 billion adjusted free cash flow despite positive EPS. A conventional earnings multiple can look low while the owner must commit more capital to preserve the franchise.\n\nA normalized valuation needs PC/server demand, competitive share, product margins, process yields, depreciation and maintenance versus expansion spending. The foundry opportunity requires its own external-customer returns and investment assumptions rather than a technology-sector multiple attached to gross planned capacity.\n\nPotential government incentives, partner funding and Mobileye value can reduce financing strain. They do not establish the operating return on Intel's share of project spending. Those offsets should be modeled explicitly and not deducted twice.\n\nNo independently verified live forward-consensus table or historical-multiple distribution is supplied. The inexpensive-looking yield and price decline are observable attractions. The unresolved issue is what sustainable distributable cash will remain after the manufacturing reset, not whether the prior share-price high can be revisited.\n",
+    "D05_market_worries.md": "Title: Cyclical weakness and technical execution are different risks\nSource: compiled from: https://www.intc.com/news-events/press-releases/detail/1586/intel-reports-third-quarter-2022-financial-results; https://www.sec.gov/Archives/edgar/data/50863/000005086322000038/intc-20221001.htm\nDate: 2022-10-27\n\nIntel revises annual revenue expectations toUS$63–64 billion as the economic environment worsens. The immediate worry is weaker customer demand, particularly PCs, combined with inventory correction. Lower factory utilization and a less favorable mix can compress gross margins sharply.\n\nThe second worry is less cyclical. Intel must deliver successive manufacturing nodes and competitive products while rivals continue to innovate. Buying at a depressed earnings multiple does not remove the need to assess product roadmaps, process yields and customer adoption.\n\nManagement announces a goal ofUS$3 billion cost reductions in2023 andUS$8–10 billion annualized reductions/efficiencies by the end of2025. These are announced targets. They should not be booked as certain incremental profit without identifying implementation expense, timing and overlap with demand weakness.\n\nThe group is adopting an internal foundry model intended to sharpen decisions and accountability. More transparent transfer economics may help reveal where value is created. Organizational redesign nevertheless cannot by itself guarantee leading process performance or profitable outside-customer volume.\n\nThe bull case has substance: scale, engineering resources, an installed software ecosystem, customer relationships and a strategically important manufacturing base. An industry recovery could improve utilization, and disciplined investment may position the business for growth. The stock's post-results rebound indicates investors see value in the reset.\n\nThe bear case is that the reset consumes substantial capital while the incumbent profit pools erode. Revenue from the existing client/server franchise may weaken before a foundry business reaches sufficient scale. An expensive plant has limited shareholder value if its technology or economics are uncompetitive.\n\nCapital partnerships and possible incentives change funding but not every economic risk. A partner's return requirement and contractual rights also matter. Government strategic interest should not be equated with protection for existing common shareholders.\n\nThe appropriate evidence would be competitive shipments, achieved yields, credible external foundry commitments and improving cash returns after investment. At this date, several of those outcomes remain prospective. The distinction is between an inexpensive cyclical incumbent and a capital-intensive technological turnaround; both descriptions may apply, and each needs a separate scenario.\n",
+    "D08_pershing_square_context.md": "Title: The published selection framework and a technology-intensive candidate\nSource: compiled from: https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf; https://www.intc.com/news-events/press-releases/detail/1586/intel-reports-third-quarter-2022-financial-results\nDate: 2022-10-28\n\nPershing Square's2014 annual report, published March2015, describes a general preference for “simple, predictable, free-cash-flow generative businesses” with sustainable advantages. It emphasizes low business volatility and the ability to assess investment outcomes with high confidence.\n\nThe report also describes long investments that “do not need access to the capital markets to survive and thrive.” This is a selection principle, not a claim that every historical position has had zero debt or no investment requirements. Permanent-capital ownership can tolerate volatility without making an unpredictable business predictable.\n\nAnother stated objective is businesses relatively immune to extrinsic factors, including commodity prices, interest rates and the economic cycle. The framework concerns drivers of enterprise value, not whether the stock price fluctuates. Attractive price alone does not satisfy the underlying cash-flow criterion.\n\nApplied analytically to Intel, current processor scale and engineering capabilities support a barrier-to-entry argument. The issue needing additional work is the durability of those barriers through changing products and manufacturing processes. The analyst must distinguish technical understanding from the ability to forecast economics with sufficiently narrow error.\n\nCurrent positive EPS and a high dividend are not evidence of self-funded distributable cash when planned investment exceeds operating cash generation. The relevant underwriting would separate normal sustaining investment from the incremental foundry build and stress both sources of funding.\n\nA governance or cost program could improve accountability, but an engaged shareholder cannot command a successful manufacturing node or control the global PC cycle. The announced cost reductions therefore address only part of the uncertainty.\n\nNo authenticated company-specific Ackman investment comment is established in the sources used for this snapshot. No exact contemporary firm AUM, cash balance or complete portfolio reconciliation is supplied; those are explicit information gaps rather than assumed buying power.\n\nThe framework is an input for independent analysis, not evidence of an actual private decision on this name. A candidate could warrant monitoring while the range of future cash outcomes remains wide. Any eventual investment would need a credible return on the required capital as well as an apparently discounted share price.\n"
+  },
+  "answer_key": {
+    "actual_decision": "PASS",
+    "reason_class": null,
+    "drivers": [
+      {
+        "driver": "Process-roadmap and competitive-reset uncertainty make long-term distributable cash difficult to bound; incumbent scale alone is insufficient.",
+        "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf (2015-03-24 investment approach)",
+        "quote": "simple, predictable, free-cash-flow generative businesses"
+      },
+      {
+        "driver": "Large manufacturing investment and negative adjusted FCF weaken the fit with self-funding long investments; low earnings multiple/dividend does not fix reinvestment economics.",
+        "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf",
+        "quote": "do not need access to the capital markets to survive and thrive"
+      },
+      {
+        "driver": "PC cyclicality and technological execution dominate outcomes beyond ordinary operating activism; pass unless a separately justified bounded special situation can be demonstrated.",
+        "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf",
+        "quote": "extrinsic factors we cannot control"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "final": {
+        "as_of_date": "2022-10-28",
+        "company": "Intel Corporation",
+        "ticker": "INTC",
+        "decision": "PASS",
+        "conviction": "low",
+        "target_size_pct_nav": 0,
+        "opportunity_template": [
+          "T2"
+        ],
+        "catalyst_role": "C0",
+        "gate1_hard_fail": true,
+        "valuation": {
+          "entry_multiple": "14.9x NTM adjusted EPS",
+          "eps_path": "Cost reductions of US$8–10 billion annualized by 2025; return to profitability post-investment [D01], [D02], [D04]",
+          "terminal_multiple": "14x",
+          "irr_pct": 15,
+          "downside_case": "Permanent loss if IDM 2.0 manufacturing nodes fail to achieve yield, rendering cost reductions insufficient to cover capital intensity and margin compression [D01], [D04]"
+        },
+        "drivers": [
+          {
+            "driver": "The company possesses installed scale in PCs and servers, software compatibility, and significant engineering resources [D01].",
+            "citations": [
+              "D01"
+            ]
+          },
+          {
+            "driver": "The IDM 2.0 strategy aims for US$8–10 billion in annualized cost reductions by 2025 to restore margin stability [D01], [D04].",
+            "citations": [
+              "D01",
+              "D04"
+            ]
+          },
+          {
+            "driver": "The current market price reflects a ~48% drawdown, indicating deep skepticism regarding the turnaround [D03].",
+            "citations": [
+              "D03"
+            ]
+          },
+          {
+            "driver": "The business is currently experiencing negative free cash flow due to heavy capital expenditure requirements for the manufacturing reset [D02], [D03].",
+            "citations": [
+              "D02",
+              "D03"
+            ]
+          }
+        ],
+        "kill_criteria": [
+          "Foundry roadmap process node milestones fail to be achieved on schedule",
+          "Management abandons the IDM 2.0 capital-intensive model",
+          "Operating margins fail to show stabilization despite cost-reduction efforts"
+        ],
+        "what_would_change_our_mind": "Clear evidence that the IDM 2.0 manufacturing roadmap is achieving competitive yields and that free cash flow generation has turned structurally positive.",
+        "memo": "Intel is a dominant force in the semiconductor industry, with critical installed scale in the server and PC markets and a deep portfolio of software compatibility and engineering talent [D01]. However, our investment standard requires simple, predictable, and free-cash-flow-generative businesses, and Intel currently fails this test due to significant negative free cash flow driven by the intense capital demands of its IDM 2.0 transformation [D02], [D03].\n\nThe opportunity exists because the market is heavily discounting the company’s valuation, with the stock trading down approximately 48% from its highs [D03]. The market assumes that the current margin compression and cash burn are permanent, while we believe the potential for US$8–10 billion in annualized cost savings by 2025 could theoretically stabilize the business [D01], [D04].\n\nAt a 14.9x NTM adjusted P/E, the valuation appears superficially attractive [D03]. However, the earnings path is highly dependent on achieving complex manufacturing milestones and normalizing demand in cyclical PC and server segments [D01], [D04]. We project a base-case IRR of 15%, but the margin of safety is constrained by the execution risk of the foundry roadmap [D03].\n\nWe pass on this investment today. While the company is large and liquid, it does not meet our core criteria for capital-light, predictable cash generation [D03]. We will continue to monitor the progress of the IDM 2.0 strategy, particularly the success of cost-reduction initiatives and the validation of manufacturing node yields, to determine if the business reaches a point of operational stability that fits our quality-compounder mandate [D01], [D04].",
+        "uncited_claims": []
+      }
+    },
+    {
+      "anonymous_id": "C2",
+      "final": {
+        "as_of_date": "2022-10-28",
+        "company": "Intel Corporation",
+        "ticker": "INTC",
+        "decision": "PASS",
+        "conviction": "medium",
+        "target_size_pct_nav": 0,
+        "opportunity_template": [
+          "NONE"
+        ],
+        "catalyst_role": "C0",
+        "gate1_hard_fail": true,
+        "valuation": {
+          "entry_multiple": "14.9x 2022 adjusted EPS [D03]",
+          "eps_path": "Highly uncertain due to manufacturing transformation and cyclicality [D01, D04]",
+          "terminal_multiple": "12x",
+          "irr_pct": 0,
+          "downside_case": "Significant risk of permanent capital impairment if IDM 2.0 fails to deliver competitive process nodes while capex erodes the balance sheet [D01, D03]"
+        },
+        "drivers": [
+          {
+            "driver": "The business fails our requirement for simple, predictable, and free-cash-flow-generative economics due to negative FCF and high capex intensity [D02, D03].",
+            "citations": [
+              "D02",
+              "D03"
+            ]
+          },
+          {
+            "driver": "Intel is highly sensitive to cyclical PC demand and inventory corrections, representing extrinsic factors we cannot control [D01, D04].",
+            "citations": [
+              "D01",
+              "D04"
+            ]
+          },
+          {
+            "driver": "The IDM 2.0 manufacturing transformation introduces massive execution risk and capital reinvestment requirements [D01, D03, D04].",
+            "citations": [
+              "D01",
+              "D03",
+              "D04"
+            ]
+          },
+          {
+            "driver": "We lack an identifiable edge because the business is undergoing a complex turnaround without a demonstrated return to positive free cash flow [D02, D03].",
+            "citations": [
+              "D02",
+              "D03"
+            ]
+          }
+        ],
+        "kill_criteria": [
+          "Failure to achieve positive free cash flow within the next four quarters.",
+          "Significant loss of market share in the Datacenter segment to competitors.",
+          "Abandonment or material delay of the IDM 2.0 manufacturing roadmap.",
+          "Need for material external financing or debt issuance to fund operational cash needs."
+        ],
+        "what_would_change_our_mind": "A demonstrated return to consistent, positive free cash flow generation and successful, de-risked execution of the IDM 2.0 manufacturing roadmap.",
+        "memo": "Intel is a major incumbent in the PC and server processor markets, benefiting from a deeply embedded ecosystem and historical software compatibility [D01, D04]. While the business historically maintained a dominant position, it currently requires a massive, high-capex manufacturing transformation under the IDM 2.0 strategy to remain competitive [D01, D04]. This fundamental shift moves the company away from our standard of simple, predictable, and free-cash-flow-generative business models [D02, D03].\n\nThe opportunity exists because the market has punished the stock with a 48% drawdown, pricing the company at approximately 14.5x–14.9x 2022 adjusted EPS [D03]. However, the market’s concern regarding the sustainability of cash flows is well-founded given that the company is forecasting negative free cash flow of US$2–4 billion for 2022 [D02, D03]. We do not believe the market is wrong; rather, the current valuation reflects the reality of a capital-intensive turnaround fraught with cyclical and execution risks [D01, D03, D04].\n\nOur valuation analysis is hampered by the lack of a reliable long-term FCF path, as the company’s capital-intensive nature makes it a lower-quality, cyclical tier asset [D01, D02]. We assign a terminal multiple of 12x, which reflects these persistent risks and the uncertainty of process node delivery [D03]. Because the business does not meet our requirement for high-quality, cash-generative growth, we cannot establish an attractive risk-adjusted IRR [D02, D03].\n\nWe do not believe an active catalyst is appropriate or that we should intervene in this transformation [D04]. The path to value creation relies entirely on management successfully executing the IDM 2.0 roadmap and realizing cost reduction targets of US$8–10 billion by 2025 without further balance sheet degradation [D01, D04]. We require the company to prove its ability to generate free cash flow independently before considering an investment [D02, D03].\n\nThe primary risk is that the massive capital requirements fail to produce competitive process nodes, leading to permanent capital impairment [D01, D03]. We cannot look past the current negative FCF or the high sensitivity to cyclical PC demand [D01, D02, D04]. Our conviction remains low on the ability of the firm to navigate this period without significant operational or financial setbacks [D01, D04].\n\nWe have decided to PASS. Given our strict focus on high-quality compounders, this investment does not fit our portfolio criteria [Rule 4, Rule 5]. We will continue to monitor the semiconductor landscape, but Intel’s current state of cash-burning transformation precludes a position [D02, D03].",
+        "uncited_claims": []
+      }
+    }
+  ]
+}

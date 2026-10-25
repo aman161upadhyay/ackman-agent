@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate captures the core exit logic (loss of forecastability and shift in business model) but does not mirror the specific phrasing or internal philosophy cited in the gold drivers. The evidence in the documents sufficiently covers the difficulty in forecasting the new initiatives and the requirement for concentrated positions.",
+  "cause_evidence": "The candidate correctly identifies the loss of forecastability and the shift in business model drivers but omits explicit references to the specific principles of operating leverage and prompt action upon contradictory evidence mentioned in the gold drivers.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Subscriber-growth changes have an outsized effect on intrinsic value because of operating leverage.",
+      "index": 1,
+      "reason": "The candidate does not explicitly link subscriber-growth changes to intrinsic value via operating leverage. It mentions that subscriber growth has changed, reducing predictability [L19], but does not state the impact on intrinsic value.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "we can no longer do so here until these new monetization models are tested and the subscriber churn stabilizes",
+      "document": "D03_latest_results.md",
+      "document_quote": "Neither advertising economics nor conversion/churn from account enforcement is quantified. A forecast now needs explicit assumptions for both initiatives, not simply a new subscriber count.",
+      "evidence_supported": true,
+      "gold_driver": "Advertising and account-sharing changes may be sensible but are difficult to forecast.",
+      "index": 2,
+      "reason": "The candidate acknowledges the need for testing new models due to uncertainty [L19], and the provided document confirms that these initiatives lack quantified economics, making them difficult to forecast [L35].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We do not hold positions when the business model or its drivers have changed to the extent that we can no longer forecast with confidence",
+      "document": "D05_market_concerns.md",
+      "document_quote": "The immediate underwriting question is whether its long-run revenue, margins and cash needs can still be estimated tightly enough for a concentrated position.",
+      "evidence_supported": true,
+      "gold_driver": "The business no longer meets the predictability requirement for a concentrated core holding.",
+      "index": 3,
+      "reason": "The candidate explicitly states it cannot hold positions without forecasting confidence [L19], and the document supports the standard that concentrated positions require tight estimation [L37].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Act promptly when new evidence contradicts the original thesis.",
+      "index": 4,
+      "reason": "The candidate states it is exiting the position because it can no longer forecast with confidence [L19], but it does not cite or reference a policy regarding acting promptly upon discovering contradictory information.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate fails to address the specific mechanism of operating leverage regarding intrinsic value and omits the stated philosophy of acting promptly to resolve investment inconsistencies.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

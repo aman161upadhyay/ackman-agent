@@ -1,0 +1,6 @@
+{
+  "fix": "Include the Chinese-VIE prohibition from AGENT.md in the staged system and gate1 prompts.",
+  "primary_cause": "i rule missing/ambiguous",
+  "rationale": "The staged system and gate1 prompts failed to propagate the Chinese-VIE prohibition defined in AGENT.md to the actual runtime [L1-L2].",
+  "run": "ctl_2021_baba_pass__current__masked"
+}

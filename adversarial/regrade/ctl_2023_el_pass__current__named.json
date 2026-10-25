@@ -1,0 +1,60 @@
+{
+  "audit_notes": "The candidate performed well at identifying structural risks (governance, channel volatility) but the documentation of those drivers lacks direct citation of the specific source material provided in the gold drivers (the Pershing Square documents).",
+  "cause_evidence": "The candidate correctly identifies operational and governance risks but fails to align its justification with the specific historical strategy of the source entity (Pershing Square), relying instead on its own internal criteria.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Channel inventory, China travel retail and a failed near-term recovery assumption leave an insufficiently narrow cash-flow range for a concentrated position.",
+      "index": 1,
+      "reason": "The candidate memo discusses Asia travel-retail volatility and channel inventory but does not link these explicitly to the specific investment strategy of requiring an 'insufficiently narrow cash-flow range for a concentrated position' as the primary decision driver.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "The market remains deeply conflicted about whether these headwinds are merely cyclical or indicative of a more persistent, structural challenge to the company's prior growth algorithm [D01, D03].",
+      "document": "D01_business_overview.md",
+      "document_quote": "The investment question is whether temporary channel disruption is obscuring durable brand economics or whether the changed geographic/channel mix requires a lower normalized earnings base.",
+      "evidence_supported": true,
+      "gold_driver": "Valuable brands are necessary positive evidence, not sufficient owner-cash proof; near61x reduced adjusted EPS requires a substantial, unverified normalization. Require predictable cash after investment rather than anchor to the old share price.",
+      "index": 2,
+      "reason": "The candidate captures the essence of the normalization requirement and the insufficiency of the brand moat alone.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Our ability to drive value is fundamentally constrained by the company’s dual-class share structure, which provides controlling family influence and prevents the operational engagement we typically seek to unlock shareholder value [D01, D04].",
+      "document": "D01_business_overview.md",
+      "document_quote": "The company has class-A and class-B stock with unequal voting rights and a controlling family influence. An outside shareholder should examine what operational or governance changes it can realistically influence, rather than assume an unrestricted activist path.",
+      "evidence_supported": true,
+      "gold_driver": "Recovery depends on travel/channel conditions beyond shareholder control; family voting control also limits an assumed activist remedy. Neither is itself a blanket category exclusion.",
+      "index": 3,
+      "reason": "The candidate correctly identifies the family voting control as a limit on activist-led value creation.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate memo correctly identifies the operational and governance risks to the business but uses its own internal logic rather than the gold standard's specific investment constraints.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

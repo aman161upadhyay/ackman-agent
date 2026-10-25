@@ -1,0 +1,8 @@
+The provided content indicates the following regarding your queries:
+
+*   **Categorical Chinese VIE Exclusion:** The "Agent pass rules" explicitly list "Chinese VIEs" as a category to "say no fast" [L2]. However, the "staged_gate1" criteria do not include this specific categorical exclusion [L3].
+*   **Alibaba False BUY:** The provided content does not define "masked Alibaba false BUY" or contain records of specific system outputs. Therefore, it is impossible to determine whether such an outcome stems from a refusal to follow rules or an implementation/spec propagation gap based solely on the provided text.
+*   **Narrow Exceptions:**
+    *   **GGP:** Identified as a special-situation override (a) for distressed real estate/solvent-but-illiquid estates [L3].
+    *   **Hertz:** Identified as a special-situation override (b) for a levered turnaround in a concentrated industry with a new, proven management team [L3].
+    *   **Valeant:** The provided content does not mention Valeant.

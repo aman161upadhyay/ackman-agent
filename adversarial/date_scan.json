@@ -1,0 +1,1016 @@
+{
+  "pack_count": 47,
+  "doc_count": 364,
+  "packs": [
+    {
+      "pack": "2005_mcd_buy",
+      "as_of_date": "2005-09-30"
+    },
+    {
+      "pack": "2007_tgt_buy",
+      "as_of_date": "2007-04-20"
+    },
+    {
+      "pack": "2008_ggp_buy",
+      "as_of_date": "2008-11-14"
+    },
+    {
+      "pack": "2010_jcp_buy",
+      "as_of_date": "2010-09-24"
+    },
+    {
+      "pack": "2011_cp_buy",
+      "as_of_date": "2011-09-23"
+    },
+    {
+      "pack": "2012_hlf_short",
+      "as_of_date": "2012-12-18"
+    },
+    {
+      "pack": "2013_apd_buy",
+      "as_of_date": "2013-07-15"
+    },
+    {
+      "pack": "2013_fnma_buy",
+      "as_of_date": "2013-10-31"
+    },
+    {
+      "pack": "2015_vrx_buy",
+      "as_of_date": "2015-02-27"
+    },
+    {
+      "pack": "2016_cmg_buy",
+      "as_of_date": "2016-09-06"
+    },
+    {
+      "pack": "2018_hlt_buy",
+      "as_of_date": "2018-10-15"
+    },
+    {
+      "pack": "2018_low_buy",
+      "as_of_date": "2018-04-02"
+    },
+    {
+      "pack": "2020_brk_sell",
+      "as_of_date": "2020-05-26"
+    },
+    {
+      "pack": "2020_cds_hedge",
+      "as_of_date": "2020-02-24"
+    },
+    {
+      "pack": "2020_sbux_sell",
+      "as_of_date": "2020-01-15"
+    },
+    {
+      "pack": "2021_umg_buy",
+      "as_of_date": "2021-06-03"
+    },
+    {
+      "pack": "2022_nflx_buy",
+      "as_of_date": "2022-01-24"
+    },
+    {
+      "pack": "2022_nflx_sell",
+      "as_of_date": "2022-04-20"
+    },
+    {
+      "pack": "2023_googl_buy",
+      "as_of_date": "2023-02-10"
+    },
+    {
+      "pack": "2023_tsy_short",
+      "as_of_date": "2023-08-02"
+    },
+    {
+      "pack": "2024_bn_buy",
+      "as_of_date": "2024-04-10"
+    },
+    {
+      "pack": "2024_htz_buy",
+      "as_of_date": "2024-11-12"
+    },
+    {
+      "pack": "2024_nke_buy_a",
+      "as_of_date": "2024-05-14"
+    },
+    {
+      "pack": "2024_nke_buy_b",
+      "as_of_date": "2024-06-28"
+    },
+    {
+      "pack": "2025_amzn_buy",
+      "as_of_date": "2025-04-07"
+    },
+    {
+      "pack": "2025_cmg_sell",
+      "as_of_date": "2025-11-03"
+    },
+    {
+      "pack": "2025_cp_sell",
+      "as_of_date": "2025-03-17"
+    },
+    {
+      "pack": "2025_fnma_fmcc_2025",
+      "as_of_date": "2025-01-15"
+    },
+    {
+      "pack": "2025_hhh_control",
+      "as_of_date": "2025-01-10"
+    },
+    {
+      "pack": "2025_meta_buy",
+      "as_of_date": "2025-11-03"
+    },
+    {
+      "pack": "2025_nke_sell",
+      "as_of_date": "2025-11-03"
+    },
+    {
+      "pack": "2025_uber_buy",
+      "as_of_date": "2025-01-06"
+    },
+    {
+      "pack": "2026_alc_buy",
+      "as_of_date": "2026-06-30"
+    },
+    {
+      "pack": "2026_hlt_sell",
+      "as_of_date": "2026-01-15"
+    },
+    {
+      "pack": "2026_ice_buy",
+      "as_of_date": "2026-06-30"
+    },
+    {
+      "pack": "2026_msft_buy",
+      "as_of_date": "2026-01-30"
+    },
+    {
+      "pack": "2026_nflx_buy_2",
+      "as_of_date": "2026-04-20"
+    },
+    {
+      "pack": "2026_spgi_buy",
+      "as_of_date": "2026-03-31"
+    },
+    {
+      "pack": "2026_v_ma_buy",
+      "as_of_date": "2026-03-31"
+    },
+    {
+      "pack": "ctl_2019_ba_pass",
+      "as_of_date": "2019-03-15"
+    },
+    {
+      "pack": "ctl_2020_xom_pass",
+      "as_of_date": "2020-10-30"
+    },
+    {
+      "pack": "ctl_2021_baba_pass",
+      "as_of_date": "2021-07-30"
+    },
+    {
+      "pack": "ctl_2022_cvna_pass",
+      "as_of_date": "2022-06-15"
+    },
+    {
+      "pack": "ctl_2022_dis_pass",
+      "as_of_date": "2022-11-11"
+    },
+    {
+      "pack": "ctl_2022_intc_pass",
+      "as_of_date": "2022-10-28"
+    },
+    {
+      "pack": "ctl_2023_el_pass",
+      "as_of_date": "2023-05-05"
+    },
+    {
+      "pack": "ctl_2023_pfe_pass",
+      "as_of_date": "2023-10-16"
+    }
+  ],
+  "hits": [
+    {
+      "pack": "2008_ggp_buy",
+      "file": "calibration/data_packs/2008_ggp_buy/docs/D03_latest_results_and_guidance.md",
+      "line": 11,
+      "cutoff": "2008-11-14",
+      "date": "2009-01-01",
+      "format": "year",
+      "token": "2009",
+      "context": "The residential condominium project Nouvelle at Natick incurred US$40.3 million impairment. Reported consolidated land-sale revenue fell to US$6.2 million from US$54.2 million. Management expects the reduced sales pace to continue into 2009. This development segment is not a dependable source of rapid debt repayment."
+    },
+    {
+      "pack": "2008_ggp_buy",
+      "file": "calibration/data_packs/2008_ggp_buy/docs/D05_market_worries.md",
+      "line": 7,
+      "cutoff": "2008-11-14",
+      "date": "2009-01-01",
+      "format": "year",
+      "token": "2009",
+      "context": "The Arizona Daily Star's November 13 account quotes the company's warning: “Our potential inability to address our 2008 and 2009 debt maturities in a satisfactory fashion raises substantial doubts as to our ability to continue as a going concern.” The report identifies another US$3.07 billion of property/corporate debt due in 2009 on the consolidated basis. It quotes Citigroup analyst Michael Bilerman: “There is no quick fix in the current capital-constrained environment.”"
+    },
+    {
+      "pack": "2008_ggp_buy",
+      "file": "calibration/data_packs/2008_ggp_buy/docs/D05_market_worries.md",
+      "line": 7,
+      "cutoff": "2008-11-14",
+      "date": "2009-01-01",
+      "format": "year",
+      "token": "2009",
+      "context": "The Arizona Daily Star's November 13 account quotes the company's warning: “Our potential inability to address our 2008 and 2009 debt maturities in a satisfactory fashion raises substantial doubts as to our ability to continue as a going concern.” The report identifies another US$3.07 billion of property/corporate debt due in 2009 on the consolidated basis. It quotes Citigroup analyst Michael Bilerman: “There is no quick fix in the current capital-constrained environment.”"
+    },
+    {
+      "pack": "2008_ggp_buy",
+      "file": "calibration/data_packs/2008_ggp_buy/docs/D09_reorganization_and_asset_coverage.md",
+      "line": 11,
+      "cutoff": "2008-11-14",
+      "date": "2009-01-01",
+      "format": "year",
+      "token": "2009",
+      "context": "GGP's September 30 maturity schedule shows US$1.207364 billion due in the remainder of 2008 and US$3.318788 billion in 2009 on a portfolio basis including JV share. Consolidated-only amounts are US$1.130131 billion and US$3.066477 billion. By November 5 some 2008 debt has been addressed, leaving approximately US$958 million by December 1. The changing dates and scope explain different headlines; they should not be combined into an invented single figure."
+    },
+    {
+      "pack": "2012_hlf_short",
+      "file": "calibration/data_packs/2012_hlf_short/docs/D03_latest_results_and_guidance.md",
+      "line": 1,
+      "cutoff": "2012-12-18",
+      "date": "2013-01-01",
+      "format": "year",
+      "token": "2013",
+      "context": "Title: All regions grow; 2013 outlook assumes continued distributor expansion"
+    },
+    {
+      "pack": "2012_hlf_short",
+      "file": "calibration/data_packs/2012_hlf_short/docs/D03_latest_results_and_guidance.md",
+      "line": 22,
+      "cutoff": "2012-12-18",
+      "date": "2013-01-01",
+      "format": "year",
+      "token": "2013",
+      "context": "Initial 2013 guidance is EPS US$4.40–US$4.55, volume growth 8.5–10.5%, net-sales growth 10–12% and capex US$165–US$185 million. It assumes a Venezuelan currency rate of 10:1 rather than the prior 5.3:1 for ongoing operations, while excluding potential one-time devaluation or cash-repatriation effects."
+    },
+    {
+      "pack": "2012_hlf_short",
+      "file": "calibration/data_packs/2012_hlf_short/docs/D07_recent_event_timeline.md",
+      "line": 15,
+      "cutoff": "2012-12-18",
+      "date": "2013-01-01",
+      "format": "year",
+      "token": "2013",
+      "context": "**October 29 — next-year guidance introduced.** Management projects US$4.40–US$4.55 2013 EPS and 10–12% sales growth, explicitly incorporating a changed Venezuelan currency assumption while excluding specified one-time effects."
+    },
+    {
+      "pack": "2015_vrx_buy",
+      "file": "calibration/data_packs/2015_vrx_buy/docs/D03_latest_results_and_guidance.md",
+      "line": 13,
+      "cutoff": "2015-02-27",
+      "date": "2016-01-01",
+      "format": "year",
+      "token": "2016",
+      "context": "The Salix call projects roughly 5.6x net debt/pro-forma adjusted EBITDA immediately after the transaction, partly because reducing Salix wholesaler inventory depresses near-term EBITDA. Management targets below 4x by the second half of 2016 and forecasts over US$7.5 billion pro-forma EBITDA and US$4 billion free cash flow in 2016 before mandatory repayments."
+    },
+    {
+      "pack": "2015_vrx_buy",
+      "file": "calibration/data_packs/2015_vrx_buy/docs/D03_latest_results_and_guidance.md",
+      "line": 13,
+      "cutoff": "2015-02-27",
+      "date": "2016-01-01",
+      "format": "year",
+      "token": "2016",
+      "context": "The Salix call projects roughly 5.6x net debt/pro-forma adjusted EBITDA immediately after the transaction, partly because reducing Salix wholesaler inventory depresses near-term EBITDA. Management targets below 4x by the second half of 2016 and forecasts over US$7.5 billion pro-forma EBITDA and US$4 billion free cash flow in 2016 before mandatory repayments."
+    },
+    {
+      "pack": "2015_vrx_buy",
+      "file": "calibration/data_packs/2015_vrx_buy/docs/D07_recent_event_timeline.md",
+      "line": 11,
+      "cutoff": "2015-02-27",
+      "date": "2016-01-01",
+      "format": "year",
+      "token": "2016",
+      "context": "**February 22 — Salix agreement.** Boards approve US$158 per share in cash, approximately US$14.5 billion enterprise value. The announcement says bank financing is fully committed and closing is expected in Q2 subject to customary conditions and tender requirements. It projects over US$500 million annual run-rate cost synergies within six months and over 20% Cash EPS accretion in 2016. Inventory reduction means only modest 2015 accretion."
+    },
+    {
+      "pack": "2016_cmg_buy",
+      "file": "calibration/data_packs/2016_cmg_buy/docs/D08_pershing_context.md",
+      "line": 2,
+      "cutoff": "2016-09-06",
+      "date": "2022-01-01",
+      "format": "year",
+      "token": "2022",
+      "context": "Source: compiled from: https://assets.pershingsquareholdings.com/2022/10/07155000/2016-Interim-Financial-Statement-Letter-Only.pdf; https://www.sec.gov/Archives/edgar/data/1058090/000105809016000078/cmg-20160630xex99_1.htm"
+    },
+    {
+      "pack": "2016_cmg_buy",
+      "file": "calibration/data_packs/2016_cmg_buy/docs/D08_pershing_context.md",
+      "line": 5,
+      "cutoff": "2016-09-06",
+      "date": "2022-01-01",
+      "format": "year",
+      "token": "2022",
+      "context": "The first source is an archival copy of the 2016 interim manager letter, with performance through August 23, not a new 2022 operating account. Its historical date governs the information boundary. The letter describes a difficult performance period: PSH net return was negative 21.1% through June and negative 15.5% through August 23, following a negative 20.5% 2015."
+    },
+    {
+      "pack": "2018_hlt_buy",
+      "file": "calibration/data_packs/2018_hlt_buy/docs/D04_price_valuation.md",
+      "line": 11,
+      "cutoff": "2018-10-15",
+      "date": "2019-01-01",
+      "format": "year",
+      "token": "2019",
+      "context": "The result shows why a broad claim of “about 20x forward earnings” requires a specified future earnings year and a documented forecast. No independently verified 2019 consensus EPS or forward multiple was recovered by the cutoff. The pack does not equate a later entry presentation's forward P/E with the company's contemporaneous 2018 guidance."
+    },
+    {
+      "pack": "2018_hlt_buy",
+      "file": "calibration/data_packs/2018_hlt_buy/docs/D05_market_concerns.md",
+      "line": 9,
+      "cutoff": "2018-10-15",
+      "date": "2019-01-01",
+      "format": "year",
+      "token": "2019",
+      "context": "The October 9 Baird/STR stock-index report says investor expectations had become better aligned after second-quarter results and attention was shifting to 2019. Baird's Michael Bellisario points to continued modest RevPAR growth and stronger economic data. STR's Amanda Hite notes hurricane-affected comparisons but a forecast of further growth through 2019."
+    },
+    {
+      "pack": "2018_hlt_buy",
+      "file": "calibration/data_packs/2018_hlt_buy/docs/D05_market_concerns.md",
+      "line": 9,
+      "cutoff": "2018-10-15",
+      "date": "2019-01-01",
+      "format": "year",
+      "token": "2019",
+      "context": "The October 9 Baird/STR stock-index report says investor expectations had become better aligned after second-quarter results and attention was shifting to 2019. Baird's Michael Bellisario points to continued modest RevPAR growth and stronger economic data. STR's Amanda Hite notes hurricane-affected comparisons but a forecast of further growth through 2019."
+    },
+    {
+      "pack": "2018_hlt_buy",
+      "file": "calibration/data_packs/2018_hlt_buy/docs/D07_pershing_context.md",
+      "line": 2,
+      "cutoff": "2018-10-15",
+      "date": "2022-01-01",
+      "format": "year",
+      "token": "2022",
+      "context": "Source: compiled from: https://assets.pershingsquareholdings.com/media/2014/09/02164905/Performance-Report-June-2018-PSH.pdf; https://assets.pershingsquareholdings.com/2022/10/07155009/2018-Interim-Financial-Statement-Letter-Only.pdf"
+    },
+    {
+      "pack": "2020_sbux_sell",
+      "file": "calibration/data_packs/2020_sbux_sell/docs/D00_original_thesis.md",
+      "line": 2,
+      "cutoff": "2020-01-15",
+      "date": "2022-01-01",
+      "format": "year",
+      "token": "2022",
+      "context": "Source: https://assets.pershingsquareholdings.com/2022/10/07150943/2018-Annual-Report-Letter-Only.pdf"
+    },
+    {
+      "pack": "2020_sbux_sell",
+      "file": "calibration/data_packs/2020_sbux_sell/docs/D01_business_overview.md",
+      "line": 2,
+      "cutoff": "2020-01-15",
+      "date": "2022-01-01",
+      "format": "year",
+      "token": "2022",
+      "context": "Source: compiled from: https://www.sec.gov/Archives/edgar/data/829224/000082922419000047/sbux-9292019xexhibit991.htm; https://assets.pershingsquareholdings.com/2022/10/07150943/2018-Annual-Report-Letter-Only.pdf"
+    },
+    {
+      "pack": "2020_sbux_sell",
+      "file": "calibration/data_packs/2020_sbux_sell/docs/D03_latest_results.md",
+      "line": 5,
+      "cutoff": "2020-01-15",
+      "date": "2020-01-28",
+      "format": "month day year",
+      "token": "January 28, 2020",
+      "context": "Starbucks' latest available earnings release is the October 30 report for the fiscal quarter/year ended September 29. The January 28, 2020 release is outside the cutoff even though its fiscal quarter ended in December."
+    },
+    {
+      "pack": "2020_sbux_sell",
+      "file": "calibration/data_packs/2020_sbux_sell/docs/D04_price_valuation.md",
+      "line": 2,
+      "cutoff": "2020-01-15",
+      "date": "2022-01-01",
+      "format": "year",
+      "token": "2022",
+      "context": "Source: compiled from: https://fiscal.ai/company/NASDAQ_SBUX/; https://www.sec.gov/Archives/edgar/data/829224/000082922419000047/sbux-9292019xexhibit991.htm; https://assets.pershingsquareholdings.com/2022/10/07150943/2018-Annual-Report-Letter-Only.pdf"
+    },
+    {
+      "pack": "2020_sbux_sell",
+      "file": "calibration/data_packs/2020_sbux_sell/docs/D06_thesis_changes.md",
+      "line": 2,
+      "cutoff": "2020-01-15",
+      "date": "2022-01-01",
+      "format": "year",
+      "token": "2022",
+      "context": "Source: compiled from: https://assets.pershingsquareholdings.com/2022/10/07150943/2018-Annual-Report-Letter-Only.pdf; https://www.sec.gov/Archives/edgar/data/829224/000082922419000047/sbux-9292019xexhibit991.htm; https://fiscal.ai/company/NASDAQ_SBUX/"
+    },
+    {
+      "pack": "2020_sbux_sell",
+      "file": "calibration/data_packs/2020_sbux_sell/docs/D07_pershing_context.md",
+      "line": 2,
+      "cutoff": "2020-01-15",
+      "date": "2022-01-01",
+      "format": "year",
+      "token": "2022",
+      "context": "Source: compiled from: https://assets.pershingsquareholdings.com/2019/08/20165951/PSH-2019-Interim-Financial-Statements1.pdf; https://assets.pershingsquareholdings.com/2022/10/07150943/2018-Annual-Report-Letter-Only.pdf"
+    },
+    {
+      "pack": "2023_googl_buy",
+      "file": "calibration/data_packs/2023_googl_buy/docs/D06_peer_benchmarks.md",
+      "line": 2,
+      "cutoff": "2023-02-10",
+      "date": "2023-04-01",
+      "format": "year-quarter",
+      "token": "2023-Q2",
+      "context": "Source: compiled from: https://www.microsoft.com/en-us/Investor/earnings/FY-2023-Q2/press-release-webcast; https://investor.atmeta.com/investor-news/press-release-details/2023/Meta-Reports-Fourth-Quarter-and-Full-Year-2022-Results/default.aspx; https://www.sec.gov/Archives/edgar/data/1652044/000165204423000013/googexhibit991q42022.htm"
+    },
+    {
+      "pack": "2024_bn_buy",
+      "file": "calibration/data_packs/2024_bn_buy/docs/D04_price_valuation.md",
+      "line": 15,
+      "cutoff": "2024-04-10",
+      "date": "2028-01-01",
+      "format": "year",
+      "token": "2028",
+      "context": "Investor day targeted $163 plan value by 2028, implying 17% annual compounding from $74. That is a plan, not a guaranteed stock return. Matching forward consensus DE, peer multiples, historical valuation range and S&P forward P/E were not recovered."
+    },
+    {
+      "pack": "2024_bn_buy",
+      "file": "calibration/data_packs/2024_bn_buy/docs/D07_event_timeline.md",
+      "line": 11,
+      "cutoff": "2024-04-10",
+      "date": "2028-01-01",
+      "format": "year",
+      "token": "2028",
+      "context": "September 2023: investor day set out $74 per-share plan value and a $163 target by 2028. Asset management, insurance and reinvestment were major growth levers. Public asset values and management-valued private assets require different confidence levels; the five-year objective is a management scenario."
+    },
+    {
+      "pack": "2024_htz_buy",
+      "file": "calibration/data_packs/2024_htz_buy/docs/D03_latest_results.md",
+      "line": 13,
+      "cutoff": "2024-11-12",
+      "date": "2025-01-01",
+      "format": "year",
+      "token": "2025",
+      "context": "Monthly depreciation per unit was $537. Management expects to substantially complete fleet rotation by the end of 2025, when DPU “could normalize to under $300.” That is a forward operating objective and an important sensitivity, not guidance that all other costs remain unchanged or a guarantee of restored profitability."
+    },
+    {
+      "pack": "2024_htz_buy",
+      "file": "calibration/data_packs/2024_htz_buy/docs/D03_latest_results.md",
+      "line": 19,
+      "cutoff": "2024-11-12",
+      "date": "2025-01-01",
+      "format": "year",
+      "token": "2025",
+      "context": "The release describes the overall transformation as ongoing and expected substantially complete by end-2025. The near-term investment question is therefore whether liquidity and financing access bridge a lengthy operational repair, with vehicle sale proceeds and replacement purchase economics both uncertain. A low nominal share price does not remove that financing dependence."
+    },
+    {
+      "pack": "2024_htz_buy",
+      "file": "calibration/data_packs/2024_htz_buy/docs/D07_event_timeline.md",
+      "line": 11,
+      "cutoff": "2024-11-12",
+      "date": "2029-01-01",
+      "format": "year",
+      "token": "2029",
+      "context": "June 21–28, 2024: Hertz priced and completed $1 billion of financing: $750 million first-lien senior secured notes at 12.625%, and $250 million exchangeable second-lien secured PIK notes at 8.000%, both due 2029. The financing adds liquidity but also expensive claims ahead of common equity and potential dilution."
+    },
+    {
+      "pack": "2024_htz_buy",
+      "file": "calibration/data_packs/2024_htz_buy/docs/D07_event_timeline.md",
+      "line": 17,
+      "cutoff": "2024-11-12",
+      "date": "2025-01-01",
+      "format": "year",
+      "token": "2025",
+      "context": "November 12, 2024: Q3 results reported $1.6 billion corporate liquidity, a $1 billion impairment and negative $157 million adjusted Corporate EBITDA. Management targeted substantial completion of fleet rotation and the operational transformation by end-2025."
+    },
+    {
+      "pack": "2024_htz_buy",
+      "file": "calibration/data_packs/2024_htz_buy/docs/D08_pershing_context.md",
+      "line": 2,
+      "cutoff": "2024-11-12",
+      "date": "2025-01-01",
+      "format": "year",
+      "token": "2025",
+      "context": "Source: compiled from: https://assets.pershingsquareholdings.com/wp-content/uploads/2025/02/07152731/Performance-Report-September-2024-PSH.pdf; https://13f.info/13f/000117266124003511-pershing-square-capital-management-l-p-q2-2024; https://assets.pershingsquareholdings.com/2024/03/22201541/Pershing-Square-Holdings-Ltd.-2023-Annual-Report.pdf"
+    },
+    {
+      "pack": "2024_nke_buy_a",
+      "file": "calibration/data_packs/2024_nke_buy_a/docs/D03_latest_results.md",
+      "line": 15,
+      "cutoff": "2024-05-14",
+      "date": "2025-01-01",
+      "format": "year",
+      "token": "2025",
+      "context": "Reuters's March 21 article, updated March 22, reports management expecting first-half fiscal 2025 revenue to shrink by a low-single-digit percentage as it cuts back on established product franchises. This is the important forward warning available before May 14. It should not be replaced with a more severe forecast from a later earnings cycle."
+    },
+    {
+      "pack": "2024_nke_buy_a",
+      "file": "calibration/data_packs/2024_nke_buy_a/docs/D05_market_worries.md",
+      "line": 7,
+      "cutoff": "2024-05-14",
+      "date": "2025-01-01",
+      "format": "year",
+      "token": "2025",
+      "context": "Reuters on March 22 reported an approximately 8% share decline after Nike said first-half fiscal 2025 sales would fall as it replaced older styles with newer sneakers. The market concern is a transition gap: cutting established products can protect longer-term brand health while immediately reducing sales and operating leverage."
+    },
+    {
+      "pack": "2024_nke_buy_a",
+      "file": "calibration/data_packs/2024_nke_buy_a/docs/D07_event_timeline.md",
+      "line": 13,
+      "cutoff": "2024-05-14",
+      "date": "2025-01-01",
+      "format": "year",
+      "token": "2025",
+      "context": "March 21–22, 2024: management's expected low-single-digit first-half fiscal 2025 sales decline became public. Reuters connected the warning to reducing older product franchises and introducing newer styles. Shares fell approximately 8% on March 22."
+    },
+    {
+      "pack": "2024_nke_buy_b",
+      "file": "calibration/data_packs/2024_nke_buy_b/docs/D02_financial_snapshot.md",
+      "line": 5,
+      "cutoff": "2024-06-28",
+      "date": "2024-07-01",
+      "format": "month year",
+      "token": "July 2024",
+      "context": "Nike's fiscal year ends May 31. Figures below are the fiscal years publicly reported by June 28; no July 2024 annual report is used."
+    },
+    {
+      "pack": "2024_nke_buy_b",
+      "file": "calibration/data_packs/2024_nke_buy_b/docs/D03_latest_results.md",
+      "line": 15,
+      "cutoff": "2024-06-28",
+      "date": "2025-01-01",
+      "format": "year",
+      "token": "2025",
+      "context": "CNBC's June 28 report, carried by NBC News, says Nike now expects fiscal 2025 sales down mid-single digits, compared with analyst expectations of a 0.9% increase. First-half revenue is expected down high single digits, versus the earlier low-single-digit decline outlook. The report also describes expected Q1 revenue down approximately 10%."
+    },
+    {
+      "pack": "2024_nke_buy_b",
+      "file": "calibration/data_packs/2024_nke_buy_b/docs/D04_price_valuation.md",
+      "line": 9,
+      "cutoff": "2024-06-28",
+      "date": "2025-01-01",
+      "format": "year",
+      "token": "2025",
+      "context": "At the close, trailing fiscal 2024 GAAP P/E is 20.2 times, calculated as $75.37 divided by $3.73 EPS. Using the company's $3.95 EPS excluding restructuring gives 19.1 times. Those are trailing measures. They do not incorporate the newly forecast fiscal 2025 sales decline or any further spending needed to regain product relevance."
+    },
+    {
+      "pack": "2024_nke_buy_b",
+      "file": "calibration/data_packs/2024_nke_buy_b/docs/D07_event_timeline.md",
+      "line": 9,
+      "cutoff": "2024-06-28",
+      "date": "2025-01-01",
+      "format": "year",
+      "token": "2025",
+      "context": "March 21–22, 2024: Reuters reported management expecting first-half fiscal 2025 revenue to decline by a low-single-digit percentage as Nike reduced older product franchises. Shares fell approximately 8% on March 22. This warning already established that a product transition could depress sales before the June report."
+    },
+    {
+      "pack": "2024_nke_buy_b",
+      "file": "calibration/data_packs/2024_nke_buy_b/docs/D07_event_timeline.md",
+      "line": 15,
+      "cutoff": "2024-06-28",
+      "date": "2025-01-01",
+      "format": "year",
+      "token": "2025",
+      "context": "June 27 earnings discussion, reported June 28: fiscal 2025 revenue outlook changed to a mid-single-digit decline; the first-half decline outlook deepened to high single digits. Management emphasized innovation and a balanced marketplace. No completed operational turnaround is established."
+    },
+    {
+      "pack": "2025_cmg_sell",
+      "file": "calibration/data_packs/2025_cmg_sell/docs/D03_latest_results_and_guidance.md",
+      "line": 13,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "For 2026, the company plans 350–370 openings, with more than 80% expected to include a Chipotlane. This is an announced expansion plan, not proof of future site-level returns or achieved 2026 growth. The near-term unit pipeline remains robust even as the existing-store sales picture weakens."
+    },
+    {
+      "pack": "2025_cmg_sell",
+      "file": "calibration/data_packs/2025_cmg_sell/docs/D03_latest_results_and_guidance.md",
+      "line": 13,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "For 2026, the company plans 350–370 openings, with more than 80% expected to include a Chipotlane. This is an announced expansion plan, not proof of future site-level returns or achieved 2026 growth. The near-term unit pipeline remains robust even as the existing-store sales picture weakens."
+    },
+    {
+      "pack": "2025_cmg_sell",
+      "file": "calibration/data_packs/2025_cmg_sell/docs/D07_event_timeline.md",
+      "line": 17,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "October 29: Q3 revenue rose 7.5%, but transactions fell 0.8% and restaurant-level margin declined to 24.5%. Full-year comparable-sales guidance became a low-single-digit decline. Management announced 350–370 planned 2026 openings, showing that the unit-development pipeline remained active."
+    },
+    {
+      "pack": "2025_cmg_sell",
+      "file": "calibration/data_packs/2025_cmg_sell/docs/D09_what_has_changed.md",
+      "line": 13,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "The unit-development opportunity remains. Management expects 315–345 2025 openings and 350–370 in 2026, predominantly with Chipotlanes. A long runway can support value, but only if returns on incremental units and the existing estate remain attractive. New stores cannot indefinitely conceal weak mature-store productivity."
+    },
+    {
+      "pack": "2025_fnma_fmcc_2025",
+      "file": "calibration/data_packs/2025_fnma_fmcc_2025/docs/D04_price_valuation.md",
+      "line": 11,
+      "cutoff": "2025-01-15",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "Reuters's December 30 report says the shares gained 18.4% and 18% after Ackman's post. His post estimates approximately $34 intrinsic value per share at hypothetical 2026 IPOs and assumes approximately $31 offering prices. These are investor scenarios, not consensus targets or government-approved transaction prices."
+    },
+    {
+      "pack": "2025_fnma_fmcc_2025",
+      "file": "calibration/data_packs/2025_fnma_fmcc_2025/docs/D07_event_timeline.md",
+      "line": 11,
+      "cutoff": "2025-01-15",
+      "date": "2026-10-01",
+      "format": "quarter-year",
+      "token": "Q4 2026",
+      "context": "December 30, 2024: Ackman publicly outlined a scenario crediting past Treasury payments toward repayment of senior preferred, setting a 2.5% capital requirement and pursuing hypothetical Q4 2026 IPOs. He estimated approximately $34 intrinsic value and $31 offering prices, assuming full Treasury warrant exercise and future government stock sales."
+    },
+    {
+      "pack": "2025_fnma_fmcc_2025",
+      "file": "calibration/data_packs/2025_fnma_fmcc_2025/docs/D09_what_changed_and_scenario.md",
+      "line": 13,
+      "cutoff": "2025-01-15",
+      "date": "2026-10-01",
+      "format": "quarter-year",
+      "token": "Q4 2026",
+      "context": "He assumes a2.5%capital standard and hypothetical Q4 2026 IPOs requiring approximately$30billion combined new capital. He estimates approximately$34 per-share intrinsic values and$31 IPO prices. His taxpayer proceeds estimate exceeds$300billion, assuming full warrant exercise and a sell-down over five years."
+    },
+    {
+      "pack": "2025_meta_buy",
+      "file": "calibration/data_packs/2025_meta_buy/docs/D03_latest_results_and_guidance.md",
+      "line": 17,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "The pivotal statement is about 2026, for which a specific capex dollar range is not provided: “capital expenditures dollar growth will be notably larger in 2026 than 2025.” Management also expects expenses to grow at a significantly faster percentage rate, driven primarily by infrastructure costs, cloud expenses and depreciation, then employee compensation. This is not merely a higher cash-investment budget: it creates future income-statement costs."
+    },
+    {
+      "pack": "2025_meta_buy",
+      "file": "calibration/data_packs/2025_meta_buy/docs/D03_latest_results_and_guidance.md",
+      "line": 17,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "The pivotal statement is about 2026, for which a specific capex dollar range is not provided: “capital expenditures dollar growth will be notably larger in 2026 than 2025.” Management also expects expenses to grow at a significantly faster percentage rate, driven primarily by infrastructure costs, cloud expenses and depreciation, then employee compensation. This is not merely a higher cash-investment budget: it creates future income-statement costs."
+    },
+    {
+      "pack": "2025_meta_buy",
+      "file": "calibration/data_packs/2025_meta_buy/docs/D03_latest_results_and_guidance.md",
+      "line": 21,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "Near-term evidence for monetization includes AI recommendation improvements generating 5% more time on Facebook and 10% on Threads; Instagram video time rose more than 30% year over year. Reels' annual revenue run rate exceeded $50 billion, while annualized spending through end-to-end AI ad tools exceeded $60 billion. These are management run-rate metrics, not additive new revenue categories. No 2026 operating-income floor or peak-Reality-Labs-loss commitment is in this October outlook."
+    },
+    {
+      "pack": "2025_meta_buy",
+      "file": "calibration/data_packs/2025_meta_buy/docs/D05_market_worries.md",
+      "line": 7,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "Reuters' October 29 report, updated October 30, was headed “Meta forecasts bigger capital costs next year as Zuckerberg lays out aggressive AI buildout.” It highlights the larger 2026 capital program and the fact that Q3 cost growth exceeded revenue growth. Those are observable points of pressure: expenses up 32%, sales up 26%, and operating margin down three percentage points. A sustainable business can still be overpriced if maintenance needs, competitive research spending or depreciation consume too much of its growth."
+    },
+    {
+      "pack": "2025_meta_buy",
+      "file": "calibration/data_packs/2025_meta_buy/docs/D05_market_worries.md",
+      "line": 15,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "Regulatory risk is not just theoretical in the earnings outlook. Meta warns EU changes to its Less Personalized Ads offering could materially affect European revenue as early as Q4. It also identifies US youth-related trials scheduled for 2026 that could create material losses. Neither outcome is resolved at the cutoff. The $15.93 billion tax charge is another headline concern, but its noncash nature and projected cash-tax reduction distinguish it from recurring operating deterioration."
+    },
+    {
+      "pack": "2025_meta_buy",
+      "file": "calibration/data_packs/2025_meta_buy/docs/D07_event_timeline.md",
+      "line": 11,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "| October 29 | Capex floor raised to $70bn and larger 2026 dollar growth signaled | Changes expectations for cash conversion and future depreciation |"
+    },
+    {
+      "pack": "2025_nke_sell",
+      "file": "calibration/data_packs/2025_nke_sell/docs/D01_business_overview.md",
+      "line": 2,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "Source: compiled from: https://s1.q4cdn.com/806093406/files/doc_financials/2025/ar/Nike-Inc-2025_10K.pdf; https://investors.nike.com/news-events/press-releases/detail/555/nike-inc-reports-fiscal-2026-first-quarter-results"
+    },
+    {
+      "pack": "2025_nke_sell",
+      "file": "calibration/data_packs/2025_nke_sell/docs/D01_business_overview.md",
+      "line": 9,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "Fiscal 2025 revenue was $46.309 billion, down from $51.362 billion. Q1 fiscal 2026 revenue was $11.720 billion, up 1% reported and down 1% currency-neutral. Nike Direct revenue was $4.5 billion, down 4%, while wholesale was $6.8 billion, up 7%. These are rounded channel figures and do not represent all consolidated revenue by themselves."
+    },
+    {
+      "pack": "2025_nke_sell",
+      "file": "calibration/data_packs/2025_nke_sell/docs/D02_financial_snapshot.md",
+      "line": 2,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "Source: compiled from: https://s1.q4cdn.com/806093406/files/doc_financials/2025/ar/Nike-Inc-2025_10K.pdf; https://investors.nike.com/news-events/press-releases/detail/555/nike-inc-reports-fiscal-2026-first-quarter-results"
+    },
+    {
+      "pack": "2025_nke_sell",
+      "file": "calibration/data_packs/2025_nke_sell/docs/D03_latest_results_and_guidance.md",
+      "line": 2,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "Source: compiled from: https://investors.nike.com/news-events/press-releases/detail/555/nike-inc-reports-fiscal-2026-first-quarter-results; https://s1.q4cdn.com/806093406/files/doc_financials/2026/q1/NIKE-Inc-Q1FY26-OFFICIAL-Transcript_-FINAL.pdf"
+    },
+    {
+      "pack": "2025_nke_sell",
+      "file": "calibration/data_packs/2025_nke_sell/docs/D03_latest_results_and_guidance.md",
+      "line": 2,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "Source: compiled from: https://investors.nike.com/news-events/press-releases/detail/555/nike-inc-reports-fiscal-2026-first-quarter-results; https://s1.q4cdn.com/806093406/files/doc_financials/2026/q1/NIKE-Inc-Q1FY26-OFFICIAL-Transcript_-FINAL.pdf"
+    },
+    {
+      "pack": "2025_nke_sell",
+      "file": "calibration/data_packs/2025_nke_sell/docs/D03_latest_results_and_guidance.md",
+      "line": 7,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "North America increased 4%, while Greater China declined 9% reported. This is mixed regional evidence rather than an across-the-board recovery. Management expects China revenue and margins to remain headwinds throughout fiscal 2026 and says progress requires time and investment."
+    },
+    {
+      "pack": "2025_nke_sell",
+      "file": "calibration/data_packs/2025_nke_sell/docs/D03_latest_results_and_guidance.md",
+      "line": 17,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "Management does not expect Nike Direct to return to growth in fiscal 2026 while repositioning toward full-price selling. That is a longer repair horizon than a simple one-quarter inventory reset. Wholesale strength should be tested against sustained retailer sell-through and consumer demand."
+    },
+    {
+      "pack": "2025_nke_sell",
+      "file": "calibration/data_packs/2025_nke_sell/docs/D04_price_and_valuation.md",
+      "line": 2,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "Source: compiled from: https://finance.yahoo.com/quote/NKE/history/?period1=1761868800&period2=1762214400; https://www.reuters.com/markets/companies/NKE/key-metrics/price-and-volume; https://s1.q4cdn.com/806093406/files/doc_financials/2025/ar/Nike-Inc-2025_10K.pdf; https://investors.nike.com/news-events/press-releases/detail/555/nike-inc-reports-fiscal-2026-first-quarter-results; https://insight.factset.com/sp-500-earnings-season-update-october-31-2025"
+    },
+    {
+      "pack": "2025_nke_sell",
+      "file": "calibration/data_packs/2025_nke_sell/docs/D05_market_worries.md",
+      "line": 2,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "Source: compiled from: https://www.cnn.com/2025/10/01/business/nike-earnings-tariff-china/index.html; https://www.supplychaindive.com/news/nike-1b-tariff-sourcing-price-hikes/752159; https://s1.q4cdn.com/806093406/files/doc_financials/2026/q1/NIKE-Inc-Q1FY26-OFFICIAL-Transcript_-FINAL.pdf"
+    },
+    {
+      "pack": "2025_nke_sell",
+      "file": "calibration/data_packs/2025_nke_sell/docs/D05_market_worries.md",
+      "line": 9,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "Direct revenue and digital remain weak. Management does not expect Nike Direct to grow during fiscal 2026 while restoring full-price economics. That means a large channel is still undergoing a deliberate reset rather than returning immediately to the old trajectory."
+    },
+    {
+      "pack": "2025_nke_sell",
+      "file": "calibration/data_packs/2025_nke_sell/docs/D05_market_worries.md",
+      "line": 11,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "China is another independent constraint. Q1 Greater China revenue declined 9%, and management expects regional revenue/margin pressure through fiscal 2026. Competitive alternatives and local consumer preferences could make recovery harder even if global brand equity remains substantial."
+    },
+    {
+      "pack": "2025_nke_sell",
+      "file": "calibration/data_packs/2025_nke_sell/docs/D06_peer_and_industry_benchmarks.md",
+      "line": 2,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "Source: compiled from: https://www.adidas-group.com/en/media/press-releases/adidas-brand-momentum-drives-record-revenues-strong-third-quarter-results-and-upgrade-of-full-year-2025-outlook; https://www.sec.gov/Archives/edgar/data/1858985/000185898525000012/a25q2-exhibit992xmda.htm; https://investors.nike.com/news-events/press-releases/detail/555/nike-inc-reports-fiscal-2026-first-quarter-results"
+    },
+    {
+      "pack": "2025_nke_sell",
+      "file": "calibration/data_packs/2025_nke_sell/docs/D07_event_timeline.md",
+      "line": 2,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "Source: compiled from: https://assets.pershingsquareholdings.com/2025/03/14183709/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf; https://www.sec.gov/Archives/edgar/data/320187/000032018724000053/exhibit991-pressreleasesep.htm; https://s1.q4cdn.com/806093406/files/doc_financials/2025/ar/Nike-Inc-2025_10K.pdf; https://s1.q4cdn.com/806093406/files/doc_financials/2026/q1/NIKE-Inc-Q1FY26-OFFICIAL-Transcript_-FINAL.pdf; https://finance.yahoo.com/quote/NKE/history/?period1=1761868800&period2=1762214400"
+    },
+    {
+      "pack": "2025_nke_sell",
+      "file": "calibration/data_packs/2025_nke_sell/docs/D07_event_timeline.md",
+      "line": 17,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "September 30: Fiscal Q1 revenue stabilized, wholesale grew and North America improved. Gross margin still fell 320 basis points, EPS declined 30%, and China remained weak. Management forecast continuing Q2 margin pressure and no direct-channel growth during fiscal 2026."
+    },
+    {
+      "pack": "2025_nke_sell",
+      "file": "calibration/data_packs/2025_nke_sell/docs/D09_what_has_changed.md",
+      "line": 2,
+      "cutoff": "2025-11-03",
+      "date": "2026-01-01",
+      "format": "year",
+      "token": "2026",
+      "context": "Source: compiled from: https://assets.pershingsquareholdings.com/2025/03/14183709/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf; https://s1.q4cdn.com/806093406/files/doc_financials/2025/ar/Nike-Inc-2025_10K.pdf; https://s1.q4cdn.com/806093406/files/doc_financials/2026/q1/NIKE-Inc-Q1FY26-OFFICIAL-Transcript_-FINAL.pdf; https://www.adidas-group.com/en/media/press-releases/adidas-brand-momentum-drives-record-revenues-strong-third-quarter-results-and-upgrade-of-full-year-2025-outlook"
+    },
+    {
+      "pack": "2025_uber_buy",
+      "file": "calibration/data_packs/2025_uber_buy/docs/D07_event_timeline.md",
+      "line": 7,
+      "cutoff": "2025-01-06",
+      "date": "2030-01-01",
+      "format": "year",
+      "token": "2030",
+      "context": "Third quarter 2024: Uber issued $4 billion of senior notes, its first investment-grade debt issuance, comprising maturities in 2030, 2034 and 2054. It also entered a $5 billion credit agreement. This extends financing flexibility while leaving an obligation to service debt; it is not operating cash generation."
+    },
+    {
+      "pack": "2025_uber_buy",
+      "file": "calibration/data_packs/2025_uber_buy/docs/D07_event_timeline.md",
+      "line": 7,
+      "cutoff": "2025-01-06",
+      "date": "2034-01-01",
+      "format": "year",
+      "token": "2034",
+      "context": "Third quarter 2024: Uber issued $4 billion of senior notes, its first investment-grade debt issuance, comprising maturities in 2030, 2034 and 2054. It also entered a $5 billion credit agreement. This extends financing flexibility while leaving an obligation to service debt; it is not operating cash generation."
+    },
+    {
+      "pack": "2025_uber_buy",
+      "file": "calibration/data_packs/2025_uber_buy/docs/D07_event_timeline.md",
+      "line": 7,
+      "cutoff": "2025-01-06",
+      "date": "2054-01-01",
+      "format": "year",
+      "token": "2054",
+      "context": "Third quarter 2024: Uber issued $4 billion of senior notes, its first investment-grade debt issuance, comprising maturities in 2030, 2034 and 2054. It also entered a $5 billion credit agreement. This extends financing flexibility while leaving an obligation to service debt; it is not operating cash generation."
+    },
+    {
+      "pack": "2026_msft_buy",
+      "file": "calibration/data_packs/2026_msft_buy/docs/D01_business_overview.md",
+      "line": 2,
+      "cutoff": "2026-01-30",
+      "date": "2026-04-01",
+      "format": "year-quarter",
+      "token": "2026-q2",
+      "context": "Source: compiled from: https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast; https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q2; https://www.microsoft.com/investor/reports/ar25/index.html"
+    },
+    {
+      "pack": "2026_msft_buy",
+      "file": "calibration/data_packs/2026_msft_buy/docs/D01_business_overview.md",
+      "line": 2,
+      "cutoff": "2026-01-30",
+      "date": "2026-04-01",
+      "format": "year-quarter",
+      "token": "2026-q2",
+      "context": "Source: compiled from: https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast; https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q2; https://www.microsoft.com/investor/reports/ar25/index.html"
+    },
+    {
+      "pack": "2026_msft_buy",
+      "file": "calibration/data_packs/2026_msft_buy/docs/D01_business_overview.md",
+      "line": 7,
+      "cutoff": "2026-01-30",
+      "date": "2026-04-01",
+      "format": "quarter-year",
+      "token": "Q2 2026",
+      "context": "| Fiscal Q2 2026, dollars millions | Revenue | Operating income |"
+    },
+    {
+      "pack": "2026_msft_buy",
+      "file": "calibration/data_packs/2026_msft_buy/docs/D02_financial_snapshot.md",
+      "line": 2,
+      "cutoff": "2026-01-30",
+      "date": "2026-04-01",
+      "format": "year-quarter",
+      "token": "2026-q2",
+      "context": "Source: compiled from: https://www.microsoft.com/en-us/investor/earnings/FY-2025-Q4/income-statements; https://www.microsoft.com/en-us/investor/earnings/FY-2025-Q4/cash-flows; https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast"
+    },
+    {
+      "pack": "2026_msft_buy",
+      "file": "calibration/data_packs/2026_msft_buy/docs/D03_latest_results_and_guidance.md",
+      "line": 2,
+      "cutoff": "2026-01-30",
+      "date": "2026-04-01",
+      "format": "year-quarter",
+      "token": "2026-q2",
+      "context": "Source: compiled from: https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast; https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q2"
+    },
+    {
+      "pack": "2026_msft_buy",
+      "file": "calibration/data_packs/2026_msft_buy/docs/D03_latest_results_and_guidance.md",
+      "line": 2,
+      "cutoff": "2026-01-30",
+      "date": "2026-04-01",
+      "format": "year-quarter",
+      "token": "2026-q2",
+      "context": "Source: compiled from: https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast; https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q2"
+    },
+    {
+      "pack": "2026_msft_buy",
+      "file": "calibration/data_packs/2026_msft_buy/docs/D04_price_and_valuation.md",
+      "line": 2,
+      "cutoff": "2026-01-30",
+      "date": "2026-04-01",
+      "format": "year-quarter",
+      "token": "2026-q2",
+      "context": "Source: compiled from: https://finance.yahoo.com/quote/MSFT/history/?period1=1769644800&period2=1770163200; https://www.cnbc.com/2026/01/29/microsoft-market-cap-earnings.html; https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast; https://www.microsoft.com/en-us/investor/earnings/FY-2025-Q4/income-statements; https://www.cnbc.com/quotes/msft?__source=newsletter%7Cwarrenbuffettwatch"
+    },
+    {
+      "pack": "2026_msft_buy",
+      "file": "calibration/data_packs/2026_msft_buy/docs/D06_peers_and_industry.md",
+      "line": 2,
+      "cutoff": "2026-01-30",
+      "date": "2026-04-01",
+      "format": "year-quarter",
+      "token": "2026-q2",
+      "context": "Source: compiled from: https://s206.q4cdn.com/479360582/files/doc_news/2025/Oct/29/attachments/2025q3-alphabet-earnings-release.pdf; https://www.sec.gov/Archives/edgar/data/1018724/000101872425000121/amzn-20250930xex991.htm; https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast; https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q2"
+    },
+    {
+      "pack": "2026_msft_buy",
+      "file": "calibration/data_packs/2026_msft_buy/docs/D06_peers_and_industry.md",
+      "line": 2,
+      "cutoff": "2026-01-30",
+      "date": "2026-04-01",
+      "format": "year-quarter",
+      "token": "2026-q2",
+      "context": "Source: compiled from: https://s206.q4cdn.com/479360582/files/doc_news/2025/Oct/29/attachments/2025q3-alphabet-earnings-release.pdf; https://www.sec.gov/Archives/edgar/data/1018724/000101872425000121/amzn-20250930xex991.htm; https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast; https://www.microsoft.com/en-us/investor/events/fy-2026/earnings-fy-2026-q2"
+    },
+    {
+      "pack": "2026_msft_buy",
+      "file": "calibration/data_packs/2026_msft_buy/docs/D07_event_timeline.md",
+      "line": 2,
+      "cutoff": "2026-01-30",
+      "date": "2026-04-01",
+      "format": "year-quarter",
+      "token": "2026-q2",
+      "context": "Source: compiled from: https://blogs.microsoft.com/blog/2025/10/28/the-next-chapter-of-the-microsoft-openai-partnership/; https://www.microsoft.com/en-us/investor/earnings/fy-2026-q2/press-release-webcast; https://www.cnbc.com/2026/01/29/microsoft-market-cap-earnings.html; https://finance.yahoo.com/quote/MSFT/history/?period1=1769644800&period2=1770163200"
+    },
+    {
+      "pack": "2026_msft_buy",
+      "file": "calibration/data_packs/2026_msft_buy/docs/D07_event_timeline.md",
+      "line": 7,
+      "cutoff": "2026-01-30",
+      "date": "2032-01-01",
+      "format": "year",
+      "token": "2032",
+      "context": "The agreement preserves important IP and cloud rights while changing their boundaries. Microsoft retains model and product IP rights through 2032, including post-AGI models. Confidential research-method rights continue until verified AGI or 2030, whichever is earlier. An independent expert panel must verify an OpenAI declaration of AGI. Consumer hardware is excluded from Microsoft's IP rights."
+    },
+    {
+      "pack": "2026_msft_buy",
+      "file": "calibration/data_packs/2026_msft_buy/docs/D07_event_timeline.md",
+      "line": 7,
+      "cutoff": "2026-01-30",
+      "date": "2030-01-01",
+      "format": "year",
+      "token": "2030",
+      "context": "The agreement preserves important IP and cloud rights while changing their boundaries. Microsoft retains model and product IP rights through 2032, including post-AGI models. Confidential research-method rights continue until verified AGI or 2030, whichever is earlier. An independent expert panel must verify an OpenAI declaration of AGI. Consumer hardware is excluded from Microsoft's IP rights."
+    },
+    {
+      "pack": "2026_v_ma_buy",
+      "file": "calibration/data_packs/2026_v_ma_buy/docs/D05_market_worries.md",
+      "line": 7,
+      "cutoff": "2026-03-31",
+      "date": "2028-01-01",
+      "format": "year",
+      "token": "2028",
+      "context": "Kaustubh Bagalkote's February 28 Benzinga account emphasizes that Citrini's “2028 Global Intelligence Crisis” was explicitly “a scenario, not a prediction.” Its mechanism is nevertheless analytically relevant: agents might select cheaper settlement rails, weakening consumer inertia and network pricing."
+    }
+  ]
+}

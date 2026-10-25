@@ -1,0 +1,174 @@
+{
+  "as_of_date": "2022-01-24",
+  "mode": "new",
+  "docs": {
+    "D01_business_overview.md": "Title: Global subscription entertainment and scale economics\nSource: https://www.sec.gov/Archives/edgar/data/1065280/000106528022000035/ex991_q421.htm\nDate: 2022-01-20\n\nNetflix provides on-demand films and television through subscriptions, plus a small legacy DVD business. Members choose programming without a linear schedule. Global broadband and connected devices expand distribution, while local-language production extends the potential audience beyond English-speaking households. The subscription can be cancelled; repeat monthly billing should not be confused with contracted multi-year revenue.\n\nThe company ended 2021 with 221.84 million paid memberships. Its regional mix is economically important:\n\n| Region | Year-end memberships, millions | Q4 revenue, $millions | Monthly revenue per membership |\n|---|---:|---:|---:|\n| US/Canada | 75.22 | 3,309 | $14.78 |\n| Europe/Middle East/Africa | 74.04 | 2,523 | $11.64 |\n| Latin America | 39.96 | 964 | $8.14 |\n| Asia-Pacific | 32.63 | 871 | $9.26 |\n\nMore than 90% of 2021 net member additions came from outside US/Canada. Consequently, identical worldwide subscriber growth can produce different revenue growth depending on geographic mix and currency. Regional operating margins are not supplied in the release.\n\nReed Hastings and Ted Sarandos are co-CEOs; Sarandos also serves as chief content officer. Greg Peters is COO/chief product officer and Spencer Neumann is CFO. The board proposes declassification, removal of supermajority provisions and shareholder special-meeting rights at the next annual meeting. These are prospective governance changes, not already approved amendments.\n\nContent is the principal investment. A large paying base can spread programming costs across more households, generating operating leverage. However, the catalog requires ongoing replenishment and subscriptions have low contractual switching barriers. A scale advantage must be maintained through engagement, retention and economical acquisition of content.\n\nSquid Game reached 1.65 billion viewing hours in its first four weeks, according to the release, demonstrating that a Korean production can reach global audiences. Netflix's Q4 films also include Red Notice and Don't Look Up. Individual hits establish reach but do not substitute for a portfolio-level return on content spending.\n\nQ4 weighted-average basic shares were 443.462 million and diluted shares 455.795 million. These are average earnings denominators, not an exact January 24 outstanding-share count. Netflix's own case is that improving content and discovery can sustain a larger global audience while spreading fixed costs; the key uncertainty is the rate and cost of that expansion.\n",
+    "D02_financial_snapshot.md": "Title: Three-year financial record and cash-flow inflection\nSource: compiled from: https://s22.q4cdn.com/959853165/files/doc_financials/2020/q4/FINAL-Q420-Shareholder-Letter.pdf; https://www.sec.gov/Archives/edgar/data/1065280/000106528022000035/ex991_q421.htm\nDate: 2022-01-20\n\nCompany-reported annual results below are in $millions except per-share figures. The 2019/2020 comparison was public January 19, 2021; FY2021 and Q4 results were released January 20, 2022. No subsequently filed annual report is needed for this table.\n\n| Metric | FY2019 | FY2020 | FY2021 | Q4 2021 |\n|---|---:|---:|---:|---:|\n| Revenue | 20,156 | 24,996 | 29,698 | 7,709 |\n| Operating income | 2,604 | 4,585 | 6,195 | 632 |\n| Diluted EPS | 4.13 | 6.08 | 11.24 | 1.33 |\n| Free cash flow | approximately -3,300 | 1,922 | -159 | -569 |\n\nFY2020 revenue increased 24% and operating profit increased 76%. FY2021 revenue increased 19% and operating profit increased 35%. Operating margin reached 21% in 2021, versus 18% in 2020. The contrast between profit growth and member-growth deceleration is central to the case: pricing and operating leverage have mattered, not only new households.\n\nCash flow differs materially from net income. In 2021 Netflix recorded $17,702.202 million of content additions and $12,230.367 million of content amortization. Operating cash flow was $392.610 million. Property/equipment purchases of $524.585 million and changes in other assets of $26.919 million brought company-defined FCF to negative $158.894 million. Therefore, the business is approximately cash breakeven, not generating free cash equivalent to its $5,116.228 million net income.\n\nThe year-end cash balance was $6,027.804 million. Debt carrying values were $699.823 million current and $14,693.072 million long-term; subtracting cash gives approximately $9.365 billion net debt, a calculation rather than a company-defined leverage ratio. Content obligations totaled $23,161.360 million, including commitments not yet recognized as balance-sheet liabilities.\n\nNetflix spent $600.022 million on cash repurchases in 2021 and made none in Q4, when cash funded the Roald Dahl Story Company acquisition. Management targets $10-$15 billion gross debt, plans a $700 million Q1 maturity repayment, and expects positive FCF in 2022 and beyond. No dividend or consistently defined ROIC series is provided. The FCF forecast is an explicit management expectation, not an established annual cash yield.\n",
+    "D03_latest_results.md": "Title: Q4 results and weak Q1 guidance\nSource: https://www.sec.gov/Archives/edgar/data/1065280/000106528022000035/ex991_q421.htm\nDate: 2022-01-20\n\nQ4 revenue was $7,709 million, up 16.0%. Operating income was $632 million, margin 8.2%, and diluted EPS $1.33. The lower quarterly margin reflects a large content slate rather than a full-year collapse: FY2021 operating margin was 21%, above management's 20% target. Q4 EPS also benefited from a $104 million noncash gain on euro-denominated debt remeasurement.\n\nPaid net additions of 8.28 million were below management's 8.5 million forecast. Full-year additions totaled about 18 million, compared with 37 million during 2020. The US/Canada region nevertheless added 1.19 million in Q4, its strongest quarter since the early pandemic. Asia-Pacific added 2.58 million and EMEA 3.54 million.\n\nThe issue driving the market reaction is Q1 2022 guidance: only 2.50 million paid net additions, compared with 3.98 million a year earlier. Management forecasts $7,903 million revenue, 10.3% growth; $1,765 million operating income; 22.3% margin; and $2.86 diluted EPS. These are internal forecasts, not guarantees.\n\nThe letter says “retention and engagement remain healthy” but that acquisition has not returned to pre-COVID levels. It cites pandemic overhang and macroeconomic hardship, including Latin America. It also says the Q1 content schedule is back-end weighted, with Bridgerton season two and The Adam Project arriving in March.\n\nFor FY2022, the target operating margin is 19%-20%. The stronger dollar has reduced expected revenue by roughly $1 billion and creates an estimated two-percentage-point margin headwind because much of the cost base is in dollars. Management does not hedge currency.\n\nThe medium-term objective remains an average three-percentage-point annual margin increase over periods of several years. The letter says there is “no change to our goal” but expects short-term fluctuations. Whether the latest pause is timing/FX or a warning about the underlying growth algorithm is the analytical question.\n\nManagement also expects positive FCF in 2022 and beyond, with excess cash returned after reinvestment, selective acquisitions, debt targets and minimum liquidity. The release offers a pathway from a debt-funded content buildout to self-funded expansion, but does not quantify a normalized annual FCF level.\n",
+    "D04_price_valuation.md": "Title: January 24 valuation after the earnings-related decline\nSource: compiled from: https://www.cnbc.com/2022/01/24/netflix-shares-fall-to-lowest-since-april-2020-on-subscriber-concern.html; https://www.cnbc.com/2022/01/21/netflix-stock-down-20percent-after-earnings-show-growth-slowdown.html; https://www.sec.gov/Archives/edgar/data/1065280/000106528022000035/ex991_q421.htm\nDate: 2022-01-24\n\nCNBC reports a January 24 close of $387.15, down 2.6% for the session, following Friday's 21.8% decline. The January 24 article describes the lowest close since April 2020. It reports that the stock passed $700 to a record in November. Relative to the $700 reference, the close is down 44.7%; the price is not literally 50% below that reference. Intraday lows and differing reference points should not be conflated with the closing comparison.\n\nUsing FY2021 diluted EPS of $11.24 gives a trailing P/E of 34.4x. This is a transparent calculation, $387.15 divided by $11.24. It is not a claimed forward consensus multiple. A verified timestamped forward EPS estimate was not recovered; consequently a roughly 30x forward valuation sometimes associated with the episode is not asserted as an independently verified pack fact.\n\nMultiplying the close by Q4 basic weighted-average shares of 443.462 million gives illustrative equity capitalization of $171.69 billion. Adding approximately $9.365 billion of carrying-value net debt gives illustrative enterprise value of $181.05 billion. These proxies use a stale quarterly average share denominator, not an exact January 24 capitalization.\n\nReported FY2021 operating income of $6.195 billion implies roughly 29.2x enterprise value/EBIT on those inputs. A conventional EBITDA measure that adds back all content amortization would exaggerate economic cash generation because the library must be replenished. No comparable forward EV/EBITDA estimate is supplied.\n\nThe reported FY2021 FCF yield is slightly negative, since cash generation was approximately breakeven. Management's expectation of positive 2022 FCF offers a possible inflection, but no quantitative normalized FCF forecast is available here.\n\nThe exact 52-week low, full historical five-to-ten-year multiple range, daily trading volume, S&P 500 forward P/E and consensus EPS growth are not available in the retrieved dated sources. Those omissions constrain relative valuation precision, not the reported price decline. The investor must decide whether the observed multiple now compensates for slower acquisition, rising content costs and uncertain margin progression, while recognizing that much of the global streaming transition remains in progress.\n",
+    "D05_market_concerns.md": "Title: January bear narrative — is the streaming leader running out of growth?\nSource: compiled from: https://www.cnbc.com/2022/01/21/netflix-stock-down-20percent-after-earnings-show-growth-slowdown.html; https://www.cbsnews.com/news/netflix-stock-investors-subscribers-growth; https://www.nytimes.com/2022/01/20/business/netflix-quarterly-earnings.html; https://www.sec.gov/Archives/edgar/data/1065280/000106528022000035/ex991_q421.htm\nDate: 2022-01-24\n\nCNBC's January 21 report describes the 21.8% price fall as a response to slower growth and intensifying competition. CBS MoneyWatch's January 21 account compares management's 2.5 million Q1 member-add forecast with a four-million analyst expectation from FactSet. The gap is meaningful even though the current subscriber base is very large.\n\nThe New York Times' January 20 coverage similarly focuses on the weak opening-quarter outlook. A business that entered the pandemic as a growth leader now faces difficult comparisons after stay-at-home adoption. Investors must separate a temporary pull-forward from mature-market saturation and displacement by competing services.\n\nNetflix's own letter acknowledges: “this added competition may be affecting our marginal growth some”. It nevertheless says the company continues growing in all countries and regions where alternatives have launched. The bear argument is not that Netflix disappears; it is that incremental growth may cost more or arrive more slowly than the earlier valuation assumed.\n\nContent spending is a second concern. A large audience supports amortization leverage, but households can cancel and switch. Keeping the service essential may require recurrent expensive programming. Positive net income alongside approximately breakeven cash flow shows why an earnings multiple alone does not settle the economics.\n\nManagement's 19%-20% 2022 margin target is below 2021's 21%. Currency explains part of the change, yet the target also requires investors to tolerate a pause in the prior margin-expansion narrative. A stronger dollar reduces international revenue translated into dollars while much of the cost base remains dollar-denominated.\n\nPricing presents both evidence and a test. US/Canada average monthly revenue per membership rose 9% year-on-year in Q4, to $14.78. Conversely, India required price reductions because local pay-TV pricing is low. Global scale therefore does not imply identical pricing power in every country.\n\nThe favorable counterargument is that Netflix remains profitable, international membership is expanding and streaming continues to replace linear television. The controversy is about the slope of future growth, competitive content returns and appropriate valuation. There is no public evidence in this snapshot of a guaranteed return to pre-pandemic acquisition rates; that must remain an underwriting assumption rather than a fact.\n",
+    "D06_peers_industry.md": "Title: Competitor scale, profitability and industry structure\nSource: compiled from: https://s206.q4cdn.com/979796730/files/doc_events/2021/11/q4-fy21-earnings.pdf; https://www.reuters.com/markets/europe/hbo-max-shows-growth-despite-industry-slowdown-2022-01-05; https://www.sec.gov/Archives/edgar/data/1065280/000106528022000035/ex991_q421.htm\nDate: 2022-01-20\n\nThe relevant comparison is not simply who has the largest subscriber count. Streaming competitors differ in price, bundling, geography, accounting and parent-company objectives. Two dated competitor benchmarks illustrate both Netflix's scale and the possibility of sustained competitive investment.\n\n| Service or segment | Public source date | Disclosed benchmark |\n|---|---|---|\n| Netflix | January 20, 2022 | 221.84m year-end paid memberships; FY2021 margin 21%; revenue $29.698bn |\n| Disney+ | November 10, 2021 | 118.1m subscribers; 60% year-on-year growth |\n| Disney DTC segment | November 10, 2021 | Fiscal Q4 revenue approximately $4.6bn; operating loss $630m |\n| HBO/HBO Max combined | January 5, 2022 | 73.8m year-end subscribers, versus 69.4m in September |\n\nDisney's direct-to-consumer segment includes Hulu and ESPN+ as well as Disney+. Its segment losses are not solely Disney+ losses. HBO's figure combines streaming and the premium network; it should not be labeled a pure HBO Max paid-streaming count. Netflix's year-end base is much larger than either comparator, but different monthly revenue per member makes the ratios imperfect economic comparisons.\n\nNetflix argues the biggest opportunity is migration from linear viewing. Its January letter says it has under 10% of total US television screen time. Even the largest subscription service therefore has room to increase engagement without assuming all entertainment spending migrates to a single provider.\n\nThe industry combines high fixed programming costs with inexpensive incremental digital delivery. This favors scale, but does not create exclusive distribution over all desirable content. Disney and WarnerMedia possess their own franchises and may accept losses to build direct customer relationships. Their broader businesses also make parent P/E ratios poor proxies for streaming valuations.\n\nAn economically attractive path for Netflix is subscriber and pricing growth faster than necessary content-cost growth. A less attractive path is persistent content inflation and higher churn as households rotate services. The observed current profitability gap favors Netflix, while competing subscriber growth shows that industry expansion need not accrue exclusively to it.\n\nTimestamped comparable forward P/E or segment EV/EBITDA estimates for these peers were not recovered. Rather than blend unrelated telecom, parks or linear-network earnings, this pack retains the dated operating comparisons and identifies their definition limits.\n",
+    "D07_event_timeline.md": "Title: Relevant events before January 24\nSource: compiled from: https://s22.q4cdn.com/959853165/files/doc_financials/2020/q4/FINAL-Q420-Shareholder-Letter.pdf; https://www.sec.gov/Archives/edgar/data/1065280/000106528022000035/ex991_q421.htm; https://www.cnbc.com/2022/01/24/netflix-shares-fall-to-lowest-since-april-2020-on-subscriber-concern.html\nDate: 2022-01-24\n\n**January 19, 2021:** Netflix reported 37 million 2020 paid net additions, approximately $25 billion revenue and $4.6 billion operating income. It forecast approximately breakeven FCF in 2021 and said it believed external financing was no longer required for day-to-day operations. This was an important change from financing an expanding content slate through repeated debt issuance.\n\n**During 2021:** Membership additions slowed sharply from the pandemic year. January 2022's release reports about 18 million additions for the full year. Meanwhile, operating margin and profit grew. This divergence is the central evidence for separating near-term membership volatility from progress toward scale economics.\n\n**Late Q3 2021:** Squid Game became a global hit. By the January earnings release, management reports 1.65 billion first-four-week viewing hours. The example demonstrates that a locally produced series can travel internationally, supporting the broad production model. It does not establish a predictable hit rate for the entire slate.\n\n**November 2021:** Netflix rolled out mobile games globally on Android and iOS. January's release says ten games were available by year-end. Management calls the initiative early-stage; no material standalone economics are disclosed. The company also launched Tudum, a fan-information site intended to deepen engagement around programming.\n\n**Q4 2021:** Netflix funded its Roald Dahl Story Company acquisition from cash and made no quarterly share repurchases. The transaction expands intellectual-property ownership while consuming liquidity.\n\n**December 2021:** Prices were lowered across all plans in India. Management cites unusually low local pay-TV prices and the goal of maximizing long-term revenue. Global pricing must be evaluated by market rather than extrapolated mechanically from US evidence.\n\n**January 20, 2022:** Q4 results and weak Q1 guidance were released. Management also announced proposed governance reforms, including board declassification and removal of supermajority provisions.\n\n**January 21 and 24:** CNBC reports a 21.8% Friday decline followed by a 2.6% Monday decline to $387.15. This timeline contains only operating and public-market information through the cutoff. No subsequent quarter's results, investor purchase announcements or later management strategy changes are included.\n",
+    "D08_pershing_context.md": "Title: Pre-cutoff portfolio and capital-allocation context\nSource: compiled from: https://www.sec.gov/Archives/edgar/data/1336528/000117266121002355/0001172661-21-002355.txt; https://assets.pershingsquareholdings.com/2021/12/01174845/Performance-Report-November-2021-PSH.pdf; https://assets.pershingsquareholdings.com/2021/08/24160605/Pershing-Square-Holdings-Ltd.-June-2021.pdf\nDate: 2021-12-01\n\nThe latest verified 13F available here was filed November 15 for September 30, 2021. Its reported US equity value was $9.463494 billion across six names. Weights below are calculated within that 13F total, not percentage of total fund NAV:\n\n| Holding | Reported value, $millions | Approximate 13F weight |\n|---|---:|---:|\n| Lowe's | 2,076.571 | 21.9% |\n| Chipotle | 2,026.035 | 21.4% |\n| Hilton | 1,702.284 | 18.0% |\n| Restaurant Brands | 1,464.720 | 15.5% |\n| Howard Hughes | 1,195.987 | 12.6% |\n| Domino's | 997.897 | 10.5% |\n\nThe filing excludes foreign-listed UMG, cash and most derivatives. It is therefore an incomplete economic portfolio. Agilent, present in the prior quarter's filing, is absent from this filing; the current table must not assume it remains a reported US equity position. A year-end 13F is not yet available at this cutoff.\n\nThe November 30 fund update, published December 1, reports PSH AUM of $14,156.3 million, total core-strategy AUM of $16,266.0 million, total firm AUM of $17,678.7 million including UMG co-investment vehicles, and $21,678.7 million including PSTH. These definitions add outstanding fund debt and are not equivalent to shareholder NAV. PSTH's $4 billion is separately committed SPAC capital, not free cash for ordinary fund purchases.\n\nThe same update reports ten disclosed long positions, no disclosed short issuer positions and 115% net equity/debt exposure. Macro hedges are excluded from that position count. An exact January 24 cash balance is not available in these sources.\n\nThe interim report states the objective is to “maximize its long-term compound annual rate of growth in intrinsic value per share”. It describes concentrated, principally North American public-company investing. This favors businesses whose durable economics can be underwritten over years rather than quarter-to-quarter trading.\n\nUMG provides a public pre-cutoff connection to streaming economics, but music-rights licensing is not identical to financing video originals. No verified pre-January-24 Ackman statement about Netflix itself was recovered. A later purchase explanation is deliberately not used to supply the answer to this new-position replay.\n"
+  },
+  "answer_key": {
+    "actual_decision": "BUY",
+    "reason_class": null,
+    "drivers": [
+      {
+        "driver": "Recurring subscriptions and the transition from linear viewing create substantial long-term growth.",
+        "source": "https://assets.pershingsquareholdings.com/2022/01/26170421/Pershing-Square-Capital-Management-L.P.-Releases-Letter-to-Investors-01-26-2022.pdf (2022-01-26)",
+        "quote": "its subscription-based, highly recurring revenues, which have enormous future growth potential"
+      },
+      {
+        "driver": "Scale and content quality strengthen the moat.",
+        "source": "https://assets.pershingsquareholdings.com/2022/01/26170421/Pershing-Square-Capital-Management-L.P.-Releases-Letter-to-Investors-01-26-2022.pdf (2022-01-26)",
+        "quote": "economies of scale and superb quality in its industry-leading content"
+      },
+      {
+        "driver": "The customer value proposition supports pricing power.",
+        "source": "https://assets.pershingsquareholdings.com/2022/01/26170421/Pershing-Square-Capital-Management-L.P.-Releases-Letter-to-Investors-01-26-2022.pdf (2022-01-26)",
+        "quote": "pricing power derived from the enormous value it delivers to consumers compared with other alternatives"
+      },
+      {
+        "driver": "A trusted adaptive management team and high-performance culture can execute.",
+        "source": "https://assets.pershingsquareholdings.com/2022/01/26170421/Pershing-Square-Capital-Management-L.P.-Releases-Letter-to-Investors-01-26-2022.pdf (2022-01-26)",
+        "quote": "a truly best-in-class management team and unique high-performance culture"
+      },
+      {
+        "driver": "Margin leverage and improving free cash flow support both growth and distributions.",
+        "source": "https://assets.pershingsquareholdings.com/2022/01/26170421/Pershing-Square-Capital-Management-L.P.-Releases-Letter-to-Investors-01-26-2022.pdf (2022-01-26)",
+        "quote": "an improving free cash flow profile which should allow for continued investments in growth as well as the return of cash to shareholders"
+      }
+    ],
+    "pack_quality_notes": "Eight dated documents. January 27 annual filing excluded. January 26 purchase letter confined to key. Cutoff falls during actual accumulation. Forward consensus, volume, full high/low, S&P forward multiple and current cash unavailable. Current unverified claims of 50% closing drawdown corrected to 44.7% versus $700 reference."
+  },
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "final": {
+        "as_of_date": "2022-01-24",
+        "company": "Netflix, Inc.",
+        "ticker": "NFLX",
+        "decision": "BUY",
+        "conviction": "high",
+        "target_size_pct_nav": 8,
+        "opportunity_template": [
+          "T1"
+        ],
+        "catalyst_role": "C0",
+        "gate1_hard_fail": true,
+        "valuation": {
+          "entry_multiple": "29.2x EV/EBIT",
+          "eps_path": "15-18% annual growth driven by price increases and margin expansion via content efficiency",
+          "terminal_multiple": "25x",
+          "irr_pct": 22,
+          "downside_case": "Failure to stabilize subscriber growth could lead to a multiple re-rating to 18-20x."
+        },
+        "drivers": [
+          {
+            "driver": "A dominant global streaming platform with 221.84 million paid memberships and significant operating leverage as it scales [D01].",
+            "citations": [
+              "D01"
+            ]
+          },
+          {
+            "driver": "A valuation dislocation where the shares trade at a 44.7% discount from record highs following an overreaction to short-term subscriber volatility [D04].",
+            "citations": [
+              "D04"
+            ]
+          },
+          {
+            "driver": "High-quality management team that has demonstrated an ability to improve operating margins to 21% while proposing governance reforms [D01][D02].",
+            "citations": [
+              "D01",
+              "D02"
+            ]
+          },
+          {
+            "driver": "A long-term growth algorithm centered on subscriber stabilization, price increases, and improved capital efficiency in content production [D02][D03].",
+            "citations": [
+              "D02",
+              "D03"
+            ]
+          },
+          {
+            "driver": "The variant perception that the market’s focus on slowing Q1 net additions ignores the structural, durable competitive advantage and long-term earnings power of the business [D03][D05].",
+            "citations": [
+              "D03",
+              "D05"
+            ]
+          }
+        ],
+        "kill_criteria": [
+          "Net subscriber additions remain negative or show no growth for two consecutive quarters.",
+          "Management shifts strategy to aggressive, leverage-funded acquisitions that deviate from the core streaming business model.",
+          "Operating margins show a sustained decline due to an inability to manage content spend intensity.",
+          "Competitive churn significantly increases, indicating a structural loss of the pricing power moat."
+        ],
+        "what_would_change_our_mind": "Evidence that subscriber growth deceleration is structural rather than transient, or a permanent failure to achieve sustained, capital-efficient free cash flow.",
+        "memo": "Netflix is a dominant, high-growth streaming entertainment franchise that has achieved unprecedented global scale with 221.84 million paid memberships [D01]. The company possesses significant operating leverage and a durable competitive advantage, allowing it to aggregate content spend across a massive, recurring revenue base [D01]. \n\nWe believe the current market environment has created an asymmetric opportunity, as the shares have declined 44.7% from recent highs due to an overreaction to short-term volatility in subscriber guidance [D03][D04]. The market is mispricing the stock by focusing on quarter-to-quarter subscriber fluctuations while ignoring the long-term scalability of the platform and the underlying durability of the business model [D03][D05].\n\nAt a current EV/EBIT of 29.2x, we are acquiring a world-class compounder at an attractive entry point relative to its long-term growth potential [D04]. We expect the earnings path to be defined by 15-18% annual growth, driven by disciplined pricing power and the expansion of operating margins as content production becomes increasingly capital-efficient [D02][D03]. We anticipate a multiple re-rating as the company progresses toward normalized free cash flow generation.\n\nOur role is that of a supportive, long-term shareholder in a business that requires no active intervention to unlock value [D08]. We see the normalization of subscriber growth and the realization of inherent operating leverage as the primary catalysts for value creation over the next three years [D01][D03].\n\nRisks include a structural loss of pricing power due to increased competition or a failure to convert content investment into sustained free cash flow [D02][D05]. We have built a high-conviction core position representing 8% of our NAV, as the company’s digital-native model offers unique, high-quality exposure that complements our existing portfolio [D08].",
+        "uncited_claims": []
+      }
+    },
+    {
+      "anonymous_id": "C2",
+      "final": {
+        "as_of_date": "2022-01-24",
+        "company": "Netflix, Inc.",
+        "ticker": "NFLX",
+        "decision": "BUY",
+        "conviction": "high",
+        "target_size_pct_nav": 10,
+        "opportunity_template": [
+          "T1"
+        ],
+        "catalyst_role": "C0",
+        "gate1_hard_fail": true,
+        "valuation": {
+          "entry_multiple": "34.4x trailing P/E",
+          "eps_path": "15-20% CAGR to $19-$25 EPS over 3-5 years",
+          "terminal_multiple": "25x",
+          "irr_pct": 22,
+          "downside_case": "Multiple contraction to 15-18x if margins are structurally impaired, mitigated by 44.7% prior drawdown."
+        },
+        "drivers": [
+          {
+            "driver": "Netflix is the dominant global streaming leader with 221.84 million paid memberships and significant scale advantages [D01].",
+            "citations": [
+              "D01"
+            ]
+          },
+          {
+            "driver": "The company is transitioning from a debt-funded model to a self-funded growth engine, which will drive significant margin expansion and free cash flow generation [D03].",
+            "citations": [
+              "D03"
+            ]
+          },
+          {
+            "driver": "The recent 44.7% stock drawdown from its record high offers an attractive entry point at 34.4x trailing earnings for a high-quality compounder [D04].",
+            "citations": [
+              "D04"
+            ]
+          },
+          {
+            "driver": "Market participants are overreacting to short-term subscriber volatility in Q1 guidance while ignoring the durability of the global platform [D03].",
+            "citations": [
+              "D03",
+              "D05"
+            ]
+          }
+        ],
+        "kill_criteria": [
+          "Subscriber net additions turn negative for two consecutive quarters.",
+          "Management abandons the target of transitioning to a self-funded, free-cash-flow-generative business model.",
+          "Operating margins show sustained compression rather than expansion as content spending matures.",
+          "Increased competitive intensity leads to a material, permanent decline in global retention/churn rates."
+        ],
+        "what_would_change_our_mind": "Evidence that intensifying competition has permanently impaired the business's pricing power, resulting in structural margin compression and a failure to reach sustainable free cash flow.",
+        "memo": "Netflix is the preeminent global streaming platform, providing on-demand entertainment to over 221 million subscribers [D01]. The business model possesses significant barriers to entry through massive scale, proprietary content engagement, and a global reach that is difficult to replicate [D01]. \n\nWe believe the market has fundamentally misjudged the company following the release of its Q4 results [D03]. While the market is fixated on near-term subscriber deceleration and weak Q1 guidance, it is failing to account for the transition from a debt-funded content strategy to a self-funded growth model [D03]. This shift is the catalyst that will transform the company into a dominant, free-cash-flow-generative machine [D03].\n\nWe were able to acquire our stake at approximately 34.4x trailing earnings following a 44.7% drawdown [D04]. With content spending maturing, we anticipate a path of 15-20% annual EPS growth driven by operating margin expansion and disciplined capital allocation [D02, D03]. We view a terminal multiple of 25x as appropriate for a dominant, FCF-generative franchise, supporting a high internal rate of return.\n\nOur role is that of a patient, long-term investor in a high-quality compounder [D04]. We do not require active intervention, as the management team led by Reed Hastings and Ted Sarandos has already committed to the necessary financial pivot toward self-funding and improved governance [D01, D03].\n\nThe primary risk remains competitive pressure, which could impact churn and pricing power [D05, D06]. Should we see negative subscriber growth for two consecutive quarters or evidence of sustained margin compression, we will re-evaluate our thesis [D03, D05].\n\nWe are establishing an initial 5% position with a target of 10% of NAV. Netflix's dominant position and attractive valuation dislocation make it an ideal fit for our portfolio [D04].",
+        "uncited_claims": []
+      }
+    }
+  ]
+}

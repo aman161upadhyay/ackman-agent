@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate uses the documents provided to construct a rational hedge thesis but lacks the granular execution data (dealer spreads/terms) mentioned as missing in the documents. Semantic presence was evaluated based on explicit text in the candidate memo matching the themes of the gold drivers.",
+  "cause_evidence": "The candidate makes specific claims about the attractiveness and payoff profile of CDS protection [L10] that the provided documents (e.g., D02, D03) state cannot be quantitatively assessed without specific dealer terms and pricing models, which were not available.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Pandemic interruption risk was not adequately reflected in credit protection pricing.",
+      "index": 1,
+      "reason": "The candidate mentions that markets may not 'fully reflect the potential for a systemic credit event' [L11], but does not make a specific claim that pandemic interruption risk itself was mispriced in credit protection instruments.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "our commitment is limited to a defined premium that keeps our carrying cost affordable while providing significant upside in the event of a market dislocation",
+      "document": "D02_market_pricing.md",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Limited premiums offered an unusually asymmetric potential stress payoff.",
+      "index": 2,
+      "reason": "While the candidate discusses limited premiums and asymmetric payoffs [L10], the document D02 explicitly states: 'No option premium surface or direct cost comparison was recovered.' [L19]",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Unlike selling our long-term holdings, which would crystallize losses and force us to exit positions in high-quality compounders, a credit hedge allows us to generate liquidity precisely when other opportunities might arise",
+      "document": "D04_portfolio_exposure.md",
+      "document_quote": "A hedge may aim to protect purchasing power and avoid selling favored holdings into a disorderly market rather than express a permanent negative view on their intrinsic value.",
+      "evidence_supported": true,
+      "gold_driver": "Protect concentrated quality-equity holdings without forced liquidation.",
+      "index": 3,
+      "reason": "The candidate explicitly cites the goal of avoiding forced liquidation of quality holdings to maintain liquidity [L10], supported by D04 [L21].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "a credit hedge allows us to generate liquidity precisely when other opportunities might arise",
+      "document": "D03_instrument_economics.md",
+      "document_quote": "If protection becomes more valuable during stress and can be closed at an attractive bid, it can create liquidity while long equity positions are impaired.",
+      "evidence_supported": true,
+      "gold_driver": "Create liquidity to redeploy into attractive long investments when risk repriced.",
+      "index": 4,
+      "reason": "The candidate links the hedge to generating liquidity for future opportunities [L10], which is supported by the mechanics described in D03 [L20].",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate claims the hedge offers favorable asymmetry and liquidity creation, but lacks specific market data or dealer quotes to verify that the cost was truly 'affordable' or that the protection was mispriced relative to the potential impact as of the cutoff date.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "audit_notes": "The candidate's memo accurately reflects the available information as of the May 14, 2024 cutoff. Gold drivers provided reference retrospective 2025 reports; the audit evaluated the candidate based solely on the pre-cutoff documents (D01-D08).",
+  "cause_evidence": "The candidate's causal account aligns with the provided source documents as of May 14, 2024.",
+  "drivers": [
+    {
+      "candidate_quote": "Nike, Inc. is a dominant global athletic brand with an unmatched combination of brand equity, athlete endorsements, and distribution scale that makes it one of the most durable businesses in the consumer sector",
+      "document": "D01_business_overview.md",
+      "document_quote": "Brand investment, product innovation, athlete relationships and retail distribution support the economic franchise.",
+      "evidence_supported": true,
+      "gold_driver": "Global brand and scale remain valuable despite product and distribution missteps.",
+      "index": 1,
+      "reason": "The candidate asserts the durability of Nike's brand and scale despite the challenges mentioned in the context.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Renewed innovation, stronger storytelling and wholesale cooperation could restore growth.",
+      "document": "D05_market_worries.md",
+      "document_quote": "Renewed innovation, stronger storytelling and wholesale cooperation could restore growth.",
+      "evidence_supported": true,
+      "gold_driver": "Renewed innovation and wholesale cooperation can repair demand.",
+      "index": 2,
+      "reason": "The candidate directly identifies innovation and wholesale cooperation as the repair levers for the business.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "At a trailing P/E of 27.3x, we are able to acquire our stake at an attractive valuation relative to the brand's long-term earnings power",
+      "document": "D04_price_valuation.md",
+      "document_quote": "At roughly the high-twenties on trailing earnings, an investment requires confidence in franchise durability and renewed growth or margins.",
+      "evidence_supported": true,
+      "gold_driver": "Depressed profits offer recovery upside if execution improves.",
+      "index": 3,
+      "reason": "The candidate links the current valuation to long-term recovery potential, supported by the context that current margins are compressed.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Hill's company knowledge supported the thesis after his September appointment; it was not an observable May catalyst and should not be required in pre-entry reasoning.",
+      "index": 4,
+      "reason": "The candidate does not mention Hill's appointment or knowledge, which is correct given that the event occurred after the May 14 as_of_date.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "none",
+  "primary_cause": "none",
+  "semantic_leakage": []
+}

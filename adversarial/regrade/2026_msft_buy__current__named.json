@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The gold drivers reference content from May 2026 (e.g., [L77]), which post-dates the cutoff of January 2026 [L3]. Consequently, several gold drivers are fundamentally unanswerable using the provided source documents.",
+  "cause_evidence": "The candidate focuses on 'fortress balance sheet' and 'integrated security' [L46] while the gold driver relies on specific post-May 2026 external commentary [L77] not available in the January 2026 source documents.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "M365 is an embedded enterprise workflow platform rather than an easily displaced point solution.",
+      "index": 1,
+      "reason": "The candidate does not make the specific claim that M365's integration makes it less vulnerable to disintermediation than point solutions; it discusses broader ecosystem dominance [D01].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "39% Azure growth validates the long-term AI strategy",
+      "document": "D01_business_overview.md",
+      "document_quote": "Azure benefits from customers moving workloads into managed infrastructure and from AI training/inference demand.",
+      "evidence_supported": true,
+      "gold_driver": "Azure benefits from secular migration and AI demand, with multiple-model distribution.",
+      "index": 2,
+      "reason": "The candidate links Azure growth to AI strategy, supported by document text confirming Azure's role in migration and AI demand.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Copilot and consumption-based monetization can expand the valuable existing enterprise bundle.",
+      "index": 3,
+      "reason": "The candidate mentions Copilot and growth but does not explicitly argue that Copilot monetization expands the existing enterprise bundle.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "The post-results decline offered an attractive multiple with additional OpenAI equity value.",
+      "index": 4,
+      "reason": "The candidate cites a 26.9x trailing P/E [L46] and mentions OpenAI gains [L64], but does not make the gold's specific claim about forward earnings valuation or the specific thesis regarding the post-results decline.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "iii_key_or_grader_problem",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "audit_notes": "The gold drivers rely on a source dated 2026-05-15, which is outside the provided content's as_of_date of 2026-01-30. The candidate memo remains within the provided cut-off date.",
+  "cause_evidence": "The candidate's memo emphasizes the current 22.5% drawdown [L47] and the long-term compounding potential of the business, but does not include the specific forward-multiple-based entry thesis or the specific articulation of M365 as an undislaceable workflow platform found in the gold driver set.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "M365 is an embedded enterprise workflow platform rather than an easily displaced point solution.",
+      "index": 1,
+      "reason": "The candidate makes a general statement about enterprise software moats but does not explicitly claim that M365 is embedded as an enterprise workflow platform that resists displacement as a point solution.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Azure benefits from secular migration and AI demand, with multiple-model distribution.",
+      "index": 2,
+      "reason": "The candidate mentions Azure benefits from secular cloud growth and AI, but it does not claim the benefit is derived specifically from multiple-model distribution.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Copilot and consumption-based monetization can expand the valuable existing enterprise bundle.",
+      "index": 3,
+      "reason": "The candidate mentions monetization of Copilot but does not claim it expands the enterprise bundle.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "The post-results decline offered an attractive multiple with additional OpenAI equity value.",
+      "index": 4,
+      "reason": "The candidate notes an attractive valuation and the drawdown, but does not explicitly link the purchase decision to 'additional OpenAI equity value' in the thesis driver.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate's causal account is generic relative to the gold drivers, failing to explicitly state the specific forward-valuation and product-moat drivers.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [
+    {
+      "confidence": "high",
+      "document": "https://x.com/BillAckman/status/2055206659849437592 (2026-05-15)",
+      "quote": "We were able to establish our position at a valuation of 21 times forward earnings",
+      "reason": "The gold driver source is dated May 2026, which is after the provided as_of_date of January 30, 2026."
+    }
+  ],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

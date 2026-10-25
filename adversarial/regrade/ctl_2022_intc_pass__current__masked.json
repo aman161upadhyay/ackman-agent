@@ -1,0 +1,60 @@
+{
+  "audit_notes": "The candidate analysis successfully identified the FCF/CAPEX conflict as a core reason for the 'PASS' decision, aligning with the qualitative standards provided in D08. Other drivers were either not explicitly stated or lacked the required causal framing in the candidate memo.",
+  "cause_evidence": "The candidate performs a fundamental evaluation against a specific 'quality-compounder' mandate (capital-light, predictable cash generation) rather than just a cyclical trading screen.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Process-roadmap and competitive-reset uncertainty make long-term distributable cash difficult to bound; incumbent scale alone is insufficient.",
+      "index": 1,
+      "reason": "The candidate discusses manufacturing roadmap risks, but does not explicitly link process-roadmap uncertainty to the inability to bound long-term distributable cash.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "our investment standard requires simple, predictable, and free-cash-flow-generative businesses, and Intel currently fails this test due to significant negative free cash flow driven by the intense capital demands of its IDM 2.0 transformation",
+      "document": "D02_financial_snapshot.md",
+      "document_quote": "For the first nine months, operating cash flow isUS$7.730 billion and cash additions to property/equipmentUS$19.145 billion. The simple difference is negativeUS$11.415 billion",
+      "evidence_supported": true,
+      "gold_driver": "Large manufacturing investment and negative adjusted FCF weaken the fit with self-funding long investments; low earnings multiple/dividend does not fix reinvestment economics.",
+      "index": 2,
+      "reason": "The candidate accurately identifies that negative free cash flow from capital intensity conflicts with their investment standards for predictable cash generation.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "PC cyclicality and technological execution dominate outcomes beyond ordinary operating activism; pass unless a separately justified bounded special situation can be demonstrated.",
+      "index": 3,
+      "reason": "The candidate mentions cyclicality and execution as risks [L44], but does not make the causal claim that these factors dominate outcomes beyond the reach of operational activism.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate correctly rejects the stock based on its current failure to meet cash-generation criteria despite acknowledging the valuation discount.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

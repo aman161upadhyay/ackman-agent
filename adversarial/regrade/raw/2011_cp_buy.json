@@ -1,0 +1,94 @@
+{
+  "audit_notes": "Candidate C2 demonstrates a much stronger alignment with the gold key, specifically addressing the governance and operational change requirement explicitly.",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "The candidate failed to articulate the gold driver for board change enabling an operational plan.",
+      "drivers": [
+        {
+          "candidate_quote": "The company operates a scarce, transcontinental freight rail network protected by significant barriers to entry [D01].",
+          "document": "D01_business_overview.md",
+          "document_quote": "Its physical right-of-way, terminals and connections form the competitive asset; replicating a network requires land, construction, regulatory approvals and sufficient traffic density.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The candidate correctly identifies the company as a scarce, transcontinental rail network with barriers to entry, which is supported by D01.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "A substantial operational self-help opportunity exists, as the current 81.8% operating ratio lags industry peers like Canadian National at 63.6% [D03, D06].",
+          "document": "D03_latest_results_and_guidance.md",
+          "document_quote": "The operating ratio deteriorated to 81.8% from 77.8%; the first-half ratio was 86.0%, versus 80.0%.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The candidate captures the operational gap by citing the 81.8% operating ratio found in D03 and D06.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "We can acquire this high-moat asset at an attractive entry valuation of ~15x trailing earnings while management targets a significant margin expansion [D03, D04, D06].",
+          "document": "N/A",
+          "document_quote": "N/A",
+          "evidence_supported": false,
+          "index": 3,
+          "reason": "The gold driver regarding the board change and operational plan is missing. The candidate focuses only on valuation and margin, not the governance mechanism.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "As management executes on the necessary operational improvements, we expect a substantial increase in earnings per share, providing an expected IRR of approximately 22% in our base case [D03, D04].",
+          "document": "D04_price_and_valuation.md",
+          "document_quote": "FY2010 EPS of C$3.85 gives a 12.6x historical fiscal-year P/E. A trailing-twelve-month approximation replaces H1 2010 EPS of C$1.58 with H1 2011 EPS of C$0.95: C$3.22, implying 15.1x.",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The candidate correctly links operational improvement to higher earnings, matching the intent of the gold driver regarding improved per-share earnings.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "Missing the key mechanism for operational improvement (board change).",
+      "primary_cause": "iii_key_or_grader_problem"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "The candidate explicitly includes the required drivers and matches the gold key intent.",
+      "drivers": [
+        {
+          "candidate_quote": "Canadian Pacific operates a critical, high-barrier-to-entry transcontinental network of right-of-way and terminals [D01].",
+          "document": "D01_business_overview.md",
+          "document_quote": "Its physical right-of-way, terminals and connections form the competitive asset; replicating a network requires land, construction, regulatory approvals and sufficient traffic density.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "Matches the first gold driver.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The company suffers from a massive operational inefficiency, with a Q2 2011 operating ratio of 81.8% compared to 61.3% for its best-in-class peer [D06].",
+          "document": "D06_peer_and_industry_benchmarks.md",
+          "document_quote": "CP's Q2 2011 ratio was 81.8%, while CN reported 61.3% on July 25.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "Matches the operational gap description and cites correct supporting data.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "New leadership and management discipline can drive an earnings transformation, moving the operating ratio to the low 70s and unlocking significant intrinsic value [D03, D06, D07].",
+          "document": "D03_latest_results_and_guidance.md",
+          "document_quote": "Green said: “We remain committed to delivering our two- to four-year target of a low 70’s operating ratio and providing a quality service offering.”",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "Correctly links leadership and management discipline to the operational plan target.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "With a path to reaching an operating ratio in the low 70s, we anticipate normalized earnings potential of C$6.50 to C$7.00 per share [D03, D07].",
+          "document": "D03_latest_results_and_guidance.md",
+          "document_quote": "At the inception of our investment in 2011, CP earned $3.15 per share.",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "Connects the operating ratio target to the potential for higher earnings per share.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "None",
+      "primary_cause": "none"
+    }
+  ],
+  "semantic_leakage": []
+}

@@ -1,0 +1,165 @@
+{
+  "as_of_date": "2024-04-10",
+  "mode": "new",
+  "docs": {
+    "D01_business_overview.md": "Title: What BN owns, and why it is not BAM\nSource: compiled from: https://www.sec.gov/Archives/edgar/data/1001085/000117184324000675/exh_991.htm; https://bam.brookfield.com/sites/brookfield-bam/files/2023-02/2023-q1-bam-investor-presentation.pdf; https://bn.brookfield.com/sites/brookfield-bn-v2/files/brookfield-bn/events-news/investor-presentations/2023-bn-investor-day.pdf\nDate: 2024-02-08\n\nBrookfield Corporation is a diversified owner and allocator of capital, not simply the publicly listed fee manager. Its economic streams include asset management, insurance, listed operating affiliates, directly held real estate, fund investments and carried interest. Consolidated accounts include assets, debt and earnings partly belonging to outside investors.\n\nIn December 2022, Brookfield distributed 25% of its asset-management business through listed Brookfield Asset Management Ltd, ticker BAM. Contemporary 2023 investor materials show BN retaining 75% of the underlying manager. The residual ownership is not described as 73% here: that is not the structure established by the cited pre-cutoff evidence. Buying BN and buying BAM are different exposures.\n\nAsset management earns recurring fees on third-party capital and performance-related carried interest. Fee-bearing capital was $457 billion at December 2023, up 9%. Realizations determine when some performance economics become cash; accumulated unrealized carry is not immediately distributable cash.\n\nBN's annual asset-management DE was $2,554 million, insurance operating earnings $740 million and operating-business distributions $1,462 million. Corporate costs and other items were $(533) million, leaving $4,223 million DE before realizations. Realized carry and disposition gains increased total DE to $4,806 million.\n\nInsurance invests policyholder-funded capital and earns a spread after liabilities, expenses and underwriting effects. Assets were approximately $60 billion; management reported a 5.5% average investment yield, about two percentage points above average cost of capital. This spread is not risk-free and can change with credit losses, asset/liability mismatch or policyholder behavior.\n\nBruce Flatt is CEO; Nick Goodman is president. Management's credibility rests on a long operating and capital-allocation record, but complicated affiliated transactions and valuation judgments require scrutiny. Annual diluted average shares and equivalents were approximately 1,588.2 million.\n\nThe moat argument combines access to institutional capital, operating expertise in real assets and the ability to execute large transactions. The difficulty is determining which earnings are recurring, how much capital each stream requires and what portion actually belongs to BN shareholders.\n",
+    "D02_financial_snapshot.md": "Title: Earnings history through the latest annual report\nSource: compiled from: https://bn.brookfield.com/sites/brookfield-bn-v2/files/brookfield-bn/reports-filings/annual-reports/2023/five-year-financial-record-2023.pdf; https://www.sec.gov/Archives/edgar/data/1001085/000117184324000675/exh_991.htm\nDate: 2024-03-18\n\nDecember fiscal year ends; dollars are US. The December 2022 special distribution makes unadjusted year-to-year comparisons misleading.\n\n| Per-share metric | 2021 | 2022 | 2023 |\n|---|---:|---:|---:|\n| Diluted accounting EPS | $2.39 | $1.19 | $0.61 |\n| DE before realizations, five-year record | $2.18 | $2.68 | $2.66 |\n| Total distributable earnings | $3.96 | $3.25 | $3.03 |\n| Cash dividends | $0.52 | $0.56 | $0.28 |\n\nThe annual financial record's 2022 $2.68 before-realizations figure is historical, before adjusting away the distributed 25% manager interest. The February results release provides a comparable adjusted 2022 figure of $2.38. Against that adjusted base, 2023's $2.66 represents 12% per-share growth. Both numbers are retained with their definitions.\n\nConsolidated revenue was $95,924 million in 2023 versus $92,769 million in 2022, approximately 3.4% growth, calculated. Consolidated net income was $5,105 million, but only $1,130 million was attributable to Brookfield shareholders before preferred dividends. Treating the full consolidated income as BN common earnings would substantially overstate profitability.\n\nLatest-quarter total DE was $1,312 million or $0.83 per share, compared with $1,498 million or $0.94. Before realizations, DE was $1,209 million or $0.76, versus an adjusted $0.65. The contrast separates underlying operating growth from lumpy monetizations.\n\nAt December 31, corporate borrowings were $12,160 million and nonrecourse borrowings $221,550 million. Consolidated cash was $11,222 million, but cannot all be netted against parent debt as freely available corporate cash. Management described $38 billion cash, financial assets and undrawn facilities at BN and affiliates within $122 billion total deployable capital.\n\nBrookfield repurchased over $600 million of stock in 2023 and forecast at least $1 billion in 2024. The quarterly dividend increased to $0.08. A comparable parent-only FCF, maintenance-capex and ROIC series is unavailable; DE is management's non-IFRS measure, not a universally defined substitute for those quantities.\n",
+    "D03_latest_results.md": "Title: Growth in recurring earnings versus lower realizations\nSource: https://www.sec.gov/Archives/edgar/data/1001085/000117184324000675/exh_991.htm\nDate: 2024-02-08\n\nBrookfield's latest results are the February 8 release for Q4 and 2023. Total annual DE was $4.806 billion, down from $5.229 billion; before-realization DE per share increased 12% on the adjusted comparable ownership basis. Investors must decide which measure best captures sustainable earnings rather than choosing the larger growth number without reconciliation.\n\nPresident Nick Goodman said the asset manager had “very strong fundraising momentum,” insurance had a “transformational year,” and operating businesses demonstrated resilience. He also said management expected to acquire “at least a further $1 billion” of BN shares during 2024.\n\nAsset management raised $93 billion of capital in the year. Approximately $50 billion associated with anticipated American Equity Life closing would bring the total referenced capital to $143 billion. The pending transaction is not treated as completed at the release date. Fee-related earnings increased 6%, and fee-bearing capital reached $457 billion.\n\nInsurance annual operating earnings were $740 million. Management put year-end annualized earnings at $940 million and expected more than $100 billion of assets and $1.3 billion annualized earnings following AEL. Those latter numbers are forward-looking run-rate expectations, not 2023 reported cash distributions.\n\nCore real-estate same-store NOI grew 7%. Brookfield reported leasing over 15 million square feet across its office assets and core retail tenant sales per square foot 21% above 2019. These operating observations coexist with refinancing and valuation risk; a strong core portfolio does not establish that every property is healthy.\n\nRealizations contributed $583 million to DE, including $570 million of net realized carry. Accumulated unrealized carried interest was $10.2 billion. Management reported more than $30 billion of asset monetizations, substantially all above IFRS carrying values. That supports selected asset marks but does not independently validate every remaining valuation.\n\nThe board increased the dividend 14%. Management reiterated a 15%+ long-term per-share return target. No company-wide quarterly revenue or EPS guidance range comparable to a consumer company was supplied. The relevant forward framework is recurring earnings growth, capital deployment and realization timing, all of which remain subject to market conditions.\n",
+    "D04_price_valuation.md": "Title: Market price versus management's sum of parts\nSource: compiled from: https://query1.finance.yahoo.com/v8/finance/chart/BN?period1=1681171200&period2=1712793600&interval=1d; https://bn.brookfield.com/sites/brookfield-bn-v2/files/brookfield-bn/events-news/investor-presentations/2023-bn-investor-day.pdf; https://www.sec.gov/Archives/edgar/data/1001085/000117184324000675/exh_991.htm\nDate: 2024-04-10\n\nThe historical price series, expressed in contemporaneous share units rather than a subsequently split-adjusted denominator, gives an April 10 close of $39.18. The one-year intraday range is approximately $28.84–$43.17. The close is approximately 9.2% below that high. Trading volume was approximately 3.400 million contemporaneous shares, versus a window average approximately 2.472 million. The raw archive normalizes shares and volume; price and earnings here are put on the same contemporaneous basis.\n\nAt $39.18, price/2023 total DE of $3.03 is 12.9 times; price/DE before realizations of $2.66 is 14.7 times. Price/accounting EPS of $0.61 is 64.2 times. All three are trailing analyst calculations, and their wide divergence illustrates why the earnings definition matters.\n\nUsing approximately 1,588.2 million annual diluted shares and equivalents gives illustrative capitalization of $62.23 billion. This is not exact April common capitalization. A clean EV/EBITDA ratio is not supplied because consolidated debt, minority interests and affiliate operating earnings cannot be mixed casually.\n\nThe September 2023 investor day estimated $74 per share plan value, or $120 billion net asset value. Public holdings contributed $60 billion: $40 billion asset management, $9 billion renewables, $8 billion infrastructure and $3 billion business partners. Private holdings contributed $78 billion: $14 billion direct fund investments, $32 billion carried interest, $14 billion core property, $10 billion transitional/development property and $8 billion insurance. Debt and preferred capital deducted $18 billion.\n\nThe April close is approximately 47.1% below that $74 plan value, calculated. But the plan value is management's estimate using June 2023 inputs, not an independently executable liquidation value. Carry and insurance multiples are especially assumption-sensitive.\n\nInvestor day targeted $163 plan value by 2028, implying 17% annual compounding from $74. That is a plan, not a guaranteed stock return. Matching forward consensus DE, peer multiples, historical valuation range and S&P forward P/E were not recovered.\n\nThe critical margin of safety is therefore the conservatism of the asset assumptions and the durability of distributable earnings, not merely the headline percentage discount.\n",
+    "D05_market_worries.md": "Title: Real-estate stress and skepticism toward complex accounting\nSource: compiled from: https://news.bloomberglaw.com/bankruptcy-law/brookfield-defaults-on-161-million-debt-for-office-buildings; https://www.sec.gov/Archives/edgar/data/1001085/000117184324000675/exh_991.htm; https://bn.brookfield.com/sites/brookfield-bn-v2/files/brookfield-bn/events-news/investor-presentations/2023-bn-investor-day.pdf\nDate: 2024-04-10\n\nBloomberg's April 18, 2023 report says Brookfield funds defaulted on a $161.4 million mortgage associated with a dozen office buildings, mainly around Washington, DC. It linked pressure on property values to vacancies, remote work and higher borrowing costs. The report predates this cutoff and illustrates the property overhang; it is not a claim that BN's parent debt defaulted.\n\nNonrecourse financing limits contractual parent exposure, but does not make property losses economically irrelevant. Equity can be impaired, distributions reduced and future fundraising affected. Nor does it prove that the parent will never support a troubled affiliate for commercial reasons. The exact obligations and incentives require investment-by-investment analysis.\n\nA second worry is the reliance on management-defined DE and private valuations. Consolidated revenue and debt are enormous, yet outside investors own large portions of the underlying businesses. Fair-value gains and disposition gains complicate accounting EPS, while DE removes or reallocates several accounting items. Neither consolidated EPS nor a management earnings measure should be accepted without reconciliation.\n\nThe September investor day valued carried interest at $32 billion, making it a significant portion of private plan value. The February earnings release reports $10.2 billion accumulated unrealized carry. These are not the same metric: a capitalized future stream can exceed currently accrued amounts, but is more sensitive to assumptions about fund performance, fundraising and realization timing.\n\nInsurance adds another layer. Growing assets can create recurring spread earnings, but also introduces long-duration liabilities, credit exposure and asset/liability-management requirements. Fast balance-sheet growth alone is not equivalent to fee-related earnings growth in a capital-light manager.\n\nManagement's response is strong fundraising, growing recurring DE, selected realizations above carrying value and share repurchases. These are observable counterpoints, not proof that every discount is irrational.\n\nThe available dated independent press does not provide a fully quantified bearish sum of parts. The central question remains whether the discount compensates adequately for real-estate uncertainty, capital requirements, related-party complexity and the possibility that reported plan value takes years to realize.\n",
+    "D06_peer_industry.md": "Title: Comparing recurring fee earnings without ignoring the balance sheet\nSource: compiled from: https://www.sec.gov/Archives/edgar/data/1393818/000119312524014831/d701698dex991.htm; https://www.sec.gov/Archives/edgar/data/1404912/000140491224000002/q423earningsrelease_vf.htm; https://www.sec.gov/Archives/edgar/data/1001085/000117184324000675/exh_991.htm\nDate: 2024-02-08\n\nBlackstone, KKR and listed BAM are relevant alternative-manager benchmarks, but none should be used as a direct consolidated accounting comparison for BN. The investable unit and capital intensity differ. BN includes significant invested capital and property exposure beyond its stake in the fee manager.\n\nBlackstone's January 25 release reported 2023 fee-related earnings of $4.3 billion, or $3.58 per share, and approximately $5.1 billion DE. Its earnings discussion says fee-earning AUM increased 6%, while base management fees rose 7% to a record $6.5 billion. Performance revenues were lower in a difficult realization environment.\n\nKKR's February 6 release reported $446 billion fee-paying AUM, up 8%, with $71 billion organic capital raised during 2023 and $32 billion in Q4. KKR also combines management economics with insurance exposure through Global Atlantic, making it useful for understanding both scale benefits and the additional balance-sheet risks.\n\nBrookfield's latest release reports $457 billion fee-bearing capital, up 9%, and 6% growth in fee-related earnings. Its $2.554 billion asset-management DE is BN's reported economic stream, not the same as 100% of the asset manager's total fee revenue.\n\n| Relevant comparison | What it tests |\n|---|---|\n| Blackstone fee growth versus Brookfield | Durability of recurring institutional fees |\n| KKR fundraising versus Brookfield | Ability to attract new capital in a difficult market |\n| BAM versus BN | Pure manager exposure versus holding-company capital allocation |\n| Insurance earnings versus fees | Spread/capital risk versus capital-light recurring economics |\n\nPre-cutoff comparable forward multiples and consistently defined peer FRE margins are not independently recovered. Applying a premium peer fee multiple to every dollar of BN DE would overvalue property and investment income if those deserve lower multiples.\n\nThe alternative industry benefits from long-duration institutional commitments and specialized investment/operating capabilities. However, fundraising, realizations and carry remain cyclical. Scale can improve access to deals and capital, while private-market complexity can conceal risk. A defensible BN valuation must separate recurring management income from capital-dependent returns before borrowing a peer multiple.\n",
+    "D07_event_timeline.md": "Title: Structural separation, property pressure and the investor-day plan\nSource: compiled from: https://bam.brookfield.com/sites/brookfield-bam/files/2023-02/2023-q1-bam-investor-presentation.pdf; https://news.bloomberglaw.com/bankruptcy-law/brookfield-defaults-on-161-million-debt-for-office-buildings; https://bn.brookfield.com/sites/brookfield-bn-v2/files/brookfield-bn/events-news/investor-presentations/2023-bn-investor-day.pdf; https://www.sec.gov/Archives/edgar/data/1001085/000117184324000675/exh_991.htm\nDate: 2024-04-10\n\nDecember 2022: Brookfield distributed a 25% interest in the asset-management business through listed BAM, retaining 75% at BN. The transaction creates a public valuation reference for part of BN while leaving investors with two different securities and economic exposures.\n\nFebruary 2023: the asset-manager presentation illustrates that 25%/75% structure and distinguishes listed BAM from the underlying manager. An investor cannot simply treat BN as owning 75% of BAM's quoted market capitalization without adjusting for the fact that the listed security represents only the distributed interest.\n\nApril 18, 2023: Bloomberg reported a $161.4 million office-property mortgage default by Brookfield funds. This is a concrete episode supporting real-estate concern. It is not evidence that the holding company defaulted on its own bonds.\n\nSeptember 2023: investor day set out $74 per-share plan value and a $163 target by 2028. Asset management, insurance and reinvestment were major growth levers. Public asset values and management-valued private assets require different confidence levels; the five-year objective is a management scenario.\n\nDuring 2023: Brookfield raised $93 billion and monetized more than $30 billion in assets. It repurchased more than $600 million of shares. The latter represents management allocating capital to the corporate discount rather than relying only on new acquisitions.\n\nFebruary 8, 2024: annual results reported $4.806 billion DE, $2.66 per share before realizations and a quarterly dividend increase to $0.08. Management expected at least $1 billion of repurchases in 2024 and larger insurance earnings after the anticipated AEL transaction.\n\nMarch 18, 2024: the annual report provides the audited historical context, including the five-year financial record. The raw series must be adjusted conceptually for the 2022 special distribution before comparing growth.\n\nApril 10, 2024: the market price remains well below management's last published plan value. That observed gap is a starting point for analysis, not a promised catalyst. No later corporate simplification, index event, investment disclosure or revised valuation is included in the decision information.\n",
+    "D08_pershing_context.md": "Title: Capital-allocation orientation and the observable portfolio\nSource: https://assets.pershingsquareholdings.com/2024/03/22201541/Pershing-Square-Holdings-Ltd.-2023-Annual-Report.pdf\nDate: 2024-03-22\n\nPSH's latest annual report gives December 31, 2023 net assets of approximately $12.06 billion and cash and equivalents of $1,928,920,630. Total firm AUM is not independently established here. PSH NAV and cash should not be labeled firm-wide AUM or assumed unchanged on April 10.\n\nThe annual report's schedule gives these approximate PSH NAV allocations, not 13F weights:\n\n| Holding | December 2023 share of NAV |\n|---|---:|\n| Universal Music, direct | 24.88% |\n| Chipotle | 13.71% |\n| Restaurant Brands, including partnership interest | 13.50% |\n| Alphabet, combined classes | 14.06% |\n| Hilton | 12.15% |\n| Howard Hughes | 11.72% |\n| Canadian Pacific Kansas City | 8.70% |\n\nAn affiliated vehicle adds approximately 2.51% Universal Music exposure. Other financial-services positions and derivatives mean the table is not a complete unlevered allocation summing to 100%. The report identifies Alphabet as the company added in 2023 and Lowe's as the exit.\n\nThe strategy favors a limited number of high-quality businesses, strong management and long holding periods. Its asset-light franchise holdings and rail investment demonstrate that “quality” is not synonymous with a single accounting form. Nonetheless, BN's holding structure, insurance and private marks demand a more detailed cash-flow decomposition than a simple branded consumer business.\n\nNo verified BN-specific Ackman recommendation made before April 10 is supplied. Existing familiarity with real-estate investing is not a substitute for an attributable current statement or a valuation.\n\nThe manager has the ability to own a minority position without leading a campaign. A potential BN investment can therefore rest on compounding and capital allocation rather than requiring public activism or a rapid structural transaction.\n\nPortfolio fit turns on whether the recurring fee stream and trusted allocation process outweigh complexity and property risk. A discount to management NAV is not sufficient alone: the analyst must test conservative component values, parent liquidity and the capital needed to support insurance growth. Concentration increases the importance of those downside checks.\n"
+  },
+  "answer_key": {
+    "actual_decision": "BUY",
+    "reason_class": null,
+    "drivers": [
+      {
+        "driver": "Holding-company complexity created a discount to underlying economic value.",
+        "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03 retrospective)",
+        "quote": "the complexity of BN’s holding company structure"
+      },
+      {
+        "driver": "BAM supplies capital-light recurring fee earnings and growth.",
+        "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03 retrospective)",
+        "quote": null
+      },
+      {
+        "driver": "Bruce Flatt and his team are strong long-term capital allocators.",
+        "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03 retrospective)",
+        "quote": null
+      },
+      {
+        "driver": "Insurance growth and future carried interest add value not captured by simple current multiples.",
+        "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03 retrospective)",
+        "quote": null
+      }
+    ],
+    "pack_quality_notes": "75%, not later73%, is the contemporaneously evidenced underlying-manager ownership. Subsequent split-adjusted Yahoo price normalized to original share units without adding later corporate events to pack. Historical three-year DE/EPS supplied; full parent FCF/capex/ROIC and forward peer multiples unavailable. NAV component values are management estimates, not independent valuations."
+  },
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "final": {
+        "as_of_date": "2024-04-10",
+        "company": "the Company (XXX)",
+        "ticker": "BAM",
+        "decision": "BUY",
+        "conviction": "medium",
+        "target_size_pct_nav": 6,
+        "opportunity_template": [
+          "T3"
+        ],
+        "catalyst_role": "C0",
+        "gate1_hard_fail": false,
+        "valuation": {
+          "entry_multiple": "14.7x DE before realizations [D04]",
+          "eps_path": "15% annual growth target [D03]",
+          "terminal_multiple": "16x",
+          "irr_pct": 18,
+          "downside_case": "Continued market skepticism regarding real estate assets and consolidated accounting, mitigated by $11.2B cash position [D02, D05]."
+        },
+        "drivers": [
+          {
+            "driver": "A high-quality compounder with a dominant position in alternative asset management and institutional capital access [D01, D06].",
+            "citations": [
+              "D01",
+              "D06"
+            ]
+          },
+          {
+            "driver": "The market has discounted the shares due to structural complexity and real estate sensitivity, providing an entry at 14.7x DE before realizations [D04, D05].",
+            "citations": [
+              "D04",
+              "D05"
+            ]
+          },
+          {
+            "driver": "Management’s demonstrated discipline in capital allocation, specifically executing share repurchases while the stock trades at a discount to plan value [D02, D03].",
+            "citations": [
+              "D02",
+              "D03"
+            ]
+          },
+          {
+            "driver": "A clear earnings growth algorithm supported by growing fee-bearing capital and a projected $1.3B insurance earnings run rate [D01, D03].",
+            "citations": [
+              "D01",
+              "D03"
+            ]
+          }
+        ],
+        "kill_criteria": [
+          "Management fails to maintain the 15% long-term per-share return target for more than two consecutive quarters [D03].",
+          "Insurance investment yield spreads compress significantly below cost of capital [D01].",
+          "Share repurchases cease while the stock remains at a significant discount to plan value [D03]."
+        ],
+        "what_would_change_our_mind": "Evidence of deteriorating underwriting standards in the real estate portfolio or structural inability to convert fee-bearing capital into sustained cash-generative earnings.",
+        "memo": "The Company is a world-class, diversified alternative asset manager and capital allocator that fits our criteria for a high-quality compounder [D01, D06]. With $457B in fee-bearing capital and a significant, growing insurance platform, the business generates predictable, durable earnings streams [D01, D03].\n\nCurrently, the market has mispriced the business due to structural complexity, an aversion to consolidated real estate exposure, and skepticism toward its accounting metrics [D05]. We believe this skepticism is misplaced, as the firm’s underlying business remains robust, supported by a strong $11.2B cash position and a proven ability to scale [D02, D03].\n\nWe were able to acquire our stake at 14.7x DE before realizations, a valuation that does not fully reflect the firm’s 15% long-term per-share return target [D03, D04]. We anticipate a re-rating toward a 16x multiple as the firm simplifies its reporting and scales its fee-related earnings [D03].\n\nOur role is that of a long-term, quiet partner supporting a management team with a stellar track record [D01, D03]. We rely on the company’s capital allocation, including consistent share buybacks, to drive shareholder value [D02, D03].\n\nThe primary risk remains the structural opacity of the consolidated balance sheet and potential systemic real estate markdowns [D05]. However, the business’s scale and diversified model provide a significant cushion against such volatility [D01, D02].\n\nWe are initiating a 3% position with a target to reach 6% of NAV as we gain further comfort with the firm's evolving reporting transparency.",
+        "uncited_claims": []
+      }
+    },
+    {
+      "anonymous_id": "C2",
+      "final": {
+        "as_of_date": "2024-04-10",
+        "company": "Brookfield Corporation",
+        "ticker": "BN",
+        "decision": "BUY",
+        "conviction": "medium",
+        "target_size_pct_nav": 8,
+        "opportunity_template": [
+          "T3"
+        ],
+        "catalyst_role": "C0",
+        "gate1_hard_fail": false,
+        "valuation": {
+          "entry_multiple": "14.7x 2023 DE before realizations",
+          "eps_path": "15% compound annual growth target per share",
+          "terminal_multiple": "15x",
+          "irr_pct": 22,
+          "downside_case": "Persistent conglomerate discount and potential capital impairment in the real estate office portfolio."
+        },
+        "drivers": [
+          {
+            "driver": "Brookfield is a dominant, diversified global allocator of capital with a massive moat built on specialized operating expertise in real assets and deep institutional relationships [D01].",
+            "citations": [
+              "D01"
+            ]
+          },
+          {
+            "driver": "The market has mispriced the company as a distressed real estate entity, ignoring the high-quality, recurring fee-generative nature of its asset management and insurance businesses [D01, D05, D07].",
+            "citations": [
+              "D01",
+              "D05",
+              "D07"
+            ]
+          },
+          {
+            "driver": "We are able to initiate a position at a substantial 47% discount to management's internal plan value, providing an attractive margin of safety for a quality compounder [D04].",
+            "citations": [
+              "D04"
+            ]
+          },
+          {
+            "driver": "Management's track record of 12% annual growth in DE before realizations and a stated 15%+ return target are supported by accretive capital allocation, including over $1B in forecasted 2024 share repurchases [D02, D03].",
+            "citations": [
+              "D02",
+              "D03"
+            ]
+          }
+        ],
+        "kill_criteria": [
+          "Management abandons the target of 15%+ long-term per-share returns",
+          "Persistent decline in fee-bearing capital growth for two consecutive quarters",
+          "Material impairment of the asset management/insurance value driven by systemic failure in the real estate portfolio",
+          "Shift in capital allocation strategy away from accretive share repurchases despite the deep discount to plan value"
+        ],
+        "what_would_change_our_mind": "A fundamental breakdown in the growth of fee-bearing capital or evidence that the real estate office portfolio is causing structural impairment to the firm's overall earnings power rather than serving as a manageable, cyclical headwind.",
+        "memo": "Brookfield Corporation represents a unique, dominant allocator of capital with a massive footprint in alternative asset management and real assets [D01]. The business benefits from a significant moat underpinned by its ability to execute large-scale, complex transactions and a recurring stream of fee-related earnings [D01]. While the company maintains exposure to direct real estate, the core engine of the business is increasingly driven by durable, fee-bearing capital and a growing insurance spread [D01].\n\nThe market currently characterizes the firm as an opaque, troubled real estate holder, leading to a valuation gap of approximately 47% relative to management’s internal plan value of $74 per share [D04, D05, D07]. We believe this discount is a mispricing of the firm’s sophisticated asset management and insurance franchises, which continue to demonstrate growth despite broader macro headwinds [D01, D03].\n\nAt an entry multiple of 14.7x 2023 DE before realizations, we are acquiring a compounder at an attractive valuation [D04]. With management’s 15%+ long-term return target and a commitment to aggressive share repurchases—exceeding $1B in 2024—the per-share earnings growth algorithm is compelling [D02, D03]. We anticipate that the discount will narrow as the firm executes on its plan and clarifies the resilience of its various segments [D04].\n\nOur role is that of a long-term compounder, allowing the inherent value of the platform to accrue to shareholders [D03]. We acknowledge the risks associated with commercial real estate, but believe the firm’s $38B of liquidity and diversified structure provide significant downside protection [D01, D02, D05]. We are initiating a position at 3% of NAV, with a target size of 8% as we observe continued execution [D02].",
+        "uncited_claims": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "audit_notes": "The gold drivers were provided as retrospective references from 2026. The candidate content was evaluated against the provided 2025 document set. Semantic presence was judged based on explicit causal alignment rather than mere mention. Support was checked against the provided documents.",
+  "cause_evidence": "The candidate relies on proprietary projections and analysis of 2025 prospects, whereas the provided source documents primarily contain data through February 2025 and lack specific post-April 2 tariff-impacted forward earnings guidance.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Tariff-driven selling supplied an unusual entry valuation.",
+      "index": 1,
+      "reason": "The candidate identifies a drawdown due to tariff risks but mentions a 31.7x trailing 2024 earnings multiple [L44, L64]. It does not claim an entry valuation of '25 times forward earnings'.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "The Company is a world-class enterprise, operating dominant, mission-critical infrastructure in both global retail and cloud computing",
+      "document": "D01_business_overview.md",
+      "document_quote": "Amazon combines a global retail marketplace with a large cloud-computing business.",
+      "evidence_supported": true,
+      "gold_driver": "AWS and retail are exceptional category-defining franchises.",
+      "index": 2,
+      "reason": "The candidate asserts the company operates dominant, mission-critical infrastructure in retail and cloud, which aligns with the gold driver's description of category-defining franchises.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "this spending is a necessary component of sustaining the company’s leadership in AI and cloud services",
+      "document": "D03_latest_results.md",
+      "document_quote": "It is true we could be growing faster were it not for some of the constraints on capacity.",
+      "evidence_supported": true,
+      "gold_driver": "Cloud migration and AI demand support AWS growth.",
+      "index": 3,
+      "reason": "The candidate links infrastructure spend to sustaining leadership in AI and cloud, supported by documentation of capacity constraints and demand.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "the potential for significant retail productivity gains, we project a compelling path for durable, mid-teens EPS growth",
+      "document": "D01_business_overview.md",
+      "document_quote": "Retail advantages include broad selection, Prime membership, delivery speed and a fulfillment network whose geographic density can reduce cost per package.",
+      "evidence_supported": true,
+      "gold_driver": "Retail logistics productivity and advertising offer margin expansion.",
+      "index": 4,
+      "reason": "The candidate cites retail productivity gains as a driver for EPS growth, supported by documentation on fulfillment network density reducing costs.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We believe the market is misjudging these investments; rather than a drag on value, this spending is a necessary component of sustaining the company’s leadership",
+      "document": "D02_financial_snapshot.md",
+      "document_quote": "The central analytical issue is how much investment maintains existing earnings versus expands future capacity.",
+      "evidence_supported": true,
+      "gold_driver": "Incremental growth capex should be evaluated by returns rather than headline FCF compression.",
+      "index": 5,
+      "reason": "The candidate argues against viewing investments as a drag on value, which is supported by the document's assertion that the central issue is evaluating investment's role in capacity expansion.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate's thesis relies on specific valuation multiples and forward growth projections that cannot be verified against the provided source documents (e.g., 25x re-rating target, mid-teens EPS growth path based on unspecified productivity calculations).",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 5,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

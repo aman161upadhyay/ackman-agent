@@ -1,0 +1,252 @@
+{
+  "events": [
+    {
+      "name": "Lowe's",
+      "file": "2018_low",
+      "year": 2018,
+      "index_line": 22,
+      "row": "| [Lowe's](trades/2018_low.md) | 2018, first day unknown / 2018-05-23 | Passive/supportive long / funds | During 2023, exact date unknown | $1.3B net profit reported; duopoly, Ellison, Home Depot operating gap, professional customers, capital return. |"
+    },
+    {
+      "name": "United Technologies",
+      "file": "2018_utx",
+      "year": 2018,
+      "index_line": 23,
+      "row": "| [United Technologies](trades/2018_utx.md) | 2018, day unknown / May 2018 | Activist long / funds | July 2019 | Profitable, amount unknown; breakup of strong franchises; exited after opposing Raytheon combination. |"
+    },
+    {
+      "name": "Starbucks I",
+      "file": "2018_sbux",
+      "year": 2018,
+      "index_line": 24,
+      "row": "| [Starbucks I](trades/2018_sbux.md) | Mid-2018, day unknown / 2018-10-09 | Passive long / funds | January 2020 | Approximately 73% reported total return; $51.30 average cost; brand/habit, US repair, digital, China, cash return. |"
+    },
+    {
+      "name": "Hilton II",
+      "file": "2018_hlt",
+      "year": 2018,
+      "index_line": 25,
+      "row": "| [Hilton II](trades/2018_hlt.md) | 2018-10-08 / exact disclosure unknown | Passive long / funds | **2026-02-02** | PSH chart 492% gross/341% net; fee royalties, loyalty/distribution, unit growth, Nassetta; valuation exit near 32x forward EPS. |"
+    },
+    {
+      "name": "Berkshire",
+      "file": "2019_brkb",
+      "year": 2019,
+      "index_line": 26,
+      "row": "| [Berkshire](trades/2019_brkb.md) | Q2 2019 / 2019-08-14 | Passive long / funds | May 2020 | Loss, exact lifetime P&L unknown; discount, float, Buffett/cash deployment; capital redeployed directly. |"
+    },
+    {
+      "name": "Agilent",
+      "file": "2019_a",
+      "year": 2019,
+      "index_line": 27,
+      "row": "| [Agilent](trades/2019_a.md) | 2019, day unknown / November 2019 | Passive long / funds | Summer 2021, after June 30/before August 24 | Profitable; instruments installed base/consumables, switching costs, management/margins; sold to fund UMG. |"
+    },
+    {
+      "name": "Starbucks II",
+      "file": "2020_sbux_reentry",
+      "year": 2020,
+      "index_line": 29,
+      "row": "| [Starbucks II](trades/2020_sbux_reentry.md) | March 2020 / April report | Passive long / funds | March 2021 | About doubled stock value; temporary closure versus durable brand, digital/drive-through, recovered valuation; financed Domino's. |"
+    },
+    {
+      "name": "Domino's",
+      "file": "2021_dpz",
+      "year": 2021,
+      "index_line": 33,
+      "row": "| [Domino's](trades/2021_dpz.md) | March 2021 / 2021-05-12 | Passive long / funds | **July 2022** | Provisional modest win; realized return unknown; royalty model, tech/supply-chain scale, fortressing, unit growth; sold above 28x estimated EPS. |"
+    },
+    {
+      "name": "UMG",
+      "file": "2021_umg",
+      "year": 2021,
+      "index_line": 34,
+      "row": "| [UMG](trades/2021_umg.md) | Initial private funds purchase August 2021 / July transfer disclosure | Passive/structural long / funds and co-investors | **2026-06-03/04** | Profitable overall per reporting; final audited return unknown. Music IP/streaming royalty, pricing, Grainge, listing reform. $64B 2026 proposal rejected. Not a PSTH holding. |"
+    },
+    {
+      "name": "CP/CPKC II",
+      "file": "2021_cp_2",
+      "year": 2021,
+      "index_line": 35,
+      "row": "| [CP/CPKC II](trades/2021_cp_2.md) | **2021-10-11** / exact disclosure unknown | Passive long / funds | **2025-05-14** per chart | PSH gross 68%/net 49%; rail moat, Creel, unique trans-North America route, synergies/nearshoring; slower realization and tariffs. Annual text's April exit conflicts with chart. |"
+    },
+    {
+      "name": "Netflix I",
+      "file": "2022_nflx",
+      "year": 2022,
+      "index_line": 36,
+      "row": "| [Netflix I](trades/2022_nflx.md) | **2022-01-21** / 2022-01-26 | Passive long / funds | **2022-04-20** | Approximately $400M loss reported; scale/subscriptions/management at a discount, then advertising pivot/subscriber surprise made outcomes insufficiently predictable. |"
+    },
+    {
+      "name": "Alphabet",
+      "file": "2023_goog",
+      "year": 2023,
+      "index_line": 37,
+      "row": "| [Alphabet](trades/2023_goog.md) | **2023-03-02** / 2023-05-15 | Passive long / funds | **Fully exited H1 2026** | Major win; 2025 +10.3 gross PSH points. AI/data/distribution, search economics, Cloud/YouTube; sold to fund MSFT on relative value. Both share classes combined. |"
+    },
+    {
+      "name": "BN",
+      "file": "2024_bn",
+      "year": 2024,
+      "index_line": 46,
+      "row": "| [BN](trades/2024_bn.md) | **2024-04-11 / 2024-08-14** | Passive long | Open; $2.448B consolidated June mark | Holdco discount, BAM recurring fees, Flatt, insurance/carry, AI infrastructure. Pre-entry February financials separated from later DE decomposition. |"
+    },
+    {
+      "name": "Nike II",
+      "file": "2024_nke",
+      "year": 2024,
+      "index_line": 47,
+      "row": "| [Nike II](trades/2024_nke.md) | **2024-05-15 / 2024-08-14** | Passive long; later calls | **Exited 2025-11-11, loss** | Brand/repair case underestimated damage; Hill appointment came **after entry**; margin confidence/tariffs prompted exit. Conflicting presentation-return footer retained. |"
+    },
+    {
+      "name": "Hertz",
+      "file": "2024_htz",
+      "year": 2024,
+      "index_line": 52,
+      "row": "| [Hertz](trades/2024_htz.md) | **2024-11-11 / 2025-04-17** | Turnaround long with TRS | **Exited July 2026, loss** | Oligopoly, fleet/unit-economics repair, residual-value convexity; tariffs/AV are later reasons. June financing destroyed management confidence. Firecrawl original X captured. |"
+    },
+    {
+      "name": "Uber",
+      "file": "2025_uber",
+      "year": 2025,
+      "index_line": 53,
+      "row": "| [Uber](trades/2025_uber.md) | **2025-01-07 / 2025-02-07** | Passive long | Open; June $2.477B | Dara, network density/FCF, AV distribution/peak-demand thesis, cheap valuation. Original X and disclosure-time opposing reply; pre-entry Q3 results. |"
+    },
+    {
+      "name": "Amazon",
+      "file": "2025_amzn",
+      "year": 2025,
+      "index_line": 54,
+      "row": "| [Amazon](trades/2025_amzn.md) | **2025-04-21 / May 2025**, exact disclosure day unverified | Passive long | Open; June $2.041B | Tariff selloff, AWS/AI/cloud, retail logistics/margin, advertising. Later capex defense clearly dated; requested H1 2025 original call remains a gap. |"
+    },
+    {
+      "name": "Meta",
+      "file": "2025_meta",
+      "year": 2025,
+      "index_line": 57,
+      "row": "| [Meta](trades/2025_meta.md) | **2025-11-24 / 2026-02-11** | Passive long | Open; June $1.800B | Social/ad moat, AI targeting/recommendation, core valuation net of Reality Labs, capex/expense flexibility. November first entry, not 2026. |"
+    },
+    {
+      "name": "Microsoft",
+      "file": "2026_msft",
+      "year": 2026,
+      "index_line": 58,
+      "row": "| [Microsoft](trades/2026_msft.md) | **February 2026 / 2026-05-15** | Passive long | Open; June $2.315B | M365/security workflows, Azure, Copilot/consumption, OpenAI value, AI fears, 21x entry. Original May X carefully separated from pre-February financials. |"
+    },
+    {
+      "name": "Netflix II",
+      "file": "2026_nflx_2",
+      "year": 2026,
+      "index_line": 60,
+      "row": "| [Netflix II](trades/2026_nflx_2.md) | Q2 2026, day unknown / **2026-08-13** | Passive long | Open; June **$934M / 4.80%** | Streaming winner now demonstrated, content discipline/FCF, tested ads, engagement/AI overreaction, 21x price. Explicit reconciliation with the failed 2022 forecasting case. |"
+    },
+    {
+      "name": "Visa",
+      "file": "2026_v",
+      "year": 2026,
+      "index_line": 61,
+      "row": "| [Visa](trades/2026_v.md) | Q2 2026, day unknown / 2026-08-13 | Passive long | Open; June $1.122B | Capital-light network toll, no material lender risk, digitization/services, stablecoin/agentic-commerce complementarity, regulatory discount. |"
+    },
+    {
+      "name": "Mastercard",
+      "file": "2026_ma",
+      "year": 2026,
+      "index_line": 62,
+      "row": "| [Mastercard](trades/2026_ma.md) | Q2 2026, day unknown / 2026-08-13 | Passive long | Open; June $1.091B | Joint card-network case with Visa; separate share counts, returns and services mix. Do not pretend paired ownership removes shared thesis risk. |"
+    },
+    {
+      "name": "SPGI II",
+      "file": "2026_spgi",
+      "year": 2026,
+      "index_line": 63,
+      "row": "| [SPGI II](trades/2026_spgi.md) | Q2 2026, day unknown / 2026-08-13 | Passive long | Open; June $1.056B | >80% profits benchmarks versus small exposed desktop line; ratings/indices/Platts moats, data licensing, AI selloff, buybacks at 19x. |"
+    },
+    {
+      "name": "ICE",
+      "file": "2026_ice",
+      "year": 2026,
+      "index_line": 64,
+      "row": "| [ICE](trades/2026_ice.md) | **Q3, after June 30/by August 11** / 2026-08-13 | Passive long | Open at report; size unknown | Exchange/clearing/energy liquidity, AI/perps fears, mortgage optionality at 17x. Not in June 30 SEC table. Pre-entry April results provided; fills/consensus incomplete. |"
+    },
+    {
+      "name": "Alcon",
+      "file": "2026_alc",
+      "year": 2026,
+      "index_line": 65,
+      "row": "| [Alcon](trades/2026_alc.md) | **Q3, after June 30/by August 11** / 2026-08-13 | Passive long | Open at report; size unknown | Surgical installed base/consumables, vision demand, margin normalization, AURN001 option outside base case, 18x. Pre-entry May sales/consensus miss provided; fills incomplete. |"
+    }
+  ],
+  "by_year": {
+    "2018": 4,
+    "2019": 2,
+    "2020": 1,
+    "2021": 3,
+    "2022": 1,
+    "2023": 1,
+    "2024": 3,
+    "2025": 3,
+    "2026": 7
+  },
+  "full_2018_2025_quarters": 32,
+  "full_2018_2025_new": 18,
+  "full_2018_2025_rate": 0.5625,
+  "through_2026_q3_quarters": 35,
+  "through_2026_q3_rate": 0.7142857142857143,
+  "through_cutoff_elapsed_quarters": 35.25479452054795,
+  "sum_candidate_probabilities": 1.05,
+  "probability_weighted_nav_pct": 5.1000000000000005,
+  "illustrative_dollars_core_bn": 1.1753154000000001,
+  "full_candidate_sizes_pct": 24,
+  "horizon_days": 98,
+  "principal_sum": 1.11,
+  "psus_gross_minus_security_cost": 84008827,
+  "psi_cash_plus_investments_minus_debt_m": 617,
+  "markdown_candidates": [
+    {
+      "company": "Autodesk (ADSK)",
+      "p": 0.35,
+      "size": 5.0
+    },
+    {
+      "company": "Copart (CPRT)",
+      "p": 0.25,
+      "size": 4.0
+    },
+    {
+      "company": "Alphabet (GOOG)",
+      "p": 0.2,
+      "size": 6.0
+    },
+    {
+      "company": "Booking Holdings (BKNG)",
+      "p": 0.15,
+      "size": 5.0
+    },
+    {
+      "company": "Lowe's (LOW)",
+      "p": 0.15,
+      "size": 5.0
+    },
+    {
+      "company": "Zoetis (ZTS)",
+      "p": 0.1,
+      "size": 4.0
+    },
+    {
+      "company": "Chipotle (CMG)",
+      "p": 0.1,
+      "size": 5.0
+    },
+    {
+      "company": "Hilton (HLT)",
+      "p": 0.05,
+      "size": 4.0
+    }
+  ],
+  "markdown_sum": 1.35,
+  "markdown_weighted_nav_pct": 6.55,
+  "json_declared_expected": 1.2,
+  "annual_base_ratio_raw": 1.8666666666666667,
+  "annual_base_ratio_md": 2.4000000000000004,
+  "raw_independent_no_new": 0.29835000000000006
+}

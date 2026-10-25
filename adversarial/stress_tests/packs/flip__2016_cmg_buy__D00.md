@@ -1,0 +1,5 @@
+Title: Category and competitive update (supersedes all other documents where they conflict)
+Source: Company 10-K risk factors and industry report
+Date: 2016-08-31
+
+The Company's comparable restaurant sales have declined in each of the last five years, and the decline predates the 2015 food-safety incidents. Industry data show fast-casual Mexican category traffic down 4% per year since 2011, with fourteen new national and regional entrants offering comparable quality at prices 15-20% lower. The Company's restaurant-level margin has structurally fallen from 27% to 16% because of higher food costs it has been unable to pass through; management states that recent price increases have been met with volume declines of equal magnitude, indicating the brand no longer has pricing power. Unit returns on new restaurants have fallen below the cost of capital, and management has cut new-unit guidance by half.

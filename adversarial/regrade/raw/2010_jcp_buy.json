@@ -1,0 +1,94 @@
+{
+  "audit_notes": "Both candidates perform a rigorous fundamental screen but fail to adopt the specific activist-investor mental model (the Pershing Square frame) regarding management recruitment and merchandising-strategy implementation as a viable turnaround path, which is captured in the gold key.",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "The candidate uses a traditional investment screen that fails the business on structural decline, whereas the gold driver reflects a Pershing Square thesis model that focuses on active intervention and specific management recruitment as the recovery mechanism.",
+      "drivers": [
+        {
+          "candidate_quote": "The business is experiencing a structural decline in department store relevance and traffic that has not been reversed [D01].",
+          "document": "D01_business_overview.md",
+          "document_quote": "The counterargument is that customer relevance and department-store traffic are structurally weakening.",
+          "evidence_supported": false,
+          "index": 1,
+          "reason": "The candidate makes a causal claim about structural decline, but the gold driver emphasizes recovering productivity and profitability from an existing asset base, which the candidate ignores.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "Operating margins have severely compressed, falling from 9.5% in 2007 to 3.8% in 2009 [D02].",
+          "document": "D02_financial_snapshot.md",
+          "document_quote": "Reported operating margin 9.5% | 6.1% | 3.8%",
+          "evidence_supported": false,
+          "index": 2,
+          "reason": "The gold driver focuses on the necessity of recruiting leadership (Ron Johnson) to reverse performance, which is absent from the candidate's list.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "We have identified no actionable catalyst or turnaround plan that would justify an investment at the current 17.0–18.3x forward P/E multiple [D01, D04].",
+          "document": "D01_business_overview.md",
+          "document_quote": "No completed leadership replacement or outside shareholder operating plan is publicly established at this cutoff.",
+          "evidence_supported": false,
+          "index": 3,
+          "reason": "The gold driver identifies specific strategy changes (merchandising/board accountability) and their failed execution; the candidate simply notes the absence of a plan.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "We pass on this investment because we cannot identify a catalyst for value creation or a concrete plan to reverse the structural headwinds [D01, D05].",
+          "document": "D01_business_overview.md",
+          "document_quote": "An activist would need to identify specific fixable causes and protect cash during any transition.",
+          "evidence_supported": false,
+          "index": 4,
+          "reason": "The gold driver concerns a later crisis response; the candidate does not address this causal account.",
+          "semantic_present": false
+        }
+      ],
+      "key_problem": "The candidate lacks the Pershing Square activist frame which explicitly tests the potential for leadership-led operational turnaround.",
+      "primary_cause": "v_genuine_process_difference"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "The candidate acknowledges the lack of leadership change but fails to include it as a proactive turnaround lever typical of the Pershing Square activist model.",
+      "drivers": [
+        {
+          "candidate_quote": "The business faces structural competitive pressure from fast-fashion and discounters, leading to a loss of relevance with moderate-income consumers [D01, D05].",
+          "document": "D01_business_overview.md",
+          "document_quote": "Apparel and home categories face substitution from discount stores, specialist chains, fast fashion and online retail.",
+          "evidence_supported": false,
+          "index": 1,
+          "reason": "The candidate's driver lacks the focus on the existing asset base utilization found in the gold driver.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "Operating margins have experienced significant compression, falling from 9.5% in 2007 to 3.8% in 2009 [D02].",
+          "document": "D02_financial_snapshot.md",
+          "document_quote": "Reported operating margin 9.5% | 6.1% | 3.8%",
+          "evidence_supported": false,
+          "index": 2,
+          "reason": "Candidate does not propose leadership recruitment (Ron Johnson) as the recovery lever.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "The company lacks a defined outside shareholder operating plan or leadership change necessary to reverse the performance trajectory [D01].",
+          "document": "D01_business_overview.md",
+          "document_quote": "No completed leadership replacement or outside shareholder operating plan is publicly established at this cutoff.",
+          "evidence_supported": false,
+          "index": 3,
+          "reason": "The gold driver identifies specific merchandising and board accountability changes; the candidate is overly generic regarding the plan.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "The company lacks a defined outside shareholder operating plan or leadership change necessary to reverse the performance trajectory [D01].",
+          "document": "D01_business_overview.md",
+          "document_quote": "No completed leadership replacement or outside shareholder operating plan is publicly established at this cutoff.",
+          "evidence_supported": false,
+          "index": 4,
+          "reason": "The gold driver addresses a later crisis response; the candidate makes no mention of this.",
+          "semantic_present": false
+        }
+      ],
+      "key_problem": "The candidate fails to treat leadership as an actionable component of the investment thesis.",
+      "primary_cause": "v_genuine_process_difference"
+    }
+  ],
+  "semantic_leakage": []
+}

@@ -1,0 +1,60 @@
+{
+  "audit_notes": "The candidate content is based on a HOLD decision, while the gold drivers imply a SELL decision. The candidate memo is dated May 26, 2020. The gold driver quotes are from a CNBC article dated May 27, 2020, which post-dates the candidate memo cutoff and the as_of_date provided.",
+  "cause_evidence": "The candidate explicitly decides to hold the investment, maintaining a focus on long-term durability and the optionality provided by the cash reserve [L19], whereas the gold drivers relate to an investment exit decision due to nimbleness and opportunity cost comparisons.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "Not assessable",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Pershing's smaller scale permits more nimble allocation than Berkshire.",
+      "index": 1,
+      "reason": "The candidate memo does not claim that Pershing's scale is an advantage over Berkshire for nimble allocation; it identifies the ability to wait as a hallmark of Berkshire's high-quality management [L19].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "We acknowledge the frustration some market participants feel regarding the company’s limited capital deployment during the March rout [D06].",
+      "document": "D03_latest_results.md",
+      "document_quote": "The central tension is therefore not solvency. It is the combination of a resilient conglomerate with slower immediate deployment than a smaller outside investor might choose.",
+      "evidence_supported": true,
+      "gold_driver": "Berkshire faces a difficult task deploying its enormous cash pool.",
+      "index": 2,
+      "reason": "The candidate memo acknowledges market frustration regarding limited capital deployment and identifies deployment as a tension in the company's conglomerate structure.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "Not assessable",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Use flexibility while preserving liquidity for more attractive direct opportunities.",
+      "index": 3,
+      "reason": "The candidate concludes to hold the position based on the durability of the businesses and long-term intrinsic value [L19], rather than exiting to preserve liquidity for other opportunities.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate's decision (HOLD) fundamentally diverges from the gold-standard exit decision; the candidate views Berkshire's cash and scale as a source of optionality [L19] rather than a deployment hurdle.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

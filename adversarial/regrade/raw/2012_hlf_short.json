@@ -1,0 +1,94 @@
+{
+  "audit_notes": "The candidates demonstrate a tendency to treat activist allegations as proven facts, failing to distinguish between the business's reported financials and the specific causal allegations made by short sellers in the provided documents. The gold standard emphasizes the distinction between activist rhetoric and adjudicated legal facts.",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "The candidate assumes the regulatory risk is immediate and definitive, whereas the gold standard distinguishes between activist allegations and adjudicated facts.",
+      "drivers": [
+        {
+          "candidate_quote": "The business model relies on a multi-level marketing structure that incentivizes distributor recruitment over genuine retail demand, creating an existential regulatory risk [D01, D05].",
+          "document": "D01_business_overview.md",
+          "document_quote": "The economic distinction is between compensation supported by genuine product demand and purchases motivated mainly by qualification or recruitment incentives.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The candidate accurately identifies the core causal claim that the compensation structure prioritizes recruitment over retail demand.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "We have identified a lack of transparency and verifiable evidence regarding actual end-user consumption of products [D01, D05].",
+          "document": "D05_market_worries.md",
+          "document_quote": "When pressed for the percentage sold to consumers who are not distributors, the contemporary transcription records: “we don't have an exact percentage David because we don't have visibility to that level of detail.”",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The candidate's claim of lacking transparency is supported by the cited management admission in D05.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The compensation incentives appear to drive a pyramid-like structure that is unsustainable and legally vulnerable [D01, D05].",
+          "document": "D05_market_worries.md",
+          "document_quote": "This is a disclosure limitation, not an admission of illegal conduct.",
+          "evidence_supported": false,
+          "index": 3,
+          "reason": "While the candidate makes the claim, D05 explicitly states that identified disclosure limitations are not admissions of illegality; the causal claim of being an 'illegal pyramid scheme' is an activist allegation, not an adjudicated fact supported by the provided text.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "N/A",
+          "document": "N/A",
+          "document_quote": "N/A",
+          "evidence_supported": false,
+          "index": 4,
+          "reason": "The candidate does not reference the fundamental analysis insufficiency acknowledged in the gold standard [L21-L23].",
+          "semantic_present": false
+        }
+      ],
+      "key_problem": "The candidate treats activist allegations as settled facts and fails to account for the nuance of the regulatory process.",
+      "primary_cause": "i_rule_missing_ambiguous"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "The candidate adopts a definitive 'zero' value thesis without acknowledging the evidentiary gap between reported financials and activist claims.",
+      "drivers": [
+        {
+          "candidate_quote": "The business operates as a pyramid scheme where growth is driven by recruitment rather than sustainable retail demand [D01][D05].",
+          "document": "D01_business_overview.md",
+          "document_quote": "The economic distinction is between compensation supported by genuine product demand and purchases motivated mainly by qualification or recruitment incentives.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The candidate correctly identifies the causal tension between recruitment and retail demand.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "N/A",
+          "document": "N/A",
+          "document_quote": "N/A",
+          "evidence_supported": false,
+          "index": 2,
+          "reason": "The candidate misses the gold driver regarding the necessity of acknowledging fundamental analysis limitations.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "Retail demand is indistinguishable from recruitment-driven inventory loading, making the company's reported financial performance deceptive [D01][D05].",
+          "document": "D05_market_worries.md",
+          "document_quote": "This is a disclosure limitation, not an admission of illegal conduct.",
+          "evidence_supported": false,
+          "index": 3,
+          "reason": "The claim of deception is an inference not supported as a fact in the cited documents.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The company’s high-margin profile and growth metrics are artificial outcomes of a compensation structure that incentivizes distributor loading [D01][D05].",
+          "document": "D02_financial_snapshot.md",
+          "document_quote": "The improving margin and cash flow are affirmative evidence for the business as reported.",
+          "evidence_supported": false,
+          "index": 4,
+          "reason": "The candidate labels growth as 'artificial' contrary to the evidence in D02 which notes that reported margins are affirmative evidence.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "The candidate conflates disclosure limitations with confirmed fraudulent behavior.",
+      "primary_cause": "v_genuine_process_difference"
+    }
+  ],
+  "semantic_leakage": []
+}

@@ -1,0 +1,78 @@
+{
+  "audit_notes": "The candidate performed as expected given the limitations of the document set, which did not contain the specific language of the 2026 gold drivers. Quotes were validated against continuous strings in provided source files.",
+  "cause_evidence": "The gold drivers were derived from a 2026 annual report not available to the candidate as of the 2025-11-03 cutoff date.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Entrenched audiences and advertising data create a durable network moat.",
+      "index": 1,
+      "reason": "The candidate document mentions 'powerful network effects' but does not explicitly link 'entrenched audiences and advertising data' to creating a 'durable network moat'.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "Near-term evidence for monetization includes AI recommendation improvements generating 5% more time on Facebook and 10% on Threads",
+      "document": "D03_latest_results_and_guidance.md",
+      "document_quote": "Near-term evidence for monetization includes AI recommendation improvements generating 5% more time on Facebook and 10% on Threads",
+      "evidence_supported": true,
+      "gold_driver": "AI directly improves engagement, recommendations and monetization.",
+      "index": 2,
+      "reason": "The candidate directly quotes evidence that AI improvements in recommendations drive time spent, which the document links to monetization.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "the market is mispricing the company by conflating long-term, potentially high-return AI infrastructure investments with permanent impairment of intrinsic value",
+      "document": "D05_market_worries.md",
+      "document_quote": "Reality Labs is a separate source of concern: $4.432 billion lost in Q3, against only $470 million revenue.",
+      "evidence_supported": true,
+      "gold_driver": "Capex fears created an attractive valuation that still includes substantial Reality Labs losses.",
+      "index": 3,
+      "reason": "The candidate explains the market sell-off via AI investment fears and acknowledges Reality Labs losses as part of the thesis context in D05.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "“in the worst case, we would just slow building new infrastructure for some period while we grow into what we've built.”",
+      "document": "D03_latest_results_and_guidance.md",
+      "document_quote": "“in the worst case, we would just slow building new infrastructure for some period while we grow into what we've built.”",
+      "evidence_supported": true,
+      "gold_driver": "Infrastructure and talent spending can be front-loaded while management retains expense flexibility.",
+      "index": 4,
+      "reason": "The candidate identifies the management strategy of front-loading capacity and cites the explicit fallback option demonstrating expense flexibility.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The provided gold drivers rely on future documents (2026) that are outside the source material scope and date range for the candidate.",
+  "primary_cause": "iii_key_or_grader_problem",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [
+      "candidate quote 2",
+      "candidate quote 4"
+    ],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

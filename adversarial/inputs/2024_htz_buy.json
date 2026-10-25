@@ -1,0 +1,173 @@
+{
+  "as_of_date": "2024-11-12",
+  "mode": "new",
+  "docs": {
+    "D01_business_overview.md": "Title: Rental operations layered on a financed vehicle portfolio\nSource: https://www.sec.gov/Archives/edgar/data/1657853/000165785324000138/q32024earningsrelease.htm\nDate: 2024-11-12\n\nHertz operates the Hertz, Dollar and Thrifty rental brands across North America and international markets, with additional international brands and used-car sales. Customers rent vehicles for leisure, business and other transportation needs. The business combines airport/local distribution, reservations, fleet procurement, maintenance and eventual vehicle disposal.\n\nIts economics are not simply a rental-rate spread over employee costs. Revenue depends on the number of rentable cars, utilization and revenue per day. Profit also depends on depreciation between purchase and sale, financing costs, repairs, insurance and the channels used to dispose of cars.\n\nIn Q3, average vehicles were 583,516, of which 550,074 were average rentable vehicles. Utilization was 82%; transaction days were 41.298 million. Total revenue per day was $62.63 and monthly revenue per unit $1,567. These are company-defined constant-currency operating measures. A car awaiting repair or sale can consume capital without generating a rental day.\n\nAmericas revenue was $2.062 billion and adjusted segment EBITDA $(169) million, while International revenue was $514 million and adjusted EBITDA $63 million. The international business remains profitable, but the larger Americas exposure dominates group performance.\n\nMonthly depreciation per unit was $537, up from $284 a year earlier. Total vehicle depreciation was $937 million. The scale of this cost means improvements in purchase price, holding period and sale proceeds can materially change earnings even without higher rental prices.\n\nGil West became CEO effective April 1 following his March appointment. His previous operating roles include Delta and Cruise. The current plan emphasizes back-to-basics execution and fleet rotation. The latest quarter uses approximately 307 million diluted shares in a loss period; that denominator does not include every potential dilutive instrument in a profitable recovery.\n\nBrand recognition and airport access create meaningful operating assets, but vehicles require continuous capital and are not a perpetual intangible franchise. Debt is partly secured against fleet collateral, with separate corporate obligations. Equity underwriting must evaluate the fleet and the operating company together, without assuming that collateralized debt disappears from economic risk.\n",
+    "D02_financial_snapshot.md": "Title: From pandemic-era earnings to a loss-making fleet reset\nSource: compiled from: https://s204.q4cdn.com/384814028/files/doc_events/2022/q4/Q4-2022-presentation-FINAL-2-6-23-2pm-v4.pdf; https://www.sec.gov/Archives/edgar/data/1657853/000165785324000019/q42023earningsrelease.htm; https://www.sec.gov/Archives/edgar/data/1657853/000165785324000138/q32024earningsrelease.htm\nDate: 2024-11-12\n\nThe historical series crosses a bankruptcy/reorganization period, so equity and per-share comparisons require caution. Dollars below are millions.\n\n| Metric | 2021 | 2022 | 2023 | Q3 2024 |\n|---|---:|---:|---:|---:|\n| Revenue | 7,336 | 8,685 | 9,371 | 2,576 |\n| Revenue growth, calculated | Not supplied | 18.4% | 7.9% | (5)% year/year |\n| Adjusted Corporate EBITDA | 2,130 | 2,305 | 561 | (157) |\n| EBITDA margin | 29% | 27% | 6% | (6)% |\n\nThe 2023 release reports net income $616 million and diluted EPS $1.39, but adjusted income was only $172 million and adjusted EPS $0.53. Q4 alone had an adjusted $418 million loss and included the $245 million EV-related depreciation charge. Tax and other nonoperating effects make GAAP net income an unreliable normalized earnings base.\n\nLatest-quarter GAAP net loss was $1,332 million, or $4.34 per share, including a $1 billion noncash impairment. Adjusted net loss was $208 million or $0.68 per share. Excluding the impairment does not make the ongoing quarter profitable.\n\nGAAP operating cash flow was $894 million, but company-adjusted operating cash flow was negative $132 million and adjusted free cash flow negative $154 million. Rental-fleet investment and disposal accounting make ordinary industrial-company CFO-minus-capex shortcuts dangerous. A full three-year consistently adjusted FCF/capex series is not recovered here.\n\nSeptember nonvehicle debt was $4,653 million and vehicle debt $12,303 million. Corporate liquidity was $1.6 billion, including approximately $0.5 billion unrestricted cash and $1.1 billion available revolving capacity. Liquidity is not the same as net cash: using the revolver adds borrowing.\n\nNo current dividend or buyback-driven capital return is a central source of value in this snapshot. A comparable ROIC series is unavailable. The historical peak EBITDA occurred under unusual used-car conditions and should not be treated as a guaranteed recovery target. Equity value depends on financing the transition and improving depreciation and operating efficiency before liquidity is exhausted.\n",
+    "D03_latest_results.md": "Title: Q3 impairment, fleet rotation and the stated endpoint\nSource: https://www.sec.gov/Archives/edgar/data/1657853/000165785324000138/q32024earningsrelease.htm\nDate: 2024-11-12\n\nThe November 12 release reports $2.576 billion Q3 revenue, down 5%, and $(157) million adjusted Corporate EBITDA, versus $359 million a year earlier. The company identifies the $436 million increase in vehicle depreciation as the main reason for the earnings decline.\n\nCEO Gil West said Hertz was “focusing on our back-to-basics strategy to deliver sustainable, long-term returns for shareholders.” He added: “There is still work to be done, but I am confident that the enhancements achieved over the course of this quarter demonstrate that we are on the right track.”\n\nThe $1 billion noncash asset impairment reflects declining fleet residual values and the acceleration of vehicle rotation. It is not the same charge as the earlier EV write-down. Writing down vehicles recognizes past economic loss; it does not produce cash to buy replacement cars or eliminate future depreciation.\n\nRevenue per day was nearly flat year over year, while transaction days fell 4%. Management says it favored higher-value rentals and reduced lower-yielding channels while remaining disciplined on capacity. This can improve mix but also reduces the number of revenue-generating days.\n\nMonthly depreciation per unit was $537. Management expects to substantially complete fleet rotation by the end of 2025, when DPU “could normalize to under $300.” That is a forward operating objective and an important sensitivity, not guidance that all other costs remain unchanged or a guarantee of restored profitability.\n\nDirect vehicle and operating expense per transaction day increased 2% year over year, but declined 2% sequentially. Insurance, licensing and taxes remain headwinds. Structural operating efficiencies are expected to improve unit costs as the transformation progresses.\n\nCorporate liquidity was $1.6 billion at September 30. The release does not justify treating all reported GAAP operating cash flow as available corporate cash; adjusted operating and free cash measures are negative.\n\nThe release describes the overall transformation as ongoing and expected substantially complete by end-2025. The near-term investment question is therefore whether liquidity and financing access bridge a lengthy operational repair, with vehicle sale proceeds and replacement purchase economics both uncertain. A low nominal share price does not remove that financing dependence.\n",
+    "D04_price_valuation.md": "Title: Equity price, liquidity and why P/E is not informative\nSource: compiled from: https://query1.finance.yahoo.com/v8/finance/chart/HTZ?period1=1699833600&period2=1731456000&interval=1d; https://www.sec.gov/Archives/edgar/data/1657853/000165785324000138/q32024earningsrelease.htm; https://s204.q4cdn.com/384814028/files/doc_financials/2024/q3/Q3-2024-investor-presentation-Final.pdf\nDate: 2024-11-12\n\nThe date-bounded historical series shows Hertz closing November 12 at $3.66 on 16,576,200 shares, after an opening price of $3.00. The day's intraday range was approximately $2.97–$3.735. A weak premarket response reported in the press is not the closing return; the session was volatile.\n\nThe preceding approximately 52-week window has an intraday high of $10.82 and low of $2.47. The close is approximately 66.2% below that high, calculated. Average daily volume over the window was approximately 6.19 million shares. A meaningful institutional position remains possible, but volume does not provide a fundamental margin of safety.\n\nMultiplying $3.66 by the latest quarter's approximately 307 million average shares gives illustrative equity value of $1.124 billion. This is not exact common capitalization and excludes the contingent effect of warrants and exchangeable securities. The difference between basic shares during losses and a fully diluted recovery share count is important.\n\nTrailing P/E is not meaningful given current losses and a large impairment. Applying a P/E to 2023 GAAP EPS would also be misleading because adjusted earnings were much lower and present fleet costs are different. A reliable forward consensus EPS or standardized EV/EBITDA multiple was not recovered.\n\nCorporate debt of $4.653 billion already substantially exceeds illustrative equity value; vehicle debt adds $12.303 billion secured against rental assets. An EV calculation that adds all vehicle debt but ignores fleet assets or vehicle depreciation is not comparable with an asset-light operating business. Conversely, simply excluding fleet debt hides collateral and residual-value risk.\n\nA useful valuation bridge would require assumptions about sustainable rental days, RPD, monthly depreciation, operating cost per day, interest and diluted shares. The company's sub-$300 DPU objective supplies one input, not an entire valuation. Current FCF is negative on the company's adjusted measure, so a positive FCF yield is unavailable.\n\nA matching point-in-time peer valuation table, long-run multiple range and S&P forward P/E are not recovered. No later investor's price target is used to fill those gaps.\n",
+    "D05_market_worries.md": "Title: Depreciation, execution and financing risk\nSource: compiled from: https://www.reuters.com/business/autos-transportation/hertz-posts-weaker-than-expected-quarterly-results-shares-fall-2024-11-12/; https://www.sec.gov/Archives/edgar/data/1657853/000165785324000010/htz-20240111.htm; https://www.coxautoinc.com/insights-hub/october-2024-muvvi\nDate: 2024-11-12\n\nReuters on November 12 reports a wider-than-expected adjusted loss and attributes the pressure to high depreciation costs. Its syndicated early report describes shares falling more than 8% in premarket trading. That is a dated market response, not a full-session closing observation.\n\nHertz's January 11 filing said it planned to sell approximately 20,000 EVs and recognize approximately $245 million additional depreciation in Q4 2023. The need to reduce electric exposure raised questions about demand matching, repairs and residual values. The latest $1 billion impairment demonstrates that the depreciation problem is broader than a single quarterly charge.\n\nCox Automotive's November 7 report puts October's Manheim Used Vehicle Value Index at 202.8, down 3.2% year over year and 0.1% month over month on a seasonally adjusted basis. Unadjusted prices fell 1.9% sequentially and 3.7% year over year. Those are market-level used-car observations, not an exact mark for Hertz's mix.\n\nFor a financed fleet, weaker resale values can affect both earnings and collateral. The relationship is not symmetrical with a normal inventory business because many cars are already committed to rental use and financed against expected asset values. Accelerating replacement can improve future economics while crystallizing losses and requiring capital today.\n\nThe bear scenario is that repair costs, fleet inefficiency and residual losses consume liquidity faster than operating improvements arrive. A younger fleet can reduce repairs, but new vehicles can also cost more and depreciate. Management's targeted sub-$300 monthly depreciation depends partly on an external used-car environment it cannot control.\n\nThe constructive case is that the current losses include a transition burden, that fleet rotation can reset carrying values and that a more experienced operating leader can improve utilization and cost discipline. None of those possibilities establishes a guaranteed EBITDA recovery.\n\nNo pre-cutoff autonomous fleet-service contract or tariff-driven used-car windfall is included. Those are not present earnings or committed catalysts in this information set. Financing sufficiency and execution deserve greater attention than speculative optionality.\n",
+    "D06_peer_industry.md": "Title: A concentrated rental industry with large differences in execution\nSource: compiled from: https://www.sec.gov/Archives/edgar/data/723612/000072361224000049/a03-pressreleasexq3f24.htm; https://www.sec.gov/Archives/edgar/data/1657853/000165785324000138/q32024earningsrelease.htm; https://www.coxautoinc.com/insights-hub/october-2024-muvvi\nDate: 2024-11-12\n\nEnterprise, Avis Budget and Hertz are the major US rental groups. Enterprise is privately held, so a directly comparable listed equity multiple is unavailable. Concentration can support fleet discipline and pricing, but does not remove competition for airport concessions, corporate accounts, leisure travelers or replacement demand.\n\nAvis Budget's October 31 results provide a useful operating benchmark before Hertz's release:\n\n| Q3 2024 | Avis Budget | Hertz |\n|---|---:|---:|\n| Revenue | nearly $3.5bn | $2.576bn |\n| Adjusted EBITDA | $503m | $(157)m |\n| Approximate adjusted margin | 14% | (6)% |\n| GAAP net income/(loss) | $238m | $(1,332)m |\n\nAvis reported pricing down 2% and rental days approximately in line with Q3 2023. Hertz's revenue per day was down approximately 1%, transaction days down 4% and depreciation much higher. This suggests Hertz's weakness cannot be explained solely by an industry-wide disappearance of rental demand.\n\nThe comparison is not perfect: geography, fleet age, accounting adjustments and purchasing contracts differ. Avis's positive EBITDA does not prove Hertz can earn the same margin without additional investment. It does show that substantial operating profitability remains possible for a competitor in the current environment.\n\nUsed-car supply and new-car purchasing terms influence every fleet operator. Cox's October index decline is an important external benchmark for residual-value risk. A rental company can manage vehicle mix and holding period, but cannot independently set the market price at disposal.\n\nA complete pre-cutoff table of Enterprise margins, listed peer forward multiples and consensus EPS growth was not recovered. Those figures remain unavailable rather than replaced with current data.\n\nThe industry thesis is therefore narrower than “oligopoly equals pricing power.” It requires rational fleet capacity, satisfactory utilization and purchasing discipline. Excess fleet can depress rental rates, while underinvestment can raise repairs and reduce customer satisfaction. Hertz's opportunity, if any, is the combination of an intact industry structure and company-specific repair, with leverage magnifying both success and failure.\n",
+    "D07_event_timeline.md": "Title: EV retreat, new management and expensive bridge financing\nSource: compiled from: https://www.sec.gov/Archives/edgar/data/1657853/000165785324000010/htz-20240111.htm; https://newsroom.hertz.com/press-releases/press-release-details/hertz-announces-appointment-of-gil-west-as-chief-executive-officer-as-stephen-scherr-steps/; https://www.sec.gov/Archives/edgar/data/1657853/000095010324009159/dp213388_8k.htm; https://www.sec.gov/Archives/edgar/data/1657853/000165785324000138/q32024earningsrelease.htm\nDate: 2024-11-12\n\nJanuary 11, 2024: Hertz disclosed the planned sale of approximately 20,000 EVs, with a $245 million Q4 2023 depreciation charge. The economic loss belongs to 2023 accounts even though the filing was published in 2024.\n\nFebruary 6, 2024: annual results showed $9.371 billion 2023 revenue and only $561 million adjusted Corporate EBITDA, versus $2.305 billion a year earlier. Q4 adjusted EBITDA was negative $382 million. The repair need was visible before the chief-executive change.\n\nMarch 15, 2024: Hertz announced Gil West would replace Stephen Scherr, effective April 1. West's Delta and Cruise operating background is relevant to the execution challenge. Appointment alone does not establish improved fleet economics.\n\nJune 21–28, 2024: Hertz priced and completed $1 billion of financing: $750 million first-lien senior secured notes at 12.625%, and $250 million exchangeable second-lien secured PIK notes at 8.000%, both due 2029. The financing adds liquidity but also expensive claims ahead of common equity and potential dilution.\n\nAugust 1, 2024: Q2 results reported $2.4 billion revenue, an $865 million GAAP loss and $1.8 billion corporate liquidity at June 30. Fleet costs were already central to the investment problem.\n\nNovember 7, 2024: Cox published October's used-vehicle index at 202.8, down 3.2% from a year earlier. This is an external reality check on expected resale values.\n\nNovember 12, 2024: Q3 results reported $1.6 billion corporate liquidity, a $1 billion impairment and negative $157 million adjusted Corporate EBITDA. Management targeted substantial completion of fleet rotation and the operational transformation by end-2025.\n\nThe decision cutoff is after that release. It contains no later financing, tariff policy change, investor campaign, autonomous partnership or subsequent recovery evidence. The key near-term milestones are operating progress and liquidity preservation, not a scheduled corporate transaction guaranteeing common shareholders an exit.\n\nQuarterly depreciation, rental pricing, utilization and available borrowing capacity provide measurable checks on whether the announced operating plan is working.\n",
+    "D08_pershing_context.md": "Title: Portfolio capacity and why this is not a standard franchise investment\nSource: compiled from: https://assets.pershingsquareholdings.com/wp-content/uploads/2025/02/07152731/Performance-Report-September-2024-PSH.pdf; https://13f.info/13f/000117266124003511-pershing-square-capital-management-l-p-q2-2024; https://assets.pershingsquareholdings.com/2024/03/22201541/Pershing-Square-Holdings-Ltd.-2023-Annual-Report.pdf\nDate: 2024-11-12\n\nThe September 30 portfolio update reports firm AUM of $18.4988 billion, including PSVII, and PSH AUM of $15.1353 billion. These figures include bond proceeds and are not equivalent to equity NAV or cash available for a new position. The update was public October 1 despite its current rehosted URL.\n\nThe latest 13F available by November 12 is the June 30 quarter filed August 14, not the September-quarter filing due later in November. Reported holdings total $10.411824 billion. The table includes Alphabet, Hilton, Chipotle, Restaurant Brands, Canadian Pacific Kansas City, Howard Hughes, Nike and Brookfield.\n\nThe newly disclosed June holdings were approximately $226 million Nike and $285 million Brookfield, approximately 2.2% and 2.7% of the 13F total, respectively. Those are filing weights, not PSH NAV weights. Foreign Universal Music, OTC Fannie/Freddie, derivatives and cash require separate sources. Complete current portfolio weights and November cash were not recovered.\n\nThe March annual report states a concentrated strategy oriented toward durable businesses, capable management and long-term value. It identifies Alphabet as the 2023 addition and Lowe's as the exit. Its December 2023 cash balance of $1.929 billion is historical, not a November liquidity estimate.\n\nNo verified Hertz-specific Ackman recommendation or operating scenario publicly dated before the cutoff is supplied. An analyst must not infer an endorsement from the manager's transportation holdings or from private future plans.\n\nHertz differs from asset-light hotel and restaurant franchises: it owns rapidly depreciating vehicles and relies heavily on financing. The investment framework therefore needs an explicit exception analysis. A branded oligopoly and experienced CEO may support repair, but predictability, balance-sheet risk and normalized cash flow are materially weaker than in a mature fee business.\n\nFor portfolio construction, the relevant question is whether a small, asymmetric operational turnaround can be justified without treating it as a full-sized predictable compounder. That requires independently stress-testing liquidity and dilution rather than relying on a price far below the recent high.\n"
+  },
+  "answer_key": {
+    "actual_decision": "BUY",
+    "reason_class": null,
+    "drivers": [
+      {
+        "driver": "Concentrated rental industry and rational pricing can support normalized profitability.",
+        "source": "https://x.com/BillAckman/status/1912955549542744462 (2025-04-17)",
+        "quote": null
+      },
+      {
+        "driver": "Gil West and fleet rotation can repair depreciation and operating costs.",
+        "source": "https://x.com/BillAckman/status/1912955549542744462 (2025-04-17)",
+        "quote": null
+      },
+      {
+        "driver": "A leveraged vehicle portfolio creates large equity sensitivity to residual values.",
+        "source": "https://x.com/BillAckman/status/1912955549542744462 (2025-04-17)",
+        "quote": "Hertz can be thought of as an operating company combined with a highly leveraged portfolio of automobiles."
+      },
+      {
+        "driver": "Liquidity and distant principal maturities provide time for the turnaround, subject to cash burn.",
+        "source": "https://x.com/BillAckman/status/1912955549542744462 (2025-04-17)",
+        "quote": null
+      },
+      {
+        "driver": "AV servicing is additional optionality, not a signed contract or a November2024 fact.",
+        "source": "https://x.com/BillAckman/status/1912955549542744462 (2025-04-17)",
+        "quote": "What if UBER partnered with Hertz on an AV fleet roll out over time?"
+      }
+    ],
+    "pack_quality_notes": "User-requested November12 after-release pack deliberately follows actual November11 first purchase. Q3 correctly dated; literal pre-entry replay would use November8 and Q2. April2025 tariffs and AV argument excluded from pack. Industry adjusted EBITDA benchmarks sourced; full adjusted FCF history, forward multiples and exact initial sizing missing."
+  },
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "final": {
+        "as_of_date": "2024-11-12",
+        "company": "the Company",
+        "ticker": "XXX",
+        "decision": "BUY",
+        "conviction": "low",
+        "target_size_pct_nav": 2,
+        "opportunity_template": [
+          "T8"
+        ],
+        "catalyst_role": "C0",
+        "gate1_hard_fail": true,
+        "valuation": {
+          "entry_multiple": "N/A - P/E not meaningful due to losses [D04]",
+          "eps_path": "Normalization of monthly depreciation to <$300/unit and fleet optimization by 2025 [D03]",
+          "terminal_multiple": "8x",
+          "irr_pct": 25,
+          "downside_case": "Permanent loss of equity capital if liquidity is insufficient to bridge operational losses during the 2025 fleet transition or if further impairment cycles occur [D03, D05]"
+        },
+        "drivers": [
+          {
+            "driver": "A 'back-to-basics' operational turnaround under new CEO Gil West aims to restore normalized margins by 2025 [D01, D03].",
+            "citations": [
+              "D01",
+              "D03"
+            ]
+          },
+          {
+            "driver": "The current equity trades as a levered call option on the company's ability to lower monthly depreciation per unit from $537 toward $300 [D01, D03].",
+            "citations": [
+              "D01",
+              "D03"
+            ]
+          },
+          {
+            "driver": "A $1.6 billion liquidity position provides a sufficient runway to execute the fleet rotation and operational restructuring [D02, D03].",
+            "citations": [
+              "D02",
+              "D03"
+            ]
+          },
+          {
+            "driver": "The business operates within a concentrated oligopoly, benefiting from scale and essential airport infrastructure [D06].",
+            "citations": [
+              "D06"
+            ]
+          }
+        ],
+        "kill_criteria": [
+          "Liquidity falls below $500 million before fleet rotation is complete [D02, D03].",
+          "Monthly depreciation per unit fails to trend below $400 by Q2 2025 [D03].",
+          "Used-car pricing indices drop another 10%+ from current levels, impairing residual values further [D05, D06].",
+          "Operational cash burn persists beyond the 2025 calendar year [D03]."
+        ],
+        "what_would_change_our_mind": "Failure of management to execute the fleet rotation plan or a sustained degradation in used-car pricing that structurally impairs the company's vehicle depreciation profile beyond 2025.",
+        "memo": "The Company operates a major rental brand network that, while currently facing severe operational headwinds, maintains critical competitive advantages through its airport infrastructure and scale within a concentrated oligopoly [D01, D06]. Under the leadership of CEO Gil West, who joined in 2024, the business has initiated a necessary 'back-to-basics' turnaround and comprehensive fleet rotation [D01, D03].\n\nThe current opportunity exists because the market has priced the equity for a distressed scenario, fixated on recent negative EBITDA and $1 billion in impairment charges [D03, D05, D06]. We believe the market misjudges the company's ability to bridge this transition, as the $1.6 billion in current liquidity provides sufficient runway to complete the restructuring by the end of 2025 [D02, D03, D07].\n\nWhile traditional valuation metrics like P/E are currently non-meaningful due to operating losses, the path to value recovery is clear: normalizing monthly depreciation per unit from $537 down to below $300 [D01, D03, D04]. Achieving this alongside a return to historical EBITDA margins of 10-12% implies an attractive, albeit speculative, internal rate of return exceeding 25% if the turnaround succeeds [D03].\n\nOur role is that of a passive observer; we believe the management team has identified the correct operational levers to restore the business and we intend to monitor the execution of the fleet rotation quietly [D03]. The primary risks involve the company's high leverage and sensitivity to residual value fluctuations in the used-car market, which could result in permanent loss of capital if the turnaround stalls [D02, D03, D05, D06].\n\nGiven the speculative nature of this investment, we are initiating a small position of 2% of NAV [D02, D03]. This sizing reflects the high risk-reward profile of this turnaround while ensuring our exposure remains bounded should the operational execution fall short of our targets [D03, D05].",
+        "uncited_claims": [
+          "The Company operates a major rental brand network that, while currently facing severe operational headwinds, maintains critical competitive advantages through its airport infrastructure and scale within a concentrated oligopoly.",
+          "Our role is that of a passive observer; we believe the management team has identified the correct operational levers to restore the business and we intend to monitor the execution of the fleet rotation quietly."
+        ]
+      }
+    },
+    {
+      "anonymous_id": "C2",
+      "final": {
+        "as_of_date": "2024-11-12",
+        "company": "Hertz Global Holdings",
+        "ticker": "HTZ",
+        "decision": "PASS",
+        "conviction": "low",
+        "target_size_pct_nav": 0,
+        "opportunity_template": [
+          "T8"
+        ],
+        "catalyst_role": "C0",
+        "gate1_hard_fail": true,
+        "valuation": {
+          "entry_multiple": "N/A (negative earnings)",
+          "eps_path": "Normalization of depreciation to <$300/unit by 2025 [D03]",
+          "terminal_multiple": "8",
+          "irr_pct": 0,
+          "downside_case": "Liquidity exhaustion or bankruptcy leading to total loss of equity [D03, D05]"
+        },
+        "drivers": [
+          {
+            "driver": "The business model is highly capital-intensive and exhibits negative free cash flow, failing our core quality standards [D01, D02].",
+            "citations": [
+              "D01",
+              "D02"
+            ]
+          },
+          {
+            "driver": "The company carries extreme leverage with significant debt obligations that risk insolvency before the operational turnaround can materialize [D02, D04].",
+            "citations": [
+              "D02",
+              "D04"
+            ]
+          },
+          {
+            "driver": "Sensitivity to used-vehicle residual values and macroeconomic cycles creates extrinsic exposure that we cannot control [D05].",
+            "citations": [
+              "D05"
+            ]
+          },
+          {
+            "driver": "Operational performance lags significantly behind peers, as evidenced by a (6)% adjusted corporate EBITDA margin compared to 14% at Avis [D02, D06].",
+            "citations": [
+              "D02",
+              "D06"
+            ]
+          }
+        ],
+        "kill_criteria": [
+          "Monthly fleet depreciation exceeds $300 per unit beyond 2025 [D03].",
+          "Evidence of further liquidity constraints or the need for a dilutive equity raise [D03, D07].",
+          "Failure to close the operational margin gap with peers by year-end 2025 [D06].",
+          "Continued negative free cash flow generation following the fleet reset [D02, D03]."
+        ],
+        "what_would_change_our_mind": "Evidence that the fleet rotation is completed without dilutive financing, combined with a sustained return to positive free cash flow and normalized depreciation margins below $300 per unit.",
+        "memo": "Hertz Global Holdings operates a major rental network, including the Hertz, Dollar, and Thrifty brands, providing significant scale and airport access [D01, D06]. Despite this, the business fails to meet our criteria for a high-quality, free-cash-flow-generative company, as it remains highly capital-intensive and inherently dependent on volatile used-car market prices [D01, D05].\n\nThe current opportunity is presented by a significant dislocation, with the stock trading at a 66% drawdown from its 52-week high amid market fears of insolvency [D04, D05]. The market views the recent $1.332 billion quarterly loss and negative free cash flow as terminal indicators, failing to account for the potential option value should new management successfully navigate the fleet reset [D02, D03].\n\nValuation is not meaningful given the current negative earnings and negative free cash flow [D04]. Our terminal multiple assumption of 8x reflects the structural commodity exposure and capital-intensive nature of the rental industry [D01, D05]. While a bull case could exist if depreciation is normalized below $300 per unit, the bear case involves total loss of equity due to liquidity exhaustion [D03, D05].\n\nThe primary catalyst is the execution of the fleet transformation plan under CEO Gil West, aimed at optimizing the asset mix by year-end 2025 [D01, D03]. We require proof that the company can close the operational margin gap to peers, specifically the 14% adjusted EBITDA margin currently achieved by Avis, without further dilutive equity raises [D06, D07].\n\nRisks remain extreme, with the primary threat being the potential for insolvency before the fleet rotation can restore positive cash flow [D02, D03]. Because the business requires continuous capital and faces unpredictable macroeconomic cycles, it lacks the durable, capital-light characteristics we demand [D01, D05].\n\nWe have decided to PASS. The position does not align with our focus on quality compounders, and the distressed nature of the turnaround fails to meet our threshold for a high-conviction investment [D01].",
+        "uncited_claims": []
+      }
+    }
+  ]
+}

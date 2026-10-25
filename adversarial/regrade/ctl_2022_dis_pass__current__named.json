@@ -1,0 +1,45 @@
+{
+  "audit_notes": "The candidate is a self-contained internal memo that reflects the same underlying logic as the gold drivers (predictability, free cash flow) but does not utilize the provided external source quotes as the foundation for its causal arguments.",
+  "cause_evidence": "The candidate aligns with the core investment principles (simplicity and FCF generation) but expresses them as a internal pass decision due to uncertainty, rather than strictly mirroring the external source quotes as required.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "DTC losses, pricing/ad-tier changes and legacy distribution decline widen the forecast range beyond a simple brand-quality argument.",
+      "index": 1,
+      "reason": "The candidate does not reference the specific causal claim that DTC losses, pricing changes, and legacy decline widen the forecast range, nor does it cite the required source.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "our standard for a simple, predictable, and free-cash-flow-generative business is not yet met",
+      "document": "D01_business_overview.md",
+      "document_quote": "The investment question is whether the combined intellectual-property system will produce growing distributable cash after the transition.",
+      "evidence_supported": true,
+      "gold_driver": "Require owner cash after content and parks reinvestment, not subscriber scale or adjusted EPS alone. Current FCF yield and leverage do not provide an obvious margin of safety.",
+      "index": 2,
+      "reason": "The candidate explicitly identifies that it requires a 'simple, predictable, and free-cash-flow-generative' business and expresses that this standard is currently unmet, supported by the memo's assessment of cash-flow predictability and the need for consolidated cash conversion.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate lacks explicit alignment with the specific gold drivers cited as primary decision triggers; it phrases the decision in terms of its own 'standard' rather than mapping the causal chain provided in the gold drivers.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

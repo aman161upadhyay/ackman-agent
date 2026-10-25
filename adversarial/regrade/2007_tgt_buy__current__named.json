@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate clearly documents its decision to pass based on the lack of a catalyst and the presence of extrinsic risks. The gold drivers provided appear to be retrospective activist thesis points from 2009, which do not align with the candidate's April 2007 perspective.",
+  "cause_evidence": "The candidate performs an ex-ante risk assessment and concludes that without a specific catalyst or fixable gap, the current retail environment and valuation do not meet the firm's threshold for an activist investment [L44].",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "High-quality differentiated retailer believed undervalued relative to durable business value.",
+      "index": 1,
+      "reason": "The candidate concludes Target is high-quality but specifically decides to PASS because it cannot identify a clear valuation dislocation or fixable gap [L44].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Credit-card receivables monetization and buybacks could release capital and improve shareholder returns.",
+      "index": 2,
+      "reason": "The candidate does not advocate for monetization or buybacks as a driver for investment; it identifies credit card bad-debt volatility as an extrinsic risk to be avoided [L28].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Owned land/real estate offered structural value not separately recognized; specific REIT/ground-lease plan developed later and must not be backdated to initial entry.",
+      "index": 3,
+      "reason": "The candidate does not propose a structural real estate plan. It explicitly states it cannot identify a fixable operating gap [L44].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Independent retail, property and capital-allocation expertise on the board could implement changes.",
+      "index": 4,
+      "reason": "The candidate makes no mention of board composition or the implementation of changes via new directors.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate lacks a conviction-building catalyst for Target at the 17.3x multiple, leading to a PASS decision.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

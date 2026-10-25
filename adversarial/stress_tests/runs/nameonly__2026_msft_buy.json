@@ -1,0 +1,213 @@
+{
+ "label": "nameonly__2026_msft_buy",
+ "pack": "2026_msft_buy",
+ "model": "replit-internal-current",
+ "mode": "new",
+ "as_of_date": "2026-01-30",
+ "company_label": "Microsoft",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "not in pack",
+   "segments_and_mix": [
+    "not in pack"
+   ],
+   "unit_economics": [
+    "not in pack"
+   ],
+   "competitive_position": [
+    "not in pack"
+   ],
+   "growth_record_and_outlook": [
+    "not in pack"
+   ],
+   "balance_sheet": [
+    "not in pack"
+   ],
+   "management_and_governance": [
+    "not in pack"
+   ],
+   "price_and_valuation": [
+    "not in pack"
+   ],
+   "what_the_market_is_worried_about": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "not in pack"
+   ],
+   "pershing_context": [
+    "not in pack"
+   ],
+   "missing_data": [
+    "all financial and operational data is missing as no documents were provided [D01]"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "UNSURE",
+     "evidence": "All financial and operational data is missing as no documents were provided [D01]."
+    },
+    "barriers_to_entry": {
+     "score": "UNSURE",
+     "evidence": "All financial and operational data is missing as no documents were provided [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "All financial and operational data is missing as no documents were provided [D01]."
+    },
+    "strong_financial_profile": {
+     "score": "UNSURE",
+     "evidence": "All financial and operational data is missing as no documents were provided [D01]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "UNSURE",
+     "evidence": "All financial and operational data is missing as no documents were provided [D01]."
+    },
+    "large_market_cap": {
+     "score": "UNSURE",
+     "evidence": "All financial and operational data is missing as no documents were provided [D01]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "All financial and operational data is missing as no documents were provided [D01]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "All financial and operational data is missing as no documents were provided [D01]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "All financial and operational data is missing as no documents were provided [D01]."
+    }
+   },
+   "n_pass": 0,
+   "n_fail": 0,
+   "n_unsure": 9,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "not in pack"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "variant_perception": "The provided information contains no data regarding the business, market, or investment opportunity. Consequently, we cannot identify a variant perception or an investment edge based on the documents provided [D01].",
+   "evidence": [
+    "All financial and operational data is missing as no documents were provided [D01]."
+   ],
+   "market_narrative_we_disagree_with": "not in pack [D01]",
+   "what_must_be_true": [
+    "The business must be defined",
+    "The market's narrative must be identified",
+    "The specific reason for the market's error must be documented"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "not in pack [L1]",
+   "eps_or_fcf_path": {
+    "base_year": "not in pack",
+    "base_value": "not in pack",
+    "growth_assumption": "not in pack",
+    "year_3_to_5_value": "not in pack",
+    "assumptions": [
+     "no data provided [L1]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 0,
+    "why": "not in pack"
+   },
+   "implied_irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "downside_case": "not in pack [L1]",
+   "valuation_verdict": "EXPENSIVE_BELOW_10",
+   "flagged_assumptions": [
+    "no financial or operational data provided in the pack [L1]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "As no data was provided in the pack, we are unable to identify a specific catalyst; however, under the 2024+ era framework, we typically look for high-quality compounding businesses where we can benefit from earnings growth and the fading of market-driven dislocations [L1].",
+   "levers_or_steps": [
+    "Not applicable due to missing data [L1]"
+   ],
+   "time_to_value_realisation_years": 0,
+   "why_this_role_fits_the_era": "In the current era (2024 onward), our default approach for large-cap quality franchises is to act as long-term compounders, which aligns with the C0 catalyst class in the absence of a specific operational turnaround requirement [L1]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "All financial and operational data is missing as no documents were provided [D01]."
+   ],
+   "portfolio_fit": "not in pack [D01]",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "liquidity_assessment": "not in pack [D01]",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The investment thesis cannot be formulated because no business data or operational details were provided in the pack [D01]."
+  }
+ },
+ "final": {
+  "as_of_date": "2026-01-30",
+  "company": "Microsoft",
+  "ticker": "MSFT",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "not in pack [L1]",
+   "eps_path": "not in pack",
+   "terminal_multiple": "not in pack",
+   "irr_pct": 0,
+   "downside_case": "not in pack [L1]"
+  },
+  "drivers": [
+   {
+    "driver": "The provided pack contains no operational or financial data for Microsoft, making it impossible to evaluate business quality [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "We have no visibility into the company's free-cash-flow generation or competitive barriers [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The lack of data prevents the identification of a variant perception or an investment edge [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "We cannot verify if the current market price offers a 20% annual rate of return [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "All financial and operational data is missing as no documents were provided [D01]."
+  ],
+  "what_would_change_our_mind": "The availability of detailed financial filings, operational performance metrics, and a clear investment thesis supported by primary research.",
+  "memo": "We have reviewed the potential investment in Microsoft and have determined that we must pass on this opportunity at this time [D01]. Pershing Square maintains a rigorous standard for every investment, requiring deep insight into a company's business quality, free-cash-flow generation, and competitive advantages [L1]. \n\nBecause the provided data pack contains no information regarding Microsoft's financial performance or operational status, we are unable to assess the business against our criteria [D01]. Without data, we cannot establish a valuation, nor can we identify the variant perception necessary to justify a high-conviction position [D01]. \n\nOur investment process relies on deep research to ensure that we are buying a dominant, durable business at an attractive price [L1]. In the absence of such analysis, we cannot move forward [D01]. \n\nConsequently, we choose to pass on this investment [D01]. We will maintain our focus on high-quality compounders where we have established a clear understanding of the earnings path and the long-term runway for growth [L1].",
+  "uncited_claims": [
+   "Pershing Square maintains a rigorous standard for every investment, requiring deep insight into a company's business quality, free-cash-flow generation, and competitive advantages."
+  ]
+ },
+ "elapsed_s": 0
+}

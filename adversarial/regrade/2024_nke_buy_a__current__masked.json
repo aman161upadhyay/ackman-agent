@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The gold drivers provided in the prompt are noted as '2025-03 retrospective' source material, which post-dates the May 2024 cutoff. I have audited the candidate's claims against the provided docs D01-D08 as instructed.",
+  "cause_evidence": "The candidate identifies a HOLD decision based on a 'wait and see' approach for execution data [L45, L67], whereas the gold drivers describe a retrospective thesis framework.",
+  "drivers": [
+    {
+      "candidate_quote": "The company remains a dominant global athletic brand with massive scale and cultural relevance",
+      "document": "D01_business_overview.md",
+      "document_quote": "The business can be attractive if its cultural relevance and distribution scale survive a period of weaker execution.",
+      "evidence_supported": true,
+      "gold_driver": "Global brand and scale remain valuable despite product and distribution missteps.",
+      "index": 1,
+      "reason": "The candidate asserts the company is a dominant global brand [L16] and the document confirms the attractiveness depends on these factors surviving weaker execution [L63].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Operating leverage will improve as the innovation pipeline refreshes and wholesale partnerships are optimized",
+      "document": "D03_latest_results.md",
+      "document_quote": "Donahoe said: “We’re encouraged by the progress we’ve seen, as we build a multiyear cycle of new innovation, sharpen our brand storytelling and work with our wholesale partners to elevate and grow the marketplace.”",
+      "evidence_supported": true,
+      "gold_driver": "Renewed innovation and wholesale cooperation can repair demand.",
+      "index": 2,
+      "reason": "The candidate links innovation and wholesale optimization to improved results [L35], which is supported by management's stated repair levers [L65].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "A $2 billion cost-savings program provides a clear path to margin expansion from current 10.9% levels",
+      "document": "D05_market_worries.md",
+      "document_quote": "The more favorable reading is that Nike's brand, athlete relationships and global reach remain intact, but execution and product mix have temporarily weakened. Renewed innovation, stronger storytelling and wholesale cooperation could restore growth.",
+      "evidence_supported": true,
+      "gold_driver": "Depressed profits offer recovery upside if execution improves.",
+      "index": 3,
+      "reason": "The candidate claims cost-savings drive margin expansion [L23] while the document confirms execution is viewed as temporarily weakened with recovery potential [L67].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "None",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Hill's company knowledge supported the thesis after his September appointment; it was not an observable May catalyst and should not be required in pre-entry reasoning.",
+      "index": 4,
+      "reason": "The candidate does not mention this individual or event, nor is it required for the thesis as per the gold driver's own logic.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate's decision is to 'HOLD' to observe execution, which is internally consistent with the provided docs [L45] but deviates from a purely bullish recovery thesis.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "as_of_date": "2025-01-06",
+  "mode": "new",
+  "docs": {
+    "D01_business_overview.md": "Title: A global marketplace, not a vehicle manufacturer\nSource: https://www.sec.gov/Archives/edgar/data/1543151/000154315124000033/uberq324earningspressrelea.htm\nDate: 2024-10-31\n\nUber matches consumers with drivers, couriers and merchants through software, payments, dispatch, safety and support systems. Its three reporting segments are Mobility, Delivery and Freight. The distinction between gross bookings and revenue matters: bookings measure the value flowing through the marketplace; revenue is Uber's recognized share, subject to differing principal-versus-agent accounting across businesses and countries. A bookings dollar is not a revenue dollar.\n\nThird-quarter 2024 bookings were $40,973 million. Mobility supplied $21,002 million, Delivery $18,663 million and Freight $1,308 million. Recognized revenue was respectively $6,409 million, $3,470 million and $1,309 million. Freight's gross revenue presentation makes its sales scale misleading alongside the marketplace segments.\n\nMobility segment adjusted EBITDA was $1,682 million, an 8.0% margin on bookings. Delivery generated $628 million, or 3.4% of bookings; Freight lost $19 million. Corporate general administration and platform research consumed $601 million. Segment earnings must therefore not be added without deducting shared costs. These adjusted earnings also exclude stock compensation and other GAAP expenses.\n\nThe marketplace had 161 million monthly active platform consumers, up 13%; quarterly trips were 2,868 million, up 17%. Monthly trips per active consumer reached 5.9, up 4%. Uber One exceeded 25 million members. These observations support, but do not prove, a density advantage: more local supply can reduce waits, while greater demand improves earning opportunities. Membership can connect rides and delivery without requiring ownership of the underlying vehicles.\n\nDara Khosrowshahi leads the company. Management's current strategy combines profitable growth, new lower-cost products, advertising and autonomous-vehicle partnerships. The quarter's diluted weighted-average share count was 2,154.466 million; basic weighted-average shares were 2,101.660 million. Neither is an exact January 6 point-in-time share count. Dilution remains relevant despite repurchases.\n\nThe central underwriting distinction is between owning a customer marketplace and owning the technology that drives a car. Uber has announced partnerships rather than a commitment to manufacture autonomous fleets. Whether that distribution role remains valuable is an open question, not an established moat against every future competitor.\n",
+    "D02_financial_snapshot.md": "Title: Profitability transition and cash conversion\nSource: compiled from: https://www.sec.gov/Archives/edgar/data/1543151/000154315124000012/uber-20231231.htm; https://www.sec.gov/Archives/edgar/data/1543151/000154315124000033/uberq324earningspressrelea.htm\nDate: 2024-10-31\n\nFinancial statements use US dollars. Annual periods end December 31; the latest published quarter ends September 30, 2024. Full-year 2024 results are not available.\n\n| Metric, $ million unless stated | 2021 | 2022 | 2023 |\n|---|---:|---:|---:|\n| Revenue | 17,455 | 31,877 | 37,281 |\n| Operating income/(loss) | (3,834) | (1,832) | 1,110 |\n| Revenue growth | Not supplied | 83% | 17% |\n| Operating margin, calculated | (22.0)% | (5.7)% | 3.0% |\n\nThe margin calculations divide reported operating income by reported revenue. Growth during the pandemic recovery and acquisition changes should not be extrapolated mechanically. Uber's 2023 operating cash flow was $3,585 million, compared with $642 million in 2022. Free cash flow is operating cash flow less property-and-equipment purchases; it is not adjusted EBITDA.\n\nFor Q3 2024, revenue was $11,188 million, up 20%, and GAAP operating income $1,061 million, up from $394 million. Net income was $2,612 million and diluted EPS $1.20. However, net income includes a $1.7 billion pretax benefit from investment revaluations. The company did not earn that entire amount from moving passengers and deliveries.\n\nQuarterly operating cash flow was $2,151 million and capex $42 million, producing $2,109 million FCF. Nine-month operating cash flow was $5,387 million and capex $198 million; analyst subtraction gives $5,189 million nine-month FCF. Insurance-reserve accruals contribute to operating cash flow and should be examined alongside cash earnings.\n\nSeptember cash and equivalents were $6,150 million and short-term investments $2,913 million. Long-term debt was $10,986 million. Simple debt less those unrestricted liquid assets is approximately $1.923 billion, calculated, excluding leases and restricted balances. Management expected a $2 billion debt redemption in Q4, but its completion is not assumed here.\n\nQuarterly buybacks were $375 million under the February $7 billion authorization. No dividend or comparable ROIC series is supplied. Low physical capex does not make employee equity compensation free; quarterly stock compensation was $438 million.\n",
+    "D03_latest_results.md": "Title: Latest published results and the operating outlook\nSource: https://www.sec.gov/Archives/edgar/data/1543151/000154315124000033/uberq324earningspressrelea.htm\nDate: 2024-10-31\n\nUber's latest earnings release covers Q3 2024. Bookings increased 16% reported and 20% in constant currency to $41.0 billion. Trips increased 17%; consumer growth and greater frequency both contributed. Revenue grew faster than bookings, increasing 20% reported and 22% in constant currency.\n\nCEO Dara Khosrowshahi said: “We delivered yet another record quarter of profitable growth at a global scale, reflecting the strength of our platform, which now has over 25 million Uber One members.” He also described advancing the autonomous strategy as “demonstrating how Uber can help unlock this exciting technology for the world.”\n\nCFO Prashanth Mahendra-Rajah highlighted “delivering over $1 billion in GAAP operating income for the first time in our company's history.” His statement that the business was on track for 20% full-year constant-currency bookings growth is guidance, not a reported full-year outcome.\n\nFor Q4, management forecast bookings of $42.75 billion–$44.25 billion, representing 16%–20% constant-currency growth. It expected trip growth similar to Q3 and approximately two percentage points of currency headwind to reported bookings growth. Adjusted EBITDA guidance was $1.78 billion–$1.88 billion, up 39%–47% year over year.\n\nMobility bookings grew 17% reported and 24% constant currency; its 8.0% bookings-based adjusted EBITDA margin increased from 7.2%. Delivery bookings grew 16% reported, while adjusted EBITDA grew 52%. Advertising and fixed-cost leverage helped delivery profitability. Freight remained loss-making amid industry headwinds.\n\nUber reported insurance expense as a source of pressure: cost of revenue excluding depreciation rose to 16.5% of bookings from 16.0%. Corporate and platform spending grew little year over year, providing operating leverage. Investors therefore need to distinguish improvements from genuine scale efficiency from changes in take rates or accounting.\n\nThe release announced an expanded Waymo partnership for Austin and Atlanta exclusively through Uber, plus other autonomous partnerships. Those announcements demonstrate operator interest in distribution, but do not establish the economics of a mature autonomous fleet. A future fleet operator can still choose its own app in another city. No Q4 earnings release is used in this pack.\n",
+    "D04_price_valuation.md": "Title: Price, cash-flow valuation and limits of the comparison\nSource: compiled from: https://fiscal.ai/company/NYSE_UBER/; https://query1.finance.yahoo.com/v8/finance/chart/UBER?period1=1704585600&period2=1736208000&interval=1d; https://www.sec.gov/Archives/edgar/data/1543151/000154315124000033/uberq324earningspressrelea.htm; https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_010325.pdf\nDate: 2025-01-06\n\nHistorical daily observations, not the financial website's current quote, give the following unadjusted closes:\n\n| Trading date | Close | Volume |\n|---|---:|---:|\n| December 31, 2024 | $60.32 | 14,487,300 |\n| January 2, 2025 | $63.17 | 25,899,100 |\n| January 3, 2025 | $64.59 | 28,553,825 |\n| January 6, 2025 | $66.31 | 32,980,700 |\n\nThe date-bounded Yahoo archive supplies a preceding approximately52-week intraday range of $54.84–$87.00. The January6 close is approximately23.8% below the high, calculated. Average volume over that window is approximately19.18million shares. Recent share-price weakness is not matched by a collapse in the last reported quarter; conversely, a favorable quarter does not disprove a future technology threat. These are historical observations, not a present-day range.\n\nFor scale only, multiplying $66.31 by Q3's 2,101.660 million basic weighted-average shares gives approximately $139.36 billion of equity value. This is an analyst calculation using a stale average denominator, not a reported January market capitalization. Against $5.189 billion nine-month FCF, mechanically annualizing gives about $6.919 billion, or a 5.0% illustrative equity cash-flow yield. This is not trailing-twelve-month FCF or consensus next-year guidance, and insurance timing can distort it.\n\nA reliable January 6 consensus forward EPS series, forward P/E, enterprise-value/EBITDA multiple and five-to-ten-year multiple range are not available in this source set. The business has only recently become GAAP profitable, making a long earnings-multiple history intrinsically problematic. Investment revaluation gains also contaminate trailing net-income comparisons.\n\nFactSet's January 3 Earnings Insight reports the S&P 500 forward twelve-month P/E at 21.4, versus a five-year average of 19.7. That is a forward earnings benchmark; it cannot be compared directly with a cash-flow yield or a quarterly EPS annualization.\n\nThe observed daily liquidity is large enough to make gradual institutional accumulation feasible. Position sizing should nevertheless reflect AV outcome uncertainty, not merely ease of execution or a price below a recent peak.\n",
+    "D05_market_worries.md": "Title: Robotaxi distribution risk is the central bear case\nSource: compiled from: https://www.investors.com/news/technology/uber-stock-lyft-stock-waymo-miami-robotaxi-fears/; https://www.cnbc.com/2024/12/26/waymo-dominated-us-robotaxi-market-in-2024-but-tesla-zoox-loom.html; https://www.cnbc.com/2024/12/10/gm-halts-funding-of-robotaxi-development-by-cruise.html\nDate: 2025-01-02\n\nInvestor's Business Daily on December 5, 2024 described Uber and Lyft falling after Waymo announced Miami expansion. It quoted an analyst concern that Google was “laying the ground work to cut out Uber.” The bear proposition is not that rides stop growing immediately. It is that an autonomous operator owning vehicles, driving software and customer distribution can retain the economics now shared with a marketplace.\n\nWaymo's own-app expansion matters because not every market is being entered through Uber. Uber's Austin/Atlanta agreement cannot be generalized into universal exclusivity. A technologically superior supplier could use initial marketplace demand while building its own brand and then renegotiate fees.\n\nCNBC's December 26 industry review, updated January 2, portrays 2024 as a year of emerging mainstream adoption for Waymo. Tesla and Zoox are additional competitive possibilities. Tesla's October 10 “We, Robot” presentation increased investor attention to a driverless future; a product presentation is not evidence of broad commercial deployment or regulatory permission.\n\nThe opposing evidence is the industry's difficulty. CNBC reported on December 10 that General Motors would stop funding Cruise robotaxi development. The financial burden of developing, deploying and maintaining autonomous fleets is therefore material even for an established automaker. This does not demonstrate that Waymo must fail; it does challenge the assumption that unlimited low-cost autonomous supply is imminent everywhere.\n\nOther risks already visible in Uber's October earnings include rising insurance costs, reliance on independent earners and legal or regulatory changes to worker status. Mobility's healthy adjusted earnings can be pressured by insurance inflation without any AV displacement. Delivery competes for consumers, merchants and couriers, while incentives can reduce margins.\n\nThere is no single verified pre-cutoff sell-side consensus quantifying ultimate AV market share or the date of autonomous profitability. An analyst must instead separate near-term bookings and cash flow from terminal-value risk. The stock can look inexpensive on current growth if the marketplace is durable, and expensive if an outside supplier captures its customer relationship. Both propositions are scenarios as of January 6.\n",
+    "D06_peer_industry.md": "Title: Marketplace peers and the economics of local density\nSource: compiled from: https://investor.lyft.com/financials/sec-filings/content/0001759509-24-000121/lyft-20240930xpressrelease.htm; https://www.sec.gov/Archives/edgar/data/1792789/000162828024044309/dashq32024ex991-pressrelea.htm; https://www.sec.gov/Archives/edgar/data/1543151/000154315124000033/uberq324earningspressrelea.htm\nDate: 2024-11-06\n\nThe most direct listed benchmarks are Lyft for North American rides and DoorDash for delivery. Neither replicates Uber's geographic and product mix. Their adjusted EBITDA definitions also differ, so bookings-based margins are more informative than revenue margins alone, but still not perfectly comparable.\n\n| Q3 2024 | Uber | Lyft | DoorDash |\n|---|---:|---:|---:|\n| Revenue | $11.188bn | $1.5227bn | approximately $2.7bn |\n| Revenue growth | 20% | 32% | 25% |\n| Adjusted EBITDA | $1.690bn | $107.3m | $533m |\n| GAAP net income/(loss) | $2.612bn | $(12.4)m | $162m |\n\nLyft's November 6 release reports $4.1 billion gross bookings, up 16%, with 217 million rides and 24.4 million active riders. Adjusted EBITDA was 2.6% of bookings. Quarterly FCF was $242.8 million and trailing FCF $641.2 million. Its Q4 bookings guide of $4.28 billion–$4.35 billion implies 15%–17% growth.\n\nDoorDash's October 30 release reports 25% revenue growth, a 13.5% net revenue margin and a move to GAAP profitability. Adjusted EBITDA increased from $344 million to $533 million. This is evidence that improving delivery economics are not unique to Uber; it is also evidence of a well-funded competitor capable of reinvesting in merchant selection and consumer demand.\n\nUber's Mobility adjusted EBITDA margin of 8.0% of bookings exceeds its Delivery margin of 3.4%. The lower corporate margin reflects shared platform costs, Freight and adjustments. Comparing Uber's consolidated revenue multiple with a pure delivery marketplace can therefore obscure different monetization and maturity.\n\nMatching pre-cutoff peer forward P/Es, EV/EBITDA multiples and consensus EPS growth estimates are not recovered. No current valuation screen is substituted.\n\nIndustry economics are local rather than purely global: a dense supply network in one city cannot instantly supply another. Consumers and earners can use multiple apps, limiting switching costs. Uber's case rests on demand aggregation, liquidity and operating efficiency overcoming that multi-homing, not on contractual monopoly. AV operators introduce a new supplier class whose bargaining power remains uncertain.\n",
+    "D07_event_timeline.md": "Title: The dated path from cash generation to autonomy anxiety\nSource: compiled from: https://www.sec.gov/Archives/edgar/data/1543151/000154315124000033/uberq324earningspressrelea.htm; https://www.cnbc.com/2024/12/10/gm-halts-funding-of-robotaxi-development-by-cruise.html; https://www.investors.com/news/technology/uber-stock-lyft-stock-waymo-miami-robotaxi-fears/; https://www.cnbc.com/2024/12/26/waymo-dominated-us-robotaxi-market-in-2024-but-tesla-zoox-loom.html\nDate: 2025-01-06\n\nFebruary 2024: Uber authorized a $7 billion share-repurchase program, subsequently referenced in its October release. The authorization indicates capacity and intent to return capital; it does not mean the entire authorization has been executed.\n\nThird quarter 2024: Uber issued $4 billion of senior notes, its first investment-grade debt issuance, comprising maturities in 2030, 2034 and 2054. It also entered a $5 billion credit agreement. This extends financing flexibility while leaving an obligation to service debt; it is not operating cash generation.\n\nSeptember 2024: Uber expanded its Waymo relationship to bring autonomous service to Austin and Atlanta only through Uber. The agreement is documented in the October 31 earnings release. Its significance is commercial distribution: an AV technology developer chose to access Uber demand rather than rely exclusively on direct customer acquisition in those cities.\n\nOctober 10, 2024: Tesla's “We, Robot” event focused market attention on robotaxis. The issue for Uber is whether cheap autonomous transport expands demand available to marketplaces or creates an integrated competitor that bypasses them. No later launch outcome is assumed.\n\nOctober 31, 2024: Q3 results showed $1.061 billion GAAP operating income, $2.109 billion FCF and 20% constant-currency bookings growth. Management guided Q4 adjusted EBITDA growth of 39%–47%. This is the latest available company earnings outlook.\n\nDecember 5, 2024: Waymo's Miami expansion announcement revived fears about direct-app competition, according to Investor's Business Daily. Partnerships and bypass risk can coexist in different geographies.\n\nDecember 10, 2024: GM announced it would stop funding Cruise robotaxi development, as reported by CNBC. This underlines the capital and execution burden of the technology rather than guaranteeing a particular surviving platform.\n\nDecember 31, 2024–January 6, 2025: historical closes moved from $60.32 to $66.31. This short recovery does not resolve the terminal-value debate. The timeline ends January 6; no subsequent earnings or investment announcements are included.\n",
+    "D08_pershing_context.md": "Title: The manager's available capital, portfolio and decision framework\nSource: compiled from: https://assets.pershingsquareholdings.com/wp-content/uploads/2025/02/07152731/Performance-Report-September-2024-PSH.pdf; https://13f.info/13f/000117266124005218-pershing-square-capital-management-l-p-q3-2024; https://assets.pershingsquareholdings.com/2024/03/22201541/Pershing-Square-Holdings-Ltd.-2023-Annual-Report.pdf\nDate: 2024-11-14\n\nThe September 30 portfolio update, published October 1, reports total firm AUM of $18,498.8 million including PSVII, core-strategy AUM of $17,090.0 million and PSH AUM of $15,135.3 million. AUM includes bond proceeds and is not identical to fund NAV or immediately deployable cash. The document is now hosted at a later upload path; the underlying observation and release are from 2024.\n\nThe most recent available 13F is the September 30 quarter, filed November 14. The disclosed portfolio includes Alphabet's two classes, Hilton, Chipotle, Restaurant Brands International, Canadian Pacific Kansas City, Howard Hughes, Brookfield, Nike and Seaport Entertainment. Universal Music Group and OTC Fannie/Freddie require non-13F sources. No weight should be interpreted as a complete portfolio allocation without these holdings and derivatives.\n\nExact comparable weights from that filing were not recovered in this compact source set. The annual report establishes a concentrated portfolio with relatively few core positions rather than a diversified index-like mandate. Hilton, restaurants, rail, music rights and Alphabet illustrate a preference for strong franchises and recurring economics. Current cash, a complete recent-exit schedule and January firm AUM are not independently verified; they are not estimated from the 13F residual.\n\nPershing's March 22, 2024 annual report emphasizes long-term ownership, high-quality businesses, limited downside and active engagement where appropriate. Its permanent-capital structure supports a longer horizon than a daily-redemption fund, but does not remove the need to sell when a thesis deteriorates. Leverage at PSH must be distinguished from margin borrowing against individual positions.\n\nNo verified Uber-specific Ackman recommendation dated on or before January 6 is available here. There is therefore no attributed prior statement that resolves the AV question. A candidate investment must stand on the company and industry evidence, not an assumed endorsement.\n\nFor portfolio fit, the relevant question is whether a cash-generative marketplace can be underwritten like the manager's other durable franchises despite technological uncertainty. A low share price or attractive adjusted EBITDA growth alone is insufficient; confidence in management, earnings durability and the range of terminal outcomes must be assessed together.\n"
+  },
+  "answer_key": {
+    "actual_decision": "BUY",
+    "reason_class": null,
+    "drivers": [
+      {
+        "driver": "Dara's leadership created a profitable, cash-generative growth business.",
+        "source": "https://x.com/BillAckman/status/1887900916734738888 (2025-02-07)",
+        "quote": "Since he joined the company in 2017, Dara Khosrowshahi CEO has done a superb job in transforming the company into a highly profitable and cash-generative growth machine."
+      },
+      {
+        "driver": "Dense marketplace networks improve waits, pricing and earner utilization.",
+        "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03)",
+        "quote": null
+      },
+      {
+        "driver": "Capital-light growth and fixed-cost leverage support substantial earnings compounding.",
+        "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03)",
+        "quote": null
+      },
+      {
+        "driver": "AV developers can benefit from Uber demand aggregation rather than displace its marketplace.",
+        "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03)",
+        "quote": null
+      },
+      {
+        "driver": "Disruption fears created an attractive price for a high-quality business.",
+        "source": "https://x.com/BillAckman/status/1887900916734738888 (2025-02-07)",
+        "quote": "We believe that Uber is one of the best managed and highest quality businesses in the world."
+      }
+    ],
+    "pack_quality_notes": "Dated historical close, volume and52-week range recovered. January consensus forward valuation, full13F weights and current cash not recovered. Illustrative capitalization/FCF yield explicitly use stale share count and annualized nine-month FCF, not consensus. Driver descriptions beyond announcement are retrospective letter paraphrases."
+  },
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "final": {
+        "as_of_date": "2025-01-06",
+        "company": "the Company (XXX)",
+        "ticker": "UBER",
+        "decision": "BUY",
+        "conviction": "medium",
+        "target_size_pct_nav": 6,
+        "opportunity_template": [
+          "T4"
+        ],
+        "catalyst_role": "C0",
+        "gate1_hard_fail": true,
+        "valuation": {
+          "entry_multiple": "5% FCF yield",
+          "eps_path": "15% FCF CAGR through 2027",
+          "terminal_multiple": "20x",
+          "irr_pct": 22,
+          "downside_case": "Regulatory or AV bypass risks impair margins; protected by significant cash and buybacks"
+        },
+        "drivers": [
+          {
+            "driver": "A capital-light marketplace leader with high FCF conversion and a powerful network effect of 161 million monthly active consumers.",
+            "citations": [
+              "D01",
+              "D02"
+            ]
+          },
+          {
+            "driver": "The market incorrectly fears that autonomous vehicle operators will bypass the platform, ignoring the company's role as the essential demand aggregator.",
+            "citations": [
+              "D01",
+              "D05"
+            ]
+          },
+          {
+            "driver": "Management's profitable growth strategy and $7 billion share-repurchase program are driving significant FCF per share growth.",
+            "citations": [
+              "D01",
+              "D02"
+            ]
+          },
+          {
+            "driver": "Successful integration of AV partnerships like Waymo demonstrates the platform's value in maximizing fleet utilization.",
+            "citations": [
+              "D03",
+              "D07"
+            ]
+          }
+        ],
+        "kill_criteria": [
+          "Management abandons the capital-light marketplace model to pursue capital-intensive fleet ownership",
+          "Unit growth turns negative for two consecutive quarters, signaling loss of network density",
+          "Legislative or judicial rulings categorize workers as employees, permanently impairing unit economics",
+          "Autonomous vehicle operators successfully achieve scale while consistently bypassing the company's platform"
+        ],
+        "what_would_change_our_mind": "Evidence that autonomous vehicle providers can achieve sustainable, high-margin scale independently, effectively marginalizing the company's marketplace demand aggregation.",
+        "memo": "We are initiating a position in the Company, a dominant global marketplace that connects consumers with mobility and delivery providers [D01]. The business is uniquely positioned as a capital-light matchmaker, generating significant free cash flow—$5.189 billion in the first nine months of 2024 alone—with minimal capital expenditure requirements [D02]. This model, combined with a robust balance sheet and 161 million active consumers, creates a durable, high-barrier moat in a global, growing addressable market [D01, D02].\n\nMarket sentiment is currently clouded by the perception that autonomous vehicle (AV) operators represent an existential threat that will bypass the company's platform [D05, D07]. We believe this narrative is fundamentally flawed. Rather than being bypassed, the company acts as a vital demand-aggregation layer that AV operators will find necessary to optimize fleet utilization [D01]. The market's fear ignores the company’s massive local density advantage and brand power [D01].\n\nWith an illustrative FCF yield of 5% and a growth algorithm driven by 20% constant-currency bookings growth and ongoing margin expansion, we anticipate a mid-to-high teens annual return [D02, D03, D04]. We model a 15% FCF CAGR over the next three years, supported by the ongoing $7 billion share-repurchase program [D02, D03].\n\nOur catalyst for value realization is the successful integration of AV partners, such as the expanded Waymo collaboration [D03, D07]. As the company demonstrates that it remains the preferred consumer interface for mobility and delivery, we expect a re-rating of the stock toward its intrinsic value [D01, D07].\n\nWhile regulatory risks regarding worker classification and insurance costs persist, the company’s scale and cash position provide a sufficient buffer [D02, D05]. We are initiating a 6% position, reflecting our confidence in management’s capital allocation and the platform’s durability [D02, D05].",
+        "uncited_claims": []
+      }
+    },
+    {
+      "anonymous_id": "C2",
+      "final": {
+        "as_of_date": "2025-01-06",
+        "company": "Uber Technologies",
+        "ticker": "UBER",
+        "decision": "BUY",
+        "conviction": "high",
+        "target_size_pct_nav": 8,
+        "opportunity_template": [
+          "T4"
+        ],
+        "catalyst_role": "C0",
+        "gate1_hard_fail": false,
+        "valuation": {
+          "entry_multiple": "implied FCF yield ~5.0% (approx 20x P/FCF)",
+          "eps_path": "15% CAGR based on 20% bookings growth and operating leverage",
+          "terminal_multiple": "25x FCF",
+          "irr_pct": 22,
+          "downside_case": "Marketplace disintermediation by AV fleets or regulatory reclassification of drivers causing structural margin collapse."
+        },
+        "drivers": [
+          {
+            "driver": "Uber is a dominant, capital-light global marketplace that benefits from powerful local network effects, connecting 161 million monthly active consumers with drivers and merchants [D01].",
+            "citations": [
+              "D01"
+            ]
+          },
+          {
+            "driver": "We are acquiring our stake at an attractive ~5% implied FCF yield, a discount for a business generating massive cash flow while maintaining a strong, investment-grade balance sheet [D02], [D04], [D07].",
+            "citations": [
+              "D02",
+              "D04",
+              "D07"
+            ]
+          },
+          {
+            "driver": "Management has successfully pivoted the firm toward profitable growth, evidenced by the first $1 billion GAAP operating income quarter and a $7 billion share-repurchase program [D03], [D07].",
+            "citations": [
+              "D03",
+              "D07"
+            ]
+          },
+          {
+            "driver": "The market incorrectly fears that autonomous vehicle fleets will disintermediate the marketplace, whereas we believe Uber will be the essential, high-margin software-enabled aggregator for AV operators [D01], [D05], [D07].",
+            "citations": [
+              "D01",
+              "D05",
+              "D07"
+            ]
+          }
+        ],
+        "kill_criteria": [
+          "Regulatory reclassification of drivers as employees in key markets resulting in a permanent structural margin decline",
+          "Failure to successfully integrate autonomous vehicle fleets, leading to market share loss to direct-to-consumer robotaxi networks",
+          "Bookings growth decelerates below 10% for two consecutive quarters, signaling market saturation or loss of competitive intensity"
+        ],
+        "what_would_change_our_mind": "A fundamental breakdown in the marketplace's ability to maintain take-rates due to either regulatory enforcement that destroys the gig-economy model or a total technological bypass by AV OEMs that renders our aggregation platform obsolete.",
+        "memo": "Uber is a dominant global marketplace that possesses the rare combination of massive scale and network-effect-driven density, connecting 161 million monthly active consumers across its Mobility and Delivery segments [D01]. The business is increasingly capital-light, generating significant free cash flow and demonstrating clear operating leverage as it matures into a software-enabled utility [D01], [D02].\n\nWe believe the current market valuation offers an attractive entry point because investors are fixated on the wrong risks. The market narrative suggests that autonomous vehicle operators will disintermediate Uber and destroy its marketplace model [D05]. We view this differently: Uber’s scale and local network density make it the most logical and efficient distribution channel for any autonomous fleet [D01]. Recent partnerships, such as those with Waymo, validate our view that Uber will serve as the essential aggregator in the future mobility landscape [D07].\n\nValuation is compelling at an implied FCF yield of approximately 5%, which we expect to expand as the company executes on its 20% bookings growth trajectory and continues to scale margins [D01], [D03], [D04]. With the recent authorization of a $7 billion share-repurchase program, management is clearly committed to enhancing per-share value [D07]. We project a high-teens to low-twenties IRR as the market re-rates the company from a growth-stage intermediary to a high-margin, durable aggregator with a terminal multiple of 25x FCF.\n\nOur role is that of a long-term capital partner. We will monitor the business's integration of autonomous assets and its ability to navigate regulatory headwinds without requiring public intervention [D01]. Our decision is to initiate a position representing 8% of NAV, reflecting our high conviction in the business’s durable growth and the strength of its competitive moat.",
+        "uncited_claims": []
+      }
+    }
+  ]
+}

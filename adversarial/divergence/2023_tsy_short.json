@@ -1,0 +1,25 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "Candidate C1 identifies as HOLD [L35], yet fails to acknowledge the specific hedge instrument limitations in [D04]—which states 'no contract-level strike, expiry, notional, premium or implied volatility was recovered'—instead claiming a specific premium percentage [L62] and payoff multiple [L61] not present in the pack, constituting a failure to execute the rule against inferring details from forecasts [D04].",
+      "fix": "Remove speculative numerical claims for premium and payoff, and characterize the existing protection qualitatively as an insurance overlay per the available documentation in [D04] and [D05].",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "iii"
+      ]
+    },
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "Candidate C2 claims a specific payoff multiple [L98] and premium percentage [L99] unsupported by the documentation provided in [D04], failing the rule to avoid inferring precise terms not in the pack.",
+      "fix": "Eliminate the unsupported numerical payoff and premium metrics, acknowledging the limitation stated in [D04] that an 'exact executable options surface... was not recovered'.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "iii"
+      ]
+    }
+  ],
+  "notes": "Both candidates C1 and C2 correctly identify the strategy of holding macro protection, but both violate the core constraint in [D04] by fabricating specific derivative payoff multiples and premium costs, rather than treating them as unavailable information."
+}

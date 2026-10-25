@@ -1,0 +1,93 @@
+{
+  "audit_notes": "Candidate correctly identifies the high-level qualitative thesis but lacks the specific load-bearing causal steps for the mechanics of recapitalization.",
+  "cause_evidence": "The candidate memo omits specific mechanical drivers regarding senior preferred credit, capital standards, and warrant exercise, focusing instead on qualitative outcomes.",
+  "drivers": [
+    {
+      "candidate_quote": "the incoming administration offers a plausible path toward exiting conservatorship",
+      "document": "D08_pershing_context.md",
+      "document_quote": "the incoming administration offers a plausible path toward exiting conservatorship",
+      "evidence_supported": true,
+      "gold_driver": "A second Trump administration creates a credible near-term path to release.",
+      "index": 1,
+      "reason": "The candidate correctly identifies the incoming administration as the specific catalyst for the exit path.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Credit prior distributions toward repayment of senior preferred rather than leave an unlimited senior claim.",
+      "index": 2,
+      "reason": "The candidate omits the specific mechanism of crediting prior distributions to reduce the senior preferred claim.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Retained capital and earnings support recapitalization with manageable new issuance under the proposed2.5%standard.",
+      "index": 3,
+      "reason": "The candidate mentions capital accumulation but fails to link it to the specific 2.5% capital standard or the necessity of new issuance as described in the gold driver.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Full Treasury warrant exercise aligns taxpayer proceeds with a successful offering.",
+      "index": 4,
+      "reason": "The candidate does not discuss Treasury warrants or their role in aligning interests.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "the gap between current prices and our estimated intrinsic value in a successful scenario remains sufficiently wide to justify maintaining our position",
+      "document": "D08_pershing_context.md",
+      "document_quote": "the gap between current prices and our estimated intrinsic value in a successful scenario remains sufficiently wide to justify maintaining our position",
+      "evidence_supported": true,
+      "gold_driver": "Large conditional valuation upside remains despite rally, while outcome uncertainty requires limited exposure.",
+      "index": 5,
+      "reason": "The candidate captures the justification for holding due to the remaining valuation gap while acknowledging the need to limit exposure.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate fails to articulate the specific structural and mechanical levers identified in the gold drivers that underpin the investment thesis.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [
+      "document quote 1",
+      "document quote 5"
+    ],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 5,
+        "causal": true,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

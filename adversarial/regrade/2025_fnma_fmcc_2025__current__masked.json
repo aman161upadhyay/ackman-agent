@@ -1,0 +1,90 @@
+{
+  "audit_notes": "Candidate [D08, D10] citation density refers to the author's public post (Ackman) which matches source data, but the candidate text fails to synthesize the quantitative mechanisms (warrants, capital standards) provided in the gold driver expectations.",
+  "cause_evidence": "The candidate omits the specific mechanisms of the gold drivers (e.g., specific warrant alignment, 2.5% capital standard, dividend crediting) and focuses instead on a general qualitative assessment of political opportunity.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "A second Trump administration creates a credible near-term path to release.",
+      "index": 1,
+      "reason": "The candidate mentions 'new administration' and 'negotiated path' [L15, L19] but does not explicitly credit the 'second Trump administration' as the driver, nor does it provide the verbatim quote required for semantic presence.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Credit prior distributions toward repayment of senior preferred rather than leave an unlimited senior claim.",
+      "index": 2,
+      "reason": "The candidate does not mention crediting prior distributions toward the senior preferred claim.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Retained capital and earnings support recapitalization with manageable new issuance under the proposed2.5%standard.",
+      "index": 3,
+      "reason": "The candidate mentions capital rebuild [L23] but does not refer to the 2.5% standard or new issuance requirements.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Full Treasury warrant exercise aligns taxpayer proceeds with a successful offering.",
+      "index": 4,
+      "reason": "The candidate mentions dilution via Treasury warrants as a risk [L19] but does not discuss taxpayer proceeds alignment.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "they continue to trade at a substantial discount to our estimated intrinsic value of approximately $34 per share under a successful recapitalization scenario",
+      "document": "D04_price_valuation.md",
+      "document_quote": "His post estimates approximately $34 intrinsic value per share at hypothetical 2026 IPOs",
+      "evidence_supported": true,
+      "gold_driver": "Large conditional valuation upside remains despite rally, while outcome uncertainty requires limited exposure.",
+      "index": 5,
+      "reason": "The candidate captures the intrinsic value estimate and acknowledges uncertainty/holding the position.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate's analysis focuses on broad thesis status ('THESIS_ON_TRACK') rather than supporting the specific, load-bearing financial and policy mechanics required by the gold drivers.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 5,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

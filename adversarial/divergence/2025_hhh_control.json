@@ -1,0 +1,25 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "Candidate C1 identifies as 'HOLD' and characterizes Pershing's role as 'largest shareholder' working with a committee [L59], yet fails to incorporate the specific strategic plan parameters required by the Era E rules, resulting in a model output that deviates from the provided answer-key directive which treats this as a control-driven strategic platform [L11, L26].",
+      "fix": "Refine the agent to prioritize the provided strategic plan (holding company/insurance) as the core thesis rather than treating the current status as a passive or hold-period situation.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "hindsight or imputed control rejection"
+      ]
+    },
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "Candidate C2 likewise fails to fully integrate the specific 'modern-day Berkshire' holding-company transformation plan detailed in the answer-key notes, defaulting instead to a broader 'HOLD' based on existing MPC operations rather than the intended active control/platform strategy [L98, L118, L135].",
+      "fix": "Adjust the thesis to reflect the specific strategic intent of establishing a holding company with insurance-backed capital, rather than focusing solely on the MPC land development business.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "hindsight or imputed control rejection"
+      ]
+    }
+  ],
+  "notes": "Both candidates C1 and C2 correctly identify the company and key business drivers (MPC value, strategic review process) but both fail to fully execute the specific Era E 'modern-day Berkshire' holding-company thesis identified in the answer-key as the definitive path for this position. Both models prioritize the existing development operations over the intended strategic shift to a platform-based capital allocation structure."
+}

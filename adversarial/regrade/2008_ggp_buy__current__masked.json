@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate relies on the same core thesis as the gold drivers (restructuring vs liquidation based on asset-value backing), but the specific gold driver quotes originate from post-cutoff retrospective materials, making some drivers impossible to fully satisfy within the primary document set.",
+  "cause_evidence": "The candidate captures the essential investment thesis (assets exceed liabilities, restructuring avoids liquidation) but lacks the specific macro-causal framing provided in the gold drivers (the 'unprecedented credit-market disruption' attribution).",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "The immediate problem was an unprecedented credit-market disruption coinciding with maturities, not a destroyed mall franchise.",
+      "index": 1,
+      "reason": "The candidate attributes the distress to a liquidity trap and market conflation [L47], but does not make the specific claim that the crisis was caused by an unprecedented credit-market disruption.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "We believe this position offers a highly asymmetric return profile. By acquiring the equity at these distressed levels, we are effectively buying an option on the recovery of a solvent estate, with potential returns exceeding 50% IRR if we successfully steer the company through a restructuring rather than a fire-sale liquidation",
+      "document": "D01_business_overview.md",
+      "document_quote": "Longer leases provide a buffer between a bad shopping season and rental receipts.",
+      "evidence_supported": true,
+      "gold_driver": "Long-lease mall cash flows could support value through a restructuring rather than a forced sale.",
+      "index": 2,
+      "reason": "The candidate explicitly identifies the opportunity as buying an option on a solvent estate by avoiding liquidation [L47], supported by the document's note on the buffer provided by longer leases [L64].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The market assumes that because the company warned of potential bankruptcy, the equity is worthless; we believe this ignores the significant intrinsic value of the real estate, which we estimate exceeds the US$27.7 billion in debt claims",
+      "document": "D09_reorganization_and_asset_coverage.md",
+      "document_quote": "Consequently, a company whose going-concern asset value genuinely exceeds all senior claims may have residual common value even when it cannot pay a balloon maturity today.",
+      "evidence_supported": true,
+      "gold_driver": "Assets exceeding creditor claims can preserve a residual for common shareholders in bankruptcy.",
+      "index": 3,
+      "reason": "The candidate explicitly argues that the real estate value exceeds the debt claims [L47], which is the conceptual premise for residual value as defined in the source document [L72].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We size this position at 5% of NAV to balance this binary risk with the potential for massive gains during this period of market dislocation",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "A small dollar commitment at a distressed share price offers a bounded equity loss against very large residual-value upside.",
+      "index": 4,
+      "reason": "The candidate discusses risk-balancing via position sizing [L47] but does not explicitly characterize the trade as a bounded equity loss against residual upside.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate identifies the firm's liquidity issue but does not explicitly attribute the failure to an external credit-market disruption.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

@@ -1,0 +1,4 @@
+Neither flag represents confirmed post-cutoff factual leakage under your provided rules:
+
+1. **Trial scheduled for 2026:** This is not future leakage. The rule states that a trial scheduled in 2026 discussed in a pre-cutoff filing is excluded [L12]. The flag in D05 [L5-L10] incorrectly categorizes this as a "Future-derived assertion" despite the exception [L12].
+2. **Later archive hosting location:** This is not factual leakage. The rule states that a later archive hosting location is "provenance uncertainty" [L21], and the finding explicitly confirms the "underlying observation and release are from 2024" [L19].

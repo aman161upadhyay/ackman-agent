@@ -1,0 +1,90 @@
+{
+  "audit_notes": "Candidate memo matches the provided evidence base for the date. Semantic leakage refers to documents referencing events or publications dated after the 2026-06-30 cutoff (such as the August 2026 document cited in the gold drivers).",
+  "cause_evidence": "The candidate valuation uses a 25x multiple exit target [L53] rather than the 18x multiple referenced in the gold driver [L100].",
+  "drivers": [
+    {
+      "candidate_quote": "recurring revenue from consumables and high-moat surgical workflows that generate significant, predictable free cash flow",
+      "document": "D01_business_overview.md",
+      "document_quote": "Surgical equipment can create recurring demand for consumables and service as clinicians perform procedures. Installed systems, training, workflow familiarity and product compatibility may support retention.",
+      "evidence_supported": true,
+      "gold_driver": "Surgical installed-base economics produce sticky recurring consumable demand.",
+      "index": 1,
+      "reason": "The candidate identifies the sticky, recurring nature of the surgical consumable model supported by the workflow/installed base evidence in D01.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "durable growth runway",
+      "document": "D01_business_overview.md",
+      "document_quote": "Demand can benefit from aging populations, prevalence of visual impairment, access to care and willingness to adopt premium correction.",
+      "evidence_supported": true,
+      "gold_driver": "Demographics, income and access support durable vision-care growth.",
+      "index": 2,
+      "reason": "The candidate links the business's durability to its position in the eye-care space, mirroring the demographic drivers documented in D01.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "market is distracted by temporary launch-related expenses",
+      "document": "D05_market_worries.md",
+      "document_quote": "Selling expense, development cost, manufacturing ramp-up and tariffs may persist longer than assumed.",
+      "evidence_supported": true,
+      "gold_driver": "Launch/R&D costs, tariffs, FX and lens-manufacturing maturation obscure higher structural margins.",
+      "index": 3,
+      "reason": "The candidate explicitly identifies temporary expenses obscuring earnings power, which the documents confirm are the focus of current margin debate.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "De-rating toward18x earnings, buybacks and prospective EPS growth create attractive return potential.",
+      "index": 4,
+      "reason": "The candidate uses a 25x multiple target, not 18x, and does not propose a de-rating thesis.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "company's essential nature and strong cash flow profile limit our downside and provide a margin of safety",
+      "document": "D09_clinical_option_separate_from_base.md",
+      "document_quote": "A valuation can therefore start with an established operating business rather than an assumed future therapy launch.",
+      "evidence_supported": true,
+      "gold_driver": "AURN001 is incremental upside rather than required core value.",
+      "index": 5,
+      "reason": "The candidate explicitly distinguishes the core business cash flow from the binary pipeline asset in the memo, consistent with the document's logic.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "Valuation assumptions regarding exit multiples diverge significantly from the gold driver.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 5,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

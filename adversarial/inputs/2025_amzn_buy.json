@@ -1,0 +1,165 @@
+{
+  "as_of_date": "2025-04-07",
+  "mode": "new",
+  "docs": {
+    "D01_business_overview.md": "Title: Retail logistics, third-party services and cloud infrastructure\nSource: https://www.sec.gov/Archives/edgar/data/1018724/000101872425000002/amzn-20241231xex991.htm\nDate: 2025-02-06\n\nAmazon combines a global retail marketplace with a large cloud-computing business. It reports North America, International and Amazon Web Services, rather than separating advertising and seller services into independent operating segments. Retail revenue includes owned inventory, while marketplace economics include fees and services supplied to third-party sellers. Those business models have different inventory and tariff exposures.\n\nIn Q4 2024, North America sales were $115.6 billion and operating income $9.3 billion. International sales were $43.4 billion and operating income $1.3 billion. AWS generated $28.8 billion sales and $10.6 billion operating income. Calculated margins are approximately 8.0%, 3.0% and 36.8%, respectively. AWS therefore contributes roughly half of quarterly operating profit despite a much smaller share of sales.\n\nRetail advantages include broad selection, Prime membership, delivery speed and a fulfillment network whose geographic density can reduce cost per package. Third-party sellers expand selection without Amazon financing every unit of inventory, but Amazon still supplies services and bears reputational risk for the shopping experience. Advertising monetizes purchasing intent within that same consumer traffic.\n\nAWS supplies computing, storage, databases and other technology services. Its customer economics depend on workload availability, switching effort, security and cost, not simply on the number of servers installed. Large initial infrastructure investments can support recurring usage revenue, but require confidence that utilization and pricing will justify depreciation and power expense.\n\nAndy Jassy is CEO. He emphasizes innovation and long-term capacity investment alongside retail productivity. Founder Jeff Bezos remains associated with governance as executive chair. Q4 diluted weighted-average shares were 10,771 million; this is a reporting-period average, not the precise April 7 share count.\n\nThe business should not be valued as either a traditional low-margin retailer alone or a pure software subscription company. A sum-of-parts approach can separate AWS, advertising and retail economics, but must avoid counting advertising profit twice within reported segment earnings. The tariff question is most direct for merchandise, while cloud demand and infrastructure returns require separate analysis.\n",
+    "D02_financial_snapshot.md": "Title: Three-year financial history and the capex distinction\nSource: compiled from: https://s2.q4cdn.com/299287126/files/doc_financials/2024/ar/Amazon-com-Inc-2023-Annual-Report.pdf; https://www.sec.gov/Archives/edgar/data/1018724/000101872425000002/amzn-20241231xex991.htm\nDate: 2025-02-06\n\nAnnual figures are US dollars, with December fiscal year ends. The February release supplies the latest full year; Q1 2025 actual results are not yet available.\n\n| Metric | 2022 | 2023 | 2024 |\n|---|---:|---:|---:|\n| Revenue, $bn | 513.983 | 574.785 | 637.959 |\n| Revenue growth | 9% | 12% | 11% |\n| Operating income, $bn | 12.248 | 36.852 | 68.593 |\n| Operating margin, calculated | 2.4% | 6.4% | 10.8% |\n| Diluted EPS | $(0.27) | $2.90 | $5.53 |\n| Operating cash flow, $bn | 46.752 | 84.946 | 115.877 |\n| Company-defined FCF, $bn | (11.569) | 36.813 | 38.219 |\n\nFCF improved much less than operating earnings in 2024 because investment accelerated. Gross cash purchases of property and equipment were approximately $83.0 billion; the company's FCF reconciliation subtracts purchases net of proceeds from sales and incentives, approximately $77.7 billion. The two capex measures should not be mixed. Lease-related investment creates additional differences from a simple cash-purchases measure.\n\nQ4 revenue was $187.8 billion, up 10%; operating income was $21.2 billion compared with $13.2 billion. Quarterly diluted EPS was $1.86. The full-year improvement reflects retail operating efficiency as well as AWS earnings. It is not solely an investment-mark gain, though nonoperating items can affect net income.\n\nAt December 31, cash, equivalents and marketable securities totaled approximately $101.2 billion. Long-term debt was approximately $52.6 billion, excluding lease liabilities and current maturities. Calling the resulting difference “net cash” without discussing leases understates the infrastructure and fulfillment obligations.\n\nNo dividend or material completed 2024 common-share buyback is used in this snapshot. A consistent reported ROIC series is not recovered.\n\nThe central analytical issue is how much investment maintains existing earnings versus expands future capacity. The filings do not disclose a precise maintenance-capex amount. Neither assigning all capex to growth nor subtracting an invented maintenance figure is justified by the published accounts.\n",
+    "D03_latest_results.md": "Title: Q4 results, Q1 guidance and the $100 billion investment plan\nSource: compiled from: https://www.sec.gov/Archives/edgar/data/1018724/000101872425000002/amzn-20241231xex991.htm; https://www.cnbc.com/2025/02/06/amazon-expects-to-spend-100-billion-on-capital-expenditures-in-2025.html; https://www.straitstimes.com/business/amazon-echoing-microsoft-says-it-cant-keep-up-with-ai-demand\nDate: 2025-02-07\n\nThe latest results were released February 6, covering Q4 and full-year 2024. Quarterly revenue increased 10% to $187.8 billion. AWS revenue increased 19% to $28.8 billion, with operating income $10.6 billion. North America operating income increased to $9.3 billion and International generated $1.3 billion.\n\nFor Q1 2025, Amazon forecast net sales of $151.0 billion–$155.5 billion and operating income of $14.0 billion–$18.0 billion. These are the published ranges available on April 7, not forecasts incorporating every tariff announced since February. Investors must therefore consider whether the original guidance remains a useful baseline under a new trade regime.\n\nThe earnings discussion placed capital spending at the center of valuation. CNBC reported February 6 that Amazon intended approximately $100 billion of 2025 capex, with most directed toward AWS and AI. Jassy stated: “We spent $26.3 billion in capex in Q4, and I think that is reasonably representative of what you expect an annualized capex rate to be in 2025.”\n\nBloomberg's report, reproduced by The Straits Times February 7, quotes Jassy: “It is true we could be growing faster were it not for some of the constraints on capacity.” Constraints included chips and power availability. That explanation differs from an assertion that customers lack demand, but it does not by itself establish that all new capacity will earn attractive returns.\n\nThe bear interpretation is that near-term cash generation will be consumed by an expensive capacity race, while AWS growth is not accelerating enough to justify it. The constructive interpretation is that supply bottlenecks are restricting a valuable recurring business and that investment is needed to fulfill demand.\n\nRetail productivity and advertising provide a second earnings engine independent of the exact timing of AI monetization. Nevertheless, retail remains exposed to consumer purchasing power and imported merchandise costs. The release supplies no quantified forecast for the April 2 tariff regime. No subsequent earnings call or tariff-related management revision is imported into this information set.\n",
+    "D04_price_valuation.md": "Title: Tariff-panic price and observable valuation\nSource: compiled from: https://fiscal.ai/company/NASDAQ_AMZN/; https://query1.finance.yahoo.com/v8/finance/chart/AMZN?period1=1712534400&period2=1744070400&interval=1d; https://www.sec.gov/Archives/edgar/data/1018724/000101872425000002/amzn-20241231xex991.htm; https://advantage.factset.com/hubfs/Website/Resources%20Section/Research%20Desk/Earnings%20Insight/EarningsInsight_040425B.pdf\nDate: 2025-04-07\n\nHistorical daily prices show Amazon closing at $178.41 on April 3, $171.00 on April 4 and $175.26 on April 7. Volumes were 95,553,617, 123,159,400 and 109,327,115 shares, respectively. April 7 opened at $162.00, illustrating substantial intraday volatility. These observations are not current quotes.\n\nThe historical approximately52-week intraday range is $151.61–$242.52. The February high implies a roughly27.7% decline to $175.26, calculated. At the April7 opening price the decline is approximately33.2%. Thus “about30%” depends on the intraday or closing convention. Yahoo's date-bounded archive gives April7 volume109,327,100, slightly different from Fiscal.ai's observation, and window average volume approximately40.93million shares. This disagreement is immaterial to valuation but the series are not silently conflated.\n\nDividing the April 7 close by reported 2024 diluted EPS of $5.53 gives 31.7 times trailing earnings. This is an analyst calculation with earnings publicly released February 6. It does not use Q1 results that have not yet been announced.\n\nFor scale, applying Q4 diluted average shares of 10.771 billion gives an illustrative equity value of $1.888 trillion. Actual April shares may differ. Reported 2024 FCF of $38.219 billion divided by that illustrative equity value produces approximately a 2.0% trailing cash-flow yield. The low yield reflects heavy investment and should not be relabeled an owner-earnings yield after unverified maintenance-capex adjustments.\n\nA verified April 7 consensus forward EPS estimate, forward P/E, comparable EV/EBITDA and a point-in-time twenty-year forward-multiple series are not available in the recovered materials. Consequently, “twenty-year-low multiple” is not established as a factual premise. Historical trailing multiples are also distorted by loss periods and major changes in business mix.\n\nFactSet's April 4 report places the S&P 500 forward twelve-month P/E at 19.4, below its five-year average of 19.9 and above its ten-year average of 18.3. Comparing that with Amazon's trailing 31.7 times is not like-for-like. The investment case requires a separately justified growth or margin advantage, rather than treating a drawdown as proof of cheapness.\n",
+    "D05_market_worries.md": "Title: Tariff exposure and the cloud-investment bear case\nSource: compiled from: https://www.bloomberg.com/news/articles/2025-02-06/amazon-projects-profit-missing-estimates-on-rising-ai-spending; https://www.businessinsider.com/amazon-earnings-call-report-amzn-stock-live-updates-2025-2; https://x.com/BillAckman/status/1908992002366292286?lang=en; https://www.sec.gov/Archives/edgar/data/1018724/000101872425000002/amzn-20241231xex991.htm\nDate: 2025-04-07\n\nThere are two distinct worries. First, cloud investors face high AI spending with uncertain timing of returns. Bloomberg's February 6 report, updated February 7, described a weaker-than-expected sales outlook and capacity constraints despite approximately $100 billion of planned investment. Business Insider's February 6 earnings coverage similarly emphasized a disappointing outlook and the capex burden. Capacity constraints may explain slower growth, but constrained growth is still slower revenue recognition while investment cash leaves the company.\n\nSecond, the April 2 US tariff announcement creates a new risk to retail economics. The pack does not use press reports from after April 7 describing actual seller price increases. Instead, the exposure can be mapped from the existing business model:\n\n| Channel | Immediate economic question |\n|---|---|\n| Amazon-owned inventory | Can higher import costs be passed through without depressing demand or margins? |\n| Third-party sellers | Do sellers absorb costs, raise prices, reduce assortment or require more promotional support? |\n| Seller services | Can fee and fulfillment revenue hold up if merchandise volumes weaken? |\n| Advertising | Does weaker seller profitability reduce advertising budgets? |\n| AWS | Can macro uncertainty delay customer spending despite long-run cloud demand? |\n\nThe marketplace is not automatically insulated because a seller rather than Amazon imports an item. Amazon can avoid financing the merchandise yet still suffer from weaker transaction volumes and seller economics. Nor is every retail dollar imported from China. An exact pre-cutoff percentage of merchandise exposed to each country's tariffs is not independently established here.\n\nAckman's April 6 public macro post warned: “Almost no business can pass through an overnight massive increase in costs to their customers.” He asked for a negotiating pause and warned that business confidence could deteriorate. This is a public macro view, not an Amazon recommendation.\n\nThe strongest constructive counterargument is relative resilience: a broad selection, delivery network and balance sheet may let a scaled marketplace compete effectively during disruption. That remains an analytical hypothesis; the pack contains no quantified tariff-adjusted profit forecast.\n",
+    "D06_peer_industry.md": "Title: Cloud peers and why retail requires a different benchmark\nSource: compiled from: https://www.cnbc.com/2025/01/29/microsoft-msft-q2-earnings-report-2025.html; https://www.sec.gov/Archives/edgar/data/1018724/000101872425000002/amzn-20241231xex991.htm; https://www.cnbc.com/2025/02/06/amazon-expects-to-spend-100-billion-on-capital-expenditures-in-2025.html\nDate: 2025-02-07\n\nAmazon competes in two different industry structures. In cloud infrastructure, Microsoft Azure and Google Cloud are the most relevant large-platform alternatives. In US retail, Walmart and other broad retailers compete for household spending, while third-party merchants can also use competing marketplaces or their own stores. A single consolidated peer P/E can conceal these differences.\n\nFor the December 2024 quarter, AWS reported 19% revenue growth to $28.8 billion and $10.6 billion operating profit. Its calculated operating margin is approximately 36.8%. Microsoft's January 29 results, reported by CNBC, show Azure and other cloud-services revenue growth of 31%, down from 33% in the preceding quarter. Microsoft's broader Intelligent Cloud segment produced $25.54 billion revenue, up approximately 19%. Azure's percentage growth is not directly comparable with the broader segment's dollar sales.\n\n| Published benchmark | Observation | Limitation |\n|---|---|---|\n| AWS, Q4 2024 | 19% sales growth; approximately 36.8% operating margin | Standalone reported segment |\n| Azure and other cloud services, December quarter | 31% growth | Different size and product scope |\n| Amazon North America, Q4 | approximately 8.0% operating margin | Includes advertising and seller services |\n| Amazon International, Q4 | approximately 3.0% operating margin | Geography and investment maturity differ |\n\nGoogle Cloud is a relevant competitor, but a verified matching quarter's figures and pre-cutoff multiple comparison were not recovered for this pack. The same applies to Walmart's tariff-adjusted margins. No present-day peer data are substituted.\n\nThe industry-wide capex race cuts both ways. Scale, custom chips, distribution and existing customer relationships can support defensibility. Conversely, competing hyperscalers can add capacity simultaneously, increasing the risk of price competition or low returns if monetization disappoints.\n\nRetail logistics density is a different moat: delivery speed and unit cost improve when orders share facilities and routes. Unlike a software network, this requires substantial physical investment. The underwriting task is to determine whether that installed network creates incremental margin opportunity, while treating growth capex and operating expenses consistently across competitors.\n",
+    "D07_event_timeline.md": "Title: Earnings improvement, capex anxiety and the April shock\nSource: compiled from: https://www.sec.gov/Archives/edgar/data/1018724/000101872425000002/amzn-20241231xex991.htm; https://www.cnbc.com/2025/02/06/amazon-expects-to-spend-100-billion-on-capital-expenditures-in-2025.html; https://x.com/BillAckman/status/1908992002366292286?lang=en; https://fiscal.ai/company/NASDAQ_AMZN/\nDate: 2025-04-07\n\n2024: annual revenue increased 11% and operating income rose from $36.852 billion to $68.593 billion, as disclosed February 6, 2025. Retail margin improvement and cloud profit both contributed. The spending debate therefore concerns reinvestment of an already profitable operation, not a company without operating earnings.\n\nJanuary 29, 2025: Microsoft's December-quarter results reported Azure growth of 31%. This supplies a contemporaneous competing cloud-growth benchmark and reinforces investor focus on AI-related infrastructure investment across the sector.\n\nFebruary 6, 2025: Amazon released Q4 results: $187.8 billion revenue, $21.2 billion operating income and 19% AWS growth. Q1 sales guidance was $151.0 billion–$155.5 billion. Management discussed approximately $100 billion of 2025 capex, primarily associated with AWS and AI. The combination creates a valuation tension between current cash outlay and future earnings capacity.\n\nFebruary 7, 2025: press coverage of the earnings call emphasized capacity constraints involving chips and power. Jassy attributed some unmet growth opportunity to those constraints. That is an explanation from management, not independent verification of every proposed project's economic return.\n\nApril 2, 2025: the US tariff announcement changed the macroeconomic setting for imported merchandise and global trade. The February earnings guidance predates this event. The exact net impact on Amazon is not quantified in the available company release.\n\nApril 3–4, 2025: historical closes fell to $178.41 and $171.00, with heavy trading volume. Price volatility reflects an abrupt change in risk appetite, but does not isolate the portion attributable to Amazon-specific earnings.\n\nApril 6, 2025: Ackman publicly urged a negotiating pause, warning of damage to confidence from broad, rapid tariff increases. His post addresses the economy generally rather than announcing a company investment.\n\nApril 7, 2025: Amazon opened at $162.00 and closed at $175.26 on 109,327,115 shares. This is the decision cutoff. No later tariff pause, seller interview, earnings report or share-price observation is included.\n",
+    "D08_pershing_context.md": "Title: Available portfolio context and public tariff views\nSource: compiled from: https://assets.pershingsquareholdings.com/2025/03/14183709/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf; https://assets.pershingsquareholdings.com/wp-content/uploads/2025/02/07152731/Performance-Report-September-2024-PSH.pdf; https://finance.yahoo.com/news/bill-ackman-reduces-stake-hilton-232518521.html; https://x.com/BillAckman/status/1908992002366292286?lang=en\nDate: 2025-04-07\n\nThe latest recovered firm-wide AUM figure is September 30, 2024: $18,498.8 million, including PSVII and bond proceeds. This is not an April 2025 estimate. PSH's March 14 annual report reports December 31, 2024 net assets of $13.01 billion. Year-end cash and equivalents were approximately $436.5 million, versus $1.929 billion a year earlier; other liquid instruments and financing mean this is not the entire firm's buying capacity.\n\nThe December-quarter 13F, publicly discussed February 14, shows Brookfield at 15.89% of reported holdings, Restaurant Brands 11.88% and Chipotle 11.78%. These are 13F weights, not PSH NAV allocations. The portfolio also includes Hilton, Alphabet, Nike, Howard Hughes, Canadian Pacific Kansas City and Seaport Entertainment. Universal Music and OTC Fannie/Freddie are omitted from ordinary US listed-share tables.\n\nThe annual report explains trimming Hilton after strong share-price performance and a higher multiple, while retaining the business. That illustrates opportunity-cost discipline: liking a company need not imply accepting every price. A complete current cash balance, April portfolio weights and all recent exits are not recovered.\n\nPublicly available materials by March identify Uber as another core investment. That context demonstrates willingness to own a large technology-enabled platform; it supplies no Amazon-specific transaction instruction. No verified Amazon-specific Ackman recommendation dated before April 7 is included.\n\nOn April 6, Ackman wrote that business confidence depends on trust and warned of an “economic nuclear winter” if trade conflict escalated without a pause. He favored negotiation rather than a conclusion that every tariff-affected company is impaired permanently.\n\nThe manager's stated framework favors concentrated ownership of high-quality businesses, durable competitive advantages, capable management and attractive prices. For this candidate, the unresolved issues are whether tariffs impair long-term franchise value, how much AWS spending is economically productive growth investment, and whether retail productivity can support earnings compounding. The public macro warning makes those questions more urgent; it does not answer them.\n"
+  },
+  "answer_key": {
+    "actual_decision": "BUY",
+    "reason_class": null,
+    "drivers": [
+      {
+        "driver": "Tariff-driven selling supplied an unusual entry valuation.",
+        "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/18175039/Pershing-Square-Holdings-Ltd.-2025-Annual-Report.pdf (2026-02-18 retrospective)",
+        "quote": "only 25 times forward earnings"
+      },
+      {
+        "driver": "AWS and retail are exceptional category-defining franchises.",
+        "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/18175039/Pershing-Square-Holdings-Ltd.-2025-Annual-Report.pdf (2026-02-18 retrospective)",
+        "quote": "two of the world’s great, category-defining franchises"
+      },
+      {
+        "driver": "Cloud migration and AI demand support AWS growth.",
+        "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/18175039/Pershing-Square-Holdings-Ltd.-2025-Annual-Report.pdf (2026-02-18 retrospective)",
+        "quote": null
+      },
+      {
+        "driver": "Retail logistics productivity and advertising offer margin expansion.",
+        "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/18175039/Pershing-Square-Holdings-Ltd.-2025-Annual-Report.pdf (2026-02-18 retrospective)",
+        "quote": null
+      },
+      {
+        "driver": "Incremental growth capex should be evaluated by returns rather than headline FCF compression.",
+        "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/18175039/Pershing-Square-Holdings-Ltd.-2025-Annual-Report.pdf (2026-02-18; later holding rationale)",
+        "quote": null
+      }
+    ],
+    "pack_quality_notes": "User expressly requested April7 instead of actual April21 cutoff. Actual decision is therefore not an exactly timed trade replay. Exact April7 forward consensus, twenty-year low claim, peer multiples and country-level tariff exposure not established. No post-April7 price rises, tariff pauses, results or seller interviews included."
+  },
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "final": {
+        "as_of_date": "2025-04-07",
+        "company": "the Company",
+        "ticker": "AMZN",
+        "decision": "BUY",
+        "conviction": "high",
+        "target_size_pct_nav": 10,
+        "opportunity_template": [
+          "T1"
+        ],
+        "catalyst_role": "C0",
+        "gate1_hard_fail": false,
+        "valuation": {
+          "entry_multiple": "31.7x trailing 2024 EPS",
+          "eps_path": "15% CAGR based on cloud margin scaling and retail productivity",
+          "terminal_multiple": "25x",
+          "irr_pct": 22,
+          "downside_case": "Permanent margin compression in retail and failure of AI capex to generate ROI, leading to 18-20x multiple contraction."
+        },
+        "drivers": [
+          {
+            "driver": "The company operates dominant, essential retail and cloud computing platforms with powerful network effects and massive infrastructure density [D01].",
+            "citations": [
+              "D01"
+            ]
+          },
+          {
+            "driver": "The stock has experienced a 27.7%-33.2% drawdown due to temporary market panic over exogenous tariff risks and near-term capex intensity [D04, D05].",
+            "citations": [
+              "D04",
+              "D05"
+            ]
+          },
+          {
+            "driver": "We believe the cloud business will continue to scale with ~36%+ operating margins, providing a durable engine for long-term earnings growth [D01].",
+            "citations": [
+              "D01"
+            ]
+          },
+          {
+            "driver": "Management’s focus on retail productivity and efficient capacity investment provides a clear path to mid-teens EPS growth [D01, D03].",
+            "citations": [
+              "D01",
+              "D03"
+            ]
+          }
+        ],
+        "kill_criteria": [
+          "Permanent impairment of the cloud business model due to an inability to achieve adequate ROI on massive AI infrastructure spend.",
+          "Structural inability to pass through tariff-related cost increases, leading to sustained margin compression in the core retail segments.",
+          "Capital allocation shift prioritizing aggressive, value-destructive M&A over core business reinvestment."
+        ],
+        "what_would_change_our_mind": "Evidence that the $100bn capex program is structurally value-destructive or that the company has lost its ability to maintain pricing power in the face of macro headwinds.",
+        "memo": "The Company is a world-class enterprise, operating dominant, mission-critical infrastructure in both global retail and cloud computing [D01]. With a fortress balance sheet holding ~$101.2bn in cash, it possesses the unique capacity to fund massive, multi-year infrastructure investments that further entrench its competitive moat [D01, D02].\n\nRecent market volatility, driven by concerns over 2025 tariff announcements and the scale of planned capital expenditures, has created a compelling entry point [D03, D05, D07]. We believe the market is misjudging these investments; rather than a drag on value, this spending is a necessary component of sustaining the company’s leadership in AI and cloud services [D03].\n\nAt current levels, we are acquiring a stake at roughly 31.7x trailing 2024 earnings [D04]. Given the company’s ability to scale cloud margins at 36%+ and the potential for significant retail productivity gains, we project a compelling path for durable, mid-teens EPS growth [D01, D02]. We see a clear re-rating opportunity toward a 25x multiple as these investments bear fruit [D03].\n\nOur role is that of a long-term owner of a high-quality compounder, requiring no immediate intervention [D01]. We will monitor the company's ability to pass through tariff costs and ensure that cloud ROI metrics remain accretive [D01, D05, D07]. We are initiating a 5% position today with the intention of scaling to 10% as our thesis is validated by operational execution [D04].",
+        "uncited_claims": []
+      }
+    },
+    {
+      "anonymous_id": "C2",
+      "final": {
+        "as_of_date": "2025-04-07",
+        "company": "Amazon.com, Inc.",
+        "ticker": "AMZN",
+        "decision": "BUY",
+        "conviction": "high",
+        "target_size_pct_nav": 10,
+        "opportunity_template": [
+          "T1"
+        ],
+        "catalyst_role": "C0",
+        "gate1_hard_fail": false,
+        "valuation": {
+          "entry_multiple": "31.7x trailing P/E based on 2024 EPS",
+          "eps_path": "15% CAGR based on AWS scaling and retail operating margin expansion",
+          "terminal_multiple": "25x",
+          "irr_pct": 22,
+          "downside_case": "Stock de-rates to 18-20x trailing earnings, representing ~20-30% downside"
+        },
+        "drivers": [
+          {
+            "driver": "AWS maintains a dominant infrastructure position as a primary cloud utility with high barriers to entry [D01].",
+            "citations": [
+              "D01"
+            ]
+          },
+          {
+            "driver": "The retail segment benefits from significant scale advantages, Prime membership, and fulfillment network density [D01].",
+            "citations": [
+              "D01"
+            ]
+          },
+          {
+            "driver": "We are able to acquire our stake at a ~31.7x trailing P/E multiple following a 27-33% drawdown from recent peaks [D04].",
+            "citations": [
+              "D04"
+            ]
+          },
+          {
+            "driver": "The management team has a proven long-term track record of capital allocation and successful capacity investment [D01], [D03].",
+            "citations": [
+              "D01",
+              "D03"
+            ]
+          }
+        ],
+        "kill_criteria": [
+          "AWS revenue growth decelerates below 10% for two consecutive quarters, indicating loss of cloud leadership.",
+          "Retail operating margins compress below 3% for two consecutive quarters due to inability to pass through tariff-related cost increases.",
+          "Management shifts capital allocation strategy away from core infrastructure dominance toward value-destructive M&A or excessive share buybacks at high valuations."
+        ],
+        "what_would_change_our_mind": "Evidence that the $100B infrastructure investment cycle is not generating expected returns or that retail margins are being permanently eroded by competitive or regulatory factors.",
+        "memo": "Amazon is a dominant, mission-critical infrastructure franchise that serves as the backbone of the global digital economy through its AWS cloud platform and its ubiquitous retail marketplace [D01]. The company combines the high-margin, recurring revenue of a cloud utility with the immense scale and competitive moat of the world’s most efficient logistics network [D01].\n\nThe current opportunity arises from a market dislocation where investors are overly fixated on the $100B 2025 capital expenditure plan [D03]. The market views this as value-destructive, ignoring that these investments are necessary, temporary phases to secure long-term leadership in cloud and AI, while retail margins are resilient enough to absorb tariff headwinds [D03], [D05].\n\nWe are initiating this position at 31.7x trailing earnings, which we believe is attractive for a business with the growth profile of AWS and the scalability of the retail segment [D04]. With a projected 15% EPS CAGR and a focus on terminal margin expansion, we expect this investment to generate an IRR consistent with our hurdle for high-quality compounders [D03].\n\nOur role is that of long-term owners of a predictable business [D01]. We expect value realization as the heavy investment cycle concludes, operating cash flow converts to free cash flow, and the market re-rates the stock as the durable ROI of the current infrastructure spend becomes evident [D01], [D02], [D03].\n\nThe primary risk is that the massive infrastructure investment fails to generate expected returns or that tariff pressures permanently impair retail margins [D03], [D05]. However, the company's strong balance sheet with $101.2B in cash and marketable securities provides a significant cushion against these extrinsic factors [D02].\n\nWe are establishing an initial 4% position with a target of 10% of NAV. The high liquidity of the shares allows us to build this significant stake efficiently while maintaining conviction in the business's long-term compounding potential [D04].",
+        "uncited_claims": []
+      }
+    }
+  ]
+}

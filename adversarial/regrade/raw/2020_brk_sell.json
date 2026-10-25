@@ -1,0 +1,76 @@
+{
+  "audit_notes": "Both candidates C1 and C2 failed to correctly apply the SELL decision logic defined in the gold drivers, specifically regarding the competitive disadvantage Berkshire's scale poses for capital deployment in a fast-moving market. Both models prioritized the business's quality over the manager's explicit opportunity-cost-based sell thesis.",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "The candidate incorrectly identifies the Berkshire cash position as a reason to HOLD, whereas the gold reasoning identifies the lack of deployment as a trigger to SELL in favor of other opportunities.",
+      "drivers": [
+        {
+          "candidate_quote": "The Company's massive liquidity provides a unique, risk-free competitive advantage to deploy capital during continued market uncertainty.",
+          "document": "N/A",
+          "document_quote": "N/A",
+          "evidence_supported": false,
+          "index": 1,
+          "reason": "The candidate recommends HOLD, while the gold driver refers to a SELL decision based on the advantage of nimbleness over scale. The candidate frames the cash as an advantage to hold, which is a different causal argument than the gold driver.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "N/A",
+          "document": "N/A",
+          "document_quote": "N/A",
+          "evidence_supported": false,
+          "index": 2,
+          "reason": "The candidate does not explicitly address the difficulty of deploying Berkshire's capital pool as a primary driver for the HOLD decision.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "N/A",
+          "document": "N/A",
+          "document_quote": "N/A",
+          "evidence_supported": false,
+          "index": 3,
+          "reason": "The candidate argues for holding to preserve optionality, which contradicts the gold driver recommending the sale to preserve liquidity for more attractive opportunities.",
+          "semantic_present": false
+        }
+      ],
+      "key_problem": "The candidate failed to interpret the Berkshire cash pile as a source of opportunity cost compared to other investments, leading to a HOLD rather than a SELL.",
+      "primary_cause": "i_rule_missing_ambiguous"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "The candidate treats the cash position as a protective moat [L72], while the gold rationale [L11-L18] treats the cash deployment as the key constraint that justifies selling.",
+      "drivers": [
+        {
+          "candidate_quote": "The thesis remains intact as the company continues to provide a unique combination of durable, free-cash-flow-generative businesses and substantial liquidity for future capital allocation",
+          "document": "N/A",
+          "document_quote": "N/A",
+          "evidence_supported": false,
+          "index": 1,
+          "reason": "The candidate asserts the thesis is intact for a HOLD decision, ignoring the gold driver's sell logic regarding scale and deployment flexibility.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "N/A",
+          "document": "N/A",
+          "document_quote": "N/A",
+          "evidence_supported": false,
+          "index": 2,
+          "reason": "The candidate does not identify Berkshire's capital deployment task as a reason to sell.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "N/A",
+          "document": "N/A",
+          "document_quote": "N/A",
+          "evidence_supported": false,
+          "index": 3,
+          "reason": "The candidate argues the cash is a strength for protection, whereas the gold driver views the lack of deployment as a prompt to sell.",
+          "semantic_present": false
+        }
+      ],
+      "key_problem": "Candidate defaults to holding based on the status quo of the businesses without addressing the manager's stated logic that Berkshire's size and capital deployment challenges justify a sale.",
+      "primary_cause": "i_rule_missing_ambiguous"
+    }
+  ],
+  "semantic_leakage": []
+}

@@ -1,0 +1,15 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "The candidate asserts 'Our investment in the Company was predicated on a thesis of predictable... subscriber growth' [L48] and describes the exit as following from the company's loss of predictability [L48], yet the candidate retains the position's thesis structure instead of acknowledging the immediate, exit-on-change requirement defined in the post-2022 Netflix rule [L22, L75: Section 6].",
+      "fix": "The candidate should demonstrate strict compliance with the Netflix rule: immediate exit when predictability falls, without attempting to re-underwrite or describe the thesis as 'broken/weakened' while holding [L48, L51].",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "iii"
+      ]
+    }
+  ],
+  "notes": "Candidate C1 identifies the core issue (loss of predictability) but fails to adhere to the explicit rule established by the 2022 Netflix post-mortem: sell immediately upon the change occurring, rather than re-underwriting the investment thesis in the same document."
+}

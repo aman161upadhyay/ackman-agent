@@ -1,0 +1,59 @@
+{
+  "audit_notes": "The candidate is a detailed investment memo that reaches a 'PASS' decision, differing from the gold source's subsequent inclusion of the asset. The semantic presence of gold drivers 1, 2, 3, and 5 is clear in the candidate's analysis. Driver 4 is absent.",
+  "cause_evidence": "The candidate explicitly decides to 'PASS' on the investment citing a 'hard-fail on current cash flow predictability' [L45] despite acknowledging the quality of the assets.",
+  "drivers": [
+    {
+      "candidate_quote": "The Company represents a premier global music intellectual property business, commanding a leadership position through a deep, durable catalog and significant scale in artist development",
+      "document": "D01_business_overview.md",
+      "document_quote": "Universal Music Group is a leading global recorded-music and music-publishing business within Vivendi. Its economics derive from developing artists, owning/licensing recordings and compositions, and monetizing consumption across physical, digital, performance and other channels.",
+      "evidence_supported": true,
+      "gold_driver": "Leading global music-rights/catalog platform acts as a royalty on growing consumption.",
+      "index": 1,
+      "reason": "The candidate identifies UMG as a leading music intellectual property business with a deep catalog that monetizes consumption.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "underpinned by the secular growth of paid streaming which continues to drive industry-wide expansion",
+      "document": "D01_business_overview.md",
+      "document_quote": "Industry growth is supported by paid streaming. IFPI reports 443 million users of paid subscription accounts at the end of 2020, with subscription streaming revenue up 18.5%.",
+      "evidence_supported": true,
+      "gold_driver": "Paid streaming penetration and improved monetization offer a long runway.",
+      "index": 2,
+      "reason": "The candidate correctly identifies paid streaming growth as a key driver of industry expansion.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We believe the market fails to properly appreciate the recurring, royalty-like nature of the catalog",
+      "document": "D01_business_overview.md",
+      "document_quote": "Existing catalogs can be licensed repeatedly without manufacturing a new physical product for every listen. That provides attractive incremental economics.",
+      "evidence_supported": true,
+      "gold_driver": "Repeat licensing, scale and operating leverage support capital-light cash growth.",
+      "index": 3,
+      "reason": "The candidate references the recurring, royalty-like nature of the catalog, which matches the concept of repeat licensing.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "none",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Lucian Grainge and patient ownership align with long-duration compounding.",
+      "index": 4,
+      "reason": "The candidate does not mention Lucian Grainge or the specific alignment of management with long-duration compounding.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "The spin-off process serves as our primary catalyst, expected to resolve governance uncertainties and allow the market to re-rate the entity as a standalone asset",
+      "document": "D07_structure_context.md",
+      "document_quote": "The proposed separation may make the music franchise easier for investors to value independently. A governance/listing catalyst can narrow a conglomerate discount",
+      "evidence_supported": true,
+      "gold_driver": "Negotiated pre-listing ownership and separation can unlock independent valuation.",
+      "index": 5,
+      "reason": "The candidate explicitly identifies the spin-off as a catalyst to resolve governance concerns and unlock standalone valuation.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate identifies a lack of financial transparency and inability to convert EBITA to free cash flow as the primary barrier to investment [L45].",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": []
+}

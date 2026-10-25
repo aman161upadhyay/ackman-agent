@@ -1,0 +1,90 @@
+{
+  "audit_notes": "The provided candidate document set consists of summarized data and reports through 2022-01-24. The gold drivers reference a source dated 2022-01-26, which is outside the provided documentation window. I have performed the audit strictly against the provided candidate content and the dated documents [D01-D08].",
+  "cause_evidence": "The candidate memo was authored independently of the gold source (Pershing Square letter), leading to differences in phrasing and specific causal framing.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Recurring subscriptions and the transition from linear viewing create substantial long-term growth.",
+      "index": 1,
+      "reason": "The candidate document does not explicitly claim that recurring subscriptions and the transition from linear viewing create substantial long-term growth as its core growth thesis.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "The business model possesses significant barriers to entry through massive scale, proprietary content engagement, and a global reach that is difficult to replicate",
+      "document": "D01_business_overview.md",
+      "document_quote": "A scale advantage must be maintained through engagement, retention and economical acquisition of content.",
+      "evidence_supported": true,
+      "gold_driver": "Scale and content quality strengthen the moat.",
+      "index": 2,
+      "reason": "The candidate recognizes scale as a barrier to entry, supported by the document's discussion of scale advantages in the content model.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "The customer value proposition supports pricing power.",
+      "index": 3,
+      "reason": "While the candidate notes price increases, it does not explicitly link the customer value proposition to pricing power as a core driver.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "the management team led by Reed Hastings and Ted Sarandos has already committed to the necessary financial pivot toward self-funding and improved governance",
+      "document": "D01_business_overview.md",
+      "document_quote": "Reed Hastings and Ted Sarandos are co-CEOs; Sarandos also serves as chief content officer. Greg Peters is COO/chief product officer and Spencer Neumann is CFO.",
+      "evidence_supported": false,
+      "gold_driver": "A trusted adaptive management team and high-performance culture can execute.",
+      "index": 4,
+      "reason": "The candidate mentions the management team's commitment to a financial pivot, but the document provided does not support the qualitative claim of a 'high-performance culture'.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "This shift is the catalyst that will transform the company into a dominant, free-cash-flow-generative machine",
+      "document": "D03_latest_results.md",
+      "document_quote": "Management also expects positive FCF in 2022 and beyond, with excess cash returned after reinvestment, selective acquisitions, debt targets and minimum liquidity.",
+      "evidence_supported": true,
+      "gold_driver": "Margin leverage and improving free cash flow support both growth and distributions.",
+      "index": 5,
+      "reason": "The candidate correctly identifies the shift to a self-funded model leading to FCF generation, supported by management's stated FCF expectations.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate memo lacks specific verbatim phrasing found in the gold drivers regarding the 'transition from linear viewing' and the 'high-performance culture', despite addressing similar concepts.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 5,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

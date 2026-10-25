@@ -1,0 +1,51 @@
+{
+ "label": "repeat__2025_cp_sell__masked__r3",
+ "pack": "2025_cp_sell",
+ "model": "replit-internal-current",
+ "mode": "existing",
+ "as_of_date": "2025-03-17",
+ "company_label": "the Company",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-03-17",
+  "company": "the Company (XXX)",
+  "ticker": "CP.TO / CP",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Merger approval and control: strengthened, as the combination has operated under common control since April 2023 [D08]",
+   "Synergy execution: strengthened, with more than $800 million in run-rate revenue synergies realized [D04]",
+   "Operating performance: intact, with 11% EPS growth in 2024 and 12-18% growth guidance for 2025 [D04]",
+   "Network quality and management: intact, described as a high-quality, inflation-protected rail franchise with best-in-class leadership [D09]",
+   "Policy environment: weakened, as tariff threats introduce extrinsic risks to trade patterns and North American integration [D06]"
+  ],
+  "forward_irr_estimate_pct": 15,
+  "valuation_now": "Trading at 21.4–22.6x the company's 2025 adjusted EPS guidance [D05]",
+  "drivers": [
+   {
+    "driver": "The original thesis of successful integration and synergy realization is proceeding better than expected, supporting mid-to-high teen forward returns.",
+    "citations": [
+     "D04",
+     "D10"
+    ]
+   },
+   {
+    "driver": "Management’s guidance for 12–18% EPS growth remains the primary forward indicator, reflecting resilience against near-term macro volatility.",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Tariff uncertainty is recognized as a risk, but the scarcity of the trilateral network remains a durable competitive advantage.",
+    "citations": [
+     "D06",
+     "D09"
+    ]
+   }
+  ],
+  "memo": "Our investment in the Company continues to perform in accordance with our primary underwriting criteria. Since reinitiating our position, the business has successfully integrated its trilateral rail network, achieving over $800 million in run-rate revenue synergies that exceed our initial expectations [D04, D08]. The company’s ability to generate 11% EPS growth in a difficult 2024 freight environment underscores the strength of its oligopolistic franchise and the efficacy of its management team [D04, D09].\n\nWhile the current trade policy environment presents an extrinsic risk that warrants close monitoring, we believe the structural necessity of the network for North American commerce provides a durable defensive moat [D06, D09]. Management’s guidance of 12–18% adjusted EPS growth for 2025 reflects confidence in the resilience of integrated supply chains despite tariff headlines [D04, D08]. The company remains a high-quality, free-cash-flow-generative business that is well-positioned to compound value over the long term [D09].\n\nWe remain disciplined regarding the company’s capital requirements and debt levels, which remain substantial but manageable given the strong operating cash flow [D02, D06]. At a forward multiple of roughly 21-23x projected earnings, the stock continues to offer an attractive rate of return consistent with our standards for quality compounders [D05, D10]. We maintain our position with high conviction as the fundamental thesis remains firmly on track [D09].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

@@ -1,0 +1,77 @@
+{
+  "audit_notes": "The candidate drivers were evaluated for semantic presence and evidence support based strictly on the provided documents as of 2013-10-31. Driver 1 was marked false as the candidate did not make the specific 'irreplaceable' claim for the 30-year mortgage.",
+  "cause_evidence": "The candidate is a contemporaneous 2013-10-31 memo, whereas the gold drivers utilize retrospective data and projections from 2014, 2015, and 2025.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Essential guarantee infrastructure and the prepayable30-year fixed mortgage cannot readily be replaced.",
+      "index": 1,
+      "reason": "The candidate document notes the company is a pillar for liquid mortgage issuance [L46], but it does not claim the infrastructure is irreplaceable or specifically link it to the 30-year fixed mortgage.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "We believe the market is wrong to ignore the significant legal and political tension currently building, which provides a meaningful, if binary, opportunity for the restoration of shareholder rights",
+      "document": "D06_contract_and_litigation.md",
+      "document_quote": "Perry Capital and Fairholme initiated challenges in July2013. The publicly reported claims include statutory/administrative objections and constitutional takings arguments.",
+      "evidence_supported": true,
+      "gold_driver": "Challenge the sweep and restore a route from enterprise profits to shareholder value; this is Ackman's position, not a final legal holding.",
+      "index": 2,
+      "reason": "The candidate identifies the legal opportunity to restore shareholder rights [L46], supported by the document's reporting of pending litigation [L68].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The Treasury warrant can create potential alignment with common appreciation, but Treasury also receives the senior dividend and can prioritize taxpayer recovery or policy.",
+      "document": "D05_political_and_market_worries.md",
+      "document_quote": "The Treasury warrant can create potential alignment with common appreciation, but Treasury also receives the senior dividend and can prioritize taxpayer recovery or policy.",
+      "evidence_supported": true,
+      "gold_driver": "Recapitalize and eventually release the enterprises; Treasury warrant ownership could align taxpayer upside with common.",
+      "index": 3,
+      "reason": "The candidate discusses the alignment potential of the Treasury warrant [L46] as found in the cited source [L67].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Today, the market has mispriced this asset as having zero value, operating under the assumption that the government’s current trajectory will inevitably lead to a total wipeout of common equity",
+      "document": "D04_price_and_capital_waterfall.md",
+      "document_quote": "The downside is not merely a lower P/E: wind-down, adverse policy, continued sweep or heavy dilution could leave common worth little even if mortgage finance remains profitable.",
+      "evidence_supported": true,
+      "gold_driver": "Large potential valuation gap conditional on capital structure and policy; later2014 US$23–47 scenarios must not be imported as2013 prices or realized returns.",
+      "index": 4,
+      "reason": "The candidate recognizes the market mispricing regarding the total wipeout assumption [L46], supported by the document's analysis of the downside risk [L66].",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate correctly identifies the investment thesis based on 2013 facts, whereas the gold drivers incorporate knowledge not available until after the as_of_date.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [
+      "candidate quote 3"
+    ],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

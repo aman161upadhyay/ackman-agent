@@ -1,0 +1,75 @@
+{
+  "audit_notes": "All gold drivers are identified as retrospective analysis from a 2017 source, while the provided candidate content is a 2015-02-27 investment memo. Consequently, drivers involving 'mistakes' or retrospective judgment cannot be present in the candidate document.",
+  "cause_evidence": "The candidate is a contemporaneous investment thesis whereas the gold drivers are retrospective reflections and mistakes identified after a loss, making direct semantic matching impossible.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Viewed existing assets as bought at a modest discount, but compounding through future acquisitions as the major source of additional intrinsic value.",
+      "index": 1,
+      "reason": "The candidate document does not state that existing assets were bought at a discount, nor does it explicitly identify future acquisitions as the primary source of intrinsic value generation in the required manner.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Trusted Pearson and the acquisition/operating playbook after working together during the Allergan campaign.",
+      "index": 2,
+      "reason": "The candidate memo mentions the goal of supporting management's continued execution, but does not state the specific personal trust in Pearson based on the Allergan collaboration as a rationale for the investment.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "This model produces exceptional free-cash-flow conversion, with 2014 GAAP operating cash flow of US$2,294.7M significantly outstripping net income of US$913.5M",
+      "document": "D01_business_overview.md",
+      "document_quote": "CFO Howard Schiller oversees a capital structure supporting repeated transactions.",
+      "evidence_supported": true,
+      "gold_driver": "Expected efficient cost structure, low tax burden and disciplined capital allocation to compound cash earnings.",
+      "index": 3,
+      "reason": "The candidate discusses the business model's capital allocation and free cash flow generation, which supports the premise of compounding cash earnings.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Mistake: highly acquisitive complexity made the result unusually dependent on managerial execution and judgment.",
+      "index": 4,
+      "reason": "The candidate is a bullish investment memo and does not contain a retrospective acknowledgment of this mistake.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate expresses high conviction in the business model's success while the gold drivers reflect a later-dated analysis of why that model failed.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

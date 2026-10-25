@@ -1,0 +1,94 @@
+{
+  "audit_notes": "Both candidates provide high-quality, reasoned memos that closely track the business fundamentals and the loss of predictability documented in the pack. However, both candidates omitted the specific, explicit gold driver regarding the 'prompt action' principle derived from past mistakes. They are penalized accordingly.",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "The candidate accurately identifies the loss of predictability, but misses the specific driver regarding the promptness of action upon discovery of inconsistent information.",
+      "drivers": [
+        {
+          "candidate_quote": "The company has moved from a predictable growth trajectory to one where the management must now explore unproven initiatives—namely advertising-supported tiers and paid-account sharing—to compensate for saturation and competitive pressure",
+          "document": "D03_latest_results.md",
+          "document_quote": "It intends to protect profitability near current levels while rebuilding revenue growth, rather than continue automatic annual margin expansion.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The candidate correctly identifies that new initiatives (advertising, paid-sharing) are unproven and that subscriber growth/margin paths have shifted away from the original thesis.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The company's explicit pivot from a pure-subscription model toward unproven advertising-supported plans and account-sharing enforcement introduces new operational variables that we cannot forecast with the required certainty",
+          "document": "D03_latest_results.md",
+          "document_quote": "Neither advertising economics nor conversion/churn from account enforcement is quantified. A forecast now needs explicit assumptions for both initiatives",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The candidate captures the essence of the difficulty in forecasting these new business lines.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "We do not hold positions when the business model or its drivers have changed to the extent that we can no longer forecast with confidence",
+          "document": "D09_changes_since_purchase.md",
+          "document_quote": "The analytical alternatives are to underwrite a conservative growth path... or conclude that the range is too broad for the portfolio's concentration.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The candidate articulates the core logic of losing predictability which justifies an exit.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Consequently, we are exiting the position today, notwithstanding the significant decline in the stock price",
+          "document": "N/A",
+          "document_quote": "N/A",
+          "evidence_supported": false,
+          "index": 4,
+          "reason": "The candidate fails to provide the explicit gold driver regarding acting promptly on new information contradicting the original thesis.",
+          "semantic_present": false
+        }
+      ],
+      "key_problem": "The candidate omits the mandatory gold driver concerning acting promptly when discovery contradicts the original thesis.",
+      "primary_cause": "v_genuine_process_difference"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "The candidate fails to include the explicit gold driver about acting promptly upon finding new information inconsistent with the thesis.",
+      "drivers": [
+        {
+          "candidate_quote": "The company's explicit pivot from a pure-subscription model toward unproven advertising-supported plans and account-sharing enforcement introduces new operational variables that we cannot forecast with the required certainty",
+          "document": "D03_latest_results.md",
+          "document_quote": "Neither advertising economics nor conversion/churn from account enforcement is quantified.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "Candidate correctly highlights the shift and the forecasting difficulty.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "the company's explicit pivot from a pure-subscription model toward unproven advertising-supported plans and account-sharing enforcement introduces new operational variables that we cannot forecast with the required certainty",
+          "document": "D03_latest_results.md",
+          "document_quote": "Neither advertising economics nor conversion/churn from account enforcement is quantified.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "Correct identification of the forecasting challenges.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Because we can no longer model these with sufficient confidence, we have reached a loss of predictability that necessitates an immediate exit",
+          "document": "D09_changes_since_purchase.md",
+          "document_quote": "The analytical alternatives are to underwrite a conservative growth path... or conclude that the range is too broad for the portfolio's concentration.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "Direct reference to the loss of predictability.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "necessitates an immediate exit, regardless of the recent price decline",
+          "document": "N/A",
+          "document_quote": "N/A",
+          "evidence_supported": false,
+          "index": 4,
+          "reason": "The candidate does not explicitly cite the gold driver regarding the prompt action principle.",
+          "semantic_present": false
+        }
+      ],
+      "key_problem": "Missing the driver regarding the necessity to act promptly based on new contradictory information.",
+      "primary_cause": "v_genuine_process_difference"
+    }
+  ],
+  "semantic_leakage": []
+}

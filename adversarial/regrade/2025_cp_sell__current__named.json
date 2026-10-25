@@ -1,0 +1,60 @@
+{
+  "audit_notes": "The candidate correctly assesses the thesis as on track based on the provided documents as of the 2025-03-17 cutoff. The gold drivers reference future investor communications and portfolio actions (Amazon, August 2025/February 2026) which are not present in the provided source material and occurred after the candidate's as_of_date.",
+  "cause_evidence": "The candidate maintains a HOLD stance based on the thesis remaining on track [L20], whereas the gold drivers reflect a later decision to exit (SELL) due to portfolio reallocation and tariff-driven risk sensitivity.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Tariffs and macro exposure widened the risk range of the cross-border railway.",
+      "index": 1,
+      "reason": "The candidate does not discuss tariff-driven risk as a reason for a sell or holding decision in the context of portfolio sensitivity; it explicitly argues that integrated North American supply chains serve as a strong buffer against trade policy noise [L19].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "the fundamental business quality we underwrote—a scarce, trilateral rail network with high barriers to entry and best-in-class management—has been proven through the successful integration of Kansas City Southern",
+      "document": "D01_business_overview.md",
+      "document_quote": "The key business-quality distinction is between scarcity of the network and variability of the freight moving over it.",
+      "evidence_supported": true,
+      "gold_driver": "Business quality remained high; the exit should not be labeled established franchise destruction.",
+      "index": 2,
+      "reason": "The candidate explicitly affirms the high quality of the business and the success of the integration, which aligns with the gold driver.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Capital could be deployed into more attractive alternatives, including Amazon.",
+      "index": 3,
+      "reason": "The candidate contains no mention of Amazon or redeploying capital into alternative opportunities; it expresses conviction in the current position.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate is evaluating the position as of 2025-03-17, while the gold drivers reference documents published in 2025-08 and 2026-02, creating an inherent temporal mismatch regarding the investment decision.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

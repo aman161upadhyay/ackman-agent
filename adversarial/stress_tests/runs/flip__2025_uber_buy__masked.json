@@ -1,0 +1,249 @@
+{
+ "label": "flip__2025_uber_buy__masked",
+ "pack": "2025_uber_buy",
+ "model": "replit-internal-current",
+ "mode": "new",
+ "as_of_date": "2025-01-06",
+ "company_label": "the Company",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a global marketplace connecting consumers with drivers, couriers, and merchants through technology, payment, and dispatch systems [D01]. It operates primarily in three segments: Mobility, Delivery, and Freight [D01].",
+   "segments_and_mix": [
+    "Mobility: $21,002 million in bookings, $1,682 million adjusted EBITDA [D01]",
+    "Delivery: $18,663 million in bookings, $628 million adjusted EBITDA [D01]",
+    "Freight: $1,308 million in bookings, $19 million loss [D01]"
+   ],
+   "unit_economics": [
+    "Mobility adjusted EBITDA margin 8.0% of bookings [D01]",
+    "Delivery adjusted EBITDA margin 3.4% of bookings [D01]",
+    "Low physical capex requirements [D02]",
+    "Significant stock-based compensation remains a recurring expense [D02]",
+    "Insurance-reserve accruals impact reported cash flow [D02]"
+   ],
+   "competitive_position": [
+    "Marketplace operator with a potential density advantage in local supply and demand networks [D01]",
+    "Direct peers include Lyft (rides) and DoorDash (delivery) [D06]",
+    "Moat is subject to uncertainty regarding the future role of autonomous vehicle operators and multi-homing by users [D01, D06]"
+   ],
+   "growth_record_and_outlook": [
+    "Q3 2024 revenue growth 20% [D02]",
+    "Management guidance targets 20% full-year constant-currency bookings growth [D03]",
+    "Q4 bookings forecast 16-20% constant-currency growth [D03]"
+   ],
+   "balance_sheet": [
+    "Restated net debt $38.2 billion as of 2023/2024 [D00]",
+    "Restated leverage ratio 6.1x restated trailing adjusted EBITDA [D00]",
+    "Cash and equivalents $6,150 million plus short-term investments $2,913 million (as of Sept 30, 2024) [D02]"
+   ],
+   "management_and_governance": [
+    "CEO: Dara Khosrowshahi [D01]",
+    "Capital allocation: share repurchase program authorized ($7B) but currently suspended [D00, D02]",
+    "Strategy focuses on profitable growth, lower-cost products, advertising, and AV partnerships [D01]"
+   ],
+   "price_and_valuation": [
+    "Price: $66.31 (Jan 6, 2025) [D04]",
+    "Market cap: Approximately $139.36 billion (analyst estimate using basic shares) [D04]",
+    "Drawdown: Approximately 23.8% below 52-week high [D04]",
+    "Illustrative FCF yield: 5.0% (based on annualized 9-month FCF) [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Robotaxi distribution risk and the potential for AV operators to bypass the marketplace [D05]",
+    "Rising insurance costs pressuring margins [D03, D05]",
+    "Regulatory risks regarding worker status [D05]",
+    "Financial restatement and suspension of share repurchases [D00]"
+   ],
+   "recent_events": [
+    "Q3 2024 earnings (Oct 31, 2024) reported $1.061 billion GAAP operating income [D02, D03]",
+    "Waymo partnership expansion in Austin and Atlanta (Sept 2024) [D03, D07]",
+    "Restatement of 2023/2024 financials (Jan 3, 2025) revealing negative FCF and high leverage [D00]"
+   ],
+   "pershing_context": [
+    "Firm AUM approx $18.5 billion (Sept 2024) [D08]",
+    "Portfolio includes high-quality compounders (Hilton, Chipotle, Alphabet, etc.) [D08]",
+    "No verified Ackman recommendation or position on this Company found in the pack [D08]"
+   ],
+   "missing_data": [
+    "Consensus forward P/E, EV/EBITDA multiples, and long-term earnings growth estimates",
+    "Updated share count as of Jan 6, 2025",
+    "Confirmation of debt redemption completion in Q4 2024"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "Business suffers from recurring insurance-reserve accruals, high stock-based compensation, and recent financial restatements confirming negative free cash flow [D00, D02]."
+    },
+    "barriers_to_entry": {
+     "score": "UNSURE",
+     "evidence": "While the company benefits from local network density, the moat is undermined by multi-homing users and existential uncertainty regarding the future role of autonomous vehicle operators [D01, D06]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The company is highly sensitive to regulatory risks regarding worker classification and rising insurance costs [D05]."
+    },
+    "strong_financial_profile": {
+     "score": "FAIL",
+     "evidence": "With a leverage ratio of 6.1x restated trailing adjusted EBITDA, the company does not meet Pershing Square's requirement for a strong, investment-grade-like balance sheet [D00]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "FAIL",
+     "evidence": "The company's reliance on high leverage and the recent suspension of its share repurchase program following a financial restatement indicates significant capital structure strain [D00, D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of approximately $139.36 billion, the company is sufficiently liquid [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "While the stock is trading 23.8% below its 52-week high, the lack of long-term normalized earnings makes it difficult to determine if the valuation reflects an attractive entry point [D04]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "Management is navigating complex regulatory and structural shifts, but the recent financial restatement raises questions regarding internal controls and governance [D00, D01]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "Although bookings growth remains at 20%, the long-term sustainability of this growth is threatened by potential AV disruption and competitive pressures [D02, D03, D05]."
+    }
+   },
+   "n_pass": 1,
+   "n_fail": 4,
+   "n_unsure": 4,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a highly levered marketplace operator with recurring financial restatements and significant exposure to regulatory and technological disruption"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "variant_perception": "The market is currently reacting to significant financial restatements and high leverage, which the company must address to restore investor confidence. As of now, we cannot identify a clear catalyst that would reverse the structural risks posed by high insurance-reserve accruals, regulatory uncertainty regarding worker status, and the existential threat of autonomous vehicle disruption [D00, D05, D06].",
+   "evidence": [
+    "Financial restatement confirms negative free cash flow and a 6.1x leverage ratio, indicating significant capital structure strain [D00].",
+    "Recurring insurance-reserve accruals and stock-based compensation continue to pressure actual free cash flow generation [D02].",
+    "Existential uncertainty remains regarding whether AV operators will bypass the company's marketplace, undermining its long-term competitive moat [D01, D06]."
+   ],
+   "market_narrative_we_disagree_with": "While some may view the 23.8% drawdown as a typical 'temporary scare' (T1) in a growth business, the fundamental impairment revealed by the restatement and the precarious nature of the marketplace model make this an unattractive risk-reward profile [D00, D04].",
+   "what_must_be_true": [
+    "The company must demonstrate sustained, positive GAAP free cash flow independent of stock-based compensation.",
+    "The regulatory environment must stabilize regarding independent contractor status to avoid permanent margin compression.",
+    "The company must prove that its marketplace density provides a durable advantage even as autonomous vehicle technology matures."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "Not determinable from pack; missing consensus forward P/E data [D08]",
+   "eps_or_fcf_path": {
+    "base_year": "2024",
+    "base_value": "Negative FCF [D00]",
+    "growth_assumption": "Highly uncertain due to 6.1x leverage and structural restatement [D00]",
+    "year_3_to_5_value": "Not calculable",
+    "assumptions": [
+     "We assume the company must first achieve sustainable GAAP FCF excluding stock-based compensation [D02]",
+     "Operating margin expansion is contingent on resolving insurance-reserve accruals and regulatory costs [D05]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 12,
+    "why": "Lower quality/cyclical/leveraged profile with high regulatory and existential AV disruption risks [D00, D06]"
+   },
+   "implied_irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "downside_case": "Significant potential for permanent loss of capital given the 6.1x leverage ratio and the risk that autonomous vehicle disruption permanently impairs the marketplace moat [D00, D06]",
+   "valuation_verdict": "EXPENSIVE_BELOW_10",
+   "flagged_assumptions": [
+    "Lack of forward earnings data prevents precise P/E calculation",
+    "Assumption that current debt levels are a structural barrier to value creation [D00]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C1",
+   "catalyst_description": "We would pass due to the structural risks identified, but if forced to view through a catalyst lens, the company would require a definitive resolution to its 6.1x leverage ratio and the suspension of its share repurchase program, ideally through a significant debt-reduction strategy or the final settlement of pending financial restatement-related liabilities [D00, D02].",
+   "levers_or_steps": [
+    "Restore investor confidence by cleaning the balance sheet to an investment-grade-like profile [D00].",
+    "Eliminate dependency on stock-based compensation to achieve genuine, positive GAAP free cash flow [D02].",
+    "Secure long-term marketplace dominance against autonomous vehicle operators through exclusive partnerships or technology integration [D06]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "Pershing Square 3.0 focuses on quality compounders with strong balance sheets; this company's high leverage, negative FCF, and financial restatements make it fundamentally unsuitable for our portfolio, necessitating a pass rather than engagement."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Continued reliance on stock-based compensation preventing consistent GAAP free cash flow generation [D02].",
+    "Evidence that autonomous vehicle operators can bypass the company's marketplace, rendering the network density advantage obsolete [D01, D06].",
+    "Failure to de-lever the balance sheet below 3.0x EBITDA within 18 months, indicating structural capital inadequacy [D00].",
+    "Permanent adverse regulatory ruling regarding independent contractor status resulting in systemic margin compression [D05]."
+   ],
+   "portfolio_fit": "The company does not fit the Pershing Square 3.0 portfolio; it lacks the high-quality, free-cash-flow-generative, and fortress balance sheet characteristics of our existing compounders like Hilton or Chipotle [D08].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "liquidity_assessment": "The company's $139.36 billion market capitalization ensures high liquidity for standard positions, but the fundamental risks and lack of investment-grade quality preclude any size [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The combination of 6.1x leverage, recurring financial restatements, and the existential threat of autonomous vehicle operators bypassing the marketplace creates an unacceptable risk of permanent capital impairment [D00, D06]."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-01-06",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "Not determinable from pack; missing consensus forward P/E data [D08]",
+   "eps_path": "Highly uncertain due to 6.1x leverage and structural restatement [D00]",
+   "terminal_multiple": "12",
+   "irr_pct": 0,
+   "downside_case": "Significant potential for permanent loss of capital given the 6.1x leverage ratio and the risk that autonomous vehicle disruption permanently impairs the marketplace moat [D00, D06]"
+  },
+  "drivers": [
+   {
+    "driver": "The company maintains a highly levered balance sheet with a 6.1x leverage ratio, which is fundamentally inconsistent with our requirement for a fortress financial profile [D00].",
+    "citations": [
+     "D00"
+    ]
+   },
+   {
+    "driver": "Recurring financial restatements and significant stock-based compensation have obscured the true economic performance of the business, rendering it not simple or predictable [D00, D02].",
+    "citations": [
+     "D00",
+     "D02"
+    ]
+   },
+   {
+    "driver": "Existential uncertainty regarding the role of autonomous vehicle operators and multi-homing users creates significant long-term competitive risk [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "High sensitivity to extrinsic regulatory factors regarding worker classification and rising insurance costs undermines our requirement for limited exposure to uncontrollable variables [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Continued reliance on stock-based compensation preventing consistent GAAP free cash flow generation [D02].",
+   "Evidence that autonomous vehicle operators can bypass the company's marketplace, rendering the network density advantage obsolete [D01, D06].",
+   "Failure to de-lever the balance sheet below 3.0x EBITDA within 18 months, indicating structural capital inadequacy [D00].",
+   "Permanent adverse regulatory ruling regarding independent contractor status resulting in systemic margin compression [D05]."
+  ],
+  "what_would_change_our_mind": "The company must demonstrate sustained, positive GAAP free cash flow independent of stock-based compensation, achieve investment-grade-level leverage below 3.0x EBITDA, and prove a durable competitive advantage in an autonomous-vehicle-dominated future [D00, D02, D05, D06].",
+  "memo": "The Company is a global marketplace connecting consumers with drivers, couriers, and merchants across mobility, delivery, and freight segments [D01]. While the company benefits from local network density, it fails to meet our standards for a simple, predictable, and free-cash-flow-generative business [D01, D02].\n\nThe investment case is fundamentally compromised by recent financial restatements, which confirmed negative free cash flow and a concerning leverage ratio of 6.1x restated trailing adjusted EBITDA [D00]. The market's recent concern regarding these restatements and the suspension of share repurchases is, in our view, a rational reaction to significant capital structure strain [D00, D02].\n\nValuation is difficult to anchor given the lack of normalized earnings and the structural volatility in the financial statements [D08]. With a leverage ratio of 6.1x and the risk of permanent margin compression from insurance and regulatory headwinds, the implied risk-reward profile is unattractive compared to our high-quality compounders [D00, D05].\n\nThere is no clear catalyst that would resolve the company's dependency on stock-based compensation or its exposure to existential threats from autonomous vehicle operators [D02, D06]. Without a path to de-levering and achieving consistent GAAP profitability, the business remains outside our investable universe [D00].\n\nThe risks, including potential regulatory reclassification of labor and the threat of AV technology bypassing the marketplace, suggest a potential for permanent loss of capital [D05, D06]. We cannot identify the type of durable, high-barrier growth that defines a Pershing Square 3.0 position [D08].\n\nGiven these factors, we have decided to PASS on this opportunity. We require companies with strong, investment-grade-like balance sheets and proven, durable business models, neither of which is present in the current data [D00, D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

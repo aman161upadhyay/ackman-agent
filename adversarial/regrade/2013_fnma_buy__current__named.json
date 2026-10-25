@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate was assessed against the provided docs as of 2013-10-31. The candidate reflects a buy conviction based on the potential for litigation success, which is a permissible forward-looking thesis, but its valuation logic relies on metrics specifically flagged as misleading in the provided documentation.",
+  "cause_evidence": "The candidate attempts to apply a normalized earnings multiple (8x) to value a security while acknowledging that earnings are swept by Treasury and that capital structure resolution is unknown [L43, L54-55]. This ignores the structural warnings in D04 regarding the invalidity of simple multiples.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Essential guarantee infrastructure and the prepayable30-year fixed mortgage cannot readily be replaced.",
+      "index": 1,
+      "reason": "The candidate argues Fannie Mae provides vital liquidity and has insurmountable barriers to entry [L43], but it does not make the specific causal claim that these features make the existing enterprises impossible to replace in the market.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "We will actively support legal efforts to protect shareholder rights and clarify the limits of the FHFA’s conservatorship authority",
+      "document": "D06_contract_and_litigation.md",
+      "document_quote": "The publicly reported claims include statutory/administrative objections and constitutional takings arguments.",
+      "evidence_supported": true,
+      "gold_driver": "Challenge the sweep and restore a route from enterprise profits to shareholder value; this is Ackman's position, not a final legal holding.",
+      "index": 2,
+      "reason": "The candidate explicitly states intent to support legal efforts to address shareholder rights and the Net Worth Sweep [L43]. Doc D06 supports that litigation challenging these arrangements is occurring.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Recapitalize and eventually release the enterprises; Treasury warrant ownership could align taxpayer upside with common.",
+      "index": 3,
+      "reason": "The candidate mentions moving toward a re-privatized capital structure [L43] but does not articulate the specific thesis regarding Treasury warrant alignment with common equity.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "we believe a re-privatized entity could command a normalized earnings multiple of approximately 8x, suggesting substantial upside from current distressed trading levels",
+      "document": "D04_price_and_capital_waterfall.md",
+      "document_quote": "A proper scenario model must specify policy/legal resolution, normalized earnings, required capital, recapitalization time, financing terms, senior and junior claims, and final share count.",
+      "evidence_supported": false,
+      "gold_driver": "Large potential valuation gap conditional on capital structure and policy; later2014 US$23–47 scenarios must not be imported as2013 prices or realized returns.",
+      "index": 4,
+      "reason": "The candidate claims substantial upside based on an 8x multiple [L43]. However, D04 explicitly warns that an ordinary equity multiple is inappropriate without accounting for senior/junior claims and that such models are not available.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate relies on a hypothetical re-privatization valuation multiple (8x) for a security where existing earnings accrue to Treasury and shareholder rights are currently suspended, failing to satisfy the requirement for a valid, scenario-based valuation as specified in the provided documents [L43, D04].",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

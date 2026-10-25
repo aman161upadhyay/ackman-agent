@@ -1,0 +1,103 @@
+{
+  "audit_notes": "Both candidates C1 and C2 effectively reproduce the 'platform' thesis (T9 in the agent rules) applicable to 2015, which was later formally deprecated by the manager in 2017 after the Valeant loss. Both candidates successfully cite provided documents for their causal claims.",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "C1 presents a 8% NAV target size and specific valuation/growth projections based on a 'platform' thesis consistent with 2015-era Ackman strategies, differing from the retrospective analysis in the answer key.",
+      "drivers": [
+        {
+          "candidate_quote": "The company operates a unique, decentralized platform that generates significant cash EPS growth through disciplined acquisitions and cost synergies",
+          "document": "D01_business_overview.md",
+          "document_quote": "CEO/chairman J. Michael Pearson advocates decentralized operating decisions, disciplined acquisition returns... Buying approved products can substitute purchased intangible assets",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The driver accurately reflects the company's platform model described in D01.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Management has a proven ability to scale, delivering 43% revenue growth in 2014, and is well-positioned to integrate Salix",
+          "document": "D02_financial_snapshot.md",
+          "document_quote": "Reported revenue growth is... 43% in 2014",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The 43% revenue growth figure is explicitly stated in the financial snapshot document.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The current valuation at 23.7x Cash EPS provides an attractive entry point given the projected growth algorithm",
+          "document": "D04_price_and_valuation.md",
+          "document_quote": "FY2014 Cash EPS US$8.34 | 23.7x",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The valuation multiple matches the document's calculations.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The market misperceives the company as a generic roll-up, failing to account for the durable organic growth underlying its core therapeutic segments",
+          "document": "D05_market_worries.md",
+          "document_quote": "The fundamental downside is linked: reimbursement resistance or weakening product volumes could reduce earnings... The criticism is already sufficiently specific",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The candidate captures the counter-narrative to the market critique discussed in D05.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "The candidate relies on a 'platform' strategy that fails post-2017 risk rules regarding high leverage and acquisition-dependency.",
+      "primary_cause": "v_genuine_process_difference"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "C2 proposes a 10% NAV stake and relies on a valuation and growth narrative typical of the Era C acquisition platform strategy, which differs from the retrospective answer key that emphasizes the misjudgment of management and complexity.",
+      "drivers": [
+        {
+          "candidate_quote": "A decentralized pharmaceutical platform that generates significant free cash flow by prioritizing disciplined, acquisition-led capital allocation over speculative, high-cost R&D",
+          "document": "D01_business_overview.md",
+          "document_quote": "CEO/chairman J. Michael Pearson advocates decentralized operating decisions, disciplined acquisition returns and limited speculative early-stage research.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The driver is fully supported by the document overview.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The business possesses a diversified portfolio with no single product exceeding 4% of revenue",
+          "document": "D01_business_overview.md",
+          "document_quote": "The February 23 call says no individual product exceeds 4% of revenue",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The specific metric is verified by the document.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Strong organic growth, with core segments achieving 16% and Bausch + Lomb 8% as of Q4 2014",
+          "document": "D03_latest_results_and_guidance.md",
+          "document_quote": "Management reports 16% same-store organic growth, 8% Bausch + Lomb organic growth",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The figures align with the Q4 2014 results reported in D03.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Management’s disciplined track record of converting GAAP earnings into robust cash flow to rapidly deleverage the balance sheet post-acquisition",
+          "document": "D02_financial_snapshot.md",
+          "document_quote": "GAAP operating cash flow of US$2,294.7M significantly outstripping net income of US$913.5M",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The document supports the cash flow conversion capability.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The market mischaracterizes Valeant’s model as unsustainable financial engineering, failing to appreciate the superior economics of its high-margin, capital-light platform",
+          "document": "D05_market_worries.md",
+          "document_quote": "The fundamental downside is linked: reimbursement resistance or weakening product volumes could reduce earnings... The criticism is already sufficiently specific",
+          "evidence_supported": true,
+          "index": 5,
+          "reason": "This captures the market dispute as outlined in D05.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "Like C1, C2 uses a strategy (acquisition-led growth) that Ackman later designated a failed 'platform' approach.",
+      "primary_cause": "v_genuine_process_difference"
+    }
+  ],
+  "semantic_leakage": []
+}

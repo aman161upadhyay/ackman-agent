@@ -1,0 +1,94 @@
+{
+  "audit_notes": "The audit confirms that C2 adheres more strictly to the provided document constraints as of July 15, 2013. C1 incorrectly relies on the assumption of specific leadership changes that were not yet realized at the cutoff date, violating the point-in-time constraint.",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "The candidate incorporates specific forward-looking leadership assumptions (Seifi Ghasemi) that are explicitly noted as not established by the as-of-date in the provided documents [D01, D07].",
+      "drivers": [
+        {
+          "candidate_quote": "A dominant, global industrial gas provider with high barriers to entry and long-term, predictable Tonnage contracts [D01].",
+          "document": "D01_business_overview.md",
+          "document_quote": "An attractive franchise thesis rests on essential products, technical competence, installed assets and long-duration customer relationships. [...] Tonnage gases involve large on-site plants supplying oxygen, hydrogen and other gases under long-term arrangements.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The candidate accurately identifies the business quality and contract structure mentioned in D01.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Seifi is the ideal leader to transform Air Products",
+          "document": "D01_business_overview.md",
+          "document_quote": "Leadership change or separation could be tools to investigate, but neither is an established post-cutoff outcome to assume in the valuation.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "While the candidate is right that management focus is a key driver, the candidate incorrectly attributes the specific CEO appointment (Seifi Ghasemi) which occurs after the July 15, 2013 as-of-date [D01].",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Clear path to EPS growth by closing half the margin gap with industry leaders, driving earnings toward US$7.50 per share [D06].",
+          "document": "D06_peer_and_industry_benchmarks.md",
+          "document_quote": "Praxair's Q1 adjusted margin 21.6% versus APD's fiscal Q2 15.7% suggests a potentially valuable gap. It does not prove the entire difference is attainable",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The candidate correctly identifies the margin gap as a performance lever but characterizes a future target (US$7.50) as an existing path, whereas D06 cautions that the gap is not a verified achievable target.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Decentralized accountability, incentive alignment and noncore separation improve focus and returns.",
+          "document": "D05_market_worries.md",
+          "document_quote": "A centralized structure can dilute accountability, but decentralization is only a potential analytical remedy, not a documented completed change.",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The candidate reflects the sentiment in D05 regarding decentralized accountability as an analytical remedy.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "The candidate assumes a specific leadership change (Seifi Ghasemi) as a factual driver, whereas the documents at the as-of-date emphasize that such changes are potential remedies not yet realized.",
+      "primary_cause": "v_genuine_process_difference"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "The candidate's reasoning aligns with the provided documents, focusing on the potential for improvement and identifying the margin gap as a key opportunity.",
+      "drivers": [
+        {
+          "candidate_quote": "Air Products is a dominant provider of industrial gases with high barriers to entry and long-duration, defensive customer relationships [D01].",
+          "document": "D01_business_overview.md",
+          "document_quote": "An attractive franchise thesis rests on essential products, technical competence, installed assets and long-duration customer relationships.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The candidate accurately reflects the document's assessment of the business model.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "A persistent 600bps operating margin gap compared to peer Praxair represents a significant, fixable opportunity for earnings growth [D06].",
+          "document": "D06_peer_and_industry_benchmarks.md",
+          "document_quote": "Comparing its adjusted 21.6% margin with APD's clean current-quarter measure gives an approximately 590-basis-point observed gap",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The candidate identifies the margin gap consistent with the documents.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "We can drive value by advocating for portfolio rationalization, disciplined capital allocation, and operational efficiency [D01, D06].",
+          "document": "D05_market_worries.md",
+          "document_quote": "A good thesis must identify what a different operator would actually do, the limits imposed by mix, and the returns on retained capital.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The candidate correctly identifies these as analytical levers for an investment thesis.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "At 17.9x FY2012 earnings, the stock is attractively priced for a high-quality infrastructure business undergoing a transformation [D04].",
+          "document": "D04_price_and_valuation.md",
+          "document_quote": "FY2012 adjusted continuing EPS US$5.40 | 17.9x",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The candidate correctly cites the valuation metric provided in D04.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "None identified.",
+      "primary_cause": "none"
+    }
+  ],
+  "semantic_leakage": []
+}

@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The gold drivers for this assessment are sourced from documents (e.g., Nov 2005, Jan 2006) dated after the 2005-09-30 cutoff date specified in the candidate pack. The candidate cannot be judged on events that had not yet occurred at the time of the analysis.",
+  "cause_evidence": "The candidate's memo is dated 2005-09-30, and the gold drivers represent activist campaigns that occurred or evolved in November 2005 and 2006, which is after the cutoff date of the provided source documentation.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Separate restaurant operations from franchise/property economics; good management had already delivered an operating recovery.",
+      "index": 1,
+      "reason": "The candidate document [D01] mentions separating restaurant versus property/franchise economics, but the candidate does not explicitly state that management had already delivered an operating recovery; in fact, it focuses on the market perceiving it as a 'slow-growth' operator [L23] and management's 'Plan to Win' as needing to change [L30].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Normalize corporate restaurants for market rent and franchise fees to reveal true economics.",
+      "index": 2,
+      "reason": "The candidate discusses the margin difference between company-operated and franchise models [L51], but it does not propose a specific normalization of corporate restaurants for market rent to reveal true economics.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Original November plan proposes65% McOpCoIPO andUS$14.7bn property-backed borrowing for repurchases; not simply a REIT spin.",
+      "index": 3,
+      "reason": "This claim relates to events in November 2005, which post-date the provided content's 'as_of_date' of 2005-09-30.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Adapt means to stakeholder constraints, later withdrawing the IPO demand in favor of management actions/refranchising rather than insisting on the initial transaction.",
+      "index": 4,
+      "reason": "This claim relates to events in 2006, which post-date the provided content's 'as_of_date' of 2005-09-30.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate thesis relies on structural changes (REIT conversion, real estate spin-off) that were being discussed in the market [D05, D07], but the specific gold drivers provided refer to subsequent actions taken by an activist investor that occur outside the bounds of the provided documents and the relevant as-of-date.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

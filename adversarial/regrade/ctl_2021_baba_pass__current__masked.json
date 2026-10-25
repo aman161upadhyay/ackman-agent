@@ -1,0 +1,45 @@
+{
+  "audit_notes": "The candidate failed to incorporate the specific conservative investment constraints (VIE enforceability, control limits, and the need for narrowly bounded cash outcomes) defined in the gold drivers, opting instead for a standard value-investing thesis based on earnings multiples and projected growth.",
+  "cause_evidence": "The candidate identifies the company as a 'highly durable, free-cash-flow-generative franchise' [L44] and seeks to exploit current valuation compression [L44], whereas the gold drivers caution that such metrics are insufficient given the lack of control over sovereign regulatory outcomes and the inability to narrow future cash distributions.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Regulatory changes and offshore/VIE enforceability can dominate the value reaching ADS holders; ordinary shareholder activism cannot control them.",
+      "index": 1,
+      "reason": "The candidate memo acknowledges regulatory risks and VIE structural uncertainty but fails to make the specific claim that these factors dominate value and are beyond shareholder control; instead, the candidate argues the company is a durable franchise [L44].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "A profitable commerce engine is not sufficient if future shareholder rights, merchant rules and distributable cash cannot be forecast narrowly enough. No independently bounded special-situation payoff established.",
+      "index": 2,
+      "reason": "The candidate assumes a successful investment thesis based on a re-rating toward a terminal multiple [L44], effectively ignoring the gold driver's warning about the insufficiency of the commerce engine when faced with unforecastable rights and cash distributability.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate treats the current regulatory uncertainty as a temporary 'adjustment period' [L44] and focuses on valuation metrics, failing to address the fundamental concern that the business's profitability does not guarantee the enforceability of shareholder rights or the ability to forecast distributable cash flows.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

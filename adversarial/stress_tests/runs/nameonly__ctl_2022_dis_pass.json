@@ -1,0 +1,212 @@
+{
+ "label": "nameonly__ctl_2022_dis_pass",
+ "pack": "ctl_2022_dis_pass",
+ "model": "replit-internal-current",
+ "mode": "new",
+ "as_of_date": "2022-11-11",
+ "company_label": "The Walt Disney Company",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "not in pack",
+   "segments_and_mix": [
+    "not in pack"
+   ],
+   "unit_economics": [
+    "not in pack"
+   ],
+   "competitive_position": [
+    "not in pack"
+   ],
+   "growth_record_and_outlook": [
+    "not in pack"
+   ],
+   "balance_sheet": [
+    "not in pack"
+   ],
+   "management_and_governance": [
+    "not in pack"
+   ],
+   "price_and_valuation": [
+    "not in pack"
+   ],
+   "what_the_market_is_worried_about": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "not in pack"
+   ],
+   "pershing_context": [
+    "not in pack"
+   ],
+   "missing_data": [
+    "all financial, operational, and governance data for The Walt Disney Company as of 2022-11-11 is missing from the provided pack [D01]"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "UNSURE",
+     "evidence": "All financial and operational data for the business is not in pack [D01]."
+    },
+    "barriers_to_entry": {
+     "score": "UNSURE",
+     "evidence": "All competitive positioning data for the business is not in pack [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "All operational and exposure data for the business is not in pack [D01]."
+    },
+    "strong_financial_profile": {
+     "score": "UNSURE",
+     "evidence": "All balance sheet and financial data for the business is not in pack [D01]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "UNSURE",
+     "evidence": "All financial data for the business is not in pack [D01]."
+    },
+    "large_market_cap": {
+     "score": "UNSURE",
+     "evidence": "All valuation and market data for the business is not in pack [D01]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "All price and valuation data for the business is not in pack [D01]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "All governance data for the business is not in pack [D01]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "All growth record and outlook data for the business is not in pack [D01]."
+    }
+   },
+   "n_pass": 0,
+   "n_fail": 0,
+   "n_unsure": 9,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "insufficient data provided to determine if this is a Pershing Square business"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "variant_perception": "The provided data pack contains no information regarding The Walt Disney Company as of 2022-11-11 [L1]. Consequently, we cannot identify a market misunderstanding or form a variant perception.",
+   "evidence": [
+    "all financial, operational, and governance data for The Walt Disney Company as of 2022-11-11 is missing from the provided pack [L1]"
+   ],
+   "market_narrative_we_disagree_with": "not in pack [L1]",
+   "what_must_be_true": [
+    "We require access to the company's financial statements, operational metrics, and governance structure to evaluate intrinsic value [L1]."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "not in pack [L1]",
+   "eps_or_fcf_path": {
+    "base_year": "not in pack",
+    "base_value": "not in pack",
+    "growth_assumption": "not in pack",
+    "year_3_to_5_value": "not in pack",
+    "assumptions": [
+     "not in pack [L1]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 0,
+    "why": "The provided data pack contains no information regarding The Walt Disney Company to support a terminal multiple assessment [L1]."
+   },
+   "implied_irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "downside_case": "not in pack; we cannot assess downside without financial data [L1].",
+   "valuation_verdict": "EXPENSIVE_BELOW_10",
+   "flagged_assumptions": [
+    "all financial and operational metrics are missing from the provided pack [L1]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "As the data pack is empty [L1], we cannot identify a catalyst. In a hypothetical scenario where the business met our quality criteria, we would rely on compounding alone [Rule 4, Rule 5].",
+   "levers_or_steps": [
+    "not in pack [L1]"
+   ],
+   "time_to_value_realisation_years": 0,
+   "why_this_role_fits_the_era": "Our 2018-2023 'Pershing Square 3.0' mandate focuses on quality compounders where we avoid public activism and shorts, relying on long-term earnings growth [Rule 5]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "not in pack [L1]",
+    "not in pack [L1]"
+   ],
+   "portfolio_fit": "not in pack [L1]",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "liquidity_assessment": "not in pack [L1]",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "We lack the necessary financial, operational, and strategic data to identify the primary risks to intrinsic value [L1]."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-11-11",
+  "company": "The Walt Disney Company",
+  "ticker": "DIS",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "not in pack [L1]",
+   "eps_path": "not in pack",
+   "terminal_multiple": "not in pack",
+   "irr_pct": 0,
+   "downside_case": "not in pack"
+  },
+  "drivers": [
+   {
+    "driver": "The data pack is empty, rendering it impossible to evaluate the business against our quality standards [L1].",
+    "citations": [
+     "L1"
+    ]
+   },
+   {
+    "driver": "We cannot verify if the company is a simple, predictable, free-cash-flow-generative, dominant business [L1].",
+    "citations": [
+     "L1"
+    ]
+   },
+   {
+    "driver": "There is no information to assess the earnings path or mid-teens-plus growth potential [L1].",
+    "citations": [
+     "L1"
+    ]
+   },
+   {
+    "driver": "We have no basis to identify a market dislocation or form a variant perception [L1].",
+    "citations": [
+     "L1"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Data deficiency [L1]"
+  ],
+  "what_would_change_our_mind": "Access to a comprehensive data set detailing financials, competitive positioning, and management strategy [L1].",
+  "memo": "We cannot form an investment thesis on The Walt Disney Company as the provided data pack is empty [L1]. Our investment process requires rigorous analysis of a business's intrinsic value, competitive advantages, and long-term earnings potential, none of which can be determined from the information provided [L1]. \n\nWithout financial statements or operational metrics, we are unable to assess if the company meets our standards for being a simple, predictable, free-cash-flow-generative business [L1]. Furthermore, we cannot identify any market dislocation or catalyst that would offer the asymmetric returns we seek [L1]. \n\nGiven that we cannot evaluate the investment, we must pass on the opportunity [L1]. Our mandate as part of Pershing Square 3.0 remains focused on high-quality compounders with clear, long-term growth runways, which we cannot verify in this instance [L1].",
+  "uncited_claims": [
+   "None"
+  ]
+ },
+ "elapsed_s": 0
+}

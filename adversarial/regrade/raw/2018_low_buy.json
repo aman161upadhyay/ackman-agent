@@ -1,0 +1,94 @@
+{
+  "audit_notes": "Both candidates exhibit a common failure mode: treating the CEO search initiation as a functional catalyst ('providing a catalyst') rather than an unresolved governance process. The documents (specifically D03 and D07) emphasize that the CEO appointment is pending and operational outcomes remain uncertain as of the cutoff.",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "The candidate incorrectly frames the CEO search as a 'catalyst to drive' change before a successor is appointed.",
+      "drivers": [
+        {
+          "candidate_quote": "The company is a dominant, cash-generative player in a stable home-improvement duopoly with high barriers to entry.",
+          "document": "D01_business_overview.md",
+          "document_quote": "Lowe's is a large home-improvement retailer... The business benefits from scale in sourcing, distribution, assortment and local store access.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "Supported by the description of a large, scaled home-improvement retailer with high barriers to entry.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The current 490bp operating margin gap compared to Home Depot is a fixable performance deficit rather than a structural failure.",
+          "document": "D01_business_overview.md",
+          "document_quote": "Home Depot provides a particularly visible competitive benchmark... 9.6% operating income... Home Depot's FY2017 figures were... 14.5%.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The 490bp gap is explicitly calculated from the provided FY2017 operating income figures.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The CEO succession process and recent board refreshment provide a catalyst to drive operational improvement and capital allocation efficiency.",
+          "document": "D07_event_context.md",
+          "document_quote": "No successor has been named... The company says the board has initiated that search.",
+          "evidence_supported": false,
+          "index": 3,
+          "reason": "The candidate asserts the succession process itself is a catalyst, whereas the source highlights the uncertainty of the pending search.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "Cash generation and buybacks improve per-share value alongside operating repair.",
+          "document": "D02_financial_snapshot.md",
+          "document_quote": "FY2017 program repurchases totaled approximately $3.1 billion... Buybacks reduce the share count, but sustainability depends on operating cash generation.",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "Supported by financial disclosure of cash generation and share repurchases.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "The candidate overstates the definitive nature of the CEO search as a mechanism for immediate improvement.",
+      "primary_cause": "iv_model_limitation"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "The candidate refers to the CEO transition as a catalyst for margin parity, whereas the doc explicitly notes the appointment is unknown and search ongoing.",
+      "drivers": [
+        {
+          "candidate_quote": "Lowe's is a dominant, free-cash-flow-generative home improvement retailer with significant scale and durable competitive advantages.",
+          "document": "D01_business_overview.md",
+          "document_quote": "The business benefits from scale in sourcing, distribution, assortment and local store access.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "Matches the business quality assessment in the documents.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "A 490 basis point operating margin gap compared to Home Depot represents a major, remediable operational underperformance rather than a structural disadvantage.",
+          "document": "D06_peer_industry.md",
+          "document_quote": "The approximately 490bp reported operating-margin gap indicates meaningful potential economic value if even part is fixable.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "Directly supported by the document's analysis of the margin gap.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Recent board refreshes and the announced CEO transition provide a powerful catalyst to drive operational change and margin parity.",
+          "document": "D07_event_context.md",
+          "document_quote": "No successor has been named in the qualifying information set.",
+          "evidence_supported": false,
+          "index": 3,
+          "reason": "The candidate presumes the transition is a completed catalyst for margin parity, which is unsupported by the current status of the search.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "The stock trades at an attractive 15.5x 2018 guidance, offering significant upside as earnings power is unlocked.",
+          "document": "D04_price_valuation.md",
+          "document_quote": "Against FY2018 guided EPS midpoint of $5.45, it implies 15.5x.",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "Supported by valuation data.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "The candidate confuses an open, un-finalized leadership search for an active, effective catalyst.",
+      "primary_cause": "iv_model_limitation"
+    }
+  ],
+  "semantic_leakage": []
+}

@@ -1,0 +1,75 @@
+{
+  "audit_notes": "Candidate correctly adhered to the April 2, 2018 cutoff by not referencing the future CEO. Gold driver 3 requires knowledge not available until after the cutoff.",
+  "cause_evidence": "The candidate correctly identifies the opportunity but reflects the information available as of April 2, 2018, whereas the gold driver relies on knowledge (Marvin Ellison) that the candidate's own text acknowledges was not yet public [D03, D07].",
+  "drivers": [
+    {
+      "candidate_quote": "Lowe's Companies is a dominant player in the home improvement industry, operating over 2,100 stores that provide stable, recurring demand for repair and renovation",
+      "document": "D01_business_overview.md",
+      "document_quote": "Lowe's is a large home-improvement retailer serving household and professional repair, renovation and maintenance demand. At FY2017 end, it operated 2,152 home-improvement/hardware stores",
+      "evidence_supported": true,
+      "gold_driver": "Scaled home-improvement franchise with durable repair/renovation demand.",
+      "index": 1,
+      "reason": "The candidate explicitly identifies Lowe's as a dominant home improvement retailer providing stable demand for repair and renovation.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We expect new leadership to prioritize supply chain rationalization and inventory management to bridge this performance gap over the next three to five years",
+      "document": "D01_business_overview.md",
+      "document_quote": "Operational improvement could involve availability, merchandising, supply chain, professional-customer service and labor productivity.",
+      "evidence_supported": true,
+      "gold_driver": "Close operating-margin and productivity gap to Home Depot through merchandising, inventory/supply chain, pro-customer service and expense execution.",
+      "index": 2,
+      "reason": "The candidate identifies the margin gap as remediable and targets specific operational levers mentioned in the document.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Confidence in Marvin Ellison's relevant Home Depot experience and management upgrade; this was not yet public at April2 cutoff.",
+      "index": 3,
+      "reason": "The candidate mentions a generic 'CEO transition' but does not name Marvin Ellison or cite his specific experience, and the document explicitly notes the successor was unknown as of the April 2 cutoff [D03].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "The business is inherently simple and cash-generative",
+      "document": "D02_financial_snapshot.md",
+      "document_quote": "The release says FY2017 program repurchases totaled approximately $3.1 billion and dividends paid approximately $1.3 billion. The retained-earnings allocation for repurchases is not total buyback cash. Buybacks reduce the share count",
+      "evidence_supported": true,
+      "gold_driver": "Cash generation and buybacks improve per-share value alongside operating repair.",
+      "index": 4,
+      "reason": "The candidate identifies the business as cash-generative, and document D02 provides factual support for buybacks and cash flow generation.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate relies on an active CEO search [D07], while the gold driver evaluates the outcome of that search (Ellison's appointment) which occurred after the as_of_date.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

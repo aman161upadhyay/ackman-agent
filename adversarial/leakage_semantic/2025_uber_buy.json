@@ -1,0 +1,12 @@
+{
+  "as_of_date": "2025-01-06",
+  "findings": [
+    {
+      "document": "D08_pershing_context.md",
+      "quote": "The document is now hosted at a later upload path; the underlying observation and release are from 2024.",
+      "reason": "The text references a 'later upload path' that necessitates knowledge of the document's hosting status beyond the stated 2025-01-06 date, as the source URL in the file (Line 11) is dated 2025-02-07.",
+      "verdict": "provenance uncertainty"
+    }
+  ],
+  "limitations": "The content contains a URL in document D08 (Line 11) dated 2025-02-07, which postdates the as-of-date of 2025-01-06."
+}

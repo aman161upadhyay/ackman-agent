@@ -1,0 +1,28 @@
+### Adversarial Review: Contradictions and Falsifiers
+
+The primary contradictions between the forward prediction and the evidence pack involve **capital availability**, **candidate selection logic**, and **IRR/valuation assertions**.
+
+#### 1. Contradictions and Assertions
+*   **Capital Availability:** The agent predicts active new-position initiation [L8]. However, the principal [L107] and the evidence [L433] confirm Pershing has already largely deployed capital (e.g., $5B in PSUS), making aggressive new-name expansion into speculative assets less likely than adding to intact library positions.
+*   **Candidate Selection (D04):** The agent suggests new positions (ADSK, CPRT) [L16, L17] based on screen-wide drawdowns. The principal reconciles this by noting Pershing favors **re-entries** (Lowe's, Zoetis, Chipotle) or existing-position additions (S&P Global, Meta) due to research velocity [L98-L99]. Autodesk and Copart sit outside Pershing's historical circle [L100].
+*   **IRR Assertions:** The agent asserts IRR > 20% for almost all candidates [L16-L21]. The principal notes these are management's multi-year projections [L219, L223], not intrinsic valuations or consensus data, and high forward P/Es (e.g., GOOG 23.39x) make achieving these IRRs dependent on significant re-rating rather than current EPS [L162].
+
+#### 2. Candidate Falsifiers (Observable)
+A confirmed trade (13F, issuer press release, or manager interview) falsifies the hypothesis.
+
+| Candidate | Concrete Observable Falsifier |
+| :--- | :--- |
+| **Autodesk** | SEC 13F (filed 16 Feb 2027) showing zero position [L31]. |
+| **Copart** | SEC 13F (filed 16 Feb 2027) showing zero position [L38]. |
+| **Alphabet** | SEC 13F (filed 16 Feb 2027) showing zero position [L45]. |
+| **Booking** | SEC 13F (filed 16 Feb 2027) showing zero position [L52]. |
+| **Lowe's** | Public absence of re-entry confirmation in Q4 disclosures [L59]. |
+| **Zoetis** | SEC 13F (filed 16 Feb 2027) showing zero position [L66]. |
+| **Chipotle** | Public absence of re-entry confirmation in Q4 disclosures [L73]. |
+| **Hilton** | Any official statement confirming exit of current focus (Data/Tech) to fund HLT [L77]. |
+
+#### 3. Evidence vs. Hypothesis
+*   **Confirmed Evidence:** Position initiation requires 13F filing [L31], verified manager call transcripts [L217], or official issuer press releases [L146, L175].
+*   **Hypothesis:** The agent's rankings [L16-L23] and the principal's reconciled ranking [L105] are *analyst inferences*. Scoring fidelity rests on whether Pershing adheres to its "library" compounder criteria vs. opportunistic buying [L110].
+
+*Note: Content truncated in source material is acknowledged [L518, L562]. Reference citations are provided per line number.*

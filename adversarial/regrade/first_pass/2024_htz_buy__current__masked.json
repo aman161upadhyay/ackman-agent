@@ -1,0 +1,59 @@
+{
+  "audit_notes": "The candidate adheres to the provided source documents as of 2024-11-12. The gold drivers referencing post-cutoff 2025 tweets were evaluated based on the content available in the provided documents.",
+  "cause_evidence": "The candidate identifies the same core drivers (oligopoly, Gil West/turnaround, liquidity, and leverage/residual risk) and adheres to the same logic found in the documents as of the cutoff date.",
+  "drivers": [
+    {
+      "candidate_quote": "The Company operates a major rental brand network that, while currently facing severe operational headwinds, maintains critical competitive advantages through its airport infrastructure and scale within a concentrated oligopoly.",
+      "document": "D06_peer_industry.md",
+      "document_quote": "Concentration can support fleet discipline and pricing, but does not remove competition for airport concessions, corporate accounts, leisure travelers or replacement demand.",
+      "evidence_supported": true,
+      "gold_driver": "Concentrated rental industry and rational pricing can support normalized profitability.",
+      "index": 1,
+      "reason": "The candidate asserts the benefit of the concentrated oligopoly for competitive advantage, which the document supports as a mechanism for fleet discipline and pricing.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Under the leadership of CEO Gil West, who joined in 2024, the business has initiated a necessary 'back-to-basics' turnaround and comprehensive fleet rotation.",
+      "document": "D03_latest_results.md",
+      "document_quote": "Management expects to substantially complete fleet rotation by the end of 2025, when DPU “could normalize to under $300.”",
+      "evidence_supported": true,
+      "gold_driver": "Gil West and fleet rotation can repair depreciation and operating costs.",
+      "index": 2,
+      "reason": "The candidate links the new CEO and fleet rotation to the turnaround, supported by the document's link between fleet rotation and the normalization of depreciation costs (DPU).",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The primary risks involve the company's high leverage and sensitivity to residual value fluctuations in the used-car market",
+      "document": "D05_market_worries.md",
+      "document_quote": "For a financed fleet, weaker resale values can affect both earnings and collateral.",
+      "evidence_supported": true,
+      "gold_driver": "A leveraged vehicle portfolio creates large equity sensitivity to residual values.",
+      "index": 3,
+      "reason": "The candidate explicitly identifies the equity risk sensitivity to used-car residual values due to high leverage, which is supported by the document's description of how resale values affect financed fleet earnings and collateral.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "the $1.6 billion in current liquidity provides sufficient runway to complete the restructuring by the end of 2025",
+      "document": "D03_latest_results.md",
+      "document_quote": "The near-term investment question is therefore whether liquidity and financing access bridge a lengthy operational repair",
+      "evidence_supported": true,
+      "gold_driver": "Liquidity and distant principal maturities provide time for the turnaround, subject to cash burn.",
+      "index": 4,
+      "reason": "The candidate correctly identifies the $1.6 billion liquidity as the runway for the turnaround, which the document confirms is the central question for bridging operational repair.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "AV servicing is additional optionality, not a signed contract or a November2024 fact.",
+      "index": 5,
+      "reason": "The candidate does not mention autonomous vehicle (AV) servicing or optionality.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "none",
+  "primary_cause": "none",
+  "semantic_leakage": []
+}

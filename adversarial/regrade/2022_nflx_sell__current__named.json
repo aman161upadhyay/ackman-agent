@@ -1,0 +1,77 @@
+{
+  "audit_notes": "The candidate's analysis is directionally correct but lacks the specific causal and policy-based rigor required by the gold drivers.",
+  "cause_evidence": "The candidate fails to articulate the firm's specific investment principles regarding prompt action on contrary information (Driver 4) and the link between subscriber growth and intrinsic value (Driver 1), despite correctly identifying forecast uncertainty.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Subscriber-growth changes have an outsized effect on intrinsic value because of operating leverage.",
+      "index": 1,
+      "reason": "The candidate does not discuss the causal relationship between subscriber growth changes and intrinsic value through the mechanism of operating leverage.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "The company's explicit pivot from a pure-subscription model toward unproven advertising-supported plans and account-sharing enforcement introduces new operational variables that we cannot forecast with the required certainty",
+      "document": "D05_market_concerns.md",
+      "document_quote": "Advertising and paid sharing may create value, but their unit economics are not yet disclosed. An ad tier introduces advertiser demand, sales costs, viewing mix and possible subscription cannibalization. Account-sharing enforcement introduces conversion and churn uncertainty.",
+      "evidence_supported": true,
+      "gold_driver": "Advertising and account-sharing changes may be sensible but are difficult to forecast.",
+      "index": 2,
+      "reason": "The candidate accurately captures the difficulty in forecasting these specific new business initiatives.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Because we can no longer model these with sufficient confidence, we have reached a loss of predictability that necessitates an immediate exit",
+      "document": "D05_market_concerns.md",
+      "document_quote": "The immediate underwriting question is whether its long-run revenue, margins and cash needs can still be estimated tightly enough for a concentrated position. The distinction between business quality and forecast confidence is essential",
+      "evidence_supported": true,
+      "gold_driver": "The business no longer meets the predictability requirement for a concentrated core holding.",
+      "index": 3,
+      "reason": "The candidate correctly identifies that the lack of predictability is incompatible with maintaining their concentrated position.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Act promptly when new evidence contradicts the original thesis.",
+      "index": 4,
+      "reason": "While the candidate exits the position, it does not formulate the explicit general principle or learning that one must act promptly when new evidence contradicts the original thesis.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate omits the specific logical mechanisms (operating leverage's impact on value) and explicit operational guidelines (prompt action on thesis contradiction) present in the gold drivers.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [
+      "document quote 2"
+    ],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

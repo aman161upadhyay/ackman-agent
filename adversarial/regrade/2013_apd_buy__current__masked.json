@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate did not mention a leadership change (gold driver 2), which is consistent with the cutoff date as the mentioned CEO change occurred post-cutoff.",
+  "cause_evidence": "The candidate memo and gold drivers largely align in their identification of the company as an industrial gas franchise with a remediable margin gap relative to peers, and the strategy of portfolio optimization.",
+  "drivers": [
+    {
+      "candidate_quote": "A dominant, global industrial gas provider with high barriers to entry and long-term, predictable Tonnage contracts [D01].",
+      "document": "D01_business_overview.md",
+      "document_quote": "An attractive franchise thesis rests on essential products, technical competence, installed assets and long-duration customer relationships.",
+      "evidence_supported": true,
+      "gold_driver": "Quality industrial-gas franchise with durable barriers and capacity to improve without relying on a stronger economy.",
+      "index": 1,
+      "reason": "The candidate identifies the business as a dominant industrial gas provider with high barriers to entry, supported by the document's characterization of the franchise's essential products and long-duration customer relationships.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Install a capable operating leader; Seifi Ghasemi appointedJuly1 2014, not a known result in2013.",
+      "index": 2,
+      "reason": "The candidate does not mention installing a new leader; the memo mentions engaging management to implement a productivity plan but does not propose a leadership replacement.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "Clear path to EPS growth by closing half the margin gap with industry leaders, driving earnings toward US$7.50 per share [D06].",
+      "document": "D06_peer_and_industry_benchmarks.md",
+      "document_quote": "Comparing its adjusted21.6% margin with APD's clean current-quarter measure gives an approximately590-basis-point observed gap",
+      "evidence_supported": true,
+      "gold_driver": "Close margin gap through overhead and productivity, with later approximately16% to22.5% benchmark against Praxair. This is a2014–15 campaign update, not authenticated July2013 target.",
+      "index": 3,
+      "reason": "The candidate explicitly identifies closing the margin gap as a path to growth, which is supported by the document's observation of the margin differential between APD and Praxair.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "As active owners, we will engage with management to implement a rigorous productivity plan and portfolio optimization strategy, including the divestment of non-core assets [D01, D06].",
+      "document": "D01_business_overview.md",
+      "document_quote": "The company has announced withdrawal from polyurethane intermediates, demonstrating that portfolio pruning is already possible without assuming a new activist's control.",
+      "evidence_supported": true,
+      "gold_driver": "Decentralized accountability, incentive alignment and noncore separation improve focus and returns.",
+      "index": 4,
+      "reason": "The candidate proposes portfolio optimization and divestment of non-core assets, which aligns with the document's discussion on portfolio pruning and improving focus.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "None",
+  "primary_cause": "none",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

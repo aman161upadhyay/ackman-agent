@@ -1,0 +1,201 @@
+{
+ "label": "nameonly__2018_hlt_buy",
+ "pack": "2018_hlt_buy",
+ "model": "replit-internal-current",
+ "mode": "new",
+ "as_of_date": "2018-10-15",
+ "company_label": "Hilton Worldwide",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "not in pack",
+   "segments_and_mix": [
+    "not in pack"
+   ],
+   "unit_economics": [
+    "not in pack"
+   ],
+   "competitive_position": [
+    "not in pack"
+   ],
+   "growth_record_and_outlook": [
+    "not in pack"
+   ],
+   "balance_sheet": [
+    "not in pack"
+   ],
+   "management_and_governance": [
+    "not in pack"
+   ],
+   "price_and_valuation": [
+    "not in pack"
+   ],
+   "what_the_market_is_worried_about": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "not in pack"
+   ],
+   "pershing_context": [
+    "not in pack"
+   ],
+   "missing_data": [
+    "All business, financial, and market data for Hilton Worldwide is missing because no documents were supplied [D01]"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "All business and financial data is missing from the provided pack, making it impossible to forecast cash flows [L1]."
+    },
+    "barriers_to_entry": {
+     "score": "FAIL",
+     "evidence": "No information regarding competitive position or business model is present in the provided pack [L1]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The pack contains no data regarding the company's exposure to extrinsic factors [L1]."
+    },
+    "strong_financial_profile": {
+     "score": "FAIL",
+     "evidence": "No balance sheet or financial profile data is provided in the pack [L1]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "FAIL",
+     "evidence": "The pack lacks the necessary financial and debt information to evaluate capital market dependency [L1]."
+    },
+    "large_market_cap": {
+     "score": "FAIL",
+     "evidence": "No market capitalization data is provided in the pack [L1]."
+    },
+    "attractive_valuation_screen": {
+     "score": "FAIL",
+     "evidence": "No price or valuation metrics are present in the provided pack [L1]."
+    },
+    "management_governance": {
+     "score": "FAIL",
+     "evidence": "The pack contains no information about management or governance [L1]."
+    },
+    "durable_growth_runway": {
+     "score": "FAIL",
+     "evidence": "No data on growth records or future outlook is provided in the pack [L1]."
+    }
+   },
+   "n_pass": 0,
+   "n_fail": 9,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "not in pack"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "variant_perception": "The market's view is unknown as all relevant data is missing from the provided pack. Without information regarding the company's business, valuation, or the specific nature of market concerns, we cannot identify a catalyst or formulate a contrary view [L1, D01].",
+   "evidence": [
+    "All business, financial, and market data for Hilton Worldwide is missing because no documents were supplied [D01]."
+   ],
+   "market_narrative_we_disagree_with": "Not applicable as no data is in pack [L1].",
+   "what_must_be_true": [
+    "Business model and competitive advantages must be verifiable.",
+    "Financial data must be provided to assess intrinsic value.",
+    "The source of market mispricing must be identifiable."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "not in pack",
+   "eps_or_fcf_path": {
+    "base_year": "not in pack",
+    "base_value": "not in pack",
+    "growth_assumption": "not in pack",
+    "year_3_to_5_value": "not in pack",
+    "assumptions": [
+     "All business and financial data is missing from the pack [D01]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 0,
+    "why": "Cannot determine as no financial data is available [D01]"
+   },
+   "implied_irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "downside_case": "not in pack",
+   "valuation_verdict": "EXPENSIVE_BELOW_10",
+   "flagged_assumptions": [
+    "All financial data required for valuation calculation is missing from the provided pack [D01]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "not in pack",
+   "levers_or_steps": [
+    "not in pack"
+   ],
+   "time_to_value_realisation_years": 0,
+   "why_this_role_fits_the_era": "The data is missing; however, in our Pershing Square 3.0 era (2018+), we default to compounding alone for quality businesses [L5]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "All business and financial data is missing from the provided pack [L1].",
+    "Unable to define specific operational triggers due to lack of company-specific information [L1]."
+   ],
+   "portfolio_fit": "not in pack",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "liquidity_assessment": "not in pack [L1]",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The lack of any business, financial, or market data in the provided pack makes a rational investment decision impossible [L1]."
+  }
+ },
+ "final": {
+  "as_of_date": "2018-10-15",
+  "company": "Hilton Worldwide",
+  "ticker": "HLT",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "not in pack",
+   "eps_path": "not in pack",
+   "terminal_multiple": "not in pack",
+   "irr_pct": 0,
+   "downside_case": "not in pack"
+  },
+  "drivers": [
+   {
+    "driver": "not in pack",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "All business and financial data is missing from the provided pack [L1].",
+   "Unable to define specific operational triggers due to lack of company-specific information [L1]."
+  ],
+  "what_would_change_our_mind": "Provision of comprehensive business, financial, and valuation data to allow for an investment thesis construction.",
+  "memo": "We have reviewed the potential for an investment in Hilton Worldwide. Because the provided data pack is empty, we cannot assess the business's quality, free-cash-flow generation, or competitive position [L1].\n\nWithout financial data, we are unable to determine the company's valuation, earnings path, or its suitability as a high-quality compounder for our Pershing Square 3.0 portfolio [L1].\n\nConsequently, we cannot identify a catalyst or confirm that the market has mispriced the asset [L1].\n\nGiven the total absence of information, we are forced to pass on this opportunity as it fails to meet our rigorous standards for investment [L1].",
+  "uncited_claims": [
+   "The provided data pack is empty.",
+   "We cannot assess the business's quality, free-cash-flow generation, or competitive position.",
+   "Without financial data, we are unable to determine the company's valuation, earnings path, or its suitability as a high-quality compounder for our Pershing Square 3.0 portfolio.",
+   "Consequently, we cannot identify a catalyst or confirm that the market has mispriced the asset.",
+   "Given the total absence of information, we are forced to pass on this opportunity as it fails to meet our rigorous standards for investment."
+  ]
+ },
+ "elapsed_s": 0
+}

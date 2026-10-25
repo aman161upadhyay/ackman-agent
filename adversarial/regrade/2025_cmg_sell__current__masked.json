@@ -1,0 +1,67 @@
+{
+  "audit_notes": "The gold drivers appear to be sourced from a 2026 document that is outside the permitted scope of the provided content. The candidate's output is consistent with the provided 2025 documentation.",
+  "cause_evidence": "The gold drivers cite a 2026-02-11 document [L53, L59, L65] that is entirely absent from the provided source material. Consequently, the candidate cannot match the gold drivers' claims which are derived from unavailable future information.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Struggles under the successor management team clouded the earnings forecast.",
+      "index": 1,
+      "reason": "The candidate discusses management transition and execution uncertainty [D02, D06], but does not contain the specific gold driver statement. The provided source for the gold driver is dated 2026-02-11, which post-dates the provided document content.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "The distribution of potential future outcomes became too wide for concentrated ownership.",
+      "index": 2,
+      "reason": "The candidate does not make the causal claim that the outcome distribution became too wide for a concentrated position. The gold driver source is dated 2026-02-11.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "We are not calling for a permanent destruction of the business's moat, but we recognize that the opportunity cost of capital is high [D06, D10].",
+      "document": "D05_market_worries.md",
+      "document_quote": "The bear case need not assert permanent brand failure. A wider range of plausible traffic outcomes can lower acceptable valuation for a concentrated investor even while the long-run unit opportunity remains substantial.",
+      "evidence_supported": true,
+      "gold_driver": "Remaining franchise quality and a long development runway were insufficient to offset the reduced forecast confidence; this was not a claim of permanent brand destruction.",
+      "index": 3,
+      "reason": "The candidate acknowledges the franchise quality and growth runway while stating they are not calling for permanent brand destruction [L24]. The cited document supports the premise that current conditions can impact valuation without asserting permanent failure [L42].",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The gold drivers rely on external, future-dated source material not available in the provided documents.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [
+    {
+      "confidence": "high",
+      "document": "Gold Driver Sources",
+      "quote": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/11144917/2026-Annual-Investor-Presentation.pdf",
+      "reason": "The gold drivers reference an annual investor presentation from February 2026, which is after the cutoff date of 2025-11-03."
+    }
+  ],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

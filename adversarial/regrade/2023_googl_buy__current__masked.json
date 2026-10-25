@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate effectively synthesizes the available documents as of 2023-02-10 to build an investment thesis for Alphabet. All gold drivers are semantically present in the candidate memo and are supported by the provided documentation.",
+  "cause_evidence": "The candidate's causal account aligns with the available document evidence regarding the company's competitive position, cost structure, and the nature of the current market sentiment.",
+  "drivers": [
+    {
+      "candidate_quote": "A dominant, capital-light search and advertising franchise with a powerful network-effect-driven moat.",
+      "document": "D01_business_overview.md",
+      "document_quote": "Search connects expressed user intent with advertiser demand; YouTube supplies video audiences; the network business places ads on third-party properties. Distribution and advertiser participation matter alongside the quality of search results.",
+      "evidence_supported": true,
+      "gold_driver": "Search intent and distribution underpin a durable advertising franchise.",
+      "index": 1,
+      "reason": "The candidate identifies the search advertising franchise as dominant and protected by a moat, which is supported by the document's description of how search connects intent with advertiser demand and the importance of distribution.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The company’s historical ability to adapt its technology and integrate new interfaces into its existing, highly profitable ecosystem remains underestimated by current market participants",
+      "document": "D01_business_overview.md",
+      "document_quote": "The company already operates large-scale infrastructure and says AI is central to its products. These assets may support adaptation, but a conversational interface could change query costs, advertising formats and distribution.",
+      "evidence_supported": true,
+      "gold_driver": "Proprietary data, technical AI capabilities and optimized infrastructure support adaptation rather than inevitable displacement.",
+      "index": 2,
+      "reason": "The candidate highlights the company's ability to adapt its technology within its ecosystem, which aligns with the document's assertion that existing assets may support adaptation.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We believe the market is overreacting to short-term noise and temporary execution errors",
+      "document": "D05_market_concerns.md",
+      "document_quote": "The New York Times' February 2 report identifies a fourth consecutive quarterly profit decline amid an advertising slowdown. That weakness already exists before the Bard publicity.",
+      "evidence_supported": true,
+      "gold_driver": "The market overestimated the disruption threat from generative AI.",
+      "index": 3,
+      "reason": "The candidate claims the market is overreacting to AI fears, and the document supports the notion that advertising weakness predates the AI narrative, implying the market reaction might be decoupled from current business realities.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "With the company focusing on disciplined cost management—highlighted by its recent 12,000-person headcount reduction—and sustained share repurchases, we anticipate a path to mid-teens annual EPS growth",
+      "document": "D03_latest_results.md",
+      "document_quote": "Pichai says the company is well positioned as AI reaches an inflection point and describes a journey to “re-engineer our cost structure in a durable way”.",
+      "evidence_supported": true,
+      "gold_driver": "YouTube, Cloud and operating efficiency offer additional earnings levers.",
+      "index": 4,
+      "reason": "The candidate cites cost management and efficiency actions as drivers for growth; the document confirms the company is re-engineering its cost structure to support future priorities.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "none",
+  "primary_cause": "none",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

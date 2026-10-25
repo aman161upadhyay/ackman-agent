@@ -1,0 +1,112 @@
+{
+  "audit_notes": "Both candidates perform well. C1 includes all gold drivers whereas C2 omits the distribution-specific driver. Both candidates correctly interpret the data provided in the pack.",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "The candidate's causal account aligns with the provided gold drivers and sources, reflecting an accurate synthesis of the data provided in the pack.",
+      "drivers": [
+        {
+          "candidate_quote": "A dominant global streaming platform with 221.84 million paid memberships and significant operating leverage as it scales [D01].",
+          "document": "D01_business_overview.md",
+          "document_quote": "The company ended 2021 with 221.84 million paid memberships... A large paying base can spread programming costs across more households, generating operating leverage.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The candidate accurately captures the scale and operating leverage mechanism described in the provided document.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "A valuation dislocation where the shares trade at a 44.7% discount from record highs following an overreaction to short-term subscriber volatility [D04].",
+          "document": "D04_price_valuation.md",
+          "document_quote": "Relative to the $700 reference, the close is down 44.7%",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The candidate matches the 44.7% figure and the attribution of the decline to market volatility in the cited source.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "High-quality management team that has demonstrated an ability to improve operating margins to 21% while proposing governance reforms [D01][D02].",
+          "document": "D02_financial_snapshot.md",
+          "document_quote": "Operating margin reached 21% in 2021, versus 18% in 2020.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The document confirms the 21% margin and mentions governance reforms as proposed by the board.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "A long-term growth algorithm centered on subscriber stabilization, price increases, and improved capital efficiency in content production [D02][D03].",
+          "document": "D03_latest_results.md",
+          "document_quote": "The contrast between profit growth and member-growth deceleration is central to the case: pricing and operating leverage have mattered... Management also expects positive FCF in 2022 and beyond",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The candidate identifies the core drivers of pricing and capital efficiency (implied by content spend management) discussed in the sources.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The variant perception that the market’s focus on slowing Q1 net additions ignores the structural, durable competitive advantage and long-term earnings power of the business [D03][D05].",
+          "document": "D03_latest_results.md",
+          "document_quote": "The issue driving the market reaction is Q1 2022 guidance: only 2.50 million paid net additions... Whether the latest pause is timing/FX or a warning about the underlying growth algorithm is the analytical question.",
+          "evidence_supported": true,
+          "index": 5,
+          "reason": "The document confirms the market focus on Q1 additions and the potential for a durable growth narrative.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "none",
+      "primary_cause": "none"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "The candidate omitted the fifth gold driver regarding the interaction between margin leverage and cash returns to shareholders.",
+      "drivers": [
+        {
+          "candidate_quote": "Netflix is the dominant global streaming leader with 221.84 million paid memberships and significant scale advantages [D01].",
+          "document": "D01_business_overview.md",
+          "document_quote": "The company ended 2021 with 221.84 million paid memberships.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The candidate correctly identifies the subscriber count and scale position.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The company is transitioning from a debt-funded model to a self-funded growth engine, which will drive significant margin expansion and free cash flow generation [D03].",
+          "document": "D03_latest_results.md",
+          "document_quote": "Management also expects positive FCF in 2022 and beyond... The release offers a pathway from a debt-funded content buildout to self-funded expansion",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The candidate reflects the pivot described by management in the source.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The recent 44.7% stock drawdown from its record high offers an attractive entry point at 34.4x trailing earnings for a high-quality compounder [D04].",
+          "document": "D04_price_valuation.md",
+          "document_quote": "Relative to the $700 reference, the close is down 44.7%... Using FY2021 diluted EPS of $11.24 gives a trailing P/E of 34.4x.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The candidate correctly cites the drawdown percentage and trailing P/E ratio from the document.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Market participants are overreacting to short-term subscriber volatility in Q1 guidance while ignoring the durability of the global platform [D03].",
+          "document": "D03_latest_results.md",
+          "document_quote": "The issue driving the market reaction is Q1 2022 guidance... The bear argument is not that Netflix disappears; it is that incremental growth may cost more or arrive more slowly",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The candidate reflects the market reaction to Q1 guidance and the long-term outlook.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "N/A",
+          "document": "N/A",
+          "document_quote": "N/A",
+          "evidence_supported": false,
+          "index": 5,
+          "reason": "The candidate omitted the fifth gold driver concerning margin leverage and free cash flow distributions.",
+          "semantic_present": false
+        }
+      ],
+      "key_problem": "The candidate failed to account for all gold drivers, specifically the detail concerning the return of cash to shareholders.",
+      "primary_cause": "i_rule_missing_ambiguous"
+    }
+  ],
+  "semantic_leakage": []
+}

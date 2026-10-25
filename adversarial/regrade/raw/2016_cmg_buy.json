@@ -1,0 +1,94 @@
+{
+  "audit_notes": "The provided candidate responses (C1 and C2) align closely with the principles and evidence-based reasoning required by the Pershing Square Decision Agent. Both candidates correctly identify the restaurant model as a temporary-crisis-in-a-durable-franchise (T1) scenario and recognize the need for constructive engagement. The financial and operational claims are well-grounded in the provided source documents (D01-D08).",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "Candidate C1 follows the logic of the key.",
+      "drivers": [
+        {
+          "candidate_quote": "A high-quality, dominant fast-casual concept with a proven unit-growth engine and a pristine, debt-free balance sheet",
+          "document": "D01_business_overview.md",
+          "document_quote": "Chipotle operates fast-casual restaurants... The July balance sheet shows no conventional interest-bearing debt.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The candidate accurately reflects the franchise quality and balance sheet status as described in D01.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The shares are undervalued relative to the franchise's earnings potential.",
+          "document": "D04_price_valuation.md",
+          "document_quote": "The valuation challenge is whether recoverable earning power provides enough return at the observed executable price",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The candidate captures the core premise of undervaluation relative to future earnings potential.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Our role is to engage constructively with management to support the restoration of margins and advocate for disciplined capital allocation",
+          "document": "D08_pershing_context.md",
+          "document_quote": "The manager's approach involves concentrated company ownership and, where appropriate, engagement with management and boards.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The candidate reflects the intent for constructive engagement stated in the context.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "We have high conviction that the temporary nature of the current challenges provides an attractive entry point for this market-leading franchise.",
+          "document": "D05_market_concerns.md",
+          "document_quote": "The favorable alternative is that the customer proposition remains differentiated and trust can be rebuilt with demonstrably safe execution. The key uncertainty is permanence: temporary fear supports a recovery valuation",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The candidate explicitly addresses the temporary crisis thesis found in D05.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "none",
+      "primary_cause": "none"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "Candidate C2 aligns with the thesis and key.",
+      "drivers": [
+        {
+          "candidate_quote": "Chipotle is a dominant, high-quality fast-casual franchise with a differentiated 'Food With Integrity' proposition and over 2,000 locations",
+          "document": "D01_business_overview.md",
+          "document_quote": "The proposition combines quickly served meals with fresh ingredients and the Food With Integrity sourcing identity. ... reported restaurant count was 2,124.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The description matches the business overview in D01.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The business possesses a fortress balance sheet with no conventional interest-bearing debt and $646 million in cash",
+          "document": "D01_business_overview.md",
+          "document_quote": "The July balance sheet shows no conventional interest-bearing debt. Cash plus short- and long-term investments totaled $646.508 million at June 30.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The financial facts align exactly with D01.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Our 9.9% stake provides the influence necessary to work with management on operational improvements and corporate governance to accelerate the turnaround",
+          "document": "D08_pershing_context.md",
+          "document_quote": "Such engagement can help change incentives, oversight and capital allocation",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The candidate correctly identifies the activist role and mechanisms described in the context.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "We intend to hold this position as we work to see the business return to its historical potential",
+          "document": "D03_latest_results.md",
+          "document_quote": "A valuation based on normalized profit must therefore be an analyst scenario, not management guidance.",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The candidate's perspective is consistent with the goal of returning to historical potential as framed in the analysis.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "none",
+      "primary_cause": "none"
+    }
+  ],
+  "semantic_leakage": []
+}

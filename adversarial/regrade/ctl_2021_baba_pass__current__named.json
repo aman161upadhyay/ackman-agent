@@ -1,0 +1,45 @@
+{
+  "audit_notes": "The candidate successfully synthesizes the provided documentation to justify its pass decision based on the firm's quality-investing mandate. No external knowledge or prohibited source material was used.",
+  "cause_evidence": "The candidate aligns with the core investment mandate of prioritizing predictable outcomes, correctly identifying that regulatory and structural uncertainty precludes investment despite valuation.",
+  "drivers": [
+    {
+      "candidate_quote": "We cannot underwrite the long-term cash flow of a business where the rules of engagement are dictated by state policy rather than market competition",
+      "document": "D01_business_overview.md",
+      "document_quote": "Investors need to understand enforceability, cash transfers and government restrictions rather than assume a US listing supplies ordinary domestic shareholder protections.",
+      "evidence_supported": true,
+      "gold_driver": "Regulatory changes and offshore/VIE enforceability can dominate the value reaching ADS holders; ordinary shareholder activism cannot control them.",
+      "index": 1,
+      "reason": "The candidate captures the lack of control over state-dictated rules and the document confirms that investors must evaluate enforceability and restrictions, supporting the risk to value reaching holders.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We prioritize simplicity and predictability in our holdings; Alibaba, while dominant, fails both tests",
+      "document": "D04_price_and_valuation.md",
+      "document_quote": "The downside is an enduring change in shareholder rights or business economics. A wider discount rate may express some uncertainty, but cannot substitute for understanding the claim being purchased.",
+      "evidence_supported": true,
+      "gold_driver": "A profitable commerce engine is not sufficient if future shareholder rights, merchant rules and distributable cash cannot be forecast narrowly enough. No independently bounded special-situation payoff established.",
+      "index": 2,
+      "reason": "The candidate addresses the need for predictability in holdings and the document corroborates that a profitable business does not remove the uncertainty of shareholder rights and business economics.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "none",
+  "primary_cause": "none",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

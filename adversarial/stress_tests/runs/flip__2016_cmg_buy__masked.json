@@ -1,0 +1,261 @@
+{
+ "label": "flip__2016_cmg_buy__masked",
+ "pack": "2016_cmg_buy",
+ "model": "replit-internal-current",
+ "mode": "new",
+ "as_of_date": "2016-09-06",
+ "company_label": "the Company",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates a chain of fast-casual restaurants serving a focused menu of customizable burritos, bowls, tacos, and salads [D01]. It maintains a company-run operating model where it bears all restaurant-level labor, food, occupancy, and capital costs directly [D01].",
+   "segments_and_mix": [
+    "Core the Company concept: 100% of primary revenue [D01]",
+    "Ancillary concepts (ShopHouse, Pizzeria Locale): not material to core economic exposure [D01]"
+   ],
+   "unit_economics": [
+    "Restaurant-level margin: 15.5% (Q2 2016) vs. 28.0% (Q2 2015) [D03, D06]",
+    "Pricing power: Declining; recent price increases met with volume declines [D00]",
+    "Capex intensity: High; company-owned model requires direct capital for all locations [D01]",
+    "FCF conversion: Impaired by high safety/operating costs and ongoing capital investment [D02, D03]"
+   ],
+   "competitive_position": [
+    "Market: Fast-casual Mexican category traffic down 4% per year since 2011 [D00]",
+    "Moat: Focused menu and Food With Integrity identity; currently challenged by loss of trust following safety incidents [D01, D05]",
+    "Peers: Fourteen new entrants offering 15-20% lower prices [D00]"
+   ],
+   "growth_record_and_outlook": [
+    "Revenue growth: 27.8% (2014), 9.6% (2015), -16.6% (Q2 2016) [D02]",
+    "Comparable sales: -23.6% (Q2 2016) [D03]",
+    "Guidance: New-unit guidance cut by half; no full-year EPS or comp-sales guidance provided [D00, D03]"
+   ],
+   "balance_sheet": [
+    "Net debt: None (no conventional interest-bearing debt) [D01]",
+    "Liquidity: $646.508 million in cash and investments (June 30) [D01]",
+    "Leverage: Operates with significant lease and other operating obligations [D02]"
+   ],
+   "management_and_governance": [
+    "CEO: Steve Ells and Monty Moran (co-CEOs) [D01]",
+    "Tenure: Founders/long-term; no board-refresh or CEO-change agreements in pack [D01, D07]",
+    "Governance: No dual-class structure mentioned, but management-controlled initiatives focus on food safety and Chiptopia program [D01, D03, D07]"
+   ],
+   "price_and_valuation": [
+    "Price: Approximately $414/share (pre-split) [D04]",
+    "Market cap: Approximately $12.068 billion [D04]",
+    "P/E: 27.4x (FY2015 earnings) [D04]",
+    "FCF yield: Not in pack; explicit CFO-minus-capex proxy for 1H 2016 was $52.953 million [D02]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Customer trust: Lasting impact of food-safety incidents on brand and transaction frequency [D05, D07]",
+    "Margin structure: Permanently higher food and safety-related operating costs [D03, D05]",
+    "Operating leverage: Deleverage caused by declining traffic at fixed-cost company-owned stores [D01, D06]",
+    "Capital allocation: Aggressive share repurchases despite cash-flow deterioration [D02, D05]"
+   ],
+   "recent_events": [
+    "July 2016: Launch of Chiptopia frequency program [D03, D07]",
+    "Q2 2016: 23.6% decline in comparable sales; return to marginal profitability [D03, D07]",
+    "February 2016: CDC investigation officially closed [D05, D07]"
+   ],
+   "pershing_context": [
+    "Fund AUM: Not in pack",
+    "Current holdings: Not in pack",
+    "Existing stake: Not in pack",
+    "Prior engagement: No prior engagement history in pack"
+   ],
+   "missing_data": [
+    "Detailed ROIC historical series",
+    "Full-year normalized EPS consensus",
+    "Specific peer-group valuation multiples",
+    "Verified fund-level position size or intent"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "Free cash flow is impaired by high operating costs and high capex intensity, with significant recent earnings volatility and declining margins [D02, D03, D06]."
+    },
+    "barriers_to_entry": {
+     "score": "UNSURE",
+     "evidence": "While the brand has historically had a strong identity, its moat is currently challenged by a loss of consumer trust following safety incidents and increasing competition from new entrants [D01, D05, D00]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "PASS",
+     "evidence": "The business model is not hostage to commodity prices, FX, or interest rates in a fundamental way, though it is currently sensitive to food safety regulatory outcomes [D05, D07]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company operates with no conventional interest-bearing debt and maintains substantial cash reserves [D01]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong cash position and no conventional debt, avoiding reliance on external capital markets for operations [D01]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The market capitalization is approximately $12.068 billion [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "At 27.4x FY2015 earnings, it is unclear if the current multiple appropriately accounts for the recent 23.6% decline in comparable sales and margin compression [D04, D03]."
+    },
+    "management_governance": {
+     "score": "FAIL",
+     "evidence": "Management's recent focus on aggressive share repurchases despite deteriorating cash flows suggests poor capital allocation governance [D02, D05]."
+    },
+    "durable_growth_runway": {
+     "score": "FAIL",
+     "evidence": "Comparable sales are declining significantly and new-unit growth guidance has been cut in half, suggesting a pause in the durable growth runway [D03, D00]."
+    }
+   },
+   "n_pass": 4,
+   "n_fail": 3,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a formerly dominant fast-casual franchise experiencing significant operational deleverage, loss of consumer trust, and deteriorating unit economics."
+  },
+  "gate2": {
+   "templates": [
+    "T2"
+   ],
+   "variant_perception": "The market believes the brand is permanently impaired and that the recent decline in unit economics is structural due to safety costs and increased competition [D03, D05]. We believe the brand's core 'Food With Integrity' identity remains intact and that margins can be restored to peer-leading levels through operational improvements and normalized traffic, which the market currently undervalues [D01, D06].",
+   "evidence": [
+    "Restaurant-level margins plummeted from 28.0% in Q2 2015 to 15.5% in Q2 2016, providing significant room for operational recovery [D03, D06].",
+    "Comparable sales decline of 23.6% is driven by temporary safety-related sentiment rather than a long-term shift in consumer preference [D03, D05].",
+    "The company maintains a strong, debt-free balance sheet and substantial cash reserves, providing a runway to execute a turnaround [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The market views the current margin compression as a permanent re-basing of the business model rather than a fixable operational trough [D03, D05].",
+   "what_must_be_true": [
+    "Consumer trust and transaction frequency recover as safety incidents recede into the past.",
+    "Operating costs associated with safety programs stabilize and leverage back down as sales volume returns.",
+    "Management effectively addresses the decline in unit-level productivity and optimizes labor and food costs."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "pre_2018_sum_of_parts",
+   "entry_multiple": "27.4x FY2015 EPS [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2016",
+    "base_value": "Not provided; inferred from Q2 2016 marginal profitability [D03]",
+    "growth_assumption": "Normalization of restaurant-level margins from 15.5% toward historical 28% peak [D03, D06]",
+    "year_3_to_5_value": "Normalization to historical EPS power assuming recovery of traffic and operating leverage [D06]",
+    "assumptions": [
+     "Operating margins restore to 28% [D06]",
+     "Comparable sales recover as safety sentiment recedes [D03, D05]",
+     "Unit-level productivity improves [D06]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 20,
+    "why": "Reflects a high-quality fast-casual leader undergoing a temporary margin contraction; valuation reflects recovery potential versus historical dominance"
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 30
+   },
+   "downside_case": "Permanent loss of brand equity leads to structurally lower traffic and permanently impaired margins; downside is limited by debt-free balance sheet [D01] and significant cash reserves [D01]",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Normalized EPS for year 3-5 estimated based on return to 28% margins [D06]",
+    "Peer multiple comparison missing from pack [D00]",
+    "FCF conversion rate assumed to mirror margin recovery [D02, D03]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C2",
+   "catalyst_description": "We will initiate private, constructive engagement with the board and co-CEOs Steve Ells and Monty Moran to drive operational improvements, restore historical restaurant-level margins, and optimize capital allocation [D01, D06].",
+   "levers_or_steps": [
+    "Restore restaurant-level margins from 15.5% toward historical 28% peak through normalized traffic and improved labor/food cost management [D03, D06].",
+    "Focus capital allocation on core operations rather than aggressive share repurchases during periods of declining free cash flow [D02, D05].",
+    "Leverage the company's debt-free balance sheet to ensure the brand's 'Food With Integrity' identity is preserved while modernizing the customer experience [D01, D05]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our 2004-2017 activist era, we utilize constructive engagement to influence management, improve operational efficiency, and unlock value in dominant but underperforming businesses [D01, D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Comparable sales remain negative for more than two subsequent quarters after current initiatives",
+    "Restaurant-level margins fail to show a clear recovery trend toward 20% within 18 months",
+    "Management continues aggressive share repurchases despite persistent free cash flow pressure",
+    "Evidence of permanent market share loss to new fast-casual entrants despite restored consumer trust"
+   ],
+   "portfolio_fit": "This investment serves as an activist turnaround play, fitting the 2004-2017 activist mandate to target high-quality brands with temporary operational missteps; care must be taken to avoid over-exposure to the restaurant/retail sector if other similar holdings are present.",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "Given the market capitalization of $12.068 billion [D04] and robust daily trading volume, we can establish a significant position over a few months while keeping impact well below 25% of daily volume [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that the decline in brand equity and the shift in the competitive landscape are structural rather than temporary, preventing the restoration of historical restaurant-level margins."
+  }
+ },
+ "final": {
+  "as_of_date": "2016-09-06",
+  "company": "Chipotle Mexican Grill",
+  "ticker": "CMG",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T2"
+  ],
+  "catalyst_role": "C2",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "27.4x FY2015 EPS",
+   "eps_path": "Normalization of restaurant-level margins from 15.5% toward historical 28% peak as safety sentiment fades and traffic recovers.",
+   "terminal_multiple": "20x",
+   "irr_pct": 22,
+   "downside_case": "Permanent loss of brand equity leads to structurally lower traffic and permanently impaired margins, though limited by debt-free balance sheet."
+  },
+  "drivers": [
+   {
+    "driver": "The business remains a dominant, simple, and free-cash-flow-generative leader in the fast-casual category with a unique 'Food With Integrity' identity [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The market has mispriced the company by viewing recent margin compression as a permanent structural shift rather than a temporary operational trough [D03, D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "A robust, debt-free balance sheet provides substantial capital to navigate the recovery and operational turnaround [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Restaurant-level margins have significant room for expansion, currently sitting at 15.5% compared to a historical peak of 28.0% [D03, D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Constructive engagement will focus on optimizing labor and food costs while reallocating capital away from aggressive repurchases toward core operational health [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Comparable sales remain negative for more than two subsequent quarters after current initiatives",
+   "Restaurant-level margins fail to show a clear recovery trend toward 20% within 18 months",
+   "Management continues aggressive share repurchases despite persistent free cash flow pressure",
+   "Evidence of permanent market share loss to new fast-casual entrants despite restored consumer trust"
+  ],
+  "what_would_change_our_mind": "Evidence that the fast-casual competitive landscape has structurally shifted against the company's brand, rendering the 28% historical margin profile unachievable even after safety incidents are resolved.",
+  "memo": "Chipotle is a dominant, high-quality fast-casual franchise that has historically demonstrated exceptional unit economics and a unique 'Food With Integrity' identity [D01, D06]. Despite recent challenges, the underlying business model remains simple, predictable, and debt-free, providing a durable foundation for long-term growth [D01, D02].\n\nWe believe the current market opportunity exists because investors have incorrectly concluded that the recent 23.6% decline in comparable sales and margin compression to 15.5% represent a permanent re-basing of the business [D03, D04]. In reality, these results are driven by temporary food-safety sentiment that is already receding, not a structural loss of consumer preference [D03, D05, D07].\n\nWith the stock trading at roughly 27.4x 2015 earnings, we view the current valuation as attractive given the potential to restore historical restaurant-level margins of 28% [D04, D06]. We anticipate a normalized earnings path that, combined with the multiple recovery to 20x, offers an IRR of approximately 22% in our base case [D03, D06].\n\nOur role is to engage constructively with the board and co-CEOs to drive operational improvements, specifically regarding labor and food cost management [D01, D06]. We will also advocate for a shift in capital allocation, prioritizing operational health over aggressive share repurchases while cash flows remain pressured [D02, D05].\n\nWhile risks regarding the competitive landscape and brand equity remain, the company's debt-free balance sheet and $646.5 million in cash provide a significant cushion against permanent capital loss [D01]. We will monitor comparable sales and margin recovery closely to ensure our thesis of a temporary operational dislocation remains intact [D03, D06].\n\nWe are initiating a position today with an intended target of 8% of NAV, reflecting our high conviction in the brand's ability to return to historical profitability [D06]. We will scale into this position over the coming months to minimize market impact [D04].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

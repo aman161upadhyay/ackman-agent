@@ -1,0 +1,75 @@
+{
+  "audit_notes": "Candidate content is entirely restricted to information available as of February 2015. Gold drivers 1, 2, and 4 rely on a 2017 retrospective report, which is not available to the candidate.",
+  "cause_evidence": "The gold drivers rely on 2017 retrospective material detailing an investment 'mistake' and trust developed during a specific prior campaign, whereas the candidate document is a contemporary 2015 initiation memo focused on the business model and earnings growth potential at that time.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Viewed existing assets as bought at a modest discount, but compounding through future acquisitions as the major source of additional intrinsic value.",
+      "index": 1,
+      "reason": "The candidate document does not state that existing assets were bought at a discount, nor does it identify compounding through future acquisitions as the primary source of intrinsic value. The candidate focus is on current business model efficiency and earnings growth.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Trusted Pearson and the acquisition/operating playbook after working together during the Allergan campaign.",
+      "index": 2,
+      "reason": "The candidate document mentions the goal to support J. Michael Pearson's strategy, but it does not articulate trust formed during the Allergan campaign as a causal driver for the investment.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "Unlike traditional pharmaceutical firms, it utilizes a decentralized, capital-light model that prioritizes disciplined acquisitions and operational synergies, consistently delivering superior growth",
+      "document": "D01_business_overview.md",
+      "document_quote": "CEO/chairman J. Michael Pearson advocates decentralized operating decisions, disciplined acquisition returns and limited speculative early-stage research.",
+      "evidence_supported": true,
+      "gold_driver": "Expected efficient cost structure, low tax burden and disciplined capital allocation to compound cash earnings.",
+      "index": 3,
+      "reason": "The candidate aligns with the expectation of an efficient/disciplined structure to compound earnings, supported by D01.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Mistake: highly acquisitive complexity made the result unusually dependent on managerial execution and judgment.",
+      "index": 4,
+      "reason": "The candidate describes a 'BUY' thesis and explicitly lists managerial execution as a positive factor, not as a recognized mistake or 'highly acquisitive complexity' that creates an unacceptable dependency.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The gold drivers incorporate hindsight/retrospective reasoning regarding management and strategy that is not present in the contemporary candidate memo.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

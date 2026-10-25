@@ -1,0 +1,93 @@
+{
+  "audit_notes": "The gold drivers are sourced from a retrospective 2026 report [L74], while the candidate is constrained to data available as of April 7, 2025. Semantic presence was only confirmed where the candidate's internal logic mirrored the gold driver's underlying business case, even without using identical verbatim phrases.",
+  "cause_evidence": "The candidate memo is written prior to the completion of the 2025 fiscal year, whereas the gold drivers are sourced from a 2026 retrospective annual report [L74, L80, L86, L92, L98].",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Tariff-driven selling supplied an unusual entry valuation.",
+      "index": 1,
+      "reason": "The candidate does not frame the entry as tariff-driven or utilize the gold driver's specific valuation language.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "AWS and retail are exceptional category-defining franchises.",
+      "index": 2,
+      "reason": "The candidate identifies the company as a dominant franchise, but does not use the specific gold phrasing.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "These investments are necessary, temporary phases to secure long-term leadership in cloud and AI",
+      "document": "D03_latest_results.md",
+      "document_quote": "The constructive interpretation is that supply bottlenecks are restricting a valuable recurring business and that investment is needed to fulfill demand.",
+      "evidence_supported": true,
+      "gold_driver": "Cloud migration and AI demand support AWS growth.",
+      "index": 3,
+      "reason": "Candidate links cloud/AI investment to leadership, supported by D03's discussion of supply-side cloud demand.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "15% EPS CAGR and a focus on terminal margin expansion",
+      "document": "D01_business_overview.md",
+      "document_quote": "Retail advantages include broad selection, Prime membership, delivery speed and a fulfillment network whose geographic density can reduce cost per package. Advertising monetizes purchasing intent within that same consumer traffic.",
+      "evidence_supported": true,
+      "gold_driver": "Retail logistics productivity and advertising offer margin expansion.",
+      "index": 4,
+      "reason": "Candidate explicitly cites margin expansion; D01 confirms retail efficiency and advertising as drivers.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The market views this as value-destructive, ignoring that these investments are necessary, temporary phases",
+      "document": "D03_latest_results.md",
+      "document_quote": "The bear interpretation is that near-term cash generation will be consumed by an expensive capacity race... The constructive interpretation is that supply bottlenecks are restricting a valuable recurring business and that investment is needed to fulfill demand.",
+      "evidence_supported": true,
+      "gold_driver": "Incremental growth capex should be evaluated by returns rather than headline FCF compression.",
+      "index": 5,
+      "reason": "Candidate contrasts market's focus on cash generation/capex with the long-term return necessity.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate lacks the specific retrospective framing and unique terminology found in the gold drivers, which rely on information and perspectives published after the candidate's April 2025 decision date.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [
+      "document quote 4",
+      "document quote 5"
+    ],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 5,
+        "causal": true,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

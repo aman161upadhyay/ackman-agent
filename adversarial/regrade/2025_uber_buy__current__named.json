@@ -1,0 +1,90 @@
+{
+  "audit_notes": "The candidate document was prepared as of 2025-01-06. The gold drivers reference external sources dated February and March 2025; however, the content provided in the candidate memo is fully supported by the documents D01-D07 available as of the cutoff.",
+  "cause_evidence": "The candidate aligns with the core thesis of the provided gold drivers based on the pre-cutoff documents.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Dara's leadership created a profitable, cash-generative growth business.",
+      "index": 1,
+      "reason": "The candidate mentions Dara Khosrowshahi leads the company [L64] and notes profitable growth [L66], but does not attribute the transformation specifically to his leadership or create the identical causal claim.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "Uber is a dominant global marketplace that possesses the rare combination of massive scale and network-effect-driven density, connecting 161 million monthly active consumers across its Mobility and Delivery segments",
+      "document": "D01_business_overview.md",
+      "document_quote": "more local supply can reduce waits, while greater demand improves earning opportunities.",
+      "evidence_supported": true,
+      "gold_driver": "Dense marketplace networks improve waits, pricing and earner utilization.",
+      "index": 2,
+      "reason": "The candidate asserts the benefit of density and the document confirms that supply reduces waits and demand improves earnings.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The business is increasingly capital-light, generating significant free cash flow and demonstrating clear operating leverage as it matures into a software-enabled utility",
+      "document": "D03_latest_results.md",
+      "document_quote": "Corporate and platform spending grew little year over year, providing operating leverage.",
+      "evidence_supported": true,
+      "gold_driver": "Capital-light growth and fixed-cost leverage support substantial earnings compounding.",
+      "index": 3,
+      "reason": "The candidate links capital-light operations and operating leverage to free cash flow, supported by the documentation of fixed-cost leverage.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The market incorrectly fears that autonomous vehicle fleets will disintermediate the marketplace, whereas we believe Uber will be the essential, high-margin software-enabled aggregator for AV operators",
+      "document": "D07_event_timeline.md",
+      "document_quote": "an AV technology developer chose to access Uber demand rather than rely exclusively on direct customer acquisition in those cities.",
+      "evidence_supported": true,
+      "gold_driver": "AV developers can benefit from Uber demand aggregation rather than displace its marketplace.",
+      "index": 4,
+      "reason": "The candidate explicitly rejects the disintermediation fear, and the document provides evidence of partnerships validating the aggregation model.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We believe the current market valuation offers an attractive entry point because investors are fixated on the wrong risks.",
+      "document": "D05_market_worries.md",
+      "document_quote": "The stock can look inexpensive on current growth if the marketplace is durable, and expensive if an outside supplier captures its customer relationship.",
+      "evidence_supported": true,
+      "gold_driver": "Disruption fears created an attractive price for a high-quality business.",
+      "index": 5,
+      "reason": "The candidate directly claims the market is fixated on the wrong risks (disruption) making the valuation attractive, supported by the document's analysis of the price-disruption relationship.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "none",
+  "primary_cause": "none",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 5,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

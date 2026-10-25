@@ -1,0 +1,60 @@
+{
+  "audit_notes": "The candidate's analysis is consistent with the provided business context and financial data. The candidate's drivers map effectively to the gold drivers provided.",
+  "cause_evidence": "The candidate correctly identifies the investment is a PASS based on the conflict between the capital-intensive transformation and the firm's preference for simple, self-funding, predictable businesses.",
+  "drivers": [
+    {
+      "candidate_quote": "Our valuation analysis is hampered by the lack of a reliable long-term FCF path, as the company’s capital-intensive nature makes it a lower-quality, cyclical tier asset [D01, D02].",
+      "document": "D01_business_overview.md",
+      "document_quote": "The investment question is whether the installed franchise and engineering capability can finance a competitive reset on acceptable returns. Investors must distinguish a durable customer ecosystem from the less predictable profitability of each process generation and the substantial capital needed to remain relevant.",
+      "evidence_supported": true,
+      "gold_driver": "Process-roadmap and competitive-reset uncertainty make long-term distributable cash difficult to bound; incumbent scale alone is insufficient.",
+      "index": 1,
+      "reason": "The candidate identifies the lack of reliable long-term FCF due to the capital-intensive nature of the competitive reset, supported by D01 which highlights the difficulty of forecasting economics through process generations.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The market’s concern regarding the sustainability of cash flows is well-founded given that the company is forecasting negative free cash flow of US$2–4 billion for 2022 [D02, D03].",
+      "document": "D02_financial_snapshot.md",
+      "document_quote": "The release shows approximatelyUS$25 billion capital spending on a GAAP basis, US$21 billion after its non-GAAP adjustments, and negativeUS$2–4 billion adjusted FCF.",
+      "evidence_supported": true,
+      "gold_driver": "Large manufacturing investment and negative adjusted FCF weaken the fit with self-funding long investments; low earnings multiple/dividend does not fix reinvestment economics.",
+      "index": 2,
+      "reason": "The candidate explicitly links the negative FCF to the sustainability of cash flows, supported by financial data in D02 confirming the high capex and resulting negative FCF.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We do not believe an active catalyst is appropriate or that we should intervene in this transformation [D04].",
+      "document": "D05_market_worries.md",
+      "document_quote": "The distinction is between an inexpensive cyclical incumbent and a capital-intensive technological turnaround; both descriptions may apply, and each needs a separate scenario.",
+      "evidence_supported": true,
+      "gold_driver": "PC cyclicality and technological execution dominate outcomes beyond ordinary operating activism; pass unless a separately justified bounded special situation can be demonstrated.",
+      "index": 3,
+      "reason": "The candidate concludes intervention (activism) is not appropriate given the transformation risks, supported by D05 which explains that the cyclical/technological risks require distinct scenario analysis rather than a simple investment approach.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate successfully synthesized the provided documentation to justify a PASS decision aligned with the principles of self-funding business models.",
+  "primary_cause": "none",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "audit_notes": "The candidate correctly identifies the primary competitive fears (perpetual futures/AI) as temporary. However, it fails to capture the specific comparative valuation (25x historical) and the structural mechanism of margin-offsetting as an explicit moat defender. The gold standard utilizes documents dated August 2026 to evaluate a June 2026 position, which implies the presence of hindsight bias or superior information in the gold drivers compared to the candidate's June 30 source constraints.",
+  "cause_evidence": "The candidate does not perform a comparative historical valuation analysis (25x year-earlier) as required by the gold driver, nor does it explicitly link margin-offset economics to the durability of the franchise.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "D01_business_overview.md",
+      "document_quote": "Liquidity is an important network effect. Traders prefer venues where other participants already trade, while institutions value reliable execution, clearing and risk management. Integrated clearing can provide capital and margin efficiencies across positions.",
+      "evidence_supported": true,
+      "gold_driver": "Integrated exchange/clearing liquidity and margin-offset economics defend core franchises.",
+      "index": 1,
+      "reason": "The candidate discusses network effects in liquidity and clearing but does not explicitly link the margin-offset economics to the defense of core franchises as a key causal driver.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "D01_business_overview.md",
+      "document_quote": "Energy producers, commercial users and financial institutions need instruments suited to particular exposures, dates and settlement requirements.",
+      "evidence_supported": true,
+      "gold_driver": "Energy hedging, volatility and established institutional contract needs support growth.",
+      "index": 2,
+      "reason": "The candidate mentions energy and institutional needs but does not explicitly connect these to the support of growth.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "The market has mispriced the equity due to temporary fears regarding perpetual futures and AI-driven displacement",
+      "document": "D05_market_worries.md",
+      "document_quote": "The counterevidence is strong Q1 exchange growth, high margins and cash generation. The serious bear case is lower future fees, transferred liquidity or a slower mortgage recovery, not an already-demonstrated collapse.",
+      "evidence_supported": true,
+      "gold_driver": "Perpetual-futures and AI fears overstate risk to the dominant profit pools; mortgage normalization is additional upside.",
+      "index": 3,
+      "reason": "The candidate claims market mispricing due to these fears and implicitly treats mortgage normalization as recovery/upside.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "D04_price_and_valuation.md",
+      "document_quote": "Exact June30 forward EPS consensus, a harmonized EV/EBITDA, historical own-forward-multiple distribution, current rolling 52-week range and same-date S&P500 forward valuation were not verified.",
+      "evidence_supported": false,
+      "gold_driver": "Approximately17x entry versus25x a year earlier plus capital return supports attractive prospective compounding.",
+      "index": 4,
+      "reason": "The candidate provides the 17.7x entry point but does not reference the 25x historical comparison or explicitly tie the multiple compression to the compounding thesis.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate's analysis is focused on current fundamentals and market-structure fears but lacks the specific historical valuation context and the structural linkage of clearing/margin economics to the moat.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [
+    {
+      "confidence": "low",
+      "document": "D01_business_overview.md",
+      "quote": "Intercontinental Exchange Reports-Record-First-Quarter-2026",
+      "reason": "Refers to Q1 2026 results released in April 2026, which is realized data after the as-of-date of the investment thesis but arguably within the reporting period provided in the prompt."
+    },
+    {
+      "confidence": "high",
+      "document": "D07_event_timeline.md",
+      "quote": "June30: ICE closed $123.11",
+      "reason": "The date reflects the as-of-date but the context relies on public reporting published after the cutoff for the analysis context (e.g. August 2026 documents used as gold standard)."
+    }
+  ],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

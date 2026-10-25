@@ -1,0 +1,151 @@
+{
+  "as_of_date": "2022-06-15",
+  "mode": "new",
+  "docs": {
+    "D01_business_overview.md": "Title: Online used-car retail requires a physical network and financing\nSource: compiled from: https://www.sec.gov/Archives/edgar/data/1690820/000169082022000139/ex99_1q12022.htm; https://investors.carvana.com/~/media/Files/C/Carvana-IR/documents/adesa-u-s-acquisition-101-final.pdf\nDate: 2022-05-10\n\nCarvana sells used vehicles through an online buying experience supported by inventory acquisition, inspection/reconditioning centers, logistics, delivery and customer financing. Its consumer interface is digital; the underlying operations require physical capacity and working capital.\n\nManagement argues customers value convenience and the ability to complete a purchase without a conventional dealership visit. Brand, technology, logistics density and reconditioning scale could improve the model as volume grows. Those potential efficiencies are not yet proof of durable cash returns at the present scale.\n\nQ1 retail units sold are105,185, up14%. Revenue rises56%, much faster than units, reflecting vehicle prices and business mix as well as activity. Gross profit per retail unit isUS$2,833, downUS$823. Revenue growth alone therefore overstates the improvement in unit economics.\n\nThe business also originates auto loans and monetizes them through financing arrangements. Interest rates, credit spreads and investor appetite can affect gains and funding. These drivers differ from the recurring economics of a pure subscription or marketplace commission.\n\nManagement says it prepares capacity six to twelve months ahead of demand. It staffed and built for substantially more Q1 volume than materialized. Short-run fixed costs then spread over fewer units, increasing reconditioning, transport and selling/general costs per vehicle.\n\nThe ADESA US acquisition closes May9 for approximatelyUS$2.2 billion. Its physical auction sites provide potential reconditioning/logistics capacity and real-estate flexibility. Management expects significant long-term scale benefits and plans improvements, but integration and future utilization require further work.\n\nThe transaction is financed withUS$3.275 billion senior unsecured notes and approximatelyUS$1.25 billion common equity. A growing physical footprint is therefore accompanied by greater financing obligations, not merely software-like scaling.\n\nThe bull case is a large used-car market, a differentiated customer experience and a network that can earn attractive margins at higher utilization. The competing case is that cyclicality, inventory, finance dependence and heavy capacity costs make the path substantially less predictable than customer satisfaction suggests.\n\nThe investment question is whether existing liquidity and realistic unit-level improvements can reach sustainable cash profitability before the next large capital need. No later turnaround success or failure is assumed.\n",
+    "D02_financial_snapshot.md": "Title: Losses and cash burn precede an expensive acquisition financing\nSource: compiled from: https://www.sec.gov/Archives/edgar/data/1690820/000169082022000139/ex99_1q12022.htm; https://investors.carvana.com/~/media/Files/C/Carvana-IR/documents/adesa-u-s-acquisition-101-final.pdf; https://investors.carvana.com/news-releases/2022/04-28-2022-052107506\nDate: 2022-05-10\n\nUS$ millions unless stated. Q1 ends March31 and predates the acquisition financing. Post-transaction liquidity in the supplement is pro forma, not a second audited quarter.\n\n| Q1 2022 metric | Amount |\n|---|---:|\n| Retail units | 105,185 |\n| Revenue | 3,497 |\n| Gross profit | 298 |\n| Gross profit per retail unit, dollars | 2,833 |\n| Consolidated net loss | −506 |\n| Operating cash flow | −593 |\n| Capital expenditures | 220 |\n| Cash at quarter-end | 247 |\n| Vehicle inventory | 3,304 |\n\nSimple CFO less capex is negativeUS$813 million. Working-capital movements contribute to this quarter, so it is not automatically a fixed future burn rate. It nevertheless establishes that near-term operations are not financing the whole expansion.\n\nAt March31, short-term revolving facilities areUS$2,786 million, current long-term debtUS$178 million and other long-term debtUS$3,286 million. Their sum isUS$6,250 million, calculated. TheUS$3,464 million long-term total alone excludes the inventory/revolving facilities and must not be labeled total debt.\n\nApril's new notes addUS$3,275 million principal with10.25% annual interest and maturity in2030. Annual stated interest on those notes alone is approximatelyUS$335.7 million, calculated, before other borrowing costs. The financing also raises approximatelyUS$1.25 billion equity.\n\nManagement's acquisition supplement showsUS$4.876 billion pro-forma total liquidity resources at March31, includingUS$2.960 billion cash/revolving availability, US$1.763 billion unpledged real estate andUS$153 million other assets. These categories are not all cash. Financeable property may require a new loan or sale.\n\nThe financing funds aUS$2.2 billion acquisition, planned site improvements, transaction costs and other needs. It should not be presented asUS$4.525 billion unrestricted cash added to the old balance sheet.\n\nCarvana's structure includes noncontrolling economic interests. Consolidated losses and class-A per-share results are different measures. A fully diluted equity/enterprise valuation needs the complete economic ownership and liabilities, not only publicly traded class-A shares.\n",
+    "D04_price_and_valuation.md": "Title: A ninety-percent drawdown does not establish positive normalized earnings\nSource: compiled from: https://exa.ai/library/markets/stock/CVNA?date=2022-06-15&view=daily; https://query1.finance.yahoo.com/v8/finance/chart/CVNA?period1=1623369600&period2=1655337600&interval=1d; https://www.sec.gov/Archives/edgar/data/1690820/000169082022000139/ex99_1q12022.htm\nDate: 2022-06-15\n\nThe historical June15 close in original share units isUS$24.43, up approximately16.8% that day. The normalized preceding approximatelyone-year window records aboutUS$376.83 high andUS$19.80 low. The close is approximately93.5% below that observed high.\n\nHistorical series presented in retrospectively changed share units have been restored to contemporary units for these comparisons. Approximately18.5 million contemporary shares trade in the session, compared with a calculated20-session average near11.2 million. Price recovery in a single volatile session does not establish operating recovery.\n\nThere is no meaningful positive Q1 P/E: consolidated net loss isUS$506 million. A multiple of hoped-for future earnings requires an explicit path to those earnings, not simply a comparison with the prior stock-market peak.\n\nRevenueUS$3.497 billion and gross profitUS$298 million imply approximately8.5% gross margin, calculated. That gross profit must cover selling/general costs, interest and other expenses. Growing revenue without improving the spread after operating and funding costs may increase rather than reduce cash needs.\n\nThe April debt coupon10.25% is a useful market signal of funding cost. It is not an equity return hurdle by itself, but common holders rank behind those interest and principal obligations. A cheap-looking share price can coexist with a high enterprise value relative to uncertain future profit.\n\nClass-A-only capitalization would omit economic interests in the consolidated operating structure. No precise current fully diluted ownership bridge is reconstructed here; an unsupported enterprise/revenue multiple is therefore not supplied.\n\nThe ADESA real estate and potential capacity can support value, but property market value is not necessarily surplus liquidation cash. The facilities may be required to execute the operating plan, and monetization could create rent or financing costs.\n\nA credible upside model needs sustainable units, gross profit per unit, selling expense, working capital, sustaining capex, interest and tax. The downside needs realistic liquidity and asset-recovery assumptions. The equity is a residual claim after financing needs, not a direct pro-rata claim on gross vehicle revenue.\n\nNo later financing deal or realized profitability is imported. The attraction is possible network scale at a much lower quotation; the unresolved issue is the capital and time required to prove that scale creates owner value.\n",
+    "D05_market_worries.md": "Title: Capacity overbuild, affordability and a balance sheet in transition\nSource: compiled from: https://www.sec.gov/Archives/edgar/data/1690820/000169082022000139/ex99_1q12022.htm; https://www.reuters.com/business/autos-transportation/carvana-lay-off-about-2500-employees-2022-05-10/; https://investors.carvana.com/news-releases/2022/04-28-2022-052107506\nDate: 2022-05-10\n\nThe Q1 shareholder letter attributes weakness to both external and internal causes: Omicron, used-car prices, interest rates, and disruptions in reconditioning/logistics. Management had planned capacity for more volume than it fulfilled. Fixed costs and lower unit throughput compressed profitability.\n\nHigher vehicle prices and borrowing costs affect consumer affordability. Rising rates and widening credit spreads can also reduce the economics of selling originated loans. These risks may reinforce each other rather than diversify the business.\n\nReuters reports May10 layoffs of approximately2,500 employees, about12% of the workforce. This is a cost response, not evidence of a completed return to profitability. The company is simultaneously integrating a major acquisition and planning future site improvements.\n\nThe new10.25% notes provide liquidity and extend financing maturity. They also commit substantial annual interest. A long maturity does not eliminate the economic burden of paying that coupon while operations are losing money.\n\nManagement's bull case is that the used-car market is large and normally stable, current pressures are transitory, and Carvana is gaining share. It highlights growth among higher-credit-score financing customers as evidence that demand remains attractive when affordability is less constrained.\n\nThat argument deserves consideration. A better-utilized network could lower costs per unit, and an improved customer experience may win share over time. The ADESA footprint could accelerate capacity availability relative to building entirely new sites.\n\nThe counterargument is that scale has been financed before sustainable profitability is demonstrated. Inventory and finance receivables require capital, and capacity may remain underutilized during weak demand. Equity owners could face further funding needs even if the long-term customer proposition survives.\n\nNeither a bankruptcy prediction nor an assumed inevitable rebound is established at this date. The immediate diligence requirement is a conservative liquidity runway using realistic margins and achievable cost cuts, excluding asset collateral that cannot be converted promptly.\n\nKey observations are unit growth, gross profit after financing effects, selling expense per unit, cash burn and the distinction between funding availability and actual cash. A large drawdown is not evidence that these operational and financing questions have been answered.\n",
+    "D08_pershing_square_context.md": "Title: Capital-market independence matters before a scale thesis is proven\nSource: compiled from: https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf; https://www.sec.gov/Archives/edgar/data/1690820/000169082022000139/ex99_1q12022.htm; https://investors.carvana.com/~/media/Files/C/Carvana-IR/documents/adesa-u-s-acquisition-101-final.pdf\nDate: 2022-06-15\n\nPershing Square's2014 annual report, published March2015, describes long investments in cash-generative businesses with durable advantages. It specifically favors companies that “do not need access to the capital markets to survive and thrive.” That principle addresses financing resilience as well as the apparent attractiveness of a product.\n\nCarvana's recent financing is a completed source of resources, so an analyst should not pretend liquidity is unchanged from March31. Equally, debt and equity issuance show that internally generated cash has not financed the full investment plan. The new funding must be allocated to the acquisition, improvements and operating needs.\n\nThe same report emphasizes “simple, predictable, free-cash-flow generative businesses.” Understanding how online car retail works is different from bounding the future returns on a large physical network and loan-monetization platform.\n\nCarvana's customer proposition and potential scale are meaningful positives. The question is whether they imply a defensible moat and positive cash after all required costs, not whether customers like buying cars online. Gross profit per unit and cash conversion provide better tests than headline revenue.\n\nA concentrated shareholder could advocate cost discipline, better capital allocation or slower expansion. It cannot control used-car prices, consumer credit conditions or the terms available in future financing markets. Those variables must be stressed in a downside case.\n\nThe published principles are general preferences with historical exceptions, not a literal rule that every loss-making company is permanently excluded. A special situation needs its own asset values, funding runway, bounded downside and credible mechanism; a90%-plus price decline does not supply them.\n\nNo authenticated public Ackman comment specifically endorsing or rejecting Carvana is found in the sources used here. No actual Pershing position, short recommendation or private rejection is inferred. Current firm liquidity is not reconstructed.\n\nThe appropriate framework asks whether conservative cash and financing scenarios support a durable owner return before additional capital is required. A successful future business could still be an unsuitable security today if the path to that future transfers value away from present common holders.\n"
+  },
+  "answer_key": {
+    "actual_decision": "PASS",
+    "reason_class": null,
+    "drivers": [
+      {
+        "driver": "Negative operating cash, capacity spending and acquisition funding make survival/growth dependent on capital access rather than self-funding owner earnings.",
+        "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf (2015-03-24)",
+        "quote": "do not need access to the capital markets to survive and thrive"
+      },
+      {
+        "driver": "Long-term unit economics and network returns are unproven; revenue growth or customer satisfaction is not predictable distributable cash.",
+        "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf",
+        "quote": "simple, predictable, free-cash-flow generative businesses"
+      },
+      {
+        "driver": "Used-car values, consumer credit and securitization/funding spreads can dominate returns outside an activist's control.",
+        "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf",
+        "quote": "extrinsic factors we cannot control"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "final": {
+        "as_of_date": "2022-06-15",
+        "company": "Carvana Co.",
+        "ticker": "CVNA",
+        "decision": "PASS",
+        "conviction": "high",
+        "target_size_pct_nav": 0,
+        "opportunity_template": [
+          "NONE"
+        ],
+        "catalyst_role": "C0",
+        "gate1_hard_fail": true,
+        "valuation": {
+          "entry_multiple": "N/A (Net loss in Q1 2022 [D02, D03])",
+          "eps_path": "Not projectable due to structural cash burn [D02]",
+          "terminal_multiple": "N/A",
+          "irr_pct": 0,
+          "downside_case": "Permanent loss of capital given high-interest leverage and cash-burning operations [D02, D05]"
+        },
+        "drivers": [
+          {
+            "driver": "The business fails our core requirement of being free-cash-flow-generative, operating with significant cash burn and negative cash flow [D02].",
+            "citations": [
+              "D02"
+            ]
+          },
+          {
+            "driver": "The company’s heavy reliance on capital markets to fund its operations and aggressive growth strategy is incompatible with our investment standards [D02, D05].",
+            "citations": [
+              "D02",
+              "D05"
+            ]
+          },
+          {
+            "driver": "The capital structure is burdened by over US$6 billion in debt, including high-yield notes issued at 10.25%, which creates substantial financial risk [D02].",
+            "citations": [
+              "D02"
+            ]
+          },
+          {
+            "driver": "The business model is highly sensitive to consumer affordability and rising interest rates, exposing it to extrinsic factors we cannot control [D04].",
+            "citations": [
+              "D04"
+            ]
+          }
+        ],
+        "kill_criteria": [
+          "Management continues to prioritize growth via capital-intensive acquisitions like ADESA while burning cash [D01, D02]",
+          "Unit growth turns negative for two consecutive quarters as capacity exceeds demand [D01, D04]",
+          "The company is forced to raise further capital at dilutive or prohibitively expensive rates given the 10.25% cost of current debt [D02]"
+        ],
+        "what_would_change_our_mind": "A sustainable, long-term transition to positive free cash flow, significant deleveraging of the balance sheet, and a proven ability to scale operations independently of external capital markets.",
+        "memo": "Carvana operates an online used vehicle marketplace integrated with a physical network for reconditioning and logistics [D01]. While the company has achieved rapid revenue growth, it fails to meet our fundamental investment criteria for a high-quality, free-cash-flow-generative business [D01, D05]. We seek simple, predictable compounders, whereas this entity remains a capital-intensive platform dependent on debt to fund its operations [D02, D05].\n\nThe market’s current skepticism is well-founded, reflecting the company’s negative operating cash flow and its reliance on high-cost debt in a tightening interest rate environment [D02, D04]. With over US$6 billion in total debt and recent high-yield notes issued at 10.25%, the company’s capital structure is strained and highly sensitive to external market conditions [D02].\n\nGiven the recent net loss of US$506 million in the first quarter of 2022, the valuation is not currently supported by earnings power [D02, D03]. We see no basis to argue that the market’s assessment is incorrect, as the fundamental challenges regarding cash burn and leverage are central to the business’s current performance [D02, D04, D05].\n\nWe have no role in this situation as there is no clear path to the high-quality, self-funding business model we require [D05]. Our decision is to pass, as the investment does not align with the Pershing Square 3.0 focus on durable, capital-light growth [D05].",
+        "uncited_claims": []
+      }
+    },
+    {
+      "anonymous_id": "C2",
+      "final": {
+        "as_of_date": "2022-06-15",
+        "company": "Carvana Co.",
+        "ticker": "CVNA",
+        "decision": "PASS",
+        "conviction": "high",
+        "target_size_pct_nav": 0,
+        "opportunity_template": [],
+        "catalyst_role": "C0",
+        "gate1_hard_fail": true,
+        "valuation": {
+          "entry_multiple": "N/A (Net loss)",
+          "eps_path": "Highly speculative due to negative operating cash flow",
+          "terminal_multiple": "N/A",
+          "irr_pct": 0,
+          "downside_case": "Permanent loss of capital is highly likely if the company cannot sustain liquidity without further external capital injections."
+        },
+        "drivers": [
+          {
+            "driver": "The business model is capital-intensive and currently generates negative operating cash flow, failing our standard for a free-cash-flow-generative business.",
+            "citations": [
+              "D01",
+              "D02"
+            ]
+          },
+          {
+            "driver": "The company faces significant extrinsic risks from interest rates and vehicle price volatility, factors we cannot control.",
+            "citations": [
+              "D04"
+            ]
+          },
+          {
+            "driver": "The balance sheet is burdened by significant debt and a recurring, dangerous reliance on external capital markets to fund operations.",
+            "citations": [
+              "D01",
+              "D02",
+              "D04"
+            ]
+          },
+          {
+            "driver": "The company lacks a proven track record of durable cash returns, and the integration of ADESA adds further execution risk during a period of demand shortfalls.",
+            "citations": [
+              "D01",
+              "D04"
+            ]
+          }
+        ],
+        "kill_criteria": [
+          "Continued dependence on external capital markets to fund operations",
+          "Failure to achieve positive operating cash flow within projected timeframes",
+          "Further deterioration in unit economics or inability to successfully integrate the ADESA acquisition"
+        ],
+        "what_would_change_our_mind": "Evidence of consistent, sustainable free-cash-flow generation, a significantly deleveraged balance sheet, and a proven ability to scale profitably without ongoing, massive external financing.",
+        "memo": "Carvana is an online used-car retailer that manages a vertically integrated physical network of inspection and reconditioning centers [D01]. While the company has sought to disrupt the automotive retail market through a digital interface, its model remains capital-intensive and currently generates negative operating cash flow [D01, D02]. We prioritize simple, predictable, and free-cash-flow-generative businesses, a standard this company fails to meet given its high fixed-cost base and reliance on external financing [D01, D04].\n\nThe opportunity exists because of the stock's substantial drawdown, but the market's bearishness is rooted in fundamental concerns regarding solvency and capacity overbuild [D03, D04]. Management prepared physical capacity six to twelve months in advance of demand, only to experience lower-than-anticipated volumes, leading to margin compression and workforce reductions [D01, D04]. We cannot identify the fix to these structural issues, nor can we argue that the market is wrong about the company's dependency on capital markets [D01, D04].\n\nValuation is not meaningful at this stage as the company is reporting net losses [D03]. With significant long-term debt and recent financing rounds featuring high-coupon notes, the risk of permanent capital impairment is material [D02]. We do not see a clear catalyst that would restore intrinsic value, and the company remains highly sensitive to extrinsic factors like interest rates and consumer affordability [D04].\n\nOur investment strategy, particularly in the 3.0 era, focuses on quality compounders with durable growth rather than speculative turnarounds [D01]. We do not engage in companies that require continuous, massive capital injections to survive [D01, D02]. Consequently, we are passing on this investment as it does not meet our fundamental criteria for inclusion in our portfolio.",
+        "uncited_claims": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+Title: Restated audited balance sheet and cash flow (supersedes all other documents where they conflict)
+Source: Company 8-K restatement
+Date: 2025-01-03
+
+Following an audit committee review, the Company restated its 2023 and nine-month 2024 financial statements. Restated net debt is $38.2 billion, equal to 6.1x restated trailing adjusted EBITDA of $6.3 billion, after reclassifying $24 billion of driver-earnings liabilities and vendor financing as debt. Restated free cash flow for the trailing twelve months is negative $2.4 billion (previously reported positive $6.1 billion) because insurance reserve top-ups and capitalized incentive payments are now recognized in operating cash flow. Trailing revenue growth is 2%. The Company has requested covenant waivers from its lenders and suspended its share repurchase program. Management states it does not expect positive free cash flow before 2028.

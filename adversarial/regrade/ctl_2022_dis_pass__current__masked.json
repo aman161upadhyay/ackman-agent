@@ -1,0 +1,45 @@
+{
+  "audit_notes": "The candidate was evaluated against the gold standard drivers regarding investment philosophy (predictability and FCF-centricity). The candidate's internal memo does not demonstrate adherence to these specific constraints, focusing instead on conventional EPS multiples and brand quality.",
+  "cause_evidence": "The candidate focuses on earnings-based valuation and brand strength, whereas the gold drivers require specific cash-flow predictability and post-reinvestment FCF thresholds. The candidate does not explicitly address the provided investment framework's requirements.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "DTC losses, pricing/ad-tier changes and legacy distribution decline widen the forecast range beyond a simple brand-quality argument.",
+      "index": 1,
+      "reason": "The candidate does not discuss the impact of streaming losses or legacy distribution on forecast predictability or the investment decision. It argues for Disney's 'competitive moats' and 'clear path to profitability' [L15, L28].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Require owner cash after content and parks reinvestment, not subscriber scale or adjusted EPS alone. Current FCF yield and leverage do not provide an obvious margin of safety.",
+      "index": 2,
+      "reason": "The candidate emphasizes 'earnings growth' and 'valuation dislocation' [L22] but does not address the adequacy of free cash flow after reinvestment as a required metric for the investment decision.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate ignores the specific 'predictability' and 'owner-cash' investment hurdles, substituting them with valuation-multiple analysis and narrative-based brand arguments.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

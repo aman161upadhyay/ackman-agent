@@ -1,0 +1,15 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "The candidate labels the investment a 'BUY' based on a 47% valuation dislocation and DTC segment recovery [L21-L79], whereas the pack specifies 'We require a high degree of predictability' and indicates that streaming losses and content spending create a bridge issue that prevents a concentrated core investment [L6-L14, L86].",
+      "fix": "The model should identify that Disney's current DTC losses, content spending requirements, and legacy distribution decline fall outside the 'simple, predictable, free-cash-flow generative' criteria defined in the Pershing Square investment principles for a core position [L86].",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "v"
+      ]
+    }
+  ],
+  "notes": "The candidate fails to recognize the 'predictability' hard-fail threshold for Pershing Square positions in Era D/E, as highlighted in the Netflix 2022 case [L86, L89]. The candidate treats the Disney streaming transition as a temporary 'scare' (T1) rather than a fundamental lack of predictable, free-cash-flow generative economics."
+}

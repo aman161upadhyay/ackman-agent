@@ -1,0 +1,59 @@
+{
+  "audit_notes": "The candidate was evaluated against provided documents. The gold drivers reference a source dated January 26, 2022, which is post-cutoff for the candidate (January 24). The candidate identifies similar business drivers (scale, management, pricing power, margins) but does not contain the specific verbatim quotes required for 100% semantic alignment.",
+  "cause_evidence": "The candidate represents a broader analytical report on Netflix as of Jan 2022, whereas the gold drivers are specifically derived from a Pershing Square investor letter dated Jan 26, 2022. The candidate lacks the specific verbatim phrasings required by the gold driver list.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Recurring subscriptions and the transition from linear viewing create substantial long-term growth.",
+      "index": 1,
+      "reason": "The candidate discusses the business model generally, but does not explicitly claim that the transition from linear viewing is the primary driver of substantial long-term growth as specified in the gold driver.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "The company possesses significant operating leverage and a durable competitive advantage, allowing it to aggregate content spend across a massive, recurring revenue base",
+      "document": "D01_business_overview.md",
+      "document_quote": "A large paying base can spread programming costs across more households, generating operating leverage. ... A scale advantage must be maintained through engagement, retention and economical acquisition of content.",
+      "evidence_supported": true,
+      "gold_driver": "Scale and content quality strengthen the moat.",
+      "index": 2,
+      "reason": "The candidate identifies durable competitive advantage and operating leverage (scale) as foundational to the business.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "disciplined pricing power",
+      "document": "D03_latest_results.md",
+      "document_quote": "US/Canada average monthly revenue per membership rose 9% year-on-year in Q4, to $14.78. ... Pricing presents both evidence and a test.",
+      "evidence_supported": true,
+      "gold_driver": "The customer value proposition supports pricing power.",
+      "index": 3,
+      "reason": "The candidate mentions pricing power, supported by document evidence of revenue increases despite competitive concerns.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "High-quality management team that has demonstrated an ability to improve operating margins to 21%",
+      "document": "D02_financial_snapshot.md",
+      "document_quote": "Operating margin reached 21% in 2021, versus 18% in 2020.",
+      "evidence_supported": true,
+      "gold_driver": "A trusted adaptive management team and high-performance culture can execute.",
+      "index": 4,
+      "reason": "The candidate links management to the execution of operating margin improvements.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "expansion of operating margins ... normalization of subscriber growth and the realization of inherent operating leverage as the primary catalysts for value creation",
+      "document": "D03_latest_results.md",
+      "document_quote": "Management also expects positive FCF in 2022 and beyond, with excess cash returned after reinvestment, selective acquisitions, debt targets and minimum liquidity.",
+      "evidence_supported": true,
+      "gold_driver": "Margin leverage and improving free cash flow support both growth and distributions.",
+      "index": 5,
+      "reason": "The candidate aligns margin expansion and FCF with future value creation and distributions.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate is a generic buy-side investment thesis for Netflix that captures similar economic themes but does not utilize the specific rhetorical framing or evidence-based arguments structured in the gold drivers.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": []
+}

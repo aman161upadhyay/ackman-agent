@@ -1,0 +1,94 @@
+{
+  "audit_notes": "Both candidates provide high-level alignment with the hedging logic but both failed the strict instruction to provide verbatim quotes from the specified source document (2019 Annual Report) to justify specific drivers, resulting in semantic_present=false for the first two drivers in both cases.",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "The candidate fails to reference the 2019 Annual Report directly for the primary causal claims as required by the gold standard instructions.",
+      "drivers": [
+        {
+          "candidate_quote": "We accept a limited, defined premium to protect against a scenario that the market currently misprices as low-probability",
+          "document": "D01_macro_context.md",
+          "document_quote": "A hedge decision must compare those possibilities with the cost, timing and basis risk of the proposed protection rather than assume the severe scenario is certain.",
+          "evidence_supported": false,
+          "index": 1,
+          "reason": "The candidate fails to use a verbatim quote from the annual report to support the claim about Pandemic interruption risk pricing, nor does it explicitly link this to the 2019 annual report data requested.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "We aim to offset potential portfolio impairments and generate reinvestment capital without liquidating our high-quality, long-term holdings",
+          "document": "D04_portfolio_exposure.md",
+          "document_quote": "A hedge may aim to protect purchasing power and avoid selling favored holdings into a disorderly market rather than express a permanent negative view on their intrinsic value.",
+          "evidence_supported": false,
+          "index": 2,
+          "reason": "The candidate lacks a verbatim citation from the annual report regarding the asymmetric potential stress payoff of premiums.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "generate reinvestment capital without liquidating our high-quality, long-term holdings",
+          "document": "D04_portfolio_exposure.md",
+          "document_quote": "A hedge may aim to protect purchasing power and avoid selling favored holdings into a disorderly market",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The candidate correctly identifies the goal of protecting the portfolio without forced liquidation using documents provided.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "generate reinvestment capital without liquidating our high-quality, long-term holdings",
+          "document": "D04_portfolio_exposure.md",
+          "document_quote": "A hedge may aim to ... avoid selling favored holdings into a disorderly market rather than express a permanent negative view on their intrinsic value.",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The candidate correctly aligns the liquidity creation strategy with the goal of redeployment described in the document set.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "Failure to provide verbatim quotes from the specified source document for the core drivers.",
+      "primary_cause": "iv_model_limitation"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "The candidate lacks explicit verbatim quotes from the 2019 Annual Report to justify the specific assertions made about credit protection.",
+      "drivers": [
+        {
+          "candidate_quote": "Our discipline is to protect the portfolio against paradigm-shifting risks that the market is only beginning to price",
+          "document": "D06_risks_falsifiers.md",
+          "document_quote": "The proposition is a bounded, probabilistic risk-management decision as of February 24.",
+          "evidence_supported": false,
+          "index": 1,
+          "reason": "The candidate fails to make the specific claim regarding credit protection pricing in the 2019 Annual Report.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "we are observing an abrupt transition in market sentiment as international contagion becomes apparent",
+          "document": "D02_market_pricing.md",
+          "document_quote": "It describes an abrupt change from earlier investor willingness to look past China's outbreak.",
+          "evidence_supported": false,
+          "index": 2,
+          "reason": "The candidate fails to reference the asymmetric potential stress payoff of premiums cited in the annual report.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "Unlike selling our long-term holdings, which would crystallize losses and force us to exit positions in high-quality compounders, a credit hedge allows us to generate liquidity",
+          "document": "D04_portfolio_exposure.md",
+          "document_quote": "A hedge may aim to protect purchasing power and avoid selling favored holdings into a disorderly market",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The candidate captures the essential rationale of avoiding liquidation of quality holdings.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "generate liquidity precisely when other opportunities might arise",
+          "document": "D04_portfolio_exposure.md",
+          "document_quote": "avoid selling favored holdings into a disorderly market rather than express a permanent negative view on their intrinsic value.",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The candidate matches the logic of using credit hedges to fund redeployment during market dislocations.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "Failure to provide requested source-based verbatim justification.",
+      "primary_cause": "iv_model_limitation"
+    }
+  ],
+  "semantic_leakage": []
+}

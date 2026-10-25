@@ -1,0 +1,19 @@
+{
+  "pooled": {
+    "named": {
+      "agent": 35,
+      "mode": 31,
+      "n": 47
+    },
+    "masked": {
+      "agent": 33,
+      "mode": 31,
+      "n": 47
+    }
+  },
+  "action_disagreements": {
+    "calibration": 4,
+    "controls": 2,
+    "holdout": 0
+  }
+}

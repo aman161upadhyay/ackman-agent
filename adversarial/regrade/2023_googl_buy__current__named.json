@@ -1,0 +1,77 @@
+{
+  "audit_notes": "Driver 3 is marked as evidence_supported=false because the cited document provides context regarding the market's reaction and the nature of the error but does not contain a factual statement confirming that the market's broader disruption assessment was incorrect.",
+  "cause_evidence": "none",
+  "drivers": [
+    {
+      "candidate_quote": "The company maintains a durable competitive advantage through its unparalleled search scale, massive data ecosystem, and high-margin advertising franchise",
+      "document": "D01_business_overview.md",
+      "document_quote": "Search connects expressed user intent with advertiser demand; YouTube supplies video audiences; the network business places ads on third-party properties. Distribution and advertiser participation matter alongside the quality of search results.",
+      "evidence_supported": true,
+      "gold_driver": "Search intent and distribution underpin a durable advertising franchise.",
+      "index": 1,
+      "reason": "The candidate accurately identifies that search scale and advertising franchise, supported by user intent and distribution, underpin Alphabet's competitive advantage.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We believe this narrative ignores Google's capacity to integrate AI into its existing search ecosystem and its foundational advantages in scale and user habit",
+      "document": "D01_business_overview.md",
+      "document_quote": "The company already operates large-scale infrastructure and says AI is central to its products. These assets may support adaptation, but a conversational interface could change query costs, advertising formats and distribution.",
+      "evidence_supported": true,
+      "gold_driver": "Proprietary data, technical AI capabilities and optimized infrastructure support adaptation rather than inevitable displacement.",
+      "index": 2,
+      "reason": "The candidate argues that foundational advantages allow for adaptation; the document confirms the existence of large-scale infrastructure and the potential for adaptation.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The market has mispriced the impact of generative AI, fearing existential disruption from conversational search models",
+      "document": "D05_market_concerns.md",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "The market overestimated the disruption threat from generative AI.",
+      "index": 3,
+      "reason": "The candidate correctly claims the market mispriced the disruption, but the document does not contain an explicit, verbatim claim that the market's estimation was objectively wrong, rather describing the market reaction to an error.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We anticipate a re-rating as the market gains clarity on the resilience of Google’s monopoly and the efficacy of current cost-efficiency programs, such as the recently announced workforce optimization",
+      "document": "D03_latest_results.md",
+      "document_quote": "Cloud revenue rose to $7,315 million from $5,541 million... Pichai says the company is well positioned as AI reaches an inflection point and describes a journey to “re-engineer our cost structure in a durable way”.",
+      "evidence_supported": true,
+      "gold_driver": "YouTube, Cloud and operating efficiency offer additional earnings levers.",
+      "index": 4,
+      "reason": "The candidate identifies cost-efficiency as a driver; the document confirms Cloud growth and management's focus on cost restructuring.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "none",
+  "primary_cause": "none",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [
+      "document quote 4"
+    ],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

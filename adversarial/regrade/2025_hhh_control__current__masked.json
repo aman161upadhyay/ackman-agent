@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate correctly identifies the strategic exploration (take-private) present as of January 10, 2025, but the gold drivers introduce post-cutoff strategic shifts that are not reflected in the source material provided to the candidate.",
+  "cause_evidence": "The gold drivers rely on future-dated proposals (February/May 2025) while the candidate is constrained to the January 2025 cutoff.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Long-duration real assets and development cash can support a compounder rather than a narrow cyclical property valuation.",
+      "index": 1,
+      "reason": "The candidate frames HHC as an asset-heavy land developer rather than a compounder, explicitly stating that it does not conform to their compounder criteria [L46].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Control-like influence enables strategic capital allocation and a diversified holding-company design.",
+      "index": 2,
+      "reason": "The candidate notes influence on the special committee, but does not claim the design of a diversified holding company [L46].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Potential insurance investments can supply additional compounding economics and permanent-capital characteristics; not a known January10 plan or acquired float.",
+      "index": 3,
+      "reason": "The candidate makes no mention of insurance investments or insurance float [L46].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Permanent ownership and disciplined reinvestment address the gap between asset value and realized shareholder returns.",
+      "index": 4,
+      "reason": "The candidate focuses on strategic transactions like a take-private or asset sale to bridge the valuation disconnect, not permanent ownership and reinvestment in the current entity [L46].",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The gold drivers incorporate strategic elements (insurance-based holding company) that are not present in the candidate's January 10, 2025 assessment.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

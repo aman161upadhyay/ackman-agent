@@ -1,0 +1,60 @@
+{
+  "audit_notes": "The gold driver citations refer to an external Pershing Square document [L72, L78, L84] that is not part of the provided source set (D01-D08). However, the candidate correctly identifies the causal claims within the provided documents. No semantic leakage detected.",
+  "cause_evidence": "The candidate's causal account aligns with the gold drivers provided, focusing on capital dependency, unproven unit economics, and lack of control over extrinsic market variables.",
+  "drivers": [
+    {
+      "candidate_quote": "The balance sheet is burdened by significant debt and a recurring, dangerous reliance on external capital markets to fund operations.",
+      "document": "D01_business_overview.md",
+      "document_quote": "A growing physical footprint is therefore accompanied by greater financing obligations, not merely software-like scaling.",
+      "evidence_supported": true,
+      "gold_driver": "Negative operating cash, capacity spending and acquisition funding make survival/growth dependent on capital access rather than self-funding owner earnings.",
+      "index": 1,
+      "reason": "The candidate identifies the reliance on external capital markets for operations, which is supported by the document's evidence regarding financing obligations for physical expansion.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The company lacks a proven track record of durable cash returns",
+      "document": "D01_business_overview.md",
+      "document_quote": "Those potential efficiencies are not yet proof of durable cash returns at the present scale.",
+      "evidence_supported": true,
+      "gold_driver": "Long-term unit economics and network returns are unproven; revenue growth or customer satisfaction is not predictable distributable cash.",
+      "index": 2,
+      "reason": "The candidate claims a lack of proven durable cash returns, which matches the document's explicit statement that potential efficiencies at scale are not yet proof of such returns.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The company faces significant extrinsic risks from interest rates and vehicle price volatility, factors we cannot control.",
+      "document": "D05_market_worries.md",
+      "document_quote": "Higher vehicle prices and borrowing costs affect consumer affordability. Rising rates and widening credit spreads can also reduce the economics of selling originated loans.",
+      "evidence_supported": true,
+      "gold_driver": "Used-car values, consumer credit and securitization/funding spreads can dominate returns outside an activist's control.",
+      "index": 3,
+      "reason": "The candidate accurately captures that extrinsic factors like rates and prices are outside of management control, as supported by the document describing how these factors impact affordability and loan economics.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The key problem is that Carvana's business model requires significant external capital to fund physical expansion and operations, while failing to generate predictable, self-sustaining free cash flow.",
+  "primary_cause": "none",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "audit_notes": "Candidates evaluated pointwise against the provided gold drivers derived from the as-of-date data. C1 applied an overly conservative 'gate 1 hard fail' given the specific context of a pre-listing separation where transparency is inherently limited. C2 demonstrated superior fidelity to the Pershing Square long-term quality compounder framework.",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "The candidate identifies the correct opportunity but applies a gate 1 hard fail based on transient transparency issues, resulting in a PASS decision.",
+      "drivers": [
+        {
+          "candidate_quote": "UMG is a dominant global leader in music intellectual property with a vast catalog and strong market position [D01].",
+          "document": "D01_business_overview.md",
+          "document_quote": "Universal Music Group is a leading global recorded-music and music-publishing business... The recorded-music platform includes prominent artists and a deep catalog",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The document confirms UMG's leadership position and catalog depth.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The secular tailwind of paid music streaming provides a durable runway for long-term growth [D01, D06].",
+          "document": "D06_peer_industry.md",
+          "document_quote": "IFPI's March 23 Global Music Report says... Paid subscription streaming revenue rose 18.5%",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "Paid streaming is explicitly identified as a growth driver.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Repeat licensing, scale and operating leverage support capital-light cash growth.",
+          "document": "D01_business_overview.md",
+          "document_quote": "Existing catalogs can be licensed repeatedly... That provides attractive incremental economics.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The candidate's driver regarding repeat licensing is supported by the document.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Lucian Grainge and patient ownership align with long-duration compounding.",
+          "document": "D01_business_overview.md",
+          "document_quote": "Lucian Grainge leads UMG.",
+          "evidence_supported": false,
+          "index": 4,
+          "reason": "The candidate failed to include this driver in its final selection.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "The spin-off from Vivendi acts as a catalyst to resolve governance concerns and unlock standalone valuation [D01, D07].",
+          "document": "D07_structure_context.md",
+          "document_quote": "Vivendi's May 18 announcement describes a planned distribution... The ownership opportunity combines a valuable rights franchise with a structural separation.",
+          "evidence_supported": true,
+          "index": 5,
+          "reason": "The document confirms the spin-off as a mechanism for separation and potential re-rating.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "Prematurely rejecting a high-quality compounder due to lack of standalone financial history despite a clear structural separation catalyst.",
+      "primary_cause": "iv_model_limitation"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "The candidate's decision and drivers align with the analysis of UMG as a core compounder with a clear structural catalyst.",
+      "drivers": [
+        {
+          "candidate_quote": "Universal Music Group is the world's leading music entertainment company, possessing an unmatched, durable catalog and a dominant global market position [D01].",
+          "document": "D01_business_overview.md",
+          "document_quote": "Universal Music Group is a leading global recorded-music and music-publishing business... prominent artists and a deep catalog",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "Supported by document description of UMG's market standing.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The business operates a high-margin, capital-light model that acts as a global royalty stream, directly benefiting from the secular growth of music streaming [D01, D03].",
+          "document": "D01_business_overview.md",
+          "document_quote": "Existing catalogs can be licensed repeatedly without manufacturing a new physical product... provides attractive incremental economics.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "Supported by evidence of repetitive licensing and streaming growth.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Repeat licensing, scale and operating leverage support capital-light cash growth.",
+          "document": "D02_financial_snapshot.md",
+          "document_quote": "EBITA grew 24.6% and 18.3% on an actual basis, with mix and cost control contributing.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "Operating leverage is evidenced by EBITA margin expansion.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Lucian Grainge and patient ownership align with long-duration compounding.",
+          "document": "D01_business_overview.md",
+          "document_quote": "Lucian Grainge leads UMG.",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "Supported by documented leadership.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Negotiated pre-listing ownership and separation can unlock independent valuation.",
+          "document": "D04_private_valuation.md",
+          "document_quote": "The Tencent-led consortium's 20% investment at a €30 billion enterprise-value reference.",
+          "evidence_supported": true,
+          "index": 5,
+          "reason": "The transaction anchor is a valid valuation tool.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "None identified; decision aligns with standard Pershing Square methodology.",
+      "primary_cause": "none"
+    }
+  ],
+  "semantic_leakage": []
+}

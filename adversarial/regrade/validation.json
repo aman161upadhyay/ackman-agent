@@ -1,0 +1,100 @@
+[
+  {
+    "run": "2011_cp_buy__current__named",
+    "flags": [
+      "document quote 1",
+      "document quote 3"
+    ]
+  },
+  {
+    "run": "2013_fnma_buy__current__masked",
+    "flags": [
+      "candidate quote 3"
+    ]
+  },
+  {
+    "run": "2018_hlt_buy__current__named",
+    "flags": [
+      "document quote 3"
+    ]
+  },
+  {
+    "run": "2020_sbux_sell__current__masked",
+    "flags": [
+      "document quote 1",
+      "document quote 3"
+    ]
+  },
+  {
+    "run": "2021_umg_buy__current__masked",
+    "flags": [
+      "document quote 5"
+    ]
+  },
+  {
+    "run": "2022_nflx_sell__current__named",
+    "flags": [
+      "document quote 2"
+    ]
+  },
+  {
+    "run": "2023_googl_buy__current__named",
+    "flags": [
+      "document quote 4"
+    ]
+  },
+  {
+    "run": "2024_htz_buy__current__masked",
+    "flags": [
+      "candidate quote 2"
+    ]
+  },
+  {
+    "run": "2024_nke_buy_a__current__named",
+    "flags": [
+      "candidate quote 2"
+    ]
+  },
+  {
+    "run": "2025_amzn_buy__current__named",
+    "flags": [
+      "document quote 4",
+      "document quote 5"
+    ]
+  },
+  {
+    "run": "2025_fnma_fmcc_2025__current__named",
+    "flags": [
+      "document quote 1",
+      "document quote 5"
+    ]
+  },
+  {
+    "run": "ctl_2023_pfe_pass__current__masked",
+    "flags": [
+      "candidate quote 2",
+      "document quote 2",
+      "candidate quote 3"
+    ]
+  },
+  {
+    "run": "ctl_2023_pfe_pass__current__named",
+    "flags": [
+      "document quote 2",
+      "document quote 3"
+    ]
+  },
+  {
+    "run": "2025_meta_buy__current__masked",
+    "flags": [
+      "candidate quote 2",
+      "candidate quote 4"
+    ]
+  },
+  {
+    "run": "2026_spgi_buy__current__named",
+    "flags": [
+      "document quote 1"
+    ]
+  }
+]

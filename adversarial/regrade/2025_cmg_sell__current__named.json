@@ -1,0 +1,60 @@
+{
+  "audit_notes": "The gold drivers are sourced from a 2026 document not present in the provided context. The candidate is restricted to 2025 data, rendering it impossible to fulfill the gold drivers' specific semantic requirements.",
+  "cause_evidence": "The candidate analysis is dated 2025-11-03 and lacks access to the 2026-02-11 retrospective sources used for the gold drivers.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "none",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Struggles under the successor management team clouded the earnings forecast.",
+      "index": 1,
+      "reason": "The candidate document does not exist in the provided context (D10 is not provided). The memo discusses management transition uncertainty [L20, L25] but does not state the successor's struggles clouded the forecast.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "none",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "The distribution of potential future outcomes became too wide for concentrated ownership.",
+      "index": 2,
+      "reason": "The candidate memo discusses narrowed margins of safety and predictability shifts [L20], but lacks the specific causal claim regarding the width of outcome distribution as the driver for position sizing.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "none",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Remaining franchise quality and a long development runway were insufficient to offset the reduced forecast confidence; this was not a claim of permanent brand destruction.",
+      "index": 3,
+      "reason": "The candidate does not explicitly link the insufficiency of franchise quality to offset forecast confidence as the specific causal driver. Document support is unavailable as the cited D10 is missing.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "Temporal misalignment and lack of identical source material for gold driver assertions.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

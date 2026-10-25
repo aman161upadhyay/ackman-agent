@@ -1,0 +1,21 @@
+To address the critique: Current capital is **UNKNOWN**, not zero [L156, L427]. Probability scores represent forward-looking likelihoods rather than logical falsifications by any single non-occurrence [L110]. Principal rankings are uncalibrated forecasts based on pattern recognition, not independently frozen facts [L95-L96]. 13Fs are point-in-time snapshots and miss intraquarter activity, derivatives, and actions between reporting dates [L113, L467, L474].
+
+### Falsifiers for Proposed Positions (Observation-Based)
+
+For each name, the thesis is falsified not by absence of holdings, but by evidence that the core "quality" or "dislocation" criteria have structurally failed:
+
+*   **ADSK (Autodesk):** Falsified if AI-driven workflow displacement manifests as a sustained decline in free-cash-flow conversion or customer retention, contradicting the "reinforced moat" thesis [L28].
+*   **CPRT (Copart):** Falsified if salvage-unit volume trends show structural impairment rather than temporary cyclicality or integration-related noise [L35].
+*   **GOOG (Alphabet):** Falsified if search market share or ad-spend efficiency suffers permanent deterioration from AI-agent disintermediation, invalidating the "durable advantage" thesis [L42].
+*   **BKNG (Booking Holdings):** Falsified if travel distribution economics demonstrate that AI agents have permanently successfully disintermediated the OTA moat [L49].
+*   **LOW (Lowe's):** Falsified if housing/rate headwinds prove to be a structural impairment to unit economics rather than cyclical sensitivity [L56].
+*   **ZTS (Zoetis):** Falsified if clinic demand weakness persists, signaling a structural loss of dominant share or pricing power in the animal health market [L63].
+*   **CMG (Chipotle):** Falsified if the brand's fundamental strength in unit economics is degraded by consumer affordability shifts [L70].
+*   **HLT (Hilton):** Falsified if there is an explicit failure to deliver on the capital-light compounding model or if the competitive landscape in premium lodging shifts structurally [L77].
+
+### Inspection of D04 IRR Claims
+The agent identified several candidates with "IRR > 20%" claims [L16-L21]. These claims fail the scenario if:
+*   **Autodesk (ADSK):** The 21.2% drawdown [L16] is revealed to be a permanent impairment of pricing power rather than a temporary market reaction to AI disruption [L28].
+*   **Copart (CPRT):** The 35.9% drawdown [L17] exceeds the scope of temporary integration costs, implying a permanent loss of network-effect dominance [L35].
+
+*Note: Content was truncated during serialization; citations reflect available data.*

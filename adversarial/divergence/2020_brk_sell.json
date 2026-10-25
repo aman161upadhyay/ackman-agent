@@ -1,0 +1,25 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "Candidate C1 labels the Berkshire position as 'HOLD' and cites 'The Company's massive liquidity' as a 'unique, risk-free competitive advantage' [L39]. This judgment deviates from the core thesis requirement identified in the answer key, which notes that Berkshire's capital deployment in the March rout was notably limited, raising valid concerns about opportunity cost [L21].",
+      "fix": "The model should have weighed Berkshire's slow capital deployment against more attractive, higher-IRR direct opportunities available in the market as of 2020-05-26, leading to a SELL decision consistent with the 'better use of capital' rule (S3).",
+      "primary_cause": "v",
+      "secondary_causes": [
+        "model fails to execute a rule"
+      ]
+    },
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "Candidate C2 categorizes the investment as 'HOLD' despite acknowledging that 'Buffett's disciplined, albeit cautious, approach... differs from a more aggressive stance' [L72]. The candidate fails to prioritize the opportunity cost of holding cash in a conglomerate versus redeploying capital into more active recovery opportunities, which is the defining tension of the 2020-05-26 period [L96].",
+      "fix": "The model should have prioritized the opportunity cost analysis over the 'thesis intact' narrative, correctly concluding that the capital-deployment drag requires an exit to fund higher-conviction, direct-equity alternatives.",
+      "primary_cause": "v",
+      "secondary_causes": [
+        "model fails to execute a rule"
+      ]
+    }
+  ],
+  "notes": "Both candidates C1 and C2 incorrectly opted for HOLD based on the 'resilience' and 'optionality' of the cash position, failing to apply the S3 SELL rule regarding 'better use of capital' during a period of market dislocation where Pershing's specific capital-allocation framework (as outlined in D07/D09) necessitates higher prospective returns."
+}

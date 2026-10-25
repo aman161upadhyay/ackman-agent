@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate operates in a pre-activist context (2011). Gold drivers 2 and 3 represent retrospective knowledge of the specific campaign (Hunter Harrison/Board change) not present in the source documents as of the as_of_date. Driver 1 is partially present but lacks the specific 'inferior franchise' comparison. Driver 4 is present but unsupported by the provided source documents.",
+  "cause_evidence": "The candidate identifies a management issue and operating gap, but the gold drivers (2, 3) reference specific activist strategies (recruiting Hunter Harrison and board turnover) that had not occurred or been committed to as of the document cutoff date of 2011-09-23.",
+  "drivers": [
+    {
+      "candidate_quote": "The company operates a scarce, transcontinental freight rail network protected by significant barriers to entry [D01].",
+      "document": "D01_business_overview.md",
+      "document_quote": "Its physical right-of-way, terminals and connections form the competitive asset; replicating a network requires land, construction, regulatory approvals and sufficient traffic density.",
+      "evidence_supported": false,
+      "gold_driver": "Close a large operating-efficiency gap in a durable rail franchise rather than underwrite an inferior franchise.",
+      "index": 1,
+      "reason": "The candidate asserts the asset is durable (scarce network) and has an operational gap, but the provided evidence in D01 describes competitive barriers and traffic demand without linking them to the 'inferior franchise' comparison required by the gold driver.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "none",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Recruit Hunter Harrison, whose prior operating record makes the management-change case concrete.",
+      "index": 2,
+      "reason": "The candidate makes no mention of recruiting Hunter Harrison.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "none",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Use board change to enable an operational plan focused on service, utilization and costs.",
+      "index": 3,
+      "reason": "The candidate states they intend to 'engaging with the Board to accelerate the implementation of an operational review' [L47], but this is not a claim of using board change (i.e., board turnover/replacements) to enable that plan.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "As management executes on the necessary operational improvements, we expect a substantial increase in earnings per share, providing an expected IRR of approximately 22% in our base case [D03, D04].",
+      "document": "D03_latest_results_and_guidance.md",
+      "document_quote": "The practical underwriting question is how much of the gap reflects temporary outages and how much reflects persistent operating design.",
+      "evidence_supported": false,
+      "gold_driver": "Translate improved operating performance into materially higher per-share earnings.",
+      "index": 4,
+      "reason": "While the candidate claims operational improvements lead to EPS growth, the cited documents (D03, D04) do not provide evidentiary support for this causal link, as D03 discusses the difficulty of differentiating temporary outages from design, and D04 provides valuation math.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate lacks the specific governance/activism strategy (Harrison/board change) that defines the gold investment thesis.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

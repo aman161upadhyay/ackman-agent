@@ -1,0 +1,39 @@
+{
+  "audit_notes": "The candidate and the source documents are all dated on or before January 15, 2020. The candidate's reasoning is fully supported by the provided source text, specifically focusing on the shift in valuation and the resulting impact on forward IRRs.",
+  "cause_evidence": "The candidate's decision to trim is driven by the internal assessment of hurdle rates and prospective returns, which aligns with the provided gold drivers based on the available documentation.",
+  "drivers": [
+    {
+      "candidate_quote": "The stock has experienced significant appreciation, causing the forward IRR to fall below our 15% threshold for new or maintained high-conviction positions",
+      "document": "D07_pershing_context.md",
+      "document_quote": "The stock has appreciated roughly 78% since our average entry price [D05]. It now trades at approximately 30.3x our estimate of FY2020 adjusted earnings, a valuation that no longer offers the asymmetric upside we seek",
+      "evidence_supported": true,
+      "gold_driver": "Share-price appreciation compressed prospective returns as the investment approached estimated value.",
+      "index": 1,
+      "reason": "The candidate explicitly links stock price appreciation to a decrease in forward IRR, which reflects the compression of prospective returns as valuation targets are met.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "While the business remains a high-quality compounder, the current price largely reflects the successful execution of the operating turnaround, reducing the prospective forward return",
+      "document": "D06_thesis_changes.md",
+      "document_quote": "There is no dated evidence here that the core coffee moat has disappeared or that management is fundamentally untrustworthy. The changed facts mainly concern execution, price and capital structure.",
+      "evidence_supported": true,
+      "gold_driver": "The operating recovery and brand thesis worked; the exit did not require a conclusion that Starbucks was a broken business.",
+      "index": 2,
+      "reason": "The candidate acknowledges the business remains a high-quality compounder while explaining the decision to trim based on price rather than fundamental impairment.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We are trimming our holding to reallocate capital toward opportunities that offer more compelling risk-adjusted returns, while retaining a position in what remains an excellent franchise",
+      "document": "D07_pershing_context.md",
+      "document_quote": "An owner can recognize continuing business quality while independently reassessing the price, the EPS-growth outlook and the opportunity cost of committed capital.",
+      "evidence_supported": true,
+      "gold_driver": "Release capital after attractive realized returns rather than retain the same valuation discount assumption indefinitely.",
+      "index": 3,
+      "reason": "The candidate identifies the intent to reallocate capital to better opportunities, confirming the shift from the original entry thesis.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "none",
+  "primary_cause": "none",
+  "semantic_leakage": []
+}

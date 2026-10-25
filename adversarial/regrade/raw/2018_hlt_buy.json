@@ -1,0 +1,94 @@
+{
+  "audit_notes": "Both candidates C1 and C2 effectively captured all gold drivers and supported their claims using the provided document set. No semantic leakage was detected as no information post-dating 2018-10-15 was used.",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "The candidate successfully captures all four gold drivers using direct citations to the provided document set.",
+      "drivers": [
+        {
+          "candidate_quote": "A high-quality, asset-light global hotel franchise platform generating recurring, high-margin royalty-like fees with minimal maintenance capex [D01], [D02].",
+          "document": "D01_business_overview.md",
+          "document_quote": "The model is asset-light... Hilton supplies brands, reservations, distribution, operating standards and loyalty infrastructure, receiving franchise and management fees.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The candidate accurately reflects the core franchise and fee-generative business model described in D01.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Management’s disciplined execution of a capital-light strategy that prioritizes significant free cash flow return to shareholders, including $1.3 billion in Q2 2018 share repurchases [D03].",
+          "document": "D03_latest_results.md",
+          "document_quote": "Hilton repurchased 18.5 million shares in Q2 for approximately $1.3 billion",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The driver explicitly links the capital-light strategy to the documented share repurchase activity.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "A durable growth runway supported by a global pipeline and ~6.5% net unit growth guidance, providing visibility into mid-teens EPS compounding [D03].",
+          "document": "D03_latest_results.md",
+          "document_quote": "Management projects approximately 6.5% net-unit growth for the year.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The driver captures the net-unit growth guidance cited in the source.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The market’s cyclical fear of a maturing travel cycle creates an attractive entry point for a dominant compounder currently trading at an adequate valuation [D05].",
+          "document": "D05_market_concerns.md",
+          "document_quote": "The bear case for Hilton is that the combination of a mature travel cycle... can constrain fee growth",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The driver correctly identifies the cyclical fear mentioned as a market concern in D05.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "none",
+      "primary_cause": "none"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "All four gold drivers are present and supported by the cited documentation.",
+      "drivers": [
+        {
+          "candidate_quote": "A capital-light franchise model that generates high-margin, recurring royalty-like fees with minimal maintenance capex [D01].",
+          "document": "D01_business_overview.md",
+          "document_quote": "The model is asset-light... receiving franchise and management fees.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The driver matches the asset-light, fee-generative description provided in D01.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Best-in-class net-unit growth of approximately 6.5% supported by a large, visible development pipeline of 362,000 rooms [D01, D03].",
+          "document": "D03_latest_results.md",
+          "document_quote": "Management projects approximately 6.5% net-unit growth for the year... The development pipeline reached 362,000 rooms",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The candidate correctly synthesizes the growth and pipeline figures from the documents.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Management’s disciplined capital allocation, focusing on returning substantial excess free cash flow to shareholders via aggressive buybacks [D03].",
+          "document": "D03_latest_results.md",
+          "document_quote": "It returned nearly $1.6 billion through July in buybacks and dividends.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The driver accurately identifies the capital return theme supported by D03.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The market misprices Hilton as a cyclical, leveraged hotel operator rather than a durable, high-quality compounder [D01, D05].",
+          "document": "D05_market_concerns.md",
+          "document_quote": "The bear case for Hilton is that the combination of a mature travel cycle, new supply and leverage can constrain fee growth",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The candidate correctly identifies the market's misperception relative to the bear case outlined in D05.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "none",
+      "primary_cause": "none"
+    }
+  ],
+  "semantic_leakage": []
+}

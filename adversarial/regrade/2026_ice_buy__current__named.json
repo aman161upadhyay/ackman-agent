@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate accurately identifies the core business drivers and correctly evaluates the competitive concerns regarding perpetual futures based on the provided documents. However, it fails to provide the specific historical comparative valuation data required in the fourth gold driver.",
+  "cause_evidence": "The candidate provides a current valuation multiple (17.7x) but fails to include the comparative historical context (25x) required to support the valuation re-rating thesis.",
+  "drivers": [
+    {
+      "candidate_quote": "ICE is a dominant market infrastructure franchise with significant network effects in clearing and energy derivatives",
+      "document": "D01_business_overview.md",
+      "document_quote": "Traders prefer venues where other participants already trade, while institutions value reliable execution, clearing and risk management. Integrated clearing can provide capital and margin efficiencies across positions.",
+      "evidence_supported": true,
+      "gold_driver": "Integrated exchange/clearing liquidity and margin-offset economics defend core franchises.",
+      "index": 1,
+      "reason": "The candidate captures the core causal claim that market infrastructure, network effects, and integrated clearing defend the franchise.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The company’s growth algorithm is supported by secular tailwinds in data services and the path to profitability in the mortgage technology segment",
+      "document": "D01_business_overview.md",
+      "document_quote": "Energy producers, commercial users and financial institutions need instruments suited to particular exposures, dates and settlement requirements.",
+      "evidence_supported": true,
+      "gold_driver": "Energy hedging, volatility and established institutional contract needs support growth.",
+      "index": 2,
+      "reason": "The candidate links growth to the business's foundational operations, while the document confirms the necessity of instruments for institutional hedging needs.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The market is currently overreacting to the potential impact of CFTC-approved perpetual crypto futures, which we believe will have a negligible long-term effect on ICE’s core, high-barrier businesses",
+      "document": "D05_market_worries.md",
+      "document_quote": "The serious bear case is lower future fees, transferred liquidity or a slower mortgage recovery, not an already-demonstrated collapse.",
+      "evidence_supported": true,
+      "gold_driver": "Perpetual-futures and AI fears overstate risk to the dominant profit pools; mortgage normalization is additional upside.",
+      "index": 3,
+      "reason": "The candidate correctly identifies that market fears are overstated relative to the core business durability, aligning with the document's assessment of competitive concerns.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "D04_price_and_valuation.md",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Approximately17x entry versus25x a year earlier plus capital return supports attractive prospective compounding.",
+      "index": 4,
+      "reason": "The candidate fails to identify the historical '25x' comparative valuation benchmark required by the gold driver.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "ii_pack_missing_fact",
+  "primary_cause": "ii_pack_missing_fact",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

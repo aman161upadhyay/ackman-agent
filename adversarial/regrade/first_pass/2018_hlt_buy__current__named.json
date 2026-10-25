@@ -1,0 +1,49 @@
+{
+  "audit_notes": "The audit confirms the candidate's drivers align with the gold criteria. All cited documents (D01, D03) are within the supplied content. No semantic leakage found as the candidate relies on publicly available information up to the cutoff date.",
+  "cause_evidence": "The candidate's causal account aligns with the gold drivers provided.",
+  "drivers": [
+    {
+      "candidate_quote": "Hilton Worldwide is a premier global hospitality company operating an asset-light, high-margin franchise and management system [D01].",
+      "document": "D01_business_overview.md",
+      "document_quote": "The remaining public company is more focused on management and franchise fees, although some owned and leased hotel operations remain.",
+      "evidence_supported": true,
+      "gold_driver": "Asset-light, high-margin franchise and management-fee economics.",
+      "index": 1,
+      "reason": "The candidate explicitly identifies the asset-light, high-margin franchise and management model, which is supported by D01 describing the focus on management and franchise fees.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Hilton maintains a significant competitive advantage through its global scale and the Hilton Honors loyalty platform, which drives consistent, recurring, royalty-like cash flows [D01].",
+      "document": "D01_business_overview.md",
+      "document_quote": "The network supports both sides of the platform. Owners seek occupancy, rates and guest acquisition; guests seek reliable brands, locations and recognition through Hilton Honors.",
+      "evidence_supported": true,
+      "gold_driver": "Brands, loyalty and distribution attract owners and guests.",
+      "index": 2,
+      "reason": "The candidate highlights the loyalty platform and competitive advantage; D01 confirms the platform serves owners and guests.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Best-in-class net-unit growth of approximately 6.5% supported by a large, visible development pipeline of 362,000 rooms [D01, D03].",
+      "document": "D03_latest_results.md",
+      "document_quote": "The development pipeline reached 362,000 rooms in more than 2,370 hotels across 105 countries/territories. ... Management projects approximately 6.5% net-unit growth for the year.",
+      "evidence_supported": true,
+      "gold_driver": "Net-unit growth and development pipeline support long-duration compounding.",
+      "index": 3,
+      "reason": "The candidate directly references net-unit growth and the pipeline, both supported by D03.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Under CEO Christopher Nassetta, the company has successfully optimized its balance sheet and structure to maximize long-term intrinsic value [D01, D03].",
+      "document": "D03_latest_results.md",
+      "document_quote": "It returned nearly $1.6 billion through July in buybacks and dividends.",
+      "evidence_supported": true,
+      "gold_driver": "Chris Nassetta's team and disciplined cash returns.",
+      "index": 4,
+      "reason": "The candidate identifies the CEO and management's role in capital returns, supported by the buyback and dividend data in D03.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "none",
+  "primary_cause": "none",
+  "semantic_leakage": []
+}

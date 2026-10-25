@@ -1,0 +1,60 @@
+{
+  "audit_notes": "Candidate drivers match the logic of the trimmed position but lack specific support from the post-cutoff gold driver sources. The candidate's internal IRR hurdle and 2019 underwriting multiple references align with the provided memo, but the gold drivers require specific quotes from a future presentation.",
+  "cause_evidence": "The candidate's decision is based on a specific internal 15% IRR threshold [L15], whereas the gold driver cites specific presentation metrics from a post-cutoff 2026-02-11 source.",
+  "drivers": [
+    {
+      "candidate_quote": "The valuation has reached a level where prospective returns likely fall below our 15% annual threshold, necessitating a reallocation to higher-return opportunities.",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "At the prevailing valuation, prospective returns no longer met the required return threshold.",
+      "index": 1,
+      "reason": "The candidate quote is present in the memo [L15], but no document explicitly provides evidence for this specific internal return threshold calculation; it is presented as a firm policy.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "This valuation is a material departure from the 23 times earnings multiple at which we initially underwrote the position in 2019",
+      "document": "D04_price_and_valuation.md",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Multiple expansion had realized a substantial part of the original value opportunity.",
+      "index": 2,
+      "reason": "The candidate correctly identifies multiple expansion, but the gold driver quotes a specific '20x to 32x' expansion from a document dated 2026-02-11 which is outside the provided source material/cutoff.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Hilton remains an exceptional, capital-light, free-cash-flow-generative business with durable growth prospects and a high-quality management team",
+      "document": "D00_original_thesis.md",
+      "document_quote": "Hilton an “incredible business that offers a unique combination of predictability, resiliency and capital light growth.”",
+      "evidence_supported": true,
+      "gold_driver": "The investment was successful rather than a business-quality reversal.",
+      "index": 3,
+      "reason": "The candidate asserts the business quality is intact while trimming based on valuation [L19].",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate relies on internal firm return thresholds and valuation calculations based on available data as of 2026-01-15, while the gold drivers reference specific content from a 2026-02-11 investor presentation not available at the cutoff date.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "Candidate C1 identifies as a 'long-term compounder' role [L73] but introduces a specific 8% NAV target [L77] and initiates at 22.1x trailing [L73] which matches the provided memo logic, but the reasoning process relies on speculative 2026 terminal multiple assumptions not derived from pack data [L73].",
+      "fix": "Focus exclusively on reported Q3 financials and management's provided capex guidance without assuming specific terminal multiple outcomes not in the pack.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "v"
+      ]
+    },
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "Candidate C2 uses identical core drivers to the answer key but includes specific language about 'building to an 8% core position' [L138] which oversteps the current-date constraint provided in the pack docs [L165].",
+      "fix": "Strictly adhere to the point-in-time nature of the snapshot and avoid framing future position building as part of the current-day decision.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "v"
+      ]
+    }
+  ],
+  "notes": "Both candidates perform well in identifying the T1 opportunity template and citing appropriate sources for the core business thesis. The primary divergence from the answer key lies in the candidates' tendency to project future capital allocation phases ('building to 8%') or terminal multiples that are not explicitly provided in the data pack's historical results or management guidance. They otherwise correctly capture the rationale for the Meta buy following the October 29 earnings event and subsequent market dislocation."
+}

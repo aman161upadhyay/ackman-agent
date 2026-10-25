@@ -1,0 +1,25 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "Candidate C1 identifies the departure of the prior CEO and traffic declines as key drivers [L40, L50] but proposes a TRIM rather than a SELL, despite the rules dictating SELL for a thesis change and loss of predictability in Era E [L106, S2 rule in L108]. The candidate incorrectly classifies the decision as S3 [L51] when the memo describes a fundamental thesis change regarding management transition [L50].",
+      "fix": "Reclassify the decision as SELL according to the S2 rule as established in the provided instructions [L108].",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "v"
+      ]
+    },
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "Candidate C2 proposes a TRIM instead of a SELL [L69], failing to execute the mandatory S2 rule for a thesis change despite noting that the management transition and traffic slowdown have compromised the near-term trajectory [L81]. The memo recognizes the risk but fails to reconcile it with the requirement to exit when predictability is reduced [L108].",
+      "fix": "Reclassify the decision as SELL to align with the S2 rule for loss of predictability in the business model [L108].",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "v"
+      ]
+    }
+  ],
+  "notes": "Both candidates C1 and C2 recognize the same business deterioration identified in the answer key, specifically the loss of predictability caused by management departure and traffic declines. However, both candidates erroneously choose TRIM (S3) instead of SELL (S2). Per the provided operating rules, a change in thesis or loss of predictability in the business model requires a SELL decision [L108, S2]. While the candidates acknowledge the shift, they fail to follow the strict directive to exit when forecasting confidence is impaired."
+}

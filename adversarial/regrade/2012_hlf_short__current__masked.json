@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate was evaluated based on the provided documents as of 2012-12-18. Several gold drivers rely on sources dated between 2015 and 2022, which constitutes knowledge outside the scope of the candidate's allowed information set.",
+  "cause_evidence": "The candidate relies on a preemptive short based on structural skepticism, whereas the gold driver includes retrospective assessments (2015/2018) regarding the insufficiency of fundamental analysis for this specific trade.",
+  "drivers": [
+    {
+      "candidate_quote": "The compensation incentives appear to drive a pyramid-like structure that is unsustainable and legally vulnerable [D01, D05].",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Alleged compensation primarily rewarded recruitment rather than genuine outside retail demand.",
+      "index": 1,
+      "reason": "The candidate asserts the compensation structure is a pyramid, but does not provide a specific document quote confirming the gold driver's claim that recruitment rewards exceed retail demand.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We have identified a lack of transparency and verifiable evidence regarding actual end-user consumption of products [D01, D05].",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Questioned distributor success claims, retail-sales measurement and losses borne by lower-level participants.",
+      "index": 2,
+      "reason": "The candidate questions retail visibility, but fails to reference specific evidence or quotes within the provided documents regarding distributor success claims or losses borne by lower-level participants.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Our decision is to initiate a short position, as the business model functions as a pyramid scheme that is highly susceptible to regulatory intervention [D01, D05].",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Expected regulatory shutdown or collapse to destroy equity value; this was Pershing's allegation, not an adjudicated fact.",
+      "index": 3,
+      "reason": "The candidate expresses an expectation of regulatory intervention, but does not provide a specific supporting quote from the documents confirming an adjudicated fact or the specific expectation of collapse.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Expected economic deterioration to validate the thesis, but later acknowledged fundamental analysis alone was insufficient for a viable short.",
+      "index": 4,
+      "reason": "The candidate does not mention that fundamental analysis alone is insufficient or that technical factors are required, which is a retrospective acknowledgment from the gold driver.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate's analysis is based on available evidence as of 2012-12-18, whereas several gold drivers reflect information or retrospective conclusions published significantly after the cutoff date.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

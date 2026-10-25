@@ -1,0 +1,15 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "The candidate concludes with 'hard-fail on current cash flow predictability' [L79], whereas the pack provides evidence of resilient streaming revenue [L98, L103] and explicitly notes Q1 cash outflows are due to timing and investment, not structural failure [L99, L100]. The model fails to reproduce the available evidence that high-quality compounders often face temporary cash-flow noise during growth investments [L100, L102].",
+      "fix": "Re-evaluate the predictability of the business model using the provided data on streaming growth and operating leverage rather than treating Q1 cash timing as a structural 'hard-fail'.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "ii"
+      ]
+    }
+  ],
+  "notes": "Candidate C1 correctly identifies the business quality and catalysts but erroneously labels a temporary working-capital outflow as a structural 'hard-fail' for a business they otherwise describe as a 'premier global music intellectual property business' [L79]. The candidate fails to execute the required judgment that UMG's streaming-driven growth supports a high-quality compounder thesis, instead treating temporary accounting figures as a terminal risk."
+}

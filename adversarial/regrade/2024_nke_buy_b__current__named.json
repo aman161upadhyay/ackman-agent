@@ -1,0 +1,75 @@
+{
+  "audit_notes": "Candidate drivers were assessed against the provided documents available as of the June 28, 2024 cutoff. Gold driver 4 references events occurring in September 2024 and March 2025 (retrospective annual report), which the candidate could not have known.",
+  "cause_evidence": "The candidate document is dated 2024-06-28, which precludes it from referencing the CEO transition occurring in September 2024.",
+  "drivers": [
+    {
+      "candidate_quote": "Nike remains one of the world's most dominant and recognizable consumer franchises, possessing a scale and brand equity that few competitors can replicate",
+      "document": "D01_business_overview.md",
+      "document_quote": "Scale is visible in revenue, athlete marketing and geographic distribution",
+      "evidence_supported": true,
+      "gold_driver": "Nike's global brand and scale remain valuable despite operational underperformance.",
+      "index": 1,
+      "reason": "The candidate asserts the brand's dominance and scale, while the document confirms the existence of these attributes.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "As management recalibrates its product development cycle and balances its direct-to-consumer strategy with a revitalized wholesale presence, we expect a return to mid-single-digit revenue growth",
+      "document": "D05_market_worries.md",
+      "document_quote": "The constructive scenario is that the brand, athlete relationships and global scale survive a period of execution errors, with wholesale repair and new products restoring demand.",
+      "evidence_supported": true,
+      "gold_driver": "Innovation and repair of wholesale distribution can restore demand.",
+      "index": 2,
+      "reason": "The candidate matches the causal link between innovation/wholesale repair and demand recovery claimed in the document.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "At a 20.2x P/E multiple, we are able to acquire a stake in a high-quality, globally dominant business at a discount to its historical premium",
+      "document": "D04_price_valuation.md",
+      "document_quote": "Conversely, a durable franchise with depressed earnings can look expensive on immediate profits while offering attractive long-term returns if repair succeeds.",
+      "evidence_supported": true,
+      "gold_driver": "Depressed profitability offers recovery potential.",
+      "index": 3,
+      "reason": "The candidate frames the entry valuation as an opportunity to benefit from future recovery, consistent with the document's logic on depressed earnings.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Elliott Hill's operating knowledge strengthens the management repair thesis after September appointment, not at initial purchase.",
+      "index": 4,
+      "reason": "The candidate memo was prepared as of 2024-06-28; the appointment of Elliott Hill (September 2024) is outside the knowledge scope of the candidate at the time of writing.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate lacked information on future management changes, which is a structural inevitability for a static source-constrained audit.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

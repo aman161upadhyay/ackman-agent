@@ -1,0 +1,60 @@
+{
+  "audit_notes": "The candidate utilized the provided context to justify its 'PASS' decision based on the firm's core investment principles (Pershing Square 3.0 focus on self-funding, predictable compounders). The citations appropriately link the qualitative assessment to the provided documents.",
+  "cause_evidence": "The candidate's causal account aligns with the gold drivers, focusing on the lack of free-cash-flow generation, dependency on external capital, and sensitivity to uncontrollable extrinsic market factors.",
+  "drivers": [
+    {
+      "candidate_quote": "We seek simple, predictable compounders, whereas this entity remains a capital-intensive platform dependent on debt to fund its operations",
+      "document": "D08_pershing_square_context.md",
+      "document_quote": "Equally, debt and equity issuance show that internally generated cash has not financed the full investment plan.",
+      "evidence_supported": true,
+      "gold_driver": "Negative operating cash, capacity spending and acquisition funding make survival/growth dependent on capital access rather than self-funding owner earnings.",
+      "index": 1,
+      "reason": "The candidate captures the dependency on capital access in the memo, and D08 explicitly confirms that operations are not self-financing.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "While the company has achieved rapid revenue growth, it fails to meet our fundamental investment criteria for a high-quality, free-cash-flow-generative business",
+      "document": "D01_business_overview.md",
+      "document_quote": "Those potential efficiencies are not yet proof of durable cash returns at the present scale.",
+      "evidence_supported": true,
+      "gold_driver": "Long-term unit economics and network returns are unproven; revenue growth or customer satisfaction is not predictable distributable cash.",
+      "index": 2,
+      "reason": "The candidate asserts revenue growth is insufficient for their quality criteria, which is supported by the document's statement regarding lack of proof for durable cash returns.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The business model is highly sensitive to consumer affordability and rising interest rates, exposing it to extrinsic factors we cannot control",
+      "document": "D05_market_worries.md",
+      "document_quote": "Higher vehicle prices and borrowing costs affect consumer affordability. Rising rates and widening credit spreads can also reduce the economics of selling originated loans.",
+      "evidence_supported": true,
+      "gold_driver": "Used-car values, consumer credit and securitization/funding spreads can dominate returns outside an activist's control.",
+      "index": 3,
+      "reason": "The candidate correctly identifies sensitivities to factors like interest rates and affordability, which D05 confirms can reduce business economics.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "None identified; the candidate successfully synthesized the investment thesis against the provided criteria.",
+  "primary_cause": "none",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

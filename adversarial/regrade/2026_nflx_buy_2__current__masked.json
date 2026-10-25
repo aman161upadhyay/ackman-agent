@@ -1,0 +1,82 @@
+{
+  "audit_notes": "The candidate correctly identifies key business elements like advertising and disciplined margins but fails to mirror the specific causal narrative requested in the gold drivers. The gold drivers reference an August 2026 source, which constitutes prohibited future knowledge relative to the April 20, 2026 as_of_date.",
+  "cause_evidence": "The candidate identifies governance as the primary source of market overreaction [L51] rather than the specific list of factors (engagement, AI, competition) cited in the gold driver.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Scale and competitive position had become sufficiently established to restore confidence after 2022.",
+      "index": 1,
+      "reason": "The candidate document does not explicitly claim that Netflix has won the streaming wars or that confidence is restored after 2022. It mentions the business meets high standards [L51], but lacks the specific causal attribution to the 2022 standard.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Content-spend discipline and stronger earnings-to-FCF conversion changed the underlying financial evidence.",
+      "index": 2,
+      "reason": "The candidate discusses disciplined margins [L51] and notes that content cash expenditure is a central comparison [L70], but does not make a causal claim that 'stronger earnings-to-FCF conversion' specifically changed the financial evidence to restore the investment thesis.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "the advertising revenue stream scales to become a larger, more predictable contributor to the company’s margin profile",
+      "document": "D01_business_overview.md",
+      "document_quote": "Netflix sells access to entertainment through recurring memberships, with advertising on lower-priced plans",
+      "evidence_supported": true,
+      "gold_driver": "Advertising broadens monetization and the lower-priced tier expands the addressable audience.",
+      "index": 3,
+      "reason": "The candidate explicitly notes the scaling of the advertising stream [L51] and the supporting document confirms the dual nature of memberships and advertising [L69].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "A large valuation reset overdiscounted engagement, AI-content and competitive concerns.",
+      "index": 4,
+      "reason": "The candidate notes the market 'overreacted to the company’s governance transition' [L51], but does not attribute the drawdown specifically to 'overdiscounting' engagement, AI, or competitive concerns.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate misidentifies the primary driver of market sentiment (governance transition vs. broader competitive/AI concerns) and lacks explicit causal links to the 2022 predictability threshold.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [
+    {
+      "confidence": "high",
+      "document": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf",
+      "quote": "effectively won the streaming wars",
+      "reason": "This document is dated August 2026, which is after the cutoff date of April 20, 2026."
+    }
+  ],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

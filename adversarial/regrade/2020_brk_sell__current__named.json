@@ -1,0 +1,60 @@
+{
+  "audit_notes": "The candidate memo is dated 2020-05-26, which matches the provided content [L5, L35]. The gold drivers rely on a May 27th source, which falls after the cutoff date [L64]; however, as a source-only judge, I have evaluated the candidate against the provided documents (D00-D09) which confirm the candidate did not include the specific causal claims found in the gold drivers.",
+  "cause_evidence": "The candidate concludes HOLD based on thesis integrity [L18], whereas the gold drivers are predicated on a sell decision driven by capital deployment nimbleness [L44, L50, L56].",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Pershing's smaller scale permits more nimble allocation than Berkshire.",
+      "index": 1,
+      "reason": "The candidate does not mention relative scale or nimbleness as a factor in its investment decision.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Berkshire faces a difficult task deploying its enormous cash pool.",
+      "index": 2,
+      "reason": "The candidate discusses Berkshire's cash as a source of optionality [D04] and commitment to financial strength [D04], rather than as a difficult deployment task.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Use flexibility while preserving liquidity for more attractive direct opportunities.",
+      "index": 3,
+      "reason": "The candidate's decision to hold is based on the thesis remaining intact [D10], not on a strategy of shifting to direct opportunities.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate fails to address the competitive capital allocation trade-offs explicitly mentioned in the gold drivers.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

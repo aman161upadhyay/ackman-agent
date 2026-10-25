@@ -1,0 +1,245 @@
+{
+ "label": "repeat__ctl_2021_baba_pass__masked__r1",
+ "pack": "ctl_2021_baba_pass",
+ "model": "replit-internal-current",
+ "mode": "new",
+ "as_of_date": "2021-07-30",
+ "company_label": "the Company",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates a broad digital-commerce ecosystem serving consumers, merchants, and enterprises, primarily through Chinese marketplaces [D01]. It also maintains initiatives in cloud computing, international commerce, and logistics [D01].",
+   "segments_and_mix": [
+    "China retail marketplaces: primary engagement drivers [D01]",
+    "Cloud computing, international commerce, and other initiatives: secondary growth areas [D01]"
+   ],
+   "unit_economics": [
+    "High FCF conversion indicated by operating cash flow of RMB 231.786 billion vs operating income of RMB 89.678 billion [D02]",
+    "Marketplaces earn fees and marketing revenue without owning inventory [D01]",
+    "Management plans substantial reinvestment of incremental profit into new businesses and strategic areas [D01][D02]"
+   ],
+   "competitive_position": [
+    "Dominant scale with approx. one billion annual active consumers globally [D01]",
+    "Moat evidence includes network effects, data, merchant relationships, and infrastructure [D01]",
+    "Operates in an environment with competition from other platforms and government authority over commercial practices [D01]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2021 revenue grew 41% reported, or 32% excluding Sun Art consolidation [D02]",
+    "Management guidance for FY2022 revenue is above RMB 930 billion [D02]"
+   ],
+   "balance_sheet": [
+    "Net cash position: Cash and short-term investments (RMB 473.638 billion) substantially exceed total bank borrowings and senior notes (RMB 149.153 billion) [D02]",
+    "Not an imminent-balance-sheet-insolvency case [D02]"
+   ],
+   "management_and_governance": [
+    "Governance involves a Cayman Islands holding company structure utilizing variable-interest-entity (VIE) arrangements for China operations [D01]",
+    "Capital allocation is focused on reinvestment in new businesses and strategic areas [D01][D02]"
+   ],
+   "price_and_valuation": [
+    "Price: US$195.19 (July 30, 2021) [D03]",
+    "Market cap: Approximately US$529.4 billion [D03]",
+    "Drawdown: Approximately 38.9% below observed high [D03]",
+    "P/E: 23.4x reported diluted ADS EPS (US$8.35) or 19.6x adjusted EPS (US$9.94) [D03]",
+    "FCF yield: Approximately 5.0% of indicative common value [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Regulatory and policy intervention affecting operating economics and shareholder rights [D01][D04]",
+    "Enforceability of VIE contracts and potential government restrictions on capital transfers [D01][D04]",
+    "Increased compliance costs and potential for future operating restrictions following antitrust fine [D02][D03][D04]"
+   ],
+   "recent_events": [
+    "March 2021: RMB 18.228 billion antitrust fine incurred [D02]",
+    "July 30, 2021: SEC chair statement regarding risks of offshore structures and government intervention [D01][D04]"
+   ],
+   "pershing_context": [
+    "Not in pack: current holding status or specific fund AUM allocation [D05]",
+    "Pershing Square investment framework prioritizes simple, predictable, FCF-generative businesses while avoiding enterprise values dominated by extrinsic factors that cannot be controlled [D05]"
+   ],
+   "missing_data": [
+    "Specific internal rate of return hurdles for new projects",
+    "Detailed breakdown of capital allocation spend for the upcoming fiscal year",
+    "Legal opinion on the enforceability of VIE structures under newly proposed regulations"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "The company generates high operating cash flow relative to operating income by taking fees and marketing revenue without owning inventory [D01][D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company holds a dominant market position with one billion active consumers, supported by network effects, data, and infrastructure [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business faces significant exposure to government intervention, policy shifts, and regulatory authority over its commercial practices and corporate structure [D01][D04]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong net cash position where cash and short-term investments significantly exceed total borrowings [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "With a large net cash position and strong FCF generation, the company does not depend on capital markets to fund operations [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The company has a market capitalization of approximately US$529.4 billion, providing sufficient liquidity [D03]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock trades at a 19.6x adjusted P/E and is down approximately 38.9% from its observed high [D03]."
+    },
+    "management_governance": {
+     "score": "FAIL",
+     "evidence": "The reliance on variable-interest-entity (VIE) structures creates significant governance risk regarding shareholder rights and enforceability [D01][D04]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company continues to demonstrate strong double-digit revenue growth and has identified secondary growth areas in cloud and international commerce [D01][D02]."
+    }
+   },
+   "n_pass": 7,
+   "n_fail": 2,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant, cash-generative digital ecosystem facing significant existential and governance risks due to its regulatory and VIE structure"
+  },
+  "gate2": {
+   "templates": [
+    "T1",
+    "T6"
+   ],
+   "variant_perception": "The market believes that increasing Chinese regulatory intervention and the instability of the VIE structure make the company uninvestable. We believe the market is overreacting to extrinsic factors and failing to account for the company's underlying dominant, cash-generative ecosystem and its ability to absorb compliance costs while maintaining long-term competitive advantages [D01][D03].",
+   "evidence": [
+    "Market price has drawn down 38.9% from highs despite continued double-digit revenue growth [D02][D03].",
+    "Company remains highly cash-generative with a massive net cash position exceeding borrowings, providing a buffer against regulatory fines [D02].",
+    "Regulatory actions, while aggressive, do not inherently destroy the network effects and data advantages of the core commerce marketplace [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The market views the regulatory landscape and VIE structure as an existential threat that permanently impairs intrinsic value [D01][D04].",
+   "what_must_be_true": [
+    "The government allows the business to continue operating as a commercial entity despite increased oversight.",
+    "The VIE structure is not completely invalidated by new legislation.",
+    "The core commerce marketplace retains its pricing power and user stickiness.",
+    "Capital allocation remains focused on business sustainability rather than state-directed value destruction."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "19.6x NTM adjusted EPS vs historical ranges (market implied) [D03]",
+   "eps_or_fcf_path": {
+    "base_year": "2021",
+    "base_value": "RMB 9.94 (Adjusted EPS)",
+    "growth_assumption": "Conservative 12% annual growth to reflect increased regulatory oversight and reinvestment phase",
+    "year_3_to_5_value": "RMB 15.65 (Year 4)",
+    "assumptions": [
+     "Revenue growth of 32-41% in current cycle [D02]",
+     "Management continues to prioritize reinvestment into new initiatives [D01][D02]",
+     "Core marketplace retains dominance despite antitrust fine [D01][D02]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 15,
+    "why": "Discounted from typical 20-25x due to heightened political/extrinsic risk and VIE structural uncertainty [D01][D04]"
+   },
+   "implied_irr_pct": {
+    "base": 18,
+    "bear": 5,
+    "bull": 25
+   },
+   "downside_case": "Permanent loss of value if the VIE structure is invalidated or the business is forced into a state-directed utility model. However, strong net cash position and massive scale provide a cushion against immediate insolvency [D02].",
+   "valuation_verdict": "ADEQUATE_15_20",
+   "flagged_assumptions": [
+    "Future earnings growth trajectory remains uncertain due to government intervention [D01]",
+    "Impact of compliance costs on long-term margins not quantified [D02]",
+    "VIE structure enforceability is unverified [D01]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We anticipate a market re-rating as the company continues to demonstrate strong double-digit revenue growth and maintains its dominant market position despite regulatory headlines [D01][D02]. The current 38.9% drawdown represents an overreaction to extrinsic factors that we believe will fade as the business proves its ability to absorb compliance costs while maintaining its core network effects [D01][D03].",
+   "levers_or_steps": [
+    "Continued reinvestment into cloud and international commerce to sustain double-digit revenue growth [D01][D02]",
+    "Utilization of the massive net cash position (RMB 473.638 billion) to provide a buffer against regulatory fines and maintain business stability [D02]",
+    "Focus on maintaining core marketplace dominance and user stickiness despite heightened oversight [D01]"
+   ],
+   "time_to_value_realisation_years": 4,
+   "why_this_role_fits_the_era": "In our Pershing Square 3.0 era, we look for quality compounders bought on dislocations. As the business faces significant extrinsic regulatory risks that we cannot control, we avoid public activism or control roles. We treat this as a compounding opportunity where we rely on the underlying strength of the ecosystem and the market's eventual realization that the company remains a dominant, cash-generative franchise [D01][D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "The Chinese government takes direct equity control of the VIE entities, rendering the economic interest of offshore shareholders void.",
+    "The core commerce marketplace is split or forced into a utility model that structurally limits fee-taking ability.",
+    "Management abandons the capital-light ecosystem model to pursue government-mandated, low-return infrastructure projects.",
+    "A sustained deterioration in active consumer base or merchant retention occurs due to competitive or regulatory pressures."
+   ],
+   "portfolio_fit": "This investment introduces significant geopolitical and VIE-related structural risk not present in our current North American-centric quality compounder book, necessitating a smaller initial position until regulatory clarity improves.",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 7
+   },
+   "liquidity_assessment": "The company has a massive market capitalization of US$529.4 billion and high daily trading volume, allowing for full position entry within weeks without market impact [D03].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that the regulatory environment and the inherent instability of the VIE structure lead to a permanent impairment of shareholder rights and economic capture."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-07-30",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "19.6x NTM adjusted EPS",
+   "eps_path": "12% CAGR over 4 years",
+   "terminal_multiple": "15x",
+   "irr_pct": 18,
+   "downside_case": "Permanent impairment of VIE structure or utility-like regulation."
+  },
+  "drivers": [
+   {
+    "driver": "A dominant, capital-light digital ecosystem serving one billion active consumers with high barriers to entry via network effects [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Exceptional free-cash-flow generation, evidenced by operating cash flow of RMB 231.786 billion significantly exceeding operating income [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "Significant market dislocation with the stock trading at a 19.6x adjusted P/E following a 38.9% drawdown [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "A fortress balance sheet with net cash of RMB 473.638 billion, providing a substantial buffer against regulatory fines and operational headwinds [D02].",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "The Chinese government takes direct equity control of the VIE entities, rendering the economic interest of offshore shareholders void.",
+   "The core commerce marketplace is split or forced into a utility model that structurally limits fee-taking ability.",
+   "Management abandons the capital-light ecosystem model to pursue government-mandated, low-return infrastructure projects.",
+   "A sustained deterioration in active consumer base or merchant retention occurs due to competitive or regulatory pressures."
+  ],
+  "what_would_change_our_mind": "Evidence of systemic government seizure of shareholder economic rights or a forced structural breakdown of the core marketplace's ability to generate fees.",
+  "memo": "The Company operates a dominant digital-commerce ecosystem that serves approximately one billion active consumers, creating an unrivaled network effect that serves as a profound barrier to entry [D01]. As a capital-light franchisor, it generates significant free cash flow by capturing fees and marketing revenue without the burden of inventory ownership, meeting our standard for a high-quality, predictable business [D01][D02].\n\nWe believe the current opportunity exists because the market is overreacting to regulatory headlines and the perceived instability of the VIE structure [D01][D03]. While the regulatory environment is challenging, these extrinsic factors do not impair the underlying competitive advantages or the core utility of the marketplace to merchants and consumers [D01]. The market has failed to account for the business's massive scale and ability to navigate increased compliance costs [D01][D03].\n\nAt a 19.6x adjusted P/E, we are acquiring a dominant franchise at an attractive valuation relative to its historical performance and long-term growth prospects [D03]. Assuming a conservative 12% growth rate in adjusted EPS and a compressed terminal multiple of 15x to account for geopolitical risk, we expect an IRR in the range of 18% [D03].\n\nThe company's massive net cash position of RMB 473.638 billion acts as a critical lever, providing a significant buffer to absorb fines and fund ongoing strategic reinvestment in cloud and international commerce [D01][D02]. We anticipate a re-rating as the market recognizes the persistence of the company's double-digit revenue growth and its resilience to the recent regulatory cycle [D01][D02].\n\nRisks remain significant, particularly regarding the enforceability of the VIE structure and the potential for state intervention [D01][D04]. Should the government invalidate our economic interest or force the business into a utility model, our thesis would be invalidated [D01].\n\nGiven the geopolitical uncertainty, we are initiating a position at 2% of NAV with a target of 5%, as the high liquidity of this US$529.4 billion market-cap company allows us to scale our investment once we gain further clarity on the regulatory landscape [D03][D05].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

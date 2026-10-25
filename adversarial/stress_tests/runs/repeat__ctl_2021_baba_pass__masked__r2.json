@@ -1,0 +1,243 @@
+{
+ "label": "repeat__ctl_2021_baba_pass__masked__r2",
+ "pack": "ctl_2021_baba_pass",
+ "model": "replit-internal-current",
+ "mode": "new",
+ "as_of_date": "2021-07-30",
+ "company_label": "the Company",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Alithe Company operates a broad digital-commerce ecosystem serving consumers, merchants, and enterprises through marketplaces, cloud computing, and logistics [D01]. It functions as a platform that earns fees and marketing revenue by facilitating trade without owning all underlying merchandise [D01].",
+   "segments_and_mix": [
+    "China retail marketplaces: 811 million active consumers [D01]",
+    "Cloud computing, international commerce, and other initiatives: various initiatives [D01]"
+   ],
+   "unit_economics": [
+    "High cash generation; operating cash flow of RMB 231.786 billion in fiscal 2021 [D02]",
+    "Non-GAAP free cash flow of RMB 172.662 billion [D02]",
+    "Capital intensity varies by segment; commerce engine is established and cash-generative, while new businesses require ongoing reinvestment [D01, D02]"
+   ],
+   "competitive_position": [
+    "Network effects, data, merchant relationships, and infrastructure provide genuine competitive advantages [D01]",
+    "Dominant scale with approximately one billion annual active consumers globally [D01]"
+   ],
+   "growth_record_and_outlook": [
+    "Fiscal 2021 revenue of RMB 717.289 billion, growing 41% reported [D02]",
+    "Fiscal 2022 revenue guidance above RMB 930 billion [D02]",
+    "Growth outlook includes substantial planned reinvestment in new businesses, which may not produce proportional near-term EPS growth [D01, D02]"
+   ],
+   "balance_sheet": [
+    "Strong liquidity: cash and equivalents of RMB 321.262 billion and short-term investments of RMB 152.376 billion [D02]",
+    "Financial debt: RMB 41.941 billion in bank borrowings and RMB 107.212 billion in senior notes [D02]",
+    "Not an imminent-balance-sheet-insolvency case [D02]"
+   ],
+   "management_and_governance": [
+    "Operating through variable-interest-entity (VIE) arrangements for certain China operations [D01]",
+    "Management plans to use incremental profit for reinvestment [D02]"
+   ],
+   "price_and_valuation": [
+    "July 30 close: US$195.19 per ADS [D03]",
+    "Market cap: approximately US$529.4 billion [D03]",
+    "Drawdown: 38.9% below one-year high of US$319.32 [D03]",
+    "Valuation: 23.4x reported fiscal 2021 EPS; 19.6x adjusted EPS [D03]",
+    "FCF yield: approximately 5.0% of indicative common value [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Regulatory and policy intervention affecting operating economics and shareholder rights [D01, D04]",
+    "Enforceability of VIE structures and offshore holding vehicle risks [D01, D04]",
+    "Impact of antitrust fines and potential future operating restrictions [D02, D04]",
+    "Cybersecurity reviews and restrictions on offshore capital raising [D04]"
+   ],
+   "recent_events": [
+    "March 2021: RMB 18.228 billion antitrust fine [D02]",
+    "July 30, 2021: SEC chair statement on Chinese ADR risks and disclosure requirements [D04]",
+    "July 2021: Reports of new restrictions on Chinese IPOs [D04]"
+   ],
+   "pershing_context": [
+    "No existing stake found in pack [D05]",
+    "Preference for simple, predictable, free-cash-flow-generative businesses with durable advantages [D05]",
+    "Avoidance of enterprise values dominated by extrinsic factors that cannot be controlled [D05]"
+   ],
+   "missing_data": [
+    "Clear timetable for regulatory settlement",
+    "Assurance of enforceability of VIE structures for foreign shareholders",
+    "Confirmation of future distributable cash flow policies under new regulatory regime"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "While the core business is cash-generative, the unpredictable impact of government antitrust interventions and policy shifts creates meaningful uncertainty in forecasting future cash flows [D01, D02, D04]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company maintains dominant scale with approximately one billion active consumers, supported by strong network effects and infrastructure [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The investment thesis is currently hostage to unpredictable regulatory and policy interventions, including antitrust enforcement and VIE structure risks [D01, D04]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a robust balance sheet with over RMB 473 billion in cash and short-term investments against relatively modest financial debt [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "With significant cash reserves and strong operating cash flow, the company is not dependent on capital markets for funding [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of approximately US$529.4 billion, the company is highly liquid and suitable for a large position [D03]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "Trading at 19.6x adjusted EPS with a 38.9% drawdown from its one-year high, the valuation screen is attractive [D03]."
+    },
+    "management_governance": {
+     "score": "FAIL",
+     "evidence": "The reliance on VIE structures for foreign shareholders and the lack of clarity regarding regulatory settlement create significant governance risks [D01, D04]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The business operates a large commerce ecosystem with substantial opportunities for reinvestment in cloud and international initiatives [D01, D02]."
+    }
+   },
+   "n_pass": 6,
+   "n_fail": 3,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant digital-commerce ecosystem with high-quality unit economics currently impaired by insurmountable extrinsic regulatory and governance risks."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "variant_perception": "The market is currently pricing in a high probability of structural impairment to the company's business model due to regulatory intervention and the potential unenforceability of VIE structures [D01, D04]. We cannot definitively refute these risks or identify a specific catalyst that will resolve the regulatory uncertainty, meaning we lack the requisite conviction to label the drawdown as a temporary misunderstanding [D01, D04, D05].",
+   "evidence": [
+    "Antitrust fine of RMB 18.228 billion and ongoing regulatory scrutiny [D02]",
+    "Market uncertainty regarding VIE structure validity for offshore investors [D01, D04]",
+    "Heightened regulatory risks from SEC statements and potential offshore IPO restrictions [D04]"
+   ],
+   "market_narrative_we_disagree_with": "The market views the current regulatory environment as a permanent, existential threat to the company's ability to operate and its long-term viability as a public investment [D01, D04].",
+   "what_must_be_true": [
+    "Regulatory authorities must provide a clear framework for future operations that allows for historical profitability levels.",
+    "The legal enforceability of the VIE structure for foreign shareholders must be guaranteed by relevant authorities.",
+    "Operating restrictions must be limited to a scope that does not structurally diminish the core commerce ecosystem's competitive advantages."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "19.6x adjusted EPS [D03] vs S&P 500 estimated at ~21x [D05]",
+   "eps_or_fcf_path": {
+    "base_year": "2021",
+    "base_value": "RMB 172.662 billion FCF [D02]",
+    "growth_assumption": "High uncertainty due to regulatory reinvestment and political intervention [D01, D02]",
+    "year_3_to_5_value": "Not estimable [D01]",
+    "assumptions": [
+     "Regulatory framework remains stable enough to permit historical profitability levels [D05]",
+     "VIE structure remains enforceable [D05]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 12,
+    "why": "Reflects the heightened risk profile and potential for permanent impairment of the business model due to regulatory and VIE uncertainty."
+   },
+   "implied_irr_pct": {
+    "base": 0,
+    "bear": -50,
+    "bull": 15
+   },
+   "downside_case": "The VIE structure is deemed unenforceable, leading to a near-total loss of the equity investment for offshore shareholders.",
+   "valuation_verdict": "EXPENSIVE_BELOW_10",
+   "flagged_assumptions": [
+    "No reliable growth rate can be projected due to missing regulatory clarity [D01]",
+    "Future earnings power is subject to unknown regulatory impact [D01]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We are passing on this investment due to insurmountable regulatory and governance risks; therefore, there is no catalyst we are seeking [D01, D04].",
+   "levers_or_steps": [
+    "Not applicable given the PASS decision [D05]."
+   ],
+   "time_to_value_realisation_years": 0,
+   "why_this_role_fits_the_era": "In our Pershing Square 3.0 era, we prioritize businesses with limited exposure to extrinsic factors we cannot control; this company is currently hostage to government policy and structural governance risks, which violates our core investment mandate [D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent structural invalidation of the VIE arrangement by regulatory authorities [D01, D04]",
+    "Formal prohibition of offshore equity ownership in the company's core commerce entities [D04]",
+    "Operating restrictions that permanently impair the firm's ability to monetize its platform ecosystem [D01]"
+   ],
+   "portfolio_fit": "This investment would not fit our portfolio as we prioritize businesses with limited exposure to extrinsic factors we cannot control, whereas this company is currently hostage to government policy and structural governance risks [D05].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "liquidity_assessment": "Given the market capitalization of US$529.4 billion, the company is highly liquid and capable of supporting a large position [D03].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The investment is currently hostage to unpredictable regulatory and policy interventions, including antitrust enforcement and the potential unenforceability of VIE structures [D01, D04]."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-07-30",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "19.6x adjusted EPS [D03]",
+   "eps_path": "High uncertainty due to regulatory reinvestment and political intervention [D01, D02]",
+   "terminal_multiple": "12",
+   "irr_pct": 0,
+   "downside_case": "The VIE structure is deemed unenforceable, leading to a near-total loss of the equity investment for offshore shareholders [D01, D04]."
+  },
+  "drivers": [
+   {
+    "driver": "The business operates a dominant digital-commerce ecosystem with significant network effects and approximately one billion active consumers [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The firm maintains a robust balance sheet with over RMB 473 billion in cash and short-term investments [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "The investment thesis is compromised by unpredictable government antitrust interventions and policy shifts that create significant uncertainty [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The reliance on variable-interest-entity (VIE) structures creates governance risks regarding the enforceability of shareholder rights for foreign investors [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent structural invalidation of the VIE arrangement by regulatory authorities [D01, D04]",
+   "Formal prohibition of offshore equity ownership in the company's core commerce entities [D04]",
+   "Operating restrictions that permanently impair the firm's ability to monetize its platform ecosystem [D01]"
+  ],
+  "what_would_change_our_mind": "Regulatory authorities must provide a clear, permanent framework for operations, and the legal enforceability of the VIE structure for foreign shareholders must be guaranteed [D01, D04, D05].",
+  "memo": "The Company operates a dominant digital-commerce ecosystem, serving approximately one billion active consumers through its marketplaces, cloud computing, and logistics infrastructure [D01]. Historically, the business has generated massive free cash flow, reporting RMB 172.662 billion in fiscal 2021, and holds a strong balance sheet with over RMB 473 billion in cash and short-term investments [D02]. While it possesses the scale and network effects we admire, our investment mandate requires simple, predictable businesses free from extrinsic factors we cannot control [D01, D05].\n\nThe opportunity, which appears as a 38.9% drawdown from recent highs, is marred by mounting regulatory and policy interventions [D03, D04]. The market is currently pricing in existential risks, including antitrust fines and the potential for the structural invalidation of the variable-interest-entity (VIE) structures used by offshore investors [D01, D02, D04]. We cannot distinguish between a temporary market overreaction and a permanent impairment of the firm's business model, as we lack the ability to influence or predict the path of government policy [D01, D04, D05].\n\nGiven the lack of regulatory clarity, we cannot confidently project the earnings growth algorithm or an appropriate terminal multiple for this business [D01]. While the stock trades at 19.6x adjusted EPS, the risk of a near-total loss of equity value in the bear case—due to the potential unenforceability of the VIE structure—precludes us from viewing this as an attractive investment at current levels [D03, D04]. We do not invest in businesses where the governance model is fundamentally at odds with the rights of our investors [D01, D05].\n\nWe pass on this investment because it is hostage to extrinsic factors, specifically government policy and legal structure, which are outside of our control [D05]. Our process requires us to identify specific catalysts to unlock value, yet here, the regulatory environment is in flux with no clear resolution path [D01, D04]. Consequently, we have decided to avoid this exposure entirely, as the current risk profile is inconsistent with our standards for durable, high-quality compounding [D05].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

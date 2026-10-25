@@ -1,0 +1,49 @@
+{
+  "audit_notes": "The candidate followed the provided content constraints regarding the April 2nd cutoff date. Semantic presence for gold driver 3 is false because the candidate accurately identifies that a successor had not been named as of the cutoff date.",
+  "cause_evidence": "The candidate was prepared as of 2018-04-02 and correctly notes that the CEO succession is an open, unresolved process [L46, L68, L70].",
+  "drivers": [
+    {
+      "candidate_quote": "Lowe's is a dominant, free-cash-flow-generative home-improvement retailer that operates in a stable duopoly with high barriers to entry [D01].",
+      "document": "D01_business_overview.md",
+      "document_quote": "Lowe's is a large home-improvement retailer serving household and professional repair, renovation and maintenance demand.",
+      "evidence_supported": true,
+      "gold_driver": "Scaled home-improvement franchise with durable repair/renovation demand.",
+      "index": 1,
+      "reason": "The document confirms the company is a large home-improvement retailer serving repair and renovation demand, and the candidate explicitly cites the company's position.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We intend to advocate for a clear strategy focused on closing the margin gap and optimizing capital allocation [D01, D06].",
+      "document": "D01_business_overview.md",
+      "document_quote": "Operational improvement could involve availability, merchandising, supply chain, professional-customer service and labor productivity.",
+      "evidence_supported": true,
+      "gold_driver": "Close operating-margin and productivity gap to Home Depot through merchandising, inventory/supply chain, pro-customer service and expense execution.",
+      "index": 2,
+      "reason": "The candidate identifies closing the margin gap as a goal, and the document explicitly lists the mentioned levers (merchandising, supply chain, etc.) as analytical items for operational improvement.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Confidence in Marvin Ellison's relevant Home Depot experience and management upgrade; this was not yet public at April2 cutoff.",
+      "index": 3,
+      "reason": "The candidate states in their memo that the CEO search creates uncertainty and a successor has not yet been named [D05, D07].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "Despite generating $3.942 billion in free cash flow in 2017... We expect to achieve an attractive double-digit internal rate of return as the market re-rates the business toward a 20x multiple upon successful turnaround.",
+      "document": "D02_financial_snapshot.md",
+      "document_quote": "The release says FY2017 program repurchases totaled approximately $3.1 billion and dividends paid approximately $1.3 billion.",
+      "evidence_supported": true,
+      "gold_driver": "Cash generation and buybacks improve per-share value alongside operating repair.",
+      "index": 4,
+      "reason": "The document provides data on cash flow and buybacks, and the candidate links cash generation to the potential investment return.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate correctly identifies the margin gap and opportunity but acknowledges that the management change is a pending uncertainty rather than an assumed catalyst.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": []
+}

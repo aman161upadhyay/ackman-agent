@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The gold drivers rely on a document (dated 2026-08-13) that is outside the provided information set cutoff date of 2026-04-20 [L3]. Consequently, the candidate cannot be expected to match these drivers as they represent a retrospective explanation published after the cutoff. The candidate was evaluated only against the available documents D00-D08.",
+  "cause_evidence": "The candidate's stated drivers reflect a generic investment thesis ('dominant', 'predictable', 'disciplined') rather than the specific causal narrative requested by the gold drivers regarding the restoration of predictability after the 2022 exit.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Scale and competitive position had become sufficiently established to restore confidence after 2022.",
+      "index": 1,
+      "reason": "The candidate asserts Netflix is a 'dominant global streaming leader' [L47] but does not claim that scale or position have restored confidence relative to the 2022 exit criteria.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Content-spend discipline and stronger earnings-to-FCF conversion changed the underlying financial evidence.",
+      "index": 2,
+      "reason": "The candidate mentions 'disciplined content spend' [L47] and free-cash-flow-generative status [L47], but does not explicitly claim that these factors have changed or restored the financial evidence base as a driver for the decision.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Advertising broadens monetization and the lower-priced tier expands the addressable audience.",
+      "index": 3,
+      "reason": "The candidate notes Netflix 'successfully transitioned to an advertising-supported growth model' [L30], but does not make the specific causal claim that this broadens monetization or expands the addressable audience.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "A large valuation reset overdiscounted engagement, AI-content and competitive concerns.",
+      "index": 4,
+      "reason": "The candidate identifies a 'compelling entry point' [L30] due to a 29.3% drawdown, but does not state that the market has overdiscounted specific concerns like AI-content or engagement.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate failed to address the specific recovery of forecast certainty in the context of the 2022 Pershing Square exit [L65], instead providing a high-level summary of Netflix's current business profile.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

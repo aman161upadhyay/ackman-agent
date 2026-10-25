@@ -1,0 +1,15 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "C1 concludes that the HLF compensation structure constitutes an 'illegal pyramid scheme' and targets a 10% position size [L74]. The pack explicitly notes that this conclusion is an 'allegation, not an adjudicated fact' and that there is 'no adverse adjudication, planned regulator action or future activist allegation' as of the cut-off date [L16, L97].",
+      "fix": "The candidate should have maintained neutrality regarding the legality of the compensation structure, reflecting the uncertainty acknowledged by the pack, rather than assuming an imminent regulatory collapse as the basis for a high-conviction 10% short position.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "v"
+      ]
+    }
+  ],
+  "notes": "The candidate adopted a high-conviction short position based on an unverified thesis of regulatory illegality, failing to follow the provided pack's guidance that such outcomes were not adjudicated or pre-determined. The model's reasoning process significantly deviated from the cautious approach required by the available evidence."
+}

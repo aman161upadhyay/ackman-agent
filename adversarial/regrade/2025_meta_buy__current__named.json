@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The audit confirms the candidate's drivers reflect the information landscape as of November 3, 2025. Gold drivers are sourced from a February 2026 document, making direct semantic alignment difficult, but the candidate's core investment thesis and observations are supported by the provided November 2025 documentation.",
+  "cause_evidence": "The candidate's analysis is based on available data as of November 3, 2025, while the gold drivers are sourced from a February 2026 annual report. The candidate's investment rationale correctly synthesizes the contemporaneous market conditions and management guidance known at the time.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Entrenched audiences and advertising data create a durable network moat.",
+      "index": 1,
+      "reason": "The candidate document does not explicitly claim that audience/data creates a network moat, nor does it contain the gold driver's specific claim.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "The earnings path is supported by the core Family of Apps maintaining double-digit revenue growth while leveraging AI to enhance ad-targeting efficiency.",
+      "document": "D01_business_overview.md",
+      "document_quote": "Management says its AI investments are already improving recommendations and ads.",
+      "evidence_supported": true,
+      "gold_driver": "AI directly improves engagement, recommendations and monetization.",
+      "index": 2,
+      "reason": "The candidate makes a claim about leveraging AI to enhance ad-targeting efficiency, which is supported by D01.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The market is incorrectly punishing the shares due to temporary concerns over escalating AI-related capital expenditures.",
+      "document": "D05_market_worries.md",
+      "document_quote": "CNBC's Samantha Subin, October 30, reported Meta's worst one-day share performance since October 2022, with the shares down more than 11%. The article describes “skepticism about the payoff from its aggressive artificial intelligence spending plans” overshadowing strong results.",
+      "evidence_supported": true,
+      "gold_driver": "Capex fears created an attractive valuation that still includes substantial Reality Labs losses.",
+      "index": 3,
+      "reason": "The candidate correctly identifies that market punishment (valuation decline) resulted from capex fears, supported by D05.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "we view this as a temporary, necessary phase of investment to secure long-term competitive advantages in ad-targeting and operational efficiency",
+      "document": "D03_latest_results_and_guidance.md",
+      "document_quote": "Zuckerberg describes the strategy as aggressively front-loading capacity for optimistic AI timelines. His fallback is also explicit: “in the worst case, we would just slow building new infrastructure for some period while we grow into what we've built.”",
+      "evidence_supported": true,
+      "gold_driver": "Infrastructure and talent spending can be front-loaded while management retains expense flexibility.",
+      "index": 4,
+      "reason": "The candidate identifies the investment phase and the document supports the concepts of front-loading and management flexibility.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "none",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

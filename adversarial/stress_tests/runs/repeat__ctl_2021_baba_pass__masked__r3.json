@@ -1,0 +1,249 @@
+{
+ "label": "repeat__ctl_2021_baba_pass__masked__r3",
+ "pack": "ctl_2021_baba_pass",
+ "model": "replit-internal-current",
+ "mode": "new",
+ "as_of_date": "2021-07-30",
+ "company_label": "the Company",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Alithe Company operates a broad digital-commerce ecosystem serving consumers, merchants, and enterprises through marketplaces, cloud computing, and logistics [D01]. The business leverages network effects, data, and merchant relationships to maintain a dominant position in its markets [D01].",
+   "segments_and_mix": [
+    "China retail marketplaces: primary commerce engine [D01]",
+    "Cloud computing: growth initiative [D01]",
+    "International commerce and logistics: expansion initiatives [D01]"
+   ],
+   "unit_economics": [
+    "High FCF generation: RMB 172.662 billion issuer non-GAAP FCF in FY2021 [D02]",
+    "Business model: fee and marketing-based revenue with variable capital needs by segment [D01]",
+    "Pricing power: supported by scale and merchant selection [D01]"
+   ],
+   "competitive_position": [
+    "Moat: network effects, data, and established infrastructure [D01]",
+    "Status: dominant player in Chinese digital commerce [D01]",
+    "Risks: competition from other platforms and government authority over commercial practices [D01]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2021 revenue: 717.289 billion RMB, representing 41% reported growth [D02]",
+    "FY2022 guidance: management expects revenue above 930 billion RMB [D02]",
+    "Outlook: management plans to reinvest incremental profit into new businesses and strategic areas [D02]"
+   ],
+   "balance_sheet": [
+    "Financial debt: RMB 41.941 billion bank borrowings and RMB 107.212 billion senior notes [D02]",
+    "Liquidity: cash and short-term investments (RMB 473.638 billion combined) substantially exceed financial debts [D02]"
+   ],
+   "management_and_governance": [
+    "Structure: US investors hold ADSs in a Cayman Islands holding company with contractual VIE arrangements [D01]",
+    "Capital allocation: planned reinvestment in new businesses and merchants [D01][D02]",
+    "Governance risks: limited ability of offshore minority holders to influence regulatory/sovereign outcomes [D04][D05]"
+   ],
+   "price_and_valuation": [
+    "Price: US$195.19 (July 30, 2021) [D03]",
+    "Valuation: ~19.6x adjusted FY2021 EPS; ~23.4x reported [D03]",
+    "Drawdown: ~38.9% below one-year high of US$319.32 [D03]",
+    "FCF yield: ~5.0% based on issuer FCF and indicative market cap [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Regulatory/Policy: antitrust fine, cybersecurity reviews, and potential restrictions on offshore capital raising [D01][D04]",
+    "Structure: enforceability of VIE contracts and uncertainty regarding cash transfers to foreign ADS holders [D01][D04]",
+    "Profitability: potential impact of compliance costs and rapid reinvestment on near-term EPS growth [D04]"
+   ],
+   "recent_events": [
+    "March 2021: RMB 18.228 billion antitrust fine incurred [D02]",
+    "July 30, 2021: SEC chair issued statement on disclosures regarding offshore/VIE structures [D04]"
+   ],
+   "pershing_context": [
+    "Fund AUM: not in pack",
+    "Current holdings: not in pack",
+    "Existing stake: not in pack",
+    "Prior engagement: none mentioned [D05]"
+   ],
+   "missing_data": [
+    "Detailed segment-level profitability, normalized FCF reconciliation for foreign shareholders, and a stable regulatory outlook."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "The company generates high levels of free cash flow supported by a fee-based model and significant scale [D01][D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The business maintains a dominant position through powerful network effects, data advantages, and established infrastructure [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business is highly exposed to regulatory and sovereign authority over commercial practices, antitrust enforcement, and VIE structure viability [D01][D04]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong balance sheet where cash and short-term investments significantly exceed total financial debt [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "Strong liquidity and cash generation minimize the need for external financing [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The scale of the business, with over 700 billion RMB in annual revenue, is clearly of sufficient size [D02]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock trades at a 38.9% discount to its one-year high, reflecting a valuation of ~19.6x adjusted FY2021 EPS [D03]."
+    },
+    "management_governance": {
+     "score": "FAIL",
+     "evidence": "Offshore minority holders have limited ability to influence governance, and the VIE structure poses significant risks to foreign ADS holders [D01][D04][D05]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The business benefits from long-term tailwinds in digital commerce and cloud computing, with strong historical growth [D01][D02]."
+    }
+   },
+   "n_pass": 7,
+   "n_fail": 2,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant, free-cash-flow-generative digital ecosystem currently experiencing a valuation dislocation due to intense regulatory and structural uncertainties."
+  },
+  "gate2": {
+   "templates": [
+    "T1",
+    "T6"
+   ],
+   "variant_perception": "The market believes that regulatory intervention and the VIE structure create an uninvestable risk to intrinsic value, leading to a massive valuation haircut. We believe the fundamental franchise remains the dominant digital commerce engine in China, and the regulatory 'scare' is a transition to a new equilibrium that does not impair the long-term cash generation of the underlying business [D01][D02][D04]. The market is over-discounting the structural risk, whereas we see the policy changes as a regulatory reset that the company can absorb, with the current ~19.6x EPS valuation failing to reflect the company's long-term FCF growth potential [D03].",
+   "evidence": [
+    "Stock is down 38.9% from its one-year high, creating a valuation dislocation [D03].",
+    "Company maintains a dominant position through network effects and infrastructure despite regulatory scrutiny [D01].",
+    "Strong liquidity with cash and short-term investments far exceeding debt provides a buffer against temporary headwinds [D02].",
+    "Regulatory actions including the antitrust fine are discrete events that do not inherently destroy the business's core commerce and cloud utility [D01][D02][D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market views the regulatory crackdown and the VIE structure as existential threats that render the equity worthless or perpetually 'uninvestable' [D01][D04].",
+   "what_must_be_true": [
+    "The VIE structure remains legally or practically functional for cash flow distribution.",
+    "The regulatory 'new normal' does not fundamentally destroy the core commerce business model's profitability.",
+    "The company maintains its dominant market share despite increased compliance burdens.",
+    "No total prohibition on foreign investment in Chinese digital commerce platforms occurs."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "19.6x adjusted FY2021 EPS vs ~23-28x historical trading range and S&P 500 at ~21x [D03]",
+   "eps_or_fcf_path": {
+    "base_year": "2021",
+    "base_value": "FY2021 non-GAAP FCF RMB 172.662B [D02]",
+    "growth_assumption": "12% CAGR based on dominant ecosystem scale and cloud growth offset by regulatory reinvestment [D01][D02]",
+    "year_3_to_5_value": "RMB 242B to 270B by 2025/2026",
+    "assumptions": [
+     "Core commerce maintains dominant market share [D01]",
+     "Reinvestment cycle does not permanently impair margins [D02]",
+     "VIE structure remains functional for economic interest [D01]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 18,
+    "why": "Discounted for regulatory uncertainty and VIE governance risks, despite high cash generation"
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 30
+   },
+   "downside_case": "Permanent loss is possible if VIE structure is invalidated or regulatory intervention leads to material forced divestiture; however, net cash position provides significant floor value [D01][D02]",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "RMB/USD exchange rate stability",
+    "Assumed 12% growth rate based on management guidance of revenue growth",
+    "Regulatory environment reaching a new equilibrium"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We view this as a compounding_alone play where intrinsic value realization will occur as the regulatory \"new normal\" becomes established and the market regains confidence in the core business’s durable free-cash-flow growth. We anticipate a re-rating toward the historical 23-28x multiple range as the temporary regulatory overhang dissipates and the company's underlying dominant ecosystem continues to scale [D01][D02][D03].",
+   "levers_or_steps": [
+    "Continued execution in core commerce and cloud segments to sustain long-term FCF growth [D01][D02]",
+    "Absorption of compliance-related reinvestment cycles to normalize profit margins [D02]",
+    "Stabilization of the regulatory environment to remove the existential discount applied to the VIE structure [D01][D04]"
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our Pershing Square 3.0 era, we favor high-quality compounders purchased on dislocations. Given the company's dominant market position and the external nature of the regulatory scare, we act as passive, long-term owners waiting for the market to reconcile the valuation with the company's strong balance sheet and FCF generation, rather than pursuing public activism which is ineffective against sovereign regulatory policy [D01][D02][D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "A formal regulatory decree nullifying the contractual VIE structure or prohibiting foreign ownership of the platform.",
+    "Material loss of core market share to domestic competitors indicating a breakdown of the network effect moat.",
+    "Management permanently abandons the capital-light commerce model for heavy asset-intensive investments that impair long-term FCF margins.",
+    "Direct state intervention that prevents the repatriation or economic benefit of profits to the offshore holding company."
+   ],
+   "portfolio_fit": "This is a high-conviction, valuation-dislocation play on a dominant digital compounder. It represents a 'quality compounder' consistent with the Pershing Square 3.0 era, provided it does not cause excessive geographic concentration in China exposure within the existing 8-15 name portfolio.",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "liquidity_assessment": "The company is a mega-cap with high trading volume on the NYSE and HKEX, allowing for the accumulation of a core position over several weeks without significant market impact [D02].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is a regulatory or sovereign act that renders the VIE structure ineffective or prohibits foreign equity interest, permanently severing the link between the underlying cash flows and the ADS holder."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-07-30",
+  "company": "Alibaba Group Holding Limited",
+  "ticker": "BABA",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "19.6x adjusted FY2021 EPS",
+   "eps_path": "12% CAGR based on dominant ecosystem scale and cloud growth",
+   "terminal_multiple": "18x",
+   "irr_pct": 22,
+   "downside_case": "Permanent loss if VIE structure is invalidated or material forced divestiture occurs"
+  },
+  "drivers": [
+   {
+    "driver": "The company operates a dominant, free-cash-flow-generative digital ecosystem with powerful network effects and significant data advantages [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The stock trades at a 38.9% discount to its one-year high, creating a valuation dislocation at ~19.6x adjusted FY2021 EPS [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The company maintains a strong balance sheet with cash and short-term investments that significantly exceed total financial debt, providing a buffer against temporary headwinds [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "We believe the regulatory 'scare' represents a transition to a new equilibrium that does not impair the long-term cash generation of the core business [D01][D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "A formal regulatory decree nullifying the contractual VIE structure or prohibiting foreign ownership of the platform.",
+   "Material loss of core market share to domestic competitors indicating a breakdown of the network effect moat.",
+   "Management permanently abandons the capital-light commerce model for heavy asset-intensive investments that impair long-term FCF margins.",
+   "Direct state intervention that prevents the repatriation or economic benefit of profits to the offshore holding company."
+  ],
+  "what_would_change_our_mind": "A formal regulatory or sovereign action that permanently severs the economic link between the underlying business cash flows and the offshore ADS holder, or clear evidence that the regulatory reset has permanently eroded the competitive moat and long-term FCF growth potential.",
+  "memo": "Alibaba is a dominant, free-cash-flow-generative digital ecosystem serving as the essential infrastructure for commerce and cloud computing in China [D01]. With RMB 172.662 billion in non-GAAP FCF in FY2021, the business demonstrates the scale and predictable economics we seek in our quality compounders [D02]. The company leverages deep network effects and data advantages to maintain its leadership position, ensuring durable growth despite current regulatory scrutiny [D01].\n\nThe current opportunity arises from a profound market dislocation, with the stock trading 38.9% below its one-year high [D03]. The market has conflated regulatory compliance and antitrust fines with an existential threat to the underlying business model [D01][D04]. We believe these discrete regulatory events represent a reset toward a new policy equilibrium rather than a destruction of the firm's core economic value [D01][D04].\n\nWe were able to acquire our stake at approximately 19.6x adjusted FY2021 EPS, a significant discount to historical averages [D03]. With a projected 12% CAGR in FCF and a robust balance sheet featuring RMB 473.638 billion in cash and short-term investments, we expect to see an attractive IRR as the regulatory overhang dissipates and the company continues to scale [D02][D03]. We anticipate a re-rating toward the historical 23-28x multiple as market confidence recovers [D03].\n\nAs passive, long-term owners, our role is to remain disciplined through the current reinvestment cycle while the company absorbs necessary compliance costs [D02][D04]. We do not view active intervention as productive given the sovereign nature of the regulatory environment [D05]. Our focus remains on the continued execution of the commerce and cloud segments to drive long-term intrinsic value [D01].\n\nThe primary risks involve the VIE structure and sovereign intervention [D01][D04]. We have established clear kill criteria, including any formal nullification of the VIE or a permanent prohibition on foreign investment, which would trigger an immediate exit [D04].\n\nWe are initiating a 5% position in the portfolio, reflecting our high conviction in the business quality and the margin of safety provided by the current valuation [D02][D03]. This sizing allows for potential expansion if our thesis is validated while maintaining appropriate exposure to the Chinese market [D02].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

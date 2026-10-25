@@ -1,0 +1,27 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "medium",
+      "evidence": "The candidate incorrectly cites D01 and D03 to assert the company is already demonstrating consistent profitability sufficient to justify an immediate 5% position. However, D02 explicitly warns that headline profits are skewed by accounting releases (deferred tax benefit) and net income attributable to common is negative [D02].",
+      "fix": "The memo needs to reconcile the distinction between 'enterprise profit' which is swept to the Treasury and 'distributable common equity profit' which does not currently exist [D01, D02, D04].",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "Pack lacks the decisive fact",
+        "Genuine judgment/private-process difference"
+      ]
+    },
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "The candidate assumes a specific terminal multiple of 8x [D140], which is not derived from provided data or a standard comparable table. Furthermore, the candidate treats the investment as a 5% position [D137] while the pack states no such disclosure of an Ackman position exists [D08].",
+      "fix": "Remove speculative multiples not supported by the pack and acknowledge the lack of contemporaneous public disclosure [D08].",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "Pack lacks the decisive fact",
+        "Answer-key/grader problem"
+      ]
+    }
+  ],
+  "notes": "Both candidates identify the opportunity template T6 (Political/regulatory optionality), but both fail to adhere strictly to the constraint of relying only on pack data by inventing future outcomes or missing the nuances of the capital waterfall described in D02 and D04. The candidates demonstrate a tendency to treat the GSE recovery as an operational turnaround (T2) rather than the highly constrained, event-dependent situation required by the rules."
+}

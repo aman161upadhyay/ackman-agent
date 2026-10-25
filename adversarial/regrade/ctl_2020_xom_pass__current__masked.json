@@ -1,0 +1,60 @@
+{
+  "audit_notes": "The candidate's analysis aligns with the primary themes of the gold drivers but fails to provide a quote matching the specific requirement for capital market independence in the third driver.",
+  "cause_evidence": "The candidate successfully captures the fundamental rejection of the business model but fails to explicitly mirror the specific wording or conceptual framing of the third gold driver regarding capital market independence.",
+  "drivers": [
+    {
+      "candidate_quote": "Performance is fundamentally tied to volatile global commodity cycles, creating excessive exposure to extrinsic factors we cannot control",
+      "document": "D01_business_overview.md",
+      "document_quote": "It does not remove the influence of commodity prices and industry supply/demand.",
+      "evidence_supported": true,
+      "gold_driver": "Commodity prices and refining/chemical margins dominate normalized value and cannot be controlled through operating activism.",
+      "index": 1,
+      "reason": "The candidate identifies the business's dependence on commodity cycles as an uncontrollable extrinsic factor [L23], and D01 confirms that upstream, downstream, and chemical business earnings are explicitly dependent on these factors.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Operating cash flow is consistently insufficient to cover heavy capital expenditure requirements and dividend payments",
+      "document": "D02_financial_snapshot.md",
+      "document_quote": "Operating cash exceeds dividends before investment, but leaves little to fund billions of capital requirements.",
+      "evidence_supported": true,
+      "gold_driver": "A double-digit indicated dividend does not establish predictable FCF after sustaining investment. Coverage requires uncertain recovery and/or financing/spending changes.",
+      "index": 2,
+      "reason": "The candidate correctly identifies that FCF is insufficient for dividends and capex [L30], supported by D02's data showing that first-nine-month dividends exceeded operating cash flow [L65].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Stress the ability to fund distributions and investment without favorable capital markets rather than capitalize an uncovered dividend as a permanent yield.",
+      "index": 3,
+      "reason": "The candidate does not explicitly state the necessity of funding operations without capital market access; it merely notes the current necessity of external financing to sustain operations [L47].",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate lacks a specific articulation of the requirement for the business to be independent of external capital markets for its survival and growth.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

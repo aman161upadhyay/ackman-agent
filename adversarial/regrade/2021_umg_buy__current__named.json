@@ -1,0 +1,90 @@
+{
+  "audit_notes": "The candidate maintains strict adherence to the provided documents and cutoff date.",
+  "cause_evidence": "The candidate accurately extracts and synthesizes the investment thesis from the provided documents.",
+  "drivers": [
+    {
+      "candidate_quote": "Universal Music Group is the dominant global leader in music, boasting an extensive, high-quality catalog and a capital-light business model that serves as a royalty-like engine for the digital age",
+      "document": "D01_business_overview.md",
+      "document_quote": "Universal Music Group is a leading global recorded-music and music-publishing business within Vivendi. Its economics derive from developing artists, owning/licensing recordings and compositions, and monetizing consumption across physical, digital, performance and other channels.",
+      "evidence_supported": true,
+      "gold_driver": "Leading global music-rights/catalog platform acts as a royalty on growing consumption.",
+      "index": 1,
+      "reason": "The candidate accurately captures the platform's role as a rights holder that monetizes consumption.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "With 443 million paid subscribers globally at the end of 2020, UMG is uniquely positioned to benefit from the ongoing expansion of the music ecosystem",
+      "document": "D01_business_overview.md",
+      "document_quote": "IFPI reports 443 million users of paid subscription accounts at the end of 2020, with subscription streaming revenue up 18.5%. Penetration and improved monetization can expand the industry",
+      "evidence_supported": true,
+      "gold_driver": "Paid streaming penetration and improved monetization offer a long runway.",
+      "index": 2,
+      "reason": "The candidate correctly links the subscriber base and industry expansion to the growth runway.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The business operates a high-margin, capital-light model that acts as a global royalty stream, directly benefiting from the secular growth of music streaming",
+      "document": "D01_business_overview.md",
+      "document_quote": "Existing catalogs can be licensed repeatedly without manufacturing a new physical product for every listen. That provides attractive incremental economics.",
+      "evidence_supported": true,
+      "gold_driver": "Repeat licensing, scale and operating leverage support capital-light cash growth.",
+      "index": 3,
+      "reason": "The candidate recognizes the repeat-licensing economics inherent in the capital-light catalog model.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Management, led by Lucian Grainge, has demonstrated a strong record of scaling the business and navigating the transition to digital",
+      "document": "D01_business_overview.md",
+      "document_quote": "Lucian Grainge leads UMG. The recorded-music platform includes prominent artists and a deep catalog",
+      "evidence_supported": true,
+      "gold_driver": "Lucian Grainge and patient ownership align with long-duration compounding.",
+      "index": 4,
+      "reason": "The candidate correctly attributes the business's scaling success to Grainge's leadership.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The pending spin-off is the catalyst required to unlock this value, as it will eliminate the parent company overhang and alleviate technical selling pressure",
+      "document": "D01_business_overview.md",
+      "document_quote": "Vivendi proposes distributing 60% of the equity and listing the company in Amsterdam by September 27 at the latest",
+      "evidence_supported": true,
+      "gold_driver": "Negotiated pre-listing ownership and separation can unlock independent valuation.",
+      "index": 5,
+      "reason": "The candidate identifies the separation catalyst as the mechanism for unlocking value.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "none",
+  "primary_cause": "none",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 5,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

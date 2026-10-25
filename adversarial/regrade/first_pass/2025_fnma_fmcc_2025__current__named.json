@@ -1,0 +1,59 @@
+{
+  "audit_notes": "The candidate memo is largely consistent with the overall thesis but fails to capture several specific, load-bearing drivers explicitly required for a complete semantic match.",
+  "cause_evidence": "The candidate provides a generalized overview of the thesis but omits specific mechanistic details required by the gold drivers, such as the specific credit proposal for senior preferred repayments (index 2) or the role of warrant exercise (index 4).",
+  "drivers": [
+    {
+      "candidate_quote": "the incoming administration offers a plausible path toward exiting conservatorship",
+      "document": "D08_pershing_context.md",
+      "document_quote": "the incoming administration offers a plausible path toward exiting conservatorship",
+      "evidence_supported": true,
+      "gold_driver": "A second Trump administration creates a credible near-term path to release.",
+      "index": 1,
+      "reason": "The candidate identifies the incoming administration as the source of a plausible path to exiting conservatorship, matching the gold driver's causal claim.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Credit prior distributions toward repayment of senior preferred rather than leave an unlimited senior claim.",
+      "index": 2,
+      "reason": "The candidate memo does not explicitly discuss the technical proposal to credit past distributions toward the repayment of the senior preferred stock.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "The underlying guarantee businesses continue to prove their necessity and have successfully accumulated significant capital, strengthening the platform for a eventual recapitalization",
+      "document": "D08_pershing_context.md",
+      "document_quote": "The underlying guarantee businesses continue to prove their necessity and have successfully accumulated significant capital, strengthening the platform for a eventual recapitalization",
+      "evidence_supported": true,
+      "gold_driver": "Retained capital and earnings support recapitalization with manageable new issuance under the proposed2.5%standard.",
+      "index": 3,
+      "reason": "The candidate supports the claim that accumulated capital strengthens the platform for recapitalization.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Full Treasury warrant exercise aligns taxpayer proceeds with a successful offering.",
+      "index": 4,
+      "reason": "The candidate does not mention the Treasury warrants or their role in aligning taxpayer proceeds.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "we believe the gap between current prices and our estimated intrinsic value in a successful scenario remains sufficiently wide to justify maintaining our position... shareholders should limit their exposure to what they can afford to lose",
+      "document": "D08_pershing_context.md",
+      "document_quote": "we believe the gap between current prices and our estimated intrinsic value in a successful scenario remains sufficiently wide to justify maintaining our position... As we have cautioned, this remains a situation where shareholders should limit their exposure to what they can afford to lose",
+      "evidence_supported": true,
+      "gold_driver": "Large conditional valuation upside remains despite rally, while outcome uncertainty requires limited exposure.",
+      "index": 5,
+      "reason": "The candidate explicitly notes the gap to intrinsic value despite the rally and advises limiting exposure due to uncertainty.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate memo focuses on qualitative high-level arguments rather than providing the specific, load-bearing mechanical causal steps defined in the gold drivers.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": []
+}

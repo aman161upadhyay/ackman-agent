@@ -1,0 +1,64 @@
+{
+  "audit_notes": "The candidate's analysis aligns with the source documents. The candidate correctly identifies that historical pandemic-related earnings provide an unreliable basis for valuation and that the company's long-term prospects are subject to significant execution risks.",
+  "cause_evidence": "The candidate accurately identifies the core investment challenges, specifically the lack of predictability in free cash flow, the risks associated with the Seagen acquisition, and the uncertainty of pipeline success.",
+  "drivers": [
+    {
+      "candidate_quote": "The company does not fit our 3.0 framework for simple, predictable compounders, as it represents a complex, highly-leveraged turnaround situation with significant execution risk [D01, D02, D04].",
+      "document": "D05_market_worries.md",
+      "document_quote": "Reduced demand, expected government returns and inventory charges make past sales a poor guide to future cash.",
+      "evidence_supported": true,
+      "gold_driver": "Exceptional COVID profits, return/inventory effects and the replacement-product task prevent the old10x screen from establishing a predictable recurring owner-cash base.",
+      "index": 1,
+      "reason": "The candidate identifies the business is not a simple, predictable compounder due to the complexity and risks discussed in the documentation, mirroring the gold driver.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The Company is a diversified pharmaceutical firm that researches, develops, manufactures, and markets medicines and vaccines [D01]. ... The primary risk is that the combination of high debt leverage from the Seagen acquisition and the underlying difficulty of replacing a maturing pharmaceutical product portfolio creates a risk of permanent capital impairment [D02, D04].",
+      "document": "D05_market_worries.md",
+      "document_quote": "The bull case includes non-COVID growth, a diversified approved portfolio, manufacturing/commercial scale and new launches. ... The proposed Seagen transaction offers oncology growth and technical capabilities, but costs approximatelyUS$43 billion. Management's projected risk-adjusted2030 revenue is a forecast subject to clinical, regulatory and commercial success.",
+      "evidence_supported": true,
+      "gold_driver": "A diversified approved portfolio is valuable counterevidence, but long-term pipeline/commercial and Seagen acquisition returns still need independently conservative probabilities before concentrated ownership.",
+      "index": 2,
+      "reason": "The candidate acknowledges the diversification while highlighting the risks of acquisition leverage and portfolio replacement, consistent with the gold driver.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "An engaged shareholder could influence costs and capital allocation but cannot guarantee scientific results, approvals, competitive entry or commercial demand. Expected savings and pipeline revenues should therefore be probability-weighted and stressed rather than treated as a certain activist catalyst.",
+      "document": "D08_pershing_square_context.md",
+      "document_quote": "An engaged shareholder could influence costs and capital allocation but cannot guarantee scientific results, approvals, competitive entry or commercial demand.",
+      "evidence_supported": true,
+      "gold_driver": "Scientific, regulatory and demand outcomes cannot be guaranteed through activism; an announced cost program and dividend do not bound those economics.",
+      "index": 3,
+      "reason": "The candidate explicitly notes the limits of activism regarding scientific and commercial outcomes, aligning with the gold driver.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate correctly assesses that the company's current status as a levered turnaround candidate does not meet the criteria for a predictable compounder.",
+  "primary_cause": "none",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [
+      "candidate quote 2",
+      "document quote 2",
+      "candidate quote 3"
+    ],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

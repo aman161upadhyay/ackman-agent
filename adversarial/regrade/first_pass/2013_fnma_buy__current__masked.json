@@ -1,0 +1,49 @@
+{
+  "audit_notes": "The candidate correctly identifies the investment as an asymmetric bet on the normalization of GSEs based on available 2013 facts. The gold drivers reference documents dated 2014, 2015, and 2025, which contain hindsight that was not available at the as-of-date (2013-10-31). The candidate adhered to the cutoff constraints.",
+  "cause_evidence": "The candidate is a contemporaneous internal memo from 2013-10-31, whereas the gold drivers include extensive retrospective documentation and 2025-dated projections not available at the time of the investment.",
+  "drivers": [
+    {
+      "candidate_quote": "Fannie Mae is a dominant, essential pillar of the American housing market, providing the scale and infrastructure necessary for liquid mortgage issuance",
+      "document": "memo",
+      "document_quote": "Fannie Mae is a dominant, essential pillar of the American housing market, providing the scale and infrastructure necessary for liquid mortgage issuance",
+      "evidence_supported": true,
+      "gold_driver": "Essential guarantee infrastructure and the prepayable30-year fixed mortgage cannot readily be replaced.",
+      "index": 1,
+      "reason": "The candidate explicitly identifies the company as an essential infrastructure provider for liquid mortgage issuance [L46].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We believe the market is wrong to ignore the significant legal and political tension currently building, which provides a meaningful, if binary, opportunity for the restoration of shareholder rights",
+      "document": "memo",
+      "document_quote": "We believe the market is wrong to ignore the significant legal and political tension currently building, which provides a meaningful, if binary, opportunity for the restoration of shareholder rights",
+      "evidence_supported": true,
+      "gold_driver": "Challenge the sweep and restore a route from enterprise profits to shareholder value; this is Ackman's position, not a final legal holding.",
+      "index": 2,
+      "reason": "The candidate identifies the opportunity to restore shareholder rights through legal/political tension [L46] and explicitly supports legal challenges [L46].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The Treasury warrant can create potential alignment with common appreciation, but Treasury also receives the senior dividend and can prioritize taxpayer recovery or policy.",
+      "document": "D05_political_and_market_worries.md",
+      "document_quote": "The Treasury warrant can create potential alignment with common appreciation, but Treasury also receives the senior dividend and can prioritize taxpayer recovery or policy.",
+      "evidence_supported": true,
+      "gold_driver": "Recapitalize and eventually release the enterprises; Treasury warrant ownership could align taxpayer upside with common.",
+      "index": 3,
+      "reason": "The candidate discusses the alignment potential of the Treasury warrant [L67].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Today, the market has mispriced this asset as having zero value, operating under the assumption that the government’s current trajectory will inevitably lead to a total wipeout of common equity",
+      "document": "memo",
+      "document_quote": "Today, the market has mispriced this asset as having zero value, operating under the assumption that the government’s current trajectory will inevitably lead to a total wipeout of common equity",
+      "evidence_supported": true,
+      "gold_driver": "Large potential valuation gap conditional on capital structure and policy; later2014 US$23–47 scenarios must not be imported as2013 prices or realized returns.",
+      "index": 4,
+      "reason": "The candidate recognizes the valuation discrepancy (market mispricing the asset as having zero value) [L46].",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate successfully captures the core thesis of the investment at the time of entry (October 2013) without relying on later retrospective analysis or post-dated model scenarios.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": []
+}

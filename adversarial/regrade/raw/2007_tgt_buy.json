@@ -1,0 +1,94 @@
+{
+  "audit_notes": "Candidate C1 relies on the assumption of an activist campaign that is not present in the documentation; C2 correctly identifies the lack of such a catalyst. Documentation quality notes in the answer key were followed.",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "The candidate assumes a specific activist outcome (real estate spin-off/sale-leaseback) that the documentation (D05) notes is not an agreed-upon or authenticated plan as of the cutoff date.",
+      "drivers": [
+        {
+          "candidate_quote": "The Company owns a massive, under-leveraged portfolio of real estate worth US$21.4 billion that is mispriced by a market focused solely on retail volatility",
+          "document": "D01_business_overview.md",
+          "document_quote": "Net property/equipment is US$21.431 billion after accumulated depreciation across property categories.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The candidate accurately identifies the real estate value cited in the document.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "A transition to a capital-light, royalty-like model via real estate spin-off or sale-leaseback would dramatically improve free cash flow conversion",
+          "document": "D01_business_overview.md",
+          "document_quote": "The analytical burden is to value each without double counting property income or ignoring costs of separation.",
+          "evidence_supported": false,
+          "index": 2,
+          "reason": "The document identifies the asset pools but does not support the specific causal claim that a spin-off or sale-leaseback would 'dramatically improve free cash flow conversion'; it explicitly warns of complications and costs.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The retail business maintains a dominant market position with 1,488 locations and a differentiated guest experience that drives consistent low-double-digit revenue growth",
+          "document": "D01_business_overview.md",
+          "document_quote": "The chain had 1,488 stores... Target operates a national US discount-store chain, combining everyday necessities with apparel, home décor and design-oriented merchandise... Target... strong reported sales growth",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The document supports the location count and the nature of the retail business/growth profile.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The current entry valuation of 17.3x consensus earnings provides an attractive asymmetric return profile",
+          "document": "D04_price_and_valuation.md",
+          "document_quote": "US$3.60 2007 consensus discussed by management in February [17.3x]",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The document confirms the 17.3x multiple based on 2007 consensus.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "The candidate treats a hypothetical activist strategy as a near-certain catalyst while the documentation explicitly states no such campaign was recovered and notes significant operational and financial risks to such a separation.",
+      "primary_cause": "v_genuine_process_difference"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "The candidate's assessment aligns with the evidence provided in the pack regarding the absence of an authenticated activist campaign and the presence of cyclical risks.",
+      "drivers": [
+        {
+          "candidate_quote": "Target is a high-quality national retailer with a differentiated design-led brand identity and a stable balance sheet",
+          "document": "D01_business_overview.md",
+          "document_quote": "Target operates a national US discount-store chain... design-oriented merchandise... balance sheet records land at US$4.934 billion",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The description aligns with the provided documents.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The business lacks a compelling catalyst or operational fixable gap required to justify a high-conviction activist investment",
+          "document": "D05_market_worries.md",
+          "document_quote": "No contemporary authenticated Target short thesis, broker downgrade, activist letter or shareholder demand for a particular land transaction is recovered before April20.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The document confirms the absence of an authenticated activist catalyst.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Exposure to cyclical discretionary spending, home-goods demand, and credit-card bad-debt volatility introduces extrinsic risks we cannot control",
+          "document": "D05_market_worries.md",
+          "document_quote": "Target's exposure to apparel and home furnishings also makes it sensitive to discretionary demand, housing conditions and competitors' promotions.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The document supports the risk factors identified.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "At a 17.3x P/E multiple, we are unable to identify a clear valuation dislocation",
+          "document": "D04_price_and_valuation.md",
+          "document_quote": "US$3.60 2007 consensus... 17.3x",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The document confirms the 17.3x multiple and the lack of a clear identified dislocation.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "None; the candidate correctly identifies the lack of an actionable catalyst as of the as_of_date.",
+      "primary_cause": "none"
+    }
+  ],
+  "semantic_leakage": []
+}

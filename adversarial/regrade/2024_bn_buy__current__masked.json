@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The gold driver sources cited are from a 2025 annual report, which post-dates the April 2024 as-of-date of the candidate content. The candidate drivers are assessed based on available content as of 2024-04-10. All candidate quotes are verbatim.",
+  "cause_evidence": "The candidate memo relies on specific internal growth targets (15% per-share return) and management-defined earnings (DE) to justify a re-rating, whereas the gold drivers reflect a later, retrospective narrative from a 2025 report.",
+  "drivers": [
+    {
+      "candidate_quote": "the market has mispriced the business due to structural complexity",
+      "document": "D05_market_worries.md",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Holding-company complexity created a discount to underlying economic value.",
+      "index": 1,
+      "reason": "The candidate asserts structural complexity leads to mispricing, but the cited documents (D04, D05) do not provide evidence that this complexity creates a discount to underlying economic value; they merely acknowledge the complexity as a source of market skepticism.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "a clear earnings growth algorithm supported by growing fee-bearing capital",
+      "document": "D01_business_overview.md",
+      "document_quote": "Asset management earns recurring fees on third-party capital and performance-related carried interest. Fee-bearing capital was $457 billion at December 2023, up 9%.",
+      "evidence_supported": true,
+      "gold_driver": "BAM supplies capital-light recurring fee earnings and growth.",
+      "index": 2,
+      "reason": "D01 confirms the recurring nature of fee earnings and the growth in fee-bearing capital.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "supporting a management team with a stellar track record",
+      "document": "D01_business_overview.md",
+      "document_quote": "Management's credibility rests on a long operating and capital-allocation record",
+      "evidence_supported": true,
+      "gold_driver": "Bruce Flatt and his team are strong long-term capital allocators.",
+      "index": 3,
+      "reason": "D01 explicitly supports management's strong track record in operating and capital allocation.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "a valuation that does not fully reflect the firm’s 15% long-term per-share return target",
+      "document": "D03_latest_results.md",
+      "document_quote": "Management put year-end annualized earnings at $940 million and expected more than $100 billion of assets and $1.3 billion annualized earnings following AEL.",
+      "evidence_supported": true,
+      "gold_driver": "Insurance growth and future carried interest add value not captured by simple current multiples.",
+      "index": 4,
+      "reason": "The documents support that insurance growth (D03) and carried interest/valuation nuances (D05) contribute to the firm's value beyond trailing metrics.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The gold drivers are based on a 2025 retrospective document not available at the as-of-date, and the candidate memo is a speculative investment thesis based on 2024 results.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

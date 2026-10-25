@@ -1,0 +1,39 @@
+{
+  "audit_notes": "The candidate analysis consistently aligns with the provided documents for the stated cut-off date of 2020-01-15. No external or post-cutoff information was used.",
+  "cause_evidence": "The candidate correctly identifies that the decision was driven by valuation compression and opportunity cost rather than business impairment.",
+  "drivers": [
+    {
+      "candidate_quote": "The stock's significant appreciation to a ~30x forward multiple has compressed prospective returns below our 15% hurdle [D05, D07].",
+      "document": "D05_market_concerns.md",
+      "document_quote": "At $91.54, the stock trades at 32.3x FY2019 non-GAAP EPS of $2.83 and 31.3x GAAP EPS of $2.92. Using the FY2020 adjusted guidance midpoint of $3.025 gives 30.3x.",
+      "evidence_supported": true,
+      "gold_driver": "Share-price appreciation compressed prospective returns as the investment approached estimated value.",
+      "index": 1,
+      "reason": "The candidate explicitly identifies that stock appreciation compressed prospective returns below their hurdle rate. This is supported by the data in D05 showing a current trading multiple of ~30.3x versus historical entry levels.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Starbucks has been a successful investment, with the company delivering on the operational turnaround we anticipated [D04, D07]. ... While the business remains a high-quality, free-cash-flow-generative compounder, we must be disciplined regarding opportunity cost [D07].",
+      "document": "D04_price_valuation.md",
+      "document_quote": "The evidence supports improvement in the original operating concerns: US comps and Chinese growth are stronger than at entry. ... The valuation tension is explicit: a strong franchise with improving operations can still have less prospective return after substantial appreciation.",
+      "evidence_supported": true,
+      "gold_driver": "The operating recovery and brand thesis worked; the exit did not require a conclusion that Starbucks was a broken business.",
+      "index": 2,
+      "reason": "The candidate confirms the operational thesis succeeded and describes the business as high-quality, explicitly framing the decision as an opportunity cost assessment rather than a critique of business quality.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We are trimming the position to harvest gains as the stock price has outpaced the near-term growth in intrinsic value, and we believe our capital can be more effectively deployed in opportunities offering higher prospective returns [D05, D07].",
+      "document": "D04_price_valuation.md",
+      "document_quote": "The $91.54 close is 78.4% above the manager's stated $51.30 average entry price before dividends.",
+      "evidence_supported": true,
+      "gold_driver": "Release capital after attractive realized returns rather than retain the same valuation discount assumption indefinitely.",
+      "index": 3,
+      "reason": "The candidate explicitly states the intention to harvest gains and reallocate capital, reflecting the realization of the investment thesis and the end of the initial discount period.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "none",
+  "primary_cause": "none",
+  "semantic_leakage": []
+}

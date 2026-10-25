@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate's memo is internally consistent with its decision to pass based on 2010-dated documents [D01-D08]. The gold drivers are based on retrospective articles published between 2011 and 2014, which describe events that had not occurred as of the candidate's as_of_date.",
+  "cause_evidence": "The candidate performs a fundamental analysis concluding that the business is in structural decline without an identifiable turnaround plan, leading to a PASS decision [L44].",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Recover an underperforming department-store franchise's sales productivity and profitability using a large existing asset base.",
+      "index": 1,
+      "reason": "The candidate expressly rejects the investment opportunity, stating they 'cannot identify a catalyst for value creation or a concrete plan to reverse the structural headwinds' [L44].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Recruit exceptional retail leadership; actual Ron Johnson recruitment occurred in2011, not as a completed fact at entry.",
+      "index": 2,
+      "reason": "The candidate notes: 'Without a defined activist strategy to drive transformation, we cannot advocate for an investment' [L44]. They do not propose recruiting specific leadership.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Change merchandising/customer proposition and board accountability, but execution and customer behavior proved much less predictable than expected.",
+      "index": 3,
+      "reason": "The candidate identifies the lack of an existing plan to change the proposition as a reason to pass, explicitly stating 'we cannot identify a catalyst for value creation or a concrete plan to reverse the structural headwinds' [L44].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Sought faster CEO succession and chairman change after the turnaround failed; a later crisis response, not an original2010 assumption.",
+      "index": 4,
+      "reason": "The candidate document is dated 2010-09-24 and does not mention CEO or chairman succession plans, as these are retrospective events.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate's analysis concludes that no actionable catalyst or turnaround plan exists [L34, L44], whereas the gold drivers describe a retrospective activist investment thesis and subsequent operational failures.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

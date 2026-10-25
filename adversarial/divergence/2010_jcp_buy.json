@@ -1,0 +1,25 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "Candidate C1 identifies the company as a 'large-scale department-store retailer' [L73] and recognizes the 'structural decline in department store relevance' [L44], yet fails to apply the 'no retail turnarounds' rule [L159 Section 6] derived from the JCP post-mortem. The candidate produces an unnecessary 'gate1_hard_fail' [L66] and 'kill_criteria' [L67-L72] for an investment that it correctly identifies as a 'PASS' [L38] based on structural headwinds, effectively performing an 'answer-key' exercise in rejecting the investment rather than adopting the Pershing Square voice in the memo [L73].",
+      "fix": "Re-evaluate the decision using the Era B framework, which explicitly prohibits turnarounds requiring customer behavior changes [L159 Section 6], and remove the redundant 'gate1' and 'kill_criteria' structuring which is not part of the required output for a PASS decision.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "iii"
+      ]
+    },
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "Candidate C2 acknowledges the 'structural competitive pressure' [L104] and 'significant compression' of operating margins [L110], but fails to execute the Pershing Square persona properly by creating an redundant 'gate1_hard_fail' check [L125] and defining 'kill_criteria' [L126-L131] for an investment it correctly decides to 'PASS' [L97]. The memo [L132] correctly cites the 'JCP lesson' [L159 Section 6] regarding retail turnarounds, but fails to adhere to the required Pershing Square memo format by including unnecessary boilerplate headers like 'gate1_hard_fail' [L125].",
+      "fix": "Remove the structural fields that do not apply to a 'PASS' decision and focus the memo on the specific 'JCP lesson' [L159 Section 6] which mandates avoiding retail turnarounds that require customers to change behavior.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "iii"
+      ]
+    }
+  ],
+  "notes": "Both candidates C1 and C2 correctly reached the 'PASS' decision based on the fundamental retail decline and the 'JCP lesson' (post-mortem rule), but both failed to follow the persona and output requirements accurately, including the inclusion of structured data fields ('gate1_hard_fail') that are inconsistent with a simple 'PASS' verdict."
+}

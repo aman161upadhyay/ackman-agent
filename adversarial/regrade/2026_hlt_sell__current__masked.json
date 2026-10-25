@@ -1,0 +1,60 @@
+{
+  "audit_notes": "All gold drivers reference a document dated February 11, 2026, which is outside the provided source material timeframe ending January 15, 2026. Evidence support for candidate claims is limited by the absence of the proprietary internal IRR calculations mentioned in the candidate memo.",
+  "cause_evidence": "The candidate relies on internal IRR calculations and proprietary return thresholds not present or verifiable in the provided source documentation (D00-D09), which only provides public data.",
+  "drivers": [
+    {
+      "candidate_quote": "Our investment mandate is to achieve high rates of return, and at these levels, the prospective IRR is unlikely to meet our 15-20% thresholds",
+      "document": "candidate_memo",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "At the prevailing valuation, prospective returns no longer met the required return threshold.",
+      "index": 1,
+      "reason": "The candidate asserts the threshold failure, but the provided documentation (D00-D09) contains only current valuation data, not an actual IRR model or an explicit verification of the 15-20% threshold failure at the January 15, 2026 date.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "This valuation is a material step-up from the 23x multiple at which we initially underwrote the investment",
+      "document": "D04_price_and_valuation.md",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Multiple expansion had realized a substantial part of the original value opportunity.",
+      "index": 2,
+      "reason": "The candidate notes the valuation change, but no document provides the supporting premise that this specific multiple expansion realized the 'value opportunity' in the manner claimed; it is an analytical conclusion derived from the price data, not an explicit statement of realized opportunity.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We remain admirers of the Company as a dominant, fee-generative franchise",
+      "document": "D01_business_overview.md",
+      "document_quote": "PSH's August H1 commentary describes the leadership team and capital-light growth favorably.",
+      "evidence_supported": true,
+      "gold_driver": "The investment was successful rather than a business-quality reversal.",
+      "index": 3,
+      "reason": "The candidate expresses admiration for the franchise, confirming it is not a quality reversal, which is supported by D01 referencing favorable commentary on the business.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The gold drivers rely on a February 2026 external presentation that post-dates the provided document set (D00-D09) ending January 15, 2026, making them impossible to verify against the source material.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

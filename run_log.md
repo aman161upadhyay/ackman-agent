@@ -147,3 +147,17 @@ All eight keys explicitly identify constructed controls, not authenticated histo
   (target 150+; rate-limited); Reddit threads partially gated; no run yet on the pre-dated Llama 3.1 8B (user's Mac Mini).
 - Next iteration (v1.6, not applied): Gate 1 criterion 3 explicit binary/jurisdiction test; comparative S3 sell test with the
   pack's alternative-IRR table; grader driver-matching audited by a second model.
+
+## 2026-10-25 — Adversarial review of frozen v1.5 (end of the Ackman loop)
+- adversarial/ added (orchestrator + adv-ackman worker). Nothing in prompts/, AGENT.md or calibration/ was changed; all 15 hashes
+  in calibration/PROMPT_HASHES_v1.5.txt still match (adversarial/hash_audit.json).
+- Headline: direction does not beat the trivial mode policy on buy-heavy calibration/hold-out (21/28 vs 24/28; 7/11 vs 7/11); the
+  agent's edge is in controls (7/8 named, 5/8 masked vs 0/8); only 1/7 distinct sell cases → SELL; 7 original MATCH grades violate
+  the grader's own driver threshold; strict quote-validated causal recall 65/116 (calibration) and 19/41 named, 14/41 masked
+  (hold-out); the staged runtime never loads AGENT.md; forward forecast artefacts disagree on expected count (1.05/1.20/1.35/1.11);
+  no confirmed realised-future fact in 47 packs (82 lexical date hits, all benign on semantic check).
+- Stress tests (adversarial/stress_tests/RESULTS.md): name-only probe 6/6 PASS; counterfactual flips 1/4 (hard_fail overridden by
+  step 7 in 2 runs); 31/47 masked runs name the company; misattribution flips 2/3 BUYs; two controls are coin-flips across 3 runs.
+- v1.6 proposals (adversarial/v1_6_proposals.md) are NOT applied; the Buffett and Loeb agents (sibling repos) start from them:
+  code-level hard_fail enforcement, document-conflict field in the fact sheet, triplicate runs on controls/sells, name-masked label,
+  balanced fresh test selection.

@@ -1,0 +1,253 @@
+{
+ "label": "misattr__2025_uber_buy__as_BABA",
+ "pack": "2025_uber_buy",
+ "model": "replit-internal-current",
+ "mode": "new",
+ "as_of_date": "2025-01-06",
+ "company_label": "Alibaba Group Holding",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Alibaba Group Holding is a global marketplace that connects consumers with drivers, couriers, and merchants through software, payment, and dispatch systems [D01]. It operates through three reporting segments: Mobility, Delivery, and Freight [D01].",
+   "segments_and_mix": [
+    "Mobility: $21,002 million bookings [D01]",
+    "Delivery: $18,663 million bookings [D01]",
+    "Freight: $1,308 million bookings [D01]"
+   ],
+   "unit_economics": [
+    "Mobility adjusted EBITDA margin: 8.0% of bookings [D01]",
+    "Delivery adjusted EBITDA margin: 3.4% of bookings [D01]",
+    "Freight: Loss-making [D01]",
+    "Capex intensity: Low ($198 million capex vs $5,387 million operating cash flow for nine months 2024) [D02]",
+    "FCF conversion: Generally strong ($2,109 million FCF in Q3 2024) [D02]"
+   ],
+   "competitive_position": [
+    "161 million monthly active consumers [D01]",
+    "Moat evidence: Potential density advantage through marketplace demand, though autonomous vehicle operators present future competition [D01, D06]",
+    "Peers: Lyft (North American rides), DoorDash (delivery) [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "Revenue growth: 83% in 2022, 17% in 2023 [D02]",
+    "Q3 2024 revenue growth: 20% [D02]",
+    "Guidance: Expected 20% full-year constant-currency bookings growth [D03]"
+   ],
+   "balance_sheet": [
+    "Long-term debt: $10,986 million [D02]",
+    "Cash and equivalents: $6,150 million plus $2,913 million short-term investments [D02]",
+    "Net debt: Approximately $1.923 billion [D02]"
+   ],
+   "management_and_governance": [
+    "CEO: Dara Khosrowshahi [D01]",
+    "Incentives: Focus on profitable growth, lower-cost products, and autonomous partnerships [D01]",
+    "Capital allocation: $7 billion share-repurchase program authorized in Feb 2024 [D02, D07]"
+   ],
+   "price_and_valuation": [
+    "Price (Jan 6, 2025): $66.31 [D04]",
+    "Market cap: Approximately $139.36 billion (analyst calculation) [D04]",
+    "Drawdown: ~23.8% below 52-week high [D04]",
+    "FCF yield: ~5.0% (illustrative) [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Robotaxi distribution risk: Autonomous operators potentially bypassing the marketplace [D05]",
+    "Direct-app competition: Waymo expanding own-app services [D05]",
+    "Rising insurance costs [D05]",
+    "Regulatory status of workers [D05]"
+   ],
+   "recent_events": [
+    "September 2024: Expanded Waymo partnership for Austin and Atlanta [D07]",
+    "October 31, 2024: Q3 2024 results reported profitable GAAP growth [D03]",
+    "December 5, 2024: Waymo Miami expansion announced [D07]",
+    "December 10, 2024: GM stopped funding Cruise robotaxi development [D07]"
+   ],
+   "pershing_context": [
+    "Firm AUM (Sept 2024): $18.5 billion [D08]",
+    "Not in pack: Any existing Pershing Square stake or specific engagement history with Alibaba Group Holding [D08]"
+   ],
+   "missing_data": [
+    "Verified consensus forward EPS, forward P/E, EV/EBITDA, and precise long-term earnings-multiple history.",
+    "Current independent verification of cash-on-hand as of Jan 2025."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The business faces binary risks from autonomous vehicle operators and marketplace bypass, which complicates long-term cash flow predictability [D05]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "It maintains a dominant position as a global marketplace with 161 million monthly active consumers [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The company is subject to significant regulatory risks regarding worker classification and rising insurance costs [D05]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a healthy balance sheet with approximately $1.923 billion in net debt against strong cash flow generation [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "Strong operating cash flow and a low capex profile suggest no immediate dependency on external capital markets [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The market capitalization of approximately $139.36 billion is sufficiently large for a Pershing Square position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock trades at a ~23.8% drawdown from its 52-week high, suggesting a potentially attractive entry point [D04]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "Dara Khosrowshahi has demonstrated a focus on profitable growth and disciplined capital allocation, including a $7 billion share-repurchase program [D01, D02, D07]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company continues to demonstrate strong growth with 20% constant-currency bookings growth guidance [D03]."
+    }
+   },
+   "n_pass": 7,
+   "n_fail": 2,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant marketplace platform with high-quality management facing existential threats from autonomous disruption and regulatory headwinds"
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market fears that autonomous vehicle operators will bypass marketplace platforms, rendering the current business model obsolete [D05]. We believe the market fails to recognize the inherent demand-side density and marketplace liquidity the firm provides, which autonomous providers will find essential to achieve utilization and scale, as evidenced by recent partnerships [D01, D07]. The business will demonstrate that it is a distribution partner, not a victim, of autonomous transition, leading to a re-rating as these fears prove overstated.",
+   "evidence": [
+    "Marketplace density and liquid supply/demand remains a core competitive advantage that autonomous operators cannot easily replicate [D01].",
+    "Expansion of partnerships with major autonomous players like Waymo suggests the firm is viewed as a necessary distribution platform [D07].",
+    "The stock is trading at a ~23.8% drawdown from its 52-week high despite strong 20% constant-currency bookings growth [D03, D04].",
+    "Management is actively navigating the transition by integrating autonomous partnerships while maintaining a $7 billion share-repurchase program [D02, D07]."
+   ],
+   "market_narrative_we_disagree_with": "Autonomous operators will bypass the platform and render the marketplace obsolete, destroying the company's long-term competitive position [D05].",
+   "what_must_be_true": [
+    "Autonomous vehicle operators prioritize platform-level demand density over exclusive ownership of the customer relationship.",
+    "The firm maintains its 161 million monthly active consumer base through the transition period.",
+    "Regulatory frameworks regarding worker classification do not result in a permanent, structural margin impairment."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "Assuming ~18x NTM EPS based on peer benchmarks; lack of specific pack history prevents 10-yr comparison [D06]",
+   "eps_or_fcf_path": {
+    "base_year": "2024",
+    "base_value": "$2.10B FCF [D02]",
+    "growth_assumption": "18% annual growth driven by 20% bookings growth and margin expansion [D02, D03]",
+    "year_3_to_5_value": "$4.00B - $4.80B FCF",
+    "assumptions": [
+     "Maintain 161 million MAU [D01]",
+     "Operating leverage in Mobility and Delivery segments [D01]",
+     "Autonomous partnerships sustain high utilization [D07]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 22,
+    "why": "Reflects dominant marketplace position, network effects, and high-quality free-cash-flow conversion in a scaled digital business"
+   },
+   "implied_irr_pct": {
+    "base": 24,
+    "bear": 8,
+    "bull": 32
+   },
+   "downside_case": "If autonomous providers successfully bypass the platform, take-rates compress and long-term earnings growth stalls. Permanent loss is mitigated by current $7B buyback support and liquid balance sheet [D02, D07].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "NTM EPS/FCF consensus missing from pack",
+    "Historical P/E multiple average missing from pack",
+    "Current net debt verification missing from pack"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We expect a re-rating of the company as the market gains confidence that the business acts as a necessary distribution platform for autonomous vehicle operators rather than being disintermediated by them [D01, D07]. This thesis relies on the continued expansion of partnerships, such as those with Waymo [D07], and the demonstration that the firm's 161 million monthly active consumers provide a liquidity advantage that autonomous providers find essential to scale [D01].",
+   "levers_or_steps": [
+    "Continue executing on profitable growth to expand margins [D01, D03].",
+    "Scale the mobility and delivery segments while maintaining operating leverage [D01].",
+    "Deploy the $7 billion share-repurchase program to drive EPS growth [D02, D07]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "As per our 'Pershing Square 3.0' and post-2024 approach, we identify high-quality, dominant marketplace franchises trading at a discount due to temporary market fears. We act as long-term investors in compounders, relying on management's disciplined capital allocation and the eventual market recognition of the durable competitive advantage rather than active intervention."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Autonomous vehicle operators successfully establish direct-to-consumer demand at scale, materially reducing marketplace take-rates.",
+    "The 161 million monthly active consumer base experiences two consecutive quarters of meaningful decline.",
+    "Legislative or regulatory shifts mandate the reclassification of drivers as employees, structurally impairing operating margins.",
+    "Management shifts from the current capital-light, profitable-growth model toward aggressive, leverage-funded M&A."
+   ],
+   "portfolio_fit": "This position would serve as a core, high-conviction digital marketplace holding. It complements our existing focus on high-quality, free-cash-flow-generative compounders with network effects. We must monitor for factor overlap with other platform-based consumer businesses currently in the portfolio.",
+   "size_pct_nav": {
+    "initial": 4,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "The company’s $139.36 billion market capitalization [D04] and robust daily trading volume provide ample liquidity to build our target position over several weeks without impacting the market price.",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that autonomous vehicle operators bypass the marketplace platform, effectively disintermediating our business and destroying its long-term competitive advantage [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-01-06",
+  "company": "Alibaba Group Holding (BABA)",
+  "ticker": "BABA",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "Assuming ~18x NTM EPS based on peer benchmarks; lack of specific pack history prevents 10-yr comparison [D06]",
+   "eps_path": "18% annual growth driven by 20% bookings growth and margin expansion [D02, D03]",
+   "terminal_multiple": "22",
+   "irr_pct": 24,
+   "downside_case": "If autonomous providers successfully bypass the platform, take-rates compress and long-term earnings growth stalls. Permanent loss is mitigated by current $7B buyback support and liquid balance sheet [D02, D07]."
+  },
+  "drivers": [
+   {
+    "driver": "The company maintains a dominant global marketplace position with 161 million monthly active consumers [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "A capital-light model generates strong free cash flow, evidenced by $5.387 billion in operating cash flow over nine months in 2024 with minimal capex [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "Management is successfully executing a pivot toward profitable growth, supported by a $7 billion share-repurchase program [D02, D07].",
+    "citations": [
+     "D02",
+     "D07"
+    ]
+   },
+   {
+    "driver": "We believe the market misjudges the company as a victim of autonomous transition, when in fact its liquidity and density make it a necessary distribution platform [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Autonomous vehicle operators successfully establish direct-to-consumer demand at scale, materially reducing marketplace take-rates.",
+   "The 161 million monthly active consumer base experiences two consecutive quarters of meaningful decline.",
+   "Legislative or regulatory shifts mandate the reclassification of drivers as employees, structurally impairing operating margins.",
+   "Management shifts from the current capital-light, profitable-growth model toward aggressive, leverage-funded M&A."
+  ],
+  "what_would_change_our_mind": "Clear evidence that autonomous vehicle operators are successfully disintermediating the platform at scale, coupled with a structural, rather than cyclical, decline in marketplace take-rates.",
+  "memo": "Alibaba Group Holding is a dominant marketplace platform, connecting 161 million monthly active consumers with drivers, couriers, and merchants through a high-quality software, payment, and dispatch ecosystem [D01]. The business is exceptionally free-cash-flow-generative, requiring minimal capital expenditure—evidenced by nearly $5.4 billion in operating cash flow over nine months in 2024—while maintaining a strong balance sheet with negligible net debt [D02]. \n\nThe current opportunity arises from a market dislocation where shares trade at a 23.8% drawdown from their 52-week high [D04]. The market is overly focused on the fear that autonomous vehicle operators will bypass the platform and render the marketplace obsolete [D05]. We believe this narrative is incorrect, as the company’s massive demand-side density and liquidity are essential for autonomous players to achieve scale, as evidenced by recent expanded partnerships with Waymo [D01, D07].\n\nWe estimate an attractive long-term IRR based on a 20% annual bookings growth algorithm and disciplined capital allocation [D03]. With the company authorized to execute a $7 billion share-repurchase program, management is effectively leveraging the balance sheet to drive EPS growth [D02, D07]. We view the valuation as compelling for a business of this quality, though we remain mindful of risks regarding autonomous distribution and regulatory headwinds [D04, D05].\n\nWe recognize the company is currently a necessary distribution partner, not a victim, of the autonomous transition [D07]. Our thesis depends on the continued expansion of these strategic partnerships and the maintenance of our core marketplace advantages [D01, D07]. We continue to monitor regulatory developments regarding worker classification and insurance costs, which remain meaningful extrinsic factors [D05].\n\nDespite the quality and potential of the business, it triggers a hard fail in our investment process due to significant, binary risks regarding autonomous disruption and regulatory threats to the business model [D05]. Consequently, we have decided to pass on the opportunity to initiate a position at this time.",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

@@ -1,0 +1,15 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "Candidate C1 failed to identify the specific US$27.7 billion total debt burden [D02], instead citing 'US$27.7 billion in debt claims' [L76] without reconciling the consolidated versus unconsolidated portions [D02]. Furthermore, it improperly classifies the investment as a simple restructuring rather than the distressed equity exception required by GGP's specific liquidity crisis [L99, D08].",
+      "fix": "The model should have correctly distinguished between consolidated debt and at-share unconsolidated debt to confirm true asset coverage [D02, D04] and acknowledged the specific legal constraints of Chapter 11 [D09] rather than generic restructuring terminology.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "v"
+      ]
+    }
+  ],
+  "notes": "Candidate C1 shows a solid grasp of the distressed nature of GGP but fails to meet the strict evidence-based requirements of the Pershing Square agent. Specifically, it confuses the debt structure, which is critical for evaluating the residual equity case [D02, D04]. The inclusion of leadership change as a primary driver [L59] is also imprecise compared to the urgent, specific task of refinancing/restructuring [D03, D07]."
+}

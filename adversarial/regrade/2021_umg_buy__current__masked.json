@@ -1,0 +1,92 @@
+{
+  "audit_notes": "The candidate is a detailed internal memo that performs due diligence and reaches a 'PASS' decision based on specific underwriting requirements regarding cash flow predictability [L45]. Semantic presence of drivers 1, 2, 3, and 5 is verified. Driver 4 is absent. Evidence is supported by the provided source documents.",
+  "cause_evidence": "The candidate reached a 'PASS' decision due to a 'hard-fail on current cash flow predictability' [L45], whereas the gold source documentation suggests an affirmative inclusion of the asset.",
+  "drivers": [
+    {
+      "candidate_quote": "The Company represents a premier global music intellectual property business, commanding a leadership position through a deep, durable catalog and significant scale in artist development",
+      "document": "D01_business_overview.md",
+      "document_quote": "Universal Music Group is a leading global recorded-music and music-publishing business within Vivendi. Its economics derive from developing artists, owning/licensing recordings and compositions, and monetizing consumption across physical, digital, performance and other channels.",
+      "evidence_supported": true,
+      "gold_driver": "Leading global music-rights/catalog platform acts as a royalty on growing consumption.",
+      "index": 1,
+      "reason": "The candidate recognizes UMG's role as a leading global music intellectual property business and its capacity to monetize consumption.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "underpinned by the secular growth of paid streaming which continues to drive industry-wide expansion",
+      "document": "D01_business_overview.md",
+      "document_quote": "Industry growth is supported by paid streaming. IFPI reports 443 million users of paid subscription accounts at the end of 2020, with subscription streaming revenue up 18.5%.",
+      "evidence_supported": true,
+      "gold_driver": "Paid streaming penetration and improved monetization offer a long runway.",
+      "index": 2,
+      "reason": "The candidate identifies secular paid streaming growth as the driver for industry expansion.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We believe the market fails to properly appreciate the recurring, royalty-like nature of the catalog",
+      "document": "D01_business_overview.md",
+      "document_quote": "Existing catalogs can be licensed repeatedly without manufacturing a new physical product for every listen. That provides attractive incremental economics.",
+      "evidence_supported": true,
+      "gold_driver": "Repeat licensing, scale and operating leverage support capital-light cash growth.",
+      "index": 3,
+      "reason": "The candidate highlights the recurring, royalty-like nature of the catalog which mirrors the concept of repeat licensing providing incremental economics.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "none",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Lucian Grainge and patient ownership align with long-duration compounding.",
+      "index": 4,
+      "reason": "The candidate does not mention Lucian Grainge or the alignment of management/ownership with long-duration compounding.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "The spin-off process serves as our primary catalyst, expected to resolve governance uncertainties and allow the market to re-rate the entity as a standalone asset",
+      "document": "D07_structure_context.md",
+      "document_quote": "The proposed separation may make the music franchise easier for investors to value independently. A governance/listing catalyst can narrow a conglomerate discount",
+      "evidence_supported": true,
+      "gold_driver": "Negotiated pre-listing ownership and separation can unlock independent valuation.",
+      "index": 5,
+      "reason": "The candidate links the spin-off to the resolution of governance uncertainty and the potential for a re-rating of the standalone asset.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate highlights a lack of standalone financial transparency and an inability to reliably convert EBITA to free cash flow as a gating failure [L45].",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [
+      "document quote 5"
+    ],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 5,
+        "causal": true,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

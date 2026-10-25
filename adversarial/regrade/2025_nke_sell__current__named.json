@@ -1,0 +1,60 @@
+{
+  "audit_notes": "The provided documents show the candidate is based on a snapshot as of 2025-11-03, while the gold drivers reference a 2026-02-11 source. The candidate's 'HOLD' decision directly contradicts the logic implied by the gold drivers (which support a 'SELL' decision). The candidate does not acknowledge the invalidation of the underwriting thesis.",
+  "cause_evidence": "The candidate thesis maintains that Nike's core business model is fundamentally sound and that the turnaround strategy is working, leading to a HOLD decision, whereas the gold drivers indicate a loss of confidence in the underlying thesis and profitability outlook.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Initial diligence underestimated inherited strategic and operating problems and the cost of repairing them.",
+      "index": 1,
+      "reason": "The candidate does not make the claim that it underestimated problems at inception; rather, it asserts that the core business model remains sound and that the current strategy is the correct path forward [L20].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "The medium-term return to prior profitability could no longer be confidently underwritten.",
+      "index": 2,
+      "reason": "The candidate expresses conviction in the turnaround and maintains a hold position, explicitly stating 'we are content to hold and support the management team's execution' [L20].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Competition and tariff-related margin pressure made historical earnings targets less reliable.",
+      "index": 3,
+      "reason": "While the candidate acknowledges tariff and competitive pressures [L20], it does not abandon the historical recovery thesis; instead, it reframes them as new challenges to be managed within the ongoing turnaround [L20].",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate assumes that early signs of wholesale stabilization and new leadership validate the existing repair thesis, whereas the gold drivers reflect a later-stage determination that original underwriting assumptions were flawed and targets are no longer reliable.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

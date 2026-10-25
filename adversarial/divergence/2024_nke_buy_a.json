@@ -1,0 +1,15 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "Candidate chose 'HOLD' [L38] at a medium conviction [L37] for Nike, whereas the Ackman/Pershing Square framework for a dislocation [L104, Era E] in a high-quality, dominant franchise like Nike in 2024 requires a 'BUY' stance [L104, calibration: Nike 2024 example].",
+      "fix": "Re-evaluate the entry based on the 'T1 Temporary crisis' template [L104, Gate 2] which, for a 24.8% drawdown [L58], dictates an initial 'BUY' rather than a 'HOLD' [L74], while adhering to the 'Era E' rule for high-quality compounders on dislocation.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "iii"
+      ]
+    }
+  ],
+  "notes": "Candidate C1 correctly identifies Nike's dominant position [L45, L74], the cost-savings catalyst [L52], and the cyclical weakness [L58]. However, it improperly assigns a 'HOLD' decision [L38] when the supplied era [L104, Era E] and the specific Nike calibration example [L104] necessitate a 'BUY' decision (starter position) for a quality company facing a fixable, sentiment-driven dislocation."
+}

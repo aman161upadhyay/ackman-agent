@@ -1,0 +1,94 @@
+{
+  "audit_notes": "The gold drivers were strictly evaluated against the provided documents. Both candidates struggled to correctly frame the asymmetric nature of the hedge, often drifting into directional macro-prediction, which was not the primary basis of the hedge according to the documentation. C2 followed the structure more closely but included unauthorized commentary.",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "The candidate misses the specific structural reason for the hedge (swaptions vs. linear short) and presents the hedge as a holding decision based on inflation projections rather than structural asymmetry.",
+      "drivers": [
+        {
+          "candidate_quote": "Persistently elevated core inflation requires a term-premium risk adjustment not yet fully reflected in long-bond yields.",
+          "document": "D01_macro_context.md",
+          "document_quote": "The long-rate risk case is that inflation settles above the market's implicit path, fiscal demand remains strong or term premium rises.",
+          "evidence_supported": false,
+          "index": 1,
+          "reason": "The candidate asserts that the risk is not yet fully reflected, whereas the document presents the bond-supportive case (disinflation/slowing growth) and the long-rate risk case as alternative outcomes to be evaluated.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "Increased Treasury net marketable borrowing supply creates technical pressure on long-duration yields.",
+          "document": "D03_treasury_supply.md",
+          "document_quote": "Greater duration supply can require higher yields if demand does not rise comparably.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The document explicitly confirms that greater duration supply can require higher yields.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Existing option protection provides essential tail-risk coverage for our concentrated equity positions at an established cost.",
+          "document": "D05_portfolio_context.md",
+          "document_quote": "The March annual report already discloses long-rate option protection.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "While the document notes existing protection, it does not confirm the candidate's claim that this is providing 'essential tail-risk coverage' for current equity positions as a stated driver for the hold decision.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "N/A",
+          "document": "N/A",
+          "document_quote": "N/A",
+          "evidence_supported": false,
+          "index": 4,
+          "reason": "The candidate failed to include the gold driver regarding the use of payer swaptions as portfolio insurance compared to a linear cash-bond short.",
+          "semantic_present": false
+        }
+      ],
+      "key_problem": "The candidate misinterprets the hedge as a directional macro call rather than a structural asymmetric instrument.",
+      "primary_cause": "ii_pack_missing_fact"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "The candidate frames the decision as a hedge maintenance exercise but includes uncited, potentially speculative rationale about the hedge's purpose during market rallies.",
+      "drivers": [
+        {
+          "candidate_quote": "Treasury's increased borrowing requirements and the Fitch downgrade highlight fiscal pressures that may necessitate higher term premiums",
+          "document": "D03_treasury_supply.md",
+          "document_quote": "For a duration hedge, the supply/downgrade backdrop can strengthen a term-premium risk scenario.",
+          "evidence_supported": false,
+          "index": 1,
+          "reason": "The candidate presents this as a settled driver rather than a probabilistic assessment. The document states it 'can' strengthen the risk scenario, but also notes the countercase.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "Existing interest-rate options provide cost-effective protection against a nonlinear rise in long-end rates",
+          "document": "D04_instrument_economics.md",
+          "document_quote": "That potential convexity is attractive for insurance",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The document confirms that options provide convexity and protection utility.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The portfolio maintains high net equity exposure, necessitating continued macro hedging to mitigate potential volatility from discount rate adjustments",
+          "document": "D05_portfolio_context.md",
+          "document_quote": "The relevant portfolio test is whether long-rate stress materially harms expected equity value and whether the option payoff supplies useful offsetting liquidity",
+          "evidence_supported": false,
+          "index": 3,
+          "reason": "The document frames the hedge's necessity as a conditional portfolio test rather than an absolute requirement.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "Maintaining this overlay offers us necessary protection... without requiring us to take an outright directional short position",
+          "document": "D04_instrument_economics.md",
+          "document_quote": "An outright short bond position... can suffer losses from a rally, financing/borrow costs and coupon payments. A purchased option can define the upfront premium at risk",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The document explicitly contrasts the mechanics of options with outright short positions, supporting the driver's claim.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "The candidate includes extraneous meta-commentary on the utility of the hedge that is not supported as a formal driver in the pack.",
+      "primary_cause": "v_genuine_process_difference"
+    }
+  ],
+  "semantic_leakage": []
+}

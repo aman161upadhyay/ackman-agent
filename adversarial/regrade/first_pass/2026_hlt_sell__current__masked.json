@@ -1,0 +1,46 @@
+{
+  "audit_notes": "The source content provided for the candidate [D00-D09] covers dates through January 15, 2026. The gold drivers reference an external document dated February 11, 2026. I have audited the candidate's claims against the provided D00-D09 documentation, acknowledging that the candidate memo is self-contained and reflects the state as of January 15, 2026.",
+  "cause_evidence": "The candidate performs a trim based on an explicit valuation threshold failure, which is consistent with the goal of reallocating capital, even if the gold driver sources are later publications.",
+  "drivers": [
+    {
+      "candidate_quote": "at these levels, the prospective IRR is unlikely to meet our 15-20% thresholds",
+      "document": "candidate_memo",
+      "document_quote": "Our investment mandate is to achieve high rates of return, and at these levels, the prospective IRR is unlikely to meet our 15-20% thresholds [D10].",
+      "evidence_supported": false,
+      "gold_driver": "At the prevailing valuation, prospective returns no longer met the required return threshold.",
+      "index": 1,
+      "reason": "The candidate makes a comparable claim about prospective returns not meeting thresholds at current levels, but the cited documents (D05, D10) provide data (37.7x multiple) rather than verifying the IRR calculation or the specific return threshold failure.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "This valuation is a material step-up from the 23x multiple at which we initially underwrote the investment",
+      "document": "D04_price_and_valuation.md",
+      "document_quote": "The 2019 observation and current calculation are not perfectly like-for-like forward horizons, but the difference is large enough to require explicit valuation work rather than an assumption that the old purchase discount persists.",
+      "evidence_supported": true,
+      "gold_driver": "Multiple expansion had realized a substantial part of the original value opportunity.",
+      "index": 2,
+      "reason": "The candidate explicitly identifies the valuation step-up from the initial 23x multiple as a reason for its decision, which constitutes a realization of the value opportunity. The supporting document confirms the valuation change and the difference between the 2019 underwriting and current market pricing.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We remain admirers of the Company as a dominant, fee-generative franchise",
+      "document": "D01_business_overview.md",
+      "document_quote": "PSH's August H1 commentary describes the leadership team and capital-light growth favorably. Governance quality and operating quality can therefore be considered independently of whether current valuation offers a sufficient prospective return.",
+      "evidence_supported": true,
+      "gold_driver": "The investment was successful rather than a business-quality reversal.",
+      "index": 3,
+      "reason": "The candidate maintains that the company is a 'dominant, fee-generative franchise' and does not attribute the trimming to business deterioration. The cited documents confirm the ongoing favorable view of the business model and governance quality.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The gold drivers reference 2026 documents that are not available in the provided source set [D00-D09], making them impossible to verify against the source set as requested.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [
+    {
+      "confidence": "high",
+      "document": "gold_drivers_source_links",
+      "quote": "2026-02-11",
+      "reason": "The gold drivers cite an investor presentation from February 2026, which occurs after the as_of_date of January 15, 2026."
+    }
+  ]
+}

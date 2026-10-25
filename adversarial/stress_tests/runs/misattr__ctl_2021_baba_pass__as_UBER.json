@@ -1,0 +1,233 @@
+{
+ "label": "misattr__ctl_2021_baba_pass__as_UBER",
+ "pack": "ctl_2021_baba_pass",
+ "model": "replit-internal-current",
+ "mode": "new",
+ "as_of_date": "2021-07-30",
+ "company_label": "Uber Technologies",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "AliUber Technologies operates a broad digital-commerce ecosystem that connects consumers, merchants, and enterprises [D01]. Its platform generates value through scale, merchant selection, and connection to payment and logistics infrastructure [D01].",
+   "segments_and_mix": [
+    "commerce: primary driver, includes China retail marketplaces [D01]",
+    "cloud computing: secondary initiative [D01]",
+    "logistics: consolidated operation [D01]",
+    "international commerce: secondary initiative [D01]"
+   ],
+   "unit_economics": [
+    "margin: variable depending on segment; marketplaces are high-margin, while retail and logistics have different capital needs [D01]",
+    "FCF conversion: strong cash generation; issuer non-GAAP FCF was RMB 172.662 billion for fiscal 2021 [D02]"
+   ],
+   "competitive_position": [
+    "rank: dominant ecosystem with ~1 billion annual active consumers globally [D01]",
+    "moat: network effects, data, merchant relationships, and infrastructure [D01]",
+    "peers: competition exists from other platforms [D01]"
+   ],
+   "growth_record_and_outlook": [
+    "revenue growth: 41% reported growth in fiscal 2021, 32% excluding Sun Art [D02]",
+    "outlook: fiscal 2022 revenue expected above RMB 930 billion; management plans reinvestment which may constrain near-term EPS growth [D02]"
+   ],
+   "balance_sheet": [
+    "net debt: net cash position; cash and short-term investments (RMB 473.638 billion) significantly exceed financial debts (bank borrowings RMB 41.941 billion + senior notes RMB 107.212 billion) [D02]",
+    "rating: not in pack"
+   ],
+   "management_and_governance": [
+    "CEO tenure: not in pack",
+    "incentives: not in pack",
+    "capital allocation: management plans substantial reinvestment in new businesses and strategic areas [D01]",
+    "controller/dual-class: uses variable-interest-entity (VIE) arrangements for certain operations; ADS holders do not have direct equity ownership of Chinese operating companies [D01]"
+   ],
+   "price_and_valuation": [
+    "price: US$195.19 [D03]",
+    "market cap: ~US$529.4 billion [D03]",
+    "drawdown from high: ~38.9% below US$319.32 high [D03]",
+    "P/E (trailing/forward): 23.4x reported trailing earnings (based on US$8.35 EPS) [D03]",
+    "FCF yield: ~5.0% of indicative common value [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "regulatory intervention: antitrust fine, cybersecurity reviews, and policy environment changes [D01, D04]",
+    "VIE structure: legal enforceability of offshore contracts and restrictions on financial transfers [D01, D04]",
+    "future earnings: potential for slower EPS growth due to aggressive reinvestment and compliance costs [D02, D04]"
+   ],
+   "recent_events": [
+    "2020: Interruption of Ant's planned listing [D01]",
+    "2021-03: RMB 18.228 billion antitrust fine incurred [D02]",
+    "2021-07-30: SEC chair statement on offshore/VIE disclosure and risk [D01, D04]"
+   ],
+   "pershing_context": [
+    "fund AUM: not in pack",
+    "current holdings: not in pack",
+    "cash: not in pack",
+    "existing stake: not in pack",
+    "prior engagement: not in pack"
+   ],
+   "missing_data": [
+    "Current Pershing Square cash/NAV levels",
+    "Management incentive structure",
+    "Live forward analyst consensus figures",
+    "Specific regulatory resolution timetable"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "The company maintains strong cash generation with RMB 172.662 billion in non-GAAP FCF for fiscal 2021 [D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "AliUber is a dominant ecosystem with ~1 billion annual active consumers underpinned by network effects and logistics infrastructure [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business faces significant regulatory intervention risks, including antitrust fines and cybersecurity reviews [D01, D04]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company holds a net cash position with RMB 473.638 billion in liquidity significantly exceeding financial debt [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "With a massive net cash position, the company does not require external capital to fund operations [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The market capitalization is approximately US$529.4 billion [D03]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock trades at a 38.9% drawdown from its high with a trailing P/E of 23.4x [D03]."
+    },
+    "management_governance": {
+     "score": "FAIL",
+     "evidence": "The use of VIE structures raises significant governance concerns regarding legal enforceability and lack of direct equity ownership [D01, D04]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company continues to demonstrate strong growth with 41% reported revenue growth in fiscal 2021 [D02]."
+    }
+   },
+   "n_pass": 7,
+   "n_fail": 2,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant digital-commerce ecosystem with superior economics and a fortress balance sheet, currently challenged by regulatory and structural uncertainty"
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market believes that recent regulatory interventions, cybersecurity reviews, and the structural uncertainty of the VIE model permanently impair the intrinsic value of this dominant ecosystem. We believe the market is mispricing a temporary period of regulatory friction and aggressive reinvestment by over-discounting the business for risks that do not undermine its core competitive moat or long-term cash-generative power [D01, D02, D04].",
+   "evidence": [
+    "Significant 38.9% drawdown from the recent high despite 41% revenue growth [D02, D03].",
+    "Market discounting the stock due to headline-driven regulatory and VIE concerns [D01, D04].",
+    "Fortress balance sheet with RMB 473.638 billion in liquidity, insulating the company from capital market volatility [D02]."
+   ],
+   "market_narrative_we_disagree_with": "The market views the regulatory environment and VIE structure as existential threats that render the company uninvestable [D01, D04].",
+   "what_must_be_true": [
+    "The core digital-commerce ecosystem maintains its dominant market share and network effects despite regulatory adjustments.",
+    "The Chinese government continues to allow VIE structures to exist, preventing total expropriation of offshore shareholder value.",
+    "Reinvestment cycles result in durable long-term growth rather than permanent destruction of capital."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "23.4x trailing EPS [D03] vs S&P 500 (~21x) [instructional context]",
+   "eps_or_fcf_path": {
+    "base_year": "2021",
+    "base_value": "RMB 172.662 billion FCF [D02]",
+    "growth_assumption": "15% annual growth in FCF, accounting for reinvestment cycle dampening near-term EPS [D02]",
+    "year_3_to_5_value": "RMB 262-300 billion FCF (year 3-4 projection)",
+    "assumptions": [
+     "FCF grows at 15% CAGR despite reinvestment [D02]",
+     "Core digital commerce maintains dominant market share [D01]",
+     "VIE structure remains viable [D01]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 15,
+    "why": "Reflects a significant risk premium due to structural VIE uncertainty and regulatory environment, despite dominant market position [D01, D04]"
+   },
+   "implied_irr_pct": {
+    "base": 18,
+    "bear": 5,
+    "bull": 25
+   },
+   "downside_case": "If regulatory or VIE risks materialize as existential, the investment faces permanent loss of capital; otherwise, downside is limited by the fortress balance sheet and 38.9% prior drawdown [D02, D03, D04].",
+   "valuation_verdict": "ADEQUATE_15_20",
+   "flagged_assumptions": [
+    "Forward analyst consensus figures for EPS/FCF",
+    "Specific regulatory resolution timetable",
+    "Long-term impact of antitrust fine on terminal margins"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We expect a re-rating of the shares as the market recognizes the regulatory and VIE risks are manageable, allowing the valuation to return toward a historical P/E multiple that reflects the company's 15%+ FCF growth and dominant market position [D01, D02, D03, D04].",
+   "levers_or_steps": [
+    "Normalization of regulatory sentiment following the antitrust fine [D02].",
+    "Successful execution of reinvestment strategy in cloud and logistics to maintain ecosystem dominance [D01, D02].",
+    "Demonstration of continued FCF generation despite compliance costs [D02, D04]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our 'Pershing Square 3.0' era, we focus on high-quality compounders during temporary dislocations; AliUber's dominant ecosystem, fortress balance sheet, and massive drawdown offer the required asymmetric profile without necessitating activist intervention [D01, D02, D03, D04]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "The Chinese government takes direct action to invalidate or dismantle the VIE structure for existing offshore shareholders.",
+    "Competitive encroachment leads to a permanent loss of digital-commerce market share and erosion of the core platform's network effects.",
+    "Management capital allocation prioritizes low-return reinvestment projects that structurally impair long-term free cash flow generation for more than two fiscal years."
+   ],
+   "portfolio_fit": "This investment would represent a high-quality compounder in a digital-commerce ecosystem, adding exposure to the Asian market and technology-infrastructure growth, fitting our 'Pershing Square 3.0' focus on dislocations [D01, D02, D04].",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "Given the company's massive market capitalization of ~US$529.4 billion and high daily trading volume, we can build a substantial position of up to 10% of NAV over several weeks without significant market impact [D03].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is a permanent impairment of intrinsic value resulting from government-led regulatory intervention or the invalidation of the VIE structure that serves as the basis for our ownership claim [D01, D04]."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-07-30",
+  "company": "Uber Technologies",
+  "ticker": "UBER",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "not in pack",
+   "eps_path": "not in pack",
+   "terminal_multiple": "not in pack",
+   "irr_pct": 0,
+   "downside_case": "not in pack"
+  },
+  "drivers": [
+   {
+    "driver": "The company does not meet our core criteria for a simple, predictable, and free-cash-flow-generative business based on the provided documents.",
+    "citations": [
+     "L1"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Lack of predictable free cash flow",
+   "Excessive exposure to regulatory and competitive extrinsic factors",
+   "Failure to meet Pershing Square's high-quality compounder standards"
+  ],
+  "what_would_change_our_mind": "A demonstrated history of consistent, predictable free cash flow generation and a shift toward a more capital-light, dominant business model with sustainable margins.",
+  "memo": "We have reviewed Uber Technologies and determined that it does not currently meet the rigorous standards we require for a Pershing Square investment [L1]. Our philosophy demands businesses that are simple, predictable, and consistently free-cash-flow-generative, attributes that are not evidenced in the provided information [L1].\n\nWhile the company occupies a significant position in the transportation and delivery sectors, the business model lacks the predictable, durable economics that underpin our high-conviction compounders [L1]. We maintain a disciplined approach to capital allocation, and we require more than the information available in the pack to justify an investment in this entity [L1].\n\nConsequently, we have decided to pass on this opportunity. We remain focused on identifying dominant businesses with strong balance sheets and limited exposure to uncontrollable extrinsic factors, a category into which Uber Technologies does not fit at this time [L1].",
+  "uncited_claims": [
+   "The information provided does not contain financial data or strategic analysis for Uber Technologies, necessitating a pass decision."
+  ]
+ },
+ "elapsed_s": 0
+}

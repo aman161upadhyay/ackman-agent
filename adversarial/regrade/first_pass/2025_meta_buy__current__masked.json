@@ -1,0 +1,56 @@
+{
+  "audit_notes": "The gold drivers were provided with external citations from 2026, which falls outside the provided document set and the candidate's as_of_date (2025-11-03). The candidate correctly synthesized the available information from the provided docs (D01-D08) to form a coherent investment thesis despite the mismatch in cited gold source availability.",
+  "cause_evidence": "The candidate's analysis is consistent with the primary drivers identified in the available source documents provided within the cutoff.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Entrenched audiences and advertising data create a durable network moat.",
+      "index": 1,
+      "reason": "The candidate document does not use the specific phrase regarding durable network moats attributed to the gold driver source; it focuses on 'powerful network effects'.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "Near-term evidence for monetization includes AI recommendation improvements generating 5% more time on Facebook and 10% on Threads",
+      "document": "D03_latest_results_and_guidance.md",
+      "document_quote": "Management says its AI investments are already improving recommendations and ads. [...] Near-term evidence for monetization includes AI recommendation improvements",
+      "evidence_supported": true,
+      "gold_driver": "AI directly improves engagement, recommendations and monetization.",
+      "index": 2,
+      "reason": "The candidate correctly identifies that AI investments are improving ad recommendations and engagement as evidence of monetization.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "the market is mispricing the company by conflating long-term, potentially high-return AI infrastructure investments with permanent impairment of intrinsic value",
+      "document": "D05_market_worries.md",
+      "document_quote": "Reality Labs is a separate source of concern: $4.432 billion lost in Q3, against only $470 million revenue. It would be misleading either to ignore those losses or to treat their indefinite continuation as established fact.",
+      "evidence_supported": true,
+      "gold_driver": "Capex fears created an attractive valuation that still includes substantial Reality Labs losses.",
+      "index": 3,
+      "reason": "The candidate attributes the market sell-off to AI capex fears and acknowledges the drag of Reality Labs losses in the memo [L44] and D05 [L65].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "His fallback is also explicit: “in the worst case, we would just slow building new infrastructure for some period while we grow into what we've built.”",
+      "document": "D03_latest_results_and_guidance.md",
+      "document_quote": "Zuckerberg describes the strategy as aggressively front-loading capacity for optimistic AI timelines. His fallback is also explicit: “in the worst case, we would just slow building new infrastructure for some period while we grow into what we've built.”",
+      "evidence_supported": true,
+      "gold_driver": "Infrastructure and talent spending can be front-loaded while management retains expense flexibility.",
+      "index": 4,
+      "reason": "The candidate explicitly captures both the aggressive front-loading of investment and management's stated fallback option for flexibility.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The gold drivers were provided from a 2026 annual report source, which is post-cutoff for the candidate's analysis period.",
+  "primary_cause": "none",
+  "semantic_leakage": [
+    {
+      "confidence": "high",
+      "document": "gold_drivers",
+      "quote": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/18175039/Pershing-Square-Holdings-Ltd.-2025-Annual-Report.pdf",
+      "reason": "The gold driver sources refer to a document dated 2026-02-18, which is after the specified as_of_date of 2025-11-03."
+    }
+  ]
+}

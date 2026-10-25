@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The provided document pack ends at 2005-09-30. The gold drivers 3 and 4 explicitly reference documents and events from November 2005 and January 2006, which are outside the available document scope.",
+  "cause_evidence": "The candidate's rationale is based on documents dated August and September 2005 [D01-D08], whereas the gold drivers rely on specific events and activist proposals from late 2005 and 2006 (e.g., [L82, L94]).",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Separate restaurant operations from franchise/property economics; good management had already delivered an operating recovery.",
+      "index": 1,
+      "reason": "The candidate document pack identifies a recovery but does not propose the specific structural separation requested as the gold driver, and explicit management rejection of property restructuring is noted [D05].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Normalize corporate restaurants for market rent and franchise fees to reveal true economics.",
+      "index": 2,
+      "reason": "The candidate discusses the need to separate/understand economics but does not perform or propose the normalization of corporate restaurant earnings for market rent and franchise fees.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Original November plan proposes65% McOpCoIPO andUS$14.7bn property-backed borrowing for repurchases; not simply a REIT spin.",
+      "index": 3,
+      "reason": "The document pack predates the November 2005 proposal; it only mentions speculation about Pershing Square's interest [D07, D08].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Adapt means to stakeholder constraints, later withdrawing the IPO demand in favor of management actions/refranchising rather than insisting on the initial transaction.",
+      "index": 4,
+      "reason": "This driver refers to post-2005-09-30 developments not present in the provided documentation.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate is evaluating the investment based on information available as of September 30, 2005, while the gold drivers encompass specific activist strategies and tactical shifts that occurred after the as-of-date of the source material.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

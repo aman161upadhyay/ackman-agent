@@ -1,0 +1,99 @@
+{
+  "entries": [
+    {
+      "file": "AGENT.md",
+      "expected": "40c93dc1fcf77d36822d6ecbb6a0a7a819782aadffaa486acb049bca3d0b4ba2",
+      "actual": "40c93dc1fcf77d36822d6ecbb6a0a7a819782aadffaa486acb049bca3d0b4ba2",
+      "match": true
+    },
+    {
+      "file": "prompts/00_system.md",
+      "expected": "02415ff960766b262b2bf950c93821927e534eac623faaa47eb3df36f487aad7",
+      "actual": "02415ff960766b262b2bf950c93821927e534eac623faaa47eb3df36f487aad7",
+      "match": true
+    },
+    {
+      "file": "prompts/01_fact_sheet.md",
+      "expected": "45e5b39c53edc695a0698c771766c0ae8d5c35ad57a408412c1b3c9221ae17f0",
+      "actual": "45e5b39c53edc695a0698c771766c0ae8d5c35ad57a408412c1b3c9221ae17f0",
+      "match": true
+    },
+    {
+      "file": "prompts/02_gate1_business_quality.md",
+      "expected": "8eb4700988e2d4b4032055871795b170439ab14637a943396259c24b7e203eea",
+      "actual": "8eb4700988e2d4b4032055871795b170439ab14637a943396259c24b7e203eea",
+      "match": true
+    },
+    {
+      "file": "prompts/03_gate2_why_mispriced.md",
+      "expected": "0a42619f86c8aee989fc368c3cba7abbd3cb47cddb3275c6af954955622ab40c",
+      "actual": "0a42619f86c8aee989fc368c3cba7abbd3cb47cddb3275c6af954955622ab40c",
+      "match": true
+    },
+    {
+      "file": "prompts/04_gate3_valuation.md",
+      "expected": "7ce39a8bd0cf4d177bfc27e2e06bd15f7b811a292502c954e206bc98384a5b31",
+      "actual": "7ce39a8bd0cf4d177bfc27e2e06bd15f7b811a292502c954e206bc98384a5b31",
+      "match": true
+    },
+    {
+      "file": "prompts/05_gate4_catalyst_role.md",
+      "expected": "5102b2c22a28f4447f3194675685aa4b92b085300706718c0893c9edf3ccf161",
+      "actual": "5102b2c22a28f4447f3194675685aa4b92b085300706718c0893c9edf3ccf161",
+      "match": true
+    },
+    {
+      "file": "prompts/06_gate5_risk_sizing.md",
+      "expected": "71399916ce6b87038e54a8c8d604bcd098eb9a98993405a6138ad1ca3e4e9b47",
+      "actual": "71399916ce6b87038e54a8c8d604bcd098eb9a98993405a6138ad1ca3e4e9b47",
+      "match": true
+    },
+    {
+      "file": "prompts/07_decision_memo.md",
+      "expected": "82a450ccc3504c1501d244517a09c2e883bd4281bb3d1b21e28f0d6516f22298",
+      "actual": "82a450ccc3504c1501d244517a09c2e883bd4281bb3d1b21e28f0d6516f22298",
+      "match": true
+    },
+    {
+      "file": "prompts/08_sell_hold.md",
+      "expected": "e68159517f3b6a89244eb11dfdd933fde27386a84d1dcafd3d82dad79b656013",
+      "actual": "e68159517f3b6a89244eb11dfdd933fde27386a84d1dcafd3d82dad79b656013",
+      "match": true
+    },
+    {
+      "file": "prompts/09_hedge.md",
+      "expected": "62274607a4e38c230397e1dfb02df4346193930bbe2f509aa9cc6052dc847e99",
+      "actual": "62274607a4e38c230397e1dfb02df4346193930bbe2f509aa9cc6052dc847e99",
+      "match": true
+    },
+    {
+      "file": "prompts/10_grader.md",
+      "expected": "5a08e546122d9555055e3510e363ae149a8d243195f8b1c3f0a85534384e4aa8",
+      "actual": "5a08e546122d9555055e3510e363ae149a8d243195f8b1c3f0a85534384e4aa8",
+      "match": true
+    },
+    {
+      "file": "prompts/11_leakage_check.md",
+      "expected": "6828c706377ce1d60d23c0bb77034432262cf2e21d581e0a70af8b07ea32f706",
+      "actual": "6828c706377ce1d60d23c0bb77034432262cf2e21d581e0a70af8b07ea32f706",
+      "match": true
+    },
+    {
+      "file": "prompts/12_forward_next_trade.md",
+      "expected": "7876216e2047989f50d39a42f79dee83cd4157c9d7402584a7d63e5e2c04fcff",
+      "actual": "7876216e2047989f50d39a42f79dee83cd4157c9d7402584a7d63e5e2c04fcff",
+      "match": true
+    },
+    {
+      "file": "prompts/one_shot_full.md",
+      "expected": "b04fe65084150da903e16f177bfaca3965c58ec8c8151fdd1da6aaa28c6cde3f",
+      "actual": "b04fe65084150da903e16f177bfaca3965c58ec8c8151fdd1da6aaa28c6cde3f",
+      "match": true
+    }
+  ],
+  "unhashed": [
+    "prompts/README.md",
+    "prompts/CHANGELOG.md",
+    "prompts/era_e_update_for_forward_runs.md"
+  ]
+}

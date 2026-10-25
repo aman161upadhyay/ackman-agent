@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate followed the evidence provided in the document pack (D04) for its valuation calculations (30x), which correctly reflects the provided document data, even though it differs from the provided gold driver (22x).",
+  "cause_evidence": "The candidate explicitly models an entry at 30x NTM earnings [L51, L61], while the gold driver cites an entry valuation of 22x.",
+  "drivers": [
+    {
+      "candidate_quote": "Visa and Mastercard operate as a dominant, capital-light global payment duopoly with significant competitive moats and highly scalable infrastructure",
+      "document": "D01_business_overview.md",
+      "document_quote": "Visa and Mastercard connect consumers, issuing banks, merchants, acquiring institutions and processors. Their networks authorize, route, clear and support settlement of payments, while related services include security, authentication, analytics and other capabilities. They are not ordinarily the institutions lending revolving balances to cardholders.",
+      "evidence_supported": true,
+      "gold_driver": "Dense global acceptance networks support capital-light transaction tolls without ordinary lender credit exposure.",
+      "index": 1,
+      "reason": "The candidate correctly identifies the businesses as capital-light payment duopolies and notes they do not lend funds, supported by the business overview.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "they consistently produce durable growth through the digitization of cash, e-commerce, and value-added services",
+      "document": "D01_business_overview.md",
+      "document_quote": "The growth base includes nominal consumer spending, digitization of cash payments, e-commerce, cross-border travel/commerce and services sold around the payment relationship.",
+      "evidence_supported": true,
+      "gold_driver": "Cash displacement, e-commerce, nominal spending and faster-growing services support compounding.",
+      "index": 2,
+      "reason": "The candidate explicitly lists the drivers of growth matching the gold driver content supported by the document.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We believe these concerns are fundamentally misplaced, as the market fails to distinguish between regulatory headlines and the persistent underlying utility of these payment networks",
+      "document": "D05_market_worries.md",
+      "document_quote": "If they still need trusted credentials, issuer credit and consumer recourse, the networks may remain important infrastructure.",
+      "evidence_supported": true,
+      "gold_driver": "Agentic commerce and stablecoins need not bypass trusted authorization, recourse and acceptance; networks can integrate the new technology.",
+      "index": 3,
+      "reason": "The candidate addresses the AI/stablecoin concern as a misunderstanding of the persistent network utility, consistent with the document.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Regulatory and disruption fears created an attractive roughly22x forward entry valuation.",
+      "index": 4,
+      "reason": "The candidate uses an NTM multiple of 30x rather than the 22x specified in the gold driver.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate's valuation thesis is based on a 30x multiple, which diverges significantly from the 22x gold driver expectation.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

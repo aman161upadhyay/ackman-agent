@@ -1,0 +1,49 @@
+{
+  "audit_notes": "The gold drivers cite a report from August 2026 (after the March 2026 cutoff). As instructed, the audit is based only on the provided March 2026 documents. The candidate correctly utilizes available documents, whereas the gold drivers include information not present in the provided source materials.",
+  "cause_evidence": "The candidate provides its own internal valuation metrics and analysis based on the provided documents rather than mirroring the specific comparative valuation framework (19x vs 25x) or specific strategic outlooks (AI as a value-add) contained in the gold drivers, which appear to stem from a later source [D08].",
+  "drivers": [
+    {
+      "candidate_quote": "S&P Global is a dominant financial utility with high barriers to entry via entrenched network effects in credit ratings and indices [D01, D06].",
+      "document": "D01_business_overview.md",
+      "document_quote": "Ratings benefits from established acceptance among issuers, investors and financial institutions. Its role depends on credibility, regulatory frameworks and market conventions. ... Indices licenses benchmark intellectual property used by investment products and market participants.",
+      "evidence_supported": true,
+      "gold_driver": "Ratings, Indices and Platts dominate earnings and possess durable benchmark/oligopoly advantages.",
+      "index": 1,
+      "reason": "The candidate identifies the dominance and network effects in ratings and indices, which matches the core of the gold driver.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "The AI-threatened desktop exposure was small relative to the enterprise profit pool.",
+      "index": 2,
+      "reason": "The candidate acknowledges AI disruption fears in Market Intelligence but does not claim the threatened exposure is small relative to the total profit pool.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Proprietary structured data can become more valuable within AI workflows.",
+      "index": 3,
+      "reason": "The candidate discusses AI as a risk or threat, not as a mechanism that makes the company's data more valuable.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Growth and capital return were available at about19x earnings versus about25x before de-rating.",
+      "index": 4,
+      "reason": "The candidate states an entry multiple of 20.6x forward P/E, which does not match the 19x/25x figures mentioned in the gold driver.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "iii_key_or_grader_problem",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": []
+}

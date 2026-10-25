@@ -1,0 +1,249 @@
+{
+ "label": "misattr__2018_hlt_buy__as_BA",
+ "pack": "2018_hlt_buy",
+ "model": "replit-internal-current",
+ "mode": "new",
+ "as_of_date": "2018-10-15",
+ "company_label": "The Boeing Company",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Boeing Company operates a global hotel brand, management, and franchise system with over 5,400 properties and 880,000 rooms [D01]. It provides brands, reservations, distribution, and loyalty infrastructure to third-party owners while retaining some owned and leased hotel operations [D01].",
+   "segments_and_mix": [
+    "Franchise fees: $404 million (Q2 2018) [D01]",
+    "Base/other management fees: $84 million (Q2 2018) [D01]",
+    "Incentive management fees: $59 million (Q2 2018) [D01]",
+    "Owned/leased hotel revenue: $392 million (Q2 2018) [D01]"
+   ],
+   "unit_economics": [
+    "Asset-light model where new affiliated rooms add fee revenue without requiring full construction funding [D01]",
+    "Exposed to cyclical travel demand and owner financing constraints [D01]",
+    "Adjusted EBITDA growth of 10% in Q2 2018 [D01]"
+   ],
+   "competitive_position": [
+    "Portfolio comprises 14 brands [D01]",
+    "Operations in 106 countries and territories [D01]",
+    "Supports loyalty infrastructure through The Boeing Company Honors [D01]",
+    "Peer comparison: Marriott [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "2017 adjusted EBITDA grew 11% [D02]",
+    "2018 guidance: 3%-4% RevPAR growth, 9%-11% fee revenue growth, 8%-10% adjusted EBITDA growth [D03]",
+    "Net-unit growth projected at approximately 6.5% for 2018 [D03]"
+   ],
+   "balance_sheet": [
+    "June 2018 long-term debt: $7.7 billion [D02]",
+    "June 2018 cash: $505 million (includes $82 million restricted) [D02]",
+    "Carries meaningful debt [D01]"
+   ],
+   "management_and_governance": [
+    "CEO: Christopher Nassetta [D01]",
+    "Capital allocation: Aggressive buybacks, including $1.3 billion in Q2 2018 [D03]"
+   ],
+   "price_and_valuation": [
+    "October 15, 2018 close: $72.99 [D04]",
+    "Trailing adjusted EPS (2017): $3.85 [D02]",
+    "2018 adjusted EPS guidance midpoint: $2.675 [D04]",
+    "Forward P/E based on 2018 guidance: ~27.3x [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Supply growth, particularly in business-travel and urban markets [D05]",
+    "Mature travel cycle [D05]",
+    "Leverage and exposure to owner financial health [D05]",
+    "Potential for cyclically constrained fee growth [D05]"
+   ],
+   "recent_events": [
+    "January 3, 2017: Separation of Park Hotels & Resorts and The Boeing Company Grand Vacations [D01]",
+    "July 25, 2018: Reported Q2 2018 results with 10% EBITDA growth [D03]",
+    "Q2 2018: Repurchased 18.5 million shares [D03]"
+   ],
+   "pershing_context": [
+    "June 30, 2018 PSH AUM: $4,114.9 million [D07]",
+    "Strategy focuses on large-cap, simple, predictable, FCF-generative, high-quality businesses [D07]",
+    "No specific prior engagement with this company mentioned in pack [D07]"
+   ],
+   "missing_data": [
+    "Verified 52-week price range [D04]",
+    "Complete historical FCF and ROIC series [D02]",
+    "Independent 2019 consensus EPS estimates [D04]",
+    "Exact current market capitalization and enterprise value [D04]",
+    "Detailed peer valuation multiples for Hyatt and Wyndham [D06]"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "The business operates an asset-light model leveraging fee-based revenue from a vast global brand portfolio [D01]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "With 14 brands and operations in 106 countries, the company possesses significant scale and network effects through its loyalty infrastructure [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The company is explicitly exposed to cyclical travel demand and owner financing constraints [D01]."
+    },
+    "strong_financial_profile": {
+     "score": "FAIL",
+     "evidence": "The firm carries meaningful debt of $7.7 billion with limited cash on hand relative to debt obligations [D01], [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The asset-light model allows for unit growth without requiring full construction funding [D01]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "As a major global hospitality player, it maintains the scale necessary for a core position [D01]."
+    },
+    "attractive_valuation_screen": {
+     "score": "FAIL",
+     "evidence": "The forward P/E of approximately 27.3x suggests a premium valuation that does not immediately scream a deep value entry point [D04]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "CEO Christopher Nassetta oversees a consistent strategy of aggressive capital allocation via buybacks [D01], [D03]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company maintains a projected net-unit growth of approximately 6.5% for 2018 [D03]."
+    }
+   },
+   "n_pass": 6,
+   "n_fail": 3,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a global, asset-light hospitality franchisor with strong network effects but significant leverage and cyclical sensitivity."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "variant_perception": "The market views this business as a cyclical hospitality firm with high leverage, making it vulnerable to a mature travel cycle and supply growth. We cannot refute these concerns or identify a catalyst for re-rating, as the business is trading at a premium valuation of 27.3x forward P/E despite significant debt [D01], [D04], [D05].",
+   "evidence": [
+    "The business faces investor concerns regarding supply growth in urban markets and the maturity of the travel cycle [D05].",
+    "The firm carries $7.7 billion in long-term debt with limited cash, failing our standard for a strong balance sheet [D01], [D02].",
+    "The current forward P/E of 27.3x does not provide an attractive valuation screen for a new investment [D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market is potentially over-penalizing the stock for cyclical risks, but without an identifiable edge or a clear fixable valuation disconnect, we cannot argue the market is wrong [D05].",
+   "what_must_be_true": [
+    "Market concerns regarding the travel cycle must be proven overstated.",
+    "The company must demonstrate sustainable deleveraging while maintaining fee growth.",
+    "Valuation must compress to levels consistent with a high-quality compounder."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "27.3x 2018 forward EPS [D04], historical average not provided in pack, S&P 500 average not provided in pack.",
+   "eps_or_fcf_path": {
+    "base_year": "2018",
+    "base_value": "$2.675",
+    "growth_assumption": "8-10% adjusted EBITDA growth [D03], assumed EPS growth in line with EBITDA growth.",
+    "year_3_to_5_value": "$3.37 - $3.57 (projected 3-year EPS)",
+    "assumptions": [
+     "Adjusted EBITDA growth of 8-10% persists as a proxy for EPS growth [D03].",
+     "No significant multiple expansion or contraction."
+    ]
+   },
+   "terminal_multiple": {
+    "value": 16,
+    "why": "Business faces cyclical risks and high leverage [D01], [D05]; does not meet criteria for premium 20x+ compounder multiple."
+   },
+   "implied_irr_pct": {
+    "base": 6,
+    "bear": 2,
+    "bull": 10
+   },
+   "downside_case": "Permanent loss unlikely due to asset-light model [D01], but cyclically constrained fee growth and valuation compression toward a 15-16x multiple could result in significant capital impairment from current 27.3x levels.",
+   "valuation_verdict": "EXPENSIVE_BELOW_10",
+   "flagged_assumptions": [
+    "Assumed EPS growth tracks adjusted EBITDA growth.",
+    "Historical P/E average and S&P 500 average not available in pack.",
+    "Assumed terminal multiple of 16x based on cyclical nature and leverage."
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "As a quality compounder, the investment relies on earnings growth and the fading of cyclical market fears, rather than a discrete corporate event [D03].",
+   "levers_or_steps": [
+    "Continued execution of the asset-light growth strategy, targeting 8-10% adjusted EBITDA growth [D03].",
+    "Consistent capital allocation through share repurchases [D03]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In the Pershing Square 3.0 era, we focus on high-quality compounders and avoid public activism unless there is significant underperformance and private engagement has failed; given the current premium valuation and lack of a clear catalyst for re-rating, we pass on the opportunity [D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Cyclical downturn leading to RevPAR decline for two or more consecutive quarters",
+    "Significant increase in leverage or acquisition-driven growth that deviates from the asset-light model",
+    "Structural loss of market share or network effect efficacy of the loyalty program"
+   ],
+   "portfolio_fit": "The position would be a potential core holding within our 8-15 name portfolio, but it currently lacks the required valuation entry point and margin of safety for a business with these cyclical sensitivities.",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "liquidity_assessment": "The stock has sufficient daily trading volume for a large position, allowing for entry or exit within a quarter without significant market impact [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The combination of high financial leverage and cyclical exposure to the global travel market creates an asymmetric downside risk that is not compensated for by the current premium valuation."
+  }
+ },
+ "final": {
+  "as_of_date": "2018-10-15",
+  "company": "The Boeing Company",
+  "ticker": "BA",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "27.3x 2018 forward EPS",
+   "eps_path": "8-10% annual growth in adjusted EBITDA",
+   "terminal_multiple": "16x",
+   "irr_pct": 6,
+   "downside_case": "Significant capital impairment due to multiple compression from 27.3x to 16x"
+  },
+  "drivers": [
+   {
+    "driver": "The company operates an asset-light, franchisor model with strong global brand scale and loyalty infrastructure [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Despite quality characteristics, the business carries $7.7 billion in long-term debt relative to limited cash reserves [D01], [D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The business is exposed to cyclical travel demand and owner financing constraints, which heightens risk during potential economic downturns [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Current valuation at approximately 27.3x forward earnings fails to provide the margin of safety required for our investment criteria [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Cyclical downturn leading to RevPAR decline for two or more consecutive quarters",
+   "Significant increase in leverage",
+   "Structural loss of market share or network effect efficacy"
+  ],
+  "what_would_change_our_mind": "A significant valuation compression to levels consistent with high-quality compounders, combined with a demonstrated ability to deleverage while maintaining robust fee growth through a cyclical downturn.",
+  "memo": "The company operates as a global hospitality franchisor, leveraging 14 brands and a massive loyalty program across 106 countries to generate capital-light, fee-based revenue [D01]. This model, managed by CEO Christopher Nassetta, provides significant scale and network effects that typically align with our preference for dominant, predictable, and free-cash-flow-generative businesses [D01], [D03].\n\nHowever, the current investment environment presents significant challenges. The market remains concerned about supply growth in urban markets, the maturity of the travel cycle, and the company's meaningful debt load of $7.7 billion [D01], [D05]. We acknowledge these risks and currently lack a specific variant perception or catalyst that would suggest the market is materially underpricing the long-term intrinsic value [D05].\n\nAt a forward P/E of approximately 27.3x, the stock trades at a premium multiple [D04]. Given our assessment of the business's cyclical sensitivity and leverage, we believe a 16x terminal multiple is more appropriate for long-term modeling, leading to a projected internal rate of return that fails to meet our 20% hurdle rate [D01], [D03], [D05].\n\nWhile the company continues to execute its strategy of aggressive capital allocation via buybacks, we remain disciplined in our approach [D03]. We do not invest in businesses, however high-quality, that do not offer a clear path to attractive risk-adjusted returns or that trade at prices that do not reflect their underlying cyclical risks [D01], [D05]. Consequently, we have decided to pass on this opportunity.",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

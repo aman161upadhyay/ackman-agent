@@ -1,0 +1,82 @@
+{
+  "audit_notes": "The candidate's cited content is bounded by March 31, 2026, whereas the gold drivers are sourced from a post-period interim report (August 2026). The candidate is not able to reflect the subsequent analysis found in the gold drivers because it was not available at the as_of_date.",
+  "cause_evidence": "The candidate focuses on general franchise quality and a specific 20.6x valuation, failing to articulate the specific investment thesis drivers (e.g., segment profit contribution or specific AI-data value proposition) identified in the gold standard.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Ratings, Indices and Platts dominate earnings and possess durable benchmark/oligopoly advantages.",
+      "index": 1,
+      "reason": "The candidate does not explicitly claim Ratings, Indices, and Platts dominate earnings. It mentions the business benefits from network effects and regulatory barriers [D01, D06], but provides no evidence that these specific segments dominate earnings.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "The AI-threatened desktop exposure was small relative to the enterprise profit pool.",
+      "index": 2,
+      "reason": "The candidate discusses market concern regarding AI disruption but explicitly notes that 'the pack has no independently verified cutoff estimate of exactly how much consolidated revenue or profit is replaceable by AI' [D05].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Proprietary structured data can become more valuable within AI workflows.",
+      "index": 3,
+      "reason": "The candidate makes no claim regarding the increased value of data within AI workflows; it focuses on the risk of displacement and the mission-critical nature of existing products.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Growth and capital return were available at about19x earnings versus about25x before de-rating.",
+      "index": 4,
+      "reason": "The candidate cites an entry valuation of 20.6x [D03, D04], not 19x, and does not mention a 25x historical benchmark.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate fails to provide evidence-based, specific causal claims corresponding to the gold drivers, relying on broader qualitative assertions about franchise strength.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [
+    {
+      "confidence": "high",
+      "document": "D07_event_timeline.md",
+      "quote": "June 2026",
+      "reason": "The gold drivers reference an interim report dated August 2026, which occurs after the March 31, 2026 as_of_date."
+    }
+  ],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

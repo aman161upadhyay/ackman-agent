@@ -1,0 +1,90 @@
+{
+  "audit_notes": "The candidate was evaluated against provided documents. The gold drivers reference a source dated January 26, 2022, which is post-cutoff for the candidate (January 24). The candidate identifies similar business drivers (scale, management, pricing power, margins) but does not contain the specific verbatim quotes required for 100% semantic alignment.",
+  "cause_evidence": "The candidate provides a general investment thesis but lacks the specific verbatim rhetorical framing required by the gold driver list.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Recurring subscriptions and the transition from linear viewing create substantial long-term growth.",
+      "index": 1,
+      "reason": "The candidate does not explicitly state that the transition from linear viewing is the primary cause of long-term growth as specified in the gold driver.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Scale and content quality strengthen the moat.",
+      "index": 2,
+      "reason": "The candidate does not contain the required verbatim quote regarding scale and content quality.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "The customer value proposition supports pricing power.",
+      "index": 3,
+      "reason": "The candidate does not contain the required verbatim quote regarding the value proposition and pricing power.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "A trusted adaptive management team and high-performance culture can execute.",
+      "index": 4,
+      "reason": "The candidate does not contain the required verbatim quote regarding the management team and culture.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Margin leverage and improving free cash flow support both growth and distributions.",
+      "index": 5,
+      "reason": "The candidate does not contain the required verbatim quote regarding free cash flow and shareholder distributions.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate is a generic buy-side investment thesis for Netflix that captures similar economic themes but does not utilize the specific rhetorical framing or evidence-based arguments structured in the gold drivers.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 5,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

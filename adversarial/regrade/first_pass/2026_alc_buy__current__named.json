@@ -1,0 +1,66 @@
+{
+  "audit_notes": "The candidate correctly identifies the core business and risks, but differs significantly in its stated valuation targets (re-rating to 22x vs gold driver's de-rating). The document D08 references events from after the cut-off date.",
+  "cause_evidence": "The candidate models a re-rating toward 22x [L54] rather than the 18x de-rating mentioned in the gold driver, and focuses on an entry valuation of 21.9x.",
+  "drivers": [
+    {
+      "candidate_quote": "The company's installed surgical workflows and clinical trust create a durable moat that benefits from long-term secular growth in aging populations and the rising prevalence of visual impairment [D01]. We expect the business to compound at a high rate as it leverages its installed base to drive steady demand for consumables while managing down its cost structure [D01, D03].",
+      "document": "D01_business_overview.md",
+      "document_quote": "Surgical equipment can create recurring demand for consumables and service as clinicians perform procedures. Installed systems, training, workflow familiarity and product compatibility may support retention.",
+      "evidence_supported": true,
+      "gold_driver": "Surgical installed-base economics produce sticky recurring consumable demand.",
+      "index": 1,
+      "reason": "The candidate explicitly links the installed surgical workflow and base to recurring demand for consumables and service.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The company's installed surgical workflows and clinical trust create a durable moat that benefits from long-term secular growth in aging populations and the rising prevalence of visual impairment [D01].",
+      "document": "D01_business_overview.md",
+      "document_quote": "Demand can benefit from aging populations, prevalence of visual impairment, access to care and willingness to adopt premium correction.",
+      "evidence_supported": true,
+      "gold_driver": "Demographics, income and access support durable vision-care growth.",
+      "index": 2,
+      "reason": "The candidate identifies aging populations and visual impairment prevalence as drivers for Alcon's growth, consistent with the document's claim regarding demographics.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Investors are overly focused on temporary volatility in implantables growth and reported margin gaps, while failing to value the underlying resilience of the consumables business and the progress in core operating margin expansion, which reached 21.2% in Q1 2026 [D01, D02, D03, D05].",
+      "document": "D03_latest_results_and_guidance.md",
+      "document_quote": "Higher R&D and launch-related selling/marketing expense, plus incremental tariffs, weighed on margins; operating leverage and manufacturing efficiency provided offsets.",
+      "evidence_supported": true,
+      "gold_driver": "Launch/R&D costs, tariffs, FX and lens-manufacturing maturation obscure higher structural margins.",
+      "index": 3,
+      "reason": "The candidate describes margin gaps as temporary volatility and points to core margin expansion, acknowledging that current costs (launch, R&D, tariffs) obscure underlying performance.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "None",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "De-rating toward18x earnings, buybacks and prospective EPS growth create attractive return potential.",
+      "index": 4,
+      "reason": "The candidate specifies an entry of 21.9x core EPS and expects a re-rating toward 22x, which contradicts the gold driver's mention of a de-rating toward 18x.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "The primary risks include a potential failure in the AURN001 program or a sustained deterioration in the surgical consumables capture rate [D05, D09].",
+      "document": "D09_clinical_option_separate_from_base.md",
+      "document_quote": "The base company already generated $1.733billion defined FCF in 2025 and $279million in Q1. It sells surgical equipment, consumables, implantables, contact lenses and ocular-health products. A valuation can therefore start with an established operating business rather than an assumed future therapy launch.",
+      "evidence_supported": true,
+      "gold_driver": "AURN001 is incremental upside rather than required core value.",
+      "index": 5,
+      "reason": "The candidate acknowledges the clinical program as a risk factor separate from the recurring-consumables business, consistent with treating it as an incremental component.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate has a different valuation target and path than the gold driver.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [
+    {
+      "confidence": "high",
+      "document": "D08_pershing_context.md",
+      "quote": "The April30 announcement of the combined PSUS/manager IPO reports$5billion aggregate gross proceeds.",
+      "reason": "This document discusses a corporate event (the IPO) that occurred after the as_of_date (2026-06-30)."
+    }
+  ]
+}

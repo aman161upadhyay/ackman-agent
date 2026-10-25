@@ -1,0 +1,25 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "Candidate C1 identifies as a catalyst for a 13D and public campaign [L73], matching Era B activist tools, but the pack states: 'No November presentation details or later campaign resolution appear here' [L165].",
+      "fix": "The model should limit its catalyst role to the publicly available information at the cutoff, acknowledging that while Pershing Square's activist persona is consistent with the era, it cannot invent a specific 13D filing or future campaign strategy that does not exist in the source documents.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "iii"
+      ]
+    },
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "Candidate C2 claims, 'We have identified clear catalysts... including a potential real estate spin-off' [L131], but the pack states: 'Management reiterates... It rejects a new structure for core property assets' [L165].",
+      "fix": "The model must correctly reflect management's explicit rejection of the proposed restructuring as of September 30, 2005 [L163, L165], rather than framing the spin-off as an identified near-term catalyst.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "iii"
+      ]
+    }
+  ],
+  "notes": "Both candidates provide high-quality analyses consistent with Era B Pershing Square frameworks, but both fail to strictly adhere to the negative evidence regarding management's explicit opposition to the real-estate spin-off, potentially creating the impression that a deal is more imminent than the pack permits."
+}

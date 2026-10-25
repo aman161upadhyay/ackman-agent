@@ -1,0 +1,67 @@
+{
+  "audit_notes": "The candidate is holding the position as of 2025-11-03, while the provided gold drivers cite a 2026-02-11 source to justify a decision (presumably to sell). Consequently, the candidate does not share the semantic content of the gold drivers, as its perspective is contemporaneous to 2025-11-03.",
+  "cause_evidence": "The candidate maintains a 'HOLD' position based on a thesis it deems 'intact' (L22, L25), whereas the gold drivers reflect a decision to exit due to errors in initial diligence and reduced confidence in normalized profitability.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Initial diligence underestimated inherited strategic and operating problems and the cost of repairing them.",
+      "index": 1,
+      "reason": "The candidate asserts the original thesis is still valid, which contradicts the gold driver acknowledging an underwriting error.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "The medium-term return to prior profitability could no longer be confidently underwritten.",
+      "index": 2,
+      "reason": "The candidate maintains confidence in the recovery and states it sees no reason to abandon the position.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Competition and tariff-related margin pressure made historical earnings targets less reliable.",
+      "index": 3,
+      "reason": "The candidate acknowledges these challenges but categorizes them as 'fixable execution and cost-management hurdles' rather than as factors undermining the reliability of earnings targets.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate continues to rely on the original 'brand-repair thesis' as the basis for its investment, whereas the gold drivers indicate a retrospective acknowledgment of underwriting failures and diminished confidence in the previously projected path to profitability.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [
+    {
+      "confidence": "high",
+      "document": "D00_original_thesis.md",
+      "quote": "The March 2025 report is a post-purchase account of the spring 2024 underwriting, not a contemporaneous May letter.",
+      "reason": "The source document referenced in the gold driver is dated 2026-02-11, which is after the cutoff date of 2025-11-03."
+    }
+  ],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

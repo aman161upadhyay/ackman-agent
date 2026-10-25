@@ -1,0 +1,90 @@
+{
+  "audit_notes": "Candidate correctly identifies operational challenges and leverage risks but overlooks the upside optionality central to the gold drivers due to a mismatch in investment philosophy.",
+  "cause_evidence": "The candidate rejects the investment based on strict high-quality compounding criteria [L46], whereas the gold drivers explore speculative upside from an operational turnaround.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Concentrated rental industry and rational pricing can support normalized profitability.",
+      "index": 1,
+      "reason": "The candidate does not argue that concentration supports profitability; it emphasizes competitive pressures and industry-wide headwinds [L46, L68].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "The primary catalyst is the execution of the fleet transformation plan under CEO Gil West, aimed at optimizing the asset mix by year-end 2025",
+      "document": "D03_latest_results.md",
+      "document_quote": "Structural operating efficiencies are expected to improve unit costs as the transformation progresses.",
+      "evidence_supported": true,
+      "gold_driver": "Gil West and fleet rotation can repair depreciation and operating costs.",
+      "index": 2,
+      "reason": "The candidate recognizes the management-led fleet transformation as the primary potential catalyst for operational repair.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Sensitivity to used-vehicle residual values and macroeconomic cycles creates extrinsic exposure that we cannot control",
+      "document": "D05_market_worries.md",
+      "document_quote": "For a financed fleet, weaker resale values can affect both earnings and collateral.",
+      "evidence_supported": true,
+      "gold_driver": "A leveraged vehicle portfolio creates large equity sensitivity to residual values.",
+      "index": 3,
+      "reason": "The candidate explicitly identifies the equity risk associated with residual vehicle value exposure.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Liquidity and distant principal maturities provide time for the turnaround, subject to cash burn.",
+      "index": 4,
+      "reason": "The candidate adopts the opposite view, identifying current liquidity constraints and insolvency risk as factors that could terminate the business before the turnaround can occur [L23].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "AV servicing is additional optionality, not a signed contract or a November2024 fact.",
+      "index": 5,
+      "reason": "The candidate does not mention AV servicing as an investment consideration.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate applies a rigid quality-filter methodology to a distressed asset, failing to reconcile the high-risk/high-reward profile inherent in a turnaround context.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 5,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

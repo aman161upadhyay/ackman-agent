@@ -1,0 +1,16 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "The candidate initiates a position in a Chinese VIE-structured entity despite explicit rules in the agent's definition and Section 5 of the Operating Rules [L86, L88] identifying Chinese VIEs as failing the 'simple, predictable' threshold, and explicitly citing in the memo that it considers jurisdictional and structural risks present [L62].",
+      "fix": "The agent must adhere to the explicit rule in Section 5 ('Pass rules') stating Chinese VIEs are 'Not simple/predictable' and therefore a categorical PASS.",
+      "primary_cause": "v",
+      "secondary_causes": [
+        "model fails to adhere to specific Era E constraints on Chinese VIE investment",
+        "misinterpretation of risk boundaries regarding extrinsic regulatory factors"
+      ]
+    }
+  ],
+  "notes": "The model produced a BUY decision for a Chinese VIE-structured company (Alibaba) which constitutes a direct violation of the operating rules defined in the agent's instructions. The prompt instructions require a PASS for businesses that are not 'simple, predictable', and explicitly list 'Chinese VIEs' as an example of such businesses [L88: Section 5]. The model acknowledged the risk in its memo [L62] but failed to follow the hard constraint of the Gate 1 PASS rule."
+}

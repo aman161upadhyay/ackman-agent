@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate provided matches the Aug 2, 2023 context and correctly identifies the distinction between the held option-based hedge and a direct linear short. Gold drivers 1 and 3 are inconsistent with the candidate's stated position.",
+  "cause_evidence": "The candidate is holding existing options rather than initiating a new short position as described in the gold drivers [L31].",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Structural inflation nearer3% than2% could justify materially higher long yields, around5.5% in the public framework.",
+      "index": 1,
+      "reason": "The candidate does not make this specific claim regarding 3% inflation or a 5.5% yield target.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "Treasury's increased borrowing requirements and the Fitch downgrade highlight fiscal pressures that may necessitate higher term premiums [D03].",
+      "document": "D03_treasury_supply.md",
+      "document_quote": "Greater duration supply can require higher yields if demand does not rise comparably.",
+      "evidence_supported": true,
+      "gold_driver": "Large deficits and Treasury supply add long-rate/term-premium pressure.",
+      "index": 2,
+      "reason": "The candidate explicitly links increased borrowing and fiscal pressure to higher term premiums, which is supported by the document's discussion of duration supply impact.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Protect equity duration while taking an attractive standalone asymmetric exposure.",
+      "index": 3,
+      "reason": "The candidate explicitly describes holding the hedge as insurance but denies taking an outright directional short position to avoid uncapped risks [L31].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "Maintaining this overlay offers us necessary protection against interest-rate shocks without requiring us to take an outright directional short position, which would introduce uncapped risks and financing costs [D04].",
+      "document": "D04_instrument_economics.md",
+      "document_quote": "A payer swaption generally benefits when the relevant fixed swap rate rises relative to its strike. Its economics differ from selling a Treasury security outright.",
+      "evidence_supported": true,
+      "gold_driver": "Retained payer swaptions as portfolio insurance rather than simply an outright linear cash-bond short.",
+      "index": 4,
+      "reason": "The candidate explicitly differentiates the insurance hedge from a linear short, which is supported by the document's analysis of swaption versus bond economics.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The gold drivers assume an initiation of an outright short position, whereas the candidate document explicitly confirms a hold decision on an existing hedge to avoid the risks of an outright short.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "audit_notes": "The candidate provides a high-conviction thesis based on information available as of 2011-09-23. The candidate successfully identifies the operational gap and the need for governance changes, but does not name a specific successor (Hunter Harrison), which is an appropriate limitation given the cutoff date.",
+  "cause_evidence": "The candidate lacks retrospective knowledge of the specific CEO successor (Hunter Harrison) that was only finalized after the 2011-09-23 cutoff date.",
+  "drivers": [
+    {
+      "candidate_quote": "Canadian Pacific is a critical North American infrastructure asset, providing essential transcontinental freight services across a high-barrier-to-entry network [D01]. Despite the quality of this monopoly-like franchise, the company is significantly underperforming its potential, operating with an 81.8% operating ratio in Q2 2011, compared to 61.3% for its nearest competitor, Canadian National [D06].",
+      "document": "D01_business_overview.md, D06_peer_and_industry_benchmarks.md",
+      "document_quote": "Its physical right-of-way, terminals and connections form the competitive asset [D01]; CP's Q2 2011 ratio was 81.8%, while CN reported 61.3% [D06].",
+      "evidence_supported": true,
+      "gold_driver": "Close a large operating-efficiency gap in a durable rail franchise rather than underwrite an inferior franchise.",
+      "index": 1,
+      "reason": "The candidate identifies the franchise quality and the specific operating ratio gap compared to a peer as the investment driver.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Recruit Hunter Harrison, whose prior operating record makes the management-change case concrete.",
+      "index": 2,
+      "reason": "The candidate does not mention Hunter Harrison, who had not been engaged by CP at the cutoff date.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "Our role is to catalyze this change by demanding an overhaul of the board and management to install leadership capable of driving operational discipline [D03, D06].",
+      "document": "D03_latest_results_and_guidance.md",
+      "document_quote": "Our role is to catalyze this change by demanding an overhaul of the board and management to install leadership capable of driving operational discipline [D03].",
+      "evidence_supported": true,
+      "gold_driver": "Use board change to enable an operational plan focused on service, utilization and costs.",
+      "index": 3,
+      "reason": "The candidate explicitly identifies the need for board and management change to drive the operational discipline required.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "With a path to reaching an operating ratio in the low 70s, we anticipate normalized earnings potential of C$6.50 to C$7.00 per share [D03, D07].",
+      "document": "D03_latest_results_and_guidance.md",
+      "document_quote": "Green said: “We remain committed to delivering our two- to four-year target of a low 70’s operating ratio and providing a quality service offering.”",
+      "evidence_supported": true,
+      "gold_driver": "Translate improved operating performance into materially higher per-share earnings.",
+      "index": 4,
+      "reason": "The candidate explicitly links the operational improvement (low 70s ratio) to a specific target EPS range.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate correctly identifies the operational inefficiency and the governance strategy but is limited by the lack of future knowledge regarding specific management recruitment outcomes.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [
+      "document quote 1",
+      "document quote 3"
+    ],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

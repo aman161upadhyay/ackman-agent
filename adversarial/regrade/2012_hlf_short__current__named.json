@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate makes several bold claims about the illegality of the business model and its impending collapse based on its own analysis; however, none of the provided documents (D01-D08) contain facts that substantiate these claims. The candidate correctly identifies the 'risk' of regulators failing to act [L46], but the document citations [D01][D05] attached to the drivers do not contain text confirming the core thesis of structural fraud.",
+  "cause_evidence": "The candidate expresses a high-conviction short thesis based on the belief that the company is an illegal pyramid scheme [L46] but lacks empirical evidence to support the specific causal claims (regulatory shutdown or recruitment-based compensation) within the provided source documents. The documents acknowledge the company reports growth and profitability [L65], and the candidate's reliance on 'analysis' [L46] fails to meet the threshold of documented fact required to support its high-conviction status.",
+  "drivers": [
+    {
+      "candidate_quote": "This multi-level marketing scheme prioritizes inventory loading over the actual consumption of products by third-party customers",
+      "document": "D01_business_overview.md",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Alleged compensation primarily rewarded recruitment rather than genuine outside retail demand.",
+      "index": 1,
+      "reason": "The candidate makes the claim that the model prioritizes inventory loading over retail consumption [L46], but provides no document quote that affirmatively supports the premise that compensation is primarily rewarded via recruitment rather than retail. D01 notes that income may depend on purchasing activity and highlights the lack of observed retail checkout, but does not provide factual support for the specific claim of compensation structure incentives as defined.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Questioned distributor success claims, retail-sales measurement and losses borne by lower-level participants.",
+      "index": 2,
+      "reason": "The candidate does not explicitly make the specific claims regarding losses borne by lower-level participants or the questioning of distributor success claims.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "We believe the company is an illegal pyramid scheme destined for regulatory closure",
+      "document": "D01_business_overview.md",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Expected regulatory shutdown or collapse to destroy equity value; this was Pershing's allegation, not an adjudicated fact.",
+      "index": 3,
+      "reason": "The candidate claims it is a pyramid scheme destined for regulatory closure [L46], but no document provided in the pack contains evidence that supports the assertion that this will occur or that the business is currently an illegal pyramid scheme.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Expected economic deterioration to validate the thesis, but later acknowledged fundamental analysis alone was insufficient for a viable short.",
+      "index": 4,
+      "reason": "The candidate does not acknowledge that fundamental analysis alone is insufficient for a viable short position.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate asserts a definitive fraudulent business model without providing documentation that validates the specific allegations (e.g., compensation structure, imminent regulatory collapse) within the provided sources.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

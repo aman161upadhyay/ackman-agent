@@ -1,0 +1,12 @@
+{
+  "run_count": 14,
+  "by_action": {
+    "HOLD": 6,
+    "TRIM": 6,
+    "SELL": 2
+  },
+  "distinct_cases": 7,
+  "distinct_exact": 1,
+  "holdout_distinct": 4,
+  "holdout_exact": 0
+}

@@ -1,0 +1,27 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "The candidate incorrectly labels a TRIM when the pack indicates a SELL is required for forward returns falling below the hurdle [L43, L98].",
+      "fix": "Correct the decision to SELL to align with the S1 strategy rule for positions where prospective returns no longer clear the hurdle [L98].",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "model fails to accurately reflect the manager's S1SELL strategy as defined in the pack [L43, L98]",
+        "incorrect interpretation of trim versus full exit strategy for a fully valued position [L43, L98]"
+      ]
+    },
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "The candidate concludes the business is a high-quality compounder but fails to execute a SELL despite acknowledging prospective returns are no longer consistent with the 15% threshold [L74, L98].",
+      "fix": "Update the decision to SELL consistent with the S1 criteria for an investment that has reached its estimated intrinsic value [L98].",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "model fails to execute the prescribed SELL decision for a position that reached value [L74, L98]",
+        "incorrectly applying TRIM instead of SELL for an investment that has reached its estimate of value [L74, L98]"
+      ]
+    }
+  ],
+  "notes": "Both candidates identify the compression of prospective returns and the breach of the 15% threshold; however, both incorrectly select TRIM instead of the required SELL verdict for a position that has reached intrinsic value per S1 rules in the provided pack [L98]."
+}

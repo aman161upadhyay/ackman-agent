@@ -1,0 +1,38 @@
+MODEL ACCESS / REPLAY RECORD
+
+All judgments used the registered queryWithLLM callback through CodeExecution, never an external endpoint, local model, node program or Python model client. Maximum four requests were in flight. The exact underlying internal model snapshot is not exposed by this interface; independence from the original model family is not established.
+
+Input preparation:
+audit.py writes inputs/<pack>.json and inputs/manifest.json. Each input contains the full currently available docs, cutoff, mode, answer-key causal drivers and final outputs. Anonymous C1/C2 IDs conceal original scores and provider; they do not erase issuer clues. The final regrade submits one candidate per call, not both. Original stage outputs are not eligible for final-driver credit.
+
+Rubric:
+scripts/strict_rubric.txt is the initial strict source-only rubric.
+Final production override:
+CRITICAL: ONE candidate only. Output drivers MUST have exactly ONE row per GOLD driver, in GOLD order. Copy the exact gold driver text into gold_driver. Do NOT enumerate candidate drivers. A document describing the market worry does NOT support the claim that the worry is wrong. A business metric does not prove a management causal claim. A mere valuation level does not establish an undervaluation thesis. Candidate_quote and document_quote MUST be continuous verbatim substrings, no ellipses or paraphrase. If unsupported, use empty quotes and false. Do not award generic topic overlap. Return the single-candidate schema, not candidates[].
+
+Production payload keys:
+as_of_date, mode, docs, gold_drivers=[{index:1,...original_driver},...], actual_decision, candidate=run.final, semantic_audit.
+Response:
+drivers=[{index,gold_driver,semantic_present,evidence_supported,candidate_quote,document,document_quote,reason}],
+primary_cause,cause_evidence,key_problem,semantic_leakage,audit_notes.
+
+The early paired pilot in regrade/raw/ did not obey gold-driver enumeration and was abandoned. It contributes NO statistics.
+
+Quote repair:
+summarize.py validates gold text/index identity, candidate quote presence and source quote presence. The 25 initially failing run judgments received ONE repair query with the same docs, candidate, gold, prior_judgment and invalid_quotes. Additional instruction:
+Your previous response failed exact quote validation listed in invalid_quotes. Correct ALL these quotes by finding actual continuous source substrings. Reconsider scores; set false if no exact supporting quote exists. Do not introduce paraphrases. Semantic leakage NOT requested here: return empty array.
+First-pass outputs for these runs remain in regrade/first_pass/. Fifteen retained quote failures receive deterministic zero for the affected endpoint, not fabricated repaired quotes. audit_validation in each final JSON records accepted claims.
+
+Semantic leakage:
+Incidental leakage arrays from the grading calls were unreliable (they sometimes flagged the gold itself or reversed calendar ordering). Dedicated independent-purpose calls used only as_of_date and documents for all eleven hold-outs plus Uber. Instruction:
+List any statement that REQUIRES knowledge after the cutoff. Use only these docs. Future guidance, debt maturities, scheduled events, fiscal-year labels, later archive hosting paths and explicitly excluded future documents are NOT realized future facts. Flag genuine future-derived assertions separately from provenance uncertainty. Quote exact text and filename; return empty findings if none. Read calendar ordering correctly.
+Two residual candidate flags were separately adjudicated against the scheduling/provenance rule; neither establishes confirmed future economic leakage. leakage_semantic/ contains the authoritative records.
+
+Divergence:
+Each affected pack was judged with full AGENT rules, docs, gold and only the affected candidates, choosing primary i/ii/iii/iv/v plus evidence and fix. A source-limited adjudication reviewed all 46 rows. A subsequent targeted runtime-propagation check corrected masked Alibaba to i because staged prompts omit AGENT's categorical VIE exclusion. All provisional and corrected records are retained. Counts are descriptive automated attributions, not causal identification.
+
+Forward:
+Broad source-only queryWithLLM reviews and a correction request were saved. They contain judge mistakes about absent scenario columns and disclosure nonoccurrence; reports explicitly reject these against the actual files. Candidate business falsifiers are proposals, not claims about subsequent events. Forward arithmetic and base-rate calculations come only from Python scripts and local files.
+
+Reproduction:
+Deterministic scripts can replay existing judgments, not reproduce a stochastic unversioned judge exactly. Re-running queryWithLLM requires its registered callback environment; no unavailable node runtime is assumed. Save new model judgments under a new audit version rather than overwriting this audit.

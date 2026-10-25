@@ -1,0 +1,57 @@
+[
+  {
+    "file": "AGENT.md",
+    "line": 46,
+    "text": "2010-13, Herbalife short 2012-18, Valeant 2015-17, Netflix 2022) and the rules he adopted after each (Section 6)."
+  },
+  {
+    "file": "AGENT.md",
+    "line": 102,
+    "text": "exceeds the claims (GGP 2008: solvent but illiquid), or (b) the company is a levered turnaround in a concentrated"
+  },
+  {
+    "file": "AGENT.md",
+    "line": 104,
+    "text": "power that makes today's equity a multiple of its price (Hertz 2024). **Era C platform exception** (as_of 2013-2016"
+  },
+  {
+    "file": "AGENT.md",
+    "line": 106,
+    "text": "UNSURE (Valeant 2015, Platform Specialty, Nomad); this exception was retired in 2017 and never applies afterwards."
+  },
+  {
+    "file": "AGENT.md",
+    "line": 123,
+    "text": "  discounts (Brookfield 2024: invested capital valued near zero after BAM stake), bankruptcy-equity (GGP 2008)."
+  },
+  {
+    "file": "AGENT.md",
+    "line": 137,
+    "text": "  turnaround is already under proven management (GGP 2008; Hertz 2024). Requires an explicit value-vs-claims line."
+  },
+  {
+    "file": "AGENT.md",
+    "line": 139,
+    "text": "  acquisitions (Valeant 2015, Platform Specialty 2013, Nomad 2015). Retired after the Valeant loss; after 2016 the same"
+  },
+  {
+    "file": "prompts/02_gate1_business_quality.md",
+    "line": 26,
+    "text": "     solvent-but-illiquid estate: GGP 2008), OR"
+  },
+  {
+    "file": "prompts/02_gate1_business_quality.md",
+    "line": 29,
+    "text": "     today's equity a multiple of its price (Hertz 2024). Current negative FCF does not block (b)."
+  },
+  {
+    "file": "prompts/03_gate2_why_mispriced.md",
+    "line": 21,
+    "text": "   restructuring/turnaround (GGP 2008: solvent but illiquid, equity survives a Chapter 11 of a solvent estate; Hertz 2024: fleet"
+  },
+  {
+    "file": "prompts/03_gate2_why_mispriced.md",
+    "line": 25,
+    "text": "   record (Valeant 2015, Platform Specialty 2013, Nomad 2015). This template was RETIRED in 2017 after the Valeant loss: after"
+  }
+]

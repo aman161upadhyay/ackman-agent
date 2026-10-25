@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate's sources are correctly restricted to the period ending January 10, 2025. The gold drivers are based on sources dated February and May 2025, confirming the information was unavailable at the time of the candidate's memo.",
+  "cause_evidence": "The candidate focuses on the 'take-private' strategic review to unlock value as an immediate catalyst, whereas the gold drivers focus on a long-term 'diversified holding-company' design involving insurance investments, which are not present in the candidate's sources.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Long-duration real assets and development cash can support a compounder rather than a narrow cyclical property valuation.",
+      "index": 1,
+      "reason": "The candidate discusses the real estate portfolio as a high-barrier-to-entry asset but does not explicitly frame it as a 'compounder' to avoid narrow cyclical valuation.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Control-like influence enables strategic capital allocation and a diversified holding-company design.",
+      "index": 2,
+      "reason": "The candidate mentions using influence to unlock value and bridge a discount, but does not claim this enables a 'diversified holding-company design'.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Potential insurance investments can supply additional compounding economics and permanent-capital characteristics; not a known January10 plan or acquired float.",
+      "index": 3,
+      "reason": "The candidate does not mention insurance investments at all.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Permanent ownership and disciplined reinvestment address the gap between asset value and realized shareholder returns.",
+      "index": 4,
+      "reason": "The candidate discusses strategic review and take-private as the mechanism to bridge the valuation gap, but does not attribute the solution specifically to 'permanent ownership' as a business model.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate defines the thesis around a near-term strategic review/take-private, whereas the gold drivers are based on long-term business model evolution concepts that do not appear in the candidate's provided documents.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

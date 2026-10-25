@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate provides a forward-looking activist thesis as of 2008-11-14. All gold drivers are sourced from retrospective documents dated 2009-2012. The candidate performs well against the available facts in the provided documents but diverges from the specific phrasing and hindsight-driven causal links in the gold drivers.",
+  "cause_evidence": "The candidate is an activist investment memo written at the time of the event (2008), whereas the gold drivers are drawn from retrospective 2009-2012 presentation materials.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "The immediate problem was an unprecedented credit-market disruption coinciding with maturities, not a destroyed mall franchise.",
+      "index": 1,
+      "reason": "The candidate attributes the market conflation to a 'temporary liquidity crisis' [L45], which is conceptually related but lacks the specific causal attribution to the credit market disruption presented in the gold driver.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "The underlying business continues to generate significant NOI of approximately $1.8 billion annually, which supports a valuation well in excess of the total debt burden [D01].",
+      "document": "D01_business_overview.md",
+      "document_quote": "Longer leases provide a buffer between a bad shopping season and rental receipts.",
+      "evidence_supported": true,
+      "gold_driver": "Long-lease mall cash flows could support value through a restructuring rather than a forced sale.",
+      "index": 2,
+      "reason": "The candidate identifies the NOI generation as supportive of valuation, and D01 confirms that longer leases provide a buffer, supporting the feasibility of using existing cash flows through restructuring.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "the underlying NOI of the mall portfolio—exceeding $1.8 billion annually—significantly outweighs the debt burden if capital structure issues are resolved [D01, D02].",
+      "document": "D09_reorganization_and_asset_coverage.md",
+      "document_quote": "a company whose going-concern asset value genuinely exceeds all senior claims may have residual common value even when it cannot pay a balloon maturity today.",
+      "evidence_supported": true,
+      "gold_driver": "Assets exceeding creditor claims can preserve a residual for common shareholders in bankruptcy.",
+      "index": 3,
+      "reason": "The candidate explicitly argues that underlying NOI outweighs debt, implying residual value; D09 provides the legal premise that this condition supports residual common equity value.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We are acquiring our position at an effective distressed option value relative to the underlying real estate [D04].",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "A small dollar commitment at a distressed share price offers a bounded equity loss against very large residual-value upside.",
+      "index": 4,
+      "reason": "The candidate mentions an 'effective distressed option value' [L45], but does not explicitly quantify or articulate the specific risk-reward framework of 'bounded equity loss against very large residual-value upside' required by the gold driver.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate focuses on real-time activist intervention and specific distressed asset valuation, while the gold drivers define the investment thesis in retrospect.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

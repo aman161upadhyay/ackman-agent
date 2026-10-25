@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate demonstrates strong semantic overlap with the core real estate value premise [L45] but lacks specific references to credit-card monetization or explicit arguments regarding board expertise composition.",
+  "cause_evidence": "The candidate focuses heavily on real estate monetization as a catalyst [L45] whereas the gold drivers include credit monetization and board composition changes, which are not detailed in the candidate's core thesis.",
+  "drivers": [
+    {
+      "candidate_quote": "The Company is a premier national discount retailer with a unique brand identity, 1,488 locations, and a track record of double-digit revenue growth [D01], [D02].",
+      "document": "D01_business_overview.md",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "High-quality differentiated retailer believed undervalued relative to durable business value.",
+      "index": 1,
+      "reason": "The candidate asserts the retailer is high quality and differentiated, but the cited documents do not provide evidence that it is specifically 'undervalued' in the sense defined by the gold driver as a core causal thesis.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "N/A",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Credit-card receivables monetization and buybacks could release capital and improve shareholder returns.",
+      "index": 2,
+      "reason": "The candidate discusses real estate spin-offs and sale-leasebacks [L45] but does not explicitly propose credit-card receivables monetization as a driver for shareholder returns.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "While it operates as a retailer, its balance sheet is anchored by a massive, under-appreciated portfolio of US$21.4 billion in owned real estate [D01].",
+      "document": "D01_business_overview.md",
+      "document_quote": "Net property/equipment is US$21.431 billion after accumulated depreciation across property categories.",
+      "evidence_supported": true,
+      "gold_driver": "Owned land/real estate offered structural value not separately recognized; specific REIT/ground-lease plan developed later and must not be backdated to initial entry.",
+      "index": 3,
+      "reason": "The candidate correctly identifies the value of owned real estate and that it is under-appreciated by the market.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "If necessary, we will seek board representation to ensure this strategy is prioritized over traditional, capital-intensive expansion [D01].",
+      "document": "D01_business_overview.md",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Independent retail, property and capital-allocation expertise on the board could implement changes.",
+      "index": 4,
+      "reason": "The candidate expresses a desire for board representation, but the documents contain no evidence regarding the specific necessity or availability of independent retail/property expertise on the board as a driver of change.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate's thesis relies on speculative real estate value unlocking [L45] and misses key components of the gold-standard causal drivers such as credit-card monetization.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

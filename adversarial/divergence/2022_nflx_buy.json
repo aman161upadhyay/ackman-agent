@@ -1,0 +1,16 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "In the January 2022 pack, Netflix was facing a significant subscriber deceleration [D03]. Pershing Square's own retrospective decision, established after the 2022 subscriber loss announcement, was to sell because the business model changed in a way that reduced predictability [L107]. The candidate C2 ignores this explicit rule of the era (Rule 6, Lesson: Netflix #1) and fails to address that the subscription model's growth trajectory had become fundamentally unpredictable as of the cutoff [D03, D05].",
+      "fix": "The candidate should have assessed Netflix as a failure of the 'simple and predictable' gate [L107] given the weak Q1 2022 guidance and uncertainty regarding the transition to self-funding [D03], and concluded with a SELL or PASS rather than a high-conviction BUY.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "hindsight bias",
+        "failure to adhere to Gate 1 rule 1 regarding predictability"
+      ]
+    }
+  ],
+  "notes": "Candidate C2 attempts a 'value' thesis based on a 44.7% drawdown, failing to recognize the specific Pershing Square rule (from the 2022 Netflix post-mortem) that once the subscription business model's predictability is impaired, the stock must be sold, not bought. The candidate mischaracterizes the thesis as a 'durable compounder' in the face of explicit evidence of subscriber volatility and margin headwinds."
+}

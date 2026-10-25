@@ -1,0 +1,39 @@
+{
+  "audit_notes": "The gold drivers cite an external 2026 source not provided in the input documents. The candidate correctly identifies the business challenges and management transition as of 2025-11-03 but cannot reflect the retrospective causal explanations provided in the 2026 report.",
+  "cause_evidence": "The candidate memo is generated as of 2025-11-03, while the gold drivers are sourced from a 2026-02-11 annual investor presentation; the candidate lacks access to the 2026 retrospective conclusions.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "none",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Struggles under the successor management team clouded the earnings forecast.",
+      "index": 1,
+      "reason": "The candidate memo acknowledges the management transition but does not make the specific causal claim that struggles under the successor are the reason for a clouded earnings forecast.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "none",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "The distribution of potential future outcomes became too wide for concentrated ownership.",
+      "index": 2,
+      "reason": "The candidate memo states that the current environment presents a material shift in predictability and the margin of safety has narrowed [D04, D05, D10], but it does not use the specific gold driver phrasing regarding the distribution of outcomes.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "This action allows us to maintain exposure to a high-quality franchise while acknowledging the current uncertainty in the traffic-recovery path",
+      "document": "D09_what_has_changed.md",
+      "document_quote": "The bear case need not assert permanent brand failure... The countercase is strong cash generation, thousands of successful restaurants, a robust opening pipeline and continuing consumer value.",
+      "evidence_supported": true,
+      "gold_driver": "Remaining franchise quality and a long development runway were insufficient to offset the reduced forecast confidence; this was not a claim of permanent brand destruction.",
+      "index": 3,
+      "reason": "The candidate acknowledges the high-quality franchise and uncertainty, aligning with the thesis provided in the source documents.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "Temporal misalignment between the candidate's analysis date and the gold driver source material.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": []
+}

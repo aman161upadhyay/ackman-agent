@@ -1,0 +1,94 @@
+{
+  "audit_notes": "Both candidates identify the key investment drivers: essential utility nature, profitability of the franchise, and the potential legal path via litigation. C2 errs by including an unsubstantiated earnings multiple (8x) as a definitive value target, whereas the documents clarify that an ordinary P/E valuation is not applicable or authenticated at this date [D04].",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "The candidate aligns with the core thesis points presented in the answer key regarding the essential nature of the franchise, the net worth sweep's impact, and the optionality provided by litigation.",
+      "drivers": [
+        {
+          "candidate_quote": "The underlying business is an essential and dominant piece of the US housing infrastructure, currently demonstrating a return to consistent profitability",
+          "document": "D01_business_overview.md",
+          "document_quote": "Scale, lender relationships, underwriting data, servicing infrastructure and a liquid securities market are difficult to replicate quickly.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The candidate accurately captures the 'essential infrastructure' argument supported by the document's analysis of barrier-to-entry factors.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The market incorrectly views the government's conservatorship and net-worth sweep as a permanent, terminal impairment of value, failing to price the option value of shareholder rights",
+          "document": "D06_contract_and_litigation.md",
+          "document_quote": "The August17 2012 third amendment changed the senior-preferred dividend mechanism. Beginning2013, the dividend generally equals net worth above the applicable capital reserve rather than the old fixed-rate amount.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The candidate correctly identifies the sweep as the source of market pricing error regarding shareholder rights versus the government's contractual taking.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Active shareholder litigation and potential legislative shifts provide a pathway to challenge government overreach and restore access to the firm's earnings power",
+          "document": "D06_contract_and_litigation.md",
+          "document_quote": "Perry Capital and Fairholme initiated challenges in July2013. The publicly reported claims include statutory/administrative objections and constitutional takings arguments.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "Supported by the documented existence of ongoing legal challenges to the sweep.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The current equity valuation is highly asymmetric, offering significant upside relative to the downside of a total loss should legal or political resolution prove favorable",
+          "document": "D04_price_and_capital_waterfall.md",
+          "document_quote": "The downside is not merely a lower P/E: wind-down, adverse policy, continued sweep or heavy dilution could leave common worth little even if mortgage finance remains profitable. The upside requires a favorable bridge from franchise value to this particular security",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The document confirms the binary nature of the potential loss versus the potential upside from the franchise value.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "The candidate recognizes the high-risk, asymmetric nature of the investment as described in the provided documents.",
+      "primary_cause": "none"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "The candidate provides a specific valuation of '8x earnings' which is not explicitly supported or authenticated as a final capital plan or Ackman-confirmed target at the cutoff date [D04].",
+      "drivers": [
+        {
+          "candidate_quote": "Fannie Mae is a critical financial utility that remains the essential backbone of the U.S. housing market",
+          "document": "D01_business_overview.md",
+          "document_quote": "These enterprises are important to the availability of long-term fixed-rate mortgages.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The candidate accurately identifies the business's role as a critical utility/backbone.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The market incorrectly views the common equity as having zero value, ignoring the substantial intrinsic value of the guarantee franchise",
+          "document": "D03_latest_results_and_benchmark.md",
+          "document_quote": "Fannie's six consecutive profitable quarters and Freddie's seven show that improved results are not an isolated one-quarter event.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The candidate identifies the market's failure to account for the ongoing guarantee business profitability.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Pending litigation provides a clear legal path to challenge the Net Worth Sweep and restore shareholder rights to retained earnings",
+          "document": "D06_contract_and_litigation.md",
+          "document_quote": "Perry Capital and Fairholme initiated challenges in July2013.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The candidate correctly notes the existence of litigation challenges.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The company remains highly profitable, demonstrating that the underlying business is economically viable once capital constraints are normalized",
+          "document": "D03_latest_results_and_benchmark.md",
+          "document_quote": "Fannie's six consecutive profitable quarters and Freddie's seven show that improved results are not an isolated one-quarter event.",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The candidate cites the demonstrated profitability of the enterprises.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "The candidate includes speculative valuation metrics (8x multiple) not supported by the provided source documents as a established target.",
+      "primary_cause": "i_rule_missing_ambiguous"
+    }
+  ],
+  "semantic_leakage": []
+}

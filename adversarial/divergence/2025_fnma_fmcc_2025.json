@@ -1,0 +1,27 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "The candidate relies on 'plausible policy resolution' [D09, D10] and 'materially improved' exit probability [D08, D10] as a core driver without acknowledging that these are investor scenarios rather than authenticated government commitments [D07].",
+      "fix": "Recalibrate the conviction level to account for the formal January 2 Treasury consent requirement which introduces explicit 'process, negotiation and timing uncertainty' [D05] rather than assuming a near-term catalyst.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "hindsight regarding the likelihood of the 2026 recapitalization timeline",
+        "overestimation of current policy certainty based on the December 30 post"
+      ]
+    },
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "The candidate claims a 'viable policy catalyst' [D08, D09] and suggests progress toward recapitalization, failing to account for the fact that net worth accumulation does not erase Treasury's senior preferred liquidation preference [D03].",
+      "fix": "Refine the driver analysis to explicitly distinguish between retained earnings and available common equity, and acknowledge that the January 2 amendment process creates new hurdles [D05, D07].",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "treating a conditional political catalyst as an impending economic resolution",
+        "imprecise attribution of regulatory capital progress as proof of distributable equity"
+      ]
+    }
+  ],
+  "notes": "Both candidates exhibit excessive optimism regarding the political transition. They correctly identify the franchise quality but struggle to maintain the strict Pershing Square distinction between operating success (retained earnings) and security-level outcomes (seniority, warrant dilution, and Treasury consent), tending to treat investor-authored scenarios as structural inevitabilities."
+}

@@ -1,0 +1,25 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "Candidate C1 cites an entry multiple of '26.9x trailing P/E' [L85], which aligns with the calculation in [D159], but then projects a '15% EPS CAGR' [L86] without the specific forward P/E and five-to-ten-year Microsoft multiple range authentication [L159] and erroneously attributes OpenAI equity value as a core valuation driver [L66], whereas the pack explicitly states such valuation details were unavailable for a verified forward multiple [L159].",
+      "fix": "Focus exclusively on verified historical financials and avoid over-extrapolating unverified forward multiples or OpenAI's speculative valuation [L159].",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "ii"
+      ]
+    },
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "Candidate C2 projects '15% EPS growth and a terminal multiple of 28x' [L137, L149], which involves predictive modeling not supported by the pack's warning that forward P/E and full multiple ranges were not recovered [L159].",
+      "fix": "Remove speculative terminal multiple projections not supported by the data pack [L159].",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "ii"
+      ]
+    }
+  ],
+  "notes": "Both candidates perform well in identifying the core business quality [D156] and the T1 nature of the market dislocation [D159, D160]. They differ from the gold standard primarily by imputing forward valuation metrics (terminal multiples and forward P/E) that the pack explicitly notes were unavailable for authentication as of the Jan 30 cutoff [L159]."
+}

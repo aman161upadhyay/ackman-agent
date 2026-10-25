@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The gold drivers were successfully mapped to content within the provided source documents. The candidate's claims align with the provided data.",
+  "cause_evidence": "The candidate's core thesis is well-supported by the provided documents as of the 2018-10-15 cutoff.",
+  "drivers": [
+    {
+      "candidate_quote": "The company operates an asset-light model that earns high-margin franchise and management fees while shifting real-estate capital requirements to third-party owners",
+      "document": "D01_business_overview.md",
+      "document_quote": "Hilton supplies brands, reservations, distribution, operating standards and loyalty infrastructure, receiving franchise and management fees. New affiliated rooms can add fee revenue without requiring Hilton to fund the underlying hotel's full construction cost.",
+      "evidence_supported": true,
+      "gold_driver": "Asset-light, high-margin franchise and management-fee economics.",
+      "index": 1,
+      "reason": "The candidate captures the asset-light and high-margin fee mechanism described in the provided documents.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "By leveraging its 14 brands and massive loyalty infrastructure, the company operates an asset-light model",
+      "document": "D01_business_overview.md",
+      "document_quote": "Hilton supplies brands, reservations, distribution, operating standards and loyalty infrastructure, receiving franchise and management fees.",
+      "evidence_supported": true,
+      "gold_driver": "Brands, loyalty and distribution attract owners and guests.",
+      "index": 2,
+      "reason": "The documents explicitly link the brand, distribution, and loyalty infrastructure to the company's fee-generating platform.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "With ~6.5% annual net unit growth and aggressive, value-accretive share repurchases, we expect this position to generate a strong double-digit internal rate of return",
+      "document": "D03_latest_results.md",
+      "document_quote": "Management projects approximately 6.5% net-unit growth for the year.",
+      "evidence_supported": true,
+      "gold_driver": "Net-unit growth and development pipeline support long-duration compounding.",
+      "index": 3,
+      "reason": "The document confirms the net unit growth and development pipeline projects.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "as the current leadership team is already effectively executing on the asset-light strategy",
+      "document": "D03_latest_results.md",
+      "document_quote": "It returned nearly $1.6 billion through July in buybacks and dividends.",
+      "evidence_supported": true,
+      "gold_driver": "Chris Nassetta's team and disciplined cash returns.",
+      "index": 4,
+      "reason": "The documents identify CEO Nassetta and provide evidence of the company's significant capital returns.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "none",
+  "primary_cause": "none",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

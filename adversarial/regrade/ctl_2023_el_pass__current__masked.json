@@ -1,0 +1,60 @@
+{
+  "audit_notes": "The candidate generally aligns with the reasoning in the provided documents regarding operational volatility and governance hurdles, although it does not use the exact phrasing of the gold drivers in all instances.",
+  "cause_evidence": "The company reports that Asia travel-retail recovery is slower than expected [D01], and the candidate notes this volatility alongside the inability to effect change due to family control [D01].",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Channel inventory, China travel retail and a failed near-term recovery assumption leave an insufficiently narrow cash-flow range for a concentrated position.",
+      "index": 1,
+      "reason": "The candidate does not explicitly claim the cash-flow range is insufficiently narrow due to these factors, focusing instead on volatility and lack of predictability.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "At the current price of 203.54, the stock trades at approximately 60x forward earnings, which is an elevated multiple that does not offer an adequate margin of safety",
+      "document": "D04_price_and_valuation.md",
+      "document_quote": "At revised adjusted full-year EPSUS$3.29–3.39, the price implies approximately60.0–61.9x.",
+      "evidence_supported": true,
+      "gold_driver": "Valuable brands are necessary positive evidence, not sufficient owner-cash proof; near61x reduced adjusted EPS requires a substantial, unverified normalization. Require predictable cash after investment rather than anchor to the old share price.",
+      "index": 2,
+      "reason": "The candidate recognizes the elevated valuation multiple and the reliance on earnings normalization.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We require the ability to engage constructively with management to drive change, yet the dual-class stock structure and controlling family influence effectively bar shareholder activism",
+      "document": "D01_business_overview.md",
+      "document_quote": "The company has class-A and class-B stock with unequal voting rights and a controlling family influence. An outside shareholder should examine what operational or governance changes it can realistically influence, rather than assume an unrestricted activist path.",
+      "evidence_supported": true,
+      "gold_driver": "Recovery depends on travel/channel conditions beyond shareholder control; family voting control also limits an assumed activist remedy. Neither is itself a blanket category exclusion.",
+      "index": 3,
+      "reason": "The candidate accurately identifies that dual-class structure and family control limit the ability to influence governance and operational change.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The investment thesis relies on a recovery that is currently speculative and volatile, while the governance structure prevents the activist engagement required for a turnaround strategy.",
+  "primary_cause": "The candidate identifies operational volatility, governance limitations due to dual-class stock, and an elevated valuation relative to earnings uncertainty.",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

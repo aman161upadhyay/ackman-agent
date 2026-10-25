@@ -1,0 +1,60 @@
+{
+  "audit_notes": "The candidate identifies the investment as a 'rare opportunity' based on a valuation multiple that assumes normalized earnings [L46], ignoring the gold-cited requirement that the specific safety and regulatory risks currently lack the observability needed for such underwriting.",
+  "cause_evidence": "The candidate assumes the grounding is a temporary hurdle [L29] that can be valued using historical normalized EPS [L46], whereas the gold drivers emphasize that the regulatory/safety risk is not bounded or predictable at the current stage [D01, D04].",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Unresolved safety, certification and liability range defeats high-confidence cash-flow underwriting even in a duopoly.",
+      "index": 1,
+      "reason": "The candidate argues the opposite, asserting that the duopoly and backlog provide durability and predictability [L16, L46].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Independent regulator/technical outcomes cannot be delivered through ordinary operating activism. The post-shock risk must be bounded rather than assumed temporary from historical earnings.",
+      "index": 2,
+      "reason": "The candidate assumes the grounding is temporary and fixable based on historical franchise quality, rather than acknowledging the impossibility of bounding outcomes via internal activism [L29, L46].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Pre-grounding cash guidance is not funding capacity under a prolonged delivery pause; financing resilience needs separate stress analysis.",
+      "index": 3,
+      "reason": "The candidate relies on the existing liquidity buffer as a sufficient guard without demonstrating a separate stress analysis of funding capacity during a pause [L46].",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate fails to treat the post-shock period as an unquantified event, relying instead on pre-shock earnings projections.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

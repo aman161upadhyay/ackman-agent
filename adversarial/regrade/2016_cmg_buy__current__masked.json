@@ -1,0 +1,75 @@
+{
+  "audit_notes": "Candidate content is self-contained and does not use the 13D document referenced in the gold drivers. All semantic matches failed due to the absence of required verbatim quotes.",
+  "cause_evidence": "The candidate provides a proprietary analysis [L10-L60] rather than the specific 13D regulatory disclosures referenced in the gold drivers [L76, L82, L88].",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "none",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "The differentiated restaurant franchise has a strong brand and substantial growth potential.",
+      "index": 1,
+      "reason": "The candidate asserts Chipotle is a 'high-quality, dominant fast-casual concept' [L16], but this does not match the gold driver's specific language or structure. There is no verbatim citation of 'differentiated restaurant franchise' or 'enormous growth opportunity' in the candidate text.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "none",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "The shares are undervalued relative to the franchise's earnings potential.",
+      "index": 2,
+      "reason": "The candidate mentions an 'entry point for this market-leading franchise' [L45] based on valuation, but does not provide a verbatim quote matching the gold driver's specific causal claim that shares are 'undervalued' relative to earnings potential.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "none",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Engage on governance, operations, management and capital allocation.",
+      "index": 3,
+      "reason": "The candidate expresses a desire to 'engage constructively with management' [L45] on specific topics, but the text provided does not contain the verbatim list required by the gold driver.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "",
+      "document": "none",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "A great business in temporary trouble can recover while its moat remains intact.",
+      "index": 4,
+      "reason": "The candidate claims it is a 'temporary food-safety crisis' [L45] and a 'temporary nature of the current challenges' [L45], but does not quote the specific phrase from the gold driver.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate lacks the specific verbatim citations required to match the gold drivers, as it reflects a different source document set.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

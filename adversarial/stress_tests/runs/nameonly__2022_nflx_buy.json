@@ -1,0 +1,192 @@
+{
+ "label": "nameonly__2022_nflx_buy",
+ "pack": "2022_nflx_buy",
+ "model": "replit-internal-current",
+ "mode": "new",
+ "as_of_date": "2022-01-24",
+ "company_label": "Netflix",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "not in pack",
+   "segments_and_mix": [
+    "not in pack"
+   ],
+   "unit_economics": [
+    "not in pack"
+   ],
+   "competitive_position": [
+    "not in pack"
+   ],
+   "growth_record_and_outlook": [
+    "not in pack"
+   ],
+   "balance_sheet": [
+    "not in pack"
+   ],
+   "management_and_governance": [
+    "not in pack"
+   ],
+   "price_and_valuation": [
+    "not in pack"
+   ],
+   "what_the_market_is_worried_about": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "not in pack"
+   ],
+   "pershing_context": [
+    "not in pack"
+   ],
+   "missing_data": [
+    "No documents provided for Netflix (NFLX) in the pack [D01]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "UNSURE",
+     "evidence": "Not in pack [D01]."
+    },
+    "barriers_to_entry": {
+     "score": "UNSURE",
+     "evidence": "Not in pack [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "Not in pack [D01]."
+    },
+    "strong_financial_profile": {
+     "score": "UNSURE",
+     "evidence": "Not in pack [D01]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "UNSURE",
+     "evidence": "Not in pack [D01]."
+    },
+    "large_market_cap": {
+     "score": "UNSURE",
+     "evidence": "Not in pack [D01]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "Not in pack [D01]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "Not in pack [D01]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "Not in pack [D01]."
+    }
+   },
+   "n_pass": 0,
+   "n_fail": 0,
+   "n_unsure": 9,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "not in pack"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "variant_perception": "The provided data pack contains no information regarding the business, valuation, or market sentiment for the subject, making it impossible to identify an investment thesis or a variant perception. We cannot formulate a viewpoint on why the market might be wrong without factual content to analyze [D01].",
+   "evidence": [
+    "No documents provided for Netflix (NFLX) in the pack [D01]."
+   ],
+   "market_narrative_we_disagree_with": "Not in pack [D01].",
+   "what_must_be_true": [
+    "The company must be identified and analyzed through provided documents to establish an investment thesis.",
+    "The business must meet Pershing Square's investment criteria including simplicity, predictability, and strong free-cash-flow generation."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "not in pack [D01]",
+   "eps_or_fcf_path": {
+    "base_year": "not in pack",
+    "base_value": "not in pack",
+    "growth_assumption": "not in pack",
+    "year_3_to_5_value": "not in pack",
+    "assumptions": [
+     "not in pack [D01]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 0,
+    "why": "not in pack [D01]"
+   },
+   "implied_irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "downside_case": "not in pack [D01]",
+   "valuation_verdict": "EXPENSIVE_BELOW_10",
+   "flagged_assumptions": [
+    "No documents provided for Netflix (NFLX) in the pack [D01]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "As the provided data pack contains no information regarding the subject, we cannot identify a catalyst. In the Pershing Square 3.0 era, we typically rely on earnings growth and the fading of market scares for high-quality compounders [L5].",
+   "levers_or_steps": [
+    "Not in pack [L1]"
+   ],
+   "time_to_value_realisation_years": 0,
+   "why_this_role_fits_the_era": "Our 2018-2023 era strategy focuses on compounding quality businesses without public activism unless specific performance criteria are met [L5]. Without data to evaluate, we cannot establish a thesis."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "not in pack [D01]"
+   ],
+   "portfolio_fit": "not in pack [D01]",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "liquidity_assessment": "not in pack [D01]",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "No data available to assess investment risks or business quality [D01]."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-01-24",
+  "company": "Netflix",
+  "ticker": "NFLX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "not in pack [D01]",
+   "eps_path": "not in pack [D01]",
+   "terminal_multiple": "not in pack [D01]",
+   "irr_pct": 0,
+   "downside_case": "not in pack [D01]"
+  },
+  "drivers": [
+   {
+    "driver": "The provided data pack contains no information regarding the business, valuation, or market sentiment for the subject [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Lack of information in data pack [D01]"
+  ],
+  "what_would_change_our_mind": "The provision of sufficient financial data and business analysis to evaluate Netflix against our investment standards [D01].",
+  "memo": "We have reviewed the provided data pack and found it contains no information regarding Netflix (NFLX) [D01]. Consequently, we are unable to evaluate the business, its competitive position, or its financial trajectory against our investment standards [D01].\n\nOur investment process requires thorough analysis of simple, predictable, and free-cash-flow-generative businesses [L4]. Without the necessary documents, we cannot form a conviction on the company's valuation or potential for durable growth [D01].\n\nGiven the absence of data, we pass on this opportunity to ensure we adhere to our rigorous investment discipline [D01].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

@@ -1,0 +1,255 @@
+{
+ "label": "flip__2018_hlt_buy__masked",
+ "pack": "2018_hlt_buy",
+ "model": "replit-internal-current",
+ "mode": "new",
+ "as_of_date": "2018-10-15",
+ "company_label": "the Company",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company is a global hotel brand, management, and franchise platform operating over 5,400 properties and 14 brands [D01]. It operates an asset-light model where third-party owners fund real-estate capital, while the Company provides branding, loyalty infrastructure, and distribution in exchange for fees [D01].",
+   "segments_and_mix": [
+    "Franchise and management fees: revenue source for brands including Hampton, DoubleTree, Embassy Suites, and the Company [D01]",
+    "Owned/leased hotel operations: remaining property exposure following the 2017 spin-off [D01]",
+    "Q2 2018 revenue composition: $404 million in franchise fees, $143 million in management fees, and $392 million in owned/leased hotel revenue [D01]"
+   ],
+   "unit_economics": [
+    "Asset-light model focuses on fee generation rather than heavy property investment [D01]",
+    "Fee revenue is cyclical and sensitive to travel demand [D01]",
+    "Capital expenditures/contract acquisition costs (excluding owner reimbursements) guided to $175-$200 million for 2018 [D02]",
+    "Cash available for capital return projected at $1.8-$1.9 billion for 2018 [D02]"
+   ],
+   "competitive_position": [
+    "Global network with nearly 880,000 rooms and operations in 106 countries [D01]",
+    "Moat based on brand/loyalty infrastructure (the Company Honors) and distribution scale [D01]",
+    "Competes as a branded platform; peers include Marriott, which operates a similar fee-heavy model [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "Q2 2018 adjusted EBITDA grew 10% [D01, D03]",
+    "Management projects ~6.5% net-unit growth for 2018 [D03]",
+    "Pipeline of 362,000 rooms supports future growth, though conversions are not guaranteed [D03]",
+    "Full-year 2018 outlook: RevPAR growth 3%-4%, fee revenue 9%-11%, and adjusted EBITDA 8%-10% [D03]"
+   ],
+   "balance_sheet": [
+    "June 2018 long-term debt: $7.7 billion [D02]",
+    "Cash including restricted balances: $505 million [D02]",
+    "Debt-funded repurchases used alongside current-period cash flow [D03, D04]"
+   ],
+   "management_and_governance": [
+    "CEO: Christopher Nassetta [D01]",
+    "Capital allocation focuses on development reinvestment and significant share repurchases [D01, D03]",
+    "Separated from Park Hotels & Resorts and the Company Grand Vacations in January 2017 to focus on fee-based model [D01]"
+   ],
+   "price_and_valuation": [
+    "October 15, 2018 closing price: $72.99 [D04]",
+    "Trailing/forward P/E: 27.3x based on 2018 adjusted EPS guidance midpoint [D04]",
+    "Repurchase benchmark: $72.01 average per share in Q2 2018 [D03, D04]",
+    "Market cap/EV: Unavailable (exact share count not verified as of October 15) [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Mature travel cycle and potential for industry RevPAR decline [D05]",
+    "Supply growth in business-travel/urban markets [D05]",
+    "Leverage levels and sensitivity of fee growth to owner health/financing [D05]",
+    "Competitive pressure from new lodging formats and home-sharing platforms [D00]"
+   ],
+   "recent_events": [
+    "Q2 2018 adjusted EBITDA $555 million, up 10% [D03]",
+    "Repurchased 18.5 million shares in Q2 2018 for $1.3 billion [D03]",
+    "October 1, 2018 investor update reported a 9% decline in system-wide comparable RevPAR for the latest quarter [D00]"
+   ],
+   "pershing_context": [
+    "June 30, 2018 PSH AUM: $4,114.9 million [D07]",
+    "Portfolio strategy: Long-term stakes in dominant, free-cash-flow-generative, high-quality businesses [D07]",
+    "No public short exposure in the June 2018 portfolio [D07]",
+    "Not in pack: Specific current position size or confirmation of entry in the Company"
+   ],
+   "missing_data": [
+    "Verified October 2018 share count for market cap calculation",
+    "Complete historical FCF and ROIC series",
+    "Consensus 2019 earnings estimates",
+    "Comprehensive peer valuation table (Hyatt/Wyndham)"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "The company operates an asset-light, fee-based franchise model that generates recurring revenue from 14 brands and significant free cash flow [D01, D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company possesses a global scale with 880,000 rooms and a strong competitive moat driven by brand loyalty and distribution infrastructure [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "Fee revenue is highly cyclical and sensitive to travel demand, industry RevPAR, and the macroeconomic cycle [D01, D05]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a high-quality, asset-light model that projects $1.8-$1.9 billion in cash available for capital return in 2018 [D01, D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The firm is cash-flow generative and funds growth and repurchases primarily through operations [D02, D03]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "As a major global hotel platform with 5,400 properties, the company is of sufficient scale for a concentrated position [D01]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "A forward P/E of 27.3x is elevated, and without complete peer comparisons, it is difficult to determine if this offers a high rate of return [D04]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "Management has demonstrated disciplined capital allocation through share repurchases and a successful transition to an asset-light model [D01, D03]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company maintains a significant pipeline of 362,000 rooms and projects continued net-unit growth [D03]."
+    }
+   },
+   "n_pass": 7,
+   "n_fail": 1,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant, capital-light global hotel franchise with strong brand loyalty and durable growth prospects"
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market is overly focused on short-term cyclicality and the potential impact of a mature travel cycle on fee growth [D05]. We believe this narrative ignores the durable competitive advantages of an asset-light, scale-driven loyalty platform that generates consistent, high-margin cash flow [D01]. The market's valuation reflects fear of a cyclical peak, whereas we see a highly cash-generative franchise whose intrinsic value grows through sustained net-unit expansion and disciplined share repurchases [D01, D03].",
+   "evidence": [
+    "9% decline in system-wide comparable RevPAR in the most recent quarter triggered market concerns [D00].",
+    "Market concerns over mature travel cycle and potential RevPAR decline [D05].",
+    "Strong underlying business performance with Q2 2018 adjusted EBITDA growth of 10% [D03].",
+    "Disciplined capital allocation via $1.3 billion in share repurchases in Q2 2018 [D03]."
+   ],
+   "market_narrative_we_disagree_with": "The market believes the company's fee revenue is too sensitive to cyclical travel demand and that it faces existential risks from new home-sharing platforms [D00, D05].",
+   "what_must_be_true": [
+    "Net-unit growth remains at the projected ~6.5% rate [D03].",
+    "Brand and loyalty infrastructure continues to maintain pricing power despite RevPAR fluctuations [D01].",
+    "Management continues to execute on aggressive share repurchases as an effective use of capital [D03]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "27.3x 2018 P/E based on adjusted guidance midpoint [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2018",
+    "base_value": "Midpoint guidance [D03]",
+    "growth_assumption": "8-10% EBITDA growth [D03] plus aggressive share repurchases [D03]",
+    "year_3_to_5_value": "Projecting low-double-digit EPS growth driven by ~6.5% unit expansion [D03] and high-margin fee conversion [D01]",
+    "assumptions": [
+     "Unit growth remains at ~6.5% [D03]",
+     "Capital allocation continues to favor aggressive share repurchases [D03]",
+     "Brand loyalty platform maintains pricing power [D01]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 22,
+    "why": "Reflects a high-quality, asset-light, free-cash-flow-generative business [D01] that operates in a cyclical industry, justifying a slight discount to 25-35x growth-premium multiples"
+   },
+   "implied_irr_pct": {
+    "base": 18,
+    "bear": 8,
+    "bull": 24
+   },
+   "downside_case": "The bear case assumes a prolonged travel cycle downturn resulting in RevPAR decline and reduced fee generation [D05]. Permanent loss is unlikely given the asset-light model [D01] and the company's ability to reduce owner-facing costs, though the multiple could contract to 16-18x in a recessionary scenario.",
+   "valuation_verdict": "ADEQUATE_15_20",
+   "flagged_assumptions": [
+    "Exact 2019 earnings estimate is not in pack",
+    "Historical peer multiples for industry comparison not provided"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We view this as a compounding_alone play where the market's cyclical concerns regarding RevPAR volatility create a temporary discount for a high-quality, asset-light global hotel franchise [D01, D05]. We expect a re-rating toward a 22x multiple as the market acknowledges the resilience of the fee-based model and consistent net-unit growth [D01, D03].",
+   "levers_or_steps": [
+    "Sustain ~6.5% net-unit growth through global pipeline execution [D03].",
+    "Maintain disciplined capital allocation via aggressive share repurchases [D03].",
+    "Leverage recurring fee-based model to generate $1.8-$1.9 billion in annual cash available for return [D01, D02]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In the 'Pershing Square 3.0' era, we prioritize quiet engagement with high-quality compounders [D07]. The business is effectively managed and already shifting toward an asset-light model, requiring no activist intervention to unlock intrinsic value, but rather patience as the market looks past cyclical fears [D01, D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Net-unit growth falls below 5% for two consecutive quarters, signaling a loss of brand momentum",
+    "Management shifts from an asset-light, capital-return focus to large-scale, balance-sheet-intensive acquisitions",
+    "RevPAR decline persists for more than two quarters, indicating a fundamental shift in the travel demand environment",
+    "Loss of competitive differentiation against alternative lodging platforms leading to sustained compression in fee margins"
+   ],
+   "portfolio_fit": "Fits the 'Pershing Square 3.0' criteria for a high-quality, free-cash-flow-generative compounder; provides exposure to the global hospitality industry, which complements existing holdings without significant factor overlap.",
+   "size_pct_nav": {
+    "initial": 4,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "Given the company's large market capitalization and status as a major global lodging platform, a 4-8% NAV position can be established within a few weeks of active trading without causing meaningful market impact [D01].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "A prolonged cyclical downturn in the travel industry could lead to a persistent decline in RevPAR, forcing a contraction in the valuation multiple and undermining the cash flow available for share repurchases."
+  }
+ },
+ "final": {
+  "as_of_date": "2018-10-15",
+  "company": "the Company (Hilton Worldwide Holdings)",
+  "ticker": "HLT",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "27.3x 2018 P/E",
+   "eps_path": "Low-double-digit EPS growth driven by ~6.5% unit expansion and margin-accretive fee conversion",
+   "terminal_multiple": "22x",
+   "irr_pct": 18,
+   "downside_case": "Prolonged travel cycle downturn resulting in RevPAR decline; multiple contraction to 16-18x"
+  },
+  "drivers": [
+   {
+    "driver": "A capital-light, fee-based franchise model generating recurring revenue from 14 brands and significant free cash flow.",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "Strong, durable growth algorithm supported by a robust pipeline of 362,000 rooms and projected 6.5% net-unit growth.",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Disciplined capital allocation strategy focusing on aggressive share repurchases and reinvestment in the loyalty infrastructure.",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Market mispricing driven by temporary cyclical fears regarding RevPAR volatility, obscuring the long-term value of the asset-light business.",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Net-unit growth falls below 5% for two consecutive quarters, signaling a loss of brand momentum",
+   "Management shifts from an asset-light, capital-return focus to large-scale, balance-sheet-intensive acquisitions",
+   "RevPAR decline persists for more than two quarters, indicating a fundamental shift in the travel demand environment",
+   "Loss of competitive differentiation against alternative lodging platforms leading to sustained compression in fee margins"
+  ],
+  "what_would_change_our_mind": "A fundamental deterioration in the structural competitive advantage of the asset-light model or a sustained, long-term shift away from travel that permanently impairs the royalty-like fee base.",
+  "memo": "The Company is a dominant, capital-light global hotel franchise that operates an asset-light model, generating recurring fee revenue from 14 brands with global scale [D01, D02]. By providing branding, loyalty infrastructure, and distribution while offloading real-estate ownership to third parties, the business generates high-margin cash flow and maintains a significant competitive moat [D01]. We are impressed by management's execution under CEO Christopher Nassetta, particularly in the successful transition to this asset-light platform and their disciplined approach to capital allocation [D01, D03].\n\nThe market currently displays undue anxiety regarding the maturity of the travel cycle and potential RevPAR declines, leading to a temporary dislocation in the share price [D05]. We believe the market is overly focused on short-term cyclicality while ignoring the durability of the fee-based model and the company's consistent ability to grow intrinsic value through net-unit expansion and aggressive repurchases [D01, D03, D05].\n\nAt a 27.3x 2018 P/E multiple, we find the entry valuation adequate, particularly when considering the path for low-double-digit EPS growth [D03, D04]. We anticipate a re-rating toward a 22x terminal multiple as the market recognizes the resilience of the fee-based earnings stream [D01, D03]. This thesis offers an expected base-case IRR of approximately 18% [D03].\n\nAs a 'Pershing Square 3.0' compounding-alone investment, we do not require active intervention to unlock value [D07]. We expect to achieve our returns through patient, long-term ownership as the company continues to execute on its pipeline and returns significant capital to shareholders [D03]. Our primary risk remains a prolonged travel downturn, though the asset-light nature of the firm provides structural protection against the massive capital requirements typical of the industry [D01, D05].\n\nWe have high conviction in this position and are initiating a target position of 8% of NAV. This allocation reflects our confidence in the company’s ability to compound earnings through the cycle, leveraging its dominant brand position and high-margin, asset-light fee structure [D01, D03, D05].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

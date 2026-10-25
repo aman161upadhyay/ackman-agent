@@ -1,0 +1,63 @@
+{
+  "audit_notes": "Candidate correctly identifies the core investment thesis. All quotes are verbatim. Evidence support is confirmed via document contents. No semantic leakage found.",
+  "cause_evidence": "The candidate utilizes a specific '3.0 era' investment mandate requiring predictable, capital-light compounders, leading to a rejection based on complexity and extrinsic exposure rather than a standard market valuation disagreement.",
+  "drivers": [
+    {
+      "candidate_quote": "Pfizer fails our core requirement for a simple, predictable, and free-cash-flow-generative business model due to significant earnings volatility and ongoing reliance on high-cost acquisitions",
+      "document": "D04_price_and_valuation.md",
+      "document_quote": "Describing the security simply as10x after the update retains a stale denominator.",
+      "evidence_supported": true,
+      "gold_driver": "Exceptional COVID profits, return/inventory effects and the replacement-product task prevent the old10x screen from establishing a predictable recurring owner-cash base.",
+      "index": 1,
+      "reason": "The candidate explicitly addresses the failure to meet predictability requirements and references the staleness of the valuation, matching the gold driver's logic.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "While the non-COVID portfolio maintains 6-8% operational growth, the long-term sustainability of this growth remains uncertain without clear pipeline visibility",
+      "document": "D05_market_worries.md",
+      "document_quote": "The bull case includes non-COVID growth, a diversified approved portfolio, manufacturing/commercial scale and new launches. ... The bear case is that exceptional pandemic earnings mask a harder replacement task across the portfolio.",
+      "evidence_supported": true,
+      "gold_driver": "A diversified approved portfolio is valuable counterevidence, but long-term pipeline/commercial and Seagen acquisition returns still need independently conservative probabilities before concentrated ownership.",
+      "index": 2,
+      "reason": "The candidate captures the nuance that existing portfolio growth is acknowledged but does not guarantee the long-term predictability required for their investment criteria.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The company's performance is excessively exposed to extrinsic factors, specifically pandemic product demand normalization and the execution risks of the $43 billion Seagen acquisition",
+      "document": "D05_market_worries.md",
+      "document_quote": "An engaged shareholder could influence costs and capital allocation but cannot guarantee scientific results, approvals, competitive entry or commercial demand.",
+      "evidence_supported": true,
+      "gold_driver": "Scientific, regulatory and demand outcomes cannot be guaranteed through activism; an announced cost program and dividend do not bound those economics.",
+      "index": 3,
+      "reason": "The candidate identifies 'extrinsic factors' and acquisition risk as key drivers, aligning with the document's assertion regarding the limits of shareholder influence.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "Pfizer's business model complexity, exacerbated by pandemic revenue normalization and the large-scale integration of Seagen, prevents it from meeting the candidate's stringent predictability requirements.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [
+      "document quote 2",
+      "document quote 3"
+    ],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

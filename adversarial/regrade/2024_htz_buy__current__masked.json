@@ -1,0 +1,92 @@
+{
+  "audit_notes": "The candidate adheres to the cutoff date of 2024-11-12. Gold drivers 1-5 originate from a post-cutoff source (2025-04-17) and were evaluated based only on available documents as of the cutoff date.",
+  "cause_evidence": "The candidate omits the specific industry-profitability linkage (driver 1) and optionality claims (driver 5), reflecting an independent assessment of investment drivers relative to the provided gold standard.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Concentrated rental industry and rational pricing can support normalized profitability.",
+      "index": 1,
+      "reason": "The candidate discusses the oligopoly and competitive advantages but does not explicitly link industry structure to normalized profitability.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "Under the leadership of CEO Gil West, who joined in 2024, the business has initiated a necessary 'back-to-basics' turnaround and comprehensive fleet rotation.",
+      "document": "D03_latest_results.md",
+      "document_quote": "Management expects to substantially complete fleet rotation by the end of 2025, when DPU “could normalize to under $300.”",
+      "evidence_supported": true,
+      "gold_driver": "Gil West and fleet rotation can repair depreciation and operating costs.",
+      "index": 2,
+      "reason": "The candidate links the CEO and fleet rotation to the turnaround, which the document confirms supports DPU normalization.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The primary risks involve the company's high leverage and sensitivity to residual value fluctuations in the used-car market",
+      "document": "D05_market_worries.md",
+      "document_quote": "For a financed fleet, weaker resale values can affect both earnings and collateral.",
+      "evidence_supported": true,
+      "gold_driver": "A leveraged vehicle portfolio creates large equity sensitivity to residual values.",
+      "index": 3,
+      "reason": "The candidate explicitly identifies the equity risk sensitivity to used-car residual values, which is supported by the document's description.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "the $1.6 billion in current liquidity provides sufficient runway to complete the restructuring by the end of 2025",
+      "document": "D03_latest_results.md",
+      "document_quote": "The near-term investment question is therefore whether liquidity and financing access bridge a lengthy operational repair",
+      "evidence_supported": true,
+      "gold_driver": "Liquidity and distant principal maturities provide time for the turnaround, subject to cash burn.",
+      "index": 4,
+      "reason": "The candidate identifies the liquidity as runway for the turnaround, confirming the document's central investment question.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "AV servicing is additional optionality, not a signed contract or a November2024 fact.",
+      "index": 5,
+      "reason": "The candidate does not mention autonomous vehicle (AV) servicing or optionality.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate's analysis focuses on operational repair milestones, while missing explicit causal links for industry pricing power and future optionality.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [
+      "candidate quote 2"
+    ],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 5,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

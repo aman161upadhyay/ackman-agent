@@ -1,0 +1,25 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "Candidate C1 identifies the policy backdrop as 'more complex' and acknowledges tariff threats [L59], yet maintains a HOLD conviction based on the 'resilience of our thesis' [L59] and potential for mid-teens EPS growth [L59]. This fails to act on the Sell criteria [L21, L23-L24] where tariff uncertainty maps to a loss of forecast confidence [L21] and better alternative deployment [L16, L21].",
+      "fix": "Re-evaluate the risk-adjusted IRR against available alternatives like Amazon [L16] and apply the documented sell rule for tariff-driven loss of forecast confidence [L21].",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "v"
+      ]
+    },
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "Candidate C2 argues that 'long-term compounding potential remains consistent' [L89] and that the valuation is 'not a bubble' [L89]. This ignores the S2/S3 sell precedence where tariff uncertainty reduces forecastability of the cross-border network [L6, L21] and higher-return alternatives exist [L16, L21].",
+      "fix": "Re-evaluate the conviction level in the face of tariff-induced extrinsic uncertainty and compare IRR directly against higher-conviction alternatives [L16, L21].",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "v"
+      ]
+    }
+  ],
+  "notes": "Both candidates C1 and C2 correctly identify the operational successes of the KCS integration and synergy realization [L42, L85]. However, both fail to execute the SELL decision mandated by the pack's guidance: specifically, S2 (tariff uncertainty damaging the ability to forecast the cross-border rail business [L6, L21]) and S3 (availability of more attractive capital deployment opportunities like Amazon [L16, L21]). The candidates prioritize the 'high quality' franchise label over the explicit rule that the current tariff regime introduces uncontrollable extrinsic factors which the manager's current strategy (Era E) seeks to rotate out of [L115, S2/S3 rules]."
+}

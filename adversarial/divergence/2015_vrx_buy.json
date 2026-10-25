@@ -1,0 +1,25 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "C1 classifies the platform as 'not traditional' and 'highly efficient' [D01], ignoring the explicit warning that the business 'should not be treated as a patent-protected single franchise with automatically predictable cash flows' [D01]. The candidate executes a rule (platform valuation) that the prompt's modern guidelines identify as a historical mistake (Rule 6: 'Avoid high leverage + acquisition-dependent growth').",
+      "fix": "Apply post-2017 rules; the business fails Gate 1 criteria 1 (simple/predictable) and 4 (high leverage/acquisition-dependent growth), requiring a PASS.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "v"
+      ]
+    },
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "C2 rationalizes the 'acquisition-led capital allocation' as superior [D01], failing to reconcile the persistent leverage concerns [D03] with the modern mandate to reject acquisition-dependent, highly-leveraged platforms [Rule 6]. The model reproduces the 'Platform Value' (T9) logic that is expressly retired in the current instructions.",
+      "fix": "Re-evaluate under modern Gate 1 principles: the reliance on high leverage and M&A for growth is a terminal FAIL.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "v"
+      ]
+    }
+  ],
+  "notes": "Both candidates C1 and C2 incorrectly use Era C 'Platform Value' (T9) logic. Under current Era D/E instructions, this business is a Gate 1 FAIL due to high leverage and acquisition-dependent growth, and the prompt's rules explicitly state this 'Platform exception was retired in 2017 and never applies afterwards'."
+}

@@ -1,0 +1,90 @@
+{
+  "audit_notes": "The candidate correctly identifies the core business and risks, but differs significantly in its stated valuation targets (re-rating to 22x vs gold driver's de-rating). Quotes were corrected to ensure they are continuous substrings from the provided documents. DR4 and DR5 semantic_present scores set to false due to lack of explicit alignment with the specific gold driver claims.",
+  "cause_evidence": "The candidate models a re-rating toward 22x [L54] rather than the 18x de-rating mentioned in the gold driver, and focuses on an entry valuation of 21.9x.",
+  "drivers": [
+    {
+      "candidate_quote": "The company's installed surgical workflows and clinical trust create a durable moat that benefits from long-term secular growth in aging populations and the rising prevalence of visual impairment",
+      "document": "D01_business_overview.md",
+      "document_quote": "Surgical equipment can create recurring demand for consumables and service as clinicians perform procedures. Installed systems, training, workflow familiarity and product compatibility may support retention.",
+      "evidence_supported": true,
+      "gold_driver": "Surgical installed-base economics produce sticky recurring consumable demand.",
+      "index": 1,
+      "reason": "The candidate explicitly links the installed surgical workflow and base to recurring demand for consumables and service.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "The company's installed surgical workflows and clinical trust create a durable moat that benefits from long-term secular growth in aging populations and the rising prevalence of visual impairment",
+      "document": "D01_business_overview.md",
+      "document_quote": "Demand can benefit from aging populations, prevalence of visual impairment, access to care and willingness to adopt premium correction.",
+      "evidence_supported": true,
+      "gold_driver": "Demographics, income and access support durable vision-care growth.",
+      "index": 2,
+      "reason": "The candidate identifies aging populations and visual impairment prevalence as drivers for growth, consistent with the document's claim regarding demographics.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Investors are overly focused on temporary volatility in implantables growth and reported margin gaps, while failing to value the underlying resilience of the consumables business and the progress in core operating margin expansion",
+      "document": "D03_latest_results_and_guidance.md",
+      "document_quote": "Higher R&D and launch-related selling/marketing expense, plus incremental tariffs, weighed on margins; operating leverage and manufacturing efficiency provided offsets.",
+      "evidence_supported": true,
+      "gold_driver": "Launch/R&D costs, tariffs, FX and lens-manufacturing maturation obscure higher structural margins.",
+      "index": 3,
+      "reason": "The candidate describes margin gaps as temporary and points to core margin expansion, acknowledging that current costs obscure underlying performance.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "None",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "De-rating toward18x earnings, buybacks and prospective EPS growth create attractive return potential.",
+      "index": 4,
+      "reason": "The candidate specifies an entry of 21.9x core EPS and expects a re-rating toward 22x, which contradicts the gold driver's mention of a de-rating toward 18x.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "The primary risks include a potential failure in the AURN001 program or a sustained deterioration in the surgical consumables capture rate",
+      "document": "None",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "AURN001 is incremental upside rather than required core value.",
+      "index": 5,
+      "reason": "While the candidate notes the clinical program as a risk, it does not explicitly frame it as an 'incremental upside' or 'option' as the gold driver dictates, and lacks a specific source quote for that thesis.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate has a different valuation target and path than the gold driver.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 5,
+        "causal": true,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

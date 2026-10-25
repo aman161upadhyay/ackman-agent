@@ -1,0 +1,76 @@
+{
+  "audit_notes": "Both candidates C1 and C2 correctly identify that the operational thesis (turnaround, China growth, rewards membership) was achieved and validated by Q4 data (D03), and that the subsequent stock appreciation led to a valuation level where prospective returns no longer met the firm's required hurdles, justifying a trim decision.",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "The candidate correctly identifies the appreciation-led compression of prospective returns and the successful execution of the operating thesis.",
+      "drivers": [
+        {
+          "candidate_quote": "The stock has experienced significant appreciation, causing the forward IRR to fall below our 15% threshold for new or maintained high-conviction positions",
+          "document": "D05_market_concerns.md",
+          "document_quote": "At a premium earnings multiple, the market may be discounting either acceleration, durable long-term growth or both. ... The valuation tension is explicit: a strong franchise with improving operations can still have less prospective return after substantial appreciation.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The candidate explicitly cites the forward IRR compression below their threshold due to stock appreciation, which is supported by the documented valuation concerns in D05.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Since our entry, the management team has successfully executed on our thesis, driving improved US traffic, increasing rewards membership, and expanding the franchise in China",
+          "document": "D03_latest_results.md",
+          "document_quote": "Q4 comparable-store sales grew 5% globally, led by 6% in the US and 5% in China. ... US active rewards membership increased 15% to 17.6 million.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The candidate claims successful execution on US traffic, rewards membership, and China expansion, all of which are explicitly supported by the Q4 results in D03.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "We are trimming our holding to reallocate capital toward opportunities that offer more compelling risk-adjusted returns",
+          "document": "D04_price_valuation.md",
+          "document_quote": "An owner can recognize continuing business quality while independently reassessing the price, the EPS-growth outlook and the opportunity cost of committed capital.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The candidate's decision to trim in favor of better risk-adjusted opportunities matches the logic of reassessing opportunity cost outlined in D04.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "none",
+      "primary_cause": "none"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "The candidate's account aligns with the documented appreciation, operational success, and the resulting shift in expected returns.",
+      "drivers": [
+        {
+          "candidate_quote": "The stock's significant appreciation to a ~30x forward multiple has compressed prospective returns below our 15% hurdle",
+          "document": "D04_price_valuation.md",
+          "document_quote": "At $91.54, the stock trades at ... 30.3x FY2020 adjusted guidance midpoint.",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The candidate accurately notes the valuation reaching 30x forward multiples and the resulting compression of prospective returns, which is supported by the calculations in D04.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Starbucks has been a successful investment, with the company delivering on the operational turnaround we anticipated",
+          "document": "D03_latest_results.md",
+          "document_quote": "The evidence supports improvement in the original operating concerns: US comps and Chinese growth are stronger than at entry.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The candidate correctly notes that the operational turnaround thesis was delivered, supported by the improved comps and growth metrics in D03.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "We are trimming the position to harvest gains as the stock price has outpaced the near-term growth in intrinsic value",
+          "document": "D04_price_valuation.md",
+          "document_quote": "The $91.54 close is 78.4% above the manager's stated $51.30 average entry price ... The valuation tension is explicit: a strong franchise with improving operations can still have less prospective return after substantial appreciation.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The candidate's decision to harvest gains due to the stock price outpacing intrinsic value growth is consistent with the valuation tension analysis in D04.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "none",
+      "primary_cause": "none"
+    }
+  ],
+  "semantic_leakage": []
+}

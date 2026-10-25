@@ -1,0 +1,15 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "Candidate asserts a $7 billion share-repurchase program is 'driving significant FCF per share growth' [L64] and models 15% CAGR [L81], yet the pack explicitly states the $7 billion is an 'authorization' rather than an executed outcome and warns that illustrative FCF uses stale share counts [L31, L106].",
+      "fix": "Re-align growth projections with reported FCF trends rather than authorized capital programs, and adjust valuation multiples to reflect current rather than stale denominators.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "v"
+      ]
+    }
+  ],
+  "notes": "The candidate's core business thesis aligns with the pack's information; however, it conflates authorized capital return programs with realized FCF drivers and relies on illustrative valuation metrics as definitive growth projections."
+}

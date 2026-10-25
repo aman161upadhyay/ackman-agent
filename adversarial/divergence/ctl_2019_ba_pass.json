@@ -1,0 +1,25 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "C1 fails to acknowledge that 'extrinsic factors we cannot control' [L12] and 'safety, certification and liability' [L6] risks preclude high-confidence cash-flow underwriting required by the agent's standards [L154].",
+      "fix": "The candidate should have identified that the unquantifiable safety/regulatory risk constitutes a Gate 1 FAIL per Section 5 guidelines regarding commodity/extrinsic risk and predictability, rather than treating the grounding as a simple temporary margin-of-safety play.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "v"
+      ]
+    },
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "C2 identifies that Boeing faces 'technical or software' [L126] and 'liability' [L128] risks but fails to execute the requirement that businesses must be 'predictable' and not rely on 'extrinsic factors we cannot control' [L154].",
+      "fix": "The candidate should have recognized that the lack of a 'definitive common global return-to-service schedule or comprehensive cost estimate' [L150] makes the business unsuitable for a concentrated quality compounder position under the agent's Era D/E framework.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "v"
+      ]
+    }
+  ],
+  "notes": "Both candidates C1 and C2 incorrectly categorize Boeing as a T1 'temporary crisis' opportunity. Per the provided docs [D01, D08], the uncertainty regarding regulatory and safety outcomes makes it an extrinsic, uncontrollable risk, which causes a Gate 1 FAIL for a 'simple, predictable' business. The candidates ignore the agent's specific instruction that safety-grounding investigations require stress-testing scenarios because outcomes are not 'predictable' [L153]."
+}

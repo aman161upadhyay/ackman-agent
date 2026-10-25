@@ -1,0 +1,448 @@
+{
+  "invalid": [
+    {
+      "run": "2011_cp_buy__current__named",
+      "flags": [
+        "document quote 1",
+        "document quote 3"
+      ]
+    },
+    {
+      "run": "2013_fnma_buy__current__masked",
+      "flags": [
+        "candidate quote 3"
+      ]
+    },
+    {
+      "run": "2018_hlt_buy__current__named",
+      "flags": [
+        "document quote 3"
+      ]
+    },
+    {
+      "run": "2020_sbux_sell__current__masked",
+      "flags": [
+        "document quote 1",
+        "document quote 3"
+      ]
+    },
+    {
+      "run": "2021_umg_buy__current__masked",
+      "flags": [
+        "document quote 5"
+      ]
+    },
+    {
+      "run": "2022_nflx_sell__current__named",
+      "flags": [
+        "document quote 2"
+      ]
+    },
+    {
+      "run": "2023_googl_buy__current__named",
+      "flags": [
+        "document quote 4"
+      ]
+    },
+    {
+      "run": "2024_htz_buy__current__masked",
+      "flags": [
+        "candidate quote 2"
+      ]
+    },
+    {
+      "run": "2024_nke_buy_a__current__named",
+      "flags": [
+        "candidate quote 2"
+      ]
+    },
+    {
+      "run": "2025_amzn_buy__current__named",
+      "flags": [
+        "document quote 4",
+        "document quote 5"
+      ]
+    },
+    {
+      "run": "2025_fnma_fmcc_2025__current__named",
+      "flags": [
+        "document quote 1",
+        "document quote 5"
+      ]
+    },
+    {
+      "run": "ctl_2023_pfe_pass__current__masked",
+      "flags": [
+        "candidate quote 2",
+        "document quote 2",
+        "candidate quote 3"
+      ]
+    },
+    {
+      "run": "ctl_2023_pfe_pass__current__named",
+      "flags": [
+        "document quote 2",
+        "document quote 3"
+      ]
+    },
+    {
+      "run": "2025_meta_buy__current__masked",
+      "flags": [
+        "candidate quote 2",
+        "candidate quote 4"
+      ]
+    },
+    {
+      "run": "2026_spgi_buy__current__named",
+      "flags": [
+        "document quote 1"
+      ]
+    }
+  ],
+  "aggregates": [
+    {
+      "group": "calibration",
+      "masked": false,
+      "n": 116,
+      "original_k": {
+        "k": 67,
+        "n": 116,
+        "rate": 0.5775862068965517,
+        "wilson95": [
+          0.4866280369998908,
+          0.6635702247055604
+        ]
+      },
+      "strict_semantic": {
+        "k": 65,
+        "n": 116,
+        "rate": 0.5603448275862069,
+        "wilson95": [
+          0.4695232988593237,
+          0.6472975713560271
+        ]
+      },
+      "strict_supported": {
+        "k": 47,
+        "n": 116,
+        "rate": 0.4051724137931034,
+        "wilson95": [
+          0.3202639001453139,
+          0.4961604466591346
+        ]
+      }
+    },
+    {
+      "group": "calibration",
+      "masked": true,
+      "n": 116,
+      "original_k": {
+        "k": 69,
+        "n": 116,
+        "rate": 0.5948275862068966,
+        "wilson95": [
+          0.5038395533408654,
+          0.6797360998546861
+        ]
+      },
+      "strict_semantic": {
+        "k": 65,
+        "n": 116,
+        "rate": 0.5603448275862069,
+        "wilson95": [
+          0.4695232988593237,
+          0.6472975713560271
+        ]
+      },
+      "strict_supported": {
+        "k": 49,
+        "n": 116,
+        "rate": 0.4224137931034483,
+        "wilson95": [
+          0.3364297752944397,
+          0.5133719630001092
+        ]
+      }
+    },
+    {
+      "group": "controls",
+      "masked": false,
+      "n": 22,
+      "original_k": {
+        "k": 19,
+        "n": 22,
+        "rate": 0.8636363636363636,
+        "wilson95": [
+          0.6666458812053,
+          0.9525108273576373
+        ]
+      },
+      "strict_semantic": {
+        "k": 16,
+        "n": 22,
+        "rate": 0.7272727272727273,
+        "wilson95": [
+          0.5184787630099802,
+          0.8684941798418556
+        ]
+      },
+      "strict_supported": {
+        "k": 14,
+        "n": 22,
+        "rate": 0.6363636363636364,
+        "wilson95": [
+          0.4295134934371804,
+          0.802670272273921
+        ]
+      }
+    },
+    {
+      "group": "controls",
+      "masked": true,
+      "n": 22,
+      "original_k": {
+        "k": 13,
+        "n": 22,
+        "rate": 0.5909090909090909,
+        "wilson95": [
+          0.38734477382893806,
+          0.7674444033117963
+        ]
+      },
+      "strict_semantic": {
+        "k": 9,
+        "n": 22,
+        "rate": 0.4090909090909091,
+        "wilson95": [
+          0.23255559668820378,
+          0.6126552261710619
+        ]
+      },
+      "strict_supported": {
+        "k": 9,
+        "n": 22,
+        "rate": 0.4090909090909091,
+        "wilson95": [
+          0.23255559668820378,
+          0.6126552261710619
+        ]
+      }
+    },
+    {
+      "group": "holdout",
+      "masked": false,
+      "n": 41,
+      "original_k": {
+        "k": 20,
+        "n": 41,
+        "rate": 0.4878048780487805,
+        "wilson95": [
+          0.3425418723993569,
+          0.6351574068413481
+        ]
+      },
+      "strict_semantic": {
+        "k": 19,
+        "n": 41,
+        "rate": 0.4634146341463415,
+        "wilson95": [
+          0.32055999118185885,
+          0.6125378465402564
+        ]
+      },
+      "strict_supported": {
+        "k": 15,
+        "n": 41,
+        "rate": 0.36585365853658536,
+        "wilson95": [
+          0.23589630416936816,
+          0.5187957674783876
+        ]
+      }
+    },
+    {
+      "group": "holdout",
+      "masked": true,
+      "n": 41,
+      "original_k": {
+        "k": 22,
+        "n": 41,
+        "rate": 0.5365853658536586,
+        "wilson95": [
+          0.38746215345974366,
+          0.6794400088181413
+        ]
+      },
+      "strict_semantic": {
+        "k": 14,
+        "n": 41,
+        "rate": 0.34146341463414637,
+        "wilson95": [
+          0.2155861736664346,
+          0.4945044564627312
+        ]
+      },
+      "strict_supported": {
+        "k": 12,
+        "n": 41,
+        "rate": 0.2926829268292683,
+        "wilson95": [
+          0.1760901763305888,
+          0.44479757076139725
+        ]
+      }
+    }
+  ],
+  "leniency": 0.053968253968253964,
+  "state_wrong": [
+    "2022_nflx_buy__current__masked",
+    "2025_amzn_buy__current__named",
+    "2025_uber_buy__current__named",
+    "ctl_2022_intc_pass__current__masked",
+    "ctl_2023_pfe_pass__current__masked",
+    "2026_alc_buy__current__masked",
+    "2026_alc_buy__current__named"
+  ],
+  "stage_counts": {
+    "9": 68,
+    "8": 6
+  },
+  "spots": {
+    "supported": 317,
+    "cannot_tell": 9,
+    "unsupported": 1
+  },
+  "years": {
+    "2018": 4,
+    "2019": 2,
+    "2020": 1,
+    "2021": 3,
+    "2022": 1,
+    "2023": 1,
+    "2024": 3,
+    "2025": 3,
+    "2026": 7
+  },
+  "semantic": [
+    {
+      "pack": "2025_uber_buy",
+      "run": "2025_uber_buy__current__masked",
+      "hits": [
+        {
+          "confidence": "high",
+          "document": "D08_pershing_context.md",
+          "quote": "The September 30 portfolio update, published October 1, reports total firm AUM of $18,498.8 million including PSVII, core-strategy AUM of $17,090.0 million and PSH AUM of $15,135.3 million. The document is now hosted at a later upload path; the underlying observation and release are from 2024.",
+          "reason": "The candidate's source documents reflect information available as of early 2025, while the prompt cutoff date is 2025-01-06."
+        }
+      ]
+    },
+    {
+      "pack": "2025_cmg_sell",
+      "run": "2025_cmg_sell__current__masked",
+      "hits": [
+        {
+          "confidence": "high",
+          "document": "Gold Driver Sources",
+          "quote": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/11144917/2026-Annual-Investor-Presentation.pdf",
+          "reason": "The gold drivers reference an annual investor presentation from February 2026, which is after the cutoff date of 2025-11-03."
+        }
+      ]
+    },
+    {
+      "pack": "2025_cp_sell",
+      "run": "2025_cp_sell__current__masked",
+      "hits": [
+        {
+          "confidence": "high",
+          "document": "gold_drivers",
+          "quote": "https://assets.pershingsquareholdings.com/wp-content/uploads/2025/08/20192925/Pershing-Square-Holdings-Ltd.-June-2025-Interim.pdf",
+          "reason": "This document is dated August 2025, which is after the March 2025 snapshot date."
+        },
+        {
+          "confidence": "high",
+          "document": "gold_drivers",
+          "quote": "https://assets.pershingsquareholdings.com/2026/02/11144917/2026-Annual-Investor-Presentation.pdf",
+          "reason": "This document is dated February 2026, which is after the March 2025 snapshot date."
+        }
+      ]
+    },
+    {
+      "pack": "2025_nke_sell",
+      "run": "2025_nke_sell__current__masked",
+      "hits": [
+        {
+          "confidence": "high",
+          "document": "D00_original_thesis.md",
+          "quote": "The March 2025 report is a post-purchase account of the spring 2024 underwriting, not a contemporaneous May letter.",
+          "reason": "The source document referenced in the gold driver is dated 2026-02-11, which is after the cutoff date of 2025-11-03."
+        }
+      ]
+    },
+    {
+      "pack": "2026_ice_buy",
+      "run": "2026_ice_buy__current__masked",
+      "hits": [
+        {
+          "confidence": "low",
+          "document": "D01_business_overview.md",
+          "quote": "Intercontinental Exchange Reports-Record-First-Quarter-2026",
+          "reason": "Refers to Q1 2026 results released in April 2026, which is realized data after the as-of-date of the investment thesis but arguably within the reporting period provided in the prompt."
+        },
+        {
+          "confidence": "high",
+          "document": "D07_event_timeline.md",
+          "quote": "June30: ICE closed $123.11",
+          "reason": "The date reflects the as-of-date but the context relies on public reporting published after the cutoff for the analysis context (e.g. August 2026 documents used as gold standard)."
+        }
+      ]
+    },
+    {
+      "pack": "2026_msft_buy",
+      "run": "2026_msft_buy__current__masked",
+      "hits": [
+        {
+          "confidence": "high",
+          "document": "https://x.com/BillAckman/status/2055206659849437592 (2026-05-15)",
+          "quote": "We were able to establish our position at a valuation of 21 times forward earnings",
+          "reason": "The gold driver source is dated May 2026, which is after the provided as_of_date of January 30, 2026."
+        }
+      ]
+    },
+    {
+      "pack": "2026_nflx_buy_2",
+      "run": "2026_nflx_buy_2__current__masked",
+      "hits": [
+        {
+          "confidence": "high",
+          "document": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf",
+          "quote": "effectively won the streaming wars",
+          "reason": "This document is dated August 2026, which is after the cutoff date of April 20, 2026."
+        }
+      ]
+    },
+    {
+      "pack": "2026_spgi_buy",
+      "run": "2026_spgi_buy__current__masked",
+      "hits": [
+        {
+          "confidence": "high",
+          "document": "D07_event_timeline.md",
+          "quote": "June 2026",
+          "reason": "The gold drivers reference an interim report dated August 2026, which occurs after the March 31, 2026 as_of_date."
+        }
+      ]
+    },
+    {
+      "pack": "2026_v_ma_buy",
+      "run": "2026_v_ma_buy__current__masked",
+      "hits": [
+        {
+          "confidence": "high",
+          "document": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13)",
+          "quote": "capital-light \u2018toll-takers\u2019",
+          "reason": "This document was published in August 2026, which is after the March 31, 2026 cutoff date."
+        }
+      ]
+    }
+  ]
+}

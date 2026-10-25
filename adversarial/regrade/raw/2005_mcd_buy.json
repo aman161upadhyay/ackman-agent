@@ -1,0 +1,94 @@
+{
+  "audit_notes": "Both candidates C1 and C2 present generic activist-style theses (REIT/spin-off/real estate value) but fail to match the gold driver's specific evolution from a November IPO/borrowing plan (C1/C2 missing entirely) to the subsequent adaptation of strategy (C1/C2 miss the explicit nuance of withdrawing the demand).",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "C1 insists on a REIT/spin-off campaign, whereas the gold driver requires adapting to management/stakeholder constraints by moving away from transaction-based demands.",
+      "drivers": [
+        {
+          "candidate_quote": "A dominant global franchisor with high-margin royalty streams and significant real estate ownership [D01].",
+          "document": "D01_business_overview.md",
+          "document_quote": "McDonald's operates a global quick-service restaurant system through company-operated, franchised and affiliated restaurants.",
+          "evidence_supported": false,
+          "index": 1,
+          "reason": "The candidate mentions ownership but does not explicitly demand separation from franchise/property economics as a driver of the investment thesis. The gold driver specifically calls for separating operations from franchise/property economics.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "The market misprices the company by failing to value the ~37% land and ~59% building ownership separately from the operating business [D01, D05].",
+          "document": "D01_business_overview.md",
+          "document_quote": "Company and affiliates own approximately 37% of restaurant land and 59% of buildings at year-end 2004.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The candidate matches the gold driver's call to normalize/value property separately to reveal true economics.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "We were able to acquire our stake at an attractive 18.7x trailing P/E for a free-cash-flow-generative business [D04].",
+          "document": "D04_price_and_valuation.md",
+          "document_quote": "FY2004 reported EPS US$1.79... [resulting in] 18.7x",
+          "evidence_supported": false,
+          "index": 3,
+          "reason": "The candidate refers to an entry multiple and free-cash-flow, but fails to mention the specific IPO/borrowing plan (65% McOpCo IPO and $14.7bn borrowing) required by the gold driver.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "We intend to act as catalysts for this transformation by filing a 13D and launching a public campaign to outline the benefits of a REIT or spin-off structure [D05, D08].",
+          "document": "D05_market_worries_and_countercase.md",
+          "document_quote": "Management's concern is the relationship with franchisees and the integrated operating system.",
+          "evidence_supported": false,
+          "index": 4,
+          "reason": "The candidate insists on REIT/spin-off structures, whereas the gold driver requires adapting to stakeholder constraints and withdrawing the IPO demand in favor of management actions/refranchising.",
+          "semantic_present": false
+        }
+      ],
+      "key_problem": "Failure to pivot from an initial IPO/REIT transaction proposal to a collaborative operational/refranchising plan, violating the era-appropriate activist constraint.",
+      "primary_cause": "v_genuine_process_difference"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "The candidate lacks the specific transaction mechanism (IPO/borrowing) identified in the gold driver and does not acknowledge the specific timeline of adapting/withdrawing the initial demand.",
+      "drivers": [
+        {
+          "candidate_quote": "McDonald's is a dominant, global, free-cash-flow-generative consumer franchise with high-margin royalty-like franchise fees.",
+          "document": "D01_business_overview.md",
+          "document_quote": "It would be wrong to infer corporate stores could instantly earn 80% margins or that all franchise revenue is costless.",
+          "evidence_supported": false,
+          "index": 1,
+          "reason": "The candidate states the business is a franchisor but does not articulate the separation of restaurant operations from franchise economics as a central management-driven recovery strategy.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "The market misprices the business as a slow-growth operator, ignoring the immense value hidden in its vast real estate portfolio.",
+          "document": "D01_business_overview.md",
+          "document_quote": "Historical-cost property values may understate some market values, but no independently authenticated current appraisal is supplied.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The candidate addresses the mispricing caused by real estate, matching the gold driver's normalization requirement.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "We acquired our stake at approximately 18.7x 2004 earnings, a valuation that we believe is attractive given the potential for structural transformation [D04].",
+          "document": "D04_price_and_valuation.md",
+          "document_quote": "No independent property appraisal, segment market-rent study... is available.",
+          "evidence_supported": false,
+          "index": 3,
+          "reason": "The candidate lacks the specific proposal details regarding the 65% McOpCo IPO and $14.7bn borrowing for repurchases.",
+          "semantic_present": false
+        },
+        {
+          "candidate_quote": "We intend to engage with the board to accelerate the transition to a franchise-first model, which would permanently improve the firm's capital-light characteristics and margin profile [D01, D05].",
+          "document": "D05_market_worries_and_countercase.md",
+          "document_quote": "Management's concern is the relationship with franchisees and the integrated operating system.",
+          "evidence_supported": false,
+          "index": 4,
+          "reason": "The candidate does not show the specific adaptation to withdrawn demands noted in the gold driver.",
+          "semantic_present": false
+        }
+      ],
+      "key_problem": "Missing load-bearing mechanism for the activist thesis; fails to articulate the pivot from transaction-based to management-alignment-based strategy.",
+      "primary_cause": "i_rule_missing_ambiguous"
+    }
+  ],
+  "semantic_leakage": []
+}

@@ -1,0 +1,94 @@
+{
+  "audit_notes": "Both candidates identify the core thesis of distressed equity in GGP. However, they lack the rigor of the primary cause (credit-market disruption vs. franchise value) specified in the gold key. C2 is more accurate regarding the NOI-to-debt relationship but misses the critical nuance that this is a sensitivity-based, not absolute, solvency argument.",
+  "candidates": [
+    {
+      "anonymous_id": "C1",
+      "cause_evidence": "Candidate lists generic portfolio dominance (C1 L45) while the gold emphasizes the specific liquidity crisis (L6) and asset-value-over-liabilities (L16) requirement as the central causal driver.",
+      "drivers": [
+        {
+          "candidate_quote": "The company owns a dominant, irreplaceable portfolio of 200 regional shopping malls in the United States",
+          "document": "D01_business_overview.md",
+          "document_quote": "General Growth is a US real-estate investment trust with ownership interests or management responsibility for more than 200 regional shopping malls",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The claim is supported by the document's description of the portfolio size and nature.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The current market price of US$0.44 per share creates an asymmetric, option-like return profile with massive upside if a restructuring is successful",
+          "document": "D04_price_and_valuation.md",
+          "document_quote": "At approximately 268.2 million disclosed common shares, US$0.44 implies approximately US$118 million public common capitalization... Equity is tiny relative to both enterprise value and valuation uncertainty.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The document supports the valuation context of the stock price and the residual value potential versus debt, validating the option-like thesis.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "Governance is in flux following the resignation of key leadership, providing a rare window to intervene and direct a value-preserving financial restructuring",
+          "document": "D01_business_overview.md",
+          "document_quote": "Governance has changed abruptly. WWD on November 6 reports Adam Metz as interim CEO and Thomas Nolan Jr. as interim president after John Bucksbaum and Robert Michaels left those posts.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The document confirms the leadership change and the interim roles.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "We have the ability to negotiate a standstill agreement and debt-for-equity swap that prevents the permanent destruction of equity value through liquidation",
+          "document": "D07_recent_event_timeline.md",
+          "document_quote": "November 10–12 — survival warning. The Monday SEC filing raises substantial doubt... Extensions, asset sales and new capital remain alternatives rather than completed cures.",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The document provides the factual context that alternatives (including extensions) are available, supporting the feasibility of the negotiated approach.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "The candidate frames the investment primarily as a portfolio quality play rather than the distressed-solvent-equity play required by the 2008 liquidity-event facts.",
+      "primary_cause": "v_genuine_process_difference"
+    },
+    {
+      "anonymous_id": "C2",
+      "cause_evidence": "The candidate incorrectly cites the asset coverage and NOI sufficiency as an absolute truth (L127) while the source documents (D04, D09) emphasize this is a sensitive input subject to cap-rate volatility that could exhaust equity value.",
+      "drivers": [
+        {
+          "candidate_quote": "General Growth Properties owns a dominant, high-quality portfolio of over 200 regional shopping centers",
+          "document": "D01_business_overview.md",
+          "document_quote": "General Growth is a US real-estate investment trust with ownership interests or management responsibility for more than 200 regional shopping malls",
+          "evidence_supported": true,
+          "index": 1,
+          "reason": "The document confirms the portfolio size and asset class.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The market has incorrectly priced the equity for insolvency due to near-term liquidity constraints rather than a permanent impairment of asset quality",
+          "document": "D05_market_worries.md",
+          "document_quote": "The opposite observation is that the same November 5 company data show only a 0.5% decline in combined comparable mall/other NOI during Q3, not an operating collapse.",
+          "evidence_supported": true,
+          "index": 2,
+          "reason": "The document provides evidence that operating performance was stable, supporting the claim that insolvency pricing was a reaction to liquidity rather than operating failure.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "We have identified a clear path to value realization through a negotiated debt restructuring to extend maturities",
+          "document": "D03_latest_results_and_guidance.md",
+          "document_quote": "Management reports approximately US$1.74 billion new/replacement financing funded since June 30... Fashion Show and Shoppes at Palazzo are being marketed, and extensions are being sought.",
+          "evidence_supported": true,
+          "index": 3,
+          "reason": "The document confirms that management was actively seeking extensions and had successfully completed financing earlier in the year.",
+          "semantic_present": true
+        },
+        {
+          "candidate_quote": "The underlying business continues to generate significant NOI of approximately $1.8 billion annually, which supports a valuation well in excess of the total debt burden",
+          "document": "D01_business_overview.md",
+          "document_quote": "Nine-month Retail and Other NOI, including the company's share of unconsolidated properties, was US$1,885.970 million.",
+          "evidence_supported": true,
+          "index": 4,
+          "reason": "The document supports the NOI generation, which is a key component of the asset coverage thesis.",
+          "semantic_present": true
+        }
+      ],
+      "key_problem": "The candidate fails to treat the asset-value-over-debt thesis as a variable sensitivity (as defined in D04, D09) and presents it as a deterministic fact.",
+      "primary_cause": "v_genuine_process_difference"
+    }
+  ],
+  "semantic_leakage": []
+}

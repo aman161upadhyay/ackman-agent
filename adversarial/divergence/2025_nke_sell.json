@@ -1,0 +1,25 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "Candidate C1 identifies as a HOLD based on the same company (Nike) and date (2025-11-03) as the key, but maintains a 'medium' conviction and 'HOLD' status despite the key's 'SELL' decision. The candidate incorrectly claims 'the Company's forward IRR is estimated at approximately 15%' [C1 L56] without supporting evidence, while the key notes that the medium-term return to prior profitability can no longer be confidently underwritten [L11].",
+      "fix": "The model must acknowledge the loss of predictability regarding the medium-term earnings recovery and the competitive pressures (tariffs, Adidas) that undermine the original brand-repair thesis, leading to a SELL decision per rule S2.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "v"
+      ]
+    },
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "Candidate C2 also maintains a 'HOLD' position [C2 L67]. It acknowledges that 'the path to normalized profitability is more demanding than initially modeled' [C2 L79] and that near-term fundamentals are 'broken' [C2 L84], yet it fails to execute the decision shift to SELL despite these concessions.",
+      "fix": "The model should reflect that the increased risk and structural headwinds (tariffs, China, peer growth) identified in the memo [C2 L79, L85] necessitate a SELL decision according to the Gate 1 and S2 rules, given the inability to confidently underwrite the recovery.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "v"
+      ]
+    }
+  ],
+  "notes": "Both candidates C1 and C2 correctly identify the core challenges (tariffs, competition, earnings pressure) but fail to conclude with the SELL decision required by the Pershing Square framework when thesis predictability is lost or earnings recovery cannot be confidently underwritten [L11, L16]. Both models exhibit a bias toward holding based on a perceived 'fixable' thesis that no longer meets the required conviction for a long-term compounder investment given the current evidence."
+}

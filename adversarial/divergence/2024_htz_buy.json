@@ -1,0 +1,15 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "The candidate incorrectly cites 'failed our core quality standards' [L50] and 'lacks the durable, capital-light characteristics we demand' [L80] as reasons for PASS, effectively ignoring the special-situation override rule defined in the prompt for levered turnarounds with liquidity and an operational turnaround plan [L107, Gate 1, Special-situation override].",
+      "fix": "Re-evaluate Hertz 2025 as an asymmetric distressed/levered equity opportunity (Template T8) rather than a high-quality compounder. Apply the special-situation override to allow for the company's leverage and capital intensity given the presence of Gil West's turnaround plan and the liquidity bridge described in [D03] and [D07].",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "The model correctly identifies the company as a levered turnaround, but inappropriately applies 'Gate 1' quality compounder standards to a 'Gate 2, Template 8' asymmetric distressed opportunity (Hertz 2025). The candidate ignores the 'Special-situation override' rule that lifts hard fails for levered turnarounds in concentrated industries with 2+ years of liquidity and proven management, leading to an incorrect PASS."
+      ]
+    }
+  ],
+  "notes": "The candidate's analysis is internally consistent regarding the business's poor quality, but it fails to execute the decision-making rule which permits an exception for specific asymmetric, distressed turnarounds in concentrated industries."
+}

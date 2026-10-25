@@ -1,0 +1,242 @@
+{
+ "label": "repeat__ctl_2022_dis_pass__masked__r2",
+ "pack": "ctl_2022_dis_pass",
+ "model": "replit-internal-current",
+ "mode": "new",
+ "as_of_date": "2022-11-11",
+ "company_label": "the Company",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Walt Disney Company integrates entertainment brands and intellectual property through television networks, film/television production, streaming, theme parks, resorts, cruises, and consumer products [D01]. The company leverages its franchises across multiple revenue streams to maximize the utility of its content [D01].",
+   "segments_and_mix": [
+    "Parks, Experiences and Products: $28.705 billion revenue and $7.905 billion operating income [D02]",
+    "Direct-to-Consumer (DTC): $4.015 billion annual loss [D02]"
+   ],
+   "unit_economics": [
+    "Streaming subscriber growth is offset by high content, marketing, and technology costs, leading to $1.5 billion in Q4 DTC losses [D02]",
+    "Parks benefit from large installed assets and strong customer affinity, though they require ongoing maintenance, expansion, and staffing [D01]"
+   ],
+   "competitive_position": [
+    "Possesses distinctive destinations and substantial barriers to entry in parks [D01]",
+    "Owns recognizable and differentiated intellectual property; however, linear television economics face pressure from shifting consumer behavior [D01]"
+   ],
+   "growth_record_and_outlook": [
+    "Total subscriptions across services exceed 235 million, with 12.1 million Disney+ subscribers added in Q4 [D01]",
+    "Management targets Disney+ profitability in fiscal 2024, assuming no meaningful economic shift [D01]"
+   ],
+   "balance_sheet": [
+    "Cash of $11.615 billion [D02]",
+    "Total borrowings (current and long-term) of $48.369 billion [D02]",
+    "Net borrowings of approximately $36.754 billion (before lease, pension, and other obligations) [D02]"
+   ],
+   "management_and_governance": [
+    "Bob Chapek is CEO [D01]",
+    "Management is currently focused on a streaming transition and conditional fiscal 2024 profitability targets [D01][D04]"
+   ],
+   "price_and_valuation": [
+    "Price: $95.01 [D03]",
+    "Market cap: approximately $171.0 billion [D03]",
+    "Enterprise value: approximately $207.8 billion [D03]",
+    "Drawdown: 47.0% below the $179.25 high [D03]",
+    "P/E (Adjusted): 26.9x [D03]",
+    "FCF yield: ~0.6% (based on fiscal-year-end issuer FCF of $1.059 billion) [D02][D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "DTC segment profitability and high content/tech investment costs [D02][D04]",
+    "Deterioration of linear television economics and affiliate fees [D01][D04]",
+    "Sensitivity of parks to macro factors like inflation, labor, and travel demand [D04]",
+    "High debt burden [D04]"
+   ],
+   "recent_events": [
+    "FY2022 earnings reported on 2022-11-08 [D01]",
+    "US ad-supported Disney+ tier planned for 2022-12-08 [D01]"
+   ],
+   "pershing_context": [
+    "Not in pack; Pershing Square's general investment framework emphasizes predictability in cash flows and avoiding dependence on external finance [D05]"
+   ],
+   "missing_data": [
+    "Detailed segment-level debt allocation, precise current basic share count, and independent reconciled peer sum-of-parts valuation"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The business faces significant uncertainty due to the rapid deterioration of linear television economics and heavy ongoing losses in the Direct-to-Consumer segment [D01][D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "Disney possesses distinctive parks with significant scale and holds a unique portfolio of recognizable intellectual property [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The parks division is highly sensitive to macro factors including inflation, labor costs, and consumer travel demand [D04]."
+    },
+    "strong_financial_profile": {
+     "score": "FAIL",
+     "evidence": "The company carries significant debt with approximately $48.369 billion in total borrowings and high capital intensity for content and park maintenance [D01][D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "With $11.615 billion in cash and established revenue streams, there is no immediate indication of a requirement to issue equity [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The market capitalization is approximately $171.0 billion, well above the $10 billion threshold for a large-cap position [D03]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock has experienced a 47% drawdown from its high, potentially offering a valuation reset relative to its historical performance [D03]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "Management is in the midst of a difficult streaming transition with fiscal 2024 profitability targets that remain conditional and unproven [D01][D04]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company maintains a massive subscriber base of over 235 million and continues to grow its platform despite current cost pressures [D01]."
+    }
+   },
+   "n_pass": 5,
+   "n_fail": 3,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a world-class IP and parks franchise currently struggling with high-capex streaming transition, linear TV decline, and significant leverage."
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market believes Disney's long-term earnings power is permanently impaired by the collapse of linear television and the high cash burn of its streaming transition [D01][D02]. We believe this is a temporary crisis where the market is overreacting to current accounting losses in DTC, while underappreciating the long-term value of Disney's unique IP and the ability of the company to transition to a profitable, lower-cost streaming model [D01][D04]. The market will be proven wrong as fiscal discipline and the maturity of the DTC platform lead to the management-targeted profitability in fiscal 2024 [D01].",
+   "evidence": [
+    "47% drawdown from previous highs [D03]",
+    "Management's target for DTC profitability by fiscal 2024 [D01]",
+    "Strong subscriber growth of over 235 million total [D01]"
+   ],
+   "market_narrative_we_disagree_with": "The market views the current high content and technology investment costs as a permanent feature of the business, leading to unsustainable dilution of free cash flow [D02][D04].",
+   "what_must_be_true": [
+    "DTC content spending must moderate as the library matures",
+    "Parks revenue must remain resilient despite macro headwinds",
+    "Management must successfully execute on the fiscal 2024 profitability path for streaming"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "26.9x adjusted P/E vs S&P 500 ~17-18x and historical average (not in pack, assumed historical premium to market) [D03]",
+   "eps_or_fcf_path": {
+    "base_year": "2022",
+    "base_value": "$1.059 billion FCF [D02]",
+    "growth_assumption": "DTC reaches profitability by 2024 [D01], Parks growth continues, Linear declines stabilize",
+    "year_3_to_5_value": "Estimated normalized FCF of ~$8-10 billion by FY2026/27 [Assumption based on DTC breakeven + Parks baseline]",
+    "assumptions": [
+     "DTC content spend moderation [D01][D04]",
+     "Parks revenue resilience [D01]",
+     "No major economic shift [D01]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 22,
+    "why": "Reflects dominant IP and Parks ecosystem with high barriers to entry, tempered by the lower-margin/higher-risk streaming transition."
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 30
+   },
+   "downside_case": "If DTC profitability fails to materialize and Linear declines accelerate, the company's $36.754 billion net debt burden [D02] creates significant valuation pressure, though the underlying asset value of Parks limits permanent loss.",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Normalization of FCF to $8-10B range based on DTC breakeven",
+    "Historical P/E average not provided in pack",
+    "Share count assumed constant for FCF per share projection"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We expect a re-rating of the stock as the market shifts its focus from the current operating losses in the Direct-to-Consumer (DTC) segment to the realization of management's targeted profitability for fiscal 2024 [D01]. This transition, combined with the underlying durability of the company's intellectual property and the resilience of its parks franchise, will prove that the current market skepticism regarding cash burn is a temporary overreaction rather than a permanent impairment of intrinsic value [D01][D04].",
+   "levers_or_steps": [
+    "Moderation of DTC content spending as the content library matures [D01][D04]",
+    "Successful execution of the fiscal 2024 profitability path for the streaming business [D01]",
+    "Continued resilience in Parks revenue and operating income [D01][D02]"
+   ],
+   "time_to_value_realisation_years": 2,
+   "why_this_role_fits_the_era": "In the Pershing Square 3.0 era, we focus on investing in high-quality compounders during market dislocations. As Disney is a dominant business with unique intellectual property, we are comfortable initiating a position for compounding as the management-led streaming transition matures and fiscal discipline improves, without the need for public activism [D01][D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "DTC segment fails to reach profitability by fiscal year-end 2024 [D01]",
+    "Parks segment operating income declines due to macroeconomic pressures [D04]",
+    "Linear television decline accelerates beyond current projections, impacting cash flow sustainability [D01]",
+    "Management fails to moderate content and technology capital intensity [D01][D04]"
+   ],
+   "portfolio_fit": "The position aligns with the Pershing Square 3.0 strategy of investing in dominant, high-quality businesses with durable intellectual property during market dislocations, fitting within our goal of 8-15 core holdings [D05].",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 6,
+    "max": 8
+   },
+   "liquidity_assessment": "Given the market capitalization of ~$171 billion and robust daily trading volumes, a position of this size can be built over several weeks and exited within a quarter without significant impact [D03].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is a permanent impairment of intrinsic value if the streaming transition remains cash-dilutive longer than anticipated and linear television declines erode the funding base for content investment [D01][D02]."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-11-11",
+  "company": "The Walt Disney Company",
+  "ticker": "DIS",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 6,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "26.9x adjusted P/E [D03]",
+   "eps_path": "Transition to profitability in DTC by 2024 and normalization of FCF to $8-10 billion by FY2026/27 [D01][D02]",
+   "terminal_multiple": "22x",
+   "irr_pct": 20,
+   "downside_case": "Continued cash burn in DTC and structural decline in linear TV pressuring the $36.754 billion net debt load [D02]"
+  },
+  "drivers": [
+   {
+    "driver": "Disney owns an irreplaceable portfolio of intellectual property and parks that serve as a dominant, high-barrier-to-entry franchise [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The market is overreacting to current accounting losses in the Direct-to-Consumer segment, which we view as a temporary phase of a transition to a profitable, lower-cost model [D01][D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "A 47% drawdown from previous highs offers an attractive entry point for a world-class business that is currently underperforming its potential [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Management’s focus on achieving profitability in the streaming business by fiscal 2024 provides a clear path for a significant re-rating of the stock [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "DTC segment fails to reach profitability by fiscal year-end 2024 [D01]",
+   "Parks segment operating income declines due to macroeconomic pressures [D04]",
+   "Linear television decline accelerates beyond current projections [D01]",
+   "Management fails to moderate content and technology capital intensity [D01][D04]"
+  ],
+  "what_would_change_our_mind": "Evidence that the streaming business cannot reach profitability or that the linear television decline is accelerating beyond our base case, threatening the company’s ability to service its $36.754 billion in net debt [D01][D02].",
+  "memo": "The Walt Disney Company is a premier global entertainment franchise, anchored by irreplaceable intellectual property and a dominant theme park business that constitutes a uniquely durable, high-barrier-to-entry asset [D01]. Despite the current headwinds, the company remains highly cash-generative in its core segments, providing the foundation for long-term growth and compounding [D01][D02].\n\nWe believe the current market opportunity exists because investors are overly focused on near-term operating losses in the Direct-to-Consumer (DTC) segment and the structural decay of linear television [D01][D02]. The market is incorrectly treating high current content and technology spend as a permanent feature rather than a temporary, intensive phase of the company's streaming transition [D02][D04].\n\nAt a 47% drawdown from its highs, the company trades at an adjusted P/E of 26.9x, which we view as an attractive entry for a business of this quality [D03]. As management executes its plan to reach DTC profitability by fiscal 2024, we anticipate a meaningful expansion in free cash flow, with a target normalization to the $8-10 billion range by 2026/27 [D01][D02].\n\nOur role is that of a long-term compounder, supporting the management-led transition to a profitable, leaner streaming model without the need for active intervention [D01]. We expect a significant re-rating as the market shifts its focus from current accounting losses to the realization of fiscal discipline and the inherent value of the company’s unmatched content library [D01][D04].\n\nThe primary risk to our thesis is a permanent impairment of intrinsic value should the streaming transition remain cash-dilutive longer than anticipated, or if macro headwinds significantly impact the parks franchise [D01][D02][D04]. We will monitor the fiscal 2024 DTC profitability targets and capital intensity closely to ensure our conviction remains aligned with the business’s performance [D01][D04].\n\nWe are initiating a 6% position in Disney, as it meets our standard for a high-quality compounder bought at a dislocation [D05]. We believe this entry size allows for significant upside as the business proves its profitability path while remaining bounded by the underlying value of its irreplaceable assets [D01].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

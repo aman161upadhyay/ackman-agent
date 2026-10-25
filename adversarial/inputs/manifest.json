@@ -1,0 +1,425 @@
+[
+  {
+    "pack": "2005_mcd_buy",
+    "path": "ackman-agent/adversarial/inputs/2005_mcd_buy.json",
+    "mapping": {
+      "C1": "2005_mcd_buy__current__masked",
+      "C2": "2005_mcd_buy__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2007_tgt_buy",
+    "path": "ackman-agent/adversarial/inputs/2007_tgt_buy.json",
+    "mapping": {
+      "C1": "2007_tgt_buy__current__masked",
+      "C2": "2007_tgt_buy__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2008_ggp_buy",
+    "path": "ackman-agent/adversarial/inputs/2008_ggp_buy.json",
+    "mapping": {
+      "C1": "2008_ggp_buy__current__masked",
+      "C2": "2008_ggp_buy__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2010_jcp_buy",
+    "path": "ackman-agent/adversarial/inputs/2010_jcp_buy.json",
+    "mapping": {
+      "C1": "2010_jcp_buy__current__masked",
+      "C2": "2010_jcp_buy__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2011_cp_buy",
+    "path": "ackman-agent/adversarial/inputs/2011_cp_buy.json",
+    "mapping": {
+      "C1": "2011_cp_buy__current__masked",
+      "C2": "2011_cp_buy__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2012_hlf_short",
+    "path": "ackman-agent/adversarial/inputs/2012_hlf_short.json",
+    "mapping": {
+      "C1": "2012_hlf_short__current__masked",
+      "C2": "2012_hlf_short__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2013_apd_buy",
+    "path": "ackman-agent/adversarial/inputs/2013_apd_buy.json",
+    "mapping": {
+      "C1": "2013_apd_buy__current__masked",
+      "C2": "2013_apd_buy__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2013_fnma_buy",
+    "path": "ackman-agent/adversarial/inputs/2013_fnma_buy.json",
+    "mapping": {
+      "C1": "2013_fnma_buy__current__masked",
+      "C2": "2013_fnma_buy__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2015_vrx_buy",
+    "path": "ackman-agent/adversarial/inputs/2015_vrx_buy.json",
+    "mapping": {
+      "C1": "2015_vrx_buy__current__masked",
+      "C2": "2015_vrx_buy__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2016_cmg_buy",
+    "path": "ackman-agent/adversarial/inputs/2016_cmg_buy.json",
+    "mapping": {
+      "C1": "2016_cmg_buy__current__masked",
+      "C2": "2016_cmg_buy__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2018_hlt_buy",
+    "path": "ackman-agent/adversarial/inputs/2018_hlt_buy.json",
+    "mapping": {
+      "C1": "2018_hlt_buy__current__masked",
+      "C2": "2018_hlt_buy__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2018_low_buy",
+    "path": "ackman-agent/adversarial/inputs/2018_low_buy.json",
+    "mapping": {
+      "C1": "2018_low_buy__current__masked",
+      "C2": "2018_low_buy__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2020_brk_sell",
+    "path": "ackman-agent/adversarial/inputs/2020_brk_sell.json",
+    "mapping": {
+      "C1": "2020_brk_sell__current__masked",
+      "C2": "2020_brk_sell__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2020_cds_hedge",
+    "path": "ackman-agent/adversarial/inputs/2020_cds_hedge.json",
+    "mapping": {
+      "C1": "2020_cds_hedge__current__masked",
+      "C2": "2020_cds_hedge__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2020_sbux_sell",
+    "path": "ackman-agent/adversarial/inputs/2020_sbux_sell.json",
+    "mapping": {
+      "C1": "2020_sbux_sell__current__masked",
+      "C2": "2020_sbux_sell__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2021_umg_buy",
+    "path": "ackman-agent/adversarial/inputs/2021_umg_buy.json",
+    "mapping": {
+      "C1": "2021_umg_buy__current__masked",
+      "C2": "2021_umg_buy__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2022_nflx_buy",
+    "path": "ackman-agent/adversarial/inputs/2022_nflx_buy.json",
+    "mapping": {
+      "C1": "2022_nflx_buy__current__masked",
+      "C2": "2022_nflx_buy__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2022_nflx_sell",
+    "path": "ackman-agent/adversarial/inputs/2022_nflx_sell.json",
+    "mapping": {
+      "C1": "2022_nflx_sell__current__masked",
+      "C2": "2022_nflx_sell__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2023_googl_buy",
+    "path": "ackman-agent/adversarial/inputs/2023_googl_buy.json",
+    "mapping": {
+      "C1": "2023_googl_buy__current__masked",
+      "C2": "2023_googl_buy__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2023_tsy_short",
+    "path": "ackman-agent/adversarial/inputs/2023_tsy_short.json",
+    "mapping": {
+      "C1": "2023_tsy_short__current__masked",
+      "C2": "2023_tsy_short__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2024_bn_buy",
+    "path": "ackman-agent/adversarial/inputs/2024_bn_buy.json",
+    "mapping": {
+      "C1": "2024_bn_buy__current__masked",
+      "C2": "2024_bn_buy__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2024_htz_buy",
+    "path": "ackman-agent/adversarial/inputs/2024_htz_buy.json",
+    "mapping": {
+      "C1": "2024_htz_buy__current__masked",
+      "C2": "2024_htz_buy__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2024_nke_buy_a",
+    "path": "ackman-agent/adversarial/inputs/2024_nke_buy_a.json",
+    "mapping": {
+      "C1": "2024_nke_buy_a__current__masked",
+      "C2": "2024_nke_buy_a__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2024_nke_buy_b",
+    "path": "ackman-agent/adversarial/inputs/2024_nke_buy_b.json",
+    "mapping": {
+      "C1": "2024_nke_buy_b__current__masked",
+      "C2": "2024_nke_buy_b__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2025_amzn_buy",
+    "path": "ackman-agent/adversarial/inputs/2025_amzn_buy.json",
+    "mapping": {
+      "C1": "2025_amzn_buy__current__masked",
+      "C2": "2025_amzn_buy__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2025_cmg_sell",
+    "path": "ackman-agent/adversarial/inputs/2025_cmg_sell.json",
+    "mapping": {
+      "C1": "2025_cmg_sell__current__masked",
+      "C2": "2025_cmg_sell__current__named"
+    },
+    "semantic": true
+  },
+  {
+    "pack": "2025_cp_sell",
+    "path": "ackman-agent/adversarial/inputs/2025_cp_sell.json",
+    "mapping": {
+      "C1": "2025_cp_sell__current__masked",
+      "C2": "2025_cp_sell__current__named"
+    },
+    "semantic": true
+  },
+  {
+    "pack": "2025_fnma_fmcc_2025",
+    "path": "ackman-agent/adversarial/inputs/2025_fnma_fmcc_2025.json",
+    "mapping": {
+      "C1": "2025_fnma_fmcc_2025__current__masked",
+      "C2": "2025_fnma_fmcc_2025__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2025_hhh_control",
+    "path": "ackman-agent/adversarial/inputs/2025_hhh_control.json",
+    "mapping": {
+      "C1": "2025_hhh_control__current__masked",
+      "C2": "2025_hhh_control__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "2025_meta_buy",
+    "path": "ackman-agent/adversarial/inputs/2025_meta_buy.json",
+    "mapping": {
+      "C1": "2025_meta_buy__current__masked",
+      "C2": "2025_meta_buy__current__named"
+    },
+    "semantic": true
+  },
+  {
+    "pack": "2025_nke_sell",
+    "path": "ackman-agent/adversarial/inputs/2025_nke_sell.json",
+    "mapping": {
+      "C1": "2025_nke_sell__current__masked",
+      "C2": "2025_nke_sell__current__named"
+    },
+    "semantic": true
+  },
+  {
+    "pack": "2025_uber_buy",
+    "path": "ackman-agent/adversarial/inputs/2025_uber_buy.json",
+    "mapping": {
+      "C1": "2025_uber_buy__current__masked",
+      "C2": "2025_uber_buy__current__named"
+    },
+    "semantic": true
+  },
+  {
+    "pack": "2026_alc_buy",
+    "path": "ackman-agent/adversarial/inputs/2026_alc_buy.json",
+    "mapping": {
+      "C1": "2026_alc_buy__current__masked",
+      "C2": "2026_alc_buy__current__named"
+    },
+    "semantic": true
+  },
+  {
+    "pack": "2026_hlt_sell",
+    "path": "ackman-agent/adversarial/inputs/2026_hlt_sell.json",
+    "mapping": {
+      "C1": "2026_hlt_sell__current__masked",
+      "C2": "2026_hlt_sell__current__named"
+    },
+    "semantic": true
+  },
+  {
+    "pack": "2026_ice_buy",
+    "path": "ackman-agent/adversarial/inputs/2026_ice_buy.json",
+    "mapping": {
+      "C1": "2026_ice_buy__current__masked",
+      "C2": "2026_ice_buy__current__named"
+    },
+    "semantic": true
+  },
+  {
+    "pack": "2026_msft_buy",
+    "path": "ackman-agent/adversarial/inputs/2026_msft_buy.json",
+    "mapping": {
+      "C1": "2026_msft_buy__current__masked",
+      "C2": "2026_msft_buy__current__named"
+    },
+    "semantic": true
+  },
+  {
+    "pack": "2026_nflx_buy_2",
+    "path": "ackman-agent/adversarial/inputs/2026_nflx_buy_2.json",
+    "mapping": {
+      "C1": "2026_nflx_buy_2__current__masked",
+      "C2": "2026_nflx_buy_2__current__named"
+    },
+    "semantic": true
+  },
+  {
+    "pack": "2026_spgi_buy",
+    "path": "ackman-agent/adversarial/inputs/2026_spgi_buy.json",
+    "mapping": {
+      "C1": "2026_spgi_buy__current__masked",
+      "C2": "2026_spgi_buy__current__named"
+    },
+    "semantic": true
+  },
+  {
+    "pack": "2026_v_ma_buy",
+    "path": "ackman-agent/adversarial/inputs/2026_v_ma_buy.json",
+    "mapping": {
+      "C1": "2026_v_ma_buy__current__masked",
+      "C2": "2026_v_ma_buy__current__named"
+    },
+    "semantic": true
+  },
+  {
+    "pack": "ctl_2019_ba_pass",
+    "path": "ackman-agent/adversarial/inputs/ctl_2019_ba_pass.json",
+    "mapping": {
+      "C1": "ctl_2019_ba_pass__current__masked",
+      "C2": "ctl_2019_ba_pass__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "ctl_2020_xom_pass",
+    "path": "ackman-agent/adversarial/inputs/ctl_2020_xom_pass.json",
+    "mapping": {
+      "C1": "ctl_2020_xom_pass__current__masked",
+      "C2": "ctl_2020_xom_pass__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "ctl_2021_baba_pass",
+    "path": "ackman-agent/adversarial/inputs/ctl_2021_baba_pass.json",
+    "mapping": {
+      "C1": "ctl_2021_baba_pass__current__masked",
+      "C2": "ctl_2021_baba_pass__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "ctl_2022_cvna_pass",
+    "path": "ackman-agent/adversarial/inputs/ctl_2022_cvna_pass.json",
+    "mapping": {
+      "C1": "ctl_2022_cvna_pass__current__masked",
+      "C2": "ctl_2022_cvna_pass__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "ctl_2022_dis_pass",
+    "path": "ackman-agent/adversarial/inputs/ctl_2022_dis_pass.json",
+    "mapping": {
+      "C1": "ctl_2022_dis_pass__current__masked",
+      "C2": "ctl_2022_dis_pass__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "ctl_2022_intc_pass",
+    "path": "ackman-agent/adversarial/inputs/ctl_2022_intc_pass.json",
+    "mapping": {
+      "C1": "ctl_2022_intc_pass__current__masked",
+      "C2": "ctl_2022_intc_pass__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "ctl_2023_el_pass",
+    "path": "ackman-agent/adversarial/inputs/ctl_2023_el_pass.json",
+    "mapping": {
+      "C1": "ctl_2023_el_pass__current__masked",
+      "C2": "ctl_2023_el_pass__current__named"
+    },
+    "semantic": false
+  },
+  {
+    "pack": "ctl_2023_pfe_pass",
+    "path": "ackman-agent/adversarial/inputs/ctl_2023_pfe_pass.json",
+    "mapping": {
+      "C1": "ctl_2023_pfe_pass__current__masked",
+      "C2": "ctl_2023_pfe_pass__current__named"
+    },
+    "semantic": false
+  }
+]

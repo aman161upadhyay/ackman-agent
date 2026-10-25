@@ -1,0 +1,12 @@
+{
+  "as_of_date": "2025-11-03",
+  "findings": [
+    {
+      "document": "D05_market_worries.md",
+      "quote": "It also identifies US youth-related trials scheduled for 2026 that could create material losses.",
+      "reason": "This statement refers to events scheduled for 2026, which occurs after the 2025-11-03 cutoff, asserting the existence of specific future trials that could create losses.",
+      "verdict": "Future-derived assertion"
+    }
+  ],
+  "limitations": "The provided documents do not contain other statements that require knowledge of events or facts occurring after 2025-11-03. Future guidance and scheduled events provided by management (such as 2026 capex growth or expenses) were excluded per the instructions as these are considered future forecasts rather than realized future facts."
+}

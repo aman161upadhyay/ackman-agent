@@ -1,0 +1,25 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "Candidate asserts a 20% hurdle for new capital [L39] and a 15-20% IRR threshold [L50]. The pack explicitly defines the threshold as 'high' and 'unlikely to meet' without validating 15-20% as a specific mandate [L6-L7].",
+      "fix": "Align IRR thresholds with the pack's qualitative description rather than imputing specific percentages. Adjust decision logic to properly account for the 2019 underwriting context which the pack frames as a dated observation rather than a timeless benchmark [L101, L106].",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "v"
+      ]
+    },
+    {
+      "anonymous_id": "C2",
+      "confidence": "high",
+      "evidence": "Candidate uses a specific '15% annual threshold' [L76] and claims a fiduciary duty to recycle into 'higher-return opportunities' [L90] which is not supported by the document set [L21].",
+      "fix": "Remove unattributed claims about fiduciary duty to rotate capital into higher-return assets [L90]. Re-evaluate the sell decision based solely on the valuation multiple relative to the company's operating growth trajectory as provided in D04 and D09.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "iii"
+      ]
+    }
+  ],
+  "notes": "Both candidates exhibit 'hallucination' of specific IRR thresholds (15% or 20%) that are not present in the supplied documentation. The candidates correctly identify the valuation concern but impute arbitrary numerical hurdle rates to justify the 'TRIM' decision rather than using the pack's qualitative language on prospective returns."
+}

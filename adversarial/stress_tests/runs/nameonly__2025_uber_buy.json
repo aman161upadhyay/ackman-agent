@@ -1,0 +1,199 @@
+{
+ "label": "nameonly__2025_uber_buy",
+ "pack": "2025_uber_buy",
+ "model": "replit-internal-current",
+ "mode": "new",
+ "as_of_date": "2025-01-06",
+ "company_label": "Uber Technologies",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "not in pack",
+   "segments_and_mix": [
+    "not in pack"
+   ],
+   "unit_economics": [
+    "not in pack"
+   ],
+   "competitive_position": [
+    "not in pack"
+   ],
+   "growth_record_and_outlook": [
+    "not in pack"
+   ],
+   "balance_sheet": [
+    "not in pack"
+   ],
+   "management_and_governance": [
+    "not in pack"
+   ],
+   "price_and_valuation": [
+    "not in pack"
+   ],
+   "what_the_market_is_worried_about": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "not in pack"
+   ],
+   "pershing_context": [
+    "not in pack"
+   ],
+   "missing_data": [
+    "all financial, operational, and governance data for Uber Technologies is missing from the provided pack [D01]"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "UNSURE",
+     "evidence": "All financial and operational data is missing from the pack, preventing assessment of cash flow predictability [D01]."
+    },
+    "barriers_to_entry": {
+     "score": "UNSURE",
+     "evidence": "Competitive positioning data is missing from the pack [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "Operational and segment data is missing, preventing assessment of exposure to extrinsic factors [D01]."
+    },
+    "strong_financial_profile": {
+     "score": "UNSURE",
+     "evidence": "Balance sheet and financial data is missing from the pack [D01]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "UNSURE",
+     "evidence": "Financial and capital structure data is missing from the pack [D01]."
+    },
+    "large_market_cap": {
+     "score": "UNSURE",
+     "evidence": "Valuation and market capitalization data is missing from the pack [D01]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "Price and valuation data is missing from the pack [D01]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "Management and governance data is missing from the pack [D01]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "Growth record and outlook data is missing from the pack [D01]."
+    }
+   },
+   "n_pass": 0,
+   "n_fail": 0,
+   "n_unsure": 9,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "insufficient information in the provided pack to determine if this is a Pershing Square quality business"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "variant_perception": "The provided pack contains no information regarding the business, its market perception, or its underlying fundamentals [L1]. Consequently, we cannot identify a market error or a catalyst for change.",
+   "evidence": [
+    "All financial, operational, and governance data for Uber Technologies is missing from the provided pack [L1]."
+   ],
+   "market_narrative_we_disagree_with": "Not in pack [L1].",
+   "what_must_be_true": [
+    "Evidence of a durable franchise must be established",
+    "A clear disconnect between price and intrinsic value must be identified",
+    "A specific catalyst for value realization must be verifiable"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "not in pack [L1]",
+   "eps_or_fcf_path": {
+    "base_year": "not in pack",
+    "base_value": "not in pack",
+    "growth_assumption": "not in pack",
+    "year_3_to_5_value": "not in pack",
+    "assumptions": [
+     "all financial data missing [L1]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 0,
+    "why": "not in pack [L1]"
+   },
+   "implied_irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "downside_case": "not in pack [L1]",
+   "valuation_verdict": "EXPENSIVE_BELOW_10",
+   "flagged_assumptions": [
+    "all financial, operational, and valuation metrics are missing from the pack [L1]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "As the data pack is empty [L1], we cannot identify a catalyst; however, in the absence of actionable information for an active campaign, we default to the Pershing Square 3.0 approach of compounding quality businesses [D01].",
+   "levers_or_steps": [
+    "Not in pack [L1]"
+   ],
+   "time_to_value_realisation_years": 0,
+   "why_this_role_fits_the_era": "Our 3.0 era strategy prioritizes identifying quality compounders where intrinsic value growth drives long-term returns, rather than relying on activism, given that the provided information contains no evidence of a business to analyze [L1]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Evidence of a durable franchise must be established",
+    "A clear disconnect between price and intrinsic value must be identified",
+    "A specific catalyst for value realization must be verifiable"
+   ],
+   "portfolio_fit": "Not in pack [L1].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "liquidity_assessment": "Not in pack [L1].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The complete absence of financial, operational, and valuation data in the provided pack [L1] makes it impossible to assess the business or formulate an investment thesis."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-01-06",
+  "company": "Uber Technologies",
+  "ticker": "UBER",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "not in pack [L1]",
+   "eps_path": "not in pack",
+   "terminal_multiple": "not in pack [L1]",
+   "irr_pct": 0,
+   "downside_case": "not in pack [L1]"
+  },
+  "drivers": [
+   {
+    "driver": "The provided data pack contains no information regarding the business, which prevents any assessment of quality or investment merit [L1].",
+    "citations": [
+     "L1"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Evidence of a durable franchise must be established",
+   "A clear disconnect between price and intrinsic value must be identified",
+   "A specific catalyst for value realization must be verifiable"
+  ],
+  "what_would_change_our_mind": "The provision of comprehensive financial, operational, and competitive data that demonstrates the company meets our criteria for a simple, predictable, and free-cash-flow-generative business.",
+  "memo": "We have conducted a thorough review of the provided materials regarding Uber Technologies and have determined that we must pass on this opportunity. The fundamental requirement of our investment process is the ability to evaluate a business based on its intrinsic value, competitive positioning, and financial predictability [L1]. \n\nBecause the provided data pack is empty and contains no information concerning the business, its market position, or its financial statements, we are unable to perform the necessary due diligence required by our firm's standards [L1]. Without this foundation, we cannot identify a dislocation in the market or establish a variant perception that would support an investment. Consequently, we have no basis to proceed and our decision is a firm pass.",
+  "uncited_claims": [
+   "We have conducted a thorough review of the provided materials regarding Uber Technologies and have determined that we must pass on this opportunity."
+  ]
+ },
+ "elapsed_s": 0
+}

@@ -1,0 +1,15 @@
+{
+  "decisions": [
+    {
+      "anonymous_id": "C1",
+      "confidence": "high",
+      "evidence": "The candidate's memo and drivers are consistent with the information provided in the pack, utilizing data from [D01], [D03], and [D07]. The decision (BUY) and conviction (high) align with the activist thesis for Chipotle, reflecting the 'temporary crisis' template [L74].",
+      "fix": "The candidate has performed the analysis correctly based on the available information; no change required.",
+      "primary_cause": "iv",
+      "secondary_causes": [
+        "The model executed the thesis accurately based on the provided data, but it did not utilize the specific same-day 13D disclosure (referenced in [L26]) as its primary justification, instead synthesizing the thesis from the historical data provided in the pack."
+      ]
+    }
+  ],
+  "notes": "The model successfully identified the investment opportunity and correctly categorized the thesis as a temporary food-safety crisis [L74]. The candidate followed the required rules and utilized the supplied citations to ground the decision."
+}

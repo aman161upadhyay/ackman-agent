@@ -1,0 +1,58 @@
+{
+ "name_only": {
+  "2025_uber_buy": "PASS",
+  "2022_nflx_buy": "PASS",
+  "2018_hlt_buy": "PASS",
+  "2016_cmg_buy": "PASS",
+  "2026_msft_buy": "PASS",
+  "ctl_2022_dis_pass": "PASS"
+ },
+ "flips": {
+  "2025_uber_buy": {
+   "decision": "PASS",
+   "gate1_hard_fail": true
+  },
+  "2018_hlt_buy": {
+   "decision": "BUY",
+   "gate1_hard_fail": false
+  },
+  "2016_cmg_buy": {
+   "decision": "BUY",
+   "gate1_hard_fail": true
+  },
+  "2022_nflx_buy": {
+   "decision": "BUY",
+   "gate1_hard_fail": true
+  }
+ },
+ "demasking": {
+  "masked_runs": 47,
+  "named_in_output": 31,
+  "residue": 3,
+  "inferred": 28
+ },
+ "misattribution": {
+  "2025_uber_buy->BABA": "PASS",
+  "2018_hlt_buy->BA": "PASS",
+  "2016_cmg_buy->INTC": "BUY",
+  "ctl_2022_dis_pass->HLT": "BUY",
+  "ctl_2021_baba_pass->UBER": "PASS"
+ },
+ "repeats": {
+  "ctl_2021_baba_pass": [
+   "BUY",
+   "PASS",
+   "BUY"
+  ],
+  "ctl_2022_dis_pass": [
+   "BUY",
+   "BUY",
+   "PASS"
+  ],
+  "2025_cp_sell": [
+   "HOLD",
+   "HOLD",
+   "HOLD"
+  ]
+ }
+}

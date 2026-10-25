@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate content is based on information available through the August 2 cutoff. The gold drivers reference external public communication that occurred on August 3, which is outside the provided documentation window and was not considered for the candidate's 'HOLD' decision.",
+  "cause_evidence": "The candidate is holding existing swaptions while the gold drivers reference an explicit public thesis involving specific yield targets (5.5%) and a stated 'short' position appearing in Reuters reporting dated August 3rd, which post-dates the provided pack cutoff of August 2nd.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "none",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Structural inflation nearer3% than2% could justify materially higher long yields, around5.5% in the public framework.",
+      "index": 1,
+      "reason": "The candidate does not make the specific claim that inflation nearer 3% justifies 5.5% long yields; it refers generally to risks of structural inflation and term-premium expansion [L30].",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "The current macro environment exhibits a tug-of-war between observed disinflation and the structural risks of significant fiscal deficits and increased Treasury issuance",
+      "document": "D03_treasury_supply.md",
+      "document_quote": "Greater duration supply can require higher yields if demand does not rise comparably.",
+      "evidence_supported": true,
+      "gold_driver": "Large deficits and Treasury supply add long-rate/term-premium pressure.",
+      "index": 2,
+      "reason": "The candidate asserts that increased Treasury issuance creates structural risk [L30], supported by the document's statement regarding the impact of duration supply [L40].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We continue to hold our existing protection to ensure our portfolio is resilient against a sharp, disorderly move in the long end of the curve",
+      "document": "none",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Protect equity duration while taking an attractive standalone asymmetric exposure.",
+      "index": 3,
+      "reason": "While the candidate expresses the goal of portfolio resilience [L30], the document states that specific payoff multiples cannot be verified [L39], failing to support the 'attractive asymmetric exposure' claim.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Given that we have already deployed capital into long-rate payer swaptions to protect against the paradigm-shifting risk of inflation and term-premium expansion, we view this as a decision to maintain our hedge",
+      "document": "D04_instrument_economics.md",
+      "document_quote": "A payer swaption generally benefits when the relevant fixed swap rate rises relative to its strike. Its economics differ from selling a Treasury security outright.",
+      "evidence_supported": true,
+      "gold_driver": "Retained payer swaptions as portfolio insurance rather than simply an outright linear cash-bond short.",
+      "index": 4,
+      "reason": "The candidate confirms maintaining payer swaptions as a hedge [L30], and D04 explicitly distinguishes the economics of swaptions from outright bond shorts [L41].",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate's decision is framed as holding existing protection [L30], whereas the gold drivers include public external claims from after the document cutoff.",
+  "primary_cause": "i_rule_missing_ambiguous",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

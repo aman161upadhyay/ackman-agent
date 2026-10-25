@@ -1,0 +1,75 @@
+{
+  "audit_notes": "All gold drivers are sourced from a retrospective 2025 document, whereas the candidate memo was composed as of 2024-04-10. This explains the divergence in the specific drivers and terminology used.",
+  "cause_evidence": "The candidate memo builds an independent investment thesis focusing on recurring earnings and management's plan value, rather than relying on the specific retrospective drivers provided in the gold template.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "none",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Holding-company complexity created a discount to underlying economic value.",
+      "index": 1,
+      "reason": "The candidate claims the market mispriced BN as a distressed real estate entity [L23] but does not explicitly attribute the discount to holding-company complexity as requested by the gold driver.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "the high-quality, recurring fee-generative nature of its asset management and insurance businesses",
+      "document": "D01_business_overview.md",
+      "document_quote": "Asset management earns recurring fees on third-party capital",
+      "evidence_supported": true,
+      "gold_driver": "BAM supplies capital-light recurring fee earnings and growth.",
+      "index": 2,
+      "reason": "The candidate identifies the recurring fee-generative nature of the asset management business.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "none",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Bruce Flatt and his team are strong long-term capital allocators.",
+      "index": 3,
+      "reason": "While the candidate refers to Brookfield as a 'dominant, diversified global allocator of capital' [L15] and mentions management's 'track record' [L36], it does not explicitly praise the capital allocation strength of Bruce Flatt and his team.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "ignoring the high-quality, recurring fee-generative nature of its asset management and insurance businesses",
+      "document": "D01_business_overview.md",
+      "document_quote": "Insurance invests policyholder-funded capital and earns a spread after liabilities, expenses and underwriting effects.",
+      "evidence_supported": true,
+      "gold_driver": "Insurance growth and future carried interest add value not captured by simple current multiples.",
+      "index": 4,
+      "reason": "The candidate claims the market ignores the insurance business, which supports the assertion that insurance adds value not currently captured.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate focuses on the 'distressed real estate' narrative as the source of mispricing rather than the 'holding-company complexity' cited in the gold driver.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": true
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

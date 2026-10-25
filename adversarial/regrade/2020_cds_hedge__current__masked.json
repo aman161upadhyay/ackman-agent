@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate documents were evaluated strictly against the provided reference files. Citations in the candidate text were checked against the provided documents (D01-D07). Many candidate claims (e.g., credit pricing, asymmetry) remain subjective assertions as the document set explicitly notes the absence of exact dealer terms and pricing levels on the cutoff date [L19, L20].",
+  "cause_evidence": "The candidate's causal account is stated as its own internal strategy [L10], but it lacks empirical confirmation from the provided market documents (e.g., D02, D03) regarding the actual credit spreads or the mathematical feasibility of the asymmetric payoff on the specific date.",
+  "drivers": [
+    {
+      "candidate_quote": "the potential for a self-reinforcing contraction remains a paradigm-shifting threat that is not yet fully discounted by the credit markets",
+      "document": "D01_macro_context.md",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Pandemic interruption risk was not adequately reflected in credit protection pricing.",
+      "index": 1,
+      "reason": "The candidate asserts the credit markets do not fully discount the threat [L10], but the cited document does not contain facts or market data regarding the specific credit pricing levels or the adequacy of that pricing on February 24 [L19].",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "We accept a limited, defined premium to protect against a scenario that the market currently misprices as low-probability",
+      "document": "D03_instrument_economics.md",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Limited premiums offered an unusually asymmetric potential stress payoff.",
+      "index": 2,
+      "reason": "While the candidate claims the premium is limited and the payoff asymmetric [L10], the cited documentation provides only general mechanics of CDS [L20] and explicitly states that no dealer-confirmed index series or upfront price is supplied [L20], providing no evidence to support the claim that premiums were unusually asymmetric.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "By purchasing protection through credit-index CDS, we aim to offset potential portfolio impairments and generate reinvestment capital without liquidating our high-quality, long-term holdings",
+      "document": "D04_portfolio_exposure.md",
+      "document_quote": "A hedge may aim to protect purchasing power and avoid selling favored holdings into a disorderly market rather than express a permanent negative view on their intrinsic value.",
+      "evidence_supported": true,
+      "gold_driver": "Protect concentrated quality-equity holdings without forced liquidation.",
+      "index": 3,
+      "reason": "The document confirms that a hedge may be used to avoid selling high-quality holdings during a disorderly market, supporting the candidate's stated objective.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "we aim to offset potential portfolio impairments and generate reinvestment capital",
+      "document": "D04_portfolio_exposure.md",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Create liquidity to redeploy into attractive long investments when risk repriced.",
+      "index": 4,
+      "reason": "The candidate mentions generating reinvestment capital [L10], but the cited document discusses liquidity insurance generally and does not confirm that this specific trade is intended to create liquidity for the purpose of redeploying into long investments when risk reprices.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate provides a subjective strategy memo without sufficient supporting market data to validate the valuation or risk-pricing claims regarding the CDS instrument.",
+  "primary_cause": "iv_model_limitation",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

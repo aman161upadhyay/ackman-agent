@@ -1,0 +1,97 @@
+{
+  "audit_notes": "The candidate and the gold drivers are fundamentally disconnected in time; the gold drivers rely on retrospective performance reports published in 2025-03, while the candidate relies on real-time Q3 2024 data available up to 2025-01-06. The candidate successfully identifies the core causal arguments (demand aggregation, local density) but does not mirror the specific phrasing of the gold drivers.",
+  "cause_evidence": "The candidate was prepared on 2025-01-06 based on available Q3 2024 data, whereas the gold drivers include references to sources from 2025-02 and 2025-03 which were not available at the time of the candidate's creation.",
+  "drivers": [
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Dara's leadership created a profitable, cash-generative growth business.",
+      "index": 1,
+      "reason": "The candidate does not quote the specific leadership attribution to Dara Khosrowshahi's arrival in 2017 nor does it make this specific causal claim.",
+      "semantic_present": false
+    },
+    {
+      "candidate_quote": "The market's fear ignores the company’s massive local density advantage and brand power",
+      "document": "D01_business_overview.md",
+      "document_quote": "more local supply can reduce waits, while greater demand improves earning opportunities.",
+      "evidence_supported": true,
+      "gold_driver": "Dense marketplace networks improve waits, pricing and earner utilization.",
+      "index": 2,
+      "reason": "The candidate identifies local density as a key advantage, and D01 supports the specific mechanism of reduced waits and improved earning (utilization) opportunities.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "This model, combined with a robust balance sheet and 161 million active consumers, creates a durable, high-barrier moat",
+      "document": "D03_latest_results.md",
+      "document_quote": "Corporate and platform spending grew little year over year, providing operating leverage.",
+      "evidence_supported": true,
+      "gold_driver": "Capital-light growth and fixed-cost leverage support substantial earnings compounding.",
+      "index": 3,
+      "reason": "The candidate identifies the capital-light nature and platform scale as durable moats, and D03 documents the fixed-cost/platform leverage.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Rather than being bypassed, the company acts as a vital demand-aggregation layer that AV operators will find necessary to optimize fleet utilization",
+      "document": "D01_business_overview.md",
+      "document_quote": "Uber has announced partnerships rather than a commitment to manufacture autonomous fleets. Whether that distribution role remains valuable is an open question",
+      "evidence_supported": true,
+      "gold_driver": "AV developers can benefit from Uber demand aggregation rather than displace its marketplace.",
+      "index": 4,
+      "reason": "The candidate makes the exact causal claim that Uber acts as a necessary demand aggregator for AV operators. D01 notes the partnership model exists.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "",
+      "document": "",
+      "document_quote": "",
+      "evidence_supported": false,
+      "gold_driver": "Disruption fears created an attractive price for a high-quality business.",
+      "index": 5,
+      "reason": "The candidate mentions market sentiment is clouded by AV fears, but does not explicitly connect this fear to the valuation (price being 'attractive') as a primary driver of the entry decision.",
+      "semantic_present": false
+    }
+  ],
+  "key_problem": "The candidate lacks access to post-cutoff information (dated 2025-02 and 2025-03) that explicitly outlines the gold drivers.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [
+    {
+      "confidence": "high",
+      "document": "D08_pershing_context.md",
+      "quote": "The September 30 portfolio update, published October 1, reports total firm AUM of $18,498.8 million including PSVII, core-strategy AUM of $17,090.0 million and PSH AUM of $15,135.3 million. The document is now hosted at a later upload path; the underlying observation and release are from 2024.",
+      "reason": "The candidate's source documents reflect information available as of early 2025, while the prompt cutoff date is 2025-01-06."
+    }
+  ],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": false,
+        "supported": false
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 5,
+        "causal": false,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}

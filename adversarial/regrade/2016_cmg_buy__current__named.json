@@ -1,0 +1,75 @@
+{
+  "audit_notes": "The candidate makes reasonable claims based on the provided documents, but fails to map directly to the specific verbatim gold driver quotes, often substituting its own analysis for the source text.",
+  "cause_evidence": "The candidate relies on internal scenario analysis regarding margin recovery [L34] and market mispricing theories [L28] rather than the specific 13D regulatory disclosures cited in the gold drivers.",
+  "drivers": [
+    {
+      "candidate_quote": "Chipotle is a dominant, high-quality fast-casual franchise with a differentiated 'Food With Integrity' proposition and over 2,000 locations",
+      "document": "D01_business_overview.md",
+      "document_quote": "The proposition combines quickly served meals with fresh ingredients and the Food With Integrity sourcing identity.",
+      "evidence_supported": true,
+      "gold_driver": "The differentiated restaurant franchise has a strong brand and substantial growth potential.",
+      "index": 1,
+      "reason": "The candidate identifies the franchise as a dominant leader with a differentiated proposition, supported by D01.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "the stock is currently mispriced due to these transient factors",
+      "document": "D05_market_concerns.md",
+      "document_quote": "The favorable alternative is that the customer proposition remains differentiated and trust can be rebuilt with demonstrably safe execution.",
+      "evidence_supported": false,
+      "gold_driver": "The shares are undervalued relative to the franchise's earnings potential.",
+      "index": 2,
+      "reason": "While the candidate claims the stock is mispriced, the cited document explains market concerns and does not contain the specific valuation proof requested.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "Our 9.9% stake provides the influence necessary to work with management on operational improvements and corporate governance to accelerate the turnaround",
+      "document": "D01_business_overview.md",
+      "document_quote": "Steve Ells is founder, chairman and co-CEO. Monty Moran is also co-CEO. Their July statements emphasize food safety, empowered restaurant teams and restoring trust.",
+      "evidence_supported": true,
+      "gold_driver": "Engage on governance, operations, management and capital allocation.",
+      "index": 3,
+      "reason": "The candidate explicitly states intent to work on operational improvements and governance, supported by context in D01 regarding the need for turnaround.",
+      "semantic_present": true
+    },
+    {
+      "candidate_quote": "This investment opportunity exists because the market has conflated a temporary operational crisis with a permanent impairment of the brand",
+      "document": "D05_market_concerns.md",
+      "document_quote": "The key uncertainty is permanence: temporary fear supports a recovery valuation, while a permanently lower frequency or cost structure requires a different earnings base.",
+      "evidence_supported": false,
+      "gold_driver": "A great business in temporary trouble can recover while its moat remains intact.",
+      "index": 4,
+      "reason": "The candidate asserts the trouble is temporary, but the cited documents discuss the uncertainty of this premise rather than confirming the moat is intact and recovery is certain.",
+      "semantic_present": true
+    }
+  ],
+  "key_problem": "The candidate builds an investment thesis based on margin normalization and operational recovery assumptions, but lacks direct substantiation for those projections within the provided documents.",
+  "primary_cause": "v_genuine_process_difference",
+  "semantic_leakage": [],
+  "audit_validation": {
+    "flags": [],
+    "accepted": [
+      {
+        "index": 1,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 2,
+        "causal": true,
+        "supported": false
+      },
+      {
+        "index": 3,
+        "causal": true,
+        "supported": true
+      },
+      {
+        "index": 4,
+        "causal": true,
+        "supported": false
+      }
+    ],
+    "policy": "Exact quote failure receives zero for that endpoint; raw judge judgment retained above."
+  }
+}
