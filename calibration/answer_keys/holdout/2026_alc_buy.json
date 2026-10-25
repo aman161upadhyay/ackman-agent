@@ -1,0 +1,22 @@
+{
+  "id": "2026_alc_buy",
+  "size_pct_nav": null,
+  "sources": ["https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf", "https://www.sec.gov/Archives/edgar/data/2026053/000117266126003790/xslForm13F_X02/infotable.xml"],
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Unknown; no June30 consolidated13F position.",
+  "first_action_date": "After2026-06-30 and by2026-08-11; exact day unknown",
+  "disclosure_date": "2026-08-13",
+  "reason_class": null,
+  "opportunity_template": ["T1", "T2"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Surgical installed-base economics produce sticky recurring consumable demand.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13)", "quote": "classic ‘razor / razor-blade’ model"},
+    {"driver": "Demographics, income and access support durable vision-care growth.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13)", "quote": null},
+    {"driver": "Launch/R&D costs, tariffs, FX and lens-manufacturing maturation obscure higher structural margins.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13)", "quote": null},
+    {"driver": "De-rating toward18x earnings, buybacks and prospective EPS growth create attractive return potential.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13)", "quote": null},
+    {"driver": "AURN001 is incremental upside rather than required core value.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13)", "quote": "underappreciated call option"}
+  ],
+  "outcome_note": "Open; original shares, cost weight and realized P&L unknown. Manager forecast16% medium-term EPS-plus-yield is a prospective estimate, not an outcome.",
+  "pack_quality_notes": "9 documents. Corrects requestedQ2 label using primary H1 footnote and absence from actual June13F: initiated afterJune30. June30conservativefreeze. Three-year IFRS/core financial/cash series, Q1launch evidence, May6 independent7%reaction, two operating peers and April8datedPhase3announcement. Clinical option explicitly excluded from base earnings. Exact cutoffforwardconsensus, 52week/ownhistory and forwardpeer valuations missing; constantcurrency EPS sensitivity not misrepresented as dollar guidance. August30000installedunits/25%+potentialmargin/18xclaims confined to key context, not earlierdocs."
+}

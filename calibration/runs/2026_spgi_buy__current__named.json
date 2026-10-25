@@ -1,0 +1,250 @@
+{
+ "pack": "2026_spgi_buy",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2026-03-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "S&P Global is a diversified provider of financial information, credit ratings, benchmarks, commodity intelligence, and mobility data [D01]. The company operates through five key segments, earning revenue via subscriptions, transaction-based activity, index licensing, and asset-linked fees [D01].",
+   "segments_and_mix": [
+    "Market Intelligence: 32.5% of Q4 revenue [D01]",
+    "Ratings: 30.6% of Q4 revenue [D01]",
+    "Energy: 14.8% of Q4 revenue [D01]",
+    "Mobility: 11.4% of Q4 revenue [D01]",
+    "Indices: 12.8% of Q4 revenue [D01]"
+   ],
+   "unit_economics": [
+    "FY2025 adjusted operating margin: 50.4% [D02, D03]",
+    "Reported FY2025 operating margin: 42.2% [D02]",
+    "Capital intensity: Capex of $195 million in FY2025 [D02]",
+    "FCF conversion: Reported $5.135 billion defined FCF in FY2025 [D02]",
+    "Pricing power: Dependent on market conventions, credibility, and benchmark adoption [D01, D06]"
+   ],
+   "competitive_position": [
+    "Moat: High switching and coordination costs for established benchmarks and credit ratings [D01, D06]",
+    "Peers: Moody's (ratings) and MSCI (indices/analytics) [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2025 revenue: $15.336 billion (up 8%) [D02, D03]",
+    "2026 guidance: 6–8% organic constant-currency revenue growth; EPS $19.40–19.65 [D03]"
+   ],
+   "balance_sheet": [
+    "Net debt: $11.343 billion as of FY2025 [D02]",
+    "Total debt: $13.088 billion (long-term: $12.370 billion; short-term: $718 million) [D02]"
+   ],
+   "management_and_governance": [
+    "CEO: Martina Cheung [D01]",
+    "Capital allocation: $6.2 billion returned to shareholders in 2025 ($5.0 billion repurchases, $1.2 billion dividends) [D02]"
+   ],
+   "price_and_valuation": [
+    "Price (March 31, 2026): $402.40 [D04]",
+    "Market cap: ~$122.772 billion [D04]",
+    "P/E (FY2025 adjusted): 22.6x [D04]",
+    "P/E (2026 guidance midpoint): 20.6x [D04]",
+    "FCF yield (defined): 4.2% [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "AI disruption: Potential for AI to replace research tasks or reduce demand for seat-based software [D01, D05]",
+    "Guidance miss: 2026 guidance midpoint of $19.525 missed $20.02 consensus [D03, D05]",
+    "Issuance cyclicality: Ratings revenue exposure to capital markets activity [D01, D05]"
+   ],
+   "recent_events": [
+    "February 10, 2026: Shares fell 9.7% following guidance disappointment [D03, D05]",
+    "Mid-2026: Planned Mobility segment separation [D01, D03]"
+   ],
+   "pershing_context": [
+    "AUM: Core-fund AUM $19.748 billion as of February 9, 2026 [D08]",
+    "Holdings: Portfolio includes large-cap franchises like Amazon, Meta, Alphabet, and others [D08]",
+    "Existing stake: Not in pack"
+   ],
+   "missing_data": [
+    "Verified peer forward P/E and FCF yield comparisons for the same date",
+    "Product-by-product revenue exposure to AI replacement",
+    "Comprehensive historical buyback and ROIC series"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "The company generates high-margin, recurring subscription and transaction-based revenue through essential financial benchmarks and ratings [D01], with a 50.4% adjusted operating margin and strong FCF conversion [D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "S&P Global holds a dominant market position with high switching and coordination costs for its established financial benchmarks and credit ratings [D01, D06]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "PASS",
+     "evidence": "While ratings are sensitive to capital markets activity, the business is diversified across multiple segments, including data, indices, and intelligence, reducing reliance on any single factor [D01]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a manageable debt profile of $13.088 billion total debt against a large market cap, with no mention of a refinancing cliff [D02, D04]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The company generates significant free cash flow, allowing it to return $6.2 billion to shareholders through repurchases and dividends in 2025 [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a market cap of approximately $122.772 billion, it is large and liquid enough for a concentrated position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "Following a 9.7% share price decline due to guidance disappointment, the forward P/E of 20.6x is moderate for a high-quality, dominant franchise [D03, D04, D05]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "Management demonstrates disciplined capital allocation, having returned $6.2 billion to shareholders in 2025 [D02]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company maintains a steady growth outlook of 6–8% organic revenue growth supported by secular demand for financial data and benchmarks [D03]."
+    }
+   },
+   "n_pass": 9,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a highly cash-generative, dominant data and ratings franchise with deep moats and a durable growth profile."
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market is overly focused on a short-term guidance miss and fears that AI will commoditize S&P Global's research and data offerings [D03, D05]. We believe the company's entrenched market position as an essential financial utility, underpinned by high switching costs and regulatory requirements, makes it largely immune to these concerns, and the recent sell-off provides an attractive entry point for a long-term compounder [D01, D03, D06].",
+   "evidence": [
+    "Shares declined 9.7% on February 10, 2026, due to guidance missing consensus [D03, D05].",
+    "Current valuation at 20.6x forward P/E is moderate for a dominant, high-margin franchise with 6-8% organic growth [D03, D04].",
+    "Long-term competitive advantage remains intact due to high switching and coordination costs in ratings and benchmarks [D01, D06]."
+   ],
+   "market_narrative_we_disagree_with": "The narrative that AI will significantly disrupt subscription demand and that the 2026 guidance miss signals a structural decline in growth [D03, D05].",
+   "what_must_be_true": [
+    "The competitive moat protecting ratings and benchmark services remains uncompromised by AI tools.",
+    "Organic revenue growth continues in the 6–8% range as guided.",
+    "Pricing power persists despite potential changes in market data consumption patterns."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "20.6x 2026 forward EPS vs historical range for dominant 6-8% growth franchises [D03, D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2026",
+    "base_value": "$19.53",
+    "growth_assumption": "8% CAGR",
+    "year_3_to_5_value": "$24.59 (Year 3) to $28.66 (Year 5)",
+    "assumptions": [
+     "Organic revenue growth remains 6-8% [D03]",
+     "Operating margins maintained at ~50% [D02, D03]",
+     "Continued share repurchases [D02]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 22,
+    "why": "Reflects a premium for high-moat, free-cash-flow-generative financial utility status despite AI-related sentiment risk."
+   },
+   "implied_irr_pct": {
+    "base": 19.5,
+    "bear": 8,
+    "bull": 26
+   },
+   "downside_case": "If AI significantly commoditizes research and issuance volumes remain cyclically depressed, the multiple could contract to 15-17x. Permanent loss is unlikely given the irreplaceable nature of credit ratings and benchmark network effects.",
+   "valuation_verdict": "ADEQUATE_15_20",
+   "flagged_assumptions": [
+    "EPS growth beyond 2026 guided range assumed at 8% based on historical compounder performance",
+    "Terminal multiple assumption based on comparable high-quality financial data providers"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We view S&P Global as a high-quality compounder that has been unfairly punished by the market due to a short-term guidance miss and overblown concerns regarding AI disruption [D03, D05]. We expect the share price to re-rate toward a 22x multiple as the company demonstrates the durability of its 6-8% organic growth and the resilience of its moat against AI, effectively fading the current market scare [D03, D06].",
+   "levers_or_steps": [
+    "Continued execution of 6–8% organic revenue growth in the core ratings and indices segments [D03].",
+    "Maintenance of high adjusted operating margins at ~50% [D02, D03].",
+    "Disciplined capital allocation through consistent share repurchases and dividends, continuing the $6.2 billion return achieved in 2025 [D02]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our 'Pershing Square 3.0' era, we focus on identifying high-quality compounders suffering from temporary dislocations. S&P Global is a dominant, free-cash-flow-generative financial utility. A C0 strategy is appropriate here as the business model is inherently robust; our role is to act as a long-term owner, providing capital stability while the market corrects its mispricing of the firm's growth durability and competitive position."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Structural decline in operating margins below 45% indicating loss of pricing power.",
+    "Organic revenue growth turns negative for two consecutive quarters.",
+    "Material loss of market share in credit ratings or indices due to competitive disruption or regulatory changes.",
+    "Management shifts from shareholder-friendly capital allocation to debt-funded, low-return acquisitions."
+   ],
+   "portfolio_fit": "S&P Global fits well within our 3.0 era focus on dominant, cash-generative financial utilities. It complements existing core-fund technology and platform holdings by adding defensive, data-driven financial infrastructure, with no meaningful overlap or factor doubling.",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 12
+   },
+   "liquidity_assessment": "With a market capitalization of $122.772 billion [D04], the stock is highly liquid, allowing for a position of this size to be established within weeks at well under 15-25% of average daily volume.",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that AI-driven technological shifts commoditize the company's research and data offerings, eroding its competitive moat and pricing power."
+  }
+ },
+ "final": {
+  "as_of_date": "2026-03-31",
+  "company": "S&P Global",
+  "ticker": "SPGI",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "special_situation": false,
+  "valuation": {
+   "entry_multiple": "20.6x 2026 forward EPS",
+   "eps_path": "8% CAGR",
+   "terminal_multiple": "22x",
+   "irr_pct": 19.5,
+   "downside_case": "Multiple contraction to 15-17x if AI significantly commoditizes research and issuance remains depressed."
+  },
+  "drivers": [
+   {
+    "driver": "S&P Global is a dominant financial utility with high barriers to entry via entrenched network effects in credit ratings and indices [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The business is highly free-cash-flow-generative with 50.4% adjusted operating margins and disciplined capital allocation [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The market has mispriced the stock due to a temporary guidance miss and overblown fears regarding AI disruption of its research and data offerings [D03, D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The company maintains a strong growth outlook of 6-8% organic revenue growth driven by the secular demand for financial data [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Structural decline in operating margins below 45% indicating loss of pricing power.",
+   "Organic revenue growth turns negative for two consecutive quarters.",
+   "Material loss of market share in credit ratings or indices due to competitive disruption or regulatory changes.",
+   "Management shifts from shareholder-friendly capital allocation to debt-funded, low-return acquisitions."
+  ],
+  "what_would_change_our_mind": "Evidence that AI-driven technological shifts commoditize the company's research and data offerings, permanently eroding its competitive moat and pricing power.",
+  "memo": "S&P Global is an essential financial infrastructure provider, operating as a dominant, high-margin, and free-cash-flow-generative franchise [D01, D02]. The company’s ratings and indices businesses benefit from high switching and coordination costs, creating a durable competitive moat that is difficult for competitors to replicate [D01, D06]. With a 50.4% adjusted operating margin and significant recurring revenue, the business generates the predictable, high-quality cash flow that defines our standard for a core compounder [D02, D03].\n\nWe are able to acquire our stake at a 20.6x forward P/E, a valuation that we believe understates the long-term compounding potential of the firm [D03, D04]. The opportunity arises from a 9.7% share price decline following a short-term guidance miss, which the market has incorrectly extrapolated as a structural impairment to growth [D03, D05]. We view this dislocation as a classic opportunity to buy a great business that is underperforming its potential for fixable or temporary reasons [D03].\n\nOur investment thesis is predicated on the firm’s ability to sustain 6–8% organic revenue growth, supported by the secular demand for financial intelligence [D03]. By maintaining ~50% operating margins and continuing to deploy capital into share repurchases—which totaled $5 billion in 2025—we expect the company to deliver attractive mid-teens annual rates of return [D02, D03]. We anticipate a re-rating toward a 22x terminal multiple as the company demonstrates the resilience of its moat against AI and confirms the durability of its growth profile [D02, D03, D06].\n\nAs long-term owners, our role is to support the management team in their continued focus on capital allocation and operational execution [D02]. We identify S&P Global as a high-quality compounder that fits perfectly within our 3.0 era mandate of acquiring dominant utilities during periods of market sentiment weakness. We are initiating a position today with a target of 10% of NAV [D04, D05].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

@@ -1,0 +1,44 @@
+{
+ "trade_id": "2020_cds_hedge",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 4,
+  "matched": [
+   "Pandemic interruption risk was not adequately reflected in credit protection pricing → the potential for a self-reinforcing contraction remains a paradigm-shifting threat that is not yet fully discounted by the credit markets",
+   "Limited premiums offered an unusually asymmetric potential stress payoff → We accept a limited, defined premium to protect against a scenario that the market currently misprices as low-probability",
+   "Protect concentrated quality-equity holdings without forced liquidation → we aim to offset potential portfolio impairments and generate reinvestment capital without liquidating our high-quality, long-term holdings",
+   "Create liquidity to redeploy into attractive long investments when risk repriced → generate reinvestment capital without liquidating our high-quality, long-term holdings"
+  ],
+  "missed": [],
+  "extra_agent_drivers": []
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "On February 24, we face a shift from a localized Chinese supply-chain concern to a global pandemic risk with emerging clusters in Italy and South Korea",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market only recently transitioned from complacency",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We aim to offset potential portfolio impairments and generate reinvestment capital without liquidating our high-quality, long-term holdings",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 5,
+  "cited": 2,
+  "share": 0.4
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "By purchasing protection through credit-index CDS, we aim to offset potential portfolio impairments and generate reinvestment capital without liquidating our high-quality, long-term holdings.",
+ "grader_notes": "The agent accurately identified all four of Ackman's drivers, including the asymmetric nature of the hedge and the goal of protecting the portfolio to avoid forced liquidation. The reasoning is well-aligned with the provided answer key, using the source documents to substantiate the timeline and the strategic intent behind the trade.",
+ "run": "2020_cds_hedge__current__masked"
+}

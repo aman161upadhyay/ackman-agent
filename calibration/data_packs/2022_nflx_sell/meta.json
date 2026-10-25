@@ -1,0 +1,12 @@
+{
+  "id": "2022_nflx_sell",
+  "company": "Netflix",
+  "ticker": "NFLX",
+  "aliases": ["Netflix Inc."],
+  "as_of_date": "2022-04-20",
+  "mode": "existing",
+  "era": "D",
+  "first_action_window": "More than 3.1 million shares purchased beginning January 21, 2022; January 26 investor letter. This replay includes April 20 market close but excludes the manager's April 20 decision letter.",
+  "pershing_aum_usd_bn": null,
+  "notes": "Existing-position replay. Decision-day exit disclosure deliberately withheld. Prices and shares are contemporaneous, not adjusted for subsequent splits. Exact current manager-wide AUM, consensus valuation and volume unavailable in retrieved pre-cutoff sources."
+}

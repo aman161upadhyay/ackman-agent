@@ -1,0 +1,36 @@
+{
+ "pack": "2020_brk_sell",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2020-05-26",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-05-26",
+  "company": "the Company (Berkshire Hathaway)",
+  "ticker": "BRK.A/BRK.B",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Durable base earnings: Intact; operating earnings increased in Q1 2020 despite pandemic effects [D02], [D03].",
+   "Operational improvements: Intact; the Jain/Abel structure remains in place to address peer-relative margin gaps [D02], [D09].",
+   "Cash-deployment option: Strengthened; the record cash reserve [D04] provides maximum optionality for future capital deployment during economic dislocation [D02].",
+   "Discount to intrinsic value: Intact; the company continues to trade at a price/book proxy of approximately 1.18x [D05]."
+  ],
+  "forward_irr_estimate_pct": 15,
+  "valuation_now": "The Company trades at a price/book proxy of approximately 1.18x [D05], maintaining an attractive discount to intrinsic value relative to historical expectations [D00].",
+  "drivers": [
+   {
+    "driver": "The Company's massive liquidity provides a unique, risk-free competitive advantage to deploy capital during continued market uncertainty.",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   }
+  ],
+  "memo": "the Company remains a dominant, free-cash-flow-generative business with unparalleled financial strength [D02]. While the COVID-19 pandemic has created uncertainty for its manufacturing, service, and retail subsidiaries, the company’s aggregate operating earnings grew in Q1 2020, demonstrating the resilience of its core insurance and utility franchises [D03], [D10].\n\nWe acknowledge the frustration some market participants feel regarding the company’s limited capital deployment during the March rout [D06]. However, we view the record $137 billion cash reserve not as a drag, but as a critical source of optionality [D03], [D04]. In an environment of extreme economic disruption, the ability to wait for the right opportunities—rather than being forced to act—is a hallmark of the high-quality management and balance sheet we seek [D06].\n\nOur original thesis, which valued the company based on a discount to intrinsic value, the potential for operational improvements under Ajit Jain and Greg Abel, and productive capital deployment, remains intact [D00], [D10]. Although recent economic headwinds may delay the timing of these catalysts, they do not impair the long-term intrinsic value of the underlying businesses [D06], [D10]. Given our confidence in the company’s durability and our expectation for double-digit annualized returns, we maintain our position [D00], [D10].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

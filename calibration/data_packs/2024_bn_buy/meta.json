@@ -1,0 +1,12 @@
+{
+  "id": "2024_bn_buy",
+  "company": "Brookfield Corporation",
+  "ticker": "BN",
+  "aliases": ["Brookfield", "Brookfield Corporation; not the BAM pure-play"],
+  "as_of_date": "2024-04-10",
+  "mode": "new",
+  "era": "E",
+  "first_action_window": "April11 2024 initiation identified in February11 2026 PSH presentation; April10 is preceding trading day.",
+  "pershing_aum_usd_bn": null,
+  "notes": "Critical date correction: December2022 distribution left BN owning 75% of underlying asset manager in contemporaneous 2023 materials, not the later 73% structure. Pack uses 75%; requested 73% is a later-date figure. Prices expressed in contemporaneous pre-subsequent-split share units. Firm AUM unknown; PSH NAV supplied separately."
+}

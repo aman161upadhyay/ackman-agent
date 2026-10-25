@@ -1,0 +1,261 @@
+{
+ "pack": "2024_nke_buy_a",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2024-05-14",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Nike designs, markets, and distributes athletic footwear, apparel, and equipment, owning the Nike, Jordan, and Converse brands [D01]. It operates a global franchise that relies on brand investment, product innovation, and athlete relationships, primarily utilizing outsourced manufacturing [D01].",
+   "segments_and_mix": [
+    "Nike Brand: $48.763 billion revenue (FY2023) [D01]",
+    "Converse: $2.427 billion revenue (FY2023) [D01]",
+    "Wholesale channel: $27.397 billion (FY2023) [D01]",
+    "Direct channel (retail and digital): $21.308 billion (FY2023) [D01]"
+   ],
+   "unit_economics": [
+    "Gross margin: 44.8% (Q3 FY2024) [D01]",
+    "EBIT margin: 10.9% (Q3 FY2024) [D01]",
+    "FCF: $4.872 billion (FY2023) [D02]",
+    "Capex intensity: Relatively low but rising; $969 million (FY2023) [D02]",
+    "Pricing power: Variable; impacted by promotions and competitive dynamics [D02, D05]"
+   ],
+   "competitive_position": [
+    "Rank: Global incumbent in athletic footwear and apparel [D01, D06]",
+    "Moat: Strong brand equity, athlete endorsements, and global distribution scale [D01, D05]",
+    "Peers: Adidas (incumbent), On (challenger) [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2023 revenue growth: 10% [D02]",
+    "Outlook: Management expects low-single-digit revenue decline in first-half FY2025 as it cycles through product transitions [D03, D07]"
+   ],
+   "balance_sheet": [
+    "Net debt: Approx. -$1.64 billion (Cash/Short-term investments of $10.573 billion vs. $8.930 billion long-term debt) [D02, D05]",
+    "Leverage: Conservative [D05]",
+    "Rating: Not in pack"
+   ],
+   "management_and_governance": [
+    "CEO: John Donahoe [D01]",
+    "Governance: Founder-associated governance and multiple share classes exist [D01]",
+    "Capital allocation: Active repurchases and dividends; $866 million repurchased in latest quarter [D02]"
+   ],
+   "price_and_valuation": [
+    "Price: $92.79 [D04]",
+    "Market cap: Approx. $140.41 billion (illustrative) [D04]",
+    "Drawdown: 24.8% below 52-week high [D04]",
+    "P/E: ~27.3x trailing earnings [D04]",
+    "FCF yield: ~3.5% (based on FY2023) [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Slowing demand and weak digital commerce [D05]",
+    "Innovation gap and competition from newer brands [D05, D06]",
+    "Transition period as company pivots away from mature product franchises [D03, D05]",
+    "Margin compression due to promotions and restructuring [D02, D05]"
+   ],
+   "recent_events": [
+    "Dec 2023: Announced $2 billion cumulative cost savings program [D07]",
+    "Mar 2024: Reported flat Q3 revenue and warned of H1 FY2025 sales decline [D03, D07]"
+   ],
+   "pershing_context": [
+    "Fund AUM: PSH NAV approx. $12.06 billion as of Dec 31, 2023 [D08]",
+    "Existing stake: Not in pack",
+    "Prior engagement: Not in pack"
+   ],
+   "missing_data": [
+    "Verified May 14 forward consensus EPS",
+    "Forward P/E and EV/EBITDA multiples",
+    "Company-specific five-to-ten-year forward-multiple range",
+    "Latest quarterly FCF reconciliation",
+    "Full firm-wide AUM and total cash balance as of May 14"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "Business performance is currently hindered by an innovation gap, product transitions, and reliance on promotional activity, making long-term cash flow predictability difficult [D02, D05]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "Nike maintains a dominant global incumbent position supported by deep brand equity, extensive athlete endorsements, and massive distribution scale [D01, D05]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong global footprint with diversified revenue sources, though it is subject to competitive and consumer behavior shifts [D01, D05]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a conservative balance sheet with a net cash position of approximately $1.64 billion [D02, D05]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "With significant cash and investment holdings and strong FCF generation, the company does not rely on external capital markets for operations [D02, D05]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The market capitalization is approximately $140.41 billion, which is well above the threshold for a major Pershing Square position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "While the stock is down 24.8% from its 52-week high, the P/E of 27.3x requires further analysis against historical averages and the quality of earnings to confirm an attractive entry point [D04]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "While the firm has strong brand leadership, the current innovation gap and the need for a pivot away from mature franchises raise questions regarding current management effectiveness [D01, D05]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "Growth is currently challenged by an innovation gap and competitive pressures, with management forecasting revenue declines in the near term [D03, D05]."
+    }
+   },
+   "n_pass": 5,
+   "n_fail": 1,
+   "n_unsure": 3,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant global athletic brand currently navigating a difficult product transition and innovation gap that impairs short-term predictability."
+  },
+  "gate2": {
+   "templates": [
+    "T1",
+    "T2"
+   ],
+   "variant_perception": "The market views Nike as a structurally impaired business suffering from a permanent loss of innovation and share to agile newcomers [D05, D06]. We believe this is a temporary cyclical trough driven by a necessary transition away from reliance on legacy franchises and a period of over-promotion [D03, D05]. A return to focused innovation, disciplined inventory management, and the realization of the $2 billion cost-savings program will restore normalized earnings power [D07].",
+   "evidence": [
+    "Stock has experienced a 24.8% drawdown from its 52-week high, reflecting investor pessimism [D04].",
+    "The market is heavily focused on short-term revenue headwinds and near-term margin pressure [D03, D05].",
+    "Company has initiated a specific $2 billion cost-savings program to address margin compression [D07].",
+    "Nike maintains a dominant global brand position and strong net cash balance sheet, providing a stable foundation to execute the pivot [D01, D02, D05]."
+   ],
+   "market_narrative_we_disagree_with": "The market believes that Nike's competitive moat has been fundamentally eroded by newer, more innovative challengers and that its brand relevance is in permanent decline [D05, D06].",
+   "what_must_be_true": [
+    "Nike's brand equity remains robust enough to regain market share once the product pipeline is refreshed.",
+    "The $2 billion cost-savings program successfully flows to the bottom line without permanently impairing top-line growth.",
+    "Management can effectively pivot from mature franchises to new product platforms without prolonged margin erosion.",
+    "Competition from challengers remains manageable within the context of Nike's global distribution scale."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "27.3x trailing earnings vs S&P 500 ~21x [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2023",
+    "base_value": "$4.872 billion FCF [D02]",
+    "growth_assumption": "8% CAGR including margin expansion from $2B cost savings [D07]",
+    "year_3_to_5_value": "$6.14 billion - $6.67 billion FCF",
+    "assumptions": [
+     "Cost savings program successfully flows to margin [D07]",
+     "Brand relevance recovers post-product transition [D03, D07]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 22,
+    "why": "Nike is a dominant global brand; 22x reflects a premium for historical scale and cash generation, adjusted for current competitive headwinds."
+   },
+   "implied_irr_pct": {
+    "base": 21,
+    "bear": 8,
+    "bull": 28
+   },
+   "downside_case": "If market share loss to agile competitors is permanent, margins will fail to recover despite the $2B savings program. Permanent loss is unlikely given the strength of the brand and net cash balance sheet, but valuation compression could lead to mid-single-digit returns.",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Forward EPS/FCF growth rate estimates are derived from management's savings program projections rather than consensus [D07].",
+    "Terminal multiple assigned based on category standard for dominant consumer brands [D01]."
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "Nike's valuation is depressed due to temporary cyclical headwinds and a transition period, leading to a market misunderstanding of its long-term brand durability [D03, D05]. We expect a re-rating toward a 22x multiple as the $2 billion cost-savings program flows to the bottom line, restoring normalized earnings power and demonstrating the brand's enduring competitive position [D07].",
+   "levers_or_steps": [
+    "Execution of the $2 billion cumulative cost-savings program to address margin compression [D07].",
+    "Product pipeline refreshment to bridge the current innovation gap [D03, D05].",
+    "Disciplined inventory and promotional management to preserve brand equity and margin profile [D05, D07]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our 'Pershing Square 3.0' era, we prioritize large-cap quality compounders during episodic dislocations. Given Nike’s status as a dominant global incumbent with a fortress balance sheet, a quiet engagement or simple long position is appropriate to capture value as the market realizes the temporary nature of the innovation and margin transition [D01, D02, D05, D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Failure to demonstrate innovation-driven growth in the next two fiscal quarters [D03, D07]",
+    "Persistence of revenue declines beyond the projected H1 FY2025 transition period [D03, D07]",
+    "Inability to realize meaningful margin expansion from the $2 billion cost-savings program [D07]"
+   ],
+   "portfolio_fit": "Fits the 'Pershing Square 3.0' criteria as a dominant global compounder undergoing a temporary cyclical dislocation. The position would complement our existing large-cap portfolio by providing exposure to a global consumer brand with a fortress balance sheet.",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "With a market capitalization of approximately $140.41 billion and significant daily trading volume, we can comfortably establish a core position over several weeks without impacting the market price [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that Nike's innovation gap is structural rather than cyclical, leading to a permanent loss of market share to agile competitors."
+  }
+ },
+ "final": {
+  "as_of_date": "2024-05-14",
+  "company": "NIKE, Inc.",
+  "ticker": "NKE",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "27.3x trailing earnings",
+   "eps_path": "8% CAGR including margin expansion from $2B cost savings",
+   "terminal_multiple": "22x",
+   "irr_pct": 21,
+   "downside_case": "Permanent loss of competitive advantage leading to stagnant margins and mid-single-digit returns."
+  },
+  "drivers": [
+   {
+    "driver": "Nike is a dominant, free-cash-flow-generative global franchise with deep brand equity and massive distribution scale that creates an enduring competitive moat.",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The stock trades at a depressed valuation following a 24.8% drawdown, providing an attractive entry point into a high-quality compounder.",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The market has misidentified a temporary cyclical innovation and margin transition as a permanent impairment of the business model.",
+    "citations": [
+     "D03",
+     "D05",
+     "D06"
+    ]
+   },
+   {
+    "driver": "A $2 billion cumulative cost-savings program provides a clear, actionable path to margin expansion and restored earnings power.",
+    "citations": [
+     "D07"
+    ]
+   },
+   {
+    "driver": "The company maintains a fortress balance sheet with a net cash position, ensuring resilience during the current pivot to new product platforms.",
+    "citations": [
+     "D02",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Failure to demonstrate innovation-driven growth in the next two fiscal quarters",
+   "Persistence of revenue declines beyond the projected H1 FY2025 transition period",
+   "Inability to realize meaningful margin expansion from the $2 billion cost-savings program"
+  ],
+  "what_would_change_our_mind": "Evidence that Nike's innovation gap is structural rather than cyclical, causing a permanent loss of market share that cannot be recovered through product pipeline refreshment.",
+  "memo": "Nike, Inc. is a dominant global athletic brand with an unmatched combination of brand equity, athlete endorsements, and distribution scale that makes it one of the most durable businesses in the consumer sector [D01, D05]. It generates significant free cash flow and maintains a fortress balance sheet with a net cash position of approximately $1.64 billion, providing a stable foundation for long-term compounding [D02, D05].\n\nWe believe the current market pessimism—which has driven the stock down 24.8% from its 52-week high—reflects a fundamental misunderstanding of the business [D04]. While the market fears that Nike is suffering from a permanent loss of innovation and share to agile newcomers, we view this as a temporary, cyclical trough caused by a necessary transition away from mature franchises and a period of over-promotion [D03, D05, D06].\n\nAt a trailing P/E of 27.3x, we are able to acquire our stake at an attractive valuation relative to the brand's long-term earnings power [D04]. By executing a $2 billion cost-savings program and refreshing the product pipeline, we expect a return to mid-teens EPS growth, supporting an IRR in the 20% range as the market re-rates the shares toward a 22x multiple [D03, D07].\n\nOur role is to support the company as it executes this pivot, prioritizing the discipline required to restore margins and brand equity [D05, D07]. We expect the realization of the $2 billion in savings to flow directly to the bottom line, acting as the primary catalyst to demonstrate the durability of the model [D07].\n\nThe primary risk to our thesis is that the current innovation gap proves to be structural, leading to a permanent impairment of market share [D05, D06]. However, given the strength of the brand and the conservative balance sheet, we believe the downside is well-bounded [D01, D05].\n\nWe are initiating a position today with an initial 3% allocation, intending to grow the stake to 8% of our NAV as we gain further conviction in the execution of the product and margin recovery plan [D04]. Nike fits our 'Pershing Square 3.0' criteria as a high-quality compounder purchased during an episodic, misunderstood dislocation [D05, D07].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

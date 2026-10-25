@@ -1,0 +1,20 @@
+{
+  "id": "2025_cp_sell",
+  "size_pct_nav": null,
+  "sources": ["https://assets.pershingsquareholdings.com/wp-content/uploads/2025/08/20192925/Pershing-Square-Holdings-Ltd.-June-2025-Interim.pdf"],
+  "actual_decision": "SELL",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Unknown original cost weight. December 2024 PSH market weight was 7.38%.",
+  "first_action_date": "2025-04 (primary H1 report); exact execution day unresolved",
+  "disclosure_date": "2025-05-22",
+  "reason_class": ["S2", "S3"],
+  "opportunity_template": null,
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Tariffs and macro exposure widened the risk range of the cross-border railway.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2025/08/20192925/Pershing-Square-Holdings-Ltd.-June-2025-Interim.pdf (2025-08-20)", "quote": "more sensitive to tariffs and other macroeconomic factors relative to the rest of the portfolio"},
+    {"driver": "Business quality remained high; the exit should not be labeled established franchise destruction.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2025/08/20192925/Pershing-Square-Holdings-Ltd.-June-2025-Interim.pdf (2025-08-20)", "quote": "fantastic business"},
+    {"driver": "Capital could be deployed into more attractive alternatives, including Amazon.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/11144917/2026-Annual-Investor-Presentation.pdf (2026-02-11)", "quote": "deploy capital into more attractive opportunities, including Amazon"}
+  ],
+  "outcome_note": "Late-2021 position fully exited. Do not import the 2011 activist campaign's return or cost. Precise second-position return not authenticated here.",
+  "pack_quality_notes": "10 documents, CAD and USD separated, audited three-year cash/income tables, primary 2021 KCS underwriting and March 2025 constructive update. Cutoff about two weeks before Q2, first absent report period. Timing conflict retained: H1 report explicitly says April exit, while later presentation's performance chart ends May 14; chart endpoint is not assumed to prove execution. May 22 Reuters is public disclosure. S1 not assigned without demonstrated valuation-driven sale evidence; S2 maps increased tariff uncertainty to loss of forecast confidence and S3 maps explicit alternative use of capital. S5 concentration not established. Historical multiple range, exact 52-week range and peer forward multiples unavailable."
+}

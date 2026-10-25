@@ -1,0 +1,47 @@
+{
+ "trade_id": "2016_cmg_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "The differentiated restaurant franchise has a strong brand and substantial growth potential. → Chipotle is a dominant, high-quality fast-casual leader with a differentiated 'Food With Integrity' value proposition and a resilient network of over 2,000 restaurants [D01].",
+   "The shares are undervalued relative to the franchise's earnings potential. → This investment opportunity exists because the market has conflated a temporary operational crisis with a permanent impairment of the brand [D05].",
+   "Engage on governance, operations, management and capital allocation. → As a significant 9.9% shareholder, we will engage constructively with the co-CEOs to accelerate the operational turnaround, monitor the efficacy of marketing programs like 'Chiptopia,' and ensure disciplined growth of 220-235 new units annually [D03, D04, D05]."
+  ],
+  "missed": [
+   "A great business in temporary trouble can recover while its moat remains intact."
+  ],
+  "extra_agent_drivers": [
+   "The business possesses a fortress balance sheet with no conventional interest-bearing debt and $646 million in cash [D01, D02]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Chipotle is a dominant, high-quality fast-casual leader with a differentiated 'Food With Integrity' value proposition and a resilient network of over 2,000 restaurants [D01].",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "This investment opportunity exists because the market has conflated a temporary operational crisis with a permanent impairment of the brand [D05].",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "As a significant 9.9% shareholder, we will engage constructively with the co-CEOs to accelerate the operational turnaround [D03, D04, D05].",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 5,
+  "share": 0.38
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We are initiating a 9.9% position, representing a high-conviction bet on a proven franchise that is currently underperforming for fixable, operational reasons [D04, D05].",
+ "grader_notes": "The agent correctly identified the core thesis drivers of brand strength, undervaluation due to temporary crisis, and the intent to engage on operational/governance improvements. The reasoning was slightly less aligned on the 'temporary trouble/intact moat' concept specifically, focusing more on the financial balance sheet as a risk mitigator instead.",
+ "run": "2016_cmg_buy__current__named"
+}

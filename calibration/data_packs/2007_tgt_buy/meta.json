@@ -1,0 +1,12 @@
+{
+  "id": "2007_tgt_buy",
+  "company": "Target Corporation",
+  "ticker": "TGT",
+  "aliases": ["Target"],
+  "as_of_date": "2007-04-20",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "First purchases April 2007; exact day unverified. July 16 public disclosure of 9.6% economic exposure follows cutoff. This date is a bounded pre-disclosure snapshot, not a proved pre-first-trade day. Retrospective chronology: https://www.reuters.com/article/business/ackman-pushes-for-change-at-target-corp-idUSTRE52F4LR/",
+  "pershing_aum_usd_bn": null,
+  "notes": "Eight documents. Original March 15 2007 10-K and April11 sales. No later Target-IV derivative fund, 2008 land-REIT plan, card transaction or proxy outcome disclosed in documents. Owned property and card assets presented as contemporary facts, not future activist proposal. Latest accessible 13F is December2006 filed February14; March-quarter holdings were not yet public. Firmwide AUM unavailable; US$1.630bn 13F is not AUM."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "2011_cp_buy",
+  "company": "Canadian Pacific Railway Limited",
+  "ticker": "CP",
+  "aliases": ["Canadian Pacific", "CP Rail"],
+  "as_of_date": "2011-09-23",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "Retrospective Harvard governance case dates the first purchase to September 23, 2011; Schedule 13D disclosed October 28, 2011. Neither the stake nor the subsequent campaign is supplied in the documents.",
+  "pershing_aum_usd_bn": 10.3,
+  "notes": "AUM is Barron's May 23, 2011 figure, not a September mark. Eight documents, historical market observations through cutoff only. Requested 81.3% vs 63.5% full-year 2011 comparison is excluded: those figures were not public at cutoff. Uses Q2 81.8% vs 61.3% and FY2010 77.6% vs 63.6%. Valuation calculations explicitly labeled; historical prices restored to contemporaneous share units. Missing forward consensus, historic multiple range and full annual cash-flow extraction."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "2016_cmg_buy",
+  "company": "Chipotle Mexican Grill",
+  "ticker": "CMG",
+  "aliases": ["Chipotle"],
+  "as_of_date": "2016-09-06",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "September 6, 2016 13D disclosed 9.9%, including stock and forward contracts; threshold event August 24. Exact first purchase day not established here.",
+  "pershing_aum_usd_bn": null,
+  "notes": "Assigned with Era D cohort but historical era is C (2016). To avoid direction leakage, same-day 13D thesis is included only in answer key; pack excludes investor's purchase and ownership disclosure. All prices/EPS use 2016 pre-split units. Precise current AUM not recovered."
+}

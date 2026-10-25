@@ -1,0 +1,60 @@
+{
+ "trade_id": "2026_alc_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 5,
+  "matched": [
+   "Surgical installed-base economics produce sticky recurring consumable demand. → The company's installed surgical workflows and clinical trust create a durable moat that benefits from long-term secular growth in aging populations and the rising prevalence of visual impairment [D01].",
+   "Launch/R&D costs, tariffs, FX and lens-manufacturing maturation obscure higher structural margins. → Investors are overly focused on temporary volatility in implantables growth and reported margin gaps, while failing to value the underlying resilience of the consumables business and the progress in core operating margin expansion, which reached 21.2% in Q1 2026 [D01, D02, D03, D05].",
+   "AURN001 is incremental upside rather than required core value. → The primary risks include a potential failure in the AURN001 program or a sustained deterioration in the surgical consumables capture rate [D05, D09]."
+  ],
+  "missed": [
+   "Demographics, income and access support durable vision-care growth.",
+   "De-rating toward18x earnings, buybacks and prospective EPS growth create attractive return potential."
+  ],
+  "extra_agent_drivers": [
+   "Entry valuation of 21.9x core EPS provides a discount to intrinsic value."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Alcon is the global leader in eye care, operating a dominant surgical and vision care business characterized by high barriers to entry and strong recurring revenue.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market’s recent reaction to a revenue miss has created an attractive entry point for a franchise that remains fundamentally strong.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Core operating margin expansion reached 21.2% in Q1 2026.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "At our entry valuation of 21.9x FY2025 core EPS, we believe the stock is mispriced.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The primary risks include a potential failure in the AURN001 program.",
+    "citation": "D09",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 8,
+  "share": 0.57
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We view Alcon as a high-quality compounder that meets our standard for a simple, predictable, and free-cash-flow-generative business [D01, D02].",
+ "grader_notes": "The agent correctly identified the investment thesis centered on the recurring surgical consumable model and the mispriced nature of current operating margins. The reasoning was farthest from Ackman's regarding the specific valuation framework, as the agent focused on a 21.9x entry multiple and 22x terminal exit, whereas Ackman highlighted the de-rating opportunity toward 18x earnings.",
+ "run": "2026_alc_buy__current__named",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

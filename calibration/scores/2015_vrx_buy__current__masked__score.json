@@ -1,0 +1,52 @@
+{
+ "trade_id": "2015_vrx_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Viewed existing assets as bought at a modest discount, but compounding through future acquisitions as the major source of additional intrinsic value. → The company operates a unique, decentralized platform that generates significant cash EPS growth through disciplined acquisitions and cost synergies.",
+   "Trusted Pearson and the acquisition/operating playbook after working together during the Allergan campaign. → Our role is to act as a supportive, long-term partner as J. Michael Pearson and his team execute their strategy."
+  ],
+  "missed": [
+   "Expected efficient cost structure, low tax burden and disciplined capital allocation to compound cash earnings.",
+   "Mistake: highly acquisitive complexity made the result unusually dependent on managerial execution and judgment."
+  ],
+  "extra_agent_drivers": [
+   "The market misperceives the company as a generic roll-up, failing to account for the durable organic growth underlying its core therapeutic segments."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company operates a unique, decentralized platform that generates significant cash EPS growth through disciplined acquisitions and cost synergies.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management has a proven ability to scale, delivering 43% revenue growth in 2014.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The current valuation at 23.7x Cash EPS provides an attractive entry point.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market misperceives the company as a generic roll-up.",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 19,
+  "cited": 17,
+  "share": 0.89
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Our role is to act as a supportive, long-term partner as J. Michael Pearson and his team execute their strategy.",
+ "grader_notes": "The agent correctly identified the direction and the primary drivers regarding the platform's acquisition-led growth and trust in the management team. It failed to capture Ackman's driver regarding specific capital allocation discipline and the retrospective admission of risk regarding over-reliance on complex management judgment, which were central to the Ackman investment case.",
+ "run": "2015_vrx_buy__current__masked"
+}

@@ -1,0 +1,55 @@
+{
+ "trade_id": "ctl_2023_pfe_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Exceptional COVID profits, return/inventory effects and the replacement-product task prevent the old10x screen from establishing a predictable recurring owner-cash base → Pfizer fails our core requirement for a simple, predictable, and free-cash-flow-generative business model due to significant earnings volatility and ongoing reliance on high-cost acquisitions",
+   "A diversified approved portfolio is valuable counterevidence, but long-term pipeline/commercial and Seagen acquisition returns still need independently conservative probabilities before concentrated ownership → While the non-COVID portfolio maintains 6-8% operational growth, the long-term sustainability of this growth remains uncertain without clear pipeline visibility",
+   "Scientific, regulatory and demand outcomes cannot be guaranteed through activism; an announced cost program and dividend do not bound those economics → The company's performance is excessively exposed to extrinsic factors, specifically pandemic product demand normalization and the execution risks of the $43 billion Seagen acquisition"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "At a 20.2–22.9x P/E multiple, the stock does not offer a sufficient margin of safety relative to the significant operational and integration risks we identify"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Pfizer fails our core requirement for a simple, predictable, and free-cash-flow-generative business model",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company's performance is excessively exposed to extrinsic factors",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "non-COVID portfolio demonstrates 6–8% operational growth",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Valuation at approximately 21.5x NTM EPS",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "39.4% drawdown from one-year highs",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 5,
+  "share": 0.5
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We require businesses with high barriers to entry and limited exposure to uncontrollable extrinsic factors; Pfizer’s current earnings trajectory is heavily influenced by the volatile normalization of its COVID-19 product portfolio and the heavy lift of integrating the $43 billion Seagen acquisition.",
+ "grader_notes": "The agent correctly identified the core thesis: that the stock fails the predictability screen due to COVID earnings volatility and the execution risks of the Seagen acquisition. The reasoning aligns closely with the key drivers concerning predictability and uncontrollable extrinsic factors. The agent provided an additional driver regarding valuation/margin of safety that was not explicitly in the provided Ackman drivers, but the overall state is a match.",
+ "run": "ctl_2023_pfe_pass__current__named"
+}

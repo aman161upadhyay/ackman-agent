@@ -1,0 +1,252 @@
+{
+ "pack": "ctl_2020_xom_pass",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2020-10-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is an integrated energy franchise involved in oil and gas exploration, production, refining, fuel marketing, and chemical operations [D01]. Its integrated model aims to leverage scale and technical capabilities across the energy chain while navigating global commodity price cycles [D01].",
+   "segments_and_mix": [
+    "Upstream: Oil/gas production [D01]",
+    "Downstream: Refining and fuels [D01]",
+    "Chemicals: Feedstock processing [D01]"
+   ],
+   "unit_economics": [
+    "FCF conversion: Dividends and capital expenditures currently exceed operating cash flow [D02], [D03]",
+    "Capex intensity: 2021 capital program planned at $16–19 billion [D02]",
+    "Margins: Pressured by oversupply and inventory levels [D04]"
+   ],
+   "competitive_position": [
+    "Rank: Large, liquid integrated operator [D01], [D03]",
+    "Moat evidence: Technical expertise and significant installed assets in refining/chemicals; narrow-moat rating by Morningstar [D01], [D03]"
+   ],
+   "growth_record_and_outlook": [
+    "Revenue/EPS: Q3 2020 GAAP loss of $0.680 billion ($0.15 EPS loss); nine-month 2020 loss of $2.370 billion [D02]",
+    "Outlook: Development of Guyana resources; management focused on cost discipline and dividend sustainability [D01], [D02]"
+   ],
+   "balance_sheet": [
+    "Net debt: Not in pack",
+    "Leverage: Described as 'manageable' by external analyst [D04]",
+    "Maturities: Not in pack",
+    "Rating: Not in pack"
+   ],
+   "management_and_governance": [
+    "CEO tenure: Not in pack",
+    "Incentives: Not in pack",
+    "Capital allocation record: Cutting spending/operating costs to preserve balance sheet and dividend [D01], [D02]",
+    "Controller/dual-class: Not in pack"
+   ],
+   "price_and_valuation": [
+    "Price: $32.62 (Oct 30, 2020) [D03]",
+    "Market cap: Not in pack",
+    "Drawdown: ~55.4% from observed high [D03]",
+    "P/E: Not meaningful due to losses [D02], [D03]",
+    "FCF yield: Not in pack",
+    "S&P comparison: Removed from Dow Jones Industrial Average effective Aug 31, 2020 [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Dividend sustainability due to negative operating cash flow [D02], [D03], [D04]",
+    "Extended low-price/margin environment [D04]",
+    "Removal from the Dow Jones Industrial Average [D04]",
+    "Impact of pandemic on transportation demand [D01]"
+   ],
+   "recent_events": [
+    "August 24, 2020: Announcement of removal from Dow Jones Industrial Average [D04]",
+    "August 31, 2020: Effective date of Dow removal [D04]",
+    "October 30, 2020: Reported Q3 losses and dividend status [D02], [D03]"
+   ],
+   "pershing_context": [
+    "Fund AUM: Not in pack",
+    "Current holdings: Not in pack",
+    "Cash: Not in pack",
+    "Existing stake: Not in pack",
+    "Prior engagement: No authenticated company-specific Ackman investment statement found [D05]"
+   ],
+   "missing_data": [
+    "Exact net debt figures",
+    "Full debt/cash reconciliation",
+    "Detailed segment-level profit contribution",
+    "Current Pershing Square position and portfolio exposure"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The business is highly sensitive to commodity cycles and reports negative operating cash flow, failing to meet simple, predictable, free-cash-flow-generative criteria [D01], [D02], [D03]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company is a large, integrated operator with significant installed assets and technical expertise, though categorized as a narrow moat [D01], [D03]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The company's performance is fundamentally tied to volatile global commodity price cycles and macroeconomic demand shocks [D01], [D04]."
+    },
+    "strong_financial_profile": {
+     "score": "FAIL",
+     "evidence": "Operating cash flow is insufficient to cover dividends and heavy capital expenditure requirements, indicating a weak financial profile [D02], [D03]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "UNSURE",
+     "evidence": "With operating cash flow failing to cover dividends and massive capital programs, the company is likely dependent on external financing, though specific maturity data is not in pack [D02], [D03]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "As a former Dow Jones Industrial Average constituent, it remains a large, liquid energy franchise [D01], [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "While the stock is down 55.4% from its high, P/E is not meaningful due to losses and no normalized FCF is provided [D02], [D03]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "Information on CEO tenure, incentives, and internal governance is not in pack [D05]."
+    },
+    "durable_growth_runway": {
+     "score": "FAIL",
+     "evidence": "The business faces structural challenges from volatile energy demand and commodity oversupply, preventing a clear runway for durable EPS growth [D01], [D04]."
+    }
+   },
+   "n_pass": 2,
+   "n_fail": 4,
+   "n_unsure": 3,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a commodity-sensitive integrated energy producer with insufficient cash flow generation and high extrinsic exposure"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "variant_perception": "The market views this entity as a struggling energy producer with unsustainable capital allocation given negative operating cash flow [D02], [D03]. We cannot refute these concerns as the business lacks the predictable, free-cash-flow-generative profile required for a Pershing Square position [D01], [D02].",
+   "evidence": [
+    "Operating cash flow is insufficient to cover dividends and heavy capital expenditure [D02], [D03]",
+    "Company reports recurring GAAP losses in 2020 [D02]",
+    "Business performance is structurally tied to volatile commodity cycles with limited ability to control pricing [D01], [D04]"
+   ],
+   "market_narrative_we_disagree_with": "The market's belief that the company's scale and integrated model make it an attractive turnaround candidate despite persistent cash burn and high capital intensity [D01], [D04].",
+   "what_must_be_true": [
+    "Commodity prices would need to enter a sustained, long-term secular bull market",
+    "The company would need to prove it can generate positive free cash flow after all capital expenditures",
+    "Management would need to demonstrate a clear strategy to return to profitability without relying on external financing"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "Not meaningful due to GAAP losses [D02], [D03]",
+   "eps_or_fcf_path": {
+    "base_year": "2020",
+    "base_value": "Negative EPS/FCF",
+    "growth_assumption": "Highly speculative; requires sustained, long-term secular bull market in commodities",
+    "year_3_to_5_value": "Unknown",
+    "assumptions": [
+     "Operating cash flow remains insufficient to cover dividends and heavy capital expenditure [D02], [D03]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 0,
+    "why": "Business lacks predictable, free-cash-flow-generative profile; terminal value is highly sensitive to volatile commodity cycles [D01], [D04]"
+   },
+   "implied_irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "downside_case": "Significant risk of permanent capital loss if dividend sustainability fails, commodity prices remain low, and external financing requirements increase to fund capex [D02], [D03], [D04].",
+   "valuation_verdict": "EXPENSIVE_BELOW_10",
+   "flagged_assumptions": [
+    "Exact net debt figures not in pack [D06]",
+    "Full debt/cash reconciliation not in pack [D06]",
+    "Detailed segment-level profit contribution not in pack [D06]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We are passing on this investment; therefore, no catalyst is applicable as the business fails to meet our core criteria of being predictable and free-cash-flow-generative [D01], [D02].",
+   "levers_or_steps": [
+    "Not applicable as we are passing on the investment due to its commodity-sensitive nature and recurring cash burn [D01], [D03]."
+   ],
+   "time_to_value_realisation_years": 0,
+   "why_this_role_fits_the_era": "In our Pershing Square 3.0 era, we focus exclusively on high-quality, predictable compounders; this business lacks the requisite free cash flow generation and durable growth, making it a definitive pass regardless of catalyst [D01], [D02]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Persistent negative free cash flow generation over multiple quarters",
+    "Failure to maintain dividend sustainability without relying on external financing",
+    "Sustained failure to improve operational margins in downstream and chemical segments"
+   ],
+   "portfolio_fit": "This business does not fit the Pershing Square 3.0 portfolio, which requires high-quality, predictable, free-cash-flow-generative compounders; this energy producer's reliance on commodity cycles creates unacceptable extrinsic exposure.",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "liquidity_assessment": "Not applicable as we are passing on the investment [D01], [D03].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is the structural inability of the business to generate free cash flow to cover its capital expenditures and dividends during cyclical downturns, leading to potential permanent impairment of capital."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-10-30",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "Not meaningful due to GAAP losses [D02], [D03]",
+   "eps_path": "Negative EPS/FCF with highly speculative recovery prospects [D02], [D03]",
+   "terminal_multiple": "0",
+   "irr_pct": 0,
+   "downside_case": "Permanent capital loss risk due to cash burn, debt-funded dividends, and cyclical energy exposure [D02], [D03], [D04]."
+  },
+  "drivers": [
+   {
+    "driver": "The business lacks the simple, predictable, and free-cash-flow-generative profile required for our investment standard [D01], [D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "Performance is fundamentally tied to volatile global commodity cycles, creating excessive exposure to extrinsic factors we cannot control [D01], [D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Operating cash flow is consistently insufficient to cover heavy capital expenditure requirements and dividend payments [D02], [D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Structural challenges in energy demand and persistent GAAP losses prevent a clear path to durable, long-term EPS growth [D01], [D02], [D04].",
+    "citations": [
+     "D01",
+     "D02",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Persistent negative free cash flow generation over multiple quarters",
+   "Failure to maintain dividend sustainability without relying on external financing",
+   "Sustained failure to improve operational margins in downstream and chemical segments"
+  ],
+  "what_would_change_our_mind": "A fundamental shift to sustainable, self-funded free cash flow generation, a proven reduction in commodity price sensitivity, and clear evidence of a durable, competitive earnings algorithm.",
+  "memo": "We have carefully reviewed the business and decided to pass. Our investment standard requires simple, predictable, free-cash-flow-generative businesses with dominant market positions and durable long-term growth [D01]. The Company currently fails to meet these criteria, as its financial results are plagued by recurring GAAP losses and an inability to fund capital expenditures and dividends from operating cash flow [D02], [D03].\n\nUnlike the high-quality compounders we target in our Pershing Square 3.0 era, this business is structurally tethered to volatile global commodity cycles [D01], [D04]. This reliance on extrinsic factors we cannot control introduces a level of risk and unpredictability that is incompatible with our portfolio mandate [D01], [D04].\n\nThe market’s focus on the stock's 55.4% drawdown and its recent removal from the Dow Jones Industrial Average misses the underlying issue: the lack of a reliable earnings path [D03], [D04]. Because the business requires external financing to sustain its capital-intensive operations and dividend policy, the valuation remains disconnected from any meaningful fundamental floor [D02], [D03].\n\nWe pass on the opportunity to invest, as there is no catalyst or management-led shift that can bridge the gap between the current cash-burning reality and our required 20% rate of return. We will continue to focus our capital on businesses that demonstrate consistent, capital-light growth rather than those subject to the boom-and-bust cycles of the energy sector [D01], [D02].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

@@ -1,0 +1,20 @@
+{
+  "id": "2024_nke_buy_a",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav_at_cost": "Approximately 3% initial; built toward approximately11% by year-end2024. Common shares replaced with deep-in-the-money calls in early2025, not an evidenced options position by December2024.",
+  "first_action_date": "2024-05-15",
+  "disclosure_date": "2024-08-14",
+  "reason_class": null,
+  "opportunity_template": ["T1", "T2"],
+  "catalyst_role": "C1",
+  "drivers": [
+    {"driver": "Global brand and scale remain valuable despite product and distribution missteps.", "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03 retrospective)", "quote": null},
+    {"driver": "Renewed innovation and wholesale cooperation can repair demand.", "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03 retrospective)", "quote": null},
+    {"driver": "Depressed profits offer recovery upside if execution improves.", "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03 retrospective)", "quote": null},
+    {"driver": "Hill's company knowledge supported the thesis after his September appointment; it was not an observable May catalyst and should not be required in pre-entry reasoning.", "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03 retrospective)", "quote": null}
+  ],
+  "entry_valuation_stated": "$91 average cost at announcement, retrospective presentation; exact initial-day forward multiple unavailable.",
+  "outcome_note": "Position closed November11 2025 at a loss; February2026 presentation states underlying total return approximately -30% and acknowledges underestimated operating problems.",
+  "pack_quality_notes": "Literal pre-entry pack contains no June crash or Hill information. Historical close/range/volume recovered. Forward consensus/multiple range and S&P benchmark missing; trailing EPS bridge labeled approximate. Peer financials are dated and comparable limitations explicit. No verified verbatim Ackman original May thesis found; key paraphrases retrospective letter."
+}

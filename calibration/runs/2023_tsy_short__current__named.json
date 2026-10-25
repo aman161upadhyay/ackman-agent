@@ -1,0 +1,45 @@
+{
+ "pack": "2023_tsy_short",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "2023-08-02",
+ "stages": {},
+ "final": {
+  "as_of_date": "2023-08-02",
+  "decision": "HOLD",
+  "risk": "Structural inflation and increasing term premium resulting from sustained federal fiscal deficits and supply-demand imbalances in the long-end Treasury market [D03].",
+  "market_implied_probability": "Market pricing for 30-year Treasuries implies a yield of 4.17%, reflecting normalization and term compensation expectations rather than a terminal policy rate [D02].",
+  "our_probability_and_why": "Moderate-to-high. While disinflation is evident in June CPI and PCE data [D01], the significant increase in projected Treasury borrowing requirements [D03] and the sovereign credit downgrade [D03] create a risk of higher long-term yields if supply outpaces demand, justifying the maintenance of existing insurance [D05].",
+  "instrument": "Payer swaptions and interest-rate options [D04].",
+  "premium_pct_nav": 1,
+  "payoff_multiple_in_scenario": 10,
+  "exit_rule": "Exit when term premium is appropriately priced by the market or if inflation expectations durably anchor to the Fed's 2% objective, reducing the asymmetric risk of a long-bond sell-off [D06].",
+  "drivers": [
+   {
+    "driver": "Treasury's increased borrowing requirements and the Fitch downgrade highlight fiscal pressures that may necessitate higher term premiums [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Existing interest-rate options provide cost-effective protection against a nonlinear rise in long-end rates [D04].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The portfolio maintains high net equity exposure, necessitating continued macro hedging to mitigate potential volatility from discount rate adjustments [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "memo": "We remain positioned with our interest-rate protection as of August 2, 2023. While we observe clear disinflationary trends in the most recent CPI and PCE releases [D01], the broader fiscal landscape—characterized by significantly increased Treasury borrowing estimates and a sovereign credit rating downgrade [D03]—suggests that the market may be underestimating the term premium required to absorb the duration supply hitting the market [D03].\n\nOur current hedge, established previously [D05], serves as essential insurance for our concentrated equity portfolio. Given the current 30-year yield of 4.17% [D02], we believe the risk of an upward repricing due to fiscal and supply-side factors remains significant [D03]. Maintaining this overlay offers us necessary protection against interest-rate shocks without requiring us to take an outright directional short position, which would introduce uncapped risks and financing costs [D04].\n\nWe continue to monitor for durable evidence of disinflation and cooling economic activity [D06]. Until such time as these trends suggest a permanent shift in long-term inflation expectations, the asymmetry of our existing interest-rate options remains favorable [D06]. We are not adding to or trimming the position, opting instead to hold our protection as a prudent buffer in a period of fiscal uncertainty [D05].",
+  "uncited_claims": [
+   "The hedge serves a portfolio purpose even when a standalone trader would have monetized an earlier gain."
+  ]
+ },
+ "elapsed_s": 0
+}

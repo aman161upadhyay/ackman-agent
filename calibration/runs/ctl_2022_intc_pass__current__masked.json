@@ -1,0 +1,243 @@
+{
+ "pack": "ctl_2022_intc_pass",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2022-10-28",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company designs and manufactures processors and related semiconductor products [D01]. It is currently executing an IDM 2.0 strategy that integrates internal manufacturing, external foundry utilization, and a merchant foundry business for third-party designers [D01].",
+   "segments_and_mix": [
+    "Client Computing: revenue US$8.1 billion in Q3 [D01]",
+    "Datacenter and AI: revenue US$4.2 billion in Q3 [D01]",
+    "Network and Edge: revenue US$2.3 billion in Q3 [D01]",
+    "Foundry Services: revenue US$171 million in Q3 [D01]"
+   ],
+   "unit_economics": [
+    "Q3 GAAP gross margin: 42.6% [D02]",
+    "Q3 non-GAAP gross margin: 45.9% [D02]",
+    "The business is currently experiencing negative adjusted free cash flow (estimated negative US$2–4 billion for full year) due to heavy capital investment requirements [D02], [D03]"
+   ],
+   "competitive_position": [
+    "Positions include installed scale in PCs and servers, software compatibility, customer relationships, and engineering resources [D01].",
+    "Faces competitive pressure on server and client products independent of the cycle [D01]."
+   ],
+   "growth_record_and_outlook": [
+    "Q3 revenue decreased; Client Computing down 17%, Datacenter and AI down 27%, Network and Edge up 14% [D01].",
+    "Full-year 2022 revenue guidance: US$63–64 billion [D02]."
+   ],
+   "balance_sheet": [
+    "Cash and equivalents: US$4.529 billion [D02].",
+    "Net debt: not in pack (cannot be inferred from cash alone [D02])."
+   ],
+   "management_and_governance": [
+    "CEO: Pat Gelsinger [D01].",
+    "Management is pursuing a demanding process-development roadmap and cost-reduction targets of US$8–10 billion annualized by the end of 2025 [D01], [D04]."
+   ],
+   "price_and_valuation": [
+    "Price: US$29.07 [D03].",
+    "Market cap: approximately US$119.97 billion [D03].",
+    "Drawdown: ~48% from US$56.28 high [D03].",
+    "P/E: 14.5x (GAAP) / 14.9x (adjusted) based on 2022 guidance [D03].",
+    "Dividend yield: ~5.0% [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Weaker customer demand (particularly PCs) and inventory reductions [D01], [D04].",
+    "Execution risk regarding manufacturing nodes and process yields [D01], [D04].",
+    "Substantial capital intensity required for the foundry reset [D02], [D04].",
+    "Compression of gross margins [D04]."
+   ],
+   "recent_events": [
+    "Q3 2022 financial results reported [D01].",
+    "Mobileye listed on Nasdaq [D01]."
+   ],
+   "pershing_context": [
+    "No authenticated company-specific Ackman investment comment; no firm AUM or portfolio reconciliation provided [D05]."
+   ],
+   "missing_data": [
+    "Complete net-debt figure [D02].",
+    "Independently verified forward-consensus table or historical-multiple distribution [D03].",
+    "Exact firm AUM, cash balance, and portfolio reconciliation [D05]."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The company is experiencing negative free cash flow due to heavy capital investment requirements [D02], [D03]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company maintains installed scale in PCs and servers, software compatibility, and significant engineering resources [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business faces significant competitive pressure in server and client products and exposure to cyclical customer demand and inventory reductions [D01], [D04]."
+    },
+    "strong_financial_profile": {
+     "score": "UNSURE",
+     "evidence": "While the company has cash on hand, net debt is not in the pack and the business is currently generating negative free cash flow [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "There is no indication of near-term reliance on external equity or debt markets for operational survival [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The company has a market capitalization of approximately US$119.97 billion [D03]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock trades at a 14.5x P/E with a ~48% drawdown from its high [D03]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "Management is executing a high-risk, multi-year IDM 2.0 turnaround strategy, the success of which remains to be seen [D01], [D04]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "Revenue is currently declining in major segments, making the durability of near-term growth uncertain [D01]."
+    }
+   },
+   "n_pass": 4,
+   "n_fail": 2,
+   "n_unsure": 3,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a capital-intensive semiconductor manufacturer undergoing a high-risk, multi-year IDM 2.0 operational reset"
+  },
+  "gate2": {
+   "templates": [
+    "T2"
+   ],
+   "variant_perception": "The market views the company as a structurally impaired legacy player with excessive capital intensity due to its IDM 2.0 pivot [D01], [D04]. We believe the market fails to appreciate the potential for the aggressive US$8–10 billion in annualized cost reductions to restore margin stability and cash generation as the IDM 2.0 strategy reaches maturity [D01], [D04].",
+   "evidence": [
+    "Management is targeting US$8–10 billion in annualized cost reductions by the end of 2025 [D01], [D04].",
+    "Current stock price reflects a ~48% drawdown from its high, suggesting heavy market skepticism toward the turnaround [D03].",
+    "The company maintains significant installed scale and competitive moats in server and client computing, which remain fundamentally intact [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The market assumes the current negative free cash flow profile and margin compression are permanent states rather than the temporary results of a heavy, front-loaded investment phase in the IDM 2.0 roadmap [D02], [D04].",
+   "what_must_be_true": [
+    "The US$8–10 billion in cost savings must be achievable without damaging core engineering and manufacturing competitiveness [D01].",
+    "The foundry roadmap must reach critical process milestones that convince third-party designers of the platform's long-term viability [D01].",
+    "PC and server demand must normalize, allowing the company's scale to support higher utilization rates [D01], [D04]."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "14.9x NTM adjusted EPS vs 10-yr avg and S&P 500 average (market specific data not in pack)",
+   "eps_or_fcf_path": {
+    "base_year": "2022",
+    "base_value": "Not in pack (Only Q3 2022 revenue provided [D01]; GAAP/Adjusted P/E provided [D03])",
+    "growth_assumption": "Cost reductions of US$8–10 billion annualized by 2025 [D01], [D04]",
+    "year_3_to_5_value": "Assumed return to profitability post-IDM 2.0 investment phase [D02]",
+    "assumptions": [
+     "2022 GAAP/Adjusted P/E 14.5x-14.9x [D03]",
+     "US$8–10B cost savings achieved by 2025 [D01]",
+     "Full-year 2022 revenue guidance US$63–64B [D02]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 14,
+    "why": "Reflects cyclicality and execution risk of IDM 2.0 pivot, offset by dominant market position in server/client computing [D01], [D04]"
+   },
+   "implied_irr_pct": {
+    "base": 15,
+    "bear": 5,
+    "bull": 22
+   },
+   "downside_case": "Permanent loss is possible if IDM 2.0 manufacturing nodes fail to achieve yield, rendering the US$8–10B cost reduction insufficient to cover capital intensity and margin compression [D01], [D04].",
+   "valuation_verdict": "ADEQUATE_15_20",
+   "flagged_assumptions": [
+    "Exact EPS figures for 2022 not in pack; implied via P/E and price [D03]",
+    "Net debt figure not in pack [D02]",
+    "10-year historical P/E average not in pack [D03]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C1",
+   "catalyst_description": "The primary catalyst is the successful execution of the US$8-10 billion annualized cost reduction program by 2025, which is intended to restore margin stability and free cash flow generation during the IDM 2.0 transformation [D01], [D04].",
+   "levers_or_steps": [
+    "Execute structural cost reductions of US$8–10 billion by year-end 2025 [D01], [D04].",
+    "Achieve critical process milestones in the foundry roadmap to validate long-term platform viability for third-party designers [D01].",
+    "Stabilize capital expenditure requirements as the heavy investment phase of the IDM 2.0 strategy matures [D02], [D04]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In the Pershing Square 3.0 era, we focus on quality compounders and operational turnarounds where we can identify a clear, fixable path to margin restoration. Given the substantial execution risk of the IDM 2.0 pivot, we would monitor the management team's progress on cost savings and node development closely, preferring to observe operational success before considering a larger, more active engagement."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Foundry roadmap process node milestones fail to be achieved on schedule",
+    "Management abandons the IDM 2.0 capital-intensive model",
+    "Operating margins fail to show stabilization despite cost-reduction efforts"
+   ],
+   "portfolio_fit": "The position is a high-risk operational turnaround in the semiconductor space, which differs from our typical focus on predictable, capital-light compounders; it would require careful monitoring as a standalone opportunistic position.",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 3,
+    "max": 3
+   },
+   "liquidity_assessment": "The company has a large market capitalization of ~US$119.97 billion and high daily trading volume, allowing for a position to be built and exited within a quarter without significant market impact [D03].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The multi-year IDM 2.0 transformation may fail to restore competitive manufacturing yields, leading to sustained margin compression and permanent loss of capital."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-10-28",
+  "company": "Intel Corporation",
+  "ticker": "INTC",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [
+   "T2"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "14.9x NTM adjusted EPS",
+   "eps_path": "Cost reductions of US$8–10 billion annualized by 2025; return to profitability post-investment [D01], [D02], [D04]",
+   "terminal_multiple": "14x",
+   "irr_pct": 15,
+   "downside_case": "Permanent loss if IDM 2.0 manufacturing nodes fail to achieve yield, rendering cost reductions insufficient to cover capital intensity and margin compression [D01], [D04]"
+  },
+  "drivers": [
+   {
+    "driver": "The company possesses installed scale in PCs and servers, software compatibility, and significant engineering resources [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The IDM 2.0 strategy aims for US$8–10 billion in annualized cost reductions by 2025 to restore margin stability [D01], [D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The current market price reflects a ~48% drawdown, indicating deep skepticism regarding the turnaround [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The business is currently experiencing negative free cash flow due to heavy capital expenditure requirements for the manufacturing reset [D02], [D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Foundry roadmap process node milestones fail to be achieved on schedule",
+   "Management abandons the IDM 2.0 capital-intensive model",
+   "Operating margins fail to show stabilization despite cost-reduction efforts"
+  ],
+  "what_would_change_our_mind": "Clear evidence that the IDM 2.0 manufacturing roadmap is achieving competitive yields and that free cash flow generation has turned structurally positive.",
+  "memo": "Intel is a dominant force in the semiconductor industry, with critical installed scale in the server and PC markets and a deep portfolio of software compatibility and engineering talent [D01]. However, our investment standard requires simple, predictable, and free-cash-flow-generative businesses, and Intel currently fails this test due to significant negative free cash flow driven by the intense capital demands of its IDM 2.0 transformation [D02], [D03].\n\nThe opportunity exists because the market is heavily discounting the company’s valuation, with the stock trading down approximately 48% from its highs [D03]. The market assumes that the current margin compression and cash burn are permanent, while we believe the potential for US$8–10 billion in annualized cost savings by 2025 could theoretically stabilize the business [D01], [D04].\n\nAt a 14.9x NTM adjusted P/E, the valuation appears superficially attractive [D03]. However, the earnings path is highly dependent on achieving complex manufacturing milestones and normalizing demand in cyclical PC and server segments [D01], [D04]. We project a base-case IRR of 15%, but the margin of safety is constrained by the execution risk of the foundry roadmap [D03].\n\nWe pass on this investment today. While the company is large and liquid, it does not meet our core criteria for capital-light, predictable cash generation [D03]. We will continue to monitor the progress of the IDM 2.0 strategy, particularly the success of cost-reduction initiatives and the validation of manufacturing node yields, to determine if the business reaches a point of operational stability that fits our quality-compounder mandate [D01], [D04].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

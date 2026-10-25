@@ -1,0 +1,51 @@
+{
+ "trade_id": "2021_umg_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 5,
+  "matched": [
+   "Leading global music-rights/catalog platform acts as a royalty on growing consumption. → Universal Music Group is the dominant global leader in music, boasting an extensive, high-quality catalog and a capital-light business model that serves as a royalty-like engine for the digital age [D01].",
+   "Paid streaming penetration and improved monetization offer a long runway. → By developing world-class talent and monetizing content across platforms, the company captures the compounding benefits of secular streaming adoption [D01, D03].",
+   "Lucian Grainge and patient ownership align with long-duration compounding. → Management, led by Lucian Grainge, has demonstrated a strong record of scaling the business and navigating the transition to digital, supported by robust governance [D01, D04].",
+   "Negotiated pre-listing ownership and separation can unlock independent valuation. → The pending spin-off is the catalyst required to unlock this value, as it will eliminate the parent company overhang and alleviate technical selling pressure from passive holders unable to own the new security [D01, D07]."
+  ],
+  "missed": [
+   "Repeat licensing, scale and operating leverage support capital-light cash growth."
+  ],
+  "extra_agent_drivers": []
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "UMG is the world's leading music entertainment company.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "443 million paid subscribers globally at the end of 2020.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Entry at an enterprise value of approximately €30 billion.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Spin-off removes the conglomerate discount.",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 6,
+  "share": 0.5
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We are initiating a 10% position in Universal Music Group, reflecting our high conviction in the business’s durable growth and the clarity of the pending spin-off catalyst [D01].",
+ "grader_notes": "The agent perfectly matched the direction and captured four of the five core drivers, including the critical catalyst and management quality. The reasoning is very close to Ackman's thesis regarding the 'royalty' nature of the music business and the unlocking of value via spin-off. It missed the specific emphasis on 'repeat licensing' as a distinct driver, though this is partially covered by the 'capital-light' business model driver.",
+ "run": "2021_umg_buy__current__named"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2007_tgt_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": null,
+  "size_note": "July16 disclosure approximately 9.6% issuer economic exposure, later 12.9%; neither is fund NAV. Approximately US$2bn dedicated PS IV capital is distinct from diversified funds and not an initial April trade weight.",
+  "first_action_date": "2007-04",
+  "disclosure_date": "2007-07-16",
+  "reason_class": null,
+  "opportunity_template": ["T3"],
+  "catalyst_role": "C3",
+  "drivers": [
+    {
+      "driver": "High-quality differentiated retailer believed undervalued relative to durable business value.",
+      "source": "https://advisoranalyst.com/2008/11/27/bill-ackman-pershing-square-q3-2008-letter.html/ (November2008 reproduction, retrospective)",
+      "quote": "there has been no meaningful diminution in the per-share value of Target since our initial purchase 18 months ago."
+    },
+    {
+      "driver": "Credit-card receivables monetization and buybacks could release capital and improve shareholder returns.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1275323/000095012309007750/y01431dcdefc14a.htm (2009-05-01 retrospective campaign)",
+      "quote": null
+    },
+    {
+      "driver": "Owned land/real estate offered structural value not separately recognized; specific REIT/ground-lease plan developed later and must not be backdated to initial entry.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1275323/000095012309007750/y01431dcdefc14a.htm (2009-05-01)",
+      "quote": null
+    },
+    {
+      "driver": "Independent retail, property and capital-allocation expertise on the board could implement changes.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1275323/000095012309007750/y01431dcdefc14a.htm (2009-05-01)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Q3 2008 letter retrospectively describes initial mid/high-US$50s purchases. April20 close US$62.12 is only the frozen market observation, not claimed weighted cost. Specific future land-price target excluded from docs.",
+  "outcome_note": "Dedicated leveraged/option-heavy PS IV reportedly lost approximately 90% by early2009; this is a dated dedicated-vehicle drawdown, not audited lifetime P&L on all manager-wide Target common shares. February8 2009 letter apologized and offered redemption/fee concessions. Credit-card interest was partially monetized; proposed land REIT did not occur and 2009 five-nominee proxy slate lost. Final common shares sold Q1 2011. Lesson: franchise quality/asset value do not protect a concentrated time-sensitive instrument from catalyst failure and severe drawdown.",
+  "pack_quality_notes": "Eight pre-cutoff documents. Primary 2006 annual financials, property table and card contribution, April11 sales, latest actually available 13F, three peers and opposing earnings commentary. Explicit no-double-counting treatment. Firm AUM, actual April execution day/NAV weight, independent property appraisal, complete market consensus/multiples and original entry quotations remain gaps. Later plan and PS IV vehicle confined to key.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/27419/000104746907001800/a2176656z10-k.htm",
+    "https://www.reuters.com/article/business/ackman-pushes-for-change-at-target-corp-idUSTRE52F4LR/",
+    "https://www.sec.gov/Archives/edgar/data/1275323/000095012309007750/y01431dcdefc14a.htm",
+    "https://www.investing.com/news/forex-news/ackman-lets-investors-out,-holds-out-hope-on-target-27952",
+    "https://www.startribune.com/it-s-over-ackman-sells-his-target-shares/121994259"
+  ]
+}

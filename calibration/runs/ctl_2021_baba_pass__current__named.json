@@ -1,0 +1,238 @@
+{
+ "pack": "ctl_2021_baba_pass",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2021-07-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Alibaba operates a broad digital-commerce ecosystem providing merchant selection, customer traffic, and marketing tools to consumers and enterprises [D01]. It also maintains operations in cloud computing, international commerce, and logistics, serving approximately one billion annual active consumers globally [D01].",
+   "segments_and_mix": [
+    "Core commerce (marketplaces, retail, logistics): primary driver of engagement and cash flow [D01]",
+    "Cloud computing, international commerce, and other initiatives: focus of substantial reinvestment [D01]"
+   ],
+   "unit_economics": [
+    "Marketplaces generate fees/marketing revenue without inventory ownership [D01]",
+    "Issuer non-GAAP free cash flow for fiscal 2021 was RMB 172.662 billion [D02]",
+    "Capital needs vary by segment, with logistics and consolidated retail having different profiles than core marketplaces [D01]"
+   ],
+   "competitive_position": [
+    "Network effects, data, merchant relationships, and infrastructure serve as competitive advantages [D01]",
+    "Competes with other platforms and faces regulatory authority over commercial practices [D01]"
+   ],
+   "growth_record_and_outlook": [
+    "Revenue grew 41% reported (32% excluding Sun Art) in fiscal 2021 [D02]",
+    "Fiscal 2022 revenue guidance is above RMB 930 billion [D02]",
+    "Management plans to direct incremental profit and capital toward merchants and new strategic areas [D02]"
+   ],
+   "balance_sheet": [
+    "Bank borrowings of ~RMB 41.941 billion and senior notes of ~RMB 107.212 billion [D02]",
+    "Cash and short-term investments (RMB 473.638 billion) significantly exceed financial debt [D02]"
+   ],
+   "management_and_governance": [
+    "Offshore investors hold ADSs in a Cayman Islands entity with contractual exposure to China-based operations via variable-interest-entities [D01]",
+    "Management is prioritizing reinvestment in new businesses and strategic areas [D01]"
+   ],
+   "price_and_valuation": [
+    "Price (July 30, 2021): US$195.19 [D03]",
+    "Market Cap: ~US$529.4 billion [D03]",
+    "P/E: 23.4x (reported) or 19.6x (adjusted) based on FY2021 ADS earnings [D03]",
+    "FCF Yield: ~5.0% based on issuer free cash flow [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Regulatory and policy intervention affecting operating economics and shareholder rights [D01, D04]",
+    "Legal enforceability of VIE structures and offshore capital restrictions [D04]",
+    "Antitrust fines and potential for future operating restrictions [D02, D04]",
+    "Uncertainty regarding future cash distribution to foreign shareholders [D02, D03]"
+   ],
+   "recent_events": [
+    "March 2021: RMB 18.228 billion antitrust fine incurred [D02]",
+    "July 30, 2021: SEC chair issued statement regarding risks of offshore structures and government intervention [D04]"
+   ],
+   "pershing_context": [
+    "Preference for simple, predictable, free-cash-flow-generative businesses [D05]",
+    "Strategy emphasizes avoiding enterprise values dominated by extrinsic factors that cannot be controlled [D05]",
+    "No authenticated company-specific Ackman endorsement or current position found in pack [D05]"
+   ],
+   "missing_data": [
+    "Final regulatory settlement terms, clear timeline for policy resolution, and verified reconciliations of distributable cash for ADS holders under current legal structures."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "While the core commerce business generates significant cash flow, the complexity of the ecosystem and the ongoing regulatory uncertainty make long-term cash flow predictability highly compromised [D01, D02, D04]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company benefits from strong network effects, data advantages, and established merchant relationships [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business faces severe and uncontrollable extrinsic risks from regulatory intervention, antitrust enforcement, and policy changes affecting its core operations [D01, D02, D04]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The balance sheet is robust, with cash and short-term investments of RMB 473.638 billion significantly exceeding total financial debt [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The company's strong cash position and cash-generative core mean it does not rely on external capital markets for funding [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The market capitalization is approximately US$529.4 billion, providing ample liquidity for a large position [D03]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The P/E ratio of approximately 19.6x (adjusted) represents a valuation that may appear attractive relative to its growth history [D03]."
+    },
+    "management_governance": {
+     "score": "FAIL",
+     "evidence": "The reliance on variable-interest-entities (VIEs) and the lack of clarity regarding shareholder rights in the offshore structure present significant governance risks [D01, D04]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company continues to serve one billion annual active consumers with expansion in cloud and international commerce, providing a long-term growth runway [D01]."
+    }
+   },
+   "n_pass": 6,
+   "n_fail": 3,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant digital ecosystem with excellent margins hampered by unmanageable regulatory and governance risks."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "variant_perception": "The market is currently pricing in a severe permanent impairment of Alibaba's business model due to the existential threat of regulatory intervention and the potential unenforceability of VIE structures [D04]. We cannot refute these risks or identify a specific, controllable catalyst that would resolve the uncertainty regarding Chinese government policy and the security of offshore shareholder rights [D01, D04].",
+   "evidence": [
+    "Regulatory and policy intervention has already resulted in significant antitrust fines [D02].",
+    "SEC Chair has issued warnings regarding the risks of offshore structures and government intervention [D04].",
+    "Legal and governance risks surrounding the VIE structure remain unresolved and outside our ability to influence or predict [D01, D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market views Alibaba's regulatory and governance structure as an uninvestable risk that fundamentally breaks the long-term intrinsic value of the franchise [D01, D04].",
+   "what_must_be_true": [
+    "Clear and definitive regulatory resolution regarding platform operations",
+    "Legal protection or structural clarity ensuring the rights of offshore ADS holders",
+    "End to state-directed interventions that impact core business economics"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "19.6x adjusted FY2021 P/E [D03]",
+   "eps_or_fcf_path": {
+    "base_year": "2021",
+    "base_value": "RMB 172.662B FCF [D02]",
+    "growth_assumption": "Assumed 10% FCF growth given high reinvestment focus [D01, D02]",
+    "year_3_to_5_value": "RMB 229.8B (Year 3)",
+    "assumptions": [
+     "FCF grows 10% CAGR from FY2021 base [D02]",
+     "Capital reinvestment strategy persists [D01]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 12,
+    "why": "Significant discount applied due to persistent regulatory, geopolitical, and structural VIE risks which are outside our control [D01, D04]"
+   },
+   "implied_irr_pct": {
+    "base": 8,
+    "bear": -15,
+    "bull": 12
+   },
+   "downside_case": "Permanent loss of capital is possible if VIE structures are deemed unenforceable or if regulatory intervention permanently impairs the core business economics [D01, D04].",
+   "valuation_verdict": "EXPENSIVE_BELOW_10",
+   "flagged_assumptions": [
+    "10% FCF growth rate is an estimate based on reinvestment commentary [D01]",
+    "Terminal multiple reflects a risk premium for Chinese regulatory environment not found in pack"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We are passing on this investment; therefore, no catalyst is applicable as the business fails our core criteria for predictability and control over extrinsic factors [D01, D04, D05].",
+   "levers_or_steps": [
+    "Not applicable as we are passing on the investment due to unmanageable regulatory and governance risks [D01, D04]."
+   ],
+   "time_to_value_realisation_years": 0,
+   "why_this_role_fits_the_era": "In the Pershing Square 3.0 era, we avoid businesses with material exposure to uncontrollable extrinsic factors and complex governance structures like VIEs, focusing instead on high-quality, predictable compounders [D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Governmental restriction or invalidation of VIE structures",
+    "Expansion of state-directed operating mandates that destroy core platform economics",
+    "Permanent removal of offshore capital access or liquidity for ADS holders"
+   ],
+   "portfolio_fit": "This is a PASS; the business model fails our core requirements for predictability and control over extrinsic factors, which are fundamental to the Pershing Square 3.0 portfolio [D05].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "liquidity_assessment": "While the market capitalization of ~US$529.4 billion provides high liquidity for a large position, we are passing on the investment [D03].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The existential risk posed by uncontrollable regulatory and geopolitical intervention renders the VIE-based equity interest fundamentally unpredictable and uninvestable for our mandate [D01, D04]."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-07-30",
+  "company": "Alibaba Group Holding Limited",
+  "ticker": "BABA",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "19.6x adjusted FY2021 P/E",
+   "eps_path": "10% CAGR in FCF based on reinvestment focus",
+   "terminal_multiple": "12x",
+   "irr_pct": 8,
+   "downside_case": "Permanent loss of capital due to VIE structure invalidation or regulatory seizure of core business economics"
+  },
+  "drivers": [
+   {
+    "driver": "The business exhibits unmanageable exposure to extrinsic factors, specifically systemic regulatory intervention and political policy shifts in China.",
+    "citations": [
+     "D01",
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The VIE (Variable Interest Entity) governance structure introduces significant legal uncertainty regarding the enforceability of offshore shareholder rights.",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "While the core commerce business is dominant with strong network effects, the lack of predictability in cash flow generation renders it inconsistent with our quality compounder mandate.",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Despite an attractive 19.6x adjusted P/E valuation, the lack of control over the regulatory environment leads us to view the risk-adjusted return as inadequate.",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Governmental restriction or invalidation of VIE structures",
+   "Expansion of state-directed operating mandates that destroy core platform economics",
+   "Permanent removal of offshore capital access or liquidity for ADS holders"
+  ],
+  "what_would_change_our_mind": "Clear, binding regulatory resolution confirming the long-term viability of the platform model and providing legal enforceability for offshore ADS holder property rights within the VIE structure.",
+  "memo": "Alibaba represents a dominant digital commerce and cloud ecosystem that touches the lives of one billion consumers [D01]. By most traditional metrics, it is a high-growth, capital-generative business with formidable network effects and deep merchant integration [D01]. However, our mandate in the Pershing Square 3.0 era requires us to avoid businesses where the long-term intrinsic value is subject to uncontrollable extrinsic factors [D05].\n\nCurrently, the business faces profound regulatory and geopolitical headwinds, including significant antitrust penalties and state-directed policy interventions [D02]. These interventions are not merely operational distractions; they represent an existential threat to the company's core business model [D01, D04]. We cannot underwrite the long-term cash flow of a business where the rules of engagement are dictated by state policy rather than market competition [D01, D04].\n\nBeyond regulatory risk, the company’s governance structure relies on variable-interest-entities (VIEs) to facilitate offshore investment [D01]. The lack of legal clarity regarding the rights of ADS holders makes it impossible to guarantee that the value generated by the underlying Chinese operations will accrue to the benefit of foreign shareholders [D04]. This fundamental lack of structural alignment creates a permanent ceiling on our ability to value the enterprise [D01, D04].\n\nWhile the stock trades at an adjusted P/E of approximately 19.6x, providing what some might consider an attractive entry point, we see this as a value trap rather than a dislocation [D03]. Our valuation framework, which includes a conservative terminal multiple to account for these risks, fails to generate the required asymmetric return profile [D03]. We prioritize simplicity and predictability in our holdings; Alibaba, while dominant, fails both tests [D05].\n\nWe are passing on the opportunity to invest in Alibaba. Our decision is driven by the inability to influence or mitigate the existential regulatory risks facing the company [D01, D04]. We will continue to deploy our capital into predictable, high-quality compounders where the outcomes are firmly within our circle of competence and management's control [D05].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

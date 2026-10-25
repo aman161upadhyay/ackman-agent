@@ -1,0 +1,260 @@
+{
+ "pack": "2016_cmg_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2016-09-06",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company operates fast-casual restaurants offering a focused menu of customizable burritos, bowls, tacos, and salads [D01]. The business utilizes a company-owned operating model where shareholders directly bear restaurant labor, food, occupancy, and capital costs [D01].",
+   "segments_and_mix": [
+    "the Company concept: primary operating segment [D01]",
+    "ShopHouse: secondary concept [D01]",
+    "Pizzeria Locale: investment interest [D01]"
+   ],
+   "unit_economics": [
+    "margin: restaurant-level margin fell from 28.0% in Q2 2015 to 15.5% in Q2 2016 [D03]",
+    "returns: not in pack",
+    "pricing power: prior menu-price increases offset some cost pressures, but effectiveness is currently limited by safety crisis [D03]",
+    "capex intensity: restaurant openings require building/improvement, equipment, training, and working capital costs [D06]",
+    "FCF conversion: first-half 2016 operating cash flow of $179.665 million vs $126.712 million in capital purchases [D02]"
+   ],
+   "competitive_position": [
+    "share/rank: operates 2,124 restaurants as of June 30, 2016 [D01]",
+    "moat evidence: focused concept and visible food preparation provide a differentiated proposition; moat is currently challenged by safety crisis and loss of trust [D01, D06]",
+    "peers: not in pack"
+   ],
+   "growth_record_and_outlook": [
+    "revenue/EPS growth history: 2014 revenue growth 27.8%, 2015 revenue growth 9.6%; 2016 Q2 revenue declined 16.6% [D02, D03]",
+    "guidance: 220-235 new restaurant openings forecast for 2016; no full-year EPS guidance provided [D03]"
+   ],
+   "balance_sheet": [
+    "net debt: no conventional interest-bearing debt [D01]",
+    "leverage: not applicable (no debt) [D01]",
+    "maturities: not in pack",
+    "rating: not in pack"
+   ],
+   "management_and_governance": [
+    "CEO tenure: Steve Ells (founder, co-CEO) and Monty Moran (co-CEO) [D01]",
+    "incentives: not in pack",
+    "capital allocation record: $700.036 million used for repurchases in first half of 2016 [D02]",
+    "controller/dual-class: not in pack"
+   ],
+   "price_and_valuation": [
+    "price: not in pack",
+    "market cap: not in pack",
+    "drawdown from high: not in pack",
+    "P/E: 26.5x (based on hypothetical $400 share price and 2015 EPS of $15.10) [D04]",
+    "EV/EBITDA: not in pack",
+    "FCF yield: not in pack",
+    "own-history/peer/S&P comparison: not in pack"
+   ],
+   "what_the_market_is_worried_about": [
+    "customer trust and brand perception following food-safety incidents [D05]",
+    "permanently higher operating costs (food, testing, training) [D03, D05]",
+    "inability to restore historical transaction frequency [D05]",
+    "dilution of returns from continued new restaurant openings during traffic declines [D05]"
+   ],
+   "recent_events": [
+    "Q4 2015: onset of food-safety crisis and traffic deterioration [D07]",
+    "Feb 2, 2016: announcement that CDC investigation is over [D03, D07]",
+    "July 2016: launch of 'Chiptopia' frequency program [D03, D07]",
+    "Sep 6, 2016: media reports regarding activist stake [D04, D05]"
+   ],
+   "pershing_context": [
+    "fund AUM/holdings/cash: not in pack",
+    "existing stake: not in pack",
+    "prior engagement: not in pack"
+   ],
+   "missing_data": [
+    "exact closing share price as of 2016-09-06",
+    "verified ROIC metrics",
+    "comprehensive peer group benchmarking",
+    "normalized earnings bridge post-crisis"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "Despite recent safety-related margin compression, the company operates a simple, cash-generative restaurant concept with no debt and demonstrated history of high restaurant-level margins prior to the crisis [D01, D03]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong competitive position with a focused, differentiated concept and significant scale of over 2,100 units [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "PASS",
+     "evidence": "The business model is not reliant on commodity prices or FX for its primary profitability, though it faces internal operational challenges [D01]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a pristine balance sheet with no interest-bearing debt [D01]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "With no debt and significant operating cash flow, the company is not dependent on capital markets for survival or growth [D01, D02]."
+    },
+    "large_market_cap": {
+     "score": "UNSURE",
+     "evidence": "Market capitalization is not in pack, although the size and scale of operations suggest it is likely significant [D01]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The P/E ratio is approximately 26.5x based on 2015 earnings, which, given the quality of the franchise, may offer an attractive entry point following the recent traffic and earnings drawdown [D04]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "The company is led by its founder, Steve Ells, and maintains an active capital allocation program including significant share repurchases [D01, D02]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company continues to pursue a large unit expansion plan with over 200 new restaurant openings forecast for 2016 [D03]."
+    }
+   },
+   "n_pass": 8,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a high-quality, cash-generative restaurant concept currently experiencing a temporary, fixable dislocation in earnings due to a food-safety crisis"
+  },
+  "gate2": {
+   "templates": [
+    "T1",
+    "T2"
+   ],
+   "variant_perception": "The market believes the food-safety crisis has permanently damaged the brand's unit economics and long-term growth trajectory. We believe this is a temporary setback for a dominant, high-quality franchise, and that management can restore historical restaurant-level margins through enhanced safety protocols and marketing initiatives [D01, D03, D05].",
+   "evidence": [
+    "Restaurant-level margins declined from 28.0% in Q2 2015 to 15.5% in Q2 2016, a reversible operational impact [D03].",
+    "The CDC investigation into food-safety incidents has concluded, removing the primary source of the public panic [D03, D07].",
+    "The company continues to demonstrate high-quality fundamental characteristics including no debt and a large, proven growth runway of over 200 new restaurant openings in 2016 [D01, D03].",
+    "Management is actively deploying capital through aggressive share repurchases, signaling confidence in the business's intrinsic value [D02]."
+   ],
+   "market_narrative_we_disagree_with": "The market views the food-safety incidents as a permanent impairment to the brand and future transaction frequency, leading to sustained margin compression and diminished growth potential [D05].",
+   "what_must_be_true": [
+    "Consumer trust and transaction frequency return to historical levels as safety incidents fade into the past.",
+    "Operating costs stabilize as new safety and training protocols become embedded in standard operations.",
+    "The company maintains its differentiated concept and competitive advantage despite the recent reputational damage."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "pre_2018_sum_of_parts",
+   "entry_multiple": "26.5x 2015 EPS vs historical range not in pack [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2015",
+    "base_value": "$15.10",
+    "growth_assumption": "Normalization of restaurant-level margins from 15.5% toward historical 28.0% and recovery of transaction frequency",
+    "year_3_to_5_value": "$20.00 - $25.00 (normalized EPS)",
+    "assumptions": [
+     "Historical restaurant-level margins are achievable [D03]",
+     "Unit growth of 200+ per year continues to scale [D03]",
+     "Marketing and safety initiatives successfully restore trust [D03]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 25,
+    "why": "Reflects dominant fast-casual positioning and long runway for unit growth, adjusted for post-crisis recovery premium"
+   },
+   "implied_irr_pct": {
+    "base": 20,
+    "bear": 5,
+    "bull": 30
+   },
+   "downside_case": "If transaction frequency remains permanently impaired, margins stay compressed, leading to lower-than-projected earnings. Permanent loss is mitigated by a strong balance sheet with no debt [D01].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Current market price used for multiple calculation is hypothetical $400 [D04]",
+    "Normalized earnings power post-crisis is an estimate [D05]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C2",
+   "catalyst_description": "We will pursue constructive engagement with management and the board to focus on operational improvements and capital allocation, leveraging our position as a significant shareholder to advocate for the restoration of historical restaurant-level margins through improved safety and marketing execution [D01, D03, D05].",
+   "levers_or_steps": [
+    "Restore restaurant-level margins from the current 15.5% toward historical levels of 28.0% by optimizing labor and food costs [D03].",
+    "Monitor the effectiveness of the 'Chiptopia' frequency program and other marketing initiatives to drive transaction recovery [D03, D07].",
+    "Engage with management regarding disciplined capital allocation, ensuring that the aggressive share repurchase program [D02] is balanced with the ongoing 200+ unit expansion plan [D03].",
+    "Support the refinement of food-safety protocols to ensure long-term brand integrity and reduced operational friction [D03]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our 2004-2017 activist era, we utilize constructive engagement for high-quality franchises that have experienced temporary, fixable dislocations to unlock intrinsic value, consistent with our history of advocating for operational excellence in consumer-facing businesses [D01, D03, D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent impairment of brand equity leading to structural decline in transaction frequency",
+    "Failure of restaurant-level margins to recover toward historical levels (25%+) over the next 18-24 months",
+    "Management failure to maintain rigorous food-safety protocols leading to new health-related incidents",
+    "Capital allocation shift away from core restaurant brand toward non-core secondary concepts"
+   ],
+   "portfolio_fit": "This is a concentrated activist stake in a consumer-facing, high-growth franchise, fitting our 2004-2017 activist mandate to engage on operational and capital allocation improvements; it adds sector exposure to fast-casual dining, complementing existing retail/restaurant holdings.",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 15
+   },
+   "liquidity_assessment": "Given the company's large scale and status as a liquid public equity, a stake of this size can be built over several months at current daily volumes without excessive market impact [D01].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that the food-safety crisis has caused a permanent shift in consumer behavior that prevents the recovery of transaction frequency and historical restaurant-level margins."
+  }
+ },
+ "final": {
+  "as_of_date": "2016-09-06",
+  "company": "Chipotle Mexican Grill, Inc.",
+  "ticker": "CMG",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C2",
+  "gate1_hard_fail": false,
+  "special_situation": false,
+  "valuation": {
+   "entry_multiple": "26.5x 2015 EPS",
+   "eps_path": "Normalization of restaurant-level margins from 15.5% toward 28.0% and recovery of transaction frequency",
+   "terminal_multiple": "25x",
+   "irr_pct": 20,
+   "downside_case": "Permanent impairment of brand and transaction frequency leads to lower long-term earnings, mitigated by net cash position"
+  },
+  "drivers": [
+   {
+    "driver": "A high-quality, dominant fast-casual concept with a proven unit-growth engine and a pristine, debt-free balance sheet [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "A temporary, fixable dislocation caused by food-safety incidents that has suppressed restaurant-level margins from 28.0% to 15.5% [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The CDC has concluded its investigation, removing the primary source of public panic and allowing for a recovery in transaction frequency [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Management is actively utilizing free cash flow for aggressive share repurchases, signaling confidence in the intrinsic value of the franchise [D02].",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent impairment of brand equity leading to structural decline in transaction frequency",
+   "Failure of restaurant-level margins to recover toward historical levels (25%+) over the next 18-24 months",
+   "Management failure to maintain rigorous food-safety protocols leading to new health-related incidents",
+   "Capital allocation shift away from core restaurant brand toward non-core secondary concepts"
+  ],
+  "what_would_change_our_mind": "Evidence that the food-safety crisis has caused a permanent, structural decline in customer transaction frequency and brand affinity that cannot be reversed by operational improvements.",
+  "memo": "Chipotle is a dominant, high-quality fast-casual business that has created a unique, predictable, and cash-generative model centered on fresh, high-quality ingredients [D01]. With over 2,100 units and a pristine balance sheet free of debt, the company possesses significant barriers to entry and a proven runway for durable growth through new unit expansion [D01, D03].\n\nThe current opportunity exists because of a temporary food-safety crisis that has caused a significant, yet fixable, dislocation in the business’s performance [D01, D03]. The market has incorrectly concluded that the brand is permanently impaired, leading to a collapse in restaurant-level margins from 28.0% in Q2 2015 to 15.5% in Q2 2016 [D03, D05]. We believe this is a classic overreaction; with the CDC investigation closed, the focus has shifted to recovering transaction frequency through marketing and operational refinement [D03, D07].\n\nWe are acquiring our stake at a valuation that reflects the market's current skepticism, with an entry multiple of approximately 26.5x 2015 earnings [D04]. As restaurant-level margins return to their historical 28.0% range and transaction frequency normalizes, we anticipate a significant earnings recovery that will drive substantial value, targeting an IRR of 20% or more [D03, D05].\n\nOur role is to engage constructively with management to support the restoration of margins and advocate for disciplined capital allocation [D01, D03]. We will support initiatives that optimize labor and food costs while ensuring that the aggressive share repurchase program continues to act as a value-accretive use of the company’s excess cash flow [D02, D03, D05].\n\nRisks include the potential for further health-related incidents or a failure to successfully re-engage the consumer [D03]. However, given the strength of the balance sheet and the fundamental desirability of the concept, we view the downside as bounded while the upside remains asymmetric [D01].\n\nWe are initiating a 10% position in the company. We have high conviction that the temporary nature of the current challenges provides an attractive entry point for this market-leading franchise."
+ },
+ "elapsed_s": 0
+}

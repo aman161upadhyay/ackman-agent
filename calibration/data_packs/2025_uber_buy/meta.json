@@ -1,0 +1,12 @@
+{
+  "id": "2025_uber_buy",
+  "company": "Uber Technologies",
+  "ticker": "UBER",
+  "aliases": ["Uber", "Uber Eats"],
+  "as_of_date": "2025-01-06",
+  "mode": "new",
+  "era": "E",
+  "first_action_window": "First purchase January 7, 2025, explicitly identified in PSH February 11, 2026 presentation inception footnote; January 6 is the preceding trading day. This retrospective dating evidence is metadata only.",
+  "pershing_aum_usd_bn": 18.4988,
+  "notes": "AUM is the last independently recovered pre-cutoff firm figure, September 30, 2024, not January AUM. Historical price observations are date-filtered. Missing consensus estimates and historical valuation range are identified rather than reconstructed using later Pershing commentary."
+}

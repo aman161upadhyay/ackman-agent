@@ -1,0 +1,12 @@
+{
+  "id": "2023_googl_buy",
+  "company": "Alphabet",
+  "ticker": "GOOGL",
+  "aliases": ["Google", "GOOG", "Alphabet Inc."],
+  "as_of_date": "2023-02-10",
+  "mode": "new",
+  "era": "D",
+  "first_action_window": "Q1 2023 holding disclosed May 15, 2023. Compendium's later PSH inception chart gives March 2, 2023, not February 10. The requested cutoff is a pre-entry opportunity snapshot, not the execution day.",
+  "pershing_aum_usd_bn": null,
+  "notes": "GOOG Class C historical price used explicitly where the requested GOOGL daily close was not independently recovered. No purchase disclosure or later AI adoption evidence. Firm-wide AUM unavailable; dated PSH AUM separately provided."
+}

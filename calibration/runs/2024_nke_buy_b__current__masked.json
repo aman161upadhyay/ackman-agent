@@ -1,0 +1,259 @@
+{
+ "pack": "2024_nke_buy_b",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2024-06-28",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a global designer and marketer of athletic footwear, apparel, and equipment with a largely outsourced manufacturing model [D01]. It operates primarily through wholesale partners and its own direct-to-consumer digital and retail channels [D01].",
+   "segments_and_mix": [
+    "the Company Brand footwear: ~$33.427 billion (FY2024) [D01]",
+    "the Company Brand apparel: ~$13.775 billion (FY2024) [D01]",
+    "the Company Brand equipment: ~$2.075 billion (FY2024) [D01]",
+    "the Company brand (secondary): ~$2.082 billion (FY2024) [D01]"
+   ],
+   "unit_economics": [
+    "Annual gross margin: 44.6% [D01]",
+    "EBIT margin: 12.7% (FY2024) [D01]",
+    "Demand creation spend: $4.285 billion [D01]",
+    "FCF conversion: not in pack"
+   ],
+   "competitive_position": [
+    "Dominant global scale in revenue, marketing, and distribution [D01]",
+    "Peers: Adidas, Puma, Hoka, On, and various lifestyle brands [D06]",
+    "Moat: Athlete sponsorships, design capability, and global distribution scale [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "Revenue growth history: 19% (FY21), 5% (FY22), 10% (FY23), ~flat (FY24) [D02]",
+    "Guidance: Fiscal 2025 revenue expected down mid-single digits; Q1 down ~10% [D03]"
+   ],
+   "balance_sheet": [
+    "Financial net cash: ~$2.673 billion [D02]",
+    "Cash and equivalents: $9.860 billion (May 31, 2024) [D02]",
+    "Long-term debt: $7.903 billion [D02]",
+    "Rating: not in pack"
+   ],
+   "management_and_governance": [
+    "CEO: John Donahoe [D01]",
+    "CFO: Matthew Friend [D01]",
+    "Capital allocation: $2.2 billion dividends and $4.3 billion buybacks in FY2024 [D02]",
+    "Controller/dual-class: not in pack"
+   ],
+   "price_and_valuation": [
+    "Price: $75.37 (June 28, 2024) [D04]",
+    "Market cap: ~$113.66 billion [D04]",
+    "Drawdown from high: ~38.9% [D04]",
+    "Trailing P/E: 20.2x (GAAP) / 19.1x (ex-restructuring) [D04]",
+    "Trailing EV/EBIT: ~17.0x [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Loss of product relevance and market share to newer competitors [D05, D06]",
+    "Material downward revision to sales guidance for FY2025 [D03, D05]",
+    "Challenges with the direct-to-consumer strategy impacting wholesale relationships [D05]",
+    "Uncertainty regarding the duration and depth of the turnaround [D05]"
+   ],
+   "recent_events": [
+    "June 27, 2024: Reported Q4 and annual FY2024 results with sales flat [D03, D07]",
+    "June 28, 2024: Market sell-off (~20%) following updated FY2025 revenue guidance [D03, D04]"
+   ],
+   "pershing_context": [
+    "Firm AUM: not in pack",
+    "Existing stake: not in pack",
+    "Prior engagement: not in pack"
+   ],
+   "missing_data": [
+    "Validated forward consensus EPS",
+    "Historical forward P/E ranges",
+    "Fiscal 2024 FCF figures",
+    "ROIC series",
+    "Current Pershing Square position status"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The business faces declining product relevance and significant guidance downgrades, which undermines the predictability of cash flows [D03, D05, D06]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company maintains dominant global scale and a deep moat through athlete sponsorships, design, and distribution [D01, D06]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "PASS",
+     "evidence": "As a global consumer brand with a diversified footprint, it is not primarily beholden to commodity prices or narrow regulatory outcomes [D01]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a healthy net cash position of approximately $2.673 billion [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "With $9.860 billion in cash and a strong balance sheet, the firm does not rely on external financing for operations [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The company's market cap of approximately $113.66 billion is well above the threshold for a Pershing Square position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock has experienced a significant 38.9% drawdown from its high, with a trailing P/E of roughly 19-20x [D04]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "While the firm has strong brand heritage, the current turnaround strategy is facing material execution challenges and declining market share [D03, D05]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "Revenue growth has stalled to flat, and management has provided downward guidance for the coming fiscal year [D03, D07]."
+    }
+   },
+   "n_pass": 6,
+   "n_fail": 1,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "one_line_business_quality_verdict": "a dominant global consumer franchise currently facing severe product relevance and turnaround execution headwinds."
+  },
+  "gate2": {
+   "templates": [
+    "T1",
+    "T2"
+   ],
+   "variant_perception": "The market believes the brand is in structural decline and has permanently lost its edge to upstart competitors. We believe the brand's core competitive advantages—its athlete roster, design capabilities, and global distribution—remain intact, and the current underperformance is a fixable consequence of misguided direct-to-consumer strategy and innovation execution [D05, D06]. The stock's sharp drawdown presents an opportunity to capture a dominant franchise at a multiple that ignores its potential for a return to historical margin and growth profiles [D03, D04].",
+   "evidence": [
+    "38.9% drawdown from high [D04]",
+    "20% single-day sell-off following guidance [D03]",
+    "Company maintains dominant global scale and deep moat through sponsorships and distribution [D06]",
+    "Turnaround requires re-balancing wholesale relationships and addressing innovation gaps [D05]"
+   ],
+   "market_narrative_we_disagree_with": "That the company is experiencing a terminal loss of product relevance and market share that justifies a sustained valuation compression [D05, D06].",
+   "what_must_be_true": [
+    "Management successfully pivots back to a balanced wholesale-DTC strategy",
+    "The innovation pipeline produces products that regain consumer mindshare",
+    "Operational and marketing spend can be optimized without sacrificing brand equity"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "19.1x FY2024 P/E vs historical ranges [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2024",
+    "base_value": "$3.73 (implied from P/E 19.1x at $75.37 price) [D04]",
+    "growth_assumption": "Return to 7-10% revenue growth following 2025 reset, with 50-100bps margin expansion via DTC/wholesale re-balancing",
+    "year_3_to_5_value": "~$5.20 - $5.60 EPS",
+    "assumptions": [
+     "FY2025 revenue decline of mid-single digits followed by recovery [D03]",
+     "Management successfully optimizes marketing spend and innovation pipeline [D06]",
+     "FCF conversion improves as inventory levels normalize"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 22,
+    "why": "Reflects dominant global market position and high brand equity, warranting a premium to market multiple as growth stabilizes"
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 28
+   },
+   "downside_case": "Downside is limited by the company's strong balance sheet ($2.673B net cash) and dominant scale [D01, D02]. Permanent loss is unlikely given the durability of the brand, though multiple compression could persist if the innovation pipeline fails to regain relevance [D05].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Forward consensus EPS not in pack; used trailing GAAP/ex-restructuring figures to derive base EPS",
+    "Historical forward P/E ranges not in pack",
+    "Fiscal 2024 FCF figures not in pack"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C2",
+   "catalyst_description": "We will initiate a constructive, private dialogue with the Board to address the failed direct-to-consumer (DTC) pivot, the erosion of wholesale partnerships, and the innovation pipeline under-delivery that led to the significant market overreaction [D03, D05, D06].",
+   "levers_or_steps": [
+    "Re-balance wholesale and DTC channel mix to restore distribution reach [D05]",
+    "Re-prioritize innovation pipeline to regain consumer mindshare against emerging competitors [D05, D06]",
+    "Optimize marketing spend (currently $4.285B) and SG&A to expand EBIT margins from 12.7% toward historical peaks [D01, D06]",
+    "Maintain shareholder return program given the $2.673B net cash position to support EPS growth during the transition [D02]"
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In the 'Pershing Square 3.0' era (2018-2023), we focus on quiet, constructive engagement with management of high-quality compounders facing temporary dislocations. Given the company's dominant global moat and strong balance sheet, private dialogue is the appropriate mechanism to drive operational re-alignment without the disruption of public activism [D01, D02, D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Innovation pipeline fails to regain consumer mindshare for more than 18 months",
+    "EBIT margins continue to contract below 10% after fiscal 2025",
+    "Net cash position is significantly depleted by non-accretive capital allocation",
+    "Management fails to restore wholesale partnerships, leading to further sustained revenue decay"
+   ],
+   "portfolio_fit": "This is a classic 'Pershing Square 3.0' quality compounder dislocation: a dominant global brand with a temporary operational shortfall, fitting our concentration in high-barrier consumer franchises without factor doubling our current portfolio holdings [D01, D06].",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "Given the market cap of ~$113.66 billion and high daily trading volume, we can build a 3-8% stake over several weeks without undue market impact [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The risk is that the brand's loss of product relevance is structural rather than temporary, rendering our operational turnaround thesis ineffective against newer, faster-moving competitors [D05, D06]."
+  }
+ },
+ "final": {
+  "as_of_date": "2024-06-28",
+  "company": "the Company (XXX)",
+  "ticker": "NKE",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C2",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "19.1x FY2024 P/E (ex-restructuring)",
+   "eps_path": "Recovery to $5.20 - $5.60 EPS in 3-5 years via margin expansion and revenue re-acceleration",
+   "terminal_multiple": "22x",
+   "irr_pct": 28,
+   "downside_case": "Limited by $2.673B net cash and dominant market position; terminal multiple contraction if innovation fails."
+  },
+  "drivers": [
+   {
+    "driver": "The company remains the dominant global leader in athletic footwear and apparel with an unmatched competitive moat through athlete sponsorships, design, and scale [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The recent 20% sell-off and 38.9% cumulative drawdown represent a market overreaction to fixable operational errors rather than a terminal loss of brand relevance [D03, D04, D05].",
+    "citations": [
+     "D03",
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "We see a clear path to margin expansion and earnings growth by re-balancing the wholesale-DTC channel mix and refining the innovation pipeline [D05, D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The company’s balance sheet, featuring $9.86B in cash and $2.673B in net cash, provides significant flexibility to fund the turnaround and support EPS through buybacks [D02].",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Innovation pipeline fails to regain consumer mindshare for more than 18 months",
+   "EBIT margins continue to contract below 10% after fiscal 2025",
+   "Net cash position is significantly depleted by non-accretive capital allocation",
+   "Management fails to restore wholesale partnerships, leading to further sustained revenue decay"
+  ],
+  "what_would_change_our_mind": "Evidence that the brand's loss of product relevance is structural and permanent, rendering the global scale insufficient to compete with agile, new entrants.",
+  "memo": "The Company is a preeminent global consumer franchise with an unrivaled competitive moat in athletic footwear and apparel, underpinned by its deep athlete roster, design prowess, and massive distribution scale [D01, D06]. Despite recent headwinds, it remains the dominant player in its category, generating high free cash flow and maintaining a balance sheet with $2.673 billion in net cash [D01, D02].\n\nWe believe the current market panic, triggered by a 20% single-day sell-off following guidance downgrades, is misguided [D03, D04]. The market has conflated temporary operational missteps—specifically a flawed over-reliance on direct-to-consumer channels and an innovation lull—with a permanent erosion of brand equity [D03, D05]. We view this dislocation as a classic opportunity to acquire a high-quality compounder at an attractive entry multiple of 19.1x [D04].\n\nOur investment thesis relies on management successfully re-balancing the channel strategy to prioritize wholesale relationships and refocusing the innovation pipeline [D05, D06]. By optimizing the $4.285 billion annual demand creation spend and tightening operational execution, we see a path toward mid-teens EPS growth as EBIT margins recover from their current 12.7% toward historical peaks [D01, D06].\n\nWe intend to engage in a quiet, constructive dialogue with the Board to ensure these operational improvements are implemented promptly [D03, D05]. Given the current valuation, we believe the risk-reward is highly asymmetric, with a target IRR of 28% in our bull case [D04]. We are initiating a position with an 8% target allocation, confident that the underlying strength of the brand will prevail as the turnaround takes hold.",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

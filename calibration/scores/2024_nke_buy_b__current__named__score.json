@@ -1,0 +1,42 @@
+{
+ "trade_id": "2024_nke_buy_b",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Nike's global brand and scale remain valuable despite operational underperformance. → Nike remains one of the world's most dominant and recognizable consumer franchises, possessing a scale and brand equity that few competitors can replicate",
+   "Innovation and repair of wholesale distribution can restore demand. → As management recalibrates its product development cycle and balances its direct-to-consumer strategy with a revitalized wholesale presence, we expect a return to mid-single-digit revenue growth and operating margin expansion",
+   "Depressed profitability offers recovery potential. → At a 20.2x P/E multiple, we are able to acquire a stake in a high-quality, globally dominant business at a discount to its historical premium"
+  ],
+  "missed": [
+   "Elliott Hill's operating knowledge strengthens the management repair thesis after September appointment, not at initial purchase."
+  ],
+  "extra_agent_drivers": [
+   "20% price decline creates entry point"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Nike remains one of the world's most dominant and recognizable consumer franchises.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Current underperformance is driven by fixable execution errors in product innovation and channel strategy.",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 12,
+  "share": 0.86
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "In our view, Nike is suffering from identifiable, fixable strategic missteps regarding product innovation and channel distribution, which have temporarily obscured the underlying strength of its brand [D05].",
+ "grader_notes": "The agent correctly identified the core themes of brand strength, execution-led recovery through innovation, and channel repairs. The reasoning was closest to Ackman’s retrospective on the firm's brand and the need for operational pivots. It was farthest regarding the specific management team, as the agent lacked the benefit of the future Hill appointment included in the key.",
+ "run": "2024_nke_buy_b__current__named"
+}

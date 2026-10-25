@@ -1,0 +1,12 @@
+{
+  "id": "2025_cmg_sell",
+  "company": "Chipotle Mexican Grill",
+  "ticker": "CMG",
+  "aliases": ["Chipotle"],
+  "as_of_date": "2025-11-03",
+  "mode": "existing",
+  "era": "E",
+  "first_action_window": "Execution and disclosure evidence sealed in answer key. Cutoff follows October results and precedes independently documented November transaction window.",
+  "pershing_aum_usd_bn": 20.7111,
+  "notes": "August 2025 gross core-fund AUM, not current NAV. Existing 2016 investment; 2024 50:1 split reconciled. Residual position and original thesis are distinguished from earlier successful monetizations."
+}

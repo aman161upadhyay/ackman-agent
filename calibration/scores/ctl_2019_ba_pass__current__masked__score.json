@@ -1,0 +1,48 @@
+{
+ "trade_id": "ctl_2019_ba_pass",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Unresolved safety, certification and liability range defeats high-confidence cash-flow underwriting even in a duopoly.",
+   "Independent regulator/technical outcomes cannot be delivered through ordinary operating activism. The post-shock risk must be bounded rather than assumed temporary from historical earnings.",
+   "Pre-grounding cash guidance is not funding capacity under a prolonged delivery pause; financing resilience needs separate stress analysis."
+  ],
+  "extra_agent_drivers": [
+   "The Company operates in a dominant, high-barrier-to-entry commercial aircraft duopoly with a substantial 5,900 aircraft backlog.",
+   "We have acquired our stake at a 17.3x pre-shock forward GAAP EPS multiple, representing a 15% drawdown due to temporary regulatory fears.",
+   "The 737 MAX grounding is a temporary operational disruption that does not impair the long-term intrinsic value of the franchise.",
+   "Normalized EPS growth will be driven by the clearing of the 5,900 aircraft backlog and the resumption of deliveries once the engineering fix is certified."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company operates in a dominant, high-barrier-to-entry commercial aircraft duopoly",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The 737 MAX grounding is a temporary operational disruption",
+    "citation": "D03",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The company’s $8.6 billion liquidity position provides a sufficient buffer",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 3,
+  "share": 0.23
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We believe the market is wrong; this is a fixable, albeit serious, regulatory setback for a mission-critical franchise, not a permanent impairment of intrinsic value [D01, D03].",
+ "grader_notes": "The agent takes a long position based on the belief that the grounding is a temporary, fixable event, which is the antithesis of Ackman's disciplined pass. The agent fails to address the core driver of the answer key, which centers on the inability to underwrite cash flows when regulatory and technical outcomes are external and unquantifiable. There is no overlap between the agent's focus on historical multiples and growth versus the answer key's focus on structural risk and the limits of activism.",
+ "run": "ctl_2019_ba_pass__current__masked"
+}

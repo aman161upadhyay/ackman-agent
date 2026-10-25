@@ -1,0 +1,255 @@
+{
+ "pack": "2026_v_ma_buy",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2026-03-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Visa and Mastercard are global payment networks that provide transaction infrastructure for authorization, routing, clearing, and settlement [D01]. They act as intermediaries between consumers, merchants, and financial institutions rather than as lenders of revolving credit [D01].",
+   "segments_and_mix": [
+    "Visa: Network services, data processing, and international transactions [D01].",
+    "Mastercard: Payment solutions and value-added services [D03].",
+    "Revenue mix is driven by nominal consumer spending, cross-border activity, and value-added services [D01, D03]."
+   ],
+   "unit_economics": [
+    "High incremental margins due to scalable infrastructure [D01].",
+    "FCF conversion is strong, with significant cash flow generation after capex and capitalized software [D02].",
+    "Operating margins are high (e.g., Visa 60.0%, Mastercard 57.6% for 2025) [D02]."
+   ],
+   "competitive_position": [
+    "Dominant global duopoly with a moat built on multi-sided network acceptance [D01].",
+    "High barriers to entry due to the complexity of replacing an established, reliable ecosystem [D01].",
+    "Peer comparison: Closely related businesses; American Express and PayPal serve different niches [D06]."
+   ],
+   "growth_record_and_outlook": [
+    "Revenue growth supported by digitization of cash, e-commerce, and cross-border recovery [D01].",
+    "Visa 2025 revenue: $40.000bn; Mastercard 2025 revenue: $32.791bn [D02].",
+    "Growth in Jan 2026 reports showed payments volume increases (Visa 8%, Mastercard 7%) and cross-border strength [D03]."
+   ],
+   "balance_sheet": [
+    "Visa: $16.9bn cash/equivalents; $19.602bn long-term debt [D02].",
+    "Mastercard: $10.566bn cash; $18.251bn long-term debt [D02]."
+   ],
+   "management_and_governance": [
+    "Visa CEO: Ryan McInerney [D01].",
+    "Mastercard CEO: Michael Miebach [D01].",
+    "Both prioritize investments in AI, tokenization, and digital commerce [D01, D07]."
+   ],
+   "price_and_valuation": [
+    "Visa (3/31/26): $302.24 price, ~29.6x P/E (on 2025 EPS) [D04].",
+    "Mastercard (3/31/26): $499.66 price, ~30.2x P/E (on 2025 EPS) [D04].",
+    "EV/Operating Income: Visa 24.4x, Mastercard 24.2x [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Potential legislative disruption via the Credit Card Competition Act [D05].",
+    "Disintermediation from AI shopping agents bypassing card rails [D05].",
+    "Long-term threat from stablecoin/alternative settlement networks [D05]."
+   ],
+   "recent_events": [
+    "January 13, 2026: Introduction of Credit Card Competition Act (S.3623) caused stock price declines [D05, D07].",
+    "January 29, 2026: Both networks reported strong transaction and services growth [D03, D07].",
+    "March 7, 2026: Reports on stablecoin firms targeting AI-agent payment integration [D05, D07]."
+   ],
+   "pershing_context": [
+    "Core fund AUM ~$19.7bn [D08].",
+    "Strategy focuses on concentrated positions in high-quality compounders [D08].",
+    "No verified pre-March-31 Pershing Square stake or recommendation found in pack [D08]."
+   ],
+   "missing_data": [
+    "Authenticated March 31 forward P/E consensus estimates.",
+    "Exact operating profit contribution of value-added services vs. core network fees.",
+    "Normalized earnings bridge for litigation provisions.",
+    "Detailed capital allocation sensitivity analysis for regulatory outcomes."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "The companies operate as dominant global payment networks with highly scalable infrastructure, high operating margins exceeding 57%, and strong FCF conversion [D01, D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "They constitute a dominant global duopoly protected by significant multi-sided network effects and the complexity of replacing established payment ecosystems [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "While inherently strong, the business faces significant legislative risk from the Credit Card Competition Act and potential long-term disruption from alternative settlement technologies [D05]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "Both companies maintain robust balance sheets with significant cash positions and manageable long-term debt levels [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The business model is self-funding and does not rely on issuing equity or rolling debt for operational continuity [D01, D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "As major global payment networks with significant revenue, they provide sufficient liquidity for a concentrated Pershing Square position [D01, D02]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "Recent stock price declines due to regulatory fears have resulted in multiples that warrant further evaluation as potential entry points for a quality compounder [D04, D05, D07]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "Management teams at both firms are focused on long-term growth through strategic investments in AI, tokenization, and digital commerce [D01, D07]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "Growth is supported by secular trends including the ongoing digitization of cash, the expansion of e-commerce, and cross-border payment volume [D01, D03]."
+    }
+   },
+   "n_pass": 8,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant, capital-light global payment duopoly with significant competitive moats and durable growth prospects"
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market fears that the Credit Card Competition Act and alternative settlement technologies like stablecoins will permanently erode the moats of these payment networks [D05]. We believe these fears are exaggerated because the networks provide critical, high-trust infrastructure that is incredibly difficult to replace, and their role is evolving rather than being disrupted by new payment rails [D01]. The market's short-term reaction to legislative headlines does not impair the long-term compounding of these cash-generative franchises [D05, D07].",
+   "evidence": [
+    "Recent price decline linked directly to the introduction of the Credit Card Competition Act on January 13, 2026 [D05, D07].",
+    "Strong growth reported on January 29, 2026, demonstrating that fundamental transaction volumes remain robust despite regulatory headlines [D03, D07].",
+    "Visa and Mastercard maintain 57%+ operating margins and dominant global network effects that are not easily replicated [D01, D02]."
+   ],
+   "market_narrative_we_disagree_with": "The market believes that legislative intervention and AI-driven disintermediation represent an existential threat to the payment duopoly's intrinsic value [D05].",
+   "what_must_be_true": [
+    "The core network effects remain intact despite legislative or technological shifts.",
+    "The businesses maintain pricing power and their value-added services continue to grow.",
+    "Legislative outcomes do not force a fundamental degradation of network economics.",
+    "The duopoly preserves its role as the trusted intermediary for global commerce."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "30x NTM EPS vs historical avg (not in pack) and S&P 500 (not in pack) [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2025",
+    "base_value": "$10.21 (Visa implied) / $16.54 (Mastercard implied)",
+    "growth_assumption": "12% CAGR based on historical volume and services growth [D03]",
+    "year_3_to_5_value": "~$14.33 (Visa) / ~$23.23 (Mastercard)",
+    "assumptions": [
+     "Stable operating margins at 57-60% [D02]",
+     "Continued growth in cross-border and value-added services [D01, D03]",
+     "Legislative impact does not degrade fundamental network economics [D01, D05]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 25,
+    "why": "Dominant global duopoly status justifies a premium multiple, balanced against long-term regulatory and technological transition risks."
+   },
+   "implied_irr_pct": {
+    "base": 21,
+    "bear": 8,
+    "bull": 26
+   },
+   "downside_case": "Legislative capping of interchange fees forces a step-down in network economics, leading to a permanent re-rating of the terminal multiple to 15-18x and stunted EPS growth.",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "2025 EPS derived from price and P/E ratio in [D04]",
+    "12% CAGR growth assumption",
+    "Historical 10-year P/E averages and S&P 500 benchmark not in pack"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We view Visa and Mastercard as high-quality compounders where the primary catalyst is the market's overreaction to legislative and technological fears (Credit Card Competition Act and alternative settlement rails) [D01, D05, D07]. As the market realizes that these payment networks provide essential, high-trust infrastructure that is not easily replaced, we expect the multiple to sustain or re-rate toward historical levels as earnings continue to grow at a double-digit rate [D01, D03, D07].",
+   "levers_or_steps": [
+    "Continued organic growth in payment volume via e-commerce and cash digitization [D01].",
+    "Expansion of value-added services which provide high-margin revenue streams distinct from core transaction fees [D03].",
+    "Prudent capital allocation through share repurchases and dividends made possible by robust free cash flow generation [D02]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our Pershing Square 3.0 era, we focus on purchasing dominant, capital-light quality compounders during temporary dislocations [D08]. These businesses fit our strategy of identifying simple, predictable, and free-cash-flow-generative franchises that require no operational intervention from us to achieve their intrinsic value growth [D01, D02, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Legislative enactment of the Credit Card Competition Act that effectively caps interchange fees and reduces the networks' take rates [D05].",
+    "A measurable shift in consumer and merchant preference toward alternative, non-card settlement rails that bypass the duopoly's infrastructure [D05].",
+    "A persistent decline in transaction volume growth over two consecutive quarters, signaling a fundamental loss of network relevance [D03]."
+   ],
+   "portfolio_fit": "Fits perfectly within the Pershing Square 3.0 strategy as a dominant, capital-light compounder with wide moats, complementing existing holdings in high-quality, predictable businesses [D08].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 15
+   },
+   "liquidity_assessment": "Both companies are large-cap, highly liquid global entities; a 10% position can be established over several weeks without significant market impact [D01, D02].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is a permanent impairment of network economics due to legislative price controls that could force a structural re-rating of these businesses [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2026-03-31",
+  "company": "Visa and Mastercard",
+  "ticker": "V, MA",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "special_situation": false,
+  "valuation": {
+   "entry_multiple": "30x NTM EPS",
+   "eps_path": "12% CAGR based on historical volume and services growth",
+   "terminal_multiple": "25x",
+   "irr_pct": 21,
+   "downside_case": "Legislative capping of interchange fees forces a step-down in network economics, leading to a permanent re-rating of the terminal multiple to 15-18x and stunted EPS growth."
+  },
+  "drivers": [
+   {
+    "driver": "Visa and Mastercard operate as a dominant, capital-light global payment duopoly with significant competitive moats and highly scalable infrastructure [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The market has incorrectly priced these franchises due to temporary fears regarding the Credit Card Competition Act and AI-driven disintermediation [D05, D07].",
+    "citations": [
+     "D05",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The core businesses continue to exhibit durable growth, with January 2026 reports confirming robust transaction volumes and cross-border strength [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Operating margins remain sector-leading at 57-60%, providing strong free cash flow to support share repurchases and dividends [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "These companies act as essential, high-trust global infrastructure that is not easily replaced, securing their long-term position in digital commerce [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Legislative enactment of the Credit Card Competition Act that effectively caps interchange fees and reduces the networks' take rates [D05].",
+   "A measurable shift in consumer and merchant preference toward alternative, non-card settlement rails that bypass the duopoly's infrastructure [D05].",
+   "A persistent decline in transaction volume growth over two consecutive quarters, signaling a fundamental loss of network relevance [D03]."
+  ],
+  "what_would_change_our_mind": "A fundamental degradation of network economics caused by permanent legislative price controls or a verifiable loss of market share to disruptive alternative settlement technologies.",
+  "memo": "Visa and Mastercard represent the type of simple, predictable, and free-cash-flow-generative franchises that form the core of our Pershing Square 3.0 strategy [D01, D08]. These companies function as the essential, high-trust global infrastructure for electronic payments, benefiting from profound multi-sided network effects that create significant barriers to entry [D01]. With operating margins exceeding 57% and a capital-light business model, they consistently produce durable growth through the digitization of cash, e-commerce, and value-added services [D01, D02, D03].\n\nThe current opportunity exists because of a temporary market dislocation caused by the introduction of the Credit Card Competition Act on January 13, 2026, and speculative fears regarding AI-driven disintermediation [D05, D07]. We believe these concerns are fundamentally misplaced, as the market fails to distinguish between regulatory headlines and the persistent underlying utility of these payment networks [D01, D05]. Recent performance data from January 2026 underscores our view, showing 7-8% volume growth despite the heightened regulatory noise [D03, D07].\n\nWe are acquiring our position at an NTM multiple of approximately 30x, which we view as attractive for a compounder capable of delivering double-digit EPS growth [D03, D04]. Assuming a 12% CAGR, we model a compelling IRR of roughly 21% based on a terminal multiple of 25x [D03, D04]. While we acknowledge the risk of legislative interference, our base case assumes that the fundamental economics of the duopoly will remain intact [D01, D05].\n\nOur role is that of a long-term owner of a quality compounder, providing the patience required for the market to reconcile the intrinsic value of these franchises with their current trading price [D08]. We remain vigilant regarding the regulatory landscape and the evolution of alternative payment rails, but we do not anticipate needing to intervene in the management of these dominant businesses [D01, D05]. We will monitor these factors closely to ensure our thesis regarding their durable competitive advantage remains sound [D05].\n\nWe are establishing a target position size of 10% of our NAV, reflecting our high conviction in the long-term compounding potential of these networks [D08]. This position is liquid, allowing us to build our stake over the coming weeks without adverse market impact [D01, D02]. By investing at this point of dislocation, we position our portfolio to benefit from the continued digitization of the global economy through these unique, high-moat assets [D01, D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

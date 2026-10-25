@@ -1,0 +1,12 @@
+{
+  "id": "2020_sbux_sell",
+  "company": "Starbucks",
+  "ticker": "SBUX",
+  "aliases": ["Starbucks Corporation"],
+  "as_of_date": "2020-01-15",
+  "mode": "existing",
+  "era": "D",
+  "first_action_window": "Exited January 2020; exact sale dates unknown. January 15 is a month-level decision proxy, not a proven pre-execution day.",
+  "pershing_aum_usd_bn": null,
+  "notes": "Existing first investment, not March 2020 re-entry. January 28 results, China closures, subsequent pandemic narrative and exit announcement excluded. Original thesis included in D00."
+}

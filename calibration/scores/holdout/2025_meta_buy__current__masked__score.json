@@ -1,0 +1,50 @@
+{
+ "trade_id": "2025_meta_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Entrenched audiences and advertising data create a durable network moat. → The Company represents a dominant digital advertising franchise that possesses one of the most powerful network effects in history, with 3.54 billion people using its platforms daily [D01].",
+   "Capex fears created an attractive valuation that still includes substantial Reality Labs losses. → We believe this dislocation creates an attractive entry point, as the market is mispricing the company by conflating long-term, potentially high-return AI infrastructure investments with permanent impairment of intrinsic value [D03, D05]."
+  ],
+  "missed": [
+   "AI directly improves engagement, recommendations and monetization.",
+   "Infrastructure and talent spending can be front-loaded while management retains expense flexibility."
+  ],
+  "extra_agent_drivers": [
+   "The business maintains a superior financial profile with a strong balance sheet and $15.614 billion in net cash, providing significant flexibility for capital allocation [D02].",
+   "We see a path to mid-teens EPS growth as AI investments transition toward monetization and the core advertising engine continues to deliver double-digit revenue growth [D03]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company represents a dominant digital advertising franchise that possesses one of the most powerful network effects in history, with 3.54 billion people using its platforms daily.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Following the Q3 2025 earnings report, the market reacted with an 11% sell-off, driven by fears surrounding increased capital expenditure guidance and speculative losses in Reality Labs.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company’s $15.614 billion net cash balance sheet serves as a critical buffer.",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 7,
+  "share": 0.58
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We believe this dislocation creates an attractive entry point, as the market is mispricing the company by conflating long-term, potentially high-return AI infrastructure investments with permanent impairment of intrinsic value [D03, D05].",
+ "grader_notes": "The agent correctly identified the direction and the broad thesis of market mispricing due to infrastructure/capex fears (matching Ackman's drivers on valuation and moat). However, the agent failed to capture Ackman's specific emphasis on AI-driven engagement improvements and the flexibility/front-loading of talent/infrastructure spend, relying instead on different balance sheet and growth projection metrics.",
+ "run": "2025_meta_buy__current__masked",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

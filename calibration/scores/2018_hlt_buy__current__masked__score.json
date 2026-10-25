@@ -1,0 +1,56 @@
+{
+ "trade_id": "2018_hlt_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 4,
+  "matched": [
+   "Asset-light, high-margin franchise and management-fee economics. → A high-quality, asset-light global hotel franchise platform generating recurring, high-margin royalty-like fees with minimal maintenance capex [D01], [D02].",
+   "Brands, loyalty and distribution attract owners and guests. → Hilton is a premier global hotel brand, management, and franchise platform that perfectly aligns with our standard for a simple, predictable, and free-cash-flow-generative business [D01].",
+   "Net-unit growth and development pipeline support long-duration compounding. → A durable growth runway supported by a global pipeline and ~6.5% net unit growth guidance, providing visibility into mid-teens EPS compounding [D03].",
+   "Chris Nassetta's team and disciplined cash returns. → Management’s disciplined execution of a capital-light strategy that prioritizes significant free cash flow return to shareholders, including $1.3 billion in Q2 2018 share repurchases [D03]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The market’s cyclical fear of a maturing travel cycle creates an attractive entry point for a dominant compounder currently trading at an adequate valuation [D05]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Hilton operates an asset-light model that earns high-margin franchise and management fees.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Hilton repurchased $1.3 billion in shares in Q2 2018.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Fee revenue grew by 11% in Q2 2018.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market has mispriced the company by focusing on a maturing travel cycle.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Hilton has 14 brands.",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 11,
+  "share": 1
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Hilton is a premier global hotel brand, management, and franchise platform that perfectly aligns with our standard for a simple, predictable, and free-cash-flow-generative business [D01].",
+ "grader_notes": "The agent correctly identified all four of Ackman's stated drivers regarding the asset-light business model, the brand/loyalty platform, growth visibility, and management's capital allocation. The agent's reasoning is highly aligned with the core pillars of the actual investment thesis, with the only additional driver being the market's cyclical fear, which serves as a justification for the entry point.",
+ "run": "2018_hlt_buy__current__masked"
+}

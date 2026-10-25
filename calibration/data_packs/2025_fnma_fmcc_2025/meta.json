@@ -1,0 +1,12 @@
+{
+  "id": "2025_fnma_fmcc_2025",
+  "company": "Fannie Mae and Freddie Mac",
+  "ticker": "FNMA/FMCC",
+  "aliases": ["Fannie", "Freddie", "GSEs", "Federal National Mortgage Association", "Federal Home Loan Mortgage Corporation"],
+  "as_of_date": "2025-01-15",
+  "mode": "existing",
+  "era": "E",
+  "first_action_window": "Existing common positions first publicly disclosed November15 2013, exact first purchase unknown. This is a January15 2025 hold/add reassessment, not a new initiation or verified incremental purchase date. December30 2024 X thesis is public; January16 2025 Art of the Deal deck is excluded.",
+  "pershing_aum_usd_bn": 18.4988,
+  "notes": "Historical September2024 AUM. No evidence of exact new shares added in this window; answer is HOLD with ADD alternative, high conviction subject to acknowledged total-loss/policy risk. Original2013 purchase letter not authenticated; D00 uses nearest authenticated2015 retrospective letter and labels that limitation."
+}

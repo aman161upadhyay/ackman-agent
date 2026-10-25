@@ -1,0 +1,23 @@
+{
+  "id": "ctl_2019_ba_pass",
+  "actual_decision": "PASS",
+  "conviction": "high",
+  "size_pct_nav": 0,
+  "first_action_date": null,
+  "disclosure_date": null,
+  "reason_class": null,
+  "decision_basis": "Constructed discipline control; no authenticated March2019 Ackman rejection.",
+  "drivers": [
+    {"driver": "Unresolved safety, certification and liability range defeats high-confidence cash-flow underwriting even in a duopoly.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf (2015-03-24)", "quote": "simple, predictable, free-cash-flow generative businesses"},
+    {"driver": "Independent regulator/technical outcomes cannot be delivered through ordinary operating activism. The post-shock risk must be bounded rather than assumed temporary from historical earnings.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf", "quote": "extrinsic factors we cannot control"},
+    {"driver": "Pre-grounding cash guidance is not funding capacity under a prolonged delivery pause; financing resilience needs separate stress analysis.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf", "quote": "do not need access to the capital markets to survive and thrive"}
+  ],
+  "ackman_public_statement": {
+    "quote": "Boeing will not survive without a government bailout",
+    "source": "https://www.cnbc.com/2020/03/18/bill-ackman-pleads-to-trump-to-increase-closures-to-save-the-economy-shut-it-down-now.html",
+    "date": "2020-03-18",
+    "context": "Later pandemic-shutdown interview, not a March2019 MAX opinion; answer-key-only and not evidence for the frozen control."
+  },
+  "outcome_note": "No later grounding duration, pandemic, litigation cost or share performance is used to score this control. PASS is a predictability/controllability judgment, not a prediction Boeing becomes worthless.",
+  "sources": ["https://investors.boeing.com/investors/news/press-release-details/2019/Boeing-Reports-Record-2018-Results-and-Provides-2019-Guidance/default.aspx", "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf"]
+}

@@ -1,0 +1,258 @@
+{
+ "pack": "2008_ggp_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2008-11-14",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a US real-estate investment trust (REIT) managing or owning interests in over 200 regional shopping malls and 24,000 stores [D01]. Its portfolio is split between retail properties, which provide stable rental income, and master-planned communities, which involve land development and sales [D01].",
+   "segments_and_mix": [
+    "Retail and Other: ~98.7% of 9-month NOI [D01, D10]",
+    "Master Planned Communities: -1.3% of 9-month NOI (after impairment) [D10]"
+   ],
+   "unit_economics": [
+    "Occupancy: 92.7% as of Q3 2008 [D01]",
+    "Tenant Sales: US$455 per square foot (trailing) [D01]",
+    "FCF Conversion: FFO does not cover maturing loan principal; maintenance capex is not independently reported [D02]",
+    "Capex Intensity: High; significant acquisition/development/property additions [D02]"
+   ],
+   "competitive_position": [
+    "Market status: Second-largest mall owner in the US [D05]",
+    "Peers: Macerich, Glimcher, Simon Property Group [D06]",
+    "Moat: Large scale and portfolio quality; however, capital access is currently constrained [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "Revenue growth: Slowed to 0.2% in 2007 [D02]",
+    "Q3 2008 Comparable NOI: Declined 0.5% [D03]",
+    "2008 Guidance: Core FFO US$2.85–US$2.95 per share (reduced) [D03]"
+   ],
+   "balance_sheet": [
+    "Consolidated Debt: US$24.767 billion (plus US$3.197 billion at-share unconsolidated) [D02]",
+    "Interest Coverage: 1.60x [D02]",
+    "Liquidity/Maturities: ~US$958 million in debt matures by December 1, 2008 [D03, D07]"
+   ],
+   "management_and_governance": [
+    "CEO/President: Adam Metz (interim CEO) and Thomas Nolan Jr. (interim president) [D01]",
+    "Governance: John Bucksbaum and Robert Michaels stepped down following margin-call pressure on family-trust loans [D01, D146]",
+    "Controller: Founding family (Bucksbaum) retains governance influence [D01]"
+   ],
+   "price_and_valuation": [
+    "Price: US$0.44 per share (Nov 14, 2008) [D04]",
+    "Market Cap: ~US$118 million (common only) [D04]",
+    "P/FFO: ~0.15x [D04]",
+    "Drawdown: ~99.1% from 52-week high [D04]",
+    "Valuation context: Portfolio debt of US$27.767 billion dwarfs equity [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Going concern risk: Company warned of possible bankruptcy/default [D05, D07]",
+    "Liquidity trap: Inability to refinance ~US$1 billion in near-term debt [D05, D07]",
+    "Asset-value crisis: Risk that cap rates/NOI decline result in debt exceeding asset value [D05]",
+    "Dilution: Potential for equity-killing restructuring [D05]"
+   ],
+   "recent_events": [
+    "Nov 12, 2008: Company warned of bankruptcy/default risk [D07]",
+    "Nov 12, 2008: Removed from S&P 500 [D07]",
+    "Nov 5, 2008: Q3 results showed NOI weakness and dividend suspension [D03, D07]"
+   ],
+   "pershing_context": [
+    "Fund AUM: Not in pack (reported table value of US$3.886816 billion is not total AUM) [D08]",
+    "Holdings: Target, EMC, Dr Pepper Snapple, Wachovia, Wendy's/Arby's, Longs Drugs, etc. [D08]",
+    "Stake in Company: Not in pack",
+    "Engagement: Not in pack"
+   ],
+   "missing_data": [
+    "Firmwide AUM",
+    "Maintenance capex",
+    "Firm cash position as of Nov 14, 2008",
+    "Pershing Square position in the Company"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The company faces NOI declines and high capex intensity for property development with FFO insufficient to cover maturing debt [D02, D03]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company is the second-largest mall owner in the US, possessing significant scale and portfolio quality [D05, D06]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business is highly sensitive to the credit markets and the ability to refinance its massive debt load [D05, D07]."
+    },
+    "strong_financial_profile": {
+     "score": "FAIL",
+     "evidence": "The balance sheet is critically over-leveraged with US$27.7 billion in debt and an interest coverage ratio of only 1.60x [D02, D04]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "FAIL",
+     "evidence": "The company faces an immediate liquidity trap with US$958 million in debt maturing by December 1, 2008, without sufficient cash flow to cover it [D03, D05, D07]."
+    },
+    "large_market_cap": {
+     "score": "FAIL",
+     "evidence": "The equity market capitalization has plummeted to approximately US$118 million, well below our standard size requirements [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock trades at a distressed P/FFO of 0.15x following a 99.1% drawdown, potentially offering significant value if bankruptcy is avoided [D04]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "The company is currently operating under interim management following the resignation of key leadership due to margin-call pressures [D01, D146]."
+    },
+    "durable_growth_runway": {
+     "score": "FAIL",
+     "evidence": "Operating performance is deteriorating with NOI declines and a stated risk of bankruptcy, calling into question the survival of the business [D03, D05, D07]."
+    }
+   },
+   "n_pass": 2,
+   "n_fail": 6,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "special_situation": true,
+   "one_line_business_quality_verdict": "a distressed, highly-levered real estate franchise with high-quality assets facing an immediate liquidity crisis and potential bankruptcy."
+  },
+  "gate2": {
+   "templates": [
+    "T8"
+   ],
+   "variant_perception": "The market believes the company is insolvent and headed for a total wipeout due to near-term debt maturities and a liquidity trap [D05, D07]. We believe the underlying regional shopping mall assets are fundamentally sound and that the equity represents a highly levered option on the recovery of a solvent estate [D01, D05]. We can effectuate a restructuring that preserves the long-term value of the high-quality portfolio while solving the near-term capital structure crisis [D06].",
+   "evidence": [
+    "The company is the second-largest mall owner in the US with a portfolio of 200 regional shopping malls [D01, D05].",
+    "The stock has experienced a 99.1% drawdown, trading at a distressed 0.15x P/FFO, reflecting a market pricing in near-certain bankruptcy [D04].",
+    "The company possesses core, cash-flow-generative assets that remain operational despite the current capital markets crisis [D01, D03].",
+    "Governance is currently in flux, providing an opportunity for active intervention to manage the restructuring process [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The market views the current liquidity crisis and the warning of potential bankruptcy as evidence that the company is structurally insolvent and that the equity has zero remaining value [D05, D07].",
+   "what_must_be_true": [
+    "The aggregate market value of the underlying mall portfolio exceeds the total debt claims [D05].",
+    "We can negotiate a standstill or debt-for-equity swap that prevents a value-destructive liquidation [D05].",
+    "Occupancy levels and NOI remain stable despite the broader economic downturn [D01, D03].",
+    "We can successfully navigate the interim management transition to install a turnaround-focused board [D01]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "pre_2018_sum_of_parts",
+   "entry_multiple": "0.15x NTM P/FFO vs historical trading ranges for mall REITs typically 8-12x P/FFO [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2008",
+    "base_value": "US$2.85-US$2.95 (Core FFO guidance) [D03]",
+    "growth_assumption": "Stagnant/Declining in near-term due to capital structure constraints [D03, D07]",
+    "year_3_to_5_value": "Normalized FFO/Share assumed at US$2.00-US$2.50 post-restructuring [Assumption]",
+    "assumptions": [
+     "Market value of underlying mall portfolio must exceed US$27.767 billion total debt [D04, D05]",
+     "Restructuring successful in avoiding liquidation [D05]",
+     "Occupancy remains stable at ~92% [D01]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 8,
+    "why": "Conservative multiple for regional mall REITs in a distressed environment, accounting for high leverage and asset quality"
+   },
+   "implied_irr_pct": {
+    "base": 50,
+    "bear": -100,
+    "bull": 100
+   },
+   "downside_case": "Complete loss of equity value (100% loss) if restructuring results in a total wipeout or bankruptcy proceedings where debt claims exceed asset value [D05, D07].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Normalized FFO/Share post-restructuring",
+    "Market value of assets vs debt",
+    "Successful debt-for-equity swap terms"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C3",
+   "catalyst_description": "We will initiate a public activist campaign to force a comprehensive financial restructuring, including a debt-for-equity swap and the installation of a turnaround-focused board to replace interim leadership [D01, D05, D07].",
+   "levers_or_steps": [
+    "Secure a standstill agreement with major lenders to prevent immediate liquidation upon the December 1, 2008, maturity [D05, D07].",
+    "Negotiate a debt-for-equity exchange to deleverage the balance sheet, targeting a sustainable interest coverage ratio above 2.0x [D02, D05].",
+    "Install a permanent, proven turnaround CEO and a high-caliber board to replace the interim management and restore institutional credibility [D01].",
+    "Rationalize the property portfolio by disposing of non-core or over-leveraged assets to generate liquidity and pay down debt [D05]."
+   ],
+   "time_to_value_realisation_years": 2,
+   "why_this_role_fits_the_era": "In our 2004-2012 activist era, when a high-quality franchise faces an existential threat due to poor capital structure and governance, we intervene publicly via 13D filings and proxy pressure to catalyze the necessary fix [D01, D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Lenders refuse to standstill and proceed with liquidation [D05, D07]",
+    "Portfolio NOI declines accelerate by >5% year-over-year [D03]",
+    "Asset valuation appraisals fall below the value of total debt claims [D05]",
+    "Current interim leadership prevents board reconstitution and strategic restructuring [D01]"
+   ],
+   "portfolio_fit": "This is a distressed activist investment in the real estate sector. While we hold other retail-exposed names like Target and Wendy's/Arby's [D08], this position is idiosyncratic to a debt restructuring process rather than a factor-based retail bet.",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "liquidity_assessment": "The equity market capitalization is extremely low (US$118 million) [D04], making the position highly illiquid; building a meaningful stake requires caution to avoid excessive slippage given the distressed, binary nature of the security [D05].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is a total loss of equity value if a debt-for-equity swap fails or if creditors force a liquidation that values the mall portfolio at less than the total debt burden [D05, D07]."
+  }
+ },
+ "final": {
+  "as_of_date": "2008-11-14",
+  "company": "General Growth Properties",
+  "ticker": "GGP",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "opportunity_template": [
+   "T8"
+  ],
+  "catalyst_role": "C3",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "0.15x NTM P/FFO",
+   "eps_path": "Stagnant near-term; normalized FFO/share of US$2.00-US$2.50 post-restructuring",
+   "terminal_multiple": "8x",
+   "irr_pct": 50,
+   "downside_case": "Complete loss of equity value if liquidation occurs."
+  },
+  "drivers": [
+   {
+    "driver": "The company owns a dominant, irreplaceable portfolio of 200 regional shopping malls in the United States [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The current market price of US$0.44 per share creates an asymmetric, option-like return profile with massive upside if a restructuring is successful [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Governance is in flux following the resignation of key leadership, providing a rare window to intervene and direct a value-preserving financial restructuring [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "We have the ability to negotiate a standstill agreement and debt-for-equity swap that prevents the permanent destruction of equity value through liquidation [D05, D07].",
+    "citations": [
+     "D05",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Lenders refuse to standstill and proceed with liquidation [D05, D07]",
+   "Portfolio NOI declines accelerate by >5% year-over-year [D03]",
+   "Asset valuation appraisals fall below the value of total debt claims [D05]",
+   "Current interim leadership prevents board reconstitution and strategic restructuring [D01]"
+  ],
+  "what_would_change_our_mind": "Evidence that the aggregate market value of the mall portfolio is truly less than the US$27.7 billion of debt, rendering the equity fundamentally worthless.",
+  "memo": "General Growth Properties is the second-largest owner of regional shopping malls in the United States, managing a high-quality portfolio of 200 properties that generate stable, essential retail rental income [D01, D05]. While the company faces a liquidity trap with nearly US$1 billion in debt maturing by December 1, 2008, the underlying assets remain fundamentally sound and cash-flow generative [D01, D03, D05].\n\nThis opportunity exists because the market has conflated a temporary liquidity crisis with terminal insolvency, driving the stock down 99.1% to a valuation of 0.15x P/FFO [D04, D05, D07]. The market assumes that because the company warned of potential bankruptcy, the equity is worthless; we believe this ignores the significant intrinsic value of the real estate, which we estimate exceeds the US$27.7 billion in debt claims [D04, D05, D07].\n\nWe believe this position offers a highly asymmetric return profile. By acquiring the equity at these distressed levels, we are effectively buying an option on the recovery of a solvent estate, with potential returns exceeding 50% IRR if we successfully steer the company through a restructuring rather than a fire-sale liquidation [D04, D05]. We anticipate a normalized FFO/share of US$2.00–US$2.50 post-restructuring, which at a conservative 8x multiple provides substantial upside [D03, D04].\n\nOur role is to act as a catalyst for a comprehensive financial restructuring, including a debt-for-equity swap, the installation of a turnaround-focused board, and a standstill agreement with lenders [D01, D05, D07]. By replacing interim leadership and rationalizing the portfolio, we can preserve the long-term value of the enterprise and restore institutional credibility [D01, D05].\n\nThe primary risk is a total loss of equity value if our restructuring efforts fail or if creditors force a liquidation that values the mall portfolio at less than the debt burden [D05, D07]. We size this position at 5% of NAV to balance this binary risk with the potential for massive gains during this period of market dislocation [D05]. We remain focused on the long-term fundamentals of the underlying real estate assets [D01].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

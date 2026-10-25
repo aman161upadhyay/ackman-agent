@@ -1,0 +1,248 @@
+{
+ "pack": "ctl_2023_el_pass",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2023-05-05",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Estée Lauder sells prestige skin care, makeup, fragrance and hair-care products through a portfolio of brands including Estée Lauder, Clinique, La Mer, and MAC [D01]. The company leverages brand equity, innovation, and diverse distribution channels—including travel retail and online sales—to drive consumer demand and repeat purchasing [D01].",
+   "segments_and_mix": [
+    "not in pack"
+   ],
+   "unit_economics": [
+    "FCF conversion currently affected by working-capital movements; nine-month CFO less capex is US$365 million [D02]",
+    "effective tax rate rose to 44.6% in recent period [D02]",
+    "requires significant investment in marketing, product launches, and channel relationships [D01]"
+   ],
+   "competitive_position": [
+    "possesses real competitive assets through prestige brand equity and consumer loyalty [D01]",
+    "operates in a market where consumer preference and competitive execution can change [D01]",
+    "must balance brand strength against channel dependencies and competitive execution [D01]"
+   ],
+   "growth_record_and_outlook": [
+    "full-year reported net sales expected to fall 10–12% [D02]",
+    "adjusted diluted EPS guidance lowered to US$3.29–3.39 from prior US$4.87–5.02 range [D02]",
+    "Asia travel-retail recovery is slower and more volatile than previously expected [D01, D04]"
+   ],
+   "balance_sheet": [
+    "total debt (current and long-term) of US$7.371 billion as of March 31, 2023 [D02]",
+    "cash of US$5.531 billion as of March 31, 2023, prior to US$2.25 billion Tom Ford acquisition payment [D02]",
+    "net debt figure of US$1.840 billion as of March 31, 2023 [D02]"
+   ],
+   "management_and_governance": [
+    "governed by class-A and class-B stock structure with unequal voting rights [D01]",
+    "controlling family influence limits the ability of outside shareholders to dictate strategy or replace leadership [D01, D04]"
+   ],
+   "price_and_valuation": [
+    "price as of May 5, 2023: US$203.54 [D03]",
+    "implied P/E (forward) based on new guidance: 60.0–61.9x [D03]",
+    "drawdown from approximately one-year high: 28.4% [D03]",
+    "indicated annual dividend yield: approximately 1.3% [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "slower and more volatile Asia travel-retail recovery, specifically in Hainan and Korea [D01, D04]",
+    "uncertainty regarding whether current earnings weakness is temporary or represents a lower normalized base [D01, D03]",
+    "risk that the Tom Ford acquisition at a high price may earn an inadequate return during a difficult period [D04]",
+    "potential for high valuation multiple to be based on depressed rather than normalized earnings [D03]"
+   ],
+   "recent_events": [
+    "completed acquisition of Tom Ford brand for approximately US$2.25 billion on April 28, 2023 [D01, D02]",
+    "announced lower fiscal year sales and EPS guidance on May 3, 2023 [D02, D03]"
+   ],
+   "pershing_context": [
+    "no authenticated company-specific Ackman comment found; no Pershing position or historical refusal inferred [D05]",
+    "firm AUM not in pack"
+   ],
+   "missing_data": [
+    "precise post-Tom Ford closing enterprise-value bridge",
+    "current combined share count",
+    "detailed segment revenue and profit mix",
+    "live analyst consensus",
+    "complete historical peer multiple data"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The business is currently experiencing significant earnings volatility and working-capital-driven pressure on free cash flow [D02], while facing uncertainty over whether current results represent a temporary setback or a lower normalized base [D01, D03]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company possesses prestige brand equity and consumer loyalty, which represent real competitive assets in the beauty market [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "Performance is highly sensitive to the recovery of Asia travel-retail, which has proven to be volatile and slower than expected [D01, D04]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a manageable net debt position of approximately US$1.84 billion relative to its scale [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "There is no indication of immediate reliance on issuing equity or rolling debt in the near term [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a price of US$203.54 and significant brand scale, it meets the size requirements for a large-cap holding [D03]."
+    },
+    "attractive_valuation_screen": {
+     "score": "FAIL",
+     "evidence": "At a forward P/E of 60.0–61.9x following lowered guidance, the valuation appears high for a business facing cyclical and execution headwinds [D03]."
+    },
+    "management_governance": {
+     "score": "FAIL",
+     "evidence": "The dual-class stock structure and controlling family influence limit the ability of outside shareholders to influence strategy or governance [D01, D04]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "While prestige beauty is a long-term category, recent performance and channel dependency issues create uncertainty regarding the sustainability of the growth runway [D01, D02]."
+    }
+   },
+   "n_pass": 4,
+   "n_fail": 4,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a prestige beauty franchise with powerful brands currently struggling with travel-retail volatility, high valuation, and constrained governance"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "variant_perception": "The market is currently pricing the stock at a high forward P/E of 60.0–61.9x [D03], reflecting extreme uncertainty over whether the recent earnings guidance cut represents a temporary setback or a reset of the company's normalized earnings power [D01, D03]. Given the dual-class share structure that insulates management from outside pressure [D01, D04], we lack a clear path to influence the necessary operational improvements to justify an investment at this valuation.",
+   "evidence": [
+    "Forward P/E of 60.0–61.9x following lowered guidance [D03]",
+    "Asia travel-retail recovery significantly slower and more volatile than anticipated [D01, D04]",
+    "Controlled governance structure limits ability to implement change [D01, D04]",
+    "Earnings volatility and working-capital-driven pressure on free cash flow [D02]"
+   ],
+   "market_narrative_we_disagree_with": "The market views the current prestige beauty franchise as a compounding asset worthy of a premium multiple despite clear evidence of execution headwinds and structural governance limitations [D01, D03].",
+   "what_must_be_true": [
+    "The travel-retail segment must stabilize and return to historic growth rates",
+    "The Tom Ford acquisition must prove accretive to margins despite the high purchase price",
+    "The company must demonstrate that current FCF contraction is transitory rather than structural"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "60.0-61.9x forward P/E based on lowered guidance [D03]",
+   "eps_or_fcf_path": {
+    "base_year": "2023",
+    "base_value": "US$3.34 (midpoint of US$3.29-3.39 guidance) [D02]",
+    "growth_assumption": "Normalized recovery to historical earnings power [D01]",
+    "year_3_to_5_value": "Assumed normalized EPS of US$5.00-US$5.50 based on prior guidance range [D02]",
+    "assumptions": [
+     "Normalization of Asia travel-retail [D01, D04]",
+     "Accretion from Tom Ford acquisition [D01]",
+     "Stabilization of working capital and margins [D02]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 25,
+    "why": "Reflects a premium beauty brand multiple, though constrained by governance and execution risks [D01, D04]"
+   },
+   "implied_irr_pct": {
+    "base": 12,
+    "bear": 5,
+    "bull": 18
+   },
+   "downside_case": "Permanent loss is unlikely given brand equity [D01], but multiple compression from 60x to 25-30x on depressed earnings creates significant short-term capital risk",
+   "valuation_verdict": "FULL_10_15",
+   "flagged_assumptions": [
+    "Normalization of earnings power to prior guidance levels [D02]",
+    "Assumed terminal multiple of 25x",
+    "Implied annual returns are estimates derived from guidance-driven recovery path [D02]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We lack an actionable path for engagement due to the dual-class share structure [D01, D04]. Investment success relies on the business self-correcting through the stabilization of Asia travel-retail [D01, D04] and the realization of earnings power to historical levels [D02], which would drive a re-rating of the current depressed earnings base.",
+   "levers_or_steps": [
+    "Normalization of Asia travel-retail traffic and channel inventory [D01, D04]",
+    "Successful integration of the Tom Ford acquisition to drive margin expansion [D01]",
+    "Stabilization of working capital and restoration of free cash flow conversion [D02]"
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our 3.0 era, we avoid activist campaigns in companies with restricted governance structures [D01, D04] and instead wait for intrinsic value to compound once cyclical headwinds, such as the volatility in travel-retail, subside [D01]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Asia travel-retail demand fails to show meaningful sequential improvement over two consecutive quarters",
+    "Management significantly increases leverage to fund further acquisitions",
+    "Operating margins do not recover toward historical levels as channel inventory normalizes",
+    "The Tom Ford integration results in material goodwill impairment or fails to provide identified synergies"
+   ],
+   "portfolio_fit": "This would be a new consumer-oriented holding; however, it lacks the governance profile and immediate valuation attractiveness typically required for our concentrated portfolio.",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "liquidity_assessment": "The stock is highly liquid, with a large market capitalization and significant daily trading volume sufficient for us to establish or exit a position without market impact [D03].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "We are unable to influence strategy due to the dual-class share structure, leaving us reliant on management to successfully navigate structural travel-retail volatility and justify the current elevated valuation."
+  }
+ },
+ "final": {
+  "as_of_date": "2023-05-05",
+  "company": "The Estée Lauder Companies Inc.",
+  "ticker": "EL",
+  "decision": "PASS",
+  "conviction": "medium",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "60.0-61.9x forward P/E",
+   "eps_path": "Normalized recovery to US$5.00-US$5.50 range",
+   "terminal_multiple": "25x",
+   "irr_pct": 12,
+   "downside_case": "Multiple compression on depressed earnings"
+  },
+  "drivers": [
+   {
+    "driver": "The company maintains a strong prestige brand portfolio with significant consumer loyalty and enduring market appeal [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Current performance is suffering from severe volatility in the Asia travel-retail channel and working-capital-related cash flow pressures [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The valuation at ~60x forward earnings is excessive, particularly given the high degree of uncertainty regarding whether recent guidance cuts represent a trough or a structural reset [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "A dual-class share structure effectively insulates management from external shareholder oversight, preventing the active engagement required for our investment model [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Asia travel-retail demand fails to show meaningful sequential improvement over two consecutive quarters",
+   "Management significantly increases leverage to fund further acquisitions",
+   "Operating margins do not recover toward historical levels as channel inventory normalizes",
+   "The Tom Ford integration results in material goodwill impairment or fails to provide identified synergies"
+  ],
+  "what_would_change_our_mind": "A significant improvement in the clarity of the normalized earnings path, combined with a valuation reset that provides an attractive risk-adjusted rate of return commensurate with the structural governance constraints.",
+  "memo": "The Estée Lauder Companies is a premier global prestige beauty business, commanding a portfolio of high-equity brands such as Estée Lauder, Clinique, and La Mer [D01]. These brands have historically demonstrated significant consumer loyalty and dominance in their respective categories [D01].\n\nHowever, the business is currently navigating a period of acute underperformance, characterized by volatile demand in Asia travel-retail and significant pressure on free cash flow conversion [D01, D02]. The market remains deeply conflicted about whether these headwinds are merely cyclical or indicative of a more persistent, structural challenge to the company's prior growth algorithm [D01, D03].\n\nFrom a valuation perspective, the recent reduction in fiscal year guidance has pushed the forward P/E multiple to a range of 60.0–61.9x [D02, D03]. Even assuming a recovery of EPS to the US$5.00–US$5.50 range, the current entry price leaves little margin for error in an environment of significant macro-sensitivity [D01, D02, D03].\n\nOur ability to drive value is fundamentally constrained by the company’s dual-class share structure, which provides controlling family influence and prevents the operational engagement we typically seek to unlock shareholder value [D01, D04]. Without a clear path to influence strategy, we must rely entirely on management’s execution during this period of significant volatility [D01, D04].\n\nWe assess the primary risks as continued channel inventory disruption and the potential for the US$2.25 billion Tom Ford acquisition to dilute margins during an already difficult operational period [D01, D04]. Should these execution risks materialize, the stock remains vulnerable to further multiple contraction [D03].\n\nGiven the combination of an elevated valuation, governance restrictions, and high sensitivity to external factors we cannot control, we have elected to pass on the investment [D01, D03, D04].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

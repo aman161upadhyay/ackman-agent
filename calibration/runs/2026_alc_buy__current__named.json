@@ -1,0 +1,254 @@
+{
+ "pack": "2026_alc_buy",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2026-06-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Alcon is an eye-care company operating in two primary segments: Surgical and Vision Care [D01]. The Surgical business encompasses equipment, procedure-related consumables, and implantables, while Vision Care includes contact lenses and ocular-health products like Systane and Tryptyr [D01].",
+   "segments_and_mix": [
+    "Surgical: ~$1.46 billion in Q1 2026 revenue [D01]",
+    "Vision Care: ~$1.225 billion in Q1 2026 revenue [D01]"
+   ],
+   "unit_economics": [
+    "Core operating margin was 21.2% in Q1 2026, compared to a 19.8% core margin for FY2025 [D02, D03]",
+    "Reported operating margin in Q1 2026 was 10.9% [D02, D03]",
+    "Surgical equipment creates recurring demand for consumables, though consumable capture is not guaranteed [D01]",
+    "FCF (company-defined) was $1.733 billion in FY2025 [D02]"
+   ],
+   "competitive_position": [
+    "Moat is based on installed workflows, clinical trust, product breadth, distribution, and scale [D01]",
+    "Competitors include CooperCompanies (CooperVision) and Bausch+Lomb [D06]",
+    "Market demand benefits from aging populations and prevalence of visual impairment, tempered by competition and reimbursement constraints [D01]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2025 sales were $10.319 billion [D02]",
+    "Q1 2026 sales grew 10% reported and 6% constant currency [D03]",
+    "Management guidance: 5-7% constant-currency sales growth and 10-13% constant-currency core EPS growth [D03]"
+   ],
+   "balance_sheet": [
+    "Net debt: $3.156 billion as of March 31, 2026 [D02]",
+    "Total financial debt: $4.734 billion [D02]"
+   ],
+   "management_and_governance": [
+    "CEO: David Endicott [D01]",
+    "Capital allocation: $848 million returned in 2025 (repurchases and dividends); $1.5 billion share repurchase program authorized May 2026 [D02, D03]"
+   ],
+   "price_and_valuation": [
+    "Price: $67.10 (June 30, 2026) [D04]",
+    "P/E (FY2025 reported): 33.9x [D04]",
+    "P/E (FY2025 core): 21.9x [D04]",
+    "FCF yield: 5.3% (based on FY2025 defined FCF) [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Revenue miss against consensus expectations [D03, D05]",
+    "Weak underlying growth in implantables (1% constant currency) [D03, D05]",
+    "Margin recovery credibility (reported vs. core margin gap) [D05]",
+    "Clinical and regulatory risk regarding AURN001 development [D05, D09]",
+    "Tariff impact and persistence of launch-related expenses [D03, D05]"
+   ],
+   "recent_events": [
+    "April 8, 2026: ASTRA Phase 3 trial for AURN001 initiated [D07]",
+    "May 5, 2026: Q1 2026 earnings release; raised core EPS growth guidance [D03]",
+    "May 6, 2026: Stock price declined following revenue miss [D05, D07]"
+   ],
+   "pershing_context": [
+    "Not in pack; no specific Alcon position or prior engagement identified [D08]"
+   ],
+   "missing_data": [
+    "Consistent ROIC series, detailed maintenance vs. growth capex split, and specific consensus forward P/E or EV/EBITDA multiples"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "Alcon operates with recurring revenue from surgical consumables and a stable base of vision care products, supporting predictable FCF generation [D01, D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company holds a dominant position supported by installed surgical workflows, clinical trust, and significant scale [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "PASS",
+     "evidence": "While subject to reimbursement constraints, the business is driven by secular trends in aging populations rather than cyclical commodity exposure [D01]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "With net debt of $3.156 billion and strong operational cash flow, the balance sheet is solid and investment-grade-like [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The company is self-funding, returning $848 million to shareholders in 2025 and authorizing a new $1.5 billion repurchase program [D02, D03]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With over $10 billion in annual revenue, the company provides sufficient liquidity for a meaningful position [D02]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The core P/E of 21.9x represents a reasonable entry for a high-quality franchise with double-digit core EPS growth guidance [D03, D04]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "Management has demonstrated commitment to shareholder returns and is actively managing margin expansion [D02, D03]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company benefits from long-term secular growth in eye care and projects 5-7% sales growth with 10-13% core EPS growth [D01, D03]."
+    }
+   },
+   "n_pass": 9,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant, recurring-revenue healthcare franchise with a clear secular growth runway and strong capital allocation."
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market is overly focused on a short-term revenue miss and modest implantables growth, viewing these as signs of weakening competitive positioning [D03, D05]. We believe the market fails to appreciate the durability of the recurring-revenue surgical consumables model and the transition toward margin expansion [D01, D02]. As management realizes operating leverage and the installed base continues to drive demand, the market will re-rate the stock toward its 10-13% core EPS growth potential [D03].",
+   "evidence": [
+    "Stock declined following a revenue miss despite raised core EPS growth guidance [D03, D05].",
+    "Core operating margin improved to 21.2% in Q1 2026 from 19.8% in FY2025 [D02, D03].",
+    "Dominant position maintained through installed clinical workflows and strong product breadth [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The market views recent revenue volatility and margin gaps as indicators of structural impairment to the Alcon franchise [D05].",
+   "what_must_be_true": [
+    "Operating margins continue to expand toward targets through disciplined cost management [D03].",
+    "The recurring revenue model of the surgical segment proves resilient to short-term implantable growth fluctuations [D01, D03].",
+    "Management successfully executes on the $1.5 billion share repurchase program to support EPS growth [D03]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "21.9x FY2025 core EPS vs S&P 500 historical average of ~21x [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2025",
+    "base_value": "FY2025 core EPS (derived from P/E 21.9x at $67.10 price ≈ $3.06) [D04]",
+    "growth_assumption": "12% CAGR constant-currency core EPS growth [D03]",
+    "year_3_to_5_value": "Year 3 EPS ≈ $4.30; Year 5 EPS ≈ $5.39",
+    "assumptions": [
+     "Management guidance of 10-13% core EPS growth [D03]",
+     "Operating margin expansion continues [D03]",
+     "$1.5 billion share repurchase program provides additional EPS support [D03]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 22,
+    "why": "Alcon is a dominant player in a predictable, high-moat industry; 22x is appropriate for a high-quality medical device compounder growing mid-teens."
+   },
+   "implied_irr_pct": {
+    "base": 21,
+    "bear": 8,
+    "bull": 26
+   },
+   "downside_case": "If the implantables business remains sluggish and margin expansion stalls, the multiple could contract to 16-18x; however, the recurring revenue from consumables and dominant market position limit permanent capital loss [D01, D03, D05].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "FY2025 core EPS of $3.06 derived from P/E and price [D04]",
+    "Assumed 12% growth rate based on management's 10-13% guidance [D03]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "Alcon is a high-quality compounder experiencing a market dislocation due to short-term revenue volatility and concerns over implantables growth [D03, D05]. As a dominant medical device franchise with strong recurring revenue, the stock will re-rate toward its 10-13% core EPS growth trajectory as margin expansion becomes more visible and the market gains confidence in management's 2026 outlook [D01, D03].",
+   "levers_or_steps": [
+    "Execute operating margin expansion from 19.8% in FY2025 toward target levels through disciplined cost management [D03].",
+    "Capitalize on the $1.5 billion share repurchase program to support EPS growth [D03].",
+    "Leverage dominant installed base to drive steady demand in surgical consumables [D01]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our 'Pershing Square 3.0' framework, we seek quality compounders bought on dislocations. Alcon meets our requirement for a dominant, free-cash-flow-generative business. As no specific operational crisis requiring external intervention is identified, we rely on organic earnings growth and multiple expansion through quiet engagement with management's stated goals."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management fails to achieve consistent margin expansion toward target levels over the next four quarters.",
+    "The surgical consumables attachment rate declines significantly, signaling a breakdown in the recurring revenue moat.",
+    "A catastrophic clinical or regulatory failure occurs regarding the AURN001 development program.",
+    "Capital allocation strategy pivots toward value-destructive M&A funded by excessive leverage."
+   ],
+   "portfolio_fit": "Alcon represents a high-quality, free-cash-flow-generative healthcare compounder that fits well within our 8-15 name concentrated book; it provides diversification away from our existing exposure to consumer and technology franchises, though we will monitor for factor overlap with other medical device holdings.",
+   "size_pct_nav": {
+    "initial": 4,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "Alcon is a large-cap entity with significant daily trading volume, allowing us to build an 8% position over several weeks to months while maintaining the ability to exit within a single quarter without excessive market impact [D02].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is a sustained erosion of the surgical consumables business model if competitor technology or clinical outcomes undermine our thesis on the company's long-term competitive dominance."
+  }
+ },
+ "final": {
+  "as_of_date": "2026-06-30",
+  "company": "Alcon",
+  "ticker": "ALC",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "special_situation": false,
+  "valuation": {
+   "entry_multiple": "21.9x FY2025 core EPS",
+   "eps_path": "10-13% annual constant-currency core EPS growth driven by margin expansion and share repurchases",
+   "terminal_multiple": "22x",
+   "irr_pct": 21,
+   "downside_case": "Multiple contraction to 16-18x if margin expansion stalls or implantable growth remains sluggish"
+  },
+  "drivers": [
+   {
+    "driver": "A dominant, recurring-revenue healthcare franchise with a clear secular growth runway in the aging population segment [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "We were able to acquire our stake at 21.9x core EPS, a discount to the intrinsic value of a high-quality compounder growing core EPS in the double digits [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Operating margins are expanding toward targets through disciplined cost management, rising to 21.2% in Q1 2026 [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Management's 10-13% core EPS growth algorithm is supported by operational leverage and a new $1.5 billion share repurchase program [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The market is overly focused on short-term revenue volatility and implantable growth, failing to appreciate the resilience of the recurring surgical consumables model [D01, D03, D05].",
+    "citations": [
+     "D01",
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management fails to achieve consistent margin expansion toward target levels over the next four quarters.",
+   "The surgical consumables attachment rate declines significantly, signaling a breakdown in the recurring revenue moat.",
+   "A catastrophic clinical or regulatory failure occurs regarding the AURN001 development program.",
+   "Capital allocation strategy pivots toward value-destructive M&A funded by excessive leverage."
+  ],
+  "what_would_change_our_mind": "Evidence that the surgical consumables model is structurally impaired by competitive technology or that long-term margins cannot reach our projected terminal level due to permanent pricing pressure.",
+  "memo": "Alcon is the global leader in eye care, operating a dominant surgical and vision care business characterized by high barriers to entry and strong recurring revenue [D01]. The company's installed surgical workflows and clinical trust create a durable moat that benefits from long-term secular growth in aging populations and the rising prevalence of visual impairment [D01]. We view Alcon as a high-quality compounder that meets our standard for a simple, predictable, and free-cash-flow-generative business [D01, D02].\n\nThe market’s recent reaction to a revenue miss has created an attractive entry point for a franchise that remains fundamentally strong [D03, D05]. Investors are overly focused on temporary volatility in implantables growth and reported margin gaps, while failing to value the underlying resilience of the consumables business and the progress in core operating margin expansion, which reached 21.2% in Q1 2026 [D01, D02, D03, D05].\n\nAt our entry valuation of 21.9x FY2025 core EPS, we believe the stock is mispriced relative to its 10-13% core EPS growth trajectory [D03, D04]. With management’s focus on disciplined margin expansion and the benefit of a $1.5 billion share repurchase program, we expect significant earnings power accretion over the next three to five years [D03]. We anticipate a re-rating of the multiple toward 22x as the company delivers on its 2026 outlook [D03].\n\nOur role is that of a long-term owner supporting management’s continued execution of their operational and capital allocation strategies [D03]. We expect the business to compound at a high rate as it leverages its installed base to drive steady demand for consumables while managing down its cost structure [D01, D03]. We maintain high conviction in the durability of this growth algorithm [D03].\n\nThe primary risks include a potential failure in the AURN001 program or a sustained deterioration in the surgical consumables capture rate [D05, D09]. We have established a target position of 8% of NAV to reflect our conviction in the company’s competitive dominance and its ability to navigate short-term extrinsic factors [D02].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

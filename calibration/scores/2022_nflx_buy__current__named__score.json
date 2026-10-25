@@ -1,0 +1,50 @@
+{
+ "trade_id": "2022_nflx_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 5,
+  "matched": [
+   "Margin leverage and improving free cash flow support both growth and distributions. → This shift is the catalyst that will transform the company into a dominant, free-cash-flow-generative machine [D03].",
+   "A trusted adaptive management team and high-performance culture can execute. → We do not require active intervention, as the management team led by Reed Hastings and Ted Sarandos has already committed to the necessary financial pivot toward self-funding and improved governance [D01, D03]."
+  ],
+  "missed": [
+   "Recurring subscriptions and the transition from linear viewing create substantial long-term growth.",
+   "Scale and content quality strengthen the moat.",
+   "The customer value proposition supports pricing power."
+  ],
+  "extra_agent_drivers": [
+   "Netflix is the dominant global streaming leader with 221.84 million paid memberships and significant scale advantages.",
+   "The recent 44.7% stock drawdown from its record high offers an attractive entry point at 34.4x trailing earnings for a high-quality compounder.",
+   "Market participants are overreacting to short-term subscriber volatility in Q1 guidance while ignoring the durability of the global platform."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Netflix is the preeminent global streaming platform, providing on-demand entertainment to over 221 million subscribers",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business model possesses significant barriers to entry through massive scale, proprietary content engagement, and a global reach",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We were able to acquire our stake at approximately 34.4x trailing earnings following a 44.7% drawdown",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 15,
+  "cited": 9,
+  "share": 0.6
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "While the market is fixated on near-term subscriber deceleration and weak Q1 guidance, it is failing to account for the transition from a debt-funded content strategy to a self-funded growth model [D03].",
+ "grader_notes": "The agent correctly identified the 'BUY' direction and captured two of the five drivers provided by Ackman, specifically regarding the financial pivot/FCF generation and the quality/alignment of the management team. The agent's reasoning diverged by focusing heavily on the technical aspects of the stock drawdown and specific valuation multiples, which were not drivers explicitly cited by Ackman in his 2022 letter.",
+ "run": "2022_nflx_buy__current__named"
+}

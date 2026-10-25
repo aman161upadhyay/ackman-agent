@@ -1,0 +1,250 @@
+{
+ "pack": "ctl_2019_ba_pass",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2019-03-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company designs and manufactures commercial aircraft, defense and space systems, and provides related services [D01]. Its commercial franchise benefits from engineering scale, certification requirements, a global supplier network and airlines' installed fleets [D01].",
+   "segments_and_mix": [
+    "Commercial aircraft: major revenue contributor with ~5,900 aircraft backlog [D01]",
+    "Defense and space systems: secondary earnings stream [D01]",
+    "Services: secondary earnings stream [D01]"
+   ],
+   "unit_economics": [
+    "2018 GAAP operating margin: 11.9% [D02]",
+    "2018 Operating cash flow: $15.322 billion [D02]",
+    "Capex intensity: $1.722 billion in 2018 property/equipment additions [D02]",
+    "FCF conversion: historical CFO less capex was ~$13.6 billion, though current cash generation is impaired by delivery interruptions [D02, D03]"
+   ],
+   "competitive_position": [
+    "Dominant commercial aircraft duopoly with Airbus as the principal competitor [D01]",
+    "Moat: formidable industrial barriers to entry, engineering scale, and established global installed fleet [D01, D05]"
+   ],
+   "growth_record_and_outlook": [
+    "2018 Revenue: $101.127 billion [D02]",
+    "2018 GAAP diluted EPS: $17.85 [D02]",
+    "2019 guidance (pre-grounding): $109.5–111.5 billion revenue, GAAP EPS $21.90–22.10, and $17.0–17.5 billion operating cash flow [D02]"
+   ],
+   "balance_sheet": [
+    "Net debt: ~$5.2 billion [D02]",
+    "Total consolidated debt: ~$13.8 billion [D02]",
+    "Liquidity: $8.6 billion in cash and marketable securities at year-end 2018 [D02]"
+   ],
+   "management_and_governance": [
+    "Not in pack"
+   ],
+   "price_and_valuation": [
+    "March 15, 2019 close: $378.99 [D03]",
+    "Market cap: indicative ~$222.2 billion [D03]",
+    "Drawdown: ~15.0% from observed high [D03]",
+    "P/E (trailing): 21.2x (GAAP) / 23.7x (core) [D03]",
+    "P/E (forward, pre-shock): 17.1–17.3x (GAAP) / 18.9–19.0x (core) [D03]",
+    "EV: ~$227.4 billion [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Regulatory grounding of the 737 MAX following two fatal crashes [D01]",
+    "Indefinite suspension of MAX deliveries causing working capital strain and inventory accumulation [D01, D04]",
+    "Uncertainty regarding engineering remedy, certification timing, and potential legal/customer liability [D01, D03, D04]"
+   ],
+   "recent_events": [
+    "March 10, 2019: Ethiopian Airlines crash [D01]",
+    "March 15, 2019: Reuters reports suspension of MAX deliveries and worldwide grounding [D01]"
+   ],
+   "pershing_context": [
+    "Not in pack"
+   ],
+   "missing_data": [
+    "Exact current share count",
+    "Specific cost ceiling/liability estimates for the 737 MAX grounding",
+    "Updated delivery schedules",
+    "Pershing Square's specific internal position or holdings data"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "While the business has high FCF conversion, current cash generation is significantly impaired and unpredictable due to the 737 MAX grounding and delivery interruptions [D02, D03]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company operates in a dominant commercial aircraft duopoly with formidable industrial barriers, engineering scale, and an established global installed fleet [D01, D05]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business is currently hostage to regulatory certification and severe safety-related liability, which represent significant extrinsic risks [D01, D03]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The balance sheet remains solid with $8.6 billion in cash against $13.8 billion in total debt, providing a buffer despite the operational strain [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "With $8.6 billion in liquidity, the company does not face an immediate need to issue equity or roll debt to survive the current crisis [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The market capitalization of ~$222.2 billion is well above the threshold for a concentrated position [D03]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock trades at a ~15% drawdown, with pre-shock forward P/E ratios of 17-19x appearing attractive for an industrial leader [D03]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "Information regarding management and governance is not in pack [D01]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The commercial aircraft segment benefits from a 5,900 aircraft backlog and secular demand for air travel [D01]."
+    }
+   },
+   "n_pass": 6,
+   "n_fail": 2,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant, mission-critical industrial franchise facing severe, temporary regulatory and reputational headwinds."
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market believes the 737 MAX crisis threatens the long-term viability and competitive standing of the company due to regulatory and liability risks [D01, D03]. We believe this is a temporary setback for a dominant duopolist with an essential product, where the engineering fix will eventually restore delivery flows and normalize earnings power [D01, D05].",
+   "evidence": [
+    "The company maintains a dominant duopoly position with formidable industrial barriers and a 5,900 aircraft backlog [D01, D05].",
+    "The business possesses a strong balance sheet with $8.6 billion in cash, providing a buffer during the temporary grounding [D02].",
+    "Pre-shock forward P/E ratios of 17-19x suggest the market is pricing in a permanent impairment that is inconsistent with the company's long-term competitive moat [D03]."
+   ],
+   "market_narrative_we_disagree_with": "The market views the 737 MAX grounding as a potentially existential threat that significantly impairs the intrinsic value of the commercial aircraft franchise [D01, D04].",
+   "what_must_be_true": [
+    "The engineering remedy for the 737 MAX is technically achievable and will be approved by regulators.",
+    "The company maintains its dominant duopoly market share once the fleet returns to service.",
+    "Legal and customer liabilities remain manageable within the company's liquidity profile and earnings capacity."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "17.3x 2019 pre-shock forward GAAP EPS vs 21.2x trailing GAAP EPS [D03]",
+   "eps_or_fcf_path": {
+    "base_year": "2018",
+    "base_value": "$17.85 EPS [D02]",
+    "growth_assumption": "Normalization of delivery flows post-MAX grounding and realization of 5,900 aircraft backlog [D01, D05]",
+    "year_3_to_5_value": "$28.00 - $32.00 normalized EPS",
+    "assumptions": [
+     "Return to pre-shock delivery capacity by 2021 [D01, D05]",
+     "Operating margins recover toward historical levels as inventory clears [D01, D02]",
+     "Effective management of legal and customer liabilities [D01, D03]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 20,
+    "why": "Reflects dominant duopoly position with high barriers to entry and long-term durable growth, balanced by moderate cyclical risk [D01, D05]"
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 28
+   },
+   "downside_case": "The bear case assumes prolonged grounding, significant loss of market share to Airbus, and massive permanent liability claims, potentially leading to equity impairment; however, the company's $8.6B cash position and dominant duopoly status mitigate risk of total permanent loss [D01, D02, D03]",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Exact share count not in pack; used market cap and share price to imply current valuation [D03]",
+    "Normalized earnings potential post-grounding is an estimate based on pre-shock growth trajectory [D02]",
+    "Liability costs are estimated as manageable relative to $8.6B liquidity [D02]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We are operating in the 'Pershing Square 3.0' era, where we identify high-quality compounders during market dislocations [instructions]. The catalyst here is the eventual regulatory re-certification of the 737 MAX and the resumption of deliveries, which will allow the company to monetize its 5,900 aircraft backlog and return to its historical earnings trajectory [D01, D05]. We expect a market re-rating as the perception of existential risk fades and the business reverts to its core identity as a dominant, free-cash-flow-generative duopolist [D01, D03].",
+   "levers_or_steps": [
+    "Regulatory approval of the 737 MAX engineering fix [D01]",
+    "Normalization of production and delivery flows to clear working capital tied up in inventory [D01, D02]",
+    "Successful management of legal and customer liabilities within the existing $8.6B liquidity profile [D02, D03]"
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our 2018-2023 'Pershing Square 3.0' era, we focus on quality compounders bought on dislocations without engaging in public activism or shorts. As this is a dominant industrial franchise with a temporary, fixable headwind, our role is to remain long and allow the intrinsic value to compound once the market's fear subsides [instructions]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent revocation of 737 MAX airworthiness certification by global regulators.",
+    "Material loss of long-term commercial aircraft market share to Airbus (e.g., persistent <40% backlog share).",
+    "Legal liabilities or customer compensation requirements exceeding $20 billion, threatening the balance sheet solvency.",
+    "Management failure to maintain the industrial moat, specifically losing dominance in large commercial aircraft production."
+   ],
+   "portfolio_fit": "This is a high-conviction, large-cap industrial investment that provides defensive exposure to secular aviation growth. It fits the Pershing Square 3.0 strategy of buying quality compounders during temporary, manageable dislocations without necessitating activism. It does not conflict with existing holdings, though it increases sector concentration in industrial/infrastructure-adjacent businesses.",
+   "size_pct_nav": {
+    "initial": 4,
+    "target": 8,
+    "max": 12
+   },
+   "liquidity_assessment": "The company is a mega-cap, highly liquid security with a ~$222 billion market capitalization, allowing for a substantial position to be built and exited efficiently within current liquidity profiles [D03].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that the regulatory and safety-related crisis surrounding the 737 MAX results in significantly higher-than-anticipated liability costs or a permanent loss of competitive standing in the aircraft duopoly."
+  }
+ },
+ "final": {
+  "as_of_date": "2019-03-15",
+  "company": "The Company",
+  "ticker": "BA",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "17.3x 2019 pre-shock forward GAAP EPS",
+   "eps_path": "$28.00 - $32.00 normalized EPS within 3-5 years",
+   "terminal_multiple": "20x",
+   "irr_pct": 22,
+   "downside_case": "Prolonged grounding, significant market share loss, and liability costs exhausting the $8.6B liquidity buffer."
+  },
+  "drivers": [
+   {
+    "driver": "The Company operates in a dominant, high-barrier-to-entry commercial aircraft duopoly with a substantial 5,900 aircraft backlog [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "We have acquired our stake at a 17.3x pre-shock forward GAAP EPS multiple, representing a 15% drawdown due to temporary regulatory fears [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The 737 MAX grounding is a temporary operational disruption that does not impair the long-term intrinsic value of the franchise [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Normalized EPS growth will be driven by the clearing of the 5,900 aircraft backlog and the resumption of deliveries once the engineering fix is certified [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent revocation of 737 MAX airworthiness certification by global regulators.",
+   "Material loss of long-term commercial aircraft market share to Airbus (e.g., persistent <40% backlog share).",
+   "Legal liabilities or customer compensation requirements exceeding $20 billion, threatening the balance sheet solvency.",
+   "Management failure to maintain the industrial moat, specifically losing dominance in large commercial aircraft production."
+  ],
+  "what_would_change_our_mind": "Evidence that the 737 MAX engineering issues are systemic and unfixable, or that liability costs will fundamentally destroy the company’s capital-light competitive advantages.",
+  "memo": "The Company is a dominant, free-cash-flow-generative industrial leader that controls one-half of the global commercial aircraft duopoly [D01, D05]. With a backlog of 5,900 aircraft and essential engineering scale, the business possesses the long-term durability and predictability that meet our investment standards [D01, D05].\n\nThe market has currently panicked due to the 737 MAX grounding, viewing a temporary engineering and regulatory hurdle as an existential threat to the company’s competitive moat [D01, D03, D04]. We believe the market is wrong; this is a fixable, albeit serious, regulatory setback for a mission-critical franchise, not a permanent impairment of intrinsic value [D01, D03].\n\nWe have initiated this position at a 17.3x pre-shock forward GAAP EPS multiple, a valuation that significantly under-reflects the normalized earning power of the company [D03]. Assuming a return to historical delivery levels, we project normalized EPS of $28.00–$32.00 in the coming years, suggesting an IRR of approximately 22% based on a 20x exit multiple [D02, D03].\n\nThe catalyst for value realization is the eventual regulatory re-certification of the 737 MAX and the subsequent clearing of the inventory that has constrained cash flows [D01, D02, D05]. Our role is to remain patient as these operational flows normalize, knowing that the company’s $8.6 billion liquidity position provides a sufficient buffer to manage the current liabilities [D02, D03].\n\nRisks include a prolonged grounding or liability costs that could threaten the balance sheet, though these remain unlikely given the company’s entrenched duopoly position [D01, D02, D03]. Should legal or regulatory risks materialize beyond our $20 billion stress-test ceiling, we would reconsider the position [D02, D03].\n\nWe are sizing this at 8% of NAV, reflecting our high conviction in the recovery of this compounder despite the current market dislocation [D03, D05]. We view this as a rare opportunity to own a world-class, dominant franchise at a mid-teens multiple of its future earnings potential [D03].",
+  "uncited_claims": [
+   "The Company is a rare opportunity to own a world-class, dominant franchise at a mid-teens multiple of its future earnings potential."
+  ]
+ },
+ "elapsed_s": 0
+}

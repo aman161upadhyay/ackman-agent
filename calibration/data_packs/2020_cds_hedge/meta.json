@@ -1,0 +1,12 @@
+{
+  "id": "2020_cds_hedge",
+  "company": "US and European credit-index protection",
+  "ticker": "CDX/iTraxx",
+  "aliases": ["COVID credit hedge"],
+  "as_of_date": "2020-02-24",
+  "mode": "hedge",
+  "era": "D",
+  "first_action_window": "Late February 2020; exact inception day unverified. March 3 disclosure and all March statements excluded.",
+  "pershing_aum_usd_bn": 7.0192,
+  "notes": "AUM field is January 31 strategy NAV, not gross assets or CDS notional. End-of-day February 24 information allowed; not an intraday inception reconstruction. Exact CDS execution terms and historical spread series unavailable."
+}

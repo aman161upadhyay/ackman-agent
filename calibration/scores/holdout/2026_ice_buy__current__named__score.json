@@ -1,0 +1,49 @@
+{
+ "trade_id": "2026_ice_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Integrated exchange/clearing liquidity and margin-offset economics defend core franchises. → ICE is a dominant market infrastructure franchise with significant network effects in clearing and energy derivatives, generating 65% consolidated operating margins [D01, D03].",
+   "Perpetual-futures and AI fears overstate risk to the dominant profit pools; mortgage normalization is additional upside. → The market is mispricing ICE due to temporary fears regarding perpetual crypto futures, providing an entry point at an attractive 17.7x adjusted 2025 EPS [D04, D05].",
+   "Approximately17x entry versus25x a year earlier plus capital return supports attractive prospective compounding. → The market is mispricing ICE due to temporary fears regarding perpetual crypto futures, providing an entry point at an attractive 17.7x adjusted 2025 EPS [D04, D05]."
+  ],
+  "missed": [
+   "Energy hedging, volatility and established institutional contract needs support growth."
+  ],
+  "extra_agent_drivers": [
+   "CEO Jeffrey Sprecher has a proven track record of effective capital allocation, returning capital via dividends and buybacks while expanding the business [D01, D02]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "ICE functions as a critical utility for global capital markets that is difficult to replicate",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market is currently overreacting to the potential impact of CFTC-approved perpetual crypto futures",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "ICE continues to demonstrate 20% year-over-year revenue growth as of Q1 2026",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "The market is currently overreacting to the potential impact of CFTC-approved perpetual crypto futures, which we believe will have a negligible long-term effect on ICE’s core, high-barrier businesses [D05, D07].",
+ "grader_notes": "The agent correctly identified the investment direction and captured the core thesis regarding the perpetual futures 'scare' and the attractive entry valuation. The reasoning regarding mortgage technology normalization also aligns well with Ackman's stated drivers. The agent missed the specific nuance of energy hedging/contract needs as a growth pillar, instead attributing growth more broadly to data services and capital allocation.",
+ "run": "2026_ice_buy__current__named",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

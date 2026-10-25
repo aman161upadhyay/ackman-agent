@@ -1,0 +1,252 @@
+{
+ "pack": "2021_umg_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2021-06-03",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a leading global recorded-music and music-publishing business currently under Vivendi [D01]. Its operations involve developing artists, owning and licensing recorded music and compositions, and monetizing this intellectual property across physical, digital, and performance channels [D01].",
+   "segments_and_mix": [
+    "Recorded Music: Not explicitly quantified as % of revenue [D01]",
+    "Music Publishing: Not explicitly quantified as % of revenue [D01]",
+    "Merchandising/Other: Not explicitly quantified as % of revenue [D01]"
+   ],
+   "unit_economics": [
+    "EBITA margin: 15.0% (2018), 15.7% (2019), 17.9% (2020) [D02]",
+    "FCF conversion: Not explicitly defined; reported operating cash flow before tax was negative €69 million in Q1 2021 [D02, D03]",
+    "Capex intensity: Requires ongoing investment in artists, marketing, and content [D01, D05]",
+    "Pricing power: Dependent on rights administration, talent relationships, and platform bargaining [D01, D05]"
+   ],
+   "competitive_position": [
+    "Market rank: Leading global business [D01]",
+    "Moat evidence: Deep catalog, prominent artists, and scale in marketing/distribution [D01, D05]",
+    "Peers: Warner Music Group, Sony Music [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "Revenue growth: 18.9% (2019 actual), 3.8% (2020 actual) [D02]",
+    "Streaming growth: 16.2% (2020 recorded-music subscription/streaming constant currency) [D01]",
+    "Outlook: Industry growth supported by paid streaming adoption [D01, D06]"
+   ],
+   "balance_sheet": [
+    "Net debt: Not in pack",
+    "Leverage: Not in pack",
+    "Maturities: Not in pack",
+    "Rating: Not in pack"
+   ],
+   "management_and_governance": [
+    "CEO: Lucian Grainge [D01]",
+    "Controller: Vivendi (proposing 60% distribution, retaining 10%) [D01, D07]",
+    "Governance proposal: One share/one vote, no poison pill, majority-independent board [D01, D07]"
+   ],
+   "price_and_valuation": [
+    "Price: No public share price (pre-listing) [D04]",
+    "Market cap: Implied €30 billion EV based on Tencent-led 20% investment [D04]",
+    "Valuation multiples: 4.04x 2020 revenue and 22.6x 2020 EBITA based on €30bn EV [D04]",
+    "Drawdown: Not applicable (unlisted) [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Separation/Transaction terms: Potential for inadequate minority-shareholder treatment (Bluebell) [D05]",
+    "Platform bargaining: Potential for streaming platforms/artists to capture growth [D05]",
+    "Cash timing: Negative quarterly operating cash flow before tax [D03, D05]",
+    "Repertoire risk: Reliance on artist contracts and hit risk [D03, D05]"
+   ],
+   "recent_events": [
+    "2021-04-22: Q1 revenue release [D03]",
+    "2021-05-18: Update on proposed spin-off/listing by September 27 [D01, D07]",
+    "2021-05-25: Reports of activist investor (Bluebell) demanding cash dividend [D05]"
+   ],
+   "pershing_context": [
+    "Fund AUM: PSH core funds total AUM $13.562 billion (Feb 2021) [D07]",
+    "Holdings: Not in pack",
+    "Cash: Not in pack",
+    "Existing stake: Not in pack",
+    "Prior engagement: Not in pack"
+   ],
+   "missing_data": [
+    "Standalone CFO, net debt, capex, tax rates, diluted EPS, and consensus forecasts; verified June 3 entry terms."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The business relies on hit-driven artist contracts and entails recurring investment in marketing and content, with negative operating cash flow observed in Q1 2021 [D01, D03, D05]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "It is a leading global music player with a deep catalog, strong distribution scale, and network effects in artist development [D01, D05]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "The business is sensitive to bargaining dynamics with streaming platforms and evolving artist rights, which are critical external factors [D05]."
+    },
+    "strong_financial_profile": {
+     "score": "UNSURE",
+     "evidence": "Relevant financial data including net debt, leverage ratios, and debt maturity profiles are not in pack [D08]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "UNSURE",
+     "evidence": "Standalone financial position and capital requirements post-spin-off are unclear as the company is currently under Vivendi [D01, D08]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The implied enterprise value of €30 billion is sufficiently large for a concentrated Pershing Square position [D04, D07]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "Current valuation at 22.6x EBITA is based on a pre-listing transaction and requires deeper analysis of standalone free cash flow conversion [D04, D08]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "The proposed governance structure includes a one-share/one-vote policy and a majority-independent board post-listing [D01, D07]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "Industry growth is supported by a secular tailwind from increased paid streaming adoption [D01, D06]."
+    }
+   },
+   "n_pass": 4,
+   "n_fail": 1,
+   "n_unsure": 4,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant global music intellectual property business with significant secular growth tailwinds, though currently constrained by hit-dependency and lack of standalone financial transparency."
+  },
+  "gate2": {
+   "templates": [
+    "T3",
+    "T5"
+   ],
+   "variant_perception": "The market views this as a complex spin-off with governance uncertainty and hit-driven financial volatility, potentially causing a discount at listing [D01, D05, D07]. We believe the market fails to properly value the dominant, recurring nature of the music royalty intellectual property, which benefits from long-term secular growth in streaming [D01, D06]. The listing process and the separation from Vivendi will resolve governance concerns and unlock the asset's standalone value [D01, D07].",
+   "evidence": [
+    "The company is a global leader in music IP with growing revenue from streaming [D01, D06].",
+    "Governance risks are being addressed via the proposed one-share/one-vote structure and independent board [D01, D07].",
+    "The spin-off creates a clear, standalone entity [D01]."
+   ],
+   "market_narrative_we_disagree_with": "The market is overly focused on short-term hit-driven cash flow volatility and headline-grabbing activist demands for dividends, while underestimating the durability of the music catalog [D03, D05].",
+   "what_must_be_true": [
+    "The music catalog continues to provide stable, growing royalty streams independent of specific artist performance.",
+    "The separation from Vivendi proceeds without governance dilution.",
+    "Streaming growth continues to outpace potential platform-bargaining compression."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "22.6x 2020 EBITA based on €30bn EV vs S&P 500 historical average of ~16x [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2020",
+    "base_value": "€30bn EV [D04]",
+    "growth_assumption": "Mid-to-high single digits based on secular streaming adoption and catalog monetization [D01, D06]",
+    "year_3_to_5_value": "Not in pack: Requires standalone projections for EPS/FCF",
+    "assumptions": [
+     "Industry streaming growth continues to outpace platform compression [D01]",
+     "Standalone EBITA margins expand from 17.9% level [D02]",
+     "Conversion of EBITA to FCF improves post-separation [D03, D05]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 22,
+    "why": "Reflects the dominant, recurring nature of music royalty IP as a high-quality compounder, partially offset by governance and hit-driven volatility risks [D01, D05, D07]"
+   },
+   "implied_irr_pct": {
+    "base": 18,
+    "bear": 8,
+    "bull": 25
+   },
+   "downside_case": "If platform bargaining power compresses margins or catalog growth stalls, the premium multiple contracts significantly toward 15-18x EBITA, resulting in potential permanent loss of capital given the high entry valuation [D05, D06]",
+   "valuation_verdict": "ADEQUATE_15_20",
+   "flagged_assumptions": [
+    "Standalone EPS/FCF data not in pack",
+    "Net debt and tax rate assumptions are absent, requiring reliance on EV-to-EBITA proxy",
+    "Long-term margin expansion projections are not explicitly modeled in pack documents"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "The listing process and the separation from Vivendi will resolve governance concerns and unlock the asset's standalone value, allowing the market to properly value the recurring nature of its music royalty IP [D01, D07].",
+   "levers_or_steps": [
+    "Resolution of the Vivendi spin-off/listing by September 27, 2021 [D01, D07].",
+    "Realization of a re-rating as the market shifts from viewing the company as a complex subsidiary to a standalone high-quality compounder [D01, D06].",
+    "Expansion of standalone EBITA margins through operational focus post-separation [D02, D03]."
+   ],
+   "time_to_value_realisation_years": 2,
+   "why_this_role_fits_the_era": "In the Pershing Square 3.0 era, we focus on quality compounders where the business quality and secular growth tailwinds provide the primary path to value creation; the spin-off serves as a sufficient catalyst to normalize the valuation of a dominant global IP asset [D01, D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Streaming platform revenue share shifts significantly against label interests",
+    "Failure to transition to standalone governance as proposed in the spin-off",
+    "Sustained inability to convert EBITA to free cash flow due to excessive content/A&R investment requirements"
+   ],
+   "portfolio_fit": "The position would fit the 'quality compounder' bucket within the Pershing Square 3.0 portfolio, providing exposure to secular digital growth, though it risks doubling down on media/entertainment factors if other portfolio holdings share similar consumer-spending sensitivities.",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 5,
+    "max": 8
+   },
+   "liquidity_assessment": "Given the implied €30 billion valuation, the stock should be highly liquid upon listing, allowing for a position build within a few months without undue market impact [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The lack of standalone financial transparency and the reliance on future streaming bargaining power create uncertainty regarding the sustainability of the required free cash flow generation."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-06-03",
+  "company": "Universal Music Group",
+  "ticker": "UMG",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [
+   "T3"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "22.6x 2020 EBITA",
+   "eps_path": "Mid-to-high single digit growth driven by streaming adoption",
+   "terminal_multiple": "22x",
+   "irr_pct": 18,
+   "downside_case": "Multiple contraction to 15-18x EBITA if growth stalls or platform power compresses margins"
+  },
+  "drivers": [
+   {
+    "driver": "UMG is a dominant global leader in music intellectual property with a vast catalog and strong market position [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The secular tailwind of paid music streaming provides a durable runway for long-term growth [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The spin-off from Vivendi acts as a catalyst to resolve governance concerns and unlock standalone valuation [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "We see an opportunity to acquire a high-quality compounder that the market misprices due to short-term hit-driven volatility [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Streaming platform revenue share shifts significantly against label interests",
+   "Failure to transition to standalone governance as proposed in the spin-off",
+   "Sustained inability to convert EBITA to free cash flow due to excessive content/A&R investment requirements"
+  ],
+  "what_would_change_our_mind": "Evidence of consistent, robust standalone free cash flow generation and the successful implementation of the independent governance structure post-listing.",
+  "memo": "The Company represents a premier global music intellectual property business, commanding a leadership position through a deep, durable catalog and significant scale in artist development [D01, D05]. It meets our standard for a high-quality compounder, underpinned by the secular growth of paid streaming which continues to drive industry-wide expansion [D01, D06].\n\nThe opportunity arises from the upcoming separation from Vivendi, a transaction the market has complicated with concerns regarding governance and short-term, hit-driven financial volatility [D01, D05, D07]. We believe the market fails to properly appreciate the recurring, royalty-like nature of the catalog, which provides a level of predictability that is currently obscured by its status as a Vivendi subsidiary [D01, D06].\n\nBased on an implied enterprise value of €30 billion, the business trades at approximately 22.6x 2020 EBITA [D04]. While this valuation reflects its quality, we project mid-to-high single-digit earnings growth, aiming for an internal rate of return that could exceed 20% in our bull case [D01, D06].\n\nThe spin-off process serves as our primary catalyst, expected to resolve governance uncertainties and allow the market to re-rate the entity as a standalone asset [D01, D07]. We anticipate that the adoption of a one-share/one-vote structure and a majority-independent board will provide the necessary alignment for long-term shareholder value [D01, D07].\n\nRisks include potential compression of margins by powerful streaming platforms and the inherent difficulty in forecasting standalone free cash flow given the current reliance on content investment [D03, D05]. We must ensure that the transition to an independent company confirms our thesis on the sustainability of royalty cash flows [D05].\n\nWe have decided to PASS on this investment at this time. Despite the high quality of the underlying assets, the lack of standalone financial transparency and the hard-fail on current cash flow predictability lead us to exercise caution until further data becomes available post-listing.",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

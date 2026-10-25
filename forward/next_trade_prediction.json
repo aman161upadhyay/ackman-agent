@@ -1,0 +1,137 @@
+{
+ "as_of_date": "2026-10-25",
+ "base_rate_note": "Pershing Square historically initiates 1-4 new positions annually; while 2026 was unusually active due to new vehicle capital raises, the current environment emphasizes deployment into library compounders on dislocation rather than aggressive expansion [L415, L416].",
+ "candidates": [
+  {
+   "action": "NEW_BUY",
+   "citations": [
+    "[L104]",
+    "[L505]",
+    "[L508]",
+    "[L514]"
+   ],
+   "company": "Autodesk",
+   "probability_90d": 0.35,
+   "rank": 1,
+   "size_pct_nav": 5,
+   "template": "T1",
+   "thesis_paragraph": "Autodesk is a dominant software franchise with high switching costs and a capital-light business model that fits perfectly within our library of quality compounders [L514]. The market's fear regarding AI-driven disintermediation is misplaced; the company's established design workflows create deep defensive moats that our analysis suggests will be reinforced, not replaced, by AI integration [L514]. At current levels, the valuation dislocation offers an attractive opportunity to initiate a position in a simple, predictable business with high free-cash-flow conversion [L104, L514].",
+   "ticker": "ADSK",
+   "trigger": "A 21.2% drawdown driven by market concerns over AI disruption of design workflows [L505, L506].",
+   "valuation": "19.40x forward P/E, IRR > 20% [L508].",
+   "what_would_confirm": "Form 13F for 31-Dec holdings (filed 16 Feb 2027) or a Q4 portfolio update [L423]."
+  },
+  {
+   "action": "NEW_BUY",
+   "citations": [
+    "[L104]",
+    "[L120]",
+    "[L522]",
+    "[L531]"
+   ],
+   "company": "Copart",
+   "probability_90d": 0.25,
+   "rank": 2,
+   "size_pct_nav": 4,
+   "template": "T1",
+   "thesis_paragraph": "Copart represents a classic network-effect business with dominant share in the salvage auction market [L531]. While recent integration costs and fluctuations in salvage volumes have spooked investors, the structural economics of the business remain intact and highly FCF-generative [L104, L531]. We view this drawdown as temporary and unwarranted, allowing us to build a meaningful stake at an entry multiple that is compelling relative to its historical performance [L120, L531].",
+   "ticker": "CPRT",
+   "trigger": "35.9% drawdown attributed to salvage-unit growth concerns and integration costs [L522, L523].",
+   "valuation": "17.85x forward P/E, IRR > 20% [L525].",
+   "what_would_confirm": "Form 13F for 31-Dec holdings (filed 16 Feb 2027) [L423]."
+  },
+  {
+   "action": "NEW_BUY",
+   "citations": [
+    "[L104]",
+    "[L121]",
+    "[L665]",
+    "[L674]"
+   ],
+   "company": "Alphabet",
+   "probability_90d": 0.2,
+   "rank": 3,
+   "size_pct_nav": 6,
+   "template": "T1",
+   "thesis_paragraph": "Having previously owned Alphabet, we understand the business deeply and its durable advantages in the digital advertising and search ecosystem [L674]. Recent market volatility stemming from AI-related search and capex anxiety has created an opportunity to re-enter this dominant, capital-light compounder [L104, L674]. We believe the long-term earnings trajectory is robust, and the current multiple fails to reflect the intrinsic value of its core franchises [L121, L674].",
+   "ticker": "GOOG",
+   "trigger": "21.6% drawdown due to AI search and capex concerns [L665, L666].",
+   "valuation": "23.39x forward P/E, IRR > 20% [L668].",
+   "what_would_confirm": "Form 13F for 31-Dec holdings (filed 16 Feb 2027) [L423]."
+  },
+  {
+   "action": "NEW_BUY",
+   "citations": [
+    "[L184]",
+    "[L488]",
+    "[L497]"
+   ],
+   "company": "Booking Holdings",
+   "probability_90d": 0.15,
+   "rank": 4,
+   "size_pct_nav": 5,
+   "template": "T4",
+   "thesis_paragraph": "Booking Holdings operates a highly capital-light demand aggregation model that remains a leader in the travel industry [L497]. We disagree with the market's current narrative that AI agents will successfully disintermediate its travel moat [L497]. The distribution economics in the travel sector are robust, and we believe the current pricing gap provides a substantial margin of safety for a business that continues to execute well [L184, L497].",
+   "ticker": "BKNG",
+   "trigger": "29.4% drawdown caused by AI agent disintermediation fears [L488, L489].",
+   "valuation": "14.01x forward P/E, IRR > 20% [L491].",
+   "what_would_confirm": "Form 13F for 31-Dec holdings (filed 16 Feb 2027) [L423]."
+  },
+  {
+   "action": "NEW_BUY",
+   "citations": [
+    "[L184]",
+    "[L594]",
+    "[L603]"
+   ],
+   "company": "Zoetis",
+   "probability_90d": 0.1,
+   "rank": 5,
+   "size_pct_nav": 4,
+   "template": "T1",
+   "thesis_paragraph": "Zoetis remains a high-quality leader in animal health and is a known quantity within our library [L603]. The recent valuation dislocation is a response to clinic demand headwinds which we judge to be temporary rather than structural [L603]. We are comfortable re-underwriting the firm's normalized earnings power and believe the current price offers an asymmetric risk-reward profile for a long-term compounder [L184, L603].",
+   "ticker": "ZTS",
+   "trigger": "45.2% drawdown from weak clinic demand [L594, L595].",
+   "valuation": "13.12x forward P/E, IRR > 20% [L597].",
+   "what_would_confirm": "Form 13F for 31-Dec holdings (filed 16 Feb 2027) [L423]."
+  }
+ ],
+ "existing_position_changes": [
+  {
+   "action": "ADD",
+   "citations": [
+    "[L541]",
+    "[L549]"
+   ],
+   "company": "S&P Global",
+   "probability_90d": 0.4,
+   "reason_class": "THESIS_ON_TRACK_ADD",
+   "ticker": "SPGI",
+   "why": "The 18.5% drawdown driven by macro volatility and AI fears allows us to add to a high-quality data and ratings business we know intimately [L541, L549]."
+  },
+  {
+   "action": "ADD",
+   "citations": [
+    "[L630]",
+    "[L639]"
+   ],
+   "company": "Meta Platforms",
+   "probability_90d": 0.35,
+   "reason_class": "THESIS_ON_TRACK_ADD",
+   "ticker": "META",
+   "why": "We continue to view the market's AI capital expenditure anxiety as a temporary mispricing of a dominant, capital-light advertising franchise [L630, L639]."
+  }
+ ],
+ "expected_new_positions_next_90_days": 1.2,
+ "scoring_plan": "Aman should score this in early 2027 by evaluating whether the logic of 'dislocation-driven quality purchases' was maintained. Decision fidelity should be measured by comparing observed additions to the 'library' criteria (e.g., did they buy a non-Pershing company with <15% drawdown, or one that was levered/acquisition-heavy?). Unobserved positions as of the final pack date are not 'wrong,' but the reasoning for why a trade was NOT taken (e.g., waiting for deeper price drops in a specific sector) should be held against the eventual disclosures.",
+ "single_most_likely_next_trade": {
+  "action": "ADD",
+  "company": "S&P Global",
+  "one_paragraph_why": "Given Pershing Square's deep intimacy with S&P Global and our confidence in its ratings and index franchises, the current 18.5% drawdown provides an ideal opportunity for an add-on trade [L539, L549]. We view the recent price pressure as reflecting broader AI/macro sentiment rather than an impairment of intrinsic value, making this the most efficient path for deploying capital during periods of index-wide volatility [L540, L549].",
+  "probability_90d": 0.4,
+  "ticker": "SPGI"
+ },
+ "uncited_claims": [
+  "The 2026/2027 market outlook remains influenced by political stability and resolution of conflicts."
+ ]
+}

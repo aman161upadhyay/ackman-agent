@@ -1,0 +1,56 @@
+{
+ "trade_id": "2023_googl_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 4,
+  "matched": [
+   "Search intent and distribution underpin a durable advertising franchise → The company maintains a durable competitive advantage through its unparalleled search scale, massive data ecosystem, and high-margin advertising franchise [D01].",
+   "Proprietary data, technical AI capabilities and optimized infrastructure support adaptation rather than inevitable displacement → We believe this narrative ignores Google's capacity to integrate AI into its existing search ecosystem and its foundational advantages in scale and user habit [D01, D05].",
+   "The market overestimated the disruption threat from generative AI → The market has mispriced the impact of generative AI, fearing existential disruption from conversational search models [D05].",
+   "YouTube, Cloud and operating efficiency offer additional earnings levers → Our investment thesis rests on a normalized 12% annual EPS growth trajectory as ad markets recover and Cloud profitability scales [D01, D03]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Disciplined capital allocation and recent cost-efficiency initiatives driving margin expansion."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company maintains a durable competitive advantage through its unparalleled search scale, massive data ecosystem, and high-margin advertising franchise.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "With $99,061 million in net cash and a history of significant capital returns, the firm maintains one of the strongest balance sheets in the world.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market has mispriced the impact of generative AI, fearing existential disruption from conversational search models.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We target an IRR exceeding 20% based on multiple expansion and disciplined long-term earnings growth.",
+    "citation": "D03",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Alphabet requires no active turnaround but will benefit from our patience as management navigates this transition period.",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 15,
+  "cited": 8,
+  "share": 0.53
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "The market has mispriced the impact of generative AI, fearing existential disruption from conversational search models [D05].",
+ "grader_notes": "The agent's reasoning is highly aligned with Ackman's retrospective analysis, correctly identifying the core pillars of search durability and the overblown AI threat narrative. The agent provides a robust, evidence-backed thesis that captures all key drivers specified in the answer key while adding relevant financial context on capital allocation.",
+ "run": "2023_googl_buy__current__named"
+}

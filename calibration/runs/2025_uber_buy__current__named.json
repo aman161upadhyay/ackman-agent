@@ -1,0 +1,245 @@
+{
+ "pack": "2025_uber_buy",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2025-01-06",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Uber is a global marketplace connecting consumers with drivers, couriers, and merchants through technology [D01]. It operates three reporting segments: Mobility, Delivery, and Freight [D01].",
+   "segments_and_mix": [
+    "Mobility: $21,002 million bookings [D01]",
+    "Delivery: $18,663 million bookings [D01]",
+    "Freight: $1,308 million bookings [D01]"
+   ],
+   "unit_economics": [
+    "Mobility adjusted EBITDA margin: 8.0% of bookings [D01]",
+    "Delivery adjusted EBITDA margin: 3.4% of bookings [D01]",
+    "Capex intensity: Low physical capex [D02]",
+    "FCF conversion: $5,189 million nine-month FCF generated from operating cash flow [D02]"
+   ],
+   "competitive_position": [
+    "161 million monthly active consumers [D01]",
+    "Network effect: Density advantage where supply reduces waits and demand improves earnings opportunities [D01]",
+    "Peers: Lyft (North American rides) and DoorDash (delivery) [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "2023 revenue growth: 17% [D02]",
+    "Q3 2024 revenue growth: 20% [D02]",
+    "Management guidance: Expects 20% constant-currency bookings growth for full-year 2024 [D03]"
+   ],
+   "balance_sheet": [
+    "Long-term debt: $10,986 million [D02]",
+    "Cash and short-term investments: $9,063 million [D02]",
+    "Rating: First investment-grade debt issuance occurred in 2024 [D07]"
+   ],
+   "management_and_governance": [
+    "CEO: Dara Khosrowshahi [D01]",
+    "Strategy: Profitable growth, new products, advertising, and autonomous-vehicle partnerships [D01]",
+    "Capital allocation: $7 billion share-repurchase program authorized in Feb 2024 [D07]"
+   ],
+   "price_and_valuation": [
+    "Price (Jan 6, 2025): $66.31 [D04]",
+    "Illustrative FCF yield: ~5.0% [D04]",
+    "Valuation context: Recently GAAP profitable; long earnings-multiple history unavailable [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Robotaxi distribution risk: Autonomous operators potentially bypassing the marketplace [D05]",
+    "Insurance costs: Rising expenses pressuring margins [D05]",
+    "Regulatory/legal: Changes to independent worker status [D05]"
+   ],
+   "recent_events": [
+    "Sept 2024: Expanded Waymo partnership for Austin/Atlanta [D07]",
+    "Oct 2024: Reported $1B GAAP operating income for the first time [D03]",
+    "Dec 2024: GM stopped funding Cruise robotaxi development [D07]"
+   ],
+   "pershing_context": [
+    "No verified Uber-specific Ackman recommendation in pack [D08]",
+    "Portfolio strategy: Preference for durable franchises, recurring economics, and simple, predictable cash-flow-generative businesses [D08]"
+   ],
+   "missing_data": [
+    "Consensus forward EPS, forward P/E, and historical EV/EBITDA multiples",
+    "Precise 52-week high/low data",
+    "Complete firm-level cash position as of Jan 6, 2025"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable": {
+     "score": "UNSURE",
+     "evidence": "While Uber benefits from network effects, the business faces significant regulatory and competitive risks regarding labor classification and autonomous vehicle disruption that complicate long-term predictability [D01], [D05]."
+    },
+    "fcf_generative_capital_light": {
+     "score": "PASS",
+     "evidence": "The company exhibits low physical capex intensity and generated $5,189 million in free cash flow during the first nine months of the year [D02]."
+    },
+    "dominant_durable_moat": {
+     "score": "PASS",
+     "evidence": "Uber maintains a strong competitive position with 161 million monthly active consumers and a significant network effect advantage in local markets [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business model is highly sensitive to regulatory changes concerning independent contractor status and rising insurance costs [D05]."
+    },
+    "strong_balance_sheet": {
+     "score": "PASS",
+     "evidence": "The company has achieved an investment-grade debt rating and maintains a solid liquidity position with $9,063 million in cash and short-term investments [D02], [D07]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "Management has successfully pivoted the company toward profitable growth and initiated a significant $7 billion share-repurchase program [D01], [D07]."
+    },
+    "size_liquidity": {
+     "score": "PASS",
+     "evidence": "Uber is a massive, highly liquid global company with a market presence sufficient for a core Pershing Square position [D01]."
+    },
+    "growth_runway": {
+     "score": "PASS",
+     "evidence": "The company continues to demonstrate strong momentum with 20% constant-currency bookings growth and a focus on expanding into new products and autonomous-vehicle partnerships [D01], [D03]."
+    }
+   },
+   "n_pass": 6,
+   "n_fail": 1,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "one_line_business_quality_verdict": "a dominant, capital-light global marketplace benefiting from powerful network effects, though facing non-trivial regulatory and autonomous-disruption risks."
+  },
+  "gate2": {
+   "templates": [
+    "T4"
+   ],
+   "variant_perception": "The market fears that autonomous vehicle technology will commoditize Uber's marketplace and allow operators to bypass it entirely, leading to margin compression. We believe this narrative is overstated, as Uber's scale, density, and local network effects provide a superior distribution platform that autonomous operators will ultimately need to achieve economic viability and reach consumers. As AV partnerships evolve and the marketplace proves its necessity for demand aggregation, the market will re-rate the business as a persistent, high-margin software-enabled aggregator rather than a vulnerable labor-dependent intermediary [D01], [D05], [D07].",
+   "evidence": [
+    "The market narrative assumes autonomous operators will compete with the Uber marketplace rather than use it as a distribution channel [D05].",
+    "Recent expansion of partnerships with Waymo suggests Uber is becoming the preferred marketplace for AV deployment [D07].",
+    "Uber's network density and 161 million monthly active consumers provide a unique moat that remains difficult for fragmented AV operators to replicate independently [D01]."
+   ],
+   "market_narrative_we_disagree_with": "Robotaxi operators will disintermediate Uber and destroy its marketplace model [D05].",
+   "what_must_be_true": [
+    "Uber successfully integrates autonomous fleets into its platform without ceding control of the consumer interface",
+    "The marketplace remains the most cost-effective way for AV operators to reach scale in local markets",
+    "Regulatory headwinds regarding independent contractor status do not result in a prohibitive increase in the cost of human labor before AV adoption scales"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "implied FCF yield ~5.0% (approx 20x P/FCF) [D04]; historical earnings multiples unavailable [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2024",
+    "base_value": "$6.9B (annualized 9-month $5.189B FCF [D02])",
+    "growth_assumption": "15% CAGR based on 20% bookings growth [D03] and improving operating leverage [D03]",
+    "year_3_to_5_value": "$12.0B - $13.9B",
+    "assumptions": [
+     "Bookings grow 20% in 2024 [D03]",
+     "FCF conversion improves as margins expand from 8%/3.4% [D01]",
+     "Management focus on profitable growth [D01]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 25,
+    "why": "Dominant marketplace with network effects justifies a premium multiple as it transitions to a high-margin, software-enabled aggregator."
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 28
+   },
+   "downside_case": "Marketplace disintermediation by AV fleets or regulatory reclassification of drivers causes margin collapse; permanent loss unlikely due to strong balance sheet [D02] and platform optionality.",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Used 9-month FCF to annualize full-year 2024 base [D02]",
+    "Assumed 15% FCF growth based on 20% bookings guidance [D03]",
+    "Market/Peer multiples for comparison are not in pack [D04]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "Uber is a high-growth, capital-light compounder whose intrinsic value will grow through consistent free cash flow expansion and the successful integration of autonomous vehicle fleets into its existing marketplace [D01], [D02]. We expect a market re-rating as investors recognize Uber as an essential, high-margin software-enabled aggregator rather than a labor-dependent intermediary, leading to multiple expansion toward 25x FCF [D01], [D07].",
+   "levers_or_steps": [
+    "Scale bookings growth at 20% CAGR [D03]",
+    "Expand operating margins through marketplace efficiencies and advertising revenue [D01]",
+    "Maintain capital-light model while leveraging autonomous vehicle partnerships like Waymo [D01], [D07]",
+    "Execute authorized $7 billion share repurchase program to enhance per-share value [D07]"
+   ],
+   "time_to_value_realisation_years": 5,
+   "why_this_role_fits_the_era": "In our Pershing Square 3.0 era, we focus on high-quality, free-cash-flow-generative compounders. Uber represents a dominant global marketplace; as it transitions from a growth-stage company to a mature software-enabled utility, our primary role is to monitor the business's execution and capitalize on market misperceptions regarding AV-related disruption without the need for public activism [D01], [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Regulatory reclassification of drivers as employees in key markets resulting in a permanent structural margin decline",
+    "Failure to successfully integrate autonomous vehicle fleets, leading to market share loss to direct-to-consumer robotaxi networks",
+    "Bookings growth decelerates below 10% for two consecutive quarters, signaling market saturation or loss of competitive intensity"
+   ],
+   "portfolio_fit": "Fits the Pershing Square 3.0 profile as a dominant, capital-light compounder with strong network effects; overlaps with consumer-facing platforms but provides unique exposure to the global mobility and logistics marketplace.",
+   "size_pct_nav": {
+    "initial": 4,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "Uber is a mega-cap, highly liquid global company; a position of this size can be established and exited within a quarter without significant market impact [D01].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The potential for structural disintermediation of the marketplace by autonomous vehicle operators or prohibitive increases in labor costs due to regulatory intervention."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-01-06",
+  "company": "Uber Technologies",
+  "ticker": "UBER",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T4"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "implied FCF yield ~5.0% (approx 20x P/FCF)",
+   "eps_path": "15% CAGR based on 20% bookings growth and operating leverage",
+   "terminal_multiple": "25x FCF",
+   "irr_pct": 22,
+   "downside_case": "Marketplace disintermediation by AV fleets or regulatory reclassification of drivers causing structural margin collapse."
+  },
+  "drivers": [
+   {
+    "driver": "Uber is a dominant, capital-light global marketplace that benefits from powerful local network effects, connecting 161 million monthly active consumers with drivers and merchants [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "We are acquiring our stake at an attractive ~5% implied FCF yield, a discount for a business generating massive cash flow while maintaining a strong, investment-grade balance sheet [D02], [D04], [D07].",
+    "citations": [
+     "D02",
+     "D04",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Management has successfully pivoted the firm toward profitable growth, evidenced by the first $1 billion GAAP operating income quarter and a $7 billion share-repurchase program [D03], [D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The market incorrectly fears that autonomous vehicle fleets will disintermediate the marketplace, whereas we believe Uber will be the essential, high-margin software-enabled aggregator for AV operators [D01], [D05], [D07].",
+    "citations": [
+     "D01",
+     "D05",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Regulatory reclassification of drivers as employees in key markets resulting in a permanent structural margin decline",
+   "Failure to successfully integrate autonomous vehicle fleets, leading to market share loss to direct-to-consumer robotaxi networks",
+   "Bookings growth decelerates below 10% for two consecutive quarters, signaling market saturation or loss of competitive intensity"
+  ],
+  "what_would_change_our_mind": "A fundamental breakdown in the marketplace's ability to maintain take-rates due to either regulatory enforcement that destroys the gig-economy model or a total technological bypass by AV OEMs that renders our aggregation platform obsolete.",
+  "memo": "Uber is a dominant global marketplace that possesses the rare combination of massive scale and network-effect-driven density, connecting 161 million monthly active consumers across its Mobility and Delivery segments [D01]. The business is increasingly capital-light, generating significant free cash flow and demonstrating clear operating leverage as it matures into a software-enabled utility [D01], [D02].\n\nWe believe the current market valuation offers an attractive entry point because investors are fixated on the wrong risks. The market narrative suggests that autonomous vehicle operators will disintermediate Uber and destroy its marketplace model [D05]. We view this differently: Uber’s scale and local network density make it the most logical and efficient distribution channel for any autonomous fleet [D01]. Recent partnerships, such as those with Waymo, validate our view that Uber will serve as the essential aggregator in the future mobility landscape [D07].\n\nValuation is compelling at an implied FCF yield of approximately 5%, which we expect to expand as the company executes on its 20% bookings growth trajectory and continues to scale margins [D01], [D03], [D04]. With the recent authorization of a $7 billion share-repurchase program, management is clearly committed to enhancing per-share value [D07]. We project a high-teens to low-twenties IRR as the market re-rates the company from a growth-stage intermediary to a high-margin, durable aggregator with a terminal multiple of 25x FCF.\n\nOur role is that of a long-term capital partner. We will monitor the business's integration of autonomous assets and its ability to navigate regulatory headwinds without requiring public intervention [D01]. Our decision is to initiate a position representing 8% of NAV, reflecting our high conviction in the business’s durable growth and the strength of its competitive moat.",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

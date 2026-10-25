@@ -1,0 +1,20 @@
+{
+  "id": "2024_bn_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Approximately 3% initial reported position; 6,854,510 shares / approximately $285m at June30 2024; substantially enlarged in Q3. Exact initial-day NAV weight unknown.",
+  "first_action_date": "2024-04-11",
+  "disclosure_date": "2024-08-14",
+  "reason_class": null,
+  "opportunity_template": ["T3", "T4"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Holding-company complexity created a discount to underlying economic value.", "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03 retrospective)", "quote": "the complexity of BN’s holding company structure"},
+    {"driver": "BAM supplies capital-light recurring fee earnings and growth.", "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03 retrospective)", "quote": null},
+    {"driver": "Bruce Flatt and his team are strong long-term capital allocators.", "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03 retrospective)", "quote": null},
+    {"driver": "Insurance growth and future carried interest add value not captured by simple current multiples.", "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03 retrospective)", "quote": null}
+  ],
+  "entry_valuation_stated": "We acquired our interest at 11 times distributable earnings (2024 annual report; forward/manager basis differs from pack's trailing calculations).",
+  "outcome_note": "Position enlarged in2024; +3.5 percentage points 2025 gross NAV contribution; open June2026.",
+  "pack_quality_notes": "75%, not later73%, is the contemporaneously evidenced underlying-manager ownership. Subsequent split-adjusted Yahoo price normalized to original share units without adding later corporate events to pack. Historical three-year DE/EPS supplied; full parent FCF/capex/ROIC and forward peer multiples unavailable. NAV component values are management estimates, not independent valuations."
+}

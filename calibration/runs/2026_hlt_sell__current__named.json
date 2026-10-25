@@ -1,0 +1,38 @@
+{
+ "pack": "2026_hlt_sell",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2026-01-15",
+ "stages": {},
+ "final": {
+  "as_of_date": "2026-01-15",
+  "company": "Hilton Worldwide Holdings",
+  "ticker": "HLT",
+  "decision": "TRIM",
+  "reason_class": "S3",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Fee-based model: intact, continues to demonstrate resiliency via system net room growth [D02], [D04]",
+   "Development pipeline: intact, with 515,400 rooms in backlog supporting growth visibility [D02], [D04]",
+   "Management execution: intact, with sustained capital-light strategy and cost discipline [D02], [D04]",
+   "Valuation: broken/stretched, trading at ~37.7x FY2025 EPS guidance, a significant increase from the 23x multiple noted in 2019 [D05], [D10]"
+  ],
+  "forward_irr_estimate_pct": 10,
+  "valuation_now": "37.7x midpoint of FY2025 adjusted EPS guidance [D05]",
+  "drivers": [
+   {
+    "driver": "The valuation has reached a level where prospective returns likely fall below our 15% annual threshold, necessitating a reallocation to higher-return opportunities.",
+    "citations": [
+     "D05",
+     "D09"
+    ]
+   }
+  ],
+  "memo": "Hilton remains an exceptional, capital-light, free-cash-flow-generative business with durable growth prospects and a high-quality management team [D02]. Our fundamental thesis regarding its resilient fee-based model and the power of its development pipeline remains intact, as evidenced by the company's ability to grow adjusted EBITDA by 8% in the third quarter despite a decline in comparable RevPAR [D04], [D10].\n\nHowever, we must remain disciplined regarding valuation. At a share price of $301.86, the stock trades at approximately 37.7 times the midpoint of its 2025 adjusted EPS guidance [D05]. This valuation is a material departure from the 23 times earnings multiple at which we initially underwrote the position in 2019 [D05], [D10]. While the business quality is high, the current price leaves little margin for error, especially given recent RevPAR headwinds and the ongoing burden of elevated debt levels used to fund repurchases [D05], [D06].\n\nAs managers of permanent capital, our goal is to maximize long-term compounding. When the forward IRR of an existing holding dips below our required threshold of approximately 15% due to multiple expansion, we must evaluate whether those assets are better deployed elsewhere [D09], [D10]. Because we are nimble and have access to other opportunities in our portfolio that may offer superior asymmetric return profiles, we have decided to trim our position in Hilton to capture gains and reallocate capital [D09].",
+  "uncited_claims": [
+   "We have a fiduciary duty to our shareholders to recycle capital from fully valued compounders into assets with higher expected rates of return."
+  ]
+ },
+ "elapsed_s": 0
+}

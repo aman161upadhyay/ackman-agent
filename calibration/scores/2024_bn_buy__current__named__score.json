@@ -1,0 +1,52 @@
+{
+ "trade_id": "2024_bn_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Holding-company complexity created a discount to underlying economic value → The market has mispriced the company as a distressed real estate entity, ignoring the high-quality, recurring fee-generative nature of its asset management and insurance businesses",
+   "BAM supplies capital-light recurring fee earnings and growth → The market has mispriced the company as a distressed real estate entity, ignoring the high-quality, recurring fee-generative nature of its asset management and insurance businesses",
+   "Bruce Flatt and his team are strong long-term capital allocators → Management's track record of 12% annual growth in DE before realizations and a stated 15%+ return target are supported by accretive capital allocation"
+  ],
+  "missed": [
+   "Insurance growth and future carried interest add value not captured by simple current multiples."
+  ],
+  "extra_agent_drivers": [
+   "We are able to initiate a position at a substantial 47% discount to management's internal plan value, providing an attractive margin of safety for a quality compounder"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Brookfield is a dominant, diversified global allocator of capital with a massive moat built on specialized operating expertise in real assets and deep institutional relationships",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market has mispriced the company as a distressed real estate entity",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are able to initiate a position at a substantial 47% discount to management's internal plan value",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management's track record of 12% annual growth in DE before realizations",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 8,
+  "share": 0.67
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We believe this discount is a mispricing of the firm’s sophisticated asset management and insurance franchises, which continue to demonstrate growth despite broader macro headwinds [D01, D03].",
+ "grader_notes": "The agent correctly identified the investment thesis as a conglomerate/holding company discount play driven by high-quality recurring earnings and strong management, which aligns with Ackman's retrospective logic. It missed the specific driver regarding future carried interest as a source of hidden value. Reasoning overlap is strong (3/4) and the direction is correct.",
+ "run": "2024_bn_buy__current__named"
+}

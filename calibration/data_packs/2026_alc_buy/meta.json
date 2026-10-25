@@ -1,0 +1,12 @@
+{
+  "id": "2026_alc_buy",
+  "company": "Alcon",
+  "ticker": "ALC",
+  "aliases": ["Alcon Inc.", "Alcon eye care"],
+  "as_of_date": "2026-06-30",
+  "mode": "new",
+  "era": "E",
+  "first_action_window": "Exact first day unresolved. June30 freeze conservatively precedes primary-source-bounded later window; timing correction sealed in key.",
+  "pershing_aum_usd_bn": 19.748,
+  "notes": "AUM is dated February9 gross core-fund scale, not June buying power. Q1 May5 results and April8 ASTRA announcement included; subsequent trial status and August results excluded. Core franchise separated from developmental cell-therapy option."
+}

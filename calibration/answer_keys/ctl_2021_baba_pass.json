@@ -1,0 +1,17 @@
+{
+  "id": "ctl_2021_baba_pass",
+  "actual_decision": "PASS",
+  "conviction": "high",
+  "size_pct_nav": 0,
+  "first_action_date": null,
+  "disclosure_date": null,
+  "reason_class": null,
+  "decision_basis": "Constructed discipline control; not proof Ackman actually rejected Alibaba or categorically rejects Chinese investments.",
+  "drivers": [
+    {"driver": "Regulatory changes and offshore/VIE enforceability can dominate the value reaching ADS holders; ordinary shareholder activism cannot control them.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf (2015-03-24)", "quote": "extrinsic factors we cannot control"},
+    {"driver": "A profitable commerce engine is not sufficient if future shareholder rights, merchant rules and distributable cash cannot be forecast narrowly enough. No independently bounded special-situation payoff established.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf", "quote": "simple, predictable, free-cash-flow generative businesses"}
+  ],
+  "ackman_public_statement": "none found — discipline control",
+  "outcome_note": "No later earnings, policy changes or share returns used. The rule is controllable/predictable shareholder economics, not a blanket geographic ban. Strong cash and network advantages are real counterevidence; a specially justified bounded option could be different.",
+  "sources": ["https://www.sec.gov/newsroom/speeches-statements/gensler-2021-07-30", "https://www.sec.gov/Archives/edgar/data/1577552/000110465921065916/tm2116252d1_ex99-1.htm", "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf"]
+}

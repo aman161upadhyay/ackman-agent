@@ -1,0 +1,20 @@
+{
+  "id": "2020_cds_hedge",
+  "actual_decision": "BUY_PROTECTION",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "$27 million premiums/commissions across funds; not notional or maximum planned carrying cost. Exact peak notional and entry NAV weight unknown.",
+  "first_action_date": "2020-02 (late month; exact day unknown)",
+  "disclosure_date": "2020-03-03",
+  "reason_class": null,
+  "opportunity_template": ["T7"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Pandemic interruption risk was not adequately reflected in credit protection pricing.", "source": "https://assets.pershingsquareholdings.com/2020/04/06175615/Pershing-Square-Holdings-Ltd.-2019-Annual-Report.pdf (2020-04-06)", "quote": null},
+    {"driver": "Limited premiums offered an unusually asymmetric potential stress payoff.", "source": "https://assets.pershingsquareholdings.com/2020/04/06175615/Pershing-Square-Holdings-Ltd.-2019-Annual-Report.pdf (2020-04-06)", "quote": null},
+    {"driver": "Protect concentrated quality-equity holdings without forced liquidation.", "source": "https://assets.pershingsquareholdings.com/2020/04/06175615/Pershing-Square-Holdings-Ltd.-2019-Annual-Report.pdf (2020-04-06)", "quote": null},
+    {"driver": "Create liquidity to redeploy into attractive long investments when risk repriced.", "source": "https://assets.pershingsquareholdings.com/2020/04/06175615/Pershing-Square-Holdings-Ltd.-2019-Annual-Report.pdf (2020-04-06)", "quote": null}
+  ],
+  "entry_valuation_stated": "Manager characterized late-February US/European index protection as unusually inexpensive. Exact spread, series, tenor and execution range unverified.",
+  "outcome_note": "Unwind began March 12 and finished March 23; $2.6 billion gross proceeds across funds, approximately $2.1 billion PSH. Not $2.6 billion net profit. March 18 interview occurred after inception and after unwind began.",
+  "pack_quality_notes": "Seven hedge-specific documents. Primary WHO/CDC facts, dated market reports and portfolio NAV; exact credit spread/term-sheet data missing, a material gap. No invented notional, premium surface or future March information. Macro thesis codes are descriptive, not forced equity T/C categories."
+}

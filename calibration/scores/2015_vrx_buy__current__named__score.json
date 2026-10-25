@@ -1,0 +1,50 @@
+{
+ "trade_id": "2015_vrx_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Expected efficient cost structure, low tax burden and disciplined capital allocation to compound cash earnings → Management’s disciplined track record of converting GAAP earnings into robust cash flow to rapidly deleverage the balance sheet post-acquisition"
+  ],
+  "missed": [
+   "Viewed existing assets as bought at a modest discount, but compounding through future acquisitions as the major source of additional intrinsic value.",
+   "Trusted Pearson and the acquisition/operating playbook after working together during the Allergan campaign.",
+   "Mistake: highly acquisitive complexity made the result unusually dependent on managerial execution and judgment."
+  ],
+  "extra_agent_drivers": [
+   "A decentralized pharmaceutical platform that generates significant free cash flow by prioritizing disciplined, acquisition-led capital allocation over speculative, high-cost R&D.",
+   "The business possesses a diversified portfolio with no single product exceeding 4% of revenue, underpinned by strong physician relationships and established brands.",
+   "Strong organic growth, with core segments achieving 16% and Bausch + Lomb 8% as of Q4 2014, demonstrating the underlying health of the franchise.",
+   "The market mischaracterizes Valeant’s model as unsustainable financial engineering, failing to appreciate the superior economics of its high-margin, capital-light platform."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "2014 GAAP operating cash flow of US$2,294.7M significantly outstripping net income of US$913.5M",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "core segments achieving 16% and Bausch + Lomb 8% as of Q4 2014",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "23.7x 2014 Cash EPS",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 16,
+  "cited": 10,
+  "share": 0.63
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "Valeant is a best-in-class, decentralized pharmaceutical platform that has radically redefined industry standards by substituting inefficient, speculative R&D with a disciplined, capital-allocation-focused acquisition strategy [D01].",
+ "grader_notes": "The agent correctly matches the direction (BUY) but misses the specific qualitative drivers Ackman cited in retrospectives, such as the reliance on Pearson's personal track record and the specific view of assets being bought at a discount. The agent focuses heavily on contemporary fundamental performance metrics (organic growth, cash flow conversion) rather than the specific Ackman thesis drivers of management trust and acquisitive compounding.",
+ "run": "2015_vrx_buy__current__named"
+}

@@ -1,0 +1,43 @@
+{
+ "pack": "2026_hlt_sell",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2026-01-15",
+ "stages": {},
+ "final": {
+  "as_of_date": "2026-01-15",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "TRIM",
+  "reason_class": "S3",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Fee-based model: intact, with demonstrated resilience in Q3 [D02], [D10]",
+   "Development pipeline: intact, with 515,400 rooms in backlog [D02], [D04]",
+   "Management execution: intact, with continued focus on capital-light growth [D02], [D10]",
+   "Valuation: changed; stock trades at 37.7x FY2025 EPS guidance, significantly higher than the 23x multiple in 2019 [D05], [D10]"
+  ],
+  "forward_irr_estimate_pct": 10,
+  "valuation_now": "37.7x FY2025 adjusted EPS guidance of $8.015 [D05]",
+  "drivers": [
+   {
+    "driver": "The current valuation at nearly 38x earnings significantly compresses prospective IRRs compared to our 20% hurdle for new capital.",
+    "citations": [
+     "D05",
+     "D10"
+    ]
+   },
+   {
+    "driver": "Persistent RevPAR weakness and macro headwinds necessitate a more conservative outlook for long-term compounding.",
+    "citations": [
+     "D06",
+     "D10"
+    ]
+   }
+  ],
+  "memo": "We remain admirers of the Company as a dominant, fee-generative franchise [D02], [D10]. The business model has proven its resilience, generating 8% adjusted EBITDA growth in Q3 despite a 1.1% decline in system-wide comparable RevPAR [D04], [D10]. The capital-light nature of the brand-distribution loop and the robust development pipeline remain key pillars of our thesis [D02], [D10].\n\nHowever, at a share price of $301.86, the stock trades at approximately 37.7x the midpoint of 2025 adjusted EPS guidance [D05]. This valuation is a material step-up from the 23x multiple at which we initially underwrote the investment [D05], [D10]. While the franchise is excellent, we cannot ignore that the market is now fully capitalizing a long runway of growth, leaving little room for error should macroeconomic headwinds—such as tariff uncertainty or continued soft travel demand—persist [D06], [D10].\n\nOur investment mandate is to achieve high rates of return, and at these levels, the prospective IRR is unlikely to meet our 15-20% thresholds [D10]. We are choosing to trim our position to reallocate capital toward opportunities offering more attractive asymmetric profiles. We remain disciplined in our valuation; owning a great business at any price is not the Pershing Square way [D05], [D10].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

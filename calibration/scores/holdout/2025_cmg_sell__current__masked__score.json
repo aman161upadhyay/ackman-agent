@@ -1,0 +1,48 @@
+{
+ "trade_id": "2025_cmg_sell",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Struggles under the successor management team clouded the earnings forecast. → While the company remains a high-quality franchise with a significant unit-growth runway, the departure of Brian Niccol introduces a critical period of management transition and execution uncertainty that was not present in our original thesis"
+  ],
+  "missed": [
+   "The distribution of potential future outcomes became too wide for concentrated ownership.",
+   "Remaining franchise quality and a long development runway were insufficient to offset the reduced forecast confidence; this was not a claim of permanent brand destruction."
+  ],
+  "extra_agent_drivers": [
+   "We are reallocating capital toward opportunities with more predictable return profiles and higher expected IRRs in our current portfolio"
+  ]
+ },
+ "discipline": "PARTIAL",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The departure of the prior CEO introduces management transition uncertainty.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Recent data indicates a material weakening in consumer visit frequency.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Three downward revisions to sales forecasts occurred in 2025.",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 2,
+  "share": 0.22
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "While the company remains a high-quality franchise with a significant unit-growth runway, the departure of Brian Niccol introduces a critical period of management transition and execution uncertainty that was not present in our original thesis.",
+ "grader_notes": "The agent correctly identified the management transition as a key driver of uncertainty, aligning with Ackman's perspective. However, the agent failed to capture the core driver regarding the 'wide distribution of potential outcomes' and instead focused on specific performance data and portfolio reallocation strategy, resulting in a PARTIAL match.",
+ "run": "2025_cmg_sell__current__masked",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

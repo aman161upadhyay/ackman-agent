@@ -1,0 +1,21 @@
+{
+  "id": "2021_umg_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "10% UMG stake/~$4bn across funds/co-investors eventually; not solely PSH or a 10% NAV weight. Initial funds tranche7.1% August2021.",
+  "first_action_date": "2021-06 (PSTH proposal); funds commitment July and initial settlement August",
+  "disclosure_date": "2021-06-04",
+  "reason_class": null,
+  "opportunity_template": ["T3", "T5"],
+  "catalyst_role": "C1",
+  "drivers": [
+    {"driver": "Leading global music-rights/catalog platform acts as a royalty on growing consumption.", "source": "https://assets.pershingsquareholdings.com/2022/03/29140526/Pershing-Square-Holdings-Ltd.-2021-Annual-Report.pdf (2022-03-29)", "quote": null},
+    {"driver": "Paid streaming penetration and improved monetization offer a long runway.", "source": "https://assets.pershingsquareholdings.com/2022/03/29140526/Pershing-Square-Holdings-Ltd.-2021-Annual-Report.pdf (2022-03-29)", "quote": null},
+    {"driver": "Repeat licensing, scale and operating leverage support capital-light cash growth.", "source": "https://assets.pershingsquareholdings.com/2022/03/29140526/Pershing-Square-Holdings-Ltd.-2021-Annual-Report.pdf (2022-03-29)", "quote": null},
+    {"driver": "Lucian Grainge and patient ownership align with long-duration compounding.", "source": "https://assets.pershingsquareholdings.com/2022/03/29140526/Pershing-Square-Holdings-Ltd.-2021-Annual-Report.pdf (2022-03-29)", "quote": null},
+    {"driver": "Negotiated pre-listing ownership and separation can unlock independent valuation.", "source": "https://www.sec.gov/Archives/edgar/data/1811882/000119312521181943/d172721dex991.htm (2021-06-04)", "quote": null}
+  ],
+  "entry_valuation_stated": "Proposed €35bn EV; eventual average negotiated €18.27/share per2026 presentation, not listing opening quote. These terms excluded from June3pack.",
+  "outcome_note": "PSTH did not complete ownership; obligations moved to funds after SEC concerns. Funds acquired10%, trimmed March2025 and exited June2026 after rejected proposal. Overall profitable per sale reporting; exact audited lifetime P&L unknown.",
+  "pack_quality_notes": "Seven documents. Strictly excludes June4-confirmed terms even from articles initially dated June3 but updated Friday. Uses2018-20 UMG EBITA/revenue, May18Q1 EBIT/cash, Tencent€30bn anchor and industry/Warner data. Standalone EPS, netdebt, fullFCF and peer multiples unavailable beforecutoff."
+}

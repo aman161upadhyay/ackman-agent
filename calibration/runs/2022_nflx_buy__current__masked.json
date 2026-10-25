@@ -1,0 +1,261 @@
+{
+ "pack": "2022_nflx_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2022-01-24",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company provides on-demand streaming entertainment including film and television through subscriptions, supported by a small legacy DVD business [D01]. It operates a global platform that leverages scale to spread high content costs across an expanding paid membership base [D01].",
+   "segments_and_mix": [
+    "US/Canada: 42.9% of Q4 revenue [D01]",
+    "Europe/Middle East/Africa: 32.7% of Q4 revenue [D01]",
+    "Latin America: 12.5% of Q4 revenue [D01]",
+    "Asia-Pacific: 11.3% of Q4 revenue [D01]"
+   ],
+   "unit_economics": [
+    "Operating margin 21% in 2021 [D02]",
+    "FCF breakeven in 2021 [D02]",
+    "Pricing power is variable; US/Canada ARPU grew 9% YoY while India prices were reduced [D05]",
+    "High capex/content spend intensity required to maintain scale [D01][D02]"
+   ],
+   "competitive_position": [
+    "Market leader with 221.84 million paid memberships [D01]",
+    "Competitive landscape includes Disney+ (118.1m subscribers) and HBO/HBO Max (73.8m) [D06]",
+    "Moat is derived from scale and operating leverage, but faces low switching barriers and content inflation [D01][D05]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2021 revenue grew 19% YoY; operating profit grew 35% [D02]",
+    "Paid net additions slowed to 18 million in 2021 from 37 million in 2020 [D03]",
+    "Management forecasts Q1 2022 net additions of 2.5 million [D03]"
+   ],
+   "balance_sheet": [
+    "Net debt approximately $9.365 billion [D02]",
+    "Long-term debt $14.693 billion [D02]",
+    "Content obligations $23.161 billion [D02]"
+   ],
+   "management_and_governance": [
+    "Co-CEOs Reed Hastings and Ted Sarandos [D01]",
+    "Prospective governance reforms proposed for next annual meeting include board declassification and removal of supermajority provisions [D01]",
+    "Capital allocation focuses on content production, acquisitions (e.g., Roald Dahl Story Company), and debt management [D02][D07]"
+   ],
+   "price_and_valuation": [
+    "Price $387.15 (Jan 24, 2022) [D04]",
+    "Market cap ~$171.69 billion [D04]",
+    "Trailing P/E 34.4x [D04]",
+    "EV/EBIT 29.2x based on FY2021 results [D04]",
+    "Drawdown from November record high is 44.7% [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Weak Q1 subscriber growth guidance [D03][D05]",
+    "Intensifying competition from rivals like Disney+ and HBO Max [D05]",
+    "Saturation in mature markets [D05]",
+    "Margin pressure from currency headwinds and content costs [D03][D05]",
+    "Cash flow generation lagging behind net income [D02][D05]"
+   ],
+   "recent_events": [
+    "January 20, 2022: Reported Q4 results and weak Q1 guidance [D03]",
+    "January 21-24, 2022: Shares declined ~24% over two trading sessions [D04][D07]",
+    "Q4 2021: Acquired Roald Dahl Story Company [D07]"
+   ],
+   "pershing_context": [
+    "Fund AUM (PSH) $14.156 billion as of Nov 2021 [D08]",
+    "Holdings include Lowe's, Chipotle, Hilton, Restaurant Brands, Howard Hughes, Domino's [D08]",
+    "No disclosed prior engagement with the Company [D08]"
+   ],
+   "missing_data": [
+    "Normalized annual free cash flow forecast",
+    "Forward consensus P/E multiples",
+    "Detailed segment operating margins"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The business requires high capital expenditure on content to maintain scale and only reached free cash flow breakeven in 2021, failing the requirement for predictable, high-margin cash flow [D01][D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company is a market leader with 221.84 million paid memberships and derives its moat from global scale and operating leverage [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "Performance is highly sensitive to currency headwinds and intensifying competition from well-capitalized rivals like Disney+ and HBO Max [D05]."
+    },
+    "strong_financial_profile": {
+     "score": "FAIL",
+     "evidence": "The balance sheet carries significant long-term debt of $14.693 billion and substantial off-balance-sheet content obligations of $23.161 billion [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "While the company has debt, it is currently operating within its cash flow, and there is no indication that equity issuance is required for ongoing operations [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of approximately $171.69 billion, the company is sufficiently liquid for a concentrated position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "While the stock has experienced a 44.7% drawdown, the EV/EBIT of 29.2x is high for a business with slowing growth and FCF breakeven status [D04]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "Management is high-profile and has proposed governance reforms including board declassification and removal of supermajority provisions [D01]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "Net additions have slowed significantly from 37 million in 2020 to 18 million in 2021, with weak Q1 2022 guidance raising questions about the growth runway [D03][D05]."
+    }
+   },
+   "n_pass": 4,
+   "n_fail": 3,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "one_line_business_quality_verdict": "a high-growth but capital-intensive streaming platform with significant content-spend obligations and slowing subscriber momentum"
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market believes the company's growth runway has ended due to subscriber stagnation and intensifying competition [D03][D05]. We believe the recent 44.7% drawdown [D04] overreacts to short-term subscriber volatility and ignores the company's long-term competitive advantages and significant operating leverage, which will allow it to continue scaling margins as content spend efficiency improves [D01][D02].",
+   "evidence": [
+    "Shares declined ~24% over two trading sessions following guidance [D04][D07]",
+    "Total drawdown from record high is 44.7% [D04]",
+    "Company remains a market leader with 221.84 million paid memberships [D01]",
+    "Operating margins improved to 21% in 2021 [D02]"
+   ],
+   "market_narrative_we_disagree_with": "The narrative that slowing net additions in 2021 [D03] signals a permanent end to growth and a collapse of the competitive moat against rivals like Disney+ and HBO Max [D05].",
+   "what_must_be_true": [
+    "Subscriber growth stabilizes in the coming quarters to validate the long-term runway.",
+    "Content spending transitions to a more capital-efficient model, leading to consistent free cash flow generation.",
+    "The platform maintains its pricing power despite the competitive landscape."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "29.2x EV/EBIT based on 2021 results [D04], compared to historically higher growth multiples in the streaming sector [D04][D05]",
+   "eps_or_fcf_path": {
+    "base_year": "2021",
+    "base_value": "2021 net income as proxy",
+    "growth_assumption": "15-18% annual growth driven by price increases and margin expansion via content efficiency",
+    "year_3_to_5_value": "Projected earnings based on scale and operating leverage [D01][D02]",
+    "assumptions": [
+     "Operating margins expand from 21% towards long-term targets [D02]",
+     "Content spend becomes more capital efficient [D02]",
+     "Subscriber growth resumes at a normalized rate [D03]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 25,
+    "why": "Reflects dominant market position and durable growth profile, though tempered by increased competition [D01][D06]"
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 30
+   },
+   "downside_case": "Permanent loss is unlikely given the subscription model's recurring revenue and current 44.7% drawdown [D04], but failure to stabilize subscriber growth could lead to a lower multiple re-rating to 18-20x.",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Normalized annual free cash flow forecast [D09]",
+    "Forward consensus P/E multiples [D09]",
+    "Detailed segment operating margins [D09]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We believe the market has overreacted to short-term subscriber volatility [D03][D05], creating a valuation dislocation where the shares trade at a 44.7% discount from recent highs [D04]. As a mega-cap quality compounder [D01], the catalyst is the normalization of subscriber growth and the realization of operating leverage as the business scales and content investment efficiency improves [D01][D02]. We expect a multiple re-rating as the company demonstrates durable, FCF-generative growth, moving toward our internal IRR targets of 20%+",
+   "levers_or_steps": [
+    "Continued expansion of operating margins from 21% toward long-term targets [D02]",
+    "Improved capital efficiency in content production [D02]",
+    "Stabilization of net subscriber additions to resume durable earnings growth [D03]"
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our 'Pershing Square 3.0' era (2018-present), we focus on quality compounders bought on dislocations without requiring public activism [D08]. The company's market leadership and long-term runway in streaming make it an ideal candidate for quiet accumulation during a market scare, aligning with our strategy of buying great businesses that are temporarily underperforming their potential [D01]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Net subscriber additions remain negative or show no growth for two consecutive quarters.",
+    "Management shifts strategy to aggressive, leverage-funded acquisitions that deviate from the core streaming business model.",
+    "Operating margins show a sustained decline due to an inability to manage content spend intensity.",
+    "Competitive churn significantly increases, indicating a structural loss of the pricing power moat."
+   ],
+   "portfolio_fit": "This is a high-conviction core position in a large, liquid, dominant streaming franchise. It fits our 'Pershing Square 3.0' focus on quality compounders undergoing temporary valuation dislocations. There is no significant factor doubling with our current consumer-exposed holdings (e.g., Chipotle, Domino's, Hilton), as this provides unique, digital-native media exposure.",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "The company has a market cap of ~$171.69 billion [D04]. We can comfortably build a 3-8% position over several weeks without significant market impact, as daily liquidity is highly robust for a firm of our size.",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that the slowdown in subscriber growth is structural rather than transient, exacerbated by intensifying competition and a inability to transition to a sustained, capital-efficient free-cash-flow-generative model."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-01-24",
+  "company": "Netflix, Inc.",
+  "ticker": "NFLX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "29.2x EV/EBIT",
+   "eps_path": "15-18% annual growth driven by price increases and margin expansion via content efficiency",
+   "terminal_multiple": "25x",
+   "irr_pct": 22,
+   "downside_case": "Failure to stabilize subscriber growth could lead to a multiple re-rating to 18-20x."
+  },
+  "drivers": [
+   {
+    "driver": "A dominant global streaming platform with 221.84 million paid memberships and significant operating leverage as it scales [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "A valuation dislocation where the shares trade at a 44.7% discount from record highs following an overreaction to short-term subscriber volatility [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "High-quality management team that has demonstrated an ability to improve operating margins to 21% while proposing governance reforms [D01][D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "A long-term growth algorithm centered on subscriber stabilization, price increases, and improved capital efficiency in content production [D02][D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The variant perception that the market’s focus on slowing Q1 net additions ignores the structural, durable competitive advantage and long-term earnings power of the business [D03][D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Net subscriber additions remain negative or show no growth for two consecutive quarters.",
+   "Management shifts strategy to aggressive, leverage-funded acquisitions that deviate from the core streaming business model.",
+   "Operating margins show a sustained decline due to an inability to manage content spend intensity.",
+   "Competitive churn significantly increases, indicating a structural loss of the pricing power moat."
+  ],
+  "what_would_change_our_mind": "Evidence that subscriber growth deceleration is structural rather than transient, or a permanent failure to achieve sustained, capital-efficient free cash flow.",
+  "memo": "Netflix is a dominant, high-growth streaming entertainment franchise that has achieved unprecedented global scale with 221.84 million paid memberships [D01]. The company possesses significant operating leverage and a durable competitive advantage, allowing it to aggregate content spend across a massive, recurring revenue base [D01]. \n\nWe believe the current market environment has created an asymmetric opportunity, as the shares have declined 44.7% from recent highs due to an overreaction to short-term volatility in subscriber guidance [D03][D04]. The market is mispricing the stock by focusing on quarter-to-quarter subscriber fluctuations while ignoring the long-term scalability of the platform and the underlying durability of the business model [D03][D05].\n\nAt a current EV/EBIT of 29.2x, we are acquiring a world-class compounder at an attractive entry point relative to its long-term growth potential [D04]. We expect the earnings path to be defined by 15-18% annual growth, driven by disciplined pricing power and the expansion of operating margins as content production becomes increasingly capital-efficient [D02][D03]. We anticipate a multiple re-rating as the company progresses toward normalized free cash flow generation.\n\nOur role is that of a supportive, long-term shareholder in a business that requires no active intervention to unlock value [D08]. We see the normalization of subscriber growth and the realization of inherent operating leverage as the primary catalysts for value creation over the next three years [D01][D03].\n\nRisks include a structural loss of pricing power due to increased competition or a failure to convert content investment into sustained free cash flow [D02][D05]. We have built a high-conviction core position representing 8% of our NAV, as the company’s digital-native model offers unique, high-quality exposure that complements our existing portfolio [D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

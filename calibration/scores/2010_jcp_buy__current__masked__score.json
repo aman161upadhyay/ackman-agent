@@ -1,0 +1,49 @@
+{
+ "trade_id": "2010_jcp_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 4,
+  "matched": [],
+  "missed": [
+   "Recover an underperforming department-store franchise's sales productivity and profitability using a large existing asset base.",
+   "Recruit exceptional retail leadership.",
+   "Change merchandising/customer proposition and board accountability.",
+   "Sought faster CEO succession and chairman change after the turnaround failed."
+  ],
+  "extra_agent_drivers": [
+   "Structural decline in department store relevance",
+   "Operating margin compression",
+   "Competitive pressure",
+   "High valuation relative to growth"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is a large-scale department-store retailer with over 1,100 locations.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating margins compressed from 9.5% in 2007 to 3.8% in 2009.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business is experiencing a structural decline in department store relevance and traffic.",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 6,
+  "share": 0.5
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We pass on this investment because we cannot identify a catalyst for value creation or a concrete plan to reverse the structural headwinds [D01, D05].",
+ "grader_notes": "The agent completely missed the thesis behind the investment, which was an activist-driven turnaround involving leadership changes and business model transformation. Instead, the agent performed a standard fundamental analysis and rejected the company due to structural decline and high valuation, which is the exact opposite of Ackman's contrarian value-oriented approach to the trade.",
+ "run": "2010_jcp_buy__current__masked"
+}

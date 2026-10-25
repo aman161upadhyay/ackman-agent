@@ -1,0 +1,12 @@
+{
+  "id": "2008_ggp_buy",
+  "company": "General Growth Properties, Inc.",
+  "ticker": "GGP",
+  "aliases": ["General Growth", "General Growth Properties"],
+  "as_of_date": "2008-11-14",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "First purchases November 13, 2008, corroborated by subsequently filed amended trading data. Original 13D shows threshold event November 14; December disclosure is outside the pack. Trading data: https://www.sec.gov/Archives/edgar/data/895648/000095012308017154/y00728exv99w1.htm",
+  "pershing_aum_usd_bn": null,
+  "notes": "Nine documents. Contemporary November 5 supplemental financials, November 10 going-concern coverage, November 3 Pershing letter and November 13 13F. No 2009 bankruptcy, sponsor, NOI or reorganization knowledge in documents. Cap-rate sensitivity uses explicitly annualized nine-month 2008 NOI, not the May 2009 pitch. AUM not independently authenticated at cutoff; null means unavailable, not zero. Exact November 14 52-week extrema and dated forward consensus unavailable."
+}

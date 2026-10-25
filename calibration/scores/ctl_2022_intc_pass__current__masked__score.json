@@ -1,0 +1,47 @@
+{
+ "trade_id": "ctl_2022_intc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Large manufacturing investment and negative adjusted FCF weaken the fit with self-funding long investments → Intel currently fails this test due to significant negative free cash flow driven by the intense capital demands of its IDM 2.0 transformation",
+   "PC cyclicality and technological execution dominate outcomes beyond ordinary operating activism → the earnings path is highly dependent on achieving complex manufacturing milestones and normalizing demand in cyclical PC and server segments"
+  ],
+  "missed": [
+   "Process-roadmap and competitive-reset uncertainty make long-term distributable cash difficult to bound; incumbent scale alone is insufficient."
+  ],
+  "extra_agent_drivers": [
+   "The company possesses installed scale in PCs and servers, software compatibility, and significant engineering resources",
+   "The current market price reflects a ~48% drawdown, indicating deep skepticism regarding the turnaround"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Intel currently fails this test due to significant negative free cash flow driven by the intense capital demands of its IDM 2.0 transformation",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "potential for US$8–10 billion in annualized cost savings by 2025 could theoretically stabilize the business",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "stock trading down approximately 48% from its highs",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 10,
+  "share": 0.91
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "However, our investment standard requires simple, predictable, and free-cash-flow-generative businesses, and Intel currently fails this test due to significant negative free cash flow driven by the intense capital demands of its IDM 2.0 transformation [D02], [D03].",
+ "grader_notes": "The agent correctly identified the core conflict between the firm's 'quality-compounder' mandate and the reality of Intel's capital-intensive manufacturing turnaround. The reasoning aligned closely with Ackman's historical focus on self-funding businesses and predictability. The agent's reasoning was farthest from the key regarding the specific framing of 'process-roadmap uncertainty' as a barrier to bounding long-term cash flow, choosing instead to focus on the current cyclical and operational execution risks.",
+ "run": "ctl_2022_intc_pass__current__masked"
+}

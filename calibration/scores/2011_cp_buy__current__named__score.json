@@ -1,0 +1,52 @@
+{
+ "trade_id": "2011_cp_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Close a large operating-efficiency gap in a durable rail franchise rather than underwrite an inferior franchise → The company suffers from a massive operational inefficiency, with a Q2 2011 operating ratio of 81.8% compared to 61.3% for its best-in-class peer.",
+   "Use board change to enable an operational plan focused on service, utilization and costs → New leadership and management discipline can drive an earnings transformation, moving the operating ratio to the low 70s and unlocking significant intrinsic value.",
+   "Translate improved operating performance into materially higher per-share earnings → New leadership and management discipline can drive an earnings transformation, moving the operating ratio to the low 70s and unlocking significant intrinsic value."
+  ],
+  "missed": [
+   "Recruit Hunter Harrison, whose prior operating record makes the management-change case concrete."
+  ],
+  "extra_agent_drivers": [
+   "The efficiency gap is not structural but execution-based, fixable through the implementation of precision railroading."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Canadian Pacific operates a critical, high-barrier-to-entry transcontinental network",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Q2 2011 operating ratio of 81.8%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "valuation depressed at approximately 15.1x earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "path to reaching an operating ratio in the low 70s",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 4,
+  "share": 0.36
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Our role is to catalyze this change by demanding an overhaul of the board and management to install leadership capable of driving operational discipline [D03, D06].",
+ "grader_notes": "The agent correctly identified the investment direction and captured the core thesis of closing an operational gap through management and board change. The reasoning overlaps significantly with Ackman's stated drivers, though the agent failed to explicitly name Hunter Harrison as the intended recruit. The grounding was strong, with cited documents supporting the operational and valuation claims.",
+ "run": "2011_cp_buy__current__named"
+}

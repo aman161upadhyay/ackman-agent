@@ -1,0 +1,12 @@
+{
+  "id": "2026_v_ma_buy",
+  "company": "Visa and Mastercard",
+  "ticker": ["V", "MA"],
+  "aliases": ["Card networks", "Visa Inc.", "Mastercard Inc."],
+  "as_of_date": "2026-03-31",
+  "mode": "new",
+  "era": "E",
+  "first_action_window": "Exact execution days unresolved; timing evidence sealed in answer key. March 31 conservatively precedes the independently established Q2 window.",
+  "pershing_aum_usd_bn": 19.748,
+  "notes": "Joint analysis, not assumed identical positions. Separate fiscal calendars, EPS, prices and cash flows. Regulation and agentic-commerce developments frozen at March 31; later claims about stalled proposals excluded."
+}

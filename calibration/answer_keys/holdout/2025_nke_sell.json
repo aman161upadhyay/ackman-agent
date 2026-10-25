@@ -1,0 +1,20 @@
+{
+  "id": "2025_nke_sell",
+  "size_pct_nav": null,
+  "sources": ["https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/11144917/2026-Annual-Investor-Presentation.pdf"],
+  "actual_decision": "SELL",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Unknown original cost and option delta exposure; year-end 2024 PSH common-stock market weight 9.86%.",
+  "first_action_date": "2025-11-11 final option exit, per compendium/presentation chronology",
+  "disclosure_date": "2025-11-21 public reporting",
+  "reason_class": ["S2", "S4"],
+  "opportunity_template": null,
+  "catalyst_role": "C1",
+  "drivers": [
+    {"driver": "Initial diligence underestimated inherited strategic and operating problems and the cost of repairing them.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/11144917/2026-Annual-Investor-Presentation.pdf (2026-02-11)", "quote": "We underestimated the problems created by prior management"},
+    {"driver": "The medium-term return to prior profitability could no longer be confidently underwritten.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/11144917/2026-Annual-Investor-Presentation.pdf (2026-02-11)", "quote": "we grew uncomfortable with underwriting a return to pre-COVID levels in the medium-term"},
+    {"driver": "Competition and tariff-related margin pressure made historical earnings targets less reliable.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/11144917/2026-Annual-Investor-Presentation.pdf (2026-02-11)", "quote": null}
+  ],
+  "outcome_note": "Losing second Nike investment, not the earlier profitable trade. Common replaced with deep-in-the-money calls early 2025; final economic exit November. Underlying approximately -30%; PSH NAV contributions -2.2 points in 2024 and -2.5 in 2025. Do not infer option return from underlying return.",
+  "pack_quality_notes": "10 documents, primary public reconstruction of original thesis, Hill appointment correctly post-entry, audited three-year financial/cash series, current transcript, two operating competitors and derivative continuity. Exact option terms/exposure, cutoff forward consensus and historical own/peer multiple series missing. September 5 range labeled stale. Presentation has a retained conflict: underlying slide shows (30)% but footnote prints gross34/net26 without minus signs; reliable fund-level gross/net return unknown, not silently corrected. C1 reflects already-public management turnaround rather than a new activist demand."
+}

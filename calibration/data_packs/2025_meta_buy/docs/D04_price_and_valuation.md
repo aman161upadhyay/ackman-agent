@@ -1,0 +1,15 @@
+Title: November 3 market snapshot and valuation bridge
+Source: compiled from: https://finance.yahoo.com/quote/META/history/?period1=1761868800&period2=1762214400; https://markets.businessinsider.com/news/stocks/roth-mkm-keeps-their-buy-rating-on-meta-platforms-meta-1035390210; https://insight.factset.com/sp-500-earnings-season-update-october-31-2025; https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx; https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Fourth-Quarter-and-Full-Year-2024-Results
+Date: 2025-11-03
+
+The historical daily price record reports an unadjusted November 3 close of $637.71, an open of $656.00, high $659.33, low $636.18 and volume of 33,003,600 shares. October 31 closed at $648.35 on 56,953,200 shares. Only these historical rows are used; present-day quote widgets and dividend-adjusted prices incorporating subsequent dividends are excluded.
+
+An October 16 TipRanks report carried by Markets Insider gives a one-year high of $796.25 and low of $479.80, and average volume of 12 million. Those are dated October 16 observations, not a newly verified November 3 rolling range. November 3's close is 19.9% below that already-observed high, a calculation of 637.71/796.25−1. It is 15.2% below the $751.67 October 29 close reported in historical market data. Do not confuse the peak drawdown with the one-day earnings reaction.
+
+Exact cutoff common shares and a contemporaneous market-cap feed were not authenticated. Multiplying the quarter's 2.517 billion basic weighted-average shares by the close gives an explicitly illustrative equity-value proxy of $1.605 trillion; this is not exact market capitalization. Using $15.614 billion net cash excluding leases gives an illustrative enterprise-value proxy of $1.589 trillion.
+
+A transparent trailing earnings bridge is preferable to importing an undated forward multiple. FY2024 EPS $23.86 less nine-month 2024 EPS $15.88 plus nine-month 2025 EPS $14.62 produces approximate trailing GAAP EPS of $22.60; adding back the disclosed $6.20 tax-charge impact gives $28.80. Share-denominator changes mean this sum-of-quarter/period bridge is approximate. Corresponding calculated P/Es at the close are 28.2x GAAP and 22.1x tax-normalized trailing earnings. RL losses remain in both earnings measures.
+
+Trailing FCF is $52.103 billion−$38.951 billion+$29.508 billion=$42.660 billion. Against the equity-value proxy, the calculated trailing FCF yield is 2.7%. Higher capex makes that a materially different signal from tax-normalized P/E.
+
+FactSet's October 31 report puts S&P 500 forward twelve-month P/E at 22.9x, versus five- and ten-year averages of 19.9x and 18.6x. Verified November 3 Meta forward consensus EPS, consensus EPS growth, forward P/E, EV/EBITDA and its own consistent five-to-ten-year multiple range are not available in this snapshot. In particular, a roughly 20x valuation at a different trading date must not be relabeled as November 3 market data.

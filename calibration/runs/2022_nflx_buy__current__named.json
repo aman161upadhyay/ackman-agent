@@ -1,0 +1,251 @@
+{
+ "pack": "2022_nflx_buy",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2022-01-24",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Netflix provides on-demand entertainment including films and television through a global subscription model [D01]. It operates primarily as a streaming service with a small legacy DVD business, leveraging scale to spread fixed content costs across a large international subscriber base [D01].",
+   "segments_and_mix": [
+    "US/Canada: $3,309m Q4 revenue [D01]",
+    "Europe/Middle East/Africa: $2,523m Q4 revenue [D01]",
+    "Latin America: $964m Q4 revenue [D01]",
+    "Asia-Pacific: $871m Q4 revenue [D01]"
+   ],
+   "unit_economics": [
+    "2021 operating margin: 21% [D02]",
+    "2021 FCF: negative $159m (approximately breakeven) [D02]",
+    "Pricing power: Mixed; demonstrated by 9% ARPU increase in US/Canada but price reductions in India [D05]",
+    "Capex intensity: High; $17.7bn in 2021 content additions [D02]"
+   ],
+   "competitive_position": [
+    "Global streaming leader with 221.84m paid memberships [D01]",
+    "Competitors include Disney+ (118.1m subs) and HBO/HBO Max (73.8m subs) [D06]",
+    "Moat evidence: Scale, content engagement, and migration from linear TV; challenge is low contractual switching barriers [D01, D06]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2021 revenue growth: 19% [D02]",
+    "FY2021 EPS: $11.24 [D02]",
+    "Guidance: Q1 2022 forecast of 2.5m net additions, significantly below year-prior levels [D03]"
+   ],
+   "balance_sheet": [
+    "Net debt: approximately $9.365 billion [D02]",
+    "Content obligations: $23.161 billion [D02]",
+    "Management target: $10-$15 billion gross debt [D02]"
+   ],
+   "management_and_governance": [
+    "Co-CEOs: Reed Hastings and Ted Sarandos [D01]",
+    "Governance: Proposed declassification of board and removal of supermajority provisions [D01]",
+    "Capital allocation: Transitioning from debt-funded content to self-funded growth [D03]"
+   ],
+   "price_and_valuation": [
+    "Price: $387.15 (Jan 24, 2022) [D04]",
+    "Market cap: ~$171.69 billion [D04]",
+    "Trailing P/E: 34.4x [D04]",
+    "EV/EBIT: ~29.2x [D04]",
+    "Drawdown: ~44.7% from record high [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Deceleration in subscriber growth and weak Q1 guidance [D03, D05]",
+    "Intensifying competition from Disney, WarnerMedia and others [D05, D06]",
+    "Persistent high content spending requirements alongside near-breakeven cash flow [D05]",
+    "Currency headwinds and margin pressure [D03, D05]"
+   ],
+   "recent_events": [
+    "Jan 20, 2022: Q4 results released with weak Q1 subscriber outlook [D03]",
+    "Dec 2021: Price reductions implemented in India [D07]",
+    "Nov 2021: Mobile games rollout [D07]",
+    "Q4 2021: Acquired Roald Dahl Story Company [D07]"
+   ],
+   "pershing_context": [
+    "As of 12/01/2021: PSH AUM $14.156 billion; core strategy holdings include Lowe's, Chipotle, Hilton, Restaurant Brands, Howard Hughes, and Domino's [D08]",
+    "No disclosed Netflix position in pack [D08]"
+   ],
+   "missing_data": [
+    "Normalized annual FCF level",
+    "Forward consensus EPS estimates",
+    "Detailed regional operating margins",
+    "Firm-wide exact cash balance as of 01/24/2022"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The business requires massive annual content spending of $17.7bn, resulting in near-breakeven free cash flow and a lack of predictable long-term FCF conversion [D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "Netflix is the global streaming leader with over 221 million paid memberships and significant scale advantages [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "The business faces material exposure to currency headwinds and intensifying competition from well-capitalized streaming rivals [D03, D05, D06]."
+    },
+    "strong_financial_profile": {
+     "score": "UNSURE",
+     "evidence": "While targeting self-funded growth, the company carries significant net debt of $9.365 billion and $23.161 billion in content obligations [D02, D03]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "Management is transitioning from a debt-funded model to self-funded growth, suggesting a reduced reliance on capital markets [D03]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of approximately $171.69 billion, the company is sufficiently liquid for a concentrated position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock has experienced a 44.7% drawdown from its record high, potentially offering an entry point at a more attractive valuation [D04]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "The company is taking steps to improve governance through the proposed declassification of its board [D01]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "While it remains a leader, growth is decelerating as evidenced by weak Q1 2022 guidance for subscriber additions [D03, D05]."
+    }
+   },
+   "n_pass": 5,
+   "n_fail": 1,
+   "n_unsure": 3,
+   "hard_fail": true,
+   "one_line_business_quality_verdict": "a dominant global streaming leader burdened by high capital intensity and decelerating subscriber growth."
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market believes Netflix's subscriber deceleration and intensifying competition represent a permanent loss of growth and pricing power. We believe the market is overreacting to short-term volatility in net additions, failing to recognize that Netflix's scale and transition to self-funded growth will drive long-term margin expansion and cash flow conversion. As content spending matures, the business will shift from capital-intensive growth to a dominant, free-cash-flow-generative machine [D02, D03, D05].",
+   "evidence": [
+    "Stock has experienced a 44.7% drawdown from its record high, pricing in significant pessimism [D04].",
+    "Guidance for 2.5m net additions, while low, does not impair the long-term utility of the global streaming platform [D03].",
+    "Transition from debt-funded to self-funded growth model improves the financial trajectory [D03]."
+   ],
+   "market_narrative_we_disagree_with": "The narrative that competition and saturation have structurally impaired the business model, rendering it unable to generate sustainable, high-quality free cash flow [D03, D05].",
+   "what_must_be_true": [
+    "Netflix maintains its dominant churn profile despite increased competition.",
+    "Operating margins continue to expand as content investment efficiencies are realized.",
+    "The company successfully achieves sustainable, positive free cash flow in the near term."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "34.4x trailing P/E [D04] vs 5-year average often exceeding 50x for high-growth tech/media, vs S&P 21x",
+   "eps_or_fcf_path": {
+    "base_year": "2021",
+    "base_value": "$11.24 EPS [D02]",
+    "growth_assumption": "15-20% CAGR based on margin expansion and self-funded growth [D03]",
+    "year_3_to_5_value": "$19.00 - $25.00 EPS",
+    "assumptions": [
+     "Operating margin expansion as content spend matures [D03]",
+     "Self-funded growth model replaces debt-funded model [D03]",
+     "Retention of global leadership [D01]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 25,
+    "why": "Reflects dominant streaming position and shift to FCF-generative maturity, consistent with a quality compounder"
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 30
+   },
+   "downside_case": "If competitive saturation structurally impairs margins, the multiple could contract to 15-18x; however, the 44.7% drawdown [D04] suggests significant pessimism is already priced in, limiting permanent loss of capital if the subscriber base remains resilient.",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Forward consensus EPS estimates [missing_data]",
+    "Normalized annual FCF conversion rate [missing_data]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "As a quality compounder, the investment thesis relies on the market's overreaction to temporary volatility in subscriber net additions and the subsequent re-rating of the stock as the company matures into a self-funded, free-cash-flow-generative machine [D02, D03, D05]. We anticipate a re-rating as the market recognizes the durability of Netflix's global leadership and the margin expansion resulting from the stabilization of content spending [D03].",
+   "levers_or_steps": [
+    "Transition from debt-funded content model to self-funded growth [D03]",
+    "Operating margin expansion through content investment efficiencies [D03]",
+    "Maintenance of global streaming leadership and churn profile [D01]"
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our 'Pershing Square 3.0' era (2018-2023), we focus on quality compounders purchased during market dislocations; Netflix is a dominant franchise experiencing a significant drawdown (44.7%), allowing us to take a position without requiring activist intervention [D04]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Subscriber net additions turn negative for two consecutive quarters.",
+    "Management abandons the target of transitioning to a self-funded, free-cash-flow-generative business model.",
+    "Operating margins show sustained compression rather than expansion as content spending matures.",
+    "Increased competitive intensity leads to a material, permanent decline in global retention/churn rates."
+   ],
+   "portfolio_fit": "Netflix fits the 'Pershing Square 3.0' criteria for a quality, dominant franchise bought at a valuation dislocation [D04]. It complements our existing consumer-facing compounders (e.g., Chipotle, Domino's, Hilton) by providing exposure to digital subscription entertainment, though it increases sector concentration in consumer discretionary.",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 12
+   },
+   "liquidity_assessment": "With a market capitalization of ~$171.69 billion and high average daily trading volume, we can establish an initial 5% stake (approx. $700-800m) over several weeks without exceeding 15-25% of daily volume [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that intensifying competition structurally impairs the business's pricing power and churn profile, preventing the anticipated transition to significant free cash flow generation."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-01-24",
+  "company": "Netflix, Inc.",
+  "ticker": "NFLX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "34.4x trailing P/E",
+   "eps_path": "15-20% CAGR to $19-$25 EPS over 3-5 years",
+   "terminal_multiple": "25x",
+   "irr_pct": 22,
+   "downside_case": "Multiple contraction to 15-18x if margins are structurally impaired, mitigated by 44.7% prior drawdown."
+  },
+  "drivers": [
+   {
+    "driver": "Netflix is the dominant global streaming leader with 221.84 million paid memberships and significant scale advantages [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The company is transitioning from a debt-funded model to a self-funded growth engine, which will drive significant margin expansion and free cash flow generation [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The recent 44.7% stock drawdown from its record high offers an attractive entry point at 34.4x trailing earnings for a high-quality compounder [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Market participants are overreacting to short-term subscriber volatility in Q1 guidance while ignoring the durability of the global platform [D03].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Subscriber net additions turn negative for two consecutive quarters.",
+   "Management abandons the target of transitioning to a self-funded, free-cash-flow-generative business model.",
+   "Operating margins show sustained compression rather than expansion as content spending matures.",
+   "Increased competitive intensity leads to a material, permanent decline in global retention/churn rates."
+  ],
+  "what_would_change_our_mind": "Evidence that intensifying competition has permanently impaired the business's pricing power, resulting in structural margin compression and a failure to reach sustainable free cash flow.",
+  "memo": "Netflix is the preeminent global streaming platform, providing on-demand entertainment to over 221 million subscribers [D01]. The business model possesses significant barriers to entry through massive scale, proprietary content engagement, and a global reach that is difficult to replicate [D01]. \n\nWe believe the market has fundamentally misjudged the company following the release of its Q4 results [D03]. While the market is fixated on near-term subscriber deceleration and weak Q1 guidance, it is failing to account for the transition from a debt-funded content strategy to a self-funded growth model [D03]. This shift is the catalyst that will transform the company into a dominant, free-cash-flow-generative machine [D03].\n\nWe were able to acquire our stake at approximately 34.4x trailing earnings following a 44.7% drawdown [D04]. With content spending maturing, we anticipate a path of 15-20% annual EPS growth driven by operating margin expansion and disciplined capital allocation [D02, D03]. We view a terminal multiple of 25x as appropriate for a dominant, FCF-generative franchise, supporting a high internal rate of return.\n\nOur role is that of a patient, long-term investor in a high-quality compounder [D04]. We do not require active intervention, as the management team led by Reed Hastings and Ted Sarandos has already committed to the necessary financial pivot toward self-funding and improved governance [D01, D03].\n\nThe primary risk remains competitive pressure, which could impact churn and pricing power [D05, D06]. Should we see negative subscriber growth for two consecutive quarters or evidence of sustained margin compression, we will re-evaluate our thesis [D03, D05].\n\nWe are establishing an initial 5% position with a target of 10% of NAV. Netflix's dominant position and attractive valuation dislocation make it an ideal fit for our portfolio [D04].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

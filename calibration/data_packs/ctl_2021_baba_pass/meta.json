@@ -1,0 +1,12 @@
+{
+  "id": "ctl_2021_baba_pass",
+  "company": "Alibaba Group Holding Limited",
+  "ticker": "BABA",
+  "aliases": ["Alibaba", "9988.HK"],
+  "as_of_date": "2021-07-30",
+  "mode": "new",
+  "era": "D",
+  "first_action_window": "Not applicable: constructed discipline control, no authenticated historical action.",
+  "pershing_aum_usd_bn": null,
+  "notes": "Constructed discipline control, not documented historical rejection. Five documents; May FY2021 release and July30 SEC statement available. No August earnings or later regulatory resolution. ADR/ordinary and RMB/USD distinctions explicit. Actual close is about39% below observed high, not assumed45%;15x screen is not treated as verified current multiple."
+}

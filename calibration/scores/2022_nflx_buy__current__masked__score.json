@@ -1,0 +1,49 @@
+{
+ "trade_id": "2022_nflx_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 5,
+  "matched": [
+   "Scale and content quality strengthen the moat. → The company possesses significant operating leverage and a durable competitive advantage, allowing it to aggregate content spend across a massive, recurring revenue base [D01].",
+   "A trusted adaptive management team and high-performance culture can execute. → High-quality management team that has demonstrated an ability to improve operating margins to 21% while proposing governance reforms [D01][D02].",
+   "Margin leverage and improving free cash flow support both growth and distributions. → We expect the earnings path to be defined by 15-18% annual growth, driven by disciplined pricing power and the expansion of operating margins as content production becomes increasingly capital-efficient [D02][D03]."
+  ],
+  "missed": [
+   "Recurring subscriptions and the transition from linear viewing create substantial long-term growth.",
+   "The customer value proposition supports pricing power."
+  ],
+  "extra_agent_drivers": [
+   "Valuation dislocation due to overreaction to subscriber volatility",
+   "Variant perception of market focus on short-term additions vs long-term earnings"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "221.84 million paid memberships",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "shares have declined 44.7% from recent highs",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "operating margins to 21%",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 11,
+  "share": 0.92
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We believe the current market environment has created an asymmetric opportunity, as the shares have declined 44.7% from recent highs due to an overreaction to short-term volatility in subscriber guidance [D03][D04].",
+ "grader_notes": "The agent correctly matched the investment direction and captured three of the five drivers provided by Ackman, specifically focusing on scale, management quality, and margin/cash flow improvements. The agent's reasoning diverged by placing significant weight on short-term valuation dislocation and market mispricing, which were not cited as primary drivers in Ackman's original letter.",
+ "run": "2022_nflx_buy__current__masked"
+}

@@ -1,0 +1,254 @@
+{
+ "pack": "2026_spgi_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2026-03-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company provides financial information, ratings, indices, commodity intelligence, and mobility data to capital markets and commercial workflows [D01]. It operates through distinct divisions that earn revenue via subscriptions, transaction fees, and benchmark licensing [D01].",
+   "segments_and_mix": [
+    "Market Intelligence: $1.264 billion Q4 revenue [D01]",
+    "Ratings: $1.187 billion Q4 revenue [D01]",
+    "Energy: $576 million Q4 revenue [D01]",
+    "Indices: $498 million Q4 revenue [D01]",
+    "Mobility: $444 million Q4 revenue [D01]"
+   ],
+   "unit_economics": [
+    "FY2025 reported operating margin: 42.2% [D02]",
+    "FY2025 adjusted operating margin: 50.4% [D02, D03]",
+    "Defined FCF: $5.135 billion (FY2025), which deducts capex and noncontrolling distributions [D02]",
+    "Capex: $195 million (FY2025) [D02]"
+   ],
+   "competitive_position": [
+    "Ratings franchise relies on established acceptance, regulatory frameworks, and market conventions [D01]",
+    "Indices and data products benefit from switching and coordination costs derived from benchmark adoption and proprietary datasets [D01, D06]",
+    "Peers include Moody's (ratings/data) and MSCI (indices/analytics) [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2025 revenue: $15.336 billion (+8%) [D02, D03]",
+    "FY2025 adjusted EPS: $17.83 [D02, D03]",
+    "2026 outlook: 6–8% organic constant-currency revenue growth; EPS guidance of $19.40–19.65 [D03]"
+   ],
+   "balance_sheet": [
+    "Total debt: $13.088 billion (short-term $718 million; long-term $12.370 billion) [D02]",
+    "Cash and equivalents: $1.745 billion [D02]",
+    "Calculated net debt: $11.343 billion [D02]"
+   ],
+   "management_and_governance": [
+    "CEO: Martina Cheung [D01]",
+    "Capital allocation: $6.2 billion returned to shareholders in 2025, including $5.0 billion in repurchases [D02]"
+   ],
+   "price_and_valuation": [
+    "Price (March 31, 2026): $402.40 [D04]",
+    "P/FY2025 adjusted EPS (22.6x) and P/2026 guided EPS midpoint (20.6x) [D04]",
+    "Calculated FCF yield (FY2025): 4.2% [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "AI disruption: potential for AI agents to perform research/analysis, threatening software-based information services [D05]",
+    "Guidance disappointment: 2026 EPS guidance midpoint ($19.525) below consensus ($20.02) [D03, D05]",
+    "Cyclicality: reliance on debt-issuance volume for ratings revenue and market levels for index fees [D01, D05]",
+    "Mobility separation: execution and comparability risk [D05]"
+   ],
+   "recent_events": [
+    "February 4, 2026: Software/services selloff triggered by AI concerns [D05, D07]",
+    "February 10, 2026: Company reports Q4 results and 2026 guidance; shares decline 9.7% [D03, D05, D07]",
+    "March 18, 2026: FY2025 Annual Report published [D01, D07]"
+   ],
+   "pershing_context": [
+    "February 2026 core-fund AUM: $19.748 billion [D08]",
+    "Existing stake: not in pack",
+    "Prior engagement: not in pack"
+   ],
+   "missing_data": [
+    "Consistent ROIC series",
+    "Complete historical buyback data",
+    "Precise subproduct recurring-revenue schedule",
+    "Harmonized cutoff Moody's/MSCI multiple table",
+    "Current Pershing Square holding status in the Company"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "The company generates high-margin, recurring subscription and benchmark-licensing revenue with very low maintenance capex [D01, D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "Its ratings franchise and index businesses benefit from deep-seated regulatory acceptance, network effects, and high switching costs [D01, D06]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "Earnings are significantly exposed to the cyclicality of debt-issuance volumes and broader market levels [D01, D05]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a solid balance sheet with manageable debt levels relative to its strong cash-generative profile [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The business is highly self-funding and does not rely on external equity or debt markets to execute its operating plan [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The company’s scale is consistent with a large-cap position appropriate for a fund of Pershing Square's size [D02, D08]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The shares have recently traded down, with a 20.6x forward P/E multiple that appears attractive for a high-quality franchise [D03, D04, D05]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "Management has demonstrated shareholder alignment through substantial capital returns, including $5.0 billion in repurchases in 2025 [D02]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company benefits from long-term secular trends in financial data and benchmark adoption, supported by organic growth guidance [D01, D03]."
+    }
+   },
+   "n_pass": 8,
+   "n_fail": 1,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant, high-margin information services franchise with powerful network effects and significant free cash flow generation"
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market believes AI disruption and a slight EPS guidance miss signal a structural decline in this high-quality franchise. We believe these concerns are temporary; the company's deep-seated network effects, regulatory barriers, and mission-critical nature of its data products will ensure its long-term competitive position remains intact despite current cyclical noise and AI-related sentiment [D01, D03, D05].",
+   "evidence": [
+    "Shares declined 9.7% following the Q4 earnings and guidance release, largely driven by short-term sentiment [D03, D05].",
+    "Current 20.6x forward P/E multiple is attractive given the durable 6-8% organic revenue growth guidance [D03, D04].",
+    "The core business maintains high operating margins of 50.4% and significant free cash flow generation [D02, D03].",
+    "Management continues to demonstrate strong shareholder alignment through aggressive capital returns, including $5 billion in 2025 repurchases [D02]."
+   ],
+   "market_narrative_we_disagree_with": "The market fears that AI agents will render the company's financial research and data services obsolete, while simultaneously over-reacting to a minor discrepancy between guided EPS and consensus estimates [D03, D05].",
+   "what_must_be_true": [
+    "The competitive moats in ratings and indices remain defensible against new AI-driven entrants.",
+    "Organic constant-currency revenue growth maintains the 6-8% guidance range.",
+    "The business continues to generate strong free cash flow to support ongoing share repurchases."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "20.6x 2026 guided EPS vs 10-yr avg unavailable [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2026",
+    "base_value": "$19.53",
+    "growth_assumption": "8% annual EPS growth (midpoint of organic revenue growth plus margin expansion/buybacks) [D03]",
+    "year_3_to_5_value": "$24.59 (Year 3) to $28.69 (Year 5)",
+    "assumptions": [
+     "Maintain 6-8% organic revenue growth [D03]",
+     "Continued margin expansion and share repurchases [D02, D03]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 22,
+    "why": "Reflects high-quality, dominant franchise status with regulatory moats and strong cash generation [D01, D03], justified by 22.6x historical 2025 trading [D04]"
+   },
+   "implied_irr_pct": {
+    "base": 21,
+    "bear": 12,
+    "bull": 26
+   },
+   "downside_case": "Multiple compression to 16x (cyclical peer average) and earnings stagnation results in loss of ~20% of principal over 3 years; permanent loss is unlikely given high margins and mission-critical nature of data [D02, D03, D06]",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "No consistent historical ROIC series provided",
+    "Lack of precise subproduct recurring-revenue schedule",
+    "Multiple history for direct peers not in pack"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "The company is a high-quality, dominant franchise with significant competitive moats and recurring revenue characteristics [D01]. We expect a re-rating toward its historical 22x-23x multiple [D04] as the market recognizes that AI-driven disruption fears are overstated and that the 6-8% organic growth trajectory remains durable [D03].",
+   "levers_or_steps": [
+    "Continued deployment of strong free cash flow into aggressive share repurchases, building on the $5.0 billion returned in 2025 [D02]",
+    "Sustained margin expansion through operational efficiencies in its information and ratings segments [D02, D03]",
+    "Realization of organic revenue growth driven by the mission-critical nature of its benchmark and data services [D01, D03]"
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "Consistent with the 'Pershing Square 3.0' and post-2024 strategy of investing in high-quality, free-cash-flow-generative compounders during temporary market dislocations without the need for public activism [instruction 4, 5]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Structural decline in ratings market share due to new regulatory or AI-enabled competitors",
+    "Organic revenue growth falls below 4% for consecutive quarters indicating loss of pricing power",
+    "Leverage ratio increases significantly beyond historical norms without clear strategic rationale",
+    "Management shifts capital allocation away from substantial share repurchases toward dilutive, non-core M&A"
+   ],
+   "portfolio_fit": "Fits the Pershing Square 3.0 mandate as a high-quality, free-cash-flow-generative compounder; provides exposure to financial data infrastructure which is not currently represented by other major holdings in the pack.",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 12
+   },
+   "liquidity_assessment": "The company maintains large-cap scale and significant trading volume, allowing for a 10% NAV position to be built over several weeks without excessive impact [D02, D08].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that AI-driven automation reduces the demand for premium financial data and research, impairing the company's long-term competitive moats and pricing power [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2026-03-31",
+  "company": "the Company",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "20.6x 2026 guided EPS",
+   "eps_path": "8% annual growth driven by 6-8% organic revenue growth, margin expansion, and share repurchases",
+   "terminal_multiple": "22x",
+   "irr_pct": 21,
+   "downside_case": "Multiple compression to 16x and earnings stagnation resulting in a 20% loss over 3 years"
+  },
+  "drivers": [
+   {
+    "driver": "The company is a dominant, high-margin information services franchise with powerful network effects and significant free cash flow generation [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "We were able to acquire our stake at 20.6x forward earnings, a valuation that discounts the company's long-term durable growth trajectory [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Management demonstrates strong shareholder alignment through aggressive capital returns, having repurchased $5.0 billion in shares in 2025 [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "The market's concern regarding AI disruption is misplaced, as the company’s data products are mission-critical and protected by deep-seated regulatory and network moats [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Structural decline in ratings market share due to new regulatory or AI-enabled competitors",
+   "Organic revenue growth falls below 4% for consecutive quarters",
+   "Leverage ratio increases significantly beyond historical norms",
+   "Management shifts capital allocation away from substantial share repurchases toward dilutive, non-core M&A"
+  ],
+  "what_would_change_our_mind": "Evidence that AI-driven automation is commoditizing the company's research and ratings products, leading to a permanent impairment of pricing power and market share.",
+  "memo": "The Company is a dominant, high-margin information services provider that occupies a mission-critical role in global capital markets [D01]. Through its ratings, indices, and data segments, the business benefits from powerful network effects and regulatory barriers that make it remarkably simple and predictable [D01, D06]. With a 50.4% adjusted operating margin and minimal maintenance capex, the company is a prolific generator of free cash flow [D02, D03].\n\nWe are taking advantage of a market dislocation that has caused the shares to trade at a 20.6x forward P/E multiple [D03, D04]. The market has incorrectly conflated temporary cyclicality in debt issuance with a structural decline, while overreacting to AI-related fears and a minor discrepancy in near-term EPS guidance [D03, D05]. We believe these fears are transitory and do not reflect the durability of the company’s 6-8% organic revenue growth [D03].\n\nOur entry valuation of 20.6x 2026 earnings offers an attractive rate of return, with a path toward mid-teens earnings growth [D03, D04]. Given the strength of the business, we view a return to a 22x historical multiple as a conservative target [D03, D04]. Over a three-year horizon, this provides an expected IRR of approximately 21% under our base case assumptions [D03].\n\nManagement has proven to be excellent stewards of capital, returning $6.2 billion to shareholders in 2025 alone, including $5.0 billion in repurchases [D02]. We expect this aggressive capital return strategy to continue, serving as a primary catalyst for value realization [D02, D03]. We do not require active engagement to unlock this value, as the existing strategy is sound and shareholder-aligned [D02, D04].\n\nRisks remain, particularly regarding the potential for AI-driven automation to disrupt financial research and data demands [D05]. However, given the high barriers to entry and the sticky, mission-critical nature of these franchises, we believe our downside is bounded [D01, D03]. Should evidence emerge that these moats are eroding, we will reconsider our position [D05].\n\nWe are initiating a position today with a target size of 10% of NAV. This allocation reflects our high conviction in the quality of the franchise and the durability of its growth profile, notwithstanding current market sentiment [D02, D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

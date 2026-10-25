@@ -1,0 +1,250 @@
+{
+ "pack": "2025_uber_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2025-01-06",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a global marketplace connecting consumers with drivers, couriers, and merchants through platforms for mobility, delivery, and freight [D01]. It functions as a matchmaker rather than a vehicle manufacturer, generating revenue from its share of marketplace bookings [D01].",
+   "segments_and_mix": [
+    "Mobility: 51.3% of Q3 bookings [D01]",
+    "Delivery: 45.5% of Q3 bookings [D01]",
+    "Freight: 3.2% of Q3 bookings [D01]"
+   ],
+   "unit_economics": [
+    "Mobility segment adjusted EBITDA margin was 8.0% of bookings [D01, D03]",
+    "Delivery segment adjusted EBITDA margin was 3.4% of bookings [D01, D03]",
+    "Freight segment remains loss-making [D01, D03]",
+    "High FCF conversion with $5.189 billion FCF generated in the first nine months of 2024 against $198 million capex [D02]",
+    "Capital-light model with insurance-reserve accruals impacting cash flow [D02]"
+   ],
+   "competitive_position": [
+    "Marketplace leader with 161 million monthly active consumers [D01]",
+    "Density advantage supports local supply/demand efficiency [D01]",
+    "Peers include Lyft (rides) and DoorDash (delivery) [D06]",
+    "Moat is subject to AV distribution risk and competitive multi-homing [D01, D05, D06]"
+   ],
+   "growth_record_and_outlook": [
+    "2023 revenue growth was 17% [D02]",
+    "Q3 2024 bookings grew 20% constant currency; management guidance for full-year constant-currency bookings growth is 20% [D03]",
+    "Q4 2024 bookings growth forecast is 16%–20% [D03]"
+   ],
+   "balance_sheet": [
+    "September 2024 cash and equivalents/short-term investments: $9.063 billion [D02]",
+    "Long-term debt: $10.986 billion [D02]",
+    "Net debt (cash less debt): approximately $1.923 billion [D02]"
+   ],
+   "management_and_governance": [
+    "CEO: Dara Khosrowshahi [D01]",
+    "Strategy: Profitable growth, advertising, and autonomous-vehicle partnerships [D01, D03]",
+    "Capital allocation: $7 billion share-repurchase program authorized February 2024 [D02, D07]"
+   ],
+   "price_and_valuation": [
+    "Price (Jan 6, 2025): $66.31 [D04]",
+    "Illustrative market cap: ~$139.36 billion [D04]",
+    "Illustrative FCF yield: 5.0% (based on annualized nine-month FCF) [D04]",
+    "No forward P/E or EV/EBITDA consensus multiples in pack [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Autonomous vehicle (AV) distribution risk: Waymo and other operators potentially bypassing the platform [D05, D07]",
+    "Rising insurance costs pressuring margins [D05]",
+    "Legal/regulatory risks regarding worker status [D05]"
+   ],
+   "recent_events": [
+    "September 2024: Expanded Waymo partnership for Austin/Atlanta [D03, D07]",
+    "October 31, 2024: Reported $1.061 billion GAAP operating income for Q3 [D03, D07]",
+    "December 5, 2024: Waymo announced Miami expansion, triggering market concerns regarding competition [D05, D07]",
+    "December 10, 2024: GM halted funding for Cruise [D05, D07]"
+   ],
+   "pershing_context": [
+    "Firm AUM: $18,498.8 million as of Sept 30, 2024 [D08]",
+    "Current holdings: Alphabet, Hilton, Chipotle, Restaurant Brands International, Canadian Pacific Kansas City, Howard Hughes, Brookfield, Nike, Seaport Entertainment, Universal Music Group, Fannie/Freddie [D08]",
+    "Prior engagement: No specific the Company-specific Ackman recommendation found in pack [D08]"
+   ],
+   "missing_data": [
+    "Consensus forward EPS and valuation multiples (P/E, EV/EBITDA)",
+    "Full 2024 audited financial results",
+    "Verified current share count and exact institutional ownership stakes"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable": {
+     "score": "FAIL",
+     "evidence": "The business faces binary risks from autonomous vehicle distribution and regulatory challenges regarding worker status that complicate long-term cash flow forecasting [D05, D07]."
+    },
+    "fcf_generative_capital_light": {
+     "score": "PASS",
+     "evidence": "The company maintains a capital-light model with high FCF conversion, generating $5.189 billion in FCF against only $198 million in capex during the first nine months of 2024 [D02]."
+    },
+    "dominant_durable_moat": {
+     "score": "UNSURE",
+     "evidence": "While it is a marketplace leader with 161 million monthly active consumers, its moat is threatened by competitive multi-homing and potential bypass risks from autonomous vehicle operators [D01, D05]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The company has significant exposure to regulatory risks regarding the worker classification of drivers and couriers, which could fundamentally alter its cost structure [D05]."
+    },
+    "strong_balance_sheet": {
+     "score": "PASS",
+     "evidence": "The balance sheet is healthy with $9.063 billion in cash against $10.986 billion in long-term debt, resulting in a modest net debt position [D02]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "The company is led by Dara Khosrowshahi, who has focused the strategy on profitable growth and capital allocation, including a $7 billion share-repurchase program [D01, D02, D07]."
+    },
+    "size_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of approximately $139.36 billion, the company is sufficiently large and liquid for a concentrated Pershing Square position [D04]."
+    },
+    "growth_runway": {
+     "score": "PASS",
+     "evidence": "The business demonstrates strong growth with 20% constant-currency bookings growth projected for 2024 [D03]."
+    }
+   },
+   "n_pass": 5,
+   "n_fail": 2,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "one_line_business_quality_verdict": "a capital-light marketplace leader with strong cash generation that faces significant, unpredictable regulatory and technological existential risks."
+  },
+  "gate2": {
+   "templates": [
+    "T4"
+   ],
+   "variant_perception": "The market believes that the rise of autonomous vehicle (AV) operators represents an existential threat that will bypass the company's platform and erode its marketplace dominance [D05, D07]. We believe the platform's local density, liquidity, and brand act as a superior aggregator that AV operators will ultimately need to utilize to maximize fleet utilization [D01]. The market's narrative will change as the company successfully integrates diverse AV partners into its marketplace, demonstrating that the platform remains the essential interface for the consumer [D03, D07].",
+   "evidence": [
+    "Marketplace leader with 161 million monthly active consumers providing a significant density advantage [D01].",
+    "Management is actively forming AV partnerships, such as the expansion with Waymo, suggesting a strategy of integration rather than displacement [D03, D07].",
+    "The business continues to demonstrate strong growth, with 20% constant-currency bookings growth projected for 2024 [D03]."
+   ],
+   "market_narrative_we_disagree_with": "Autonomous vehicle (AV) distribution risk: Waymo and other operators potentially bypassing the platform [D05, D07].",
+   "what_must_be_true": [
+    "The company's marketplace remains the preferred consumer interface for mobility and delivery.",
+    "AV operators determine that building proprietary demand-aggregation platforms is less efficient than utilizing the company's existing high-density network.",
+    "The company successfully navigates worker classification and insurance cost pressures without permanently impairing unit economics."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "not in pack (no forward P/E provided); based on illustrative FCF yield of 5% [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2024 (annualized)",
+    "base_value": "$6.918 billion (annualized 9M FCF) [D02]",
+    "growth_assumption": "15% FCF CAGR based on 20% bookings growth and margin expansion [D03]",
+    "year_3_to_5_value": "~$10.5 billion to $13.9 billion FCF",
+    "assumptions": [
+     "Annualized 9M 2024 FCF used as base [D02]",
+     "FCF growth assumes bookings growth of 16-20% persists [D03]",
+     "Capital-light model allows FCF to scale with bookings [D01, D02]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 20,
+    "why": "Reflects dominant marketplace position, network effects, and high barriers to entry despite AV disruption concerns [D01, D05]"
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 28
+   },
+   "downside_case": "If AV operators bypass the platform and regulatory pressures impair unit economics, terminal value and margins contract; permanent loss is unlikely due to massive cash balance and $7B buyback support [D02, D05, D07]",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Consensus forward EPS/valuation multiples not in pack",
+    "FCF growth modeled as a proxy for missing EPS growth data",
+    "Share count assumed constant for FCF per share growth estimate"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We expect a re-rating of the multiple as the company successfully integrates autonomous vehicle (AV) partners like Waymo, proving the platform's role as the essential demand aggregator rather than being bypassed [D03, D07]. This will mitigate the 'existential threat' narrative, allowing the stock to trade closer to its intrinsic value as a dominant marketplace leader [D01, D05].",
+   "levers_or_steps": [
+    "Maintain 16-20% bookings growth to drive operating leverage [D03].",
+    "Scale marketplace liquidity to improve take rates and margins [D01].",
+    "Continue $7 billion share-repurchase program to drive FCF per share growth [D02, D07]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our Pershing Square 3.0 era, we focus on compounding high-quality, free-cash-flow-generative businesses bought on temporary market dislocations; here, the market's fear of AV disruption creates a mispricing in a dominant, capital-light platform that we expect to compound FCF effectively [D01, D02, D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management abandons the capital-light marketplace model to pursue capital-intensive fleet ownership",
+    "Unit growth turns negative for two consecutive quarters, signaling loss of network density",
+    "Legislative or judicial rulings categorize workers as employees, permanently impairing unit economics",
+    "Autonomous vehicle operators successfully achieve scale while consistently bypassing the company's platform"
+   ],
+   "portfolio_fit": "The position fits the 'Pershing Square 3.0' criteria as a high-quality, free-cash-flow-generative compounder; however, it adds exposure to regulatory and technological disruption similar to existing gig-economy risks, requiring careful sizing alongside our consumer-facing holdings like Chipotle and Restaurant Brands International [D01, D08].",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 6,
+    "max": 8
+   },
+   "liquidity_assessment": "The company has a market cap of ~$139.36 billion and is highly liquid, allowing a position of this size to be built in weeks without significant market impact [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The market's fear that autonomous vehicle operators will bypass the platform and disrupt the marketplace's fundamental value proposition is the primary risk to our investment thesis [D05, D07]."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-01-06",
+  "company": "the Company (XXX)",
+  "ticker": "UBER",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 6,
+  "opportunity_template": [
+   "T4"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "5% FCF yield",
+   "eps_path": "15% FCF CAGR through 2027",
+   "terminal_multiple": "20x",
+   "irr_pct": 22,
+   "downside_case": "Regulatory or AV bypass risks impair margins; protected by significant cash and buybacks"
+  },
+  "drivers": [
+   {
+    "driver": "A capital-light marketplace leader with high FCF conversion and a powerful network effect of 161 million monthly active consumers.",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The market incorrectly fears that autonomous vehicle operators will bypass the platform, ignoring the company's role as the essential demand aggregator.",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Management's profitable growth strategy and $7 billion share-repurchase program are driving significant FCF per share growth.",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "Successful integration of AV partnerships like Waymo demonstrates the platform's value in maximizing fleet utilization.",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management abandons the capital-light marketplace model to pursue capital-intensive fleet ownership",
+   "Unit growth turns negative for two consecutive quarters, signaling loss of network density",
+   "Legislative or judicial rulings categorize workers as employees, permanently impairing unit economics",
+   "Autonomous vehicle operators successfully achieve scale while consistently bypassing the company's platform"
+  ],
+  "what_would_change_our_mind": "Evidence that autonomous vehicle providers can achieve sustainable, high-margin scale independently, effectively marginalizing the company's marketplace demand aggregation.",
+  "memo": "We are initiating a position in the Company, a dominant global marketplace that connects consumers with mobility and delivery providers [D01]. The business is uniquely positioned as a capital-light matchmaker, generating significant free cash flow—$5.189 billion in the first nine months of 2024 alone—with minimal capital expenditure requirements [D02]. This model, combined with a robust balance sheet and 161 million active consumers, creates a durable, high-barrier moat in a global, growing addressable market [D01, D02].\n\nMarket sentiment is currently clouded by the perception that autonomous vehicle (AV) operators represent an existential threat that will bypass the company's platform [D05, D07]. We believe this narrative is fundamentally flawed. Rather than being bypassed, the company acts as a vital demand-aggregation layer that AV operators will find necessary to optimize fleet utilization [D01]. The market's fear ignores the company’s massive local density advantage and brand power [D01].\n\nWith an illustrative FCF yield of 5% and a growth algorithm driven by 20% constant-currency bookings growth and ongoing margin expansion, we anticipate a mid-to-high teens annual return [D02, D03, D04]. We model a 15% FCF CAGR over the next three years, supported by the ongoing $7 billion share-repurchase program [D02, D03].\n\nOur catalyst for value realization is the successful integration of AV partners, such as the expanded Waymo collaboration [D03, D07]. As the company demonstrates that it remains the preferred consumer interface for mobility and delivery, we expect a re-rating of the stock toward its intrinsic value [D01, D07].\n\nWhile regulatory risks regarding worker classification and insurance costs persist, the company’s scale and cash position provide a sufficient buffer [D02, D05]. We are initiating a 6% position, reflecting our confidence in management’s capital allocation and the platform’s durability [D02, D05].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

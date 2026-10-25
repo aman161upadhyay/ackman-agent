@@ -1,0 +1,45 @@
+{
+ "trade_id": "ctl_2020_xom_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Commodity prices and refining/chemical margins dominate normalized value and cannot be controlled through operating activism. → Performance is fundamentally tied to volatile global commodity cycles, creating excessive exposure to extrinsic factors we cannot control [D01], [D04].",
+   "A double-digit indicated dividend does not establish predictable FCF after sustaining investment. Coverage requires uncertain recovery and/or financing/spending changes. → The business lacks the simple, predictable, and free-cash-flow-generative profile required for our investment standard [D01], [D02].",
+   "Stress the ability to fund distributions and investment without favorable capital markets rather than capitalize an uncovered dividend as a permanent yield. → Operating cash flow is consistently insufficient to cover heavy capital expenditure requirements and dividend payments [D02], [D03]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Structural challenges in energy demand and persistent GAAP losses prevent a clear path to durable, long-term EPS growth [D01], [D02], [D04]."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business lacks the simple, predictable, and free-cash-flow-generative profile required for our investment standard",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Performance is fundamentally tied to volatile global commodity cycles",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating cash flow is consistently insufficient to cover heavy capital expenditure requirements and dividend payments",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 8,
+  "share": 0.8
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "This reliance on extrinsic factors we cannot control introduces a level of risk and unpredictability that is incompatible with our portfolio mandate [D01], [D04].",
+ "grader_notes": "The agent perfectly aligned with Ackman's core thesis regarding the uncontrollability of commodity-driven margins and the reliance on external financing to fund dividends. Reasoning was closest to Ackman's public-market philosophy found in the Pershing Square documentation. The agent included one extra driver regarding long-term EPS growth, which, while accurate to the firm's overall mandate, was not explicitly listed in the specific control-case drivers provided.",
+ "run": "ctl_2020_xom_pass__current__masked"
+}

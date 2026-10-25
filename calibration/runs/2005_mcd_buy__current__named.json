@@ -1,0 +1,260 @@
+{
+ "pack": "2005_mcd_buy",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2005-09-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "McDonald's operates a global quick-service restaurant system through company-operated, franchised, and affiliated restaurants [D01]. The business model combines a consumer brand with purchasing scale, menu development, and a large physical network, earning revenue from direct restaurant sales and rent/royalty-type fees [D01].",
+   "segments_and_mix": [
+    "Company-operated: US$14.224 billion revenue (2004) [D01]",
+    "Franchised/affiliated: US$4.841 billion revenue (2004) [D01]"
+   ],
+   "unit_economics": [
+    "Company-operated margin: 15.3% (2004), 14.8% (Q2 2005) [D01]",
+    "Franchise margin: 79.3% (2004), 80.2% (Q2 2005) [D01]",
+    "FCF conversion: Operating cash flow was US$3.904 billion vs. US$1.419 billion capex in 2004 [D02]",
+    "Capex intensity: Spending has declined from aggressive expansion periods [D02]"
+   ],
+   "competitive_position": [
+    "Rank/Share: Global quick-service leader with 31,561 systemwide restaurants at year-end 2004 [D01]",
+    "Moat: Familiar consumer brand, purchasing scale, menu development, and large physical network [D01]",
+    "Peers: Wendy's, Yum Brands (Taco Bell, KFC, Pizza Hut), Sonic, Red Robin, California Pizza Kitchen [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "Revenue growth: 2004 revenue of US$19.065 billion [D02]",
+    "EPS growth: 2002 US$0.70 to 2004 US$1.79 [D02]",
+    "Long-term objectives: 3-5% annual sales growth and 6-7% operating-income growth [D03]"
+   ],
+   "balance_sheet": [
+    "Net debt: US$6.9963 billion (June 2005) [D02]",
+    "Total debt: US$8.5569 billion (June 2005) [D02]",
+    "Liquidity: US$1.5606 billion cash (June 2005) [D02]"
+   ],
+   "management_and_governance": [
+    "CEO: Jim Skinner [D01]",
+    "Incentives/Capital Allocation: Plan to Win emphasizes menu variety, modernization, and execution; uses dividends and share repurchases [D01, D02, D07]",
+    "Controller/Dual-class: Not in pack"
+   ],
+   "price_and_valuation": [
+    "Price: US$33.49 (Sept 30, 2005) [D04]",
+    "Market Cap: ~US$41.865 billion [D04]",
+    "Drawdown: ~4.4% below observed high [D04]",
+    "P/E: 18.7x based on 2004 EPS [D04]",
+    "FCF yield: 5.9% based on 2004 CFO less capex [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Management resistance to real-estate restructuring [D05]",
+    "Weaker overseas markets (Europe/UK, China, Japan) [D03, D05]",
+    "Potential impact of fuel prices and hurricane disruption [D05]",
+    "Slowing US sales growth rate against strong prior-year comparisons [D05]"
+   ],
+   "recent_events": [
+    "July 21, 2005: Q2 earnings release [D07]",
+    "Sept 9, 2005: August sales reported with 3.4% global comp growth [D07]",
+    "Sept 16-17, 2005: Public speculation of Pershing Square stake [D07]",
+    "Sept 21, 2005: Announced Chipotle minority IPO and dividend increase [D07]"
+   ],
+   "pershing_context": [
+    "Firm: Young activist manager with Wendy's stake [D08]",
+    "Stake: Rumored 4.9% stake reported in press, not confirmed by Pershing Square [D07, D08]",
+    "Prior engagement: Active role in Wendy's [D08]"
+   ],
+   "missing_data": [
+    "Authenticated Pershing Square 13F and exact firm AUM",
+    "Matched current cost-of-capital/maintenance-capex analysis",
+    "Independent real estate appraisal or current market-rent study"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "McDonald's operates a global quick-service restaurant system with high franchise margins of ~80% and strong conversion of operating cash flow to free cash flow [D01, D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "As the global quick-service leader with 31,561 locations, the company benefits from a powerful consumer brand, purchasing scale, and an extensive physical network [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "PASS",
+     "evidence": "The business operates a global model that is not hostage to a single commodity or regulator, though it faces typical macro sensitivity [D01, D03, D05]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The balance sheet shows manageable debt levels of US$8.56 billion against significant cash flow generation [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "Strong cash flow generation and low maintenance capex needs indicate no reliance on external financing for core operations [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of approximately US$41.865 billion, the company is large and liquid [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "Trading at 18.7x P/E with a 5.9% FCF yield, the valuation appears attractive for a high-quality global franchise [D04]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "While the 'Plan to Win' shows progress, there is market concern regarding management's resistance to necessary real-estate restructuring [D01, D05]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company maintains a clear, consistent long-term objective of 3-5% sales growth and 6-7% operating income growth [D03]."
+    }
+   },
+   "n_pass": 8,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant, global, free-cash-flow-generative consumer franchise with significant potential for value creation through real estate and operational optimization"
+  },
+  "gate2": {
+   "templates": [
+    "T2",
+    "T3"
+   ],
+   "variant_perception": "The market views McDonald's as a mature, slow-growth operator of restaurants, failing to recognize the immense value hidden in its vast real estate portfolio [D01, D05]. We believe the company is significantly undervalued because management has not yet committed to a separation or optimization of these real estate assets, which would unlock substantial capital and drive higher returns for shareholders [D05].",
+   "evidence": [
+    "McDonald's holds massive, unappreciated real estate assets embedded within its system [D01].",
+    "Management has historically resisted calls to restructure its real estate holdings to unlock value [D05].",
+    "There is a documented margin gap between company-operated restaurants (14.8%) and highly profitable franchise operations (80.2%) [D01].",
+    "Activist pressure or strategic shifts toward a more franchised, capital-light model would fundamentally re-rate the stock [D01, D07]."
+   ],
+   "market_narrative_we_disagree_with": "The market believes the current 'Plan to Win' strategy focusing on incremental menu and operational improvements is sufficient, ignoring the potential for a transformative real estate spin-off or REIT conversion [D01, D05].",
+   "what_must_be_true": [
+    "The real estate portfolio is separable and carries a market value significantly higher than its current book value.",
+    "Management can be persuaded or compelled to transition to a more capital-light franchise model.",
+    "The core business maintains stable, predictable cash flows to support debt servicing and dividend growth while restructuring occurs.",
+    "There are no prohibitive tax or regulatory hurdles to restructuring the real estate assets."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "pre_2018_sum_of_parts",
+   "entry_multiple": "18.7x 2004 EPS vs estimated peer range 15-20x [D04, D06]",
+   "eps_or_fcf_path": {
+    "base_year": "2004",
+    "base_value": "US$1.79 EPS",
+    "growth_assumption": "6-7% operating income growth driven by franchise mix shift and operational efficiency [D02, D03]",
+    "year_3_to_5_value": "US$2.25 - US$2.50 EPS (estimated)",
+    "assumptions": [
+     "Operating income growth of 6-7% [D03]",
+     "Successful franchise mix shift [D01]",
+     "Consistent share repurchases [D02]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 18,
+    "why": "Reflects a premium for high-quality, free-cash-flow-generative dominant global brand status partially offset by execution risk in real estate restructuring [D01]"
+   },
+   "implied_irr_pct": {
+    "base": 18,
+    "bear": 8,
+    "bull": 25
+   },
+   "downside_case": "If real estate is not unlocked and growth slows to 3%, the stock may stagnate at 15-16x earnings; permanent loss is unlikely given strong free cash flow [D02, D03].",
+   "valuation_verdict": "ADEQUATE_15_20",
+   "flagged_assumptions": [
+    "Independent real estate appraisal of current market value vs book value [missing_data]",
+    "Tax implications of potential real estate spin-off or REIT conversion [missing_data]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C3",
+   "catalyst_description": "We will initiate a public campaign to urge management to monetize the company's vast real estate portfolio, which is currently mispriced by the market as a slow-growth restaurant operator rather than a high-margin, capital-light franchise system [D01, D05].",
+   "levers_or_steps": [
+    "Engage with the board and management to advocate for a spin-off or REIT conversion of the real estate holdings [D05].",
+    "Drive a transition to a more heavily franchised model to increase margins from ~15% to 80%+ at the unit level [D01].",
+    "Pressure for enhanced capital allocation, specifically prioritizing share repurchases and dividends using the unlocked real estate value [D02].",
+    "Publicize the valuation gap between the current company-operated structure and a capital-light, royalty-based franchise model [D01]."
+   ],
+   "time_to_value_realisation_years": 2,
+   "why_this_role_fits_the_era": "In our 2004-2012 activist era, we utilize 13D filings, white papers, and public pressure to force management to unlock trapped value in conglomerate or complex structures, a strategy directly applicable to the misunderstood real estate assets at McDonald's [D01, D05, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management explicitly rejects the franchise-first strategy and doubles down on capital-intensive company-operated expansion.",
+    "System-wide same-store sales decline for two consecutive quarters, signaling brand erosion.",
+    "Regulatory or tax changes make the tax-efficient separation of the real estate portfolio unfeasible."
+   ],
+   "portfolio_fit": "This is a core activist holding consistent with our strategy of targeting misunderstood consumer franchises; we have a similar activist overlap with our Wendy's position [D08].",
+   "size_pct_nav": {
+    "initial": 8,
+    "target": 15,
+    "max": 20
+   },
+   "liquidity_assessment": "The stock is highly liquid, with a US$41.865 billion market cap; accumulating a significant position can be executed over several weeks at typical daily trading volumes without excessive slippage [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that management remains entrenched and refuses to unlock the value of the real estate portfolio, leaving the stock to trade as a slow-growth operator rather than a high-margin franchisor [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2005-09-30",
+  "company": "McDonald's Corporation",
+  "ticker": "MCD",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 15,
+  "opportunity_template": [
+   "T2"
+  ],
+  "catalyst_role": "C3",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "18.7x 2004 EPS",
+   "eps_path": "6-7% operating income growth driven by franchise mix shift and operational efficiency",
+   "terminal_multiple": "18x",
+   "irr_pct": 20,
+   "downside_case": "Stagnation at 15-16x earnings if real estate optimization is ignored; strong FCF protects capital."
+  },
+  "drivers": [
+   {
+    "driver": "McDonald's is a dominant, global, free-cash-flow-generative consumer franchise with high-margin royalty-like franchise fees.",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The market misprices the business as a slow-growth operator, ignoring the immense value hidden in its vast real estate portfolio.",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Management's current focus on operational 'Plan to Win' metrics ignores the superior returns available through a more capital-light, franchised model.",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "A transition to a franchised model could expand margins from ~15% to 80%+ at the unit level, driving significant EPS growth.",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "We have identified clear catalysts to unlock value, including a potential real estate spin-off or REIT conversion.",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management explicitly rejects the franchise-first strategy and doubles down on capital-intensive company-operated expansion.",
+   "System-wide same-store sales decline for two consecutive quarters, signaling brand erosion.",
+   "Regulatory or tax changes make the tax-efficient separation of the real estate portfolio unfeasible."
+  ],
+  "what_would_change_our_mind": "Evidence that the real estate is not separable or that the tax cost of unlocking the portfolio exceeds the intrinsic value gain.",
+  "memo": "McDonald's represents a quintessential high-quality, dominant global franchise, operating 31,561 locations with unmatched consumer brand power and purchasing scale [D01]. The business is exceptionally free-cash-flow-generative, yet its true potential is obscured by a capital-intensive company-operated model that currently generates only 14.8% margins compared to 80.2% in its franchise business [D01, D02].\n\nThe market opportunity exists because investors perceive McDonald's as a mature, slow-growth restaurant operator, failing to value the significant embedded real estate portfolio [D01, D05]. While management has made progress with its 'Plan to Win' strategy, the market remains skeptical of management's willingness to depart from a capital-intensive model that depresses overall returns [D01, D05].\n\nWe acquired our stake at approximately 18.7x 2004 earnings, a valuation that we believe is attractive given the potential for structural transformation [D04]. With 6-7% operating income growth supported by a mix shift toward franchising and disciplined capital allocation, we expect a high rate of return as the market re-rates the company from a restaurant operator to a capital-light royalty business [D02, D03].\n\nOur role is to serve as a catalyst for value creation, actively advocating for a separation or REIT conversion of the real estate assets [D05]. We intend to engage with the board to accelerate the transition to a franchise-first model, which would permanently improve the firm's capital-light characteristics and margin profile [D01, D05].\n\nThe primary risk is management entrenchment regarding their current capital-intensive structure, which would limit the upside of our thesis [D05]. However, given the strength of the underlying cash flows and the clear path to value creation, we believe the downside is bounded [D02, D03].\n\nWe are initiating a position with an initial target of 8% of NAV, with the intent to scale to 15% as we confirm management's alignment with a value-maximizing strategy [D04, D08]. The company's high liquidity allows for efficient accumulation of this position [D04].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

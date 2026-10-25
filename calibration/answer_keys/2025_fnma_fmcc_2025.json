@@ -1,0 +1,22 @@
+{
+  "id": "2025_fnma_fmcc_2025",
+  "actual_decision": "HOLD",
+  "acceptable_decisions": ["HOLD", "ADD"],
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Existing common positions from2013; exact Jan2025 weight/addition unavailable. Initial2013 investment approximately$500m; 9.98% FNMA /9.77% FMCC then-outstanding common, before Treasury warrant dilution.",
+  "first_action_date": "2013 (exact initial purchase unknown); reassessment2024-12-30 to2025-01-15",
+  "disclosure_date": "2013-11-15 initial; 2024-12-30 public renewed thesis",
+  "reason_class": "THESIS_ON_TRACK",
+  "opportunity_template": ["T6"],
+  "catalyst_role": "C1",
+  "drivers": [
+    {"driver": "A second Trump administration creates a credible near-term path to release.", "source": "https://x.com/BillAckman/status/1873818034428694837 (2024-12-30; Firecrawl authenticated)", "quote": "What makes them particularly interesting today versus any other time in history is that there is a credible path for their removal from conservatorship in the relative short term, that is, in the next two years."},
+    {"driver": "Credit prior distributions toward repayment of senior preferred rather than leave an unlimited senior claim.", "source": "https://x.com/BillAckman/status/1873818034428694837 (2024-12-30)", "quote": "the GSEs are credited with the dividends and other distributions paid on the government senior preferred"},
+    {"driver": "Retained capital and earnings support recapitalization with manageable new issuance under the proposed2.5%standard.", "source": "https://x.com/BillAckman/status/1873818034428694837 (2024-12-30)", "quote": "Assuming a Q4 2026 IPO, the two companies collectively would need only raise about $30 billion to meet the 2.5% capital standard, a highly achievable outcome."},
+    {"driver": "Full Treasury warrant exercise aligns taxpayer proceeds with a successful offering.", "source": "https://x.com/BillAckman/status/1873818034428694837 (2024-12-30)", "quote": "We calculate a profit to the gov’t of ~$300 billion assuming full exercise of its warrants and a sell down of common stock in both companies over the five years following the IPOs."},
+    {"driver": "Large conditional valuation upside remains despite rally, while outcome uncertainty requires limited exposure.", "source": "https://x.com/BillAckman/status/1873818034428694837 (2024-12-30)", "quote": "We estimate the value of each company at the time of their IPOs in 2026 at ~$34 per share."}
+  ],
+  "entry_valuation_stated": "Not a new entry. December30 post says around average cost; ~$34 intrinsic/$31 hypothetical2026IPO. Later ~$40+ relisting-only plan is not pre-Jan15 information.",
+  "outcome_note": "Continued holding and advocacy; strong2025 mark-to-market contributions followed by materialH1 2026 declines. November2025 relisting-first plan differs from December2024 IPO scenario. No verified January2025 incremental ADD execution.",
+  "pack_quality_notes": "January16 deck deliberately excluded. Original2013 purchase letter not authenticated; D00 uses attributed2015 retrospective letter. No direct new Trump commitment to exact terms verified. Freddie2021 netincome, complete peer multiples, current portfolio weights and52week prices omitted. Reason class uses harness-valid THESIS_ON_TRACK rather than S1-S5 because this is a hold."
+}

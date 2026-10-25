@@ -1,0 +1,49 @@
+{
+ "trade_id": "2026_hlt_sell",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "At the prevailing valuation, prospective returns no longer met the required return threshold. → When the forward IRR of an existing holding dips below our required threshold of approximately 15% due to multiple expansion, we must evaluate whether those assets are better deployed elsewhere [D09], [D10]."
+  ],
+  "missed": [
+   "Multiple expansion had realized a substantial part of the original value opportunity.",
+   "The investment was successful rather than a business-quality reversal."
+  ],
+  "extra_agent_drivers": [
+   "recent RevPAR headwinds",
+   "ongoing burden of elevated debt levels"
+  ]
+ },
+ "discipline": "PARTIAL",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Hilton trades at 37.7 times the midpoint of its 2025 adjusted EPS guidance.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company grew adjusted EBITDA by 8% in the third quarter.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The valuation is a material departure from the 23 times earnings multiple at which we initially underwrote the position in 2019.",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 8,
+  "share": 0.8
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "When the forward IRR of an existing holding dips below our required threshold of approximately 15% due to multiple expansion, we must evaluate whether those assets are better deployed elsewhere [D09], [D10].",
+ "grader_notes": "The agent correctly identifies the valuation-driven motivation for reducing the position, showing close alignment with the return threshold driver. However, the agent misses the specific Ackman-stated context that the investment was a success (realized multiple expansion) rather than a response to business-quality issues like RevPAR or debt levels, which the agent incorrectly highlights as negative drivers.",
+ "run": "2026_hlt_sell__current__named",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

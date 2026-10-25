@@ -1,0 +1,269 @@
+{
+ "pack": "2026_nflx_buy_2",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2026-04-20",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company provides entertainment via global recurring memberships, utilizing both licensed and internally commissioned content [D02]. It has expanded to include an advertising-supported plan alongside its traditional subscription model [D02].",
+   "segments_and_mix": [
+    "subscription: % not disclosed [D02]",
+    "advertising: % not disclosed, but revenue exceeded $1.5 billion in 2025 [D02]"
+   ],
+   "unit_economics": [
+    "32.3% operating margin [D02]",
+    "FCF conversion: historically complex due to content cash vs. expense timing [D03]",
+    "capex: $688 million in 2025; content spending is primarily in operating cash flow [D03]",
+    "pricing power: demonstrated through recent price changes [D04]"
+   ],
+   "competitive_position": [
+    "share: >325 million memberships [D02]",
+    "rank: not in pack",
+    "moat evidence: scale supports a reinforcing loop of programming, tech, and distribution [D02]",
+    "peers: Disney, Warner Bros. Discovery, YouTube, social video, and traditional entertainment [D02, D07]"
+   ],
+   "growth_record_and_outlook": [
+    "revenue growth: 15.85% in 2025; 16% in Q1 2026 [D03, D04]",
+    "EPS growth: Q1 2026 diluted EPS $1.23 [D03]",
+    "guidance: FY2026 revenue $50.7–51.7 billion; 12–14% growth; 31.5% operating margin [D04]"
+   ],
+   "balance_sheet": [
+    "net debt: approximately $2.14 billion (Q1 2026, including termination receipt) [D03]",
+    "leverage: gross debt $14.4 billion [D03]",
+    "maturities: not in pack",
+    "rating: not in pack"
+   ],
+   "management_and_governance": [
+    "CEO tenure: Co-CEOs Ted Sarandos and Greg Peters [D02]",
+    "incentives: not in pack",
+    "capital allocation record: repurchased 13.5 million shares for $1.3 billion in Q1 2026 [D03]",
+    "controller/dual-class: Reed Hastings stepping down from board in June 2026 [D02, D04]"
+   ],
+   "price_and_valuation": [
+    "price: $94.83 (as of 2026-04-20) [D05]",
+    "market cap: ~$407.58 billion (diluted equity proxy) [D05]",
+    "drawdown from high: 29.3% from $134.12 [D05]",
+    "P/E: 37.5x (trailing FY2025) [D05]",
+    "EV/EBITDA: not in pack",
+    "FCF yield: ~2.3-2.4% (calculated) [D05]",
+    "own-history/peer/S&P comparison: not in pack"
+   ],
+   "what_the_market_is_worried_about": [
+    "forecast miss/growth moderation [D06]",
+    "governance continuity after Reed Hastings [D06]",
+    "sustainability of growth drivers beyond subscription [D06]",
+    "engagement levels (viewing hours growth slowing) [D06]",
+    "competition from YouTube/social/AI [D06]"
+   ],
+   "recent_events": [
+    "2025-11: 10-for-1 stock split [D08]",
+    "2026-02-26: Warner transaction abandoned; $2.8 billion termination fee received [D08]",
+    "2026-04-16: Q1 earnings release and annual guidance [D04]",
+    "2026-04-17: Share price decline following earnings and governance news [D06]"
+   ],
+   "pershing_context": [
+    "fund AUM: $19.748 billion gross core-fund AUM [D08]",
+    "current holdings: Amazon, Meta, Alphabet, etc. [D08]",
+    "cash: not in pack",
+    "existing stake: none [D00]",
+    "prior engagement: historical 2022 exit due to predictability concerns [D00]"
+   ],
+   "missing_data": [
+    "tax-adjusted recurring trailing EPS",
+    "forward P/E, EV/EBITDA, and S&P 500 relative valuation metrics",
+    "detailed segment-level profitability (advertising vs. subscription)",
+    "complete list of current holdings and precise cash position"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "UNSURE",
+     "evidence": "While the company has strong subscription economics, FCF conversion remains historically complex due to the timing of content cash outflows versus expense recognition [D03]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The business maintains a competitive advantage through a reinforcing loop of programming scale, proprietary technology, and global distribution [D02]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "PASS",
+     "evidence": "The company operates a global membership model with diversified revenue streams across subscriptions and advertising, minimizing reliance on specific extrinsic commodity factors [D02]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "With net debt of approximately $2.14 billion against a market capitalization of over $400 billion, the company maintains a robust balance sheet [D03, D05]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The company is generating sufficient cash to fund operations and return capital to shareholders via $1.3 billion in repurchases, indicating no need for external financing [D03]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of approximately $407.58 billion, the business provides sufficient liquidity for a concentrated Pershing Square position [D05]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "The stock trades at a 37.5x P/E ratio, and the pack lacks the necessary comparative data against the S&P 500 or the company's historical valuation to confirm it is 'cheap' [D05]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "While current co-CEOs manage the business, there is market concern regarding governance continuity following the departure of Reed Hastings from the board [D02, D06]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company continues to demonstrate strong growth with 16% revenue growth in Q1 2026 and an established plan for expansion into advertising [D02, D04]."
+    }
+   },
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 3,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant, high-growth global entertainment franchise with strong scale advantages, currently navigating a governance transition and valuation uncertainty."
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market fears that the governance transition following Reed Hastings' departure and slowing engagement growth signal a peak in the business's dominant trajectory [D06]. We believe this 29.3% drawdown is a temporary reaction to uncertainty rather than an impairment of the underlying subscription and advertising growth engine [D05, D06]. As the Co-CEOs demonstrate operational stability and the advertising revenue stream scales, the market will re-rate the stock toward its historical high-growth premium [D02, D04].",
+   "evidence": [
+    "29.3% drawdown from the recent high of $134.12 [D05]",
+    "Continued 16% revenue growth in Q1 2026 despite market sentiment [D04]",
+    "Strong balance sheet with net debt of only $2.14 billion [D03]",
+    "Market focus on governance transition risks following Reed Hastings' departure [D06]"
+   ],
+   "market_narrative_we_disagree_with": "The narrative that growth is moderating permanently and that the absence of a founder-led board will lead to suboptimal capital allocation or execution [D06].",
+   "what_must_be_true": [
+    "Revenue growth remains in the low-to-mid teens range through 2026 [D04]",
+    "Advertising revenue continues to scale as a meaningful contributor to operating margins [D02]",
+    "Operating margins remain at or above the guided 31.5% [D04]",
+    "The co-CEO structure effectively manages the transition without loss of strategic focus [D02]"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "19.3x NTM P/E (estimated based on $4.92 FY2026 EPS estimate vs $94.83 price); historical data not in pack",
+   "eps_or_fcf_path": {
+    "base_year": "2025",
+    "base_value": "$4.15",
+    "growth_assumption": "15% annual EPS growth based on mid-teens revenue growth and margin expansion",
+    "year_3_to_5_value": "$7.08 (Year 4)",
+    "assumptions": [
+     "FY2026 revenue guidance 12-14% [D04]",
+     "Operating margins 31.5% [D04]",
+     "Revenue growth sustained at 15% through 2029 [D04]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 25,
+    "why": "Reflects dominant global streaming position, advertising scaling, and subscription predictability as a high-quality compounder."
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 28
+   },
+   "downside_case": "If growth stalls to single digits and margins contract due to competition, the multiple could compress to 18x, leading to limited upside but minimal permanent capital loss given the strong balance sheet.",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "EPS growth rate assumed based on revenue growth guidance and margin targets",
+    "NTM EPS estimate derived from Q1 2026 results and annual growth projections",
+    "Historical peer/S&P 500 valuation context missing from pack"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We are looking for a compounding_alone thesis. The company's recent 29.3% drawdown represents a market overreaction to the governance transition involving Reed Hastings [D05, D06]. We expect a re-rating toward a higher valuation multiple as the Co-CEOs demonstrate operational stability and as the advertising revenue stream scales to become a larger, more predictable contributor to the company's margin profile [D02, D04].",
+   "levers_or_steps": [
+    "Revenue growth sustained in the low-to-mid teens range through 2026 [D04]",
+    "Successful scaling of advertising revenue to meaningful contribution levels [D02]",
+    "Maintain operating margins at or above the guided 31.5% [D04]",
+    "Demonstration of effective strategic leadership by the Co-CEOs following the board transition [D02]"
+   ],
+   "time_to_value_realisation_years": 4,
+   "why_this_role_fits_the_era": "In our 'Pershing Square 3.0' era (2018-2023) and beyond, we focus on investing in high-quality, dominant businesses that are temporarily mispriced due to market dislocations. This is a classic compounding story where the intrinsic value remains robust despite short-term governance concerns; as such, we do not require active intervention but rather the patience to allow the underlying cash flow and growth to compound at an attractive entry valuation [D05, D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Revenue growth falls below double digits for two consecutive quarters, signaling a breakdown in the core growth engine [D04].",
+    "Operating margins collapse below 28% due to excessive content spending or failed advertising monetization [D04].",
+    "The co-CEO structure creates clear strategic paralysis or a shift away from the disciplined capital allocation observed in the Q1 2026 buybacks [D03, D04]."
+   ],
+   "portfolio_fit": "This business represents a dominant, high-growth global entertainment franchise that fits our quality-compounder mandate [D02]. Given our existing exposure to large-cap technology and media platforms like Meta and Alphabet, this investment increases our concentration in content-led digital ecosystems, necessitating careful management of total exposure to advertising-dependent revenue models [D08].",
+   "size_pct_nav": {
+    "initial": 4,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "With a market capitalization of $407.58 billion and consistent daily trading volume, we can build an 8% position over several weeks without significant price impact [D05].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is a permanent deceleration in subscriber growth combined with a failure to scale the advertising business to offset content costs during the governance transition."
+  }
+ },
+ "final": {
+  "as_of_date": "2026-04-20",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "special_situation": false,
+  "valuation": {
+   "entry_multiple": "19.3x NTM P/E",
+   "eps_path": "15% annual EPS growth driven by low-to-mid teens revenue growth and sustained 31.5% operating margins",
+   "terminal_multiple": "25x",
+   "irr_pct": 22,
+   "downside_case": "Multiple compression to 18x if growth stalls to single digits and margins contract"
+  },
+  "drivers": [
+   {
+    "driver": "A dominant, high-growth global entertainment franchise that benefits from a reinforcing loop of programming scale, technology, and global distribution.",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "We are acquiring the business at an attractive 19.3x NTM P/E following a 29.3% market-driven drawdown.",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "The company is successfully executing a pivot to an advertising-supported model to supplement its core subscription growth.",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The earnings path is supported by a consistent 15% revenue growth algorithm and disciplined capital allocation, including $1.3 billion in Q1 2026 share repurchases.",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The market is incorrectly pricing in governance risk following the board departure of a founder, whereas the co-CEO structure has demonstrated operational stability.",
+    "citations": [
+     "D02",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Revenue growth falls below double digits for two consecutive quarters.",
+   "Operating margins collapse below 28% due to excessive content spending or failed advertising monetization.",
+   "The co-CEO structure creates clear strategic paralysis or a shift away from disciplined capital allocation."
+  ],
+  "what_would_change_our_mind": "A permanent deceleration in subscriber growth combined with a failure to scale the advertising business to offset content costs, suggesting the core competitive advantage is eroding.",
+  "memo": "The Company is a dominant, high-growth global entertainment franchise that operates an unparalleled global membership model [D02]. It meets our high standards for business quality through its reinforcing loop of programming scale, proprietary technology, and global distribution, creating a durable competitive moat [D02].\n\nThe opportunity exists because the market has overreacted to the company’s governance transition following the departure of Reed Hastings from the board [D06]. We view the recent 29.3% drawdown as a temporary dislocation rather than an impairment of the business's fundamental trajectory [D05].\n\nAt a 19.3x NTM P/E, we are able to initiate a position in a compounder at an attractive valuation relative to its future earnings power [D03, D05]. We project 15% annual EPS growth sustained by continued revenue expansion and disciplined 31.5% operating margins [D04].\n\nOur role is that of a long-term compounder investor [D06]. We expect the market to re-rate the shares as the co-CEOs demonstrate operational continuity and the advertising revenue stream scales to become a larger, more predictable contributor to the company’s margin profile [D02, D04].\n\nWhile we monitor risks related to competition and the scaling of the advertising model, we believe these are mitigated by the company's strong balance sheet, with only $2.14 billion in net debt [D03, D06]. We would change our mind if revenue growth permanently decelerated below double digits [D04].\n\nWe are initiating a position with an 8% target of NAV, as the company's large market capitalization provides sufficient liquidity for us to build our stake at current levels [D05]."
+ },
+ "elapsed_s": 0
+}

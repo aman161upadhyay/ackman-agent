@@ -1,0 +1,50 @@
+{
+ "trade_id": "2026_spgi_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Ratings, Indices and Platts dominate earnings and possess durable benchmark/oligopoly advantages. → S&P Global is a dominant financial utility with high barriers to entry via entrenched network effects in credit ratings and indices [D01, D06].",
+   "The AI-threatened desktop exposure was small relative to the enterprise profit pool. → The market has mispriced the stock due to a temporary guidance miss and overblown fears regarding AI disruption of its research and data offerings [D03, D05].",
+   "Growth and capital return were available at about19x earnings versus about25x before de-rating. → We are able to acquire our stake at a 20.6x forward P/E, a valuation that we believe understates the long-term compounding potential of the firm [D03, D04]."
+  ],
+  "missed": [
+   "Proprietary structured data can become more valuable within AI workflows."
+  ],
+  "extra_agent_drivers": [
+   "The business is highly free-cash-flow-generative with 50.4% adjusted operating margins and disciplined capital allocation [D02, D03].",
+   "The company maintains a strong growth outlook of 6-8% organic revenue growth driven by the secular demand for financial data [D03]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "S&P Global is a dominant financial utility with high barriers to entry via entrenched network effects in credit ratings and indices",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market has mispriced the stock due to a temporary guidance miss",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company maintains a strong growth outlook of 6-8% organic revenue growth",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 4,
+  "share": 0.31
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "The opportunity arises from a 9.7% share price decline following a short-term guidance miss, which the market has incorrectly extrapolated as a structural impairment to growth [D03, D05].",
+ "grader_notes": "The agent correctly identified the direction and successfully captured three of the four core drivers identified in the Ackman memo. The agent missed the specific nuance regarding structured data in AI workflows. The reasoning is well-grounded in the provided documents.",
+ "run": "2026_spgi_buy__current__named",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

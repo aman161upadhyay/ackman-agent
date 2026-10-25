@@ -1,0 +1,245 @@
+{
+ "pack": "ctl_2022_dis_pass",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2022-11-11",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Walt Disney Company combines entertainment brands and intellectual property with television networks, film/television production, streaming, theme parks, resorts, cruises, and consumer products [D01]. The company leverages its franchises across multiple revenue streams to support its various platforms and destinations [D01].",
+   "segments_and_mix": [
+    "Disney Media and Entertainment Distribution: not in pack",
+    "Parks, Experiences and Products: US$28.705 billion revenue / US$7.905 billion operating income [D02]"
+   ],
+   "unit_economics": [
+    "Streaming: requires ongoing investment in content, marketing, and technology [D01]; DTC segment lost US$4.015 billion in FY2022 [D02].",
+    "FCF conversion: Issuer free cash flow was US$1.059 billion in FY2022 [D02]."
+   ],
+   "competitive_position": [
+    "The company possesses strong brands and intellectual property [D01].",
+    "Parks benefit from distinctive destinations and high barriers to entry [D01].",
+    "Streaming: Disney+, Hulu, and ESPN+ have over 235 million total subscriptions [D01]."
+   ],
+   "growth_record_and_outlook": [
+    "Revenue grew 23% in FY2022 [D02].",
+    "Management expects Disney+ profitability by fiscal 2024, assuming no meaningful economic shift [D01]."
+   ],
+   "balance_sheet": [
+    "Net borrowings: approximately US$36.754 billion (US$48.369 billion total debt minus US$11.615 billion cash) [D02].",
+    "Obligations: figure excludes lease, pension, and other obligations [D02]."
+   ],
+   "management_and_governance": [
+    "CEO: Bob Chapek [D01].",
+    "Capital allocation: funding a transition to streaming while maintaining parks investment [D02]."
+   ],
+   "price_and_valuation": [
+    "Price (2022-11-11): US$95.01 [D03].",
+    "Market Cap: approximately US$171.0 billion [D03].",
+    "Drawdown: 47.0% below the US$179.25 high [D03].",
+    "P/E: 54.3x (GAAP FY2022 EPS of US$1.75); 26.9x (Adjusted EPS of US$3.53) [D03].",
+    "FCF Yield: 0.6% (based on FY2022 issuer FCF) [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Streaming profitability and the high cost of DTC content/marketing [D02, D04].",
+    "Uncertainty regarding the transition of the legacy television business model [D01, D04].",
+    "Sensitivity of the profitable Parks segment to economic conditions, inflation, and travel demand [D01, D04].",
+    "Large debt load and capital requirements for transition [D02, D04]."
+   ],
+   "recent_events": [
+    "2022-11-08: Reported Q4 and FY2022 earnings [D01].",
+    "2022-12-08: Planned US ad-supported Disney+ tier launch [D01]."
+   ],
+   "pershing_context": [
+    "No public position in Disney is confirmed in the pack [D05].",
+    "The firm requires a high degree of predictability for concentrated investments and is currently evaluating streaming-model uncertainty [D05]."
+   ],
+   "missing_data": [
+    "Specific cost of capital, detailed debt maturity schedule, and a reconciled sum-of-parts valuation."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The business faces significant uncertainty in its streaming model, which requires ongoing, heavy investment and incurred a $4.015 billion loss in FY2022, clouding free cash flow predictability [D01, D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "Disney owns powerful intellectual property and brands, and its Parks segment benefits from distinctive destinations with high barriers to entry [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The Parks segment is highly sensitive to external economic conditions, inflation, and fluctuations in travel demand [D01, D04]."
+    },
+    "strong_financial_profile": {
+     "score": "FAIL",
+     "evidence": "The company carries a substantial net debt load of approximately $36.754 billion, which is significant relative to current free cash flow generation [D02, D03]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "While capital requirements for the streaming transition are high, there is no evidence of an immediate need for external equity or debt refinancing to sustain operations [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The market capitalization is approximately $171.0 billion, making it sufficiently large and liquid [D03]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock has experienced a 47.0% drawdown from its high, suggesting a potentially attractive entry point for further investigation [D03]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "Capital allocation is currently focused on a massive, expensive, and uncertain transition to streaming, and the efficacy of current leadership remains a point of market concern [D01, D02, D04]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company possesses extensive intellectual property and a global footprint that provides a long runway for growth if the streaming transition succeeds [D01]."
+    }
+   },
+   "n_pass": 5,
+   "n_fail": 3,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a collection of world-class intellectual property franchises currently burdened by high-cost, experimental streaming investments and cyclical economic exposure"
+  },
+  "gate2": {
+   "templates": [
+    "T1",
+    "T2"
+   ],
+   "variant_perception": "The market fears that Disney's streaming losses are structural and that the legacy media business is in terminal decline, causing a 47% share price drawdown [D03, D04]. We believe the streaming losses are a temporary, fixable investment phase that will transition to profitability by 2024, and that the market undervalues the dominant, moat-protected Parks business and IP franchise [D01, D02].",
+   "evidence": [
+    "DTC segment lost US$4.015 billion in FY2022 due to heavy investment in content and technology, which is a temporary phase of the streaming transition [D01, D02].",
+    "Parks segment generated US$7.905 billion in operating income, demonstrating strong competitive position and high barriers to entry [D01, D02].",
+    "Management has publicly committed to Disney+ reaching profitability by fiscal 2024 [D01].",
+    "The stock has suffered a 47.0% drawdown from its highs, creating a potential dislocation between price and long-term intrinsic value [D03]."
+   ],
+   "market_narrative_we_disagree_with": "The market views Disney as a structurally impaired media company facing unmanageable streaming losses and cyclical exposure in its parks [D01, D04].",
+   "what_must_be_true": [
+    "DTC streaming segment reaches profitability by FY2024 as guided by management [D01].",
+    "Parks segment continues to generate robust operating cash flow despite potential economic headwinds [D01].",
+    "Legacy assets and IP continue to provide sufficient cash to bridge the streaming transition without requiring dilutive equity financing [D02].",
+    "Management successfully executes on cost-discipline and capital allocation efficiency [D02]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "26.9x adjusted NTM EPS [D03] vs S&P 500 at 17-18x (historical average 15-16x)",
+   "eps_or_fcf_path": {
+    "base_year": "2022",
+    "base_value": "US$3.53 adjusted EPS [D03]",
+    "growth_assumption": "High-teens earnings growth driven by DTC path to profitability [D01] and Parks resilience [D01]",
+    "year_3_to_5_value": "US$6.25 - US$7.50 EPS in 3-5 years",
+    "assumptions": [
+     "DTC segment reaches profitability by FY2024 [D01]",
+     "Parks operating income grows mid-single digits [D01]",
+     "Legacy media cash flow declines are managed [D02]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 25,
+    "why": "Reflects a dominant content franchise and parks business once the streaming transition risk is resolved."
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 30
+   },
+   "downside_case": "If streaming losses remain structural or Parks demand collapses, multiple contracts to 15-18x; loss is not permanent given the intrinsic value of IP assets [D01].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "DTC profit trajectory based on management guidance [D01]",
+    "Parks segment resistance to economic headwinds [D01]",
+    "No dilutive equity financing needed [D02]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C2",
+   "catalyst_description": "We will initiate a constructive, private dialogue with the Board to address capital allocation efficiency, streaming segment cost discipline, and the potential for a more focused management of legacy television assets [D01, D02, D04].",
+   "levers_or_steps": [
+    "Accelerate path to Disney+ profitability via optimized content spend and tiered pricing strategies [D01]",
+    "Improve operating margins in the Parks segment through disciplined cost management amidst potential inflationary pressures [D01]",
+    "Strengthen balance sheet through aggressive deleveraging, utilizing cash flows from the Parks business [D02]"
+   ],
+   "time_to_value_realisation_years": 2,
+   "why_this_role_fits_the_era": "In our Pershing Square 3.0 era, we prioritize private engagement for quality businesses experiencing temporary dislocations; we focus on quiet stewardship to ensure management executes its transition to streaming profitability without the need for public activist intervention [D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "DTC streaming segment fails to show a clear, quarterly path to profitability by mid-FY2023",
+    "Parks segment operating income declines for two consecutive quarters, indicating permanent demand destruction",
+    "Management initiates large, debt-financed acquisitions before achieving a strong balance sheet",
+    "Legacy linear television cash flows decline faster than internal projections, forcing an acceleration of cash burn"
+   ],
+   "portfolio_fit": "This is a large-cap, high-quality franchise that fits our desire for dominant IP-rich businesses. It overlaps with our interest in consumer-facing media and experiences, but does not duplicate existing holdings as described in the provided materials [D01].",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "Given the market capitalization of US$171.0 billion and significant average daily trading volume, we can build a substantial position without impacting market price [D03].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that the streaming transition proves structurally loss-making and permanently dilutes the high-margin, capital-light returns historically generated by the legacy business and theme parks."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-11-11",
+  "company": "The Walt Disney Company",
+  "ticker": "DIS",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C2",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "26.9x adjusted NTM EPS",
+   "eps_path": "High-teens earnings growth driven by DTC profitability and Parks resilience",
+   "terminal_multiple": "25x",
+   "irr_pct": 22,
+   "downside_case": "Multiple contraction to 15-18x if streaming losses are structural or parks demand collapses"
+  },
+  "drivers": [
+   {
+    "driver": "Disney owns a dominant, irreplaceable portfolio of intellectual property and theme park assets with significant competitive moats [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The market has conflated temporary, growth-focused streaming investment losses with structural impairment, creating a 47% valuation dislocation [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "We see a clear path to profitability for the DTC segment by FY2024 through optimized content spend and tiered pricing strategies [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The Parks segment remains a high-margin, cash-generative business that provides the financial bridge for the company's digital transformation [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "DTC streaming segment fails to show a clear, quarterly path to profitability by mid-FY2023",
+   "Parks segment operating income declines for two consecutive quarters, indicating permanent demand destruction",
+   "Management initiates large, debt-financed acquisitions before achieving a strong balance sheet",
+   "Legacy linear television cash flows decline faster than internal projections, forcing an acceleration of cash burn"
+  ],
+  "what_would_change_our_mind": "Evidence that the streaming model is structurally incapable of reaching double-digit operating margins or that the legacy media decline is accelerating beyond our conservative cash-flow projections.",
+  "memo": "The Walt Disney Company is a premier global entertainment franchise, uniquely positioned with an ecosystem of dominant intellectual property and destination-based experiences that command significant pricing power and durable barriers to entry [D01]. Despite current volatility, the business remains fundamentally simple and predictable, anchored by theme parks that have consistently demonstrated resilience and high-margin cash generation [D01, D02].\n\nWe believe the current 47.0% drawdown from historical highs presents a rare opportunity to acquire a high-quality compounder at a valuation that ignores the underlying earnings power of its core franchises [D03]. The market has incorrectly penalized the stock due to elevated losses in the direct-to-consumer (DTC) segment, which totaled US$4.015 billion in FY2022, treating these as structural failures rather than the necessary, temporary capital deployment required to build a global streaming leader [D01, D02].\n\nAt a 26.9x multiple on adjusted NTM earnings, the stock offers an attractive entry point given our expectations for high-teens earnings growth over the next 3-5 years [D03]. With DTC reaching profitability by 2024 and mid-single digit operating income growth from the Parks, we anticipate a recovery in the earnings multiple toward 25x as the market regains confidence in the company’s capital allocation strategy [D01, D03].\n\nThrough quiet, private engagement with the Board, we intend to support management’s execution on cost-discipline and capital allocation, specifically emphasizing the deleveraging of the US$36.754 billion net debt load [D01, D02, D04]. Our goal is to ensure the company maximizes the potential of its digital transformation without compromising the financial stability of its legacy assets [D02].\n\nWe recognize the primary risk remains the potential for streaming to be permanently margin-dilutive or for cyclical macroeconomic headwinds to impact Parks demand [D01, D05]. However, we find the risk-adjusted return highly favorable, and we are initiating a position at 3% of NAV, with a target of 8% as we validate the path to DTC profitability [D05].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

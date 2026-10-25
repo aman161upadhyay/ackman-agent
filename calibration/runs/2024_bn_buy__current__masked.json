@@ -1,0 +1,253 @@
+{
+ "pack": "2024_bn_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2024-04-10",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a diversified capital allocator with economic streams in asset management, insurance, listed operating affiliates, direct real estate, fund investments, and carried interest [D01]. It operates as a holding company with a consolidated balance sheet that includes significant minority-owned assets and nonrecourse debt [D01].",
+   "segments_and_mix": [
+    "Asset management: fee-bearing capital of $457B [D01]",
+    "Insurance: approximately $60B of assets [D01]",
+    "Operating businesses: $1,462M in distributions [D01]"
+   ],
+   "unit_economics": [
+    "Insurance generates a 5.5% investment yield with a spread over cost of capital [D01]",
+    "Fee-related earnings grew 6% in 2023 [D03]",
+    "Accumulated unrealized carried interest of $10.2B [D03]",
+    "FCF conversion: not in pack",
+    "Capex intensity: not in pack"
+   ],
+   "competitive_position": [
+    "Moat includes institutional capital access, operating expertise in real assets, and transaction execution capability [D01]",
+    "Relevant alternative manager peers include Blackstone and KKR [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "2023 DE before realizations per share grew 12% on an adjusted basis [D02]",
+    "Management targets 15%+ long-term per-share return [D03]",
+    "Projected $1.3B annualized insurance earnings post-AEL transaction [D03]"
+   ],
+   "balance_sheet": [
+    "Corporate borrowings: $12,160M [D02]",
+    "Nonrecourse borrowings: $221,550M [D02]",
+    "Consolidated cash: $11,222M [D02]"
+   ],
+   "management_and_governance": [
+    "CEO: Bruce Flatt [D01]",
+    "President: Nick Goodman [D01]",
+    "Capital allocation record involves regular share repurchases ($600M in 2023, $1B target in 2024) [D02, D03]"
+   ],
+   "price_and_valuation": [
+    "Price: $39.18 [D04]",
+    "Market cap: ~$62.23B [D04]",
+    "Price/2023 Total DE: 12.9x [D04]",
+    "Price/DE before realizations: 14.7x [D04]",
+    "Management plan value: $74/share [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Real-estate stress (vacancies, remote work, interest rates) [D05]",
+    "Complexity of consolidated accounting and reliance on management-defined DE [D05]",
+    "Sensitivity of private asset valuations and unrealized carry [D05]",
+    "Credit/asset-liability risks in the insurance business [D05]"
+   ],
+   "recent_events": [
+    "December 2022: distributed 25% of asset manager as BAM [D01, D07]",
+    "April 2023: office property mortgage default [D05, D07]",
+    "February 2024: reported 2023 annual results [D03, D07]"
+   ],
+   "pershing_context": [
+    "PSH net assets (Dec 2023): ~$12.06B [D08]",
+    "Holdings: UMG, Chipotle, Restaurant Brands, Alphabet, Hilton, Howard Hughes, CPKC [D08]",
+    "No prior Pershing Square engagement or specific public recommendation found in pack [D08]"
+   ],
+   "missing_data": [
+    "Parent-only free cash flow (FCF)",
+    "Consistent peer-defined FRE margins",
+    "Clean EV/EBITDA calculation",
+    "Detailed maintenance-capex series"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The company's complex consolidated structure, reliance on management-defined DE, and lack of clear parent-level FCF visibility make it difficult to forecast cash flows with confidence [D01, D05, missing_data]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The firm leverages institutional capital access and significant operating expertise in real assets to maintain a competitive position similar to peers like Blackstone and KKR [D01, D06]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business is sensitive to real-estate stress, interest rate fluctuations, and private asset valuation cycles [D05]."
+    },
+    "strong_financial_profile": {
+     "score": "UNSURE",
+     "evidence": "While the firm has substantial cash, it operates with significant nonrecourse debt of $221,550M, making it difficult to assess the true risk profile without more clarity on asset-liability matching [D02, D05]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The firm operates as a permanent capital allocator and has a demonstrated ability to execute share repurchases [D01, D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a market cap of approximately $62.23B, it easily meets the scale requirements for a concentrated position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock trades at 14.7x DE before realizations, which is significantly below the $74/share management-calculated plan value [D04]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "Bruce Flatt and the management team have a long-term track record of capital allocation and return growth [D01, D03]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "Management consistently targets 15%+ long-term per-share returns, supported by growth in fee-bearing capital and insurance earnings [D03]."
+    }
+   },
+   "n_pass": 6,
+   "n_fail": 2,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "one_line_business_quality_verdict": "a complex, diversified alternative asset manager with strong institutional moats but excessive structural opacity and extrinsic real-estate exposure."
+  },
+  "gate2": {
+   "templates": [
+    "T3",
+    "T5"
+   ],
+   "variant_perception": "The market views the company as a complex, over-leveraged real estate conglomerate with opaque consolidated financials [D05]. We believe the market fails to properly value the recurring fee-related earnings and the substantial moat in institutional capital allocation, which will become clearer as the firm simplifies its reporting and scales its fee-bearing capital [D01, D03].",
+   "evidence": [
+    "Trading at 14.7x DE before realizations compared to a $74/share management plan value [D04]",
+    "Demonstrated ability to execute share repurchases despite complex consolidated structure [D02, D03]",
+    "Persistent discount likely driven by structural complexity and perceived real estate sensitivity [D05]"
+   ],
+   "market_narrative_we_disagree_with": "The market believes the company's valuation should be penalized heavily for its consolidated accounting, real estate exposure, and reliance on management-defined DE metrics [D05].",
+   "what_must_be_true": [
+    "Management continues to execute on its 15%+ per-share return target [D03]",
+    "Fee-bearing capital continues to grow despite macro headwinds [D01, D03]",
+    "Insurance earnings achieve the projected $1.3B annualized run rate [D03]"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "14.7x DE before realizations [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2023",
+    "base_value": "2.67 (derived from $39.18 price / 14.7x [D04])",
+    "growth_assumption": "15% annual per-share return target [D03]",
+    "year_3_to_5_value": "4.06 (Year 4)",
+    "assumptions": [
+     "Management achieves 15% long-term per-share return target [D03]",
+     "Insurance earnings reach $1.3B run rate [D03]",
+     "Fee-bearing capital growth continues [D01, D03]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 16,
+    "why": "Reflects a slight premium to current 14.7x due to simplification and improved transparency, capped by the nature of consolidated asset management/real estate conglomerates."
+   },
+   "implied_irr_pct": {
+    "base": 18,
+    "bear": 8,
+    "bull": 22
+   },
+   "downside_case": "Downside risk stems from continued market skepticism regarding real estate assets and consolidated accounting [D05]. Permanent loss is limited by the company's $11.2B cash position [D02], regular share repurchases [D02, D03], and diversified business model [D01].",
+   "valuation_verdict": "ADEQUATE_15_20",
+   "flagged_assumptions": [
+    "2023 DE per share of $2.67 calculated as $39.18 / 14.7x multiple",
+    "Assumes 15% annual return target captures both growth and dividend/buyback impact",
+    "Missing parent-only FCF data requires reliance on management DE metrics [D05]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We expect the market to re-rate the stock as the company continues to deliver on its 15%+ per-share return target and simplifies its reporting, gradually overcoming current skepticism regarding real estate exposure and consolidated accounting complexity [D03, D05].",
+   "levers_or_steps": [
+    "Consistent growth in fee-bearing capital [D01, D03]",
+    "Successful scale-up of insurance earnings to the $1.3B annualized run rate [D03]",
+    "Ongoing capital allocation through share repurchases [D02, D03]"
+   ],
+   "time_to_value_realisation_years": 4,
+   "why_this_role_fits_the_era": "In our current 'Pershing Square 3.0' era, we prioritize high-quality compounders and quiet engagement; as this is a mega-cap asset manager with a proven track record, we rely on the compounding of earnings and the eventual market recognition of intrinsic value rather than public activism [D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management fails to maintain the 15% long-term per-share return target for more than two consecutive quarters [D03].",
+    "Insurance business investment yield spreads compress significantly below the cost of capital due to sustained credit deterioration [D01].",
+    "Evidence of deteriorating discipline in capital allocation, specifically if share repurchases cease while the stock remains at a significant discount to plan value [D03]."
+   ],
+   "portfolio_fit": "This investment would provide exposure to the alternative asset management and insurance sectors, which are currently absent from our high-conviction core portfolio of simple, consumer-facing compounders like UMG, Chipotle, and Hilton [D08].",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 6,
+    "max": 8
+   },
+   "liquidity_assessment": "The company has a market cap of approximately $62.23B and significant daily trading volume, allowing us to build a position of 3-6% of NAV without difficulty [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is the structural opacity of the consolidated balance sheet combined with the potential for systemic real estate valuation markdowns to impair earnings volatility [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2024-04-10",
+  "company": "the Company (XXX)",
+  "ticker": "BAM",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 6,
+  "opportunity_template": [
+   "T3"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "14.7x DE before realizations [D04]",
+   "eps_path": "15% annual growth target [D03]",
+   "terminal_multiple": "16x",
+   "irr_pct": 18,
+   "downside_case": "Continued market skepticism regarding real estate assets and consolidated accounting, mitigated by $11.2B cash position [D02, D05]."
+  },
+  "drivers": [
+   {
+    "driver": "A high-quality compounder with a dominant position in alternative asset management and institutional capital access [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The market has discounted the shares due to structural complexity and real estate sensitivity, providing an entry at 14.7x DE before realizations [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Management’s demonstrated discipline in capital allocation, specifically executing share repurchases while the stock trades at a discount to plan value [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "A clear earnings growth algorithm supported by growing fee-bearing capital and a projected $1.3B insurance earnings run rate [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management fails to maintain the 15% long-term per-share return target for more than two consecutive quarters [D03].",
+   "Insurance investment yield spreads compress significantly below cost of capital [D01].",
+   "Share repurchases cease while the stock remains at a significant discount to plan value [D03]."
+  ],
+  "what_would_change_our_mind": "Evidence of deteriorating underwriting standards in the real estate portfolio or structural inability to convert fee-bearing capital into sustained cash-generative earnings.",
+  "memo": "The Company is a world-class, diversified alternative asset manager and capital allocator that fits our criteria for a high-quality compounder [D01, D06]. With $457B in fee-bearing capital and a significant, growing insurance platform, the business generates predictable, durable earnings streams [D01, D03].\n\nCurrently, the market has mispriced the business due to structural complexity, an aversion to consolidated real estate exposure, and skepticism toward its accounting metrics [D05]. We believe this skepticism is misplaced, as the firm’s underlying business remains robust, supported by a strong $11.2B cash position and a proven ability to scale [D02, D03].\n\nWe were able to acquire our stake at 14.7x DE before realizations, a valuation that does not fully reflect the firm’s 15% long-term per-share return target [D03, D04]. We anticipate a re-rating toward a 16x multiple as the firm simplifies its reporting and scales its fee-related earnings [D03].\n\nOur role is that of a long-term, quiet partner supporting a management team with a stellar track record [D01, D03]. We rely on the company’s capital allocation, including consistent share buybacks, to drive shareholder value [D02, D03].\n\nThe primary risk remains the structural opacity of the consolidated balance sheet and potential systemic real estate markdowns [D05]. However, the business’s scale and diversified model provide a significant cushion against such volatility [D01, D02].\n\nWe are initiating a 3% position with a target to reach 6% of NAV as we gain further comfort with the firm's evolving reporting transparency.",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

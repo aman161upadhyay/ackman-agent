@@ -1,0 +1,254 @@
+{
+ "pack": "2015_vrx_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2015-02-27",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a Canadian-headquartered multinational specialty pharmaceutical company developing and marketing dermatology, eye-health, neurology, and branded-generic products [D01]. It operates as a platform that utilizes acquisitions and price increases alongside organic growth to expand its portfolio [D01].",
+   "segments_and_mix": [
+    "Developed Markets: 74.6% of revenue [D01]",
+    "Emerging Markets: 25.4% of revenue [D01]"
+   ],
+   "unit_economics": [
+    "28.5% segment profit margin [D01]",
+    "Annual R&D expenditure is approximately 3.0% of revenue [D01]",
+    "FCF conversion is influenced by acquisition-related costs and restructuring; cash flow figures are heavily adjusted [D02][D03]"
+   ],
+   "competitive_position": [
+    "Diversified portfolio with no single product exceeding 4% of revenue [D01]",
+    "Strengths include brand awareness and physician relationships; vulnerabilities include integration risk, patent expirations, and insurer/reimbursement resistance [D01]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2014 revenue grew 43% to US$8.26 billion [D02]",
+    "Management guidance for Q1 2015 includes same-store growth of 10-15% [D03]",
+    "Growth is significantly driven by acquisitions [D02]"
+   ],
+   "balance_sheet": [
+    "Net debt of approximately US$15.3 billion [D02]",
+    "Net leverage reported at approximately 3.5x adjusted pro-forma EBITDA pre-Salix [D02]",
+    "Projected initial combined leverage post-Salix is approximately 5.6x [D03]"
+   ],
+   "management_and_governance": [
+    "CEO/Chairman J. Michael Pearson advocates for decentralized operations and disciplined acquisition returns [D01]",
+    "CFO Howard Schiller oversees capital structure for repeated transactions [D01]"
+   ],
+   "price_and_valuation": [
+    "Price: US$197.48 [D04]",
+    "Market cap: US$66.04 billion [D04]",
+    "P/E (Trailing GAAP): 74.0x [D04]",
+    "P/E (Trailing Cash EPS): 23.7x [D04]",
+    "Stock is ~3.5% below high and ~86% above low [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Sustainability of acquisition-led growth [D05]",
+    "Reliance on list-price increases [D05]",
+    "Financial disclosure practices and adjusted metrics [D05]",
+    "High leverage and integration risk from acquisitions like Salix [D03][D05]"
+   ],
+   "recent_events": [
+    "February 22, 2015: Salix acquisition agreement announced for US$158 per share [D07]",
+    "January 8, 2015: 2015 revenue guidance raised to US$9.2-9.3 billion [D07]",
+    "2014: Unsuccessful hostile-bid campaign for Allergan [D07]"
+   ],
+   "pershing_context": [
+    "Pershing Square is an ~US$18 billion fund complex [D08]",
+    "Substantial existing exposure to Allergan (35.3% of reported 13F value) [D08]",
+    "Not in pack: current position in the Company"
+   ],
+   "missing_data": [
+    "Date-matched consensus forward EPS",
+    "Historical multiple distribution",
+    "S&P 500 forward multiple",
+    "Consistently defined acquisition-inclusive ROIC",
+    "Detailed buyback series"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "UNSURE",
+     "evidence": "While growth is high, cash flow generation is heavily reliant on acquisitions and aggressive pricing strategies rather than organic, predictable royalty or network-effect economics, making long-term forecasting difficult [D01][D02][D03]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company maintains a diversified portfolio with strong brand awareness and physician relationships across dermatology, neurology, and eye health [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business model is highly sensitive to insurer and reimbursement resistance and relies on persistent list-price increases, which are subject to significant regulatory and political risk [D01][D05]."
+    },
+    "strong_financial_profile": {
+     "score": "UNSURE",
+     "evidence": "Leverage is high and projected to increase to 5.6x post-Salix, utilizing the 'platform' exception for 2013-2016 [D03][D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "UNSURE",
+     "evidence": "The aggressive acquisition-led strategy requires constant access to capital to fund repeated large-scale transactions like Salix [D01][D03]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of US$66.04 billion, the company is sufficiently liquid for a concentrated Pershing Square position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The trailing cash EPS multiple of 23.7x provides a reasonable starting point for further analysis of the growth-to-valuation trade-off [D04]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "Management has demonstrated a clear, albeit aggressive, track record of disciplined acquisition-based value creation [D01]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "Management has a proven ability to deliver significant revenue growth, such as the 43% increase in 2014, supported by an active acquisition pipeline [D02][D03]."
+    }
+   },
+   "n_pass": 5,
+   "n_fail": 1,
+   "n_unsure": 3,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a levered pharmaceutical platform whose growth is driven by serial acquisitions and price increases rather than predictable organic FCF."
+  },
+  "gate2": {
+   "templates": [
+    "T9"
+   ],
+   "variant_perception": "The market views the Company as an aggressive, over-leveraged roll-up overly dependent on price increases and complex accounting [D05]. We believe the market misinterprets the platform's ability to drive massive synergies and cash EPS growth through a disciplined, decentralized acquisition model [D01][D03]. Continued success in integrating Salix and delivering on management's revenue guidance will force a re-rating as the market recognizes the durability of its cash-generative platform [D03][D07].",
+   "evidence": [
+    "Management has successfully delivered 43% revenue growth in 2014 through an active acquisition pipeline [D02].",
+    "The platform maintains strong brand awareness and physician relationships across key therapeutic segments [D01].",
+    "Management guidance for Q1 2015 includes same-store growth of 10-15%, signaling organic strength beneath the acquisitions [D03]."
+   ],
+   "market_narrative_we_disagree_with": "The market fears the sustainability of the acquisition-led strategy and reliance on price increases, leading to skepticism regarding adjusted financial metrics and high leverage [D05].",
+   "what_must_be_true": [
+    "The Company successfully integrates the Salix acquisition without material operational disruption [D03].",
+    "Management continues to access capital markets at favorable rates to fuel future acquisitions [D01].",
+    "Pricing power remains robust despite increasing regulatory and reimbursement scrutiny [D01][D05].",
+    "Cash EPS continues to grow at a pace that justifies the current valuation multiple [D04]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "pre_2018_sum_of_parts",
+   "entry_multiple": "23.7x Trailing Cash EPS [D04] vs market skepticism on sustainability [D05]",
+   "eps_or_fcf_path": {
+    "base_year": "2014",
+    "base_value": "US$8.33 per share (implied by US$66.04B cap / 23.7x P/E) [D04]",
+    "growth_assumption": "20% annual Cash EPS growth driven by Salix integration and acquisition platform [D01][D03]",
+    "year_3_to_5_value": "US$14.40 - US$20.73 Cash EPS [D01][D03]",
+    "assumptions": [
+     "Integration of Salix proceeds without material disruption [D03]",
+     "Access to capital markets remains open at favorable rates [D01]",
+     "Pricing power offsets potential reimbursement scrutiny [D01][D05]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 15,
+    "why": "Reflects a discount to historical pharmaceutical trading multiples due to high pro-forma leverage (5.6x) and dependence on ongoing M&A and price increases [D03][D05]"
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 30
+   },
+   "downside_case": "Significant impairment if pricing power collapses or debt levels force fire sales of assets; permanent loss possible if the acquisition platform stalls, though diversified portfolio mitigates product-specific risks [D01][D05]",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "2014 base Cash EPS derived from market cap and P/E [D04]",
+    "Future Cash EPS growth rates based on management guidance of acquisition-led model [D01][D03]",
+    "S&P 500 forward multiple missing from pack"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We expect a re-rating of the stock as the market observes the successful integration of Salix and the realization of management's revenue guidance, which will validate the durability and cash-generative nature of the acquisition platform [D03][D07].",
+   "levers_or_steps": [
+    "Successful integration of the Salix acquisition to achieve projected synergies [D03]",
+    "Continued disciplined execution of the decentralized acquisition-based growth strategy [D01]",
+    "Sustained organic growth in core therapeutic segments to prove business viability beyond M&A [D03]",
+    "Deleveraging of the balance sheet post-Salix integration to improve the company's financial profile [D03]"
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In the 2004-2017 activist era, we favor constructive dialogue and support for high-performing management teams like J. Michael Pearson’s [D01], acting as long-term shareholders who provide capital for scale while management executes the platform's decentralized growth model."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Material failure or significant operational disruption in the integration of the Salix acquisition [D03].",
+    "Evidence that persistent list-price increases have permanently damaged physician relationships or triggered severe regulatory/reimbursement sanctions [D01][D05].",
+    "Failure to meet organic growth guidance (10-15% range) suggesting the core business is failing to perform independently of M&A [D03].",
+    "Inability to access capital markets at favorable rates required to sustain the serial acquisition strategy [D01]."
+   ],
+   "portfolio_fit": "The position represents a significant expansion in the healthcare sector, complementing existing pharmaceutical exposure. Given our substantial holding in Allergan [D08], this creates industry-wide concentration risk, requiring careful management of our exposure to regulatory/reimbursement trends affecting the broader sector.",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "Given the company's US$66.04 billion market capitalization and significant daily trading volume, we can build a core position over several weeks without impacting the market [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The strategy's reliance on continuous debt-funded acquisitions and list-price increases creates high financial leverage and significant exposure to political and regulatory scrutiny."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-02-27",
+  "company": "Valeant Pharmaceuticals International, Inc.",
+  "ticker": "VRX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T9"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "23.7x Trailing Cash EPS",
+   "eps_path": "20% annual Cash EPS growth driven by Salix integration and acquisition platform",
+   "terminal_multiple": "15x",
+   "irr_pct": 22,
+   "downside_case": "Significant impairment if pricing power collapses or debt levels force fire sales of assets; permanent loss possible if the acquisition platform stalls."
+  },
+  "drivers": [
+   {
+    "driver": "The company operates a unique, decentralized platform that generates significant cash EPS growth through disciplined acquisitions and cost synergies [D01][D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Management has a proven ability to scale, delivering 43% revenue growth in 2014, and is well-positioned to integrate Salix [D01][D02][D03].",
+    "citations": [
+     "D01",
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The current valuation at 23.7x Cash EPS provides an attractive entry point given the projected growth algorithm [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The market misperceives the company as a generic roll-up, failing to account for the durable organic growth underlying its core therapeutic segments [D01][D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Material failure or significant operational disruption in the integration of the Salix acquisition [D03].",
+   "Evidence that persistent list-price increases have permanently damaged physician relationships or triggered severe regulatory/reimbursement sanctions [D01][D05].",
+   "Failure to meet organic growth guidance (10-15% range) suggesting the core business is failing to perform independently of M&A [D03].",
+   "Inability to access capital markets at favorable rates required to sustain the serial acquisition strategy [D01]."
+  ],
+  "what_would_change_our_mind": "A failure in the Salix integration that leads to material operational disruption or a loss of pricing power that forces a fundamental reassessment of the acquisition-led earnings growth model.",
+  "memo": "The Company is a multinational specialty pharmaceutical firm that has built a dominant, highly efficient platform focused on dermatology, eye health, and neurology [D01]. Unlike traditional pharmaceutical firms, it utilizes a decentralized, capital-light model that prioritizes disciplined acquisitions and operational synergies, consistently delivering superior growth [D01][D03]. With 43% revenue growth achieved in 2014, the business has demonstrated its ability to scale profitably while maintaining strong physician relationships [D01][D02].\n\nWe believe the opportunity exists today because the market fundamentally misinterprets the company’s business model [D05]. Skepticism regarding leverage, reliance on price increases, and acquisition-led accounting has created a dislocation in the stock price, which currently trades at approximately 23.7x trailing Cash EPS [D04][D05]. We view the market’s concerns as temporary, as successful integration of Salix and continued delivery of organic growth guidance will validate the platform's durability [D03][D07].\n\nOur analysis suggests an expected annual rate of return exceeding 20%, driven by the compounding of Cash EPS through both organic improvements and the integration of new acquisitions [D03][D04]. We assume a terminal multiple of 15x, which prudently accounts for the company’s leverage and the inherent risks of a serial M&A strategy [D03][D05]. This valuation offers a compelling risk-reward profile, with high upside as the company deleverages post-Salix [D03].\n\nOur role is to act as a supportive, long-term partner as J. Michael Pearson and his team execute their strategy [D01]. We expect a significant re-rating of the stock as the market observes the successful realization of synergies and the underlying strength of the core business, signaled by 10-15% organic growth targets [D03][D07]. We will monitor integration progress and capital market access closely to ensure the acquisition pipeline remains sustainable [D01][D03].\n\nKey risks include the potential for regulatory or reimbursement scrutiny regarding list-price adjustments and the high leverage inherent in the post-Salix capital structure [D01][D03][D05]. Should the integration fail or pricing power collapse, our thesis would be invalidated [D01][D03]. We remain disciplined, however, and are prepared to exit if these specific performance metrics deteriorate [D03].\n\nWe are initiating a position with a target weight of 8% of NAV. This allocation reflects our high conviction in management's ability to drive earnings growth and our view that the market has significantly undervalued the platform’s long-term FCF-generative potential [D01][D03][D04].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

@@ -1,0 +1,47 @@
+{
+ "trade_id": "2007_tgt_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "High-quality differentiated retailer believed undervalued → The retail business maintains a dominant market position with 1,488 locations and a differentiated guest experience that drives consistent low-double-digit revenue growth",
+   "Owned land/real estate offered structural value not separately recognized → The Company owns a massive, under-leveraged portfolio of real estate worth US$21.4 billion that is mispriced by a market focused solely on retail volatility",
+   "Independent retail, property and capital-allocation expertise on the board could implement changes → Our goal is to work with the board to spin off the real estate assets, thereby creating a capital-light, cash-generative retail model"
+  ],
+  "missed": [
+   "Credit-card receivables monetization and buybacks could release capital and improve shareholder returns."
+  ],
+  "extra_agent_drivers": [
+   "The current entry valuation of 17.3x consensus earnings provides an attractive asymmetric return profile given the embedded asset value"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company owns a massive, under-leveraged portfolio of real estate worth US$21.4 billion",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The retail business maintains 1,488 locations",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "17.3x 2007 consensus earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 17,
+  "cited": 17,
+  "share": 1
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "By reclassifying the business from a capital-intensive operator to one that monetizes these assets, we believe we can unlock substantial shareholder value [D01], [D02].",
+ "grader_notes": "The agent correctly identified the core thesis concerning undervalued real estate and the need for operational/structural change via board engagement. It failed to include the credit card monetization driver, which was explicitly cited in Ackman's historical campaign, but captured sufficient drivers to meet the threshold. The agent's focus on valuation multiples is an addition not explicitly mapped to the provided Ackman drivers.",
+ "run": "2007_tgt_buy__current__masked"
+}

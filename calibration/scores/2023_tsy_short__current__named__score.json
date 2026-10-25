@@ -1,0 +1,40 @@
+{
+ "trade_id": "2023_tsy_short",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Large deficits and Treasury supply add long-rate/term-premium pressure. → The broader fiscal landscape—characterized by significantly increased Treasury borrowing estimates and a sovereign credit rating downgrade [D03]—suggests that the market may be underestimating the term premium",
+   "Protect equity duration while taking an attractive standalone asymmetric exposure. → Our current hedge, established previously [D05], serves as essential insurance for our concentrated equity portfolio.",
+   "Retained payer swaptions as portfolio insurance rather than simply an outright linear cash-bond short. → Maintaining this overlay offers us necessary protection against interest-rate shocks without requiring us to take an outright directional short position"
+  ],
+  "missed": [
+   "Structural inflation nearer3% than2% could justify materially higher long yields, around5.5% in the public framework."
+  ],
+  "extra_agent_drivers": []
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The significant increase in projected Treasury borrowing requirements [D03] and the sovereign credit downgrade [D03] create a risk of higher long-term yields",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Existing interest-rate options provide cost-effective protection against a nonlinear rise in long-end rates [D04].",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 8,
+  "share": 0.89
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Maintaining this overlay offers us necessary protection against interest-rate shocks without requiring us to take an outright directional short position, which would introduce uncapped risks and financing costs [D04].",
+ "grader_notes": "The agent correctly identifies the dual role of the position as portfolio insurance and a tactical hedge against fiscal/supply pressures, aligning well with Ackman's reasoning. However, the agent misses the 'structural inflation' driver which Ackman emphasized as a primary factor for higher long-term yields. The decision is marked as PARTIAL because while the agent maintains the exposure, they classify it as a 'HOLD' rather than acknowledging the active short position.",
+ "run": "2023_tsy_short__current__named"
+}

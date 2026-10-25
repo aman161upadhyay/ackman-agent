@@ -1,0 +1,252 @@
+{
+ "pack": "2026_v_ma_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2026-03-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company and the Companystercard are global payment networks that facilitate transaction authorization, routing, clearing, and settlement [D01]. They operate as multi-sided ecosystems connecting consumers, merchants, banks, and processors, earning fees for providing reliable connectivity, fraud protection, and standards rather than through revolving credit lending [D01].",
+   "segments_and_mix": [
+    "Not in pack: Revenue is reported at the aggregate level, though service-related revenue growth is mentioned [D01, D03, D06]."
+   ],
+   "unit_economics": [
+    "The companies exhibit high incremental margins due to low marginal costs of processing additional transactions [D01].",
+    "Capital intensity is low relative to revenue, with significant cash flow generation after capex and software investment [D02].",
+    "FCF conversion is strong, though reported GAAP earnings are impacted by litigation provisions [D02]."
+   ],
+   "competitive_position": [
+    "The companies hold a dominant moat built on multi-sided network effects: broad merchant acceptance and consumer usage [D01].",
+    "They are each other's closest global competitors, with other payment models like American Express and PayPal serving as distinct adjacent benchmarks [D06]."
+   ],
+   "growth_record_and_outlook": [
+    "FY2025 revenue: the Company $40.000 billion, the Companystercard $32.791 billion [D02].",
+    "January 2026 reports show ongoing growth in payments volume, cross-border activity, and transaction counts [D03].",
+    "Growth is driven by cash digitization, e-commerce, cross-border travel, and value-added services [D01]."
+   ],
+   "balance_sheet": [
+    "the Company: $16.9 billion cash/investments and $19.602 billion long-term debt [D02].",
+    "the Companystercard: $10.566 billion cash and $18.251 billion long-term debt [D02]."
+   ],
+   "management_and_governance": [
+    "the Company CEO: Ryan McInerney [D01].",
+    "the Companystercard CEO: Michael Miebach [D01].",
+    "Both management teams are investing in AI, tokenization, and identity services to maintain relevance [D01, D07]."
+   ],
+   "price_and_valuation": [
+    "the Company (as of 3/31/26): $302.24/share, ~29.6x prior-year EPS, ~24.4x EV/operating income [D04].",
+    "the Companystercard (as of 3/31/26): $499.66/share, ~30.2x prior-year EPS, ~24.2x EV/operating income [D04].",
+    "Yield on equity-value proxy is approx 3.7% for both [D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Regulatory risk: The Credit Card Competition Act (S.3623) [D05].",
+    "Technological disruption: Potential for AI-agent payments to bypass traditional card rails [D05, D07].",
+    "Alternative settlement: Stablecoins offering cheaper cross-border and business-use settlement [D05]."
+   ],
+   "recent_events": [
+    "January 13, 2026: Credit Card Competition Act of 2026 introduced [D07].",
+    "January 29, 2026: Both companies reported strong quarterly transaction and revenue growth [D03].",
+    "March 7, 2026: Stablecoin firms reported building for AI-agent payments [D05, D07]."
+   ],
+   "pershing_context": [
+    "Pershing Square manages a concentrated portfolio of 8-12 core large-cap, liquid North American businesses [D08].",
+    "Current known holdings include Alphabet, Amazon, Meta, and others, but no specific existing stake in the Company or the Companystercard is noted [D08]."
+   ],
+   "missing_data": [
+    "Authenticated forward earnings forecasts/consensus estimates for 2026/2027.",
+    "Exact EV/EBITDA figures.",
+    "Same-date S&P 500 forward P/E multiples for comparison.",
+    "Segment-level profitability reconciliations."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "The business operates as a multi-sided ecosystem with high incremental margins and low capital intensity, generating strong free cash flow from payment processing fees [D01, D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "They hold a dominant moat built on multi-sided network effects through broad merchant acceptance and consumer usage [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "While inherently durable, the business faces significant regulatory risk from the Credit Card Competition Act and potential technological disruption from AI-agent payments and stablecoins [D05, D07]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "Both companies maintain robust balance sheets with significant cash positions and manageable long-term debt relative to their scale [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The companies are self-funding and do not require external equity or debt issuance to support their operations [D01, D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "Both companies are global leaders with massive revenue bases of $40 billion and $32.8 billion respectively, making them suitable for large-cap concentration [D02]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The companies trade at approximately 24x EV/operating income, which represents a high-quality franchise multiple for these dominant payment networks [D04]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "Management is actively investing in AI, tokenization, and identity services to secure the long-term relevance of the networks [D01, D07]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "Growth is supported by secular tailwinds in cash digitization, e-commerce, and cross-border activity [D01, D03]."
+    }
+   },
+   "n_pass": 8,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant, capital-light global payment duopoly with significant network effects and durable secular growth tailwinds"
+  },
+  "gate2": {
+   "templates": [
+    "T4"
+   ],
+   "variant_perception": "The market fears that the Credit Card Competition Act and emerging payment technologies like AI-agents and stablecoins will fundamentally erode the duopoly's pricing power and relevance [D05, D07]. We believe these fears are overstated because the networks provide essential security, trust, and global interoperability that these nascent alternatives currently lack, and the companies' heavy investment in tokenization and identity services will secure their role in next-generation payment flows [D01, D07]. The market will eventually realize that these threats are incremental rather than existential, leading to a rerating as transaction volumes continue to compound [D03].",
+   "evidence": [
+    "January 2026 reports confirm ongoing growth in payments volume and cross-border activity despite the regulatory and technological noise [D03].",
+    "The companies are already actively deploying AI, tokenization, and identity services to integrate with new payment paradigms [D01, D07].",
+    "The regulatory concerns (Credit Card Competition Act) reflect periodic legislative pressure rather than a permanent loss of competitive moat [D05, D07]."
+   ],
+   "market_narrative_we_disagree_with": "The market views regulatory legislation and technological innovation (AI-agents/stablecoins) as fundamental threats that will bypass or commoditize the card network rails [D05, D07].",
+   "what_must_be_true": [
+    "Network-level security and fraud protection remain superior to decentralized alternatives.",
+    "Regulatory headwinds are mitigated through lobbying or compliance without destroying the core unit economics.",
+    "The companies successfully integrate AI and stablecoin rails into their existing ecosystems rather than being bypassed by them.",
+    "Transaction volume growth remains resilient to changes in payment form factors."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "approx. 30x prior-year EPS vs S&P 500 estimated 21x [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2025",
+    "base_value": "Implied by P/E of ~30x on ~$302-$500 share prices [D04]",
+    "growth_assumption": "12-14% CAGR based on historical transaction volume growth and cash digitization trends [D01, D03]",
+    "year_3_to_5_value": "1.4x to 1.6x base EPS",
+    "assumptions": [
+     "Assumes 12-14% annual growth in payment volumes and value-added services [D01]",
+     "Assumes share count reduction via buybacks [D02]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 25,
+    "why": "Dominant network effects, high barriers to entry, and durable growth warrant a premium multiple, though compression from current levels is modeled due to regulatory/tech headwinds [D01, D05, D07]"
+   },
+   "implied_irr_pct": {
+    "base": 16,
+    "bear": 8,
+    "bull": 22
+   },
+   "downside_case": "Legislative success of the Credit Card Competition Act and successful AI-agent bypass of rails permanently impairs margins; downside risk involves P/E contraction to 18-20x and growth deceleration, but network utility creates a floor [D05, D07]",
+   "valuation_verdict": "ADEQUATE_15_20",
+   "flagged_assumptions": [
+    "No authenticated forward consensus EPS provided in pack; estimates derived from base-year trailing P/E [D04]",
+    "S&P 500 forward P/E is an assumed baseline for comparison [D04]",
+    "Exact EPS figures are not in pack; implied from share price and P/E ratio [D04]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We expect the market to re-rate these payment networks as investors observe the resilience of their dominant duopoly business models, despite the temporary regulatory and technological fears [D01, D03, D07]. Consistent execution of double-digit earnings growth, driven by secular cash digitization and the successful integration of AI and identity services, will eventually lead the market to look past the Credit Card Competition Act and nascent alternative payment rails [D01, D03, D07].",
+   "levers_or_steps": [
+    "Continued double-digit revenue growth through capture of secular tailwinds in e-commerce and cross-border payments [D01, D03].",
+    "Operating leverage realization as high incremental margins from transaction growth flow to the bottom line [D01].",
+    "Capital allocation focus through share repurchases, reducing outstanding share counts and boosting EPS [D02].",
+    "Strategic investment in tokenization and AI-agent payment infrastructure to preempt technological disruption [D01, D07]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our 'Pershing Square 3.0' era, we prioritize high-quality compounders with dominant, durable moats [D08]. These businesses fit our strategy of buying quality franchises during periods of market dislocation caused by manageable extrinsic factors, relying on their predictable, capital-light earnings growth to drive long-term value rather than public intervention."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Successful legislative passage and enforcement of the Credit Card Competition Act that materially caps swipe fees or mandates routing competition, permanently impairing margins.",
+    "Two consecutive quarters of deceleration in cross-border or total transaction volume growth indicating a loss of network ubiquity.",
+    "Evidence that AI-agents or stablecoin-based settlement protocols are achieving meaningful market share capture of core merchant-consumer transactions, bypassing the card rails."
+   ],
+   "portfolio_fit": "Fits well within our 'Pershing Square 3.0' focus on high-quality compounders with dominant, capital-light moats; represents a new sub-sector (payments) not currently identified in our core large-cap book [D08].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 12
+   },
+   "liquidity_assessment": "Both companies are large-cap, highly liquid global franchises, allowing for a position to be built over several weeks at less than 15-25% of daily volume [D02].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that sustained regulatory intervention via the Credit Card Competition Act combined with technological displacement from AI-agent payment flows permanently degrades the networks' long-term pricing power and competitive moat [D05, D07]."
+  }
+ },
+ "final": {
+  "as_of_date": "2026-03-31",
+  "company": "The Company and the Companystercard",
+  "ticker": "V/MA",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "opportunity_template": [
+   "T4"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "special_situation": false,
+  "valuation": {
+   "entry_multiple": "approx. 30x prior-year EPS",
+   "eps_path": "12-14% CAGR",
+   "terminal_multiple": "25x",
+   "irr_pct": 16,
+   "downside_case": "P/E contraction to 18-20x and growth deceleration due to legislative and technological headwinds"
+  },
+  "drivers": [
+   {
+    "driver": "A dominant, capital-light global payment duopoly with significant network effects and durable secular growth tailwinds [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "We were able to acquire our stake at ~30x earnings, a fair price for a high-quality franchise capable of double-digit compounding [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Management teams are proactively investing in AI, tokenization, and identity services to secure long-term network relevance [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The earnings algorithm is driven by secular cash digitization, e-commerce growth, cross-border activity, and disciplined share buybacks [D01, D02, D03].",
+    "citations": [
+     "D01",
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The market fears that regulatory legislation and new payment technologies will erode the duopoly, but these threats are overstated as the networks provide essential security, trust, and global interoperability [D05, D07].",
+    "citations": [
+     "D05",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Successful legislative passage and enforcement of the Credit Card Competition Act that materially caps swipe fees or mandates routing competition, permanently impairing margins.",
+   "Two consecutive quarters of deceleration in cross-border or total transaction volume growth indicating a loss of network ubiquity.",
+   "Evidence that AI-agents or stablecoin-based settlement protocols are achieving meaningful market share capture of core merchant-consumer transactions, bypassing the card rails."
+  ],
+  "what_would_change_our_mind": "A fundamental, structural impairment of the network economics through either permanent legislative fee caps or the successful large-scale displacement of card rails by decentralized payment protocols.",
+  "memo": "The Company and the Companystercard operate the world's most important global payment networks, facilitating the movement of money through secure, multi-sided ecosystems [D01]. These businesses represent our ideal standard: they are simple, predictable, free-cash-flow-generative, and possess a dominant moat built on deep network effects that provide essential trust and interoperability to merchants and consumers worldwide [D01].\n\nCurrently, the market is mispricing these franchises due to misplaced fears regarding the Credit Card Competition Act and the emergence of alternative payment technologies like AI-agents and stablecoins [D05, D07]. We believe these concerns are overstated, as the networks are already aggressively deploying tokenization and identity services to ensure their infrastructure remains the bedrock of future global payments [D01, D07].\n\nWe were able to acquire our stake at approximately 30x prior-year earnings, a valuation that we view as highly attractive for businesses of this quality [D04]. Given the secular tailwinds in cash digitization, e-commerce, and cross-border volume, we expect the companies to deliver double-digit EPS growth over the next five years, supplemented by consistent share repurchases [D01, D02, D03].\n\nOur role is one of patient, long-term capital support as the market eventually looks past the current regulatory and technological noise [D01, D03]. As execution continues and the resilience of these models is proven, we anticipate a natural rerate that will compound our capital at an attractive internal rate of return [D03, D04].\n\nOur primary risk remains that sustained legislative or technological intervention forces a material degradation of the networks' unit economics [D05, D07]. We will closely monitor volume growth and the evolution of the competitive landscape to ensure our thesis holds [D03, D05].\n\nWe are initiating a 10% position in the companies, reflecting our high conviction in their long-term compounding potential and their status as essential global financial utilities [D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

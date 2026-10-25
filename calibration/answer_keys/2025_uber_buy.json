@@ -1,0 +1,21 @@
+{
+  "id": "2025_uber_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Approximately 8-12%; 30.3 million shares announced, around $67 average cost; exact initial-day NAV weight unavailable.",
+  "first_action_date": "2025-01-07",
+  "disclosure_date": "2025-02-07",
+  "reason_class": null,
+  "opportunity_template": ["T4", "T1"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Dara's leadership created a profitable, cash-generative growth business.", "source": "https://x.com/BillAckman/status/1887900916734738888 (2025-02-07)", "quote": "Since he joined the company in 2017, Dara Khosrowshahi CEO has done a superb job in transforming the company into a highly profitable and cash-generative growth machine."},
+    {"driver": "Dense marketplace networks improve waits, pricing and earner utilization.", "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03)", "quote": null},
+    {"driver": "Capital-light growth and fixed-cost leverage support substantial earnings compounding.", "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03)", "quote": null},
+    {"driver": "AV developers can benefit from Uber demand aggregation rather than displace its marketplace.", "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03)", "quote": null},
+    {"driver": "Disruption fears created an attractive price for a high-quality business.", "source": "https://x.com/BillAckman/status/1887900916734738888 (2025-02-07)", "quote": "We believe that Uber is one of the best managed and highest quality businesses in the world."}
+  ],
+  "entry_valuation_stated": "26.6x NTM consensus EPS at inception; retrospective 2026 presentation, not a pack input.",
+  "outcome_note": "PSH reported +2.7 percentage points gross NAV contribution in 2025; position remained open in June 2026 disclosures.",
+  "pack_quality_notes": "Dated historical close, volume and52-week range recovered. January consensus forward valuation, full13F weights and current cash not recovered. Illustrative capitalization/FCF yield explicitly use stale share count and annualized nine-month FCF, not consensus. Driver descriptions beyond announcement are retrospective letter paraphrases."
+}

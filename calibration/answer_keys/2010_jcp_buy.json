@@ -1,0 +1,44 @@
+{
+  "id": "2010_jcp_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": null,
+  "size_note": "Initial accumulation approximately US$900m for roughly39m shares per January24 2011 retrospective. October16.5% issuer stake and later approximately18% issuer ownership are not NAV weights.",
+  "first_action_date": "2010-08",
+  "disclosure_date": "2010-10",
+  "reason_class": null,
+  "opportunity_template": ["T2", "T3"],
+  "catalyst_role": "C3",
+  "drivers": [
+    {
+      "driver": "Recover an underperforming department-store franchise's sales productivity and profitability using a large existing asset base.",
+      "source": "https://fortune.com/2011/01/24/penney-saved-earns-ackman-350-million/ (2011-01-24 retrospective on entry)",
+      "quote": null
+    },
+    {
+      "driver": "Recruit exceptional retail leadership; actual Ron Johnson recruitment occurred in2011, not as a completed fact at entry.",
+      "source": "https://fortune.com/2014/03/20/how-to-fail-in-business-while-really-really-trying/ (2014-03-20 retrospective)",
+      "quote": null
+    },
+    {
+      "driver": "Change merchandising/customer proposition and board accountability, but execution and customer behavior proved much less predictable than expected.",
+      "source": "https://www.forbes.com/sites/stevedenning/2013/04/09/j-c-penney-was-ron-johnsons-strategy-wrong/ (2013-04-09 retrospective)",
+      "quote": "too much change too quickly without adequate testing on what the impact would be"
+    },
+    {
+      "driver": "Sought faster CEO succession and chairman change after the turnaround failed; a later crisis response, not an original2010 assumption.",
+      "source": "https://www.businessinsider.com/bill-ackman-letter-to-jcpenneys-board-2013-8 (2013-08-09)",
+      "quote": "I think JC Penney is at a very critical stage in its history and its very existence is at risk."
+    }
+  ],
+  "entry_valuation_stated": "Initial approximateUS$23 average from US$900m/39m-shares retrospective framing; not final all-in basis. September24 US$25.55 close and depressed-earnings multiples in pack are frozen observations, not execution prices or Ackman's exact upside model.",
+  "outcome_note": "Ron Johnson recruited2011; 2012 pricing/merchandising reset coincided with approximately25% annual sales decline. Removed2013; Ullman returned. Ackman resigned board and sold approximately39.1m shares August2013 for approximatelyUS$504m proceeds. Reported approximatelyUS$470m loss, often roundedUS$500m; proceeds are not the loss. Lesson is the hazard of changing customer behavior too fast without tests, confusing leadership success elsewhere with transferable execution, and losing stakeholder cooperation. Not a verified blanket ban on future retail investing.",
+  "pack_quality_notes": "Eight dated documents. Strong pre-entry financial/peer evidence, owned-property count, pension normalization and competing merchandising/structural interpretations. Dates explicitly pre-disclosure not pre-first-buy. Exact original pitch, NAV sizing, rolling price extrema, independent property appraisal, peer valuation and full signed investor-letter postmortem remain gaps. Later CEO, pricing experiment and collapse confined to key.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1166126/000119312510071527/d10k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1166126/000116612610000040/jcpenney10q2nd2010.htm",
+    "https://fortune.com/2011/01/24/penney-saved-earns-ackman-350-million/",
+    "https://fortune.com/2014/03/20/how-to-fail-in-business-while-really-really-trying/",
+    "https://www.cbsnews.com/texas/news/ackman-to-get-504-million-from-jcpenney-stake"
+  ]
+}

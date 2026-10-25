@@ -1,0 +1,21 @@
+{
+  "id": "2018_hlt_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "October 25 disclosure: 10.9 million shares, 3.7% issuer ownership and 13.9% PSH NAV. Not the same as manager-wide initial cost weight.",
+  "first_action_date": "2018-10-08",
+  "disclosure_date": "2018-10-25",
+  "reason_class": null,
+  "opportunity_template": ["T4"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Asset-light, high-margin franchise and management-fee economics.", "source": "https://mms.businesswire.com/media/20190325005815/en/712376/1/PSH_2018_Annual_Report_-_Final.pdf (2019-03-25)", "quote": null},
+    {"driver": "Brands, loyalty and distribution attract owners and guests.", "source": "https://mms.businesswire.com/media/20190325005815/en/712376/1/PSH_2018_Annual_Report_-_Final.pdf (2019-03-25)", "quote": null},
+    {"driver": "Net-unit growth and development pipeline support long-duration compounding.", "source": "https://mms.businesswire.com/media/20190325005815/en/712376/1/PSH_2018_Annual_Report_-_Final.pdf (2019-03-25)", "quote": null},
+    {"driver": "Chris Nassetta's team and disciplined cash returns.", "source": "https://mms.businesswire.com/media/20190325005815/en/712376/1/PSH_2018_Annual_Report_-_Final.pdf (2019-03-25)", "quote": null}
+  ],
+  "entry_valuation_stated": "2026 presentation retrospectively cites approximately $73 average announcement cost and about 20x forward earnings; the forward year is not independently reconstructed. July 2018 EPS guidance implies a higher same-year multiple.",
+  "outcome_note": "Added in March 2020 using hedge proceeds; exited February 2, 2026 on valuation. 2026 chart reports 492% gross/341% net PSH investment return, not underlying stock return.",
+  "sources": ["https://www.reuters.com/article/markets/bill-ackmans-pershing-square-buys-stake-in-hilton-idUSL3N1X52N3 (2018-10-25)", "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/11144917/2026-Annual-Investor-Presentation.pdf (2026-02-11)"],
+  "pack_quality_notes": "Seven documents. Cutoff close $72.99/volume recovered. Three-year comparable post-spin history, historical FCF/ROIC, full peer valuations/current fund weights unavailable; explicit missingness. Strong pre-cutoff operating data and three dated industry reports; does not falsely claim universal hotel selloff."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "2018_low_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Approximately $1bn initial all-funds position disclosed May23; initial NAV weight unknown. Approximately15% equity-portfolio weight cited March2022 is not entry size.",
+  "first_action_date": "2018 (exact date unknown)",
+  "disclosure_date": "2018-05-23",
+  "reason_class": null,
+  "opportunity_template": ["T2"],
+  "catalyst_role": "C1",
+  "drivers": [
+    {"driver": "Scaled home-improvement franchise with durable repair/renovation demand.", "source": "https://mms.businesswire.com/media/20190325005815/en/712376/1/PSH_2018_Annual_Report_-_Final.pdf (2019-03-25)", "quote": null},
+    {"driver": "Close operating-margin and productivity gap to Home Depot through merchandising, inventory/supply chain, pro-customer service and expense execution.", "source": "https://mms.businesswire.com/media/20190325005815/en/712376/1/PSH_2018_Annual_Report_-_Final.pdf (2019-03-25)", "quote": null},
+    {"driver": "Confidence in Marvin Ellison's relevant Home Depot experience and management upgrade; this was not yet public at April2 cutoff.", "source": "https://www.cnbc.com/2018/05/23/william-ackmans-pershing-square-builds-roughly-1-billion-stake-in-lowes.html (2018-05-23)", "quote": null},
+    {"driver": "Cash generation and buybacks improve per-share value alongside operating repair.", "source": "https://mms.businesswire.com/media/20190325005815/en/712376/1/PSH_2018_Annual_Report_-_Final.pdf (2019-03-25)", "quote": null}
+  ],
+  "entry_valuation_stated": "Exact investor entry multiple/cost unavailable. April2 $84.59 is15.5x midpoint of then-guided FY2018 EPS, not a verified execution price.",
+  "outcome_note": "Exited during2023, confirmed February7 2024. Reuters reports $1.3bn net profit across Pershing funds. Do not call it an open2026 holding.",
+  "pack_quality_notes": "Seven documents; public succession search, not eventual Ellison appointment. April cutoff precedes critical later management evidence and is a timing-mismatch stress case, not perfectly observed first execution. Authentic Lowe/HomeDepot tables, price/volume. Current AUM, exact entry day, full2015financials and wider peer valuations missing."
+}

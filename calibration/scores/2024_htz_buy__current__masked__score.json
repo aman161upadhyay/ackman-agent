@@ -1,0 +1,56 @@
+{
+ "trade_id": "2024_htz_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 5,
+  "matched": [
+   "Concentrated rental industry and rational pricing can support normalized profitability. → The business operates within a concentrated oligopoly, benefiting from scale and essential airport infrastructure",
+   "Gil West and fleet rotation can repair depreciation and operating costs. → A 'back-to-basics' operational turnaround under new CEO Gil West aims to restore normalized margins by 2025",
+   "A leveraged vehicle portfolio creates large equity sensitivity to residual values. → The current equity trades as a levered call option on the company's ability to lower monthly depreciation per unit from $537 toward $300",
+   "Liquidity and distant principal maturities provide time for the turnaround, subject to cash burn. → A $1.6 billion liquidity position provides a sufficient runway to execute the fleet rotation and operational restructuring"
+  ],
+  "missed": [
+   "AV servicing is additional optionality, not a signed contract or a November2024 fact."
+  ],
+  "extra_agent_drivers": []
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "monthly depreciation per unit from $537 toward $300",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "$1.6 billion liquidity position provides a sufficient runway",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "business operates within a concentrated oligopoly",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "market has priced the equity for a distressed scenario, fixated on recent negative EBITDA and $1 billion in impairment charges",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "CEO Gil West... joined in 2024",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 3,
+  "share": 0.27
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Under the leadership of CEO Gil West, who joined in 2024, the business has initiated a necessary 'back-to-basics' turnaround and comprehensive fleet rotation.",
+ "grader_notes": "The agent correctly identified the core thesis drivers regarding the operational turnaround, industry structure, liquidity runway, and the levered equity nature of the vehicle portfolio. The agent missed the optionality argument regarding AV partnerships, which Ackman later highlighted as a driver.",
+ "run": "2024_htz_buy__current__masked"
+}

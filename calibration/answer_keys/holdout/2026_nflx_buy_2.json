@@ -1,0 +1,22 @@
+{
+  "id": "2026_nflx_buy_2",
+  "size_pct_nav": null,
+  "sources": ["https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf"],
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Unknown original PSH cost weight; June consolidated 13F market weight 4.80%, not NAV at cost.",
+  "first_action_date": "2026-Q2 (exact day unknown)",
+  "disclosure_date": "2026-08-13",
+  "reason_class": null,
+  "opportunity_template": ["T1", "T4"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Scale and competitive position had become sufficiently established to restore confidence after 2022.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13; compendium verified)", "quote": "effectively won the streaming wars"},
+    {"driver": "Content-spend discipline and stronger earnings-to-FCF conversion changed the underlying financial evidence.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13)", "quote": null},
+    {"driver": "Advertising broadens monetization and the lower-priced tier expands the addressable audience.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13)", "quote": null},
+    {"driver": "A large valuation reset overdiscounted engagement, AI-content and competitive concerns.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13)", "quote": null}
+  ],
+  "entry_valuation_stated": "About 21x forward EPS and approximately 50% decline from June 2025 high in August retrospective explanation. Not authenticated as the April 20 valuation.",
+  "outcome_note": "June 30 consolidated filing: 13,081,465 split-adjusted shares, $934.017m, 4.80% of reportable book. H1 report: -11% from average cost through June. Still open; no realized final outcome.",
+  "pack_quality_notes": "9 documents including both 2022 letters. April 20 chosen after independently documented April 17 drop; exact entry day remains unpinned, so this is an early-dislocation replay, not precise execution replay. At cutoff drawdown was about 29%, not half; later half-price and 21x observations deliberately excluded. Three annual revenue/CFO/FCF observations included, some 2023 profit fields missing. Forward consensus, own-history range, market benchmark and peer valuation unavailable. Size and drivers from compendium where primary extraction was incomplete, with null rather than invented quotes."
+}

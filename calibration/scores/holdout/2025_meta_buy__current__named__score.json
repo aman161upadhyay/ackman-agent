@@ -1,0 +1,51 @@
+{
+ "trade_id": "2025_meta_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "AI directly improves engagement, recommendations and monetization. → The earnings path is supported by the core Family of Apps maintaining double-digit revenue growth while leveraging AI to enhance ad-targeting efficiency.",
+   "Capex fears created an attractive valuation that still includes substantial Reality Labs losses. → The market is incorrectly punishing the shares due to temporary concerns over escalating AI-related capital expenditures."
+  ],
+  "missed": [
+   "Entrenched audiences and advertising data create a durable network moat.",
+   "Infrastructure and talent spending can be front-loaded while management retains expense flexibility."
+  ],
+  "extra_agent_drivers": [
+   "Meta is a dominant, cash-generative digital advertising franchise with 3.54 billion daily active people across its applications.",
+   "We acquired our stake at a 22.1x trailing earnings multiple, which is attractive for a high-quality compounder growing revenue at 26%.",
+   "Founder-led management has demonstrated a strong track record of navigating complex competitive environments."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Meta is a dominant, free-cash-flow-generative digital advertising franchise with a unique network effect connecting 3.54 billion daily active people",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "market has unfairly punished the stock, causing an 11% decline",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "22.1x trailing earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 12,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Investors fear these infrastructure costs will permanently erode margins, but we view this as a temporary, necessary phase of investment to secure long-term competitive advantages in ad-targeting and operational efficiency.",
+ "grader_notes": "The agent correctly identified the direction and the core investment tension regarding AI capex fears, which was central to Ackman's thesis. However, it failed to specifically capture the 'front-loading' argument regarding management's expense flexibility and the specific emphasis on the durable competitive advantage of Meta's data/moat, relying instead on generic 'dominant franchise' terminology.",
+ "run": "2025_meta_buy__current__named",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

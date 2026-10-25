@@ -1,0 +1,49 @@
+{
+ "trade_id": "2025_cp_sell",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Tariffs and macro exposure widened the risk range of the cross-border railway.",
+   "Business quality remained high; the exit should not be labeled established franchise destruction.",
+   "Capital could be deployed into more attractive alternatives, including Amazon."
+  ],
+  "extra_agent_drivers": [
+   "Successful network integration",
+   "Synergy realization",
+   "Management execution"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Synergy realization: exceeding expectations with $800M+ run-rate revenue synergies",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Network scarcity: remains a high-barrier, trilateral advantage",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "21.4x-22.6x 2025 guided EPS",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 2,
+  "share": 0.22
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We choose to hold this position as the thesis is on track and the long-term compounding potential remains consistent with our standards for a core holding [D09, D10].",
+ "grader_notes": "The agent identifies the core drivers of the business (synergies, management, network moat) consistent with the long-term thesis but misses the actual investment decision to sell. The agent fails to incorporate the specific drivers for the sale—increased tariff sensitivity and better capital deployment alternatives—which were the decisive factors in Ackman's actual exit.",
+ "run": "2025_cp_sell__current__named",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

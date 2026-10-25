@@ -1,0 +1,12 @@
+{
+  "id": "2022_nflx_buy",
+  "company": "Netflix",
+  "ticker": "NFLX",
+  "aliases": ["Netflix Inc."],
+  "as_of_date": "2022-01-24",
+  "mode": "new",
+  "era": "D",
+  "first_action_window": "January 26 letter says purchases began Friday January 21; over 3.1 million shares accumulated by disclosure. Cutoff is during accumulation, not before first execution; the announcement is excluded.",
+  "pershing_aum_usd_bn": 17.6787,
+  "notes": "AUM is November 30, 2021 total firm AUM, including debt and UMG co-investment vehicles, excluding PSTH; not NAV. Latest annual financial information is January 20 earnings release, not January 27 10-K. No April information."
+}

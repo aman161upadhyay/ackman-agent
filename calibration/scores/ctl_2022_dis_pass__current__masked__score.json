@@ -1,0 +1,57 @@
+{
+ "trade_id": "ctl_2022_dis_pass",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 2,
+  "matched": [],
+  "missed": [
+   "DTC losses, pricing/ad-tier changes and legacy distribution decline widen the forecast range beyond a simple brand-quality argument.",
+   "Require owner cash after content and parks reinvestment, not subscriber scale or adjusted EPS alone. Current FCF yield and leverage do not provide an obvious margin of safety."
+  ],
+  "extra_agent_drivers": [
+   "Disney owns a dominant, irreplaceable portfolio of intellectual property and theme park assets with significant competitive moats.",
+   "The market has conflated temporary, growth-focused streaming investment losses with structural impairment, creating a 47% valuation dislocation.",
+   "We see a clear path to profitability for the DTC segment by FY2024 through optimized content spend and tiered pricing strategies.",
+   "The Parks segment remains a high-margin, cash-generative business that provides the financial bridge for the company's digital transformation."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Disney owns a dominant, irreplaceable portfolio of intellectual property and theme park assets with significant competitive moats.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market has conflated temporary, growth-focused streaming investment losses with structural impairment, creating a 47% valuation dislocation.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "DTC reaching profitability by 2024",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The Parks segment remains a high-margin, cash-generative business.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "DTC segment totaled US$4.015 billion in FY2022",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 6,
+  "share": 0.55
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We believe the current 47.0% drawdown from historical highs presents a rare opportunity to acquire a high-quality compounder at a valuation that ignores the underlying earnings power of its core franchises [D03].",
+ "grader_notes": "The agent completely missed the key drivers regarding the lack of predictability and the requirement for free-cash-flow generation over subscriber growth metrics. The agent focused on valuation dislocation and earnings recovery, whereas the Ackman-aligned approach focuses on the risk posed by the streaming transition to the predictability of the firm's cash flows.",
+ "run": "ctl_2022_dis_pass__current__masked"
+}

@@ -1,0 +1,13 @@
+Title: Weather excuse or structurally inferior execution?
+Source: compiled from: https://financialpost.com/investing/flooding-hits-cp-profit; https://www.joc.com/article/flood-woes-cut-canadian-pacific-profit-23-percent-5239574; https://financialpost.com/investing/trading-desk/time-to-buy-cp-rail-rbc; https://s21.q4cdn.com/736796105/files/doc_financials/Annual-Report/2010/cp-ar-2010.pdf
+Date: 2011-07-28
+
+Eric Lam in the Financial Post on July 27 reported a 23% decline in CP quarterly profit. His report put the revenue increase at 2% and expense increase at 7%, with fuel prices rising 37%. Bloomberg-surveyed analysts had expected approximately C$0.72 EPS on C$1.26 billion revenue; actual diluted EPS was C$0.75. The quarter was poor, but it was not an earnings miss against that particular survey. Confusing an absolute deterioration with an unexpected miss would overstate the dislocation.
+
+The Journal of Commerce's John D. Boyd, July 27, described revenue growth of just 2.5% as behind other major carriers. The concern is relative performance: if the industry enjoys pricing and recovering volumes while CP struggles with service, the gap may reflect management or network economics rather than a generalized rail recession.
+
+An opposing contemporaneous interpretation is available. Jonathan Ratner's July 28 Financial Post account says RBC analyst Walter Spracklin upgraded CP from Outperform to Top Pick. Spracklin wrote: “A key component of our positive thesis is the view that the weather-related effects are now behind the company and operations are reverting to normal.” The article reports C$16 million of weather-related cost effects, rising gross ton-miles and car miles per day, and potential recovery of deferred bulk volumes in the second half.
+
+Spracklin's valuation interpretation was: “In our view, investors are getting a free call option on operating targets that, when compared to the rest of the group, are modest at best.” The article reports C$13 per share upside if operating targets are met and calls CP the cheapest rail in the group. These are an analyst's conditional estimates, not an established asset value or a precise September peer-multiple table.
+
+The annual report identifies genuine recurring exposures: freight demand, rates, fuel prices, exchange rates, labor disputes, pensions and maintenance costs. Geography and commodity mix can affect ratios even with equally competent management. An investment needs evidence that service and utilization can improve without sacrificing safety or necessary capex. A ratio gap alone neither proves fraud nor establishes that peer economics are fully transferable to CP's network.

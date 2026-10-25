@@ -1,0 +1,20 @@
+{
+  "id": "2016_cmg_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Approximately 10% assigned calibration size; 9.9% issuer stake is verified and is not NAV weight. 2,882,463 shares/equivalents initially disclosed.",
+  "first_action_date": "2016-08 (exact first day unknown; August 24 threshold event)",
+  "disclosure_date": "2016-09-06",
+  "reason_class": null,
+  "opportunity_template": ["T1", "T2"],
+  "catalyst_role": "C2",
+  "drivers": [
+    {"driver": "The differentiated restaurant franchise has a strong brand and substantial growth potential.", "source": "https://www.sec.gov/Archives/edgar/data/1058090/000119312516702094/d233755dsc13d.htm (2016-09-06)", "quote": "a strong brand, differentiated offering, enormous growth opportunity, and visionary leadership"},
+    {"driver": "The shares are undervalued relative to the franchise's earnings potential.", "source": "https://www.sec.gov/Archives/edgar/data/1058090/000119312516702094/d233755dsc13d.htm (2016-09-06)", "quote": "the Issuer’s Common Stock is undervalued and is an attractive investment"},
+    {"driver": "Engage on governance, operations, management and capital allocation.", "source": "https://www.sec.gov/Archives/edgar/data/1058090/000119312516702094/d233755dsc13d.htm (2016-09-06)", "quote": "governance and board composition, business, operations, cost structure, management, assets, capitalization"},
+    {"driver": "A great business in temporary trouble can recover while its moat remains intact.", "source": "https://assets.pershingsquareholdings.com/2022/10/07154952/2016-Annual-Report-Letter-Only.pdf (2017-03-28, retrospective)", "quote": "We have always believed that a good time to buy a great business is when it is in temporary trouble."}
+  ],
+  "entry_valuation_stated": "Later annual letter gives average $405 per share (pre-split). Filing separately gives stock consideration and forward settlement terms; do not derive a simple average by mixing their financing economics.",
+  "outcome_note": "Board refresh followed in December 2016; Brian Niccol recruited in February 2018, neither is an entry-pack fact. Large long-run winner with trims; complete exit announced November 2025.",
+  "pack_quality_notes": "Eight documents; correct era C despite assignment cohort. Same-day 13D thesis confined to key to prevent explicit BUY leakage, a deliberate exception to requested pack inclusion. Rounded split-adjusted historical quote converts to approximately $414 pre-split; not an exact original close. Peer tables, current AUM and ROIC series unavailable. Archived original interim letter dated by its historical content, not hosting path."
+}

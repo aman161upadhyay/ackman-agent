@@ -1,0 +1,51 @@
+{
+ "trade_id": "2026_msft_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "The post-results decline offered an attractive multiple with additional OpenAI equity value → Currently, the market is mispricing the company due to excessive focus on near-term capital expenditure and short-term capacity constraints"
+  ],
+  "missed": [
+   "M365 is an embedded enterprise workflow platform rather than an easily displaced point solution.",
+   "Azure benefits from secular migration and AI demand, with multiple-model distribution.",
+   "Copilot and consumption-based monetization can expand the valuable existing enterprise bundle."
+  ],
+  "extra_agent_drivers": [
+   "Microsoft is a dominant, mission-critical enterprise franchise with high pricing power and a fortress balance sheet.",
+   "Satya Nadella continues to demonstrate superior capital allocation.",
+   "Double-digit revenue growth through cloud and AI integration."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "39% Azure growth",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "market has incorrectly punished the stock following earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "fortress balance sheet holding $49.2 billion in net cash",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 13,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Investors have reflexiveley sold off the stock following earnings, failing to recognize that 39% Azure growth is a powerful indicator of secular demand that outweighs current capex intensity [D03], [D04].",
+ "grader_notes": "The agent correctly identified the market overreaction to earnings/capex as a key entry driver, aligning with Ackman's view on the post-results decline. However, the agent's reasoning was largely disconnected from Ackman's specific thesis drivers regarding M365's workflow integration, the consumption-based monetization of Copilot, and the strategic distribution of multiple AI models.",
+ "run": "2026_msft_buy__current__named",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

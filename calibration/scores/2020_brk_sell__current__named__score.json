@@ -1,0 +1,47 @@
+{
+ "trade_id": "2020_brk_sell",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Pershing's smaller scale permits more nimble allocation than Berkshire.",
+   "Berkshire faces a difficult task deploying its enormous cash pool.",
+   "Use flexibility while preserving liquidity for more attractive direct opportunities."
+  ],
+  "extra_agent_drivers": [
+   "Thesis remains intact due to durable business quality.",
+   "Operational improvements under Jain/Abel remain valid.",
+   "Record cash position provides resilience and optionality."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Franchise quality: Intact; core insurance, BNSF, and utility businesses remain dominant and resilient",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "trades near 1.18x price-to-book",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Buffett's disciplined, albeit cautious, approach to capital deployment during the March market rout differs from a more aggressive stance",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 11,
+  "share": 1
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We remain comfortable with this approach and see no reason to exit a position that provides such robust protection and durable growth potential [D10].",
+ "grader_notes": "The agent reached a 'HOLD' decision while the actual decision was a full exit. The reasoning is diametrically opposed to Ackman's: the agent views the cash position as a source of optionality/resilience for Berkshire, whereas Ackman viewed it as a deployment hurdle that necessitated moving capital to more nimble opportunities.",
+ "run": "2020_brk_sell__current__named"
+}

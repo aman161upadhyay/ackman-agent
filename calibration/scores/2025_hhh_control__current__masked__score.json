@@ -1,0 +1,59 @@
+{
+ "trade_id": "2025_hhh_control",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 4,
+  "matched": [],
+  "missed": [
+   "Long-duration real assets and development cash can support a compounder rather than a narrow cyclical property valuation.",
+   "Control-like influence enables strategic capital allocation and a diversified holding-company design.",
+   "Potential insurance investments can supply additional compounding economics and permanent-capital characteristics; not a known January10 plan or acquired float.",
+   "Permanent ownership and disciplined reinvestment address the gap between asset value and realized shareholder returns."
+  ],
+  "extra_agent_drivers": [
+   "The company owns a unique, irreplaceable portfolio of master-planned communities with significant barriers to entry through scale and land scarcity.",
+   "The current market capitalization of $3.60 billion represents a deep discount to the underlying asset base.",
+   "As the largest shareholder, we are actively working with the independent special committee to explore strategic alternatives, including a take-private transaction.",
+   "Asset monetization, such as the $176.7 million MUD receivable sale, demonstrates the ability to unlock value from non-core segments."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company owns a unique, irreplaceable portfolio of master-planned communities with significant barriers to entry through scale and land scarcity",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The current market capitalization of $3.60 billion represents a deep discount to the underlying asset base",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "As the largest shareholder, we are actively working with the independent special committee to explore strategic alternatives, including a take-private transaction",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Asset monetization, such as the $176.7 million MUD receivables sale completed in September 2024",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "With interest rates at 6.93%",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 5,
+  "share": 0.42
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "Given the complexity and our existing 11.72% position, we maintain our current investment, aiming for a 12% target size as we see this through to a logical conclusion [D08].",
+ "grader_notes": "The agent failed to identify the 'BUY' decision, opting for a 'HOLD' based on passive shareholder mechanics rather than the active control-based capital injection Ackman pursued. The reasoning is entirely divergent, focusing on asset-level value unlocking and strategic reviews rather than Ackman's shift toward a permanent-capital holding company and insurance-backed compounding structure.",
+ "run": "2025_hhh_control__current__masked"
+}

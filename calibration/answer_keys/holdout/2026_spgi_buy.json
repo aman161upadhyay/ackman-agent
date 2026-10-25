@@ -1,0 +1,21 @@
+{
+  "id": "2026_spgi_buy",
+  "size_pct_nav": null,
+  "sources": ["https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf"],
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Unknown; June30 consolidated13F market weight5.43% is not NAV at cost.",
+  "first_action_date": "2026-Q2, exact day unknown",
+  "disclosure_date": "2026-08-13",
+  "reason_class": null,
+  "opportunity_template": ["T1", "T4"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Ratings, Indices and Platts dominate earnings and possess durable benchmark/oligopoly advantages.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13)", "quote": null},
+    {"driver": "The AI-threatened desktop exposure was small relative to the enterprise profit pool.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13)", "quote": null},
+    {"driver": "Proprietary structured data can become more valuable within AI workflows.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13)", "quote": null},
+    {"driver": "Growth and capital return were available at about19x earnings versus about25x before de-rating.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13)", "quote": null}
+  ],
+  "outcome_note": "Separate second investment, not continuous since2017. June30 filing2,593,155 shares/$1.056088bn. PSH -3% from cost throughJune; open. Manager forecast~15% medium-term EPS-plus-yield is not a realized return.",
+  "pack_quality_notes": "8 documents, three-year annual financial/cash series, minority FCF deductions, segment profit mapping, primary guidance and dated AI/guidance press. March31pre-Q2 freeze avoids unknown firstday. Later July spin completion and August >80%profit/<7%desktop-revenue claims excluded from docs. Exact historical/52week multiple series, peerforward valuations and subproduct threat estimates missing. Driver quotes null because primary wording beyond compendium was not independently verified; no invented quotations."
+}

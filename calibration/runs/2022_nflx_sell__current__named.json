@@ -1,0 +1,36 @@
+{
+ "pack": "2022_nflx_sell",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2022-04-20",
+ "stages": {},
+ "final": {
+  "as_of_date": "2022-04-20",
+  "company": "Netflix",
+  "ticker": "NFLX",
+  "decision": "SELL",
+  "reason_class": "S2",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "subscriber growth: broken [D04], [D08]",
+   "predictability of revenue/margins: broken [D04], [D06], [D10]",
+   "management quality: intact [D02], [D10]",
+   "pricing power: weakened by competition and budget constraints [D06]"
+  ],
+  "forward_irr_estimate_pct": 0,
+  "valuation_now": "multiple is lower at 20.1x trailing earnings [D05], but prospective earnings range is too wide [D06]",
+  "drivers": [
+   {
+    "driver": "The core growth thesis has deteriorated due to unforeseen subscriber losses and a fundamental change in our ability to forecast future revenue and margin expansion.",
+    "citations": [
+     "D04",
+     "D10"
+    ]
+   }
+  ],
+  "memo": "We invest in simple, predictable, free-cash-flow-generative, dominant businesses [D00]. When we purchased Netflix, our thesis rested on the company being a primary beneficiary of the streaming transition, underpinned by highly predictable subscription-based, recurring revenues and significant operating leverage [D00]. We identified a best-in-class management team capable of navigating this growth, with the expectation of consistent margin expansion as the global subscriber base scaled [D00].\n\nHowever, the results reported on April 19 indicate a material change in the business model's predictability [D04]. With paid net additions falling into negative territory and management guiding for further losses in the second quarter, our original growth trajectory is no longer valid [D04], [D08]. The company's explicit pivot from a pure-subscription model toward unproven advertising-supported plans and account-sharing enforcement introduces new operational variables that we cannot forecast with the required certainty [D04], [D06], [D10].\n\nWhile management remains high-quality, the range of plausible intrinsic values has widened significantly due to these structural uncertainties [D02], [D06], [D10]. Our standard requires businesses where we can identify the long-run revenue and margin drivers [D00]. Because we can no longer model these with sufficient confidence, we have reached a loss of predictability that necessitates an immediate exit, regardless of the recent price decline [D06], [D10].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

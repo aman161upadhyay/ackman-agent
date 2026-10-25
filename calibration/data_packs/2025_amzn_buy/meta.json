@@ -1,0 +1,12 @@
+{
+  "id": "2025_amzn_buy",
+  "company": "Amazon.com",
+  "ticker": "AMZN",
+  "aliases": ["Amazon", "AWS", "Amazon Web Services"],
+  "as_of_date": "2025-04-07",
+  "mode": "new",
+  "era": "E",
+  "first_action_window": "User-requested April 7 tariff-panic replay, not the last day before actual initiation. Compendium and February 11, 2026 PSH inception chart identify April 21, 2025 first purchase. April 7 is deliberately retained as an earlier counterfactual information cutoff; no April 8-21 developments are supplied.",
+  "pershing_aum_usd_bn": 18.4988,
+  "notes": "Historical September 2024 firm AUM is stale and explicitly labeled; 2024 PSH accounts available March 14, 2025 add fund cash context. Claimed twenty-year-low forward multiple not independently established as of cutoff and is not represented as a verified fact."
+}

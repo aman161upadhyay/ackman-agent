@@ -1,0 +1,254 @@
+{
+ "pack": "2018_hlt_buy",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2018-10-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Hilton operates a global hotel brand, management, and franchise system with a portfolio of 14 brands and nearly 880,000 rooms [D01]. Following the 2017 separation of its real-estate and timeshare businesses, the company focuses on generating recurring franchise and management fees from third-party owners [D01].",
+   "segments_and_mix": [
+    "Franchise fees: $404 million in Q2 [D01]",
+    "Base/other management fees: $84 million in Q2 [D01]",
+    "Incentive management fees: $59 million in Q2 [D01]",
+    "Owned/leased hotel revenue: $392 million in Q2 [D01]"
+   ],
+   "unit_economics": [
+    "Asset-light model where owners fund real-estate capital [D01]",
+    "Fees are recurring but sensitive to RevPAR and travel demand [D01]",
+    "Capex excluding owner reimbursements guided to $175-$200 million for 2018 [D02]",
+    "Incentive fees are cyclical; financially stressed owners can defer investment [D01]"
+   ],
+   "competitive_position": [
+    "Global network with 5,400+ properties in 106 countries [D01]",
+    "Moat supported by brand, loyalty infrastructure (Hilton Honors), and distribution scale [D01]",
+    "Peer comparison: Marriott operates a similar fee-based model [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "Q2 2018 adjusted EBITDA grew 10% [D01]",
+    "Development pipeline of 362,000 rooms supports future growth [D01]",
+    "Guided 2018 net-unit growth of ~6.5% [D03]",
+    "Full-year 2018 guidance: 8%-10% adjusted EBITDA growth and 3%-4% RevPAR growth [D03]"
+   ],
+   "balance_sheet": [
+    "Long-term debt of $7.7 billion as of June 2018 [D02]",
+    "Cash (including restricted) of $505 million [D02]",
+    "Meaningful debt load despite asset-light business model [D01]"
+   ],
+   "management_and_governance": [
+    "CEO: Christopher Nassetta [D01]",
+    "Capital allocation: Aggressive share repurchases; $1.6 billion returned through July 2018 [D03]",
+    "Dual-class/controller: not in pack"
+   ],
+   "price_and_valuation": [
+    "Q2 2018 average repurchase price: $72.01 [D04]",
+    "Implied 2018 P/E based on repurchase price and guidance midpoint: ~26.9x [D04]",
+    "Market cap: not in pack",
+    "FCF yield: not in pack"
+   ],
+   "what_the_market_is_worried_about": [
+    "Mature travel cycle and potential for recession [D05]",
+    "Supply growth in business-travel and urban markets [D05]",
+    "Leverage constraints on capital returns [D05]",
+    "Sensitivity of incentive fees and pipeline development to owner health and financing [D01, D05]"
+   ],
+   "recent_events": [
+    "January 2017: Separation of Park Hotels & Resorts and Hilton Grand Vacations [D01]",
+    "April 2018: $1.5 billion note issuance for debt repayment and share repurchases [D03]",
+    "Q2 2018: 18.5 million shares repurchased for $1.3 billion [D03]"
+   ],
+   "pershing_context": [
+    "PSH June 30, 2018 AUM: $4.1 billion [D07]",
+    "Strategy: Large-cap, simple, free-cash-flow-generative, dominant companies [D07]",
+    "Prior engagement: not in pack"
+   ],
+   "missing_data": [
+    "Exact October 15 market price",
+    "Complete historical FCF/ROIC series",
+    "Independent 2019 consensus earnings forecast",
+    "Current net-debt/EBITDA ratio",
+    "Verification of outstanding shares for accurate EV calculation"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "Hilton generates stable, recurring fees from a large global franchise system with low maintenance capex requirements [D01]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company maintains a significant moat through its global network, scale, and the Hilton Honors loyalty platform [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business is highly sensitive to travel demand and RevPAR, which are prone to cyclical macroeconomic fluctuations [D01, D05]."
+    },
+    "strong_financial_profile": {
+     "score": "UNSURE",
+     "evidence": "While the asset-light model is inherently capital-light, the firm carries a $7.7 billion debt load, and the specific net-debt/EBITDA ratio is missing from the pack [D01, D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The company maintains a self-funding business model and uses debt for opportunistic share repurchases rather than operational survival [D03]."
+    },
+    "large_market_cap": {
+     "score": "UNSURE",
+     "evidence": "The market capitalization is not provided in the pack, though the scale of operations suggests it is a large-cap entity [D01]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "The implied 2018 P/E of 26.9x is provided, but historical context for comparison is not in the pack [D04]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "Management has demonstrated a clear focus on capital allocation through aggressive share repurchases and the successful 2017 separation of non-core assets [D01, D03]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "A development pipeline of 362,000 rooms supports long-term net-unit growth [D01]."
+    }
+   },
+   "n_pass": 5,
+   "n_fail": 1,
+   "n_unsure": 3,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a high-quality, asset-light global franchise business with a strong competitive moat and recurring cash flows."
+  },
+  "gate2": {
+   "templates": [
+    "T4"
+   ],
+   "variant_perception": "The market believes that Hilton's valuation should be compressed due to its sensitivity to a mature economic cycle and risks of a recession [D05]. We believe this view fails to account for the structural transition to a highly durable, asset-light, fee-generative business model that allows for significant compounding through high net-unit growth and aggressive capital returns [D01, D03]. As the market realizes the consistency of these recurring fees across the cycle, the multiple will expand toward that of a stable royalty-like franchise business [D01].",
+   "evidence": [
+    "Development pipeline of 362,000 rooms supports long-term growth regardless of short-term macro noise [D01].",
+    "Asset-light model focuses on stable franchise and management fees rather than volatile real estate ownership [D01].",
+    "Significant capital allocation to share repurchases demonstrates management's confidence in intrinsic value growth [D03]."
+   ],
+   "market_narrative_we_disagree_with": "Hilton is a cyclical, high-leverage hotel company that deserves a lower multiple because it is vulnerable to supply growth and economic downturns [D05].",
+   "what_must_be_true": [
+    "Hilton sustains net-unit growth of approximately 6.5% annually [D03].",
+    "The Hilton Honors loyalty platform continues to drive brand preference and occupancy [D01].",
+    "Management maintains disciplined capital allocation and share repurchases [D03].",
+    "The asset-light business model proves more resilient to downturns than historical full-service hotel operators."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "26.9x 2018 P/E based on repurchase price [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2018",
+    "base_value": "Midpoint EBITDA growth guided at 8-10% [D03]",
+    "growth_assumption": "6.5% net-unit growth [D03] plus RevPAR tailwinds",
+    "year_3_to_5_value": "Compound annual growth of ~10% in earnings per share",
+    "assumptions": [
+     "Net-unit growth remains at 6.5% [D03]",
+     "Asset-light model continues to scale franchise fee margins [D01]",
+     "Aggressive share repurchases continue to reduce share count [D03]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 22,
+    "why": "Reflects a transition to a high-quality, fee-generative, royalty-like franchise business while acknowledging cyclical exposure in travel."
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 28
+   },
+   "downside_case": "In a severe economic downturn, RevPAR and incentive fees decline, limiting cash available for buybacks. Permanent loss is unlikely given the asset-light structure which avoids real-estate maintenance capex [D01].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Assumed 2018 EPS base from EBITDA growth guidance [D03]",
+    "Assumed 10% annual EPS growth driven by unit expansion and buybacks [D03]",
+    "No specific share count provided for exact EPS calculation"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "Hilton is a high-quality, asset-light compounder. We expect a re-rating of the multiple as the market increasingly views its recurring franchise and management fee streams as resilient, royalty-like cash flows, rather than cyclical hotel earnings [D01, D03].",
+   "levers_or_steps": [
+    "Sustain net-unit growth at approximately 6.5% annually [D03]",
+    "Maintain high-margin fee growth through the Hilton Honors loyalty platform [D01]",
+    "Utilize strong free cash flow for aggressive share repurchases to compound earnings per share [D03]"
+   ],
+   "time_to_value_realisation_years": 5,
+   "why_this_role_fits_the_era": "In our Pershing Square 3.0 era, we focus on quality compounders with durable growth runways. Hilton’s asset-light, fee-generative model allows for long-term value creation through compounding, requiring no active intervention in management or strategy [D01, D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Net-unit growth falls significantly below the 6-7% target for two consecutive quarters [D03].",
+    "Management shifts from an asset-light capital return strategy toward debt-fueled acquisitions of real estate assets [D01].",
+    "Hilton Honors loyalty program engagement metrics demonstrate material decline relative to peers [D01]."
+   ],
+   "portfolio_fit": "Fits the Pershing Square 3.0 mandate as a high-quality, durable compounder with significant recurring fee revenue, offering diversification within our travel/hospitality exposure while maintaining a simple business model [D01, D07].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 12
+   },
+   "liquidity_assessment": "The company has a large market capitalization, and our target position size can be built over several weeks while remaining well below 25% of average daily trading volume [D01].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "A sustained global macroeconomic downturn could compress RevPAR and incentive fees, simultaneously slowing unit growth and reducing the free cash flow available for share repurchases [D01, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2018-10-15",
+  "company": "Hilton Worldwide",
+  "ticker": "HLT",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "opportunity_template": [
+   "T4"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "26.9x 2018 P/E",
+   "eps_path": "Mid-teens percentage growth driven by 6.5% net-unit growth and aggressive share buybacks",
+   "terminal_multiple": "22.0x",
+   "irr_pct": 20,
+   "downside_case": "RevPAR and incentive fee contraction during economic downturn"
+  },
+  "drivers": [
+   {
+    "driver": "A capital-light franchise model that generates high-margin, recurring royalty-like fees with minimal maintenance capex [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Best-in-class net-unit growth of approximately 6.5% supported by a large, visible development pipeline of 362,000 rooms [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Management’s disciplined capital allocation, focusing on returning substantial excess free cash flow to shareholders via aggressive buybacks [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The market misprices Hilton as a cyclical, leveraged hotel operator rather than a durable, high-quality compounder [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Net-unit growth falls significantly below the 6-7% target for two consecutive quarters [D03].",
+   "Management shifts from an asset-light capital return strategy toward debt-fueled acquisitions of real estate assets [D01].",
+   "Hilton Honors loyalty program engagement metrics demonstrate material decline relative to peers [D01]."
+  ],
+  "what_would_change_our_mind": "A material, long-term degradation in the Hilton Honors loyalty ecosystem or a structural shift away from the asset-light franchise model toward capital-intensive real estate ownership would invalidate our investment thesis.",
+  "memo": "Hilton Worldwide is a premier global hospitality company operating an asset-light, high-margin franchise and management system [D01]. With a portfolio of 14 brands and nearly 880,000 rooms, Hilton maintains a significant competitive advantage through its global scale and the Hilton Honors loyalty platform, which drives consistent, recurring, royalty-like cash flows [D01].\n\nThe market currently misinterprets Hilton as a cyclical, high-leverage hotel operator, leading to valuation compression due to fears of a mature economic cycle [D05]. We believe this perspective ignores the structural transformation to a capital-light model that prioritizes fee generation over property ownership, insulating the company from the volatility of hotel real estate [D01].\n\nWe acquired our position at an implied 2018 P/E of approximately 26.9x [D04]. Given the company’s ability to grow earnings per share in the mid-teens through a combination of 6.5% net-unit growth and aggressive share repurchases, we anticipate a high rate of return as the market recognizes the durability and quality of Hilton's cash flows, leading to a re-rating of the multiple [D01, D03].\n\nOur investment is supported by a robust pipeline of 362,000 rooms and management's proven commitment to returning capital to shareholders [D01, D03]. Under CEO Christopher Nassetta, the company has successfully optimized its balance sheet and structure to maximize long-term intrinsic value [D01, D03].\n\nWhile a significant global macroeconomic downturn remains the primary risk, the asset-light business model provides a cushion against the operational and capital expenditures typically associated with hotel ownership [D01]. We will monitor net-unit growth and loyalty program metrics closely to ensure the long-term growth trajectory remains intact [D01, D03].\n\nWe are initiating a 10% position in Hilton, viewing it as a high-quality compounder that fits our mandate for simple, predictable, and dominant businesses [D01, D07].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

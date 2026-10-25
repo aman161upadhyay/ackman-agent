@@ -1,0 +1,54 @@
+{
+ "trade_id": "2025_hhh_control",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 4,
+  "matched": [],
+  "missed": [
+   "Long-duration real assets and development cash can support a compounder rather than a narrow cyclical property valuation.",
+   "Control-like influence enables strategic capital allocation and a diversified holding-company design.",
+   "Potential insurance investments can supply additional compounding economics and permanent-capital characteristics; not a known January10 plan or acquired float.",
+   "Permanent ownership and disciplined reinvestment address the gap between asset value and realized shareholder returns."
+  ],
+  "extra_agent_drivers": [
+   "The company owns a unique, irreplaceable portfolio of master-planned communities that offer high barriers to entry and long-duration growth.",
+   "A persistent governance and structural discount exists, as the public market fails to value the underlying private market asset base correctly.",
+   "As the largest shareholder, we are actively engaged in a strategic review process, including a potential take-private, to unlock intrinsic value.",
+   "The business has demonstrated operating resilience with strong Q3 2024 results and increased full-year guidance despite interest rate headwinds."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Howard Hughes Holdings represents a unique collection of master-planned communities, including Summerlin, The Woodlands, and Bridgeland",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market’s negative sentiment currently stems from the complexity of the development business, significant leverage, and sensitivity to interest rates",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "MPC EBT at a $330 million midpoint and operating asset NOI near $257 million",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The independent special committee is currently evaluating strategic alternatives, including a potential take-private",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 5,
+  "share": 0.38
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We elect to HOLD our position, maintaining our commitment to this legacy asset while actively driving the strategic review to its conclusion [D01, D08].",
+ "grader_notes": "The agent missed the primary strategic intent of moving toward a control-oriented holding company structure with insurance-linked compounding, instead focusing on a passive 'hold' based on valuation discounts. The reasoning is farthest from Ackman's because it treats the company as a standalone real estate portfolio rather than the nucleus of a diversified capital compounder.",
+ "run": "2025_hhh_control__current__named"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "2022_nflx_sell",
+  "actual_decision": "SELL",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Entire position sold; original purchase exceeded 3.1 million shares; loss reduced all-fund YTD returns by four percentage points.",
+  "first_action_date": "2022-04-20",
+  "disclosure_date": "2022-04-20",
+  "reason_class": "S2",
+  "opportunity_template": ["T1"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Subscriber-growth changes have an outsized effect on intrinsic value because of operating leverage.", "source": "https://assets.pershingsquareholdings.com/2022/04/20184527/Letter-to-Shareholders-4.20.2022.pdf (2022-04-20)", "quote": "changes in the company’s future subscriber growth can have an outsized impact on our estimate of intrinsic value"},
+    {"driver": "Advertising and account-sharing changes may be sensible but are difficult to forecast.", "source": "https://assets.pershingsquareholdings.com/2022/04/20184527/Letter-to-Shareholders-4.20.2022.pdf (2022-04-20)", "quote": "it is extremely difficult to predict their impact on the company’s long-term subscriber growth, future revenues, operating margins, and capital intensity"},
+    {"driver": "The business no longer meets the predictability requirement for a concentrated core holding.", "source": "https://assets.pershingsquareholdings.com/2022/04/20184527/Letter-to-Shareholders-4.20.2022.pdf (2022-04-20)", "quote": "we have lost confidence in our ability to predict the company’s future prospects with a sufficient degree of certainty"},
+    {"driver": "Act promptly when new evidence contradicts the original thesis.", "source": "https://assets.pershingsquareholdings.com/2022/04/20184527/Letter-to-Shareholders-4.20.2022.pdf (2022-04-20)", "quote": "One of our learnings from past mistakes is to act promptly when we discover new information about an investment that is inconsistent with our original thesis."}
+  ],
+  "entry_valuation_stated": "No precise entry multiple in January announcement; the exit was about forecast dispersion, not a price target.",
+  "outcome_note": "Sold April 20, 2022 after a 35.1% market decline that day. Contemporary reporting estimated a loss exceeding $400 million; Bloomberg reported more than $430 million. Primary letter reports four percentage points of YTD performance impact, not an exact dollar loss.",
+  "pack_quality_notes": "Ten documents including original-thesis and changes-since-purchase documents. Same-day exit letter completely excluded from pack. Latest peer synchronized multiples, exact AUM/cash, 52-week range, forward consensus and volume not recovered. Equity/EV proxies explicitly use quarterly average shares. Meta AUM null means unavailable, not zero. Some documents below the preferred 300-word floor; no padding."
+}

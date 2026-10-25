@@ -1,0 +1,12 @@
+{
+  "id": "2021_umg_buy",
+  "company": "Universal Music Group",
+  "ticker": "UMG (unlisted)",
+  "aliases": ["UMG", "Universal"],
+  "as_of_date": "2021-06-03",
+  "mode": "new",
+  "era": "D",
+  "first_action_window": "PSTH proposal public June4; obligation transferred to Pershing funds July; initial funds purchase August. June3 is before public proposal, not funds settlement.",
+  "pershing_aum_usd_bn": 13.562,
+  "notes": "AUM is February16 core funds total including $2.1bn PSH debt, excluding PSTH trust; equity AUM $11.462bn. UMG has no traded quote yet. June4-confirmed terms and later prospectus excluded. Do not attribute eventual UMG ownership to PSTH shareholders."
+}

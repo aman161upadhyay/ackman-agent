@@ -1,0 +1,45 @@
+{
+ "trade_id": "2022_nflx_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Subscriber-growth changes have an outsized effect on intrinsic value because of operating leverage. → With paid net additions falling into negative territory and management guiding for further losses in the second quarter, our original growth trajectory is no longer valid.",
+   "Advertising and account-sharing changes may be sensible but are difficult to forecast. → The company's explicit pivot from a pure-subscription model toward unproven advertising-supported plans and account-sharing enforcement introduces new operational variables that we cannot forecast with the required certainty.",
+   "The business no longer meets the predictability requirement for a concentrated core holding. → Because we can no longer model these with sufficient confidence, we have reached a loss of predictability that necessitates an immediate exit, regardless of the recent price decline."
+  ],
+  "missed": [
+   "Act promptly when new evidence contradicts the original thesis."
+  ],
+  "extra_agent_drivers": []
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "results reported on April 19 indicate a material change in the business model's predictability",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "paid net additions falling into negative territory",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "pivot from a pure-subscription model toward unproven advertising-supported plans",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 10,
+  "share": 1
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Because we can no longer model these with sufficient confidence, we have reached a loss of predictability that necessitates an immediate exit, regardless of the recent price decline.",
+ "grader_notes": "The agent correctly identified the core reasons for the exit: the breakdown of subscriber growth, the inability to forecast new revenue streams (ads/sharing), and the resulting failure to meet the predictability standard for the portfolio. The agent missed explicitly stating the principle of acting promptly, though it is implied by the decision to exit. The reasoning is very closely aligned with Ackman's stated logic.",
+ "run": "2022_nflx_sell__current__named"
+}

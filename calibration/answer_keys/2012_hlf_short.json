@@ -1,0 +1,43 @@
+{
+  "id": "2012_hlf_short",
+  "actual_decision": "SHORT",
+  "conviction": "high",
+  "size_pct_nav": "Approximately US$1bn initial disclosed short notional, roughly 9% of contemporary US$11bn AUM; not an authenticated trade-date NAV or premium-at-risk weight.",
+  "first_action_date": null,
+  "disclosure_date": "2012-12-20",
+  "reason_class": null,
+  "opportunity_template": ["T6"],
+  "catalyst_role": "C3",
+  "drivers": [
+    {
+      "driver": "Alleged compensation primarily rewarded recruitment rather than genuine outside retail demand.",
+      "source": "https://www.10xebitda.com/wp-content/uploads/2016/11/Pershing-Square-Herbalife-Presentation-Dec-2012.pdf (2012-12-20, after cutoff; original presentation recovered in this pass)",
+      "quote": null
+    },
+    {
+      "driver": "Questioned distributor success claims, retail-sales measurement and losses borne by lower-level participants.",
+      "source": "https://www.10xebitda.com/wp-content/uploads/2016/11/Pershing-Square-Herbalife-Presentation-Dec-2012.pdf (2012-12-20)",
+      "quote": "In a pyramid scheme, the money at the top is made from the losses of people at the bottom of the pyramid"
+    },
+    {
+      "driver": "Expected regulatory shutdown or collapse to destroy equity value; this was Pershing's allegation, not an adjudicated fact.",
+      "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf (2015-03-24 retrospective statement)",
+      "quote": "HLF is an illegal pyramid scheme that will collapse or otherwise be shut down by regulators."
+    },
+    {
+      "driver": "Expected economic deterioration to validate the thesis, but later acknowledged fundamental analysis alone was insufficient for a viable short.",
+      "source": "https://assets.pershingsquareholdings.com/2022/10/07155606/2017-Annual-Report-Letter-Only.pdf (2018-03)",
+      "quote": "While we believe that deteriorating business fundamentals and a high valuation are a good recipe for an attractive short sale, technical factors are a critically important additional consideration."
+    }
+  ],
+  "entry_valuation_stated": "Initial weighted-average short-sale price and first execution date unverified. US$42.50 is the December 18 market close, not an asserted execution price. Zero-price target depended on an adverse regulatory/business outcome, not conventional multiple compression.",
+  "outcome_note": "FTC July 15, 2016 settlement required major US compensation/business restructuring and US$200m consumer redress, but did not shut Herbalife down or constitute a court finding of an illegal pyramid. The short lost money; approximate US$1bn lifetime-loss reporting is not independently reconstructed audited P&L. Open short was converted to puts in 2017 to cap risk; position exited by February 2018. The 2017 letter says reduced free float, buybacks and technical factors made the short increasingly risky. Good selected fundamental/regulatory observations did not ensure successful security selection or timing. Later process moved away from public single-name short campaigns; no claim that this was the only cause.",
+  "pack_quality_notes": "Eight documents of pre-December19 information. Financials and October29 guidance, explicit external-retail measurement gap, company response, three peers, buyback funding, 13F and current AUM. Later original pitch used only in key. Null first-action date preserves actual uncertainty. No fabricated borrow fee, locate, short interest, consensus estimate, original NAV weight or regulatory decision. 13F call rows carefully separated from common shares; historical HLF split basis corrected.",
+  "sources": [
+    "https://www.10xebitda.com/wp-content/uploads/2016/11/Pershing-Square-Herbalife-Presentation-Dec-2012.pdf",
+    "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf",
+    "https://www.ftc.gov/news-events/news/press-releases/2016/07/herbalife-will-restructure-its-multi-level-marketing-operations-pay-200-million-consumer-redress",
+    "https://assets.pershingsquareholdings.com/2022/10/07155606/2017-Annual-Report-Letter-Only.pdf",
+    "https://www.cnbc.com/2018/02/28/ackman-exits-bet-against-herbalife.html"
+  ]
+}

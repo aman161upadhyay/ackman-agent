@@ -1,0 +1,12 @@
+{
+  "id": "2020_brk_sell",
+  "company": "Berkshire Hathaway",
+  "ticker": "BRK.B",
+  "aliases": ["Berkshire", "BRK.A"],
+  "as_of_date": "2020-05-26",
+  "mode": "existing",
+  "era": "D",
+  "first_action_window": "Bought Q2 2019, disclosed August 14-15; approximately 11% PSH NAV in initial interim thesis. Exit disclosed May 27, 2020; exact May sale execution date unknown.",
+  "pershing_aum_usd_bn": 8.1106,
+  "notes": "AUM is April 30 total strategy AUM, not PSH NAV. May 27 exit discussion excluded from pack. Class A historical price reference supplied where exact Class B close unavailable."
+}

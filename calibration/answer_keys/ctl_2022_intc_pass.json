@@ -1,0 +1,18 @@
+{
+  "id": "ctl_2022_intc_pass",
+  "actual_decision": "PASS",
+  "conviction": "high",
+  "size_pct_nav": 0,
+  "first_action_date": null,
+  "disclosure_date": null,
+  "reason_class": null,
+  "decision_basis": "Constructed discipline control, not a documented historical Ackman rejection or a short recommendation.",
+  "drivers": [
+    {"driver": "Process-roadmap and competitive-reset uncertainty make long-term distributable cash difficult to bound; incumbent scale alone is insufficient.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf (2015-03-24 investment approach)", "quote": "simple, predictable, free-cash-flow generative businesses"},
+    {"driver": "Large manufacturing investment and negative adjusted FCF weaken the fit with self-funding long investments; low earnings multiple/dividend does not fix reinvestment economics.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf", "quote": "do not need access to the capital markets to survive and thrive"},
+    {"driver": "PC cyclicality and technological execution dominate outcomes beyond ordinary operating activism; pass unless a separately justified bounded special situation can be demonstrated.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf", "quote": "extrinsic factors we cannot control"}
+  ],
+  "ackman_public_statement": "none found — discipline control",
+  "outcome_note": "No subsequent company or stock outcome is used to validate this constructed PASS. It tests business predictability, reinvestment and capital dependence, not a universal prohibition on semiconductor investments.",
+  "sources": ["https://www.intc.com/news-events/press-releases/detail/1586/intel-reports-third-quarter-2022-financial-results", "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf"]
+}

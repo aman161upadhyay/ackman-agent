@@ -1,0 +1,196 @@
+{
+ "pack": "2025_meta_buy",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2025-11-03",
+ "stages": {
+  "fact_sheet": {
+   "_raw": "{\n \"business_description\": \"Meta operates a family of applications including Facebook, Instagram, Messenger, and WhatsApp, which primarily generate revenue through digital advertising [D01]. The company also operates Reality Labs, a segment focused on developing virtual, augmented, and mixed-reality hardware, software, and content [D01].\",\n \"segments_and_mix\": [\n  \"Family of Apps (FoA): 99.1% of Q3 2025 revenue [D01]\",\n  \"Reality Labs (RL): 0.9% of Q3 2025 revenue [D01]\"\n ],\n \"unit_economics\": [\n  \"FoA operating margin of 49.2% [D01]\",\n  \"Consolidated operating margin of 40% [D01]\",\n  \"Strong cash generation before investment, but rising capex is reducing FCF conversion [D02]\",\n  \"FCF of $10,625 million in Q3 2025 [D02]\"\n ],\n \"competitive_position\": [\n  \"Dominant scale with 3.54 billion family daily active people [D01]\",\n  \"Moat is a reinforcing combination of audience, creators, advertiser access, and recommendation quality [D01]\",\n  \"Competitors include Alphabet and Amazon [D06]\"\n ],\n \"growth_record_and_outlook\": [\n  \"FY2024 revenue growth of 22%, Q3 2025 revenue growth of 26% [D02]\",\n  \"Q4 2025 revenue guidance of $56–59 billion [D03]\",\n  \"2026 capex expected to be 'notably larger' than 2025 [D03]\"\n ],\n \"balance_sheet\": [\n  \"Cash and marketable securities of $44,448 million [D02]\",\n  \"Long-term debt of $28,834 million [D02]\",\n  \"Net cash excluding leases of $15,614 million [D02]\"\n ],\n \"management_and_governance\": [\n  \"Mark Zuckerberg is founder and CEO [D01]\",\n  \"Susan Li is CFO [D01]\",\n  \"Governance includes underwriting capital allocation for AI infrastructure versus app profitability [D01]\"\n ],\n \"price_and_valuation\": [\n  \"Price (Nov 3): $637.71 [D04]\",\n  \"Illustrative equity-value proxy: $1.605 trillion [D04]\",\n  \"Trailing P/E (tax-normalized): 22.1x [D04]\",\n  \"Calculated trailing FCF yield: 2.7% [D04]\"\n ],\n \"what_the_market_is_worried_about\": [\n  \"Skepticism regarding ROI on aggressive AI spending [D05]\",\n  \"Rising capital costs and infrastructure investments outpacing revenue growth [D05]\",\n  \"Significant ongoing operating losses in Reality Labs [D05]\",\n  \"Regulatory risks including EU advertising restrictions and US youth-related trials [D05]\"\n ],\n \"recent_events\": [\n  \"October 29, 2025: Q3 results reported with 26% revenue growth and noncash tax charge [D03]\",\n  \"October 29, 2025: Capex forecast raised to $70–72 billion for FY2025 [D03]\",\n  \"October 30, 2025: Shares fell more than 11% following earnings [D05]\"\n ],\n \"pershing_context\": [\n  \"Fund holds positions in Alphabet and Amazon [D08]\",\n  \"Strategy focuses on high-quality, free-cash-flow-generative businesses with limited downside [D08]\",\n  \"No authenticated Meta-specific investment history or prior engagement in pack [D08]\"\n ],\n \"missing_data\": [\n  \"Exact current market capitalization and common shares outstanding [D04]\",\n  \"Verified forward consensus EPS and multiples [D04]\",\n  \"Comprehensive ROIC figures [D02]\",\n  \"Precise voting-control percentages [D01]\"\n]"
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "The Family of Apps generates significant free cash flow with high operating margins, though Reality Labs is a secondary experimental segment [D01][D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "Meta possesses a dominant network effect with 3.54 billion daily active people across its applications [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "The business faces significant regulatory risks, including EU advertising restrictions and US youth-related trials [D05]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a net cash position of $15,614 million with long-term debt of $28,834 million [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The company maintains a robust cash balance and strong operating cash flows [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With an illustrative equity value of $1.605 trillion, the company is highly liquid [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "A trailing P/E of 22.1x appears reasonable for a company with 26% revenue growth [D03][D04]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "The founder-led management team has a proven track record, though capital allocation toward AI is a point of current investor skepticism [D01][D05]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The business continues to demonstrate strong double-digit revenue growth driven by its core advertising family of apps [D02]."
+    }
+   },
+   "n_pass": 8,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant, cash-generative digital advertising franchise with significant scale and network effects."
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market believes that Meta's aggressive, escalating AI-related capital expenditures will permanently impair free cash flow generation and margin expansion [D05]. We believe this skepticism is misplaced because the core Family of Apps remains a dominant, highly profitable franchise with strong secular growth, and the current infrastructure build-out is a temporary phase of investment to sustain long-term competitive advantages [D01][D02][D03]. The market will shift its sentiment once the productivity benefits of this AI investment become visible in enhanced ad-targeting capabilities and operational efficiency [D01][D03].",
+   "evidence": [
+    "Shares declined more than 11% following earnings and the announcement of 'notably larger' 2026 capex [D03][D05].",
+    "The Family of Apps maintains a 49.2% operating margin, demonstrating exceptional unit economics [D01].",
+    "Meta grew revenue 26% in Q3 2025, highlighting the continued durability of its core advertising model [D02]."
+   ],
+   "market_narrative_we_disagree_with": "Rising capital costs and infrastructure investments are outpacing revenue growth, leading to long-term margin erosion [D05].",
+   "what_must_be_true": [
+    "The core Family of Apps sustains its dominant network effect and double-digit revenue growth [D01][D02].",
+    "AI infrastructure investments eventually translate into measurable improvements in advertising ROI and user engagement [D01].",
+    "Regulatory risks remain manageable and do not fundamentally break the business model [D05]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "22.1x trailing P/E [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2025",
+    "base_value": "28.85 (implied from $1.605T market cap / 22.1x P/E) [D04]",
+    "growth_assumption": "15% CAGR based on core ad strength and AI efficiency gains [D01][D02]",
+    "year_3_to_5_value": "43.85 - 50.43",
+    "assumptions": [
+     "Core Family of Apps maintains double-digit revenue growth [D01][D02]",
+     "AI infrastructure yields measurable advertising ROI improvement [D01]",
+     "FCF conversion normalizes as infrastructure investment cycles moderate [D02]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 25,
+    "why": "Reflects Meta's status as a dominant, high-margin, scalable digital advertising compounder with long-term durability"
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 28
+   },
+   "downside_case": "If AI investments fail to generate ROI and margins permanently compress, the multiple may de-rate to 15-18x; however, the dominant FoA franchise and net cash position limit permanent capital loss.",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Implied 2025 EPS derived from provided P/E and market cap",
+    "Assumed 15% EPS growth rate is a projection based on current revenue momentum"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We expect a re-rating of the multiple from 22.1x toward 25x as the market moves past the peak of its current AI-related capital expenditure skepticism [D03][D05]. As the productivity benefits of Meta's massive infrastructure investment begin to manifest in sustained ad-targeting efficiency and operational earnings power, the 'notably larger' capex profile will be re-contextualized as a durable competitive moat rather than margin-eroding waste [D01][D03][D05].",
+   "levers_or_steps": [
+    "Core Family of Apps maintains double-digit revenue growth while leveraging AI to enhance advertising ROI [D01][D02].",
+    "Infrastructure investment cycle moderates, leading to improved free cash flow conversion [D02].",
+    "Management continues to demonstrate rigorous capital allocation discipline to protect the franchise's dominant 49.2% operating margins [D01]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our Pershing Square 3.0 era, we focus on compounding high-quality, dominant businesses bought on temporary market dislocations without the need for public activism [D08]. Meta is a mega-cap quality franchise where the current price volatility provides an asymmetric entry point, allowing us to generate returns through fundamental business growth and multiple expansion as the market realizes the durability of the core advertising engine [D01][D03][D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Core Family of Apps daily active people growth turns negative for two consecutive quarters, signaling a breach in the network effect [D01].",
+    "AI capital expenditures fail to deliver measurable improvements in ad-targeting efficiency or ROI after 24 months, indicating a permanent impairment of capital allocation [D01][D03].",
+    "Regulatory developments in the EU or US force a structural change to the advertising business model that fundamentally reduces operating margins below 35% [D01][D05]."
+   ],
+   "portfolio_fit": "The position complements our existing digital advertising and cloud infrastructure exposure in Alphabet and Amazon by providing a unique social-platform focused asset [D08]. We are mindful of total sector concentration within our 8-15 name portfolio.",
+   "size_pct_nav": {
+    "initial": 4,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "Given the company's $1.605 trillion equity value and high daily trading volume, we can comfortably establish a core position over several weeks without impacting the market price [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that Meta's massive, multi-year infrastructure investment cycle fails to produce sufficient returns on invested capital, leading to persistent margin erosion and a permanent de-rating of the multiple [D03][D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-11-03",
+  "company": "Meta Platforms",
+  "ticker": "META",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "22.1x trailing P/E",
+   "eps_path": "15% CAGR",
+   "terminal_multiple": "25x",
+   "irr_pct": 22,
+   "downside_case": "Multiple de-rating to 15-18x if AI ROI fails, mitigated by net cash position and dominant FoA franchise."
+  },
+  "drivers": [
+   {
+    "driver": "Meta is a dominant, cash-generative digital advertising franchise with 3.54 billion daily active people across its applications.",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The market is incorrectly punishing the shares due to temporary concerns over escalating AI-related capital expenditures.",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "We acquired our stake at a 22.1x trailing earnings multiple, which is attractive for a high-quality compounder growing revenue at 26%.",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Founder-led management has demonstrated a strong track record of navigating complex competitive environments.",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The earnings path is supported by the core Family of Apps maintaining double-digit revenue growth while leveraging AI to enhance ad-targeting efficiency.",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Core Family of Apps daily active people growth turns negative for two consecutive quarters, signaling a breach in the network effect.",
+   "AI capital expenditures fail to deliver measurable improvements in ad-targeting efficiency or ROI after 24 months, indicating a permanent impairment of capital allocation.",
+   "Regulatory developments in the EU or US force a structural change to the advertising business model that fundamentally reduces operating margins below 35%."
+  ],
+  "what_would_change_our_mind": "Evidence that AI infrastructure investments are not yielding productivity improvements or ad-targeting efficiency, leading to permanent margin compression rather than a cyclical investment phase.",
+  "memo": "Meta Platforms is a dominant, free-cash-flow-generative digital advertising franchise with a unique network effect connecting 3.54 billion daily active people [D01]. The business meets our highest standards for quality, featuring exceptional 49.2% operating margins within its Family of Apps and a robust balance sheet with $15,614 million in net cash [D01][D02].\n\nFollowing the recent announcement of 'notably larger' 2026 capital expenditures, the market has unfairly punished the stock, causing an 11% decline [D03][D05]. Investors fear these infrastructure costs will permanently erode margins, but we view this as a temporary, necessary phase of investment to secure long-term competitive advantages in ad-targeting and operational efficiency [D01][D05].\n\nWe were able to acquire our stake at 22.1x trailing earnings, a highly attractive multiple for a business demonstrating 26% revenue growth [D02][D04]. With a clear path to mid-teens EPS growth, we expect a re-rating toward a 25x terminal multiple as the market recognizes the durability of the core advertising engine [D01][D03].\n\nWe play a supportive, long-term role as shareholders, confident that management's capital allocation will prioritize the productivity benefits of their AI build-out [D01]. The combination of our entry price and the compounding nature of the business offers a highly asymmetric risk-reward profile, with an expected IRR of 22% in our base case [D03][D04].\n\nOur primary risks involve potential regulatory shifts and the possibility that AI infrastructure investments fail to yield the expected ROI [D01][D05]. We will monitor core daily active user growth and margin trends closely; should the fundamental economics of the Family of Apps deteriorate, we will be prepared to exit [D01].\n\nWe are initiating a position today with an initial 4% weighting, intending to build to an 8% core position as the market digests the current capital expenditure cycle [D05].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

@@ -1,0 +1,47 @@
+{
+ "trade_id": "2024_nke_buy_b",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Nike's global brand and scale remain valuable despite operational underperformance. → The Company is a preeminent global consumer franchise with an unrivaled competitive moat in athletic footwear and apparel, underpinned by its deep athlete roster, design prowess, and massive distribution scale [D01, D06].",
+   "Innovation and repair of wholesale distribution can restore demand. → Our investment thesis relies on management successfully re-balancing the channel strategy to prioritize wholesale relationships and refocusing the innovation pipeline [D05, D06].",
+   "Depressed profitability offers recovery potential. → By optimizing the $4.285 billion annual demand creation spend and tightening operational execution, we see a path toward mid-teens EPS growth as EBIT margins recover from their current 12.7% toward historical peaks [D01, D06]."
+  ],
+  "missed": [
+   "Elliott Hill's operating knowledge strengthens the management repair thesis after September appointment, not at initial purchase."
+  ],
+  "extra_agent_drivers": [
+   "The company’s balance sheet, featuring $9.86B in cash and $2.673B in net cash, provides significant flexibility to fund the turnaround and support EPS through buybacks [D02]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company is a preeminent global consumer franchise with an unrivaled competitive moat",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "market panic, triggered by a 20% single-day sell-off following guidance downgrades",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "balance sheet with $2.673 billion in net cash",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 3,
+  "share": 0.27
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We view this dislocation as a classic opportunity to acquire a high-quality compounder at an attractive entry multiple of 19.1x [D04].",
+ "grader_notes": "The agent correctly identified the core thesis pillars regarding brand strength, the wholesale/innovation repair path, and margin recovery potential. It missed the driver concerning Elliott Hill, which is understandable given the AS_OF_DATE constraint. The agent added financial driver detail regarding net cash not explicitly listed in the key's drivers.",
+ "run": "2024_nke_buy_b__current__masked"
+}

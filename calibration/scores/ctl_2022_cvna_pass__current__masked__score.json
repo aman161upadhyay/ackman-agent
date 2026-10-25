@@ -1,0 +1,55 @@
+{
+ "trade_id": "ctl_2022_cvna_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Negative operating cash, capacity spending and acquisition funding make survival/growth dependent on capital access rather than self-funding owner earnings. → The company’s heavy reliance on capital markets to fund its operations and aggressive growth strategy is incompatible with our investment standards [D02, D05].",
+   "Long-term unit economics and network returns are unproven; revenue growth or customer satisfaction is not predictable distributable cash. → The business fails our core requirement of being free-cash-flow-generative, operating with significant cash burn and negative cash flow [D02].",
+   "Used-car values, consumer credit and securitization/funding spreads can dominate returns outside an activist's control. → The business model is highly sensitive to consumer affordability and rising interest rates, exposing it to extrinsic factors we cannot control [D04]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The capital structure is burdened by over US$6 billion in debt, including high-yield notes issued at 10.25%, which creates substantial financial risk [D02]."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Carvana operates an online used vehicle marketplace integrated with a physical network for reconditioning and logistics.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company’s heavy reliance on capital markets to fund its operations and aggressive growth strategy is incompatible with our investment standards.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The capital structure is burdened by over US$6 billion in debt.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business model is highly sensitive to consumer affordability and rising interest rates, exposing it to extrinsic factors we cannot control.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Valuation is not currently supported by earnings power given the recent net loss of US$506 million in the first quarter of 2022.",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 5,
+  "share": 0.5
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We seek simple, predictable compounders, whereas this entity remains a capital-intensive platform dependent on debt to fund its operations [D02, D05].",
+ "grader_notes": "The agent correctly identified the core investment criteria used by Pershing Square, specifically focusing on the lack of free-cash-flow generation and the necessity of capital market access. The reasoning was closest to Ackman's standard of requiring self-funding, predictable businesses, and farthest from the key in its detailed focus on specific debt instrument yields, which Ackman did not explicitly cite as a primary driver.",
+ "run": "ctl_2022_cvna_pass__current__masked"
+}

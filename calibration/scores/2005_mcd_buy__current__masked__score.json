@@ -1,0 +1,48 @@
+{
+ "trade_id": "2005_mcd_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Separate restaurant operations from franchise/property economics; good management had already delivered an operating recovery. → We see this as an opportunity to engage and advocate for a strategy that unlocks the hidden value in the company’s ownership of ~37% of its land and ~59% of its buildings.",
+   "Normalize corporate restaurants for market rent and franchise fees to reveal true economics. → The current structure obscures the fact that the franchise business earns margins of 80.2%, far exceeding the 14.8% margins of the company-operated segment."
+  ],
+  "missed": [
+   "Original November plan proposes65% McOpCoIPO andUS$14.7bn property-backed borrowing for repurchases; not simply a REIT spin.",
+   "Adapt means to stakeholder constraints, later withdrawing the IPO demand in favor of management actions/refranchising rather than insisting on the initial transaction."
+  ],
+  "extra_agent_drivers": [
+   "Attractive entry multiple of 18.7x trailing P/E.",
+   "Predictable cash flows from 29 consecutive months of positive US comparable sales."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "With 31,561 locations and 29 consecutive months of positive US comparable sales",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "franchise business earns margins of 80.2%, far exceeding the 14.8% margins of the company-operated segment",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "ownership of ~37% of its land and ~59% of its buildings",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 4,
+  "share": 0.31
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "While management has explicitly rejected a property restructuring, we see this as an opportunity to engage and advocate for a strategy that unlocks the hidden value in the company’s ownership of ~37% of its land and ~59% of its buildings.",
+ "grader_notes": "The agent correctly identified the core thesis regarding the separation of franchise economics from restaurant operations. However, the agent failed to capture the specific nuances of Ackman's initial transaction proposal (McOpCo IPO/borrowing) and the subsequent evolution of the thesis regarding stakeholder constraints.",
+ "run": "2005_mcd_buy__current__masked"
+}

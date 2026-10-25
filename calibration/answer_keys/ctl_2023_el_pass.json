@@ -1,0 +1,18 @@
+{
+  "id": "ctl_2023_el_pass",
+  "actual_decision": "PASS",
+  "conviction": "medium",
+  "size_pct_nav": 0,
+  "first_action_date": null,
+  "disclosure_date": null,
+  "reason_class": null,
+  "decision_basis": "Constructed discipline control; not a historical Ackman rejection. Quality brands make this a closer call than the financing/commodity controls.",
+  "drivers": [
+    {"driver": "Channel inventory, China travel retail and a failed near-term recovery assumption leave an insufficiently narrow cash-flow range for a concentrated position.", "source": "https://assets.pershingsquareholdings.com/2022/04/20184527/Letter-to-Shareholders-4.20.2022.pdf (2022-04-20)", "quote": "We require a high degree of predictability in the businesses in which we invest due to the highly concentrated nature of our portfolio."},
+    {"driver": "Valuable brands are necessary positive evidence, not sufficient owner-cash proof; near61x reduced adjusted EPS requires a substantial, unverified normalization. Require predictable cash after investment rather than anchor to the old share price.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf (2015-03-24)", "quote": "simple, predictable, free-cash-flow generative businesses"},
+    {"driver": "Recovery depends on travel/channel conditions beyond shareholder control; family voting control also limits an assumed activist remedy. Neither is itself a blanket category exclusion.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf", "quote": "extrinsic factors we cannot control"}
+  ],
+  "ackman_public_statement": "none found — discipline control",
+  "outcome_note": "No subsequent recovery, management change or stock return used. PASS is conditional on current valuation and forecast uncertainty, not a claim that consumer brands or cosmetics cannot fit Pershing's strategy.",
+  "sources": ["https://www.elcompanies.com/en/news-and-media/newsroom/press-releases/2023/05-03-2023-114519989", "https://assets.pershingsquareholdings.com/2022/04/20184527/Letter-to-Shareholders-4.20.2022.pdf"]
+}

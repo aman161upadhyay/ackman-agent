@@ -1,0 +1,252 @@
+{
+ "pack": "2013_apd_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2013-07-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a provider of industrial gases, performance materials, equipment, and related technology to customers including refineries, chemical plants, steelmakers, and food processors [D01]. It operates globally across more than 50 countries [D01].",
+   "segments_and_mix": [
+    "Merchant Gases: 38% of FY2012 sales [D01]",
+    "Tonnage Gases: 33% of FY2012 sales [D01]",
+    "Electronics and Performance Materials: 24% of FY2012 sales [D01]",
+    "Equipment and Energy: 4% of FY2012 sales [D01]"
+   ],
+   "unit_economics": [
+    "FY2012 adjusted operating margin was 16.0% [D02]",
+    "High capital intensity with significant project capex and acquisitions [D01, D02]",
+    "Tonnage segment utilizes long-term arrangements and energy pass-through contracts to reduce risk [D01]",
+    "Pricing discipline and distribution efficiency are key to Merchant gas profitability [D01]"
+   ],
+   "competitive_position": [
+    "Global competitors include Praxair, Air Liquide, and Linde [D06]",
+    "Operates in a sector with high barriers to entry due to installed assets and customer integration [D01]",
+    "Peer Praxair achieved a 21.6% adjusted operating margin in Q1 2013, compared to the Company's 15.7% [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2012 sales were US$9.612 billion [D01]",
+    "FY2013 adjusted continuing EPS guidance is US$5.45–US$5.60 [D03]",
+    "Underlying sales declined 2% in the latest quarter, masked by acquisitions [D03]",
+    "Project backlog exceeds US$3 billion [D05]"
+   ],
+   "balance_sheet": [
+    "Net debt is US$5.580 billion as of March 31, 2013 [D04]",
+    "Total debt is US$5.981 billion [D02]",
+    "Cash on hand is US$401.6 million [D02]"
+   ],
+   "management_and_governance": [
+    "CEO: John McGlade [D01]",
+    "Strategy emphasizes productivity, emerging-market projects, and portfolio pruning (exit from polyurethane intermediates) [D01]",
+    "Not in pack: information on dual-class structure or specific controller"
+   ],
+   "price_and_valuation": [
+    "Price as of July 15, 2013: US$96.61 [D04]",
+    "Market cap: approx. US$20.38 billion [D04]",
+    "EV: approx. US$25.96 billion [D04]",
+    "P/E (FY2012 adjusted): 17.9x [D04]",
+    "FCF yield (CFO less cash plant additions): approx. 1.2% [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Weak underlying volumes and exposure to European contraction and electronics weakness [D03, D05]",
+    "Operating margin gap compared to peers like Praxair [D04, D06]",
+    "High capital spending and acquisition costs potentially depressing returns [D02, D05]",
+    "Portfolio complexity and centralized structure diluting accountability [D05]"
+   ],
+   "recent_events": [
+    "April 2013: Announced FY2013 EPS guidance of US$5.45–US$5.60 [D03]",
+    "June 2013: Announced expansion of PRISM hydrogen-generator capacity [D07]"
+   ],
+   "pershing_context": [
+    "Pershing Square (AUM ~US$12 billion) is soliciting US$1 billion for new co-investment vehicles to acquire a business matching the description of 'simple, predictable, FCF-generative' [D08]",
+    "Not in pack: confirmation that the Company is the target of the solicitation"
+   ],
+   "missing_data": [
+    "Standardized bridge between issuer-adjusted return on capital and peer ROIC",
+    "Segment-level capital intensity vs. profitability correlation",
+    "Verified rolling 52-week stock price range",
+    "Detailed organizational structure breakdown"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The company exhibits high capital intensity and relies on acquisitions to mask underlying sales declines, failing the threshold for predictable, cash-generative simplicity [D01, D02, D03]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "It operates in a global industry with high barriers to entry due to significant installed assets and deep customer integration [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "While Tonnage gas contracts provide some stability, the company has significant exposure to global industrial cycles, European contraction, and electronics sector weakness [D01, D03, D05]."
+    },
+    "strong_financial_profile": {
+     "score": "FAIL",
+     "evidence": "The business model is highly capital intensive with large project capex and acquisition costs, leading to a low FCF yield of approximately 1.2% [D02, D04]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "There is no explicit evidence of an imminent refinancing cliff or reliance on equity issuance despite high debt levels [D02, D04]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The market capitalization of approximately US$20.38 billion is sufficiently large for a significant position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "At 17.9x P/E, it is unclear if the valuation is attractive given the inferior operating margins compared to peers like Praxair [D04, D06]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "While the strategy focuses on productivity and portfolio pruning, market concerns suggest complexity and a lack of accountability, and governance details are limited [D01, D05]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "A US$3 billion backlog suggests potential, but this is offset by declining underlying volumes and execution challenges in its segments [D03, D05]."
+    }
+   },
+   "n_pass": 3,
+   "n_fail": 2,
+   "n_unsure": 4,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a capital-intensive industrial gas producer with significant execution gaps and margin underperformance relative to its dominant peers"
+  },
+  "gate2": {
+   "templates": [
+    "T2"
+   ],
+   "variant_perception": "The market believes the company is a low-growth, capital-intensive commodity business structurally destined for lower margins. We believe the margin gap relative to peers like Praxair is not structural but the result of operational inefficiencies that can be corrected through better portfolio management and accountability [D04, D06].",
+   "evidence": [
+    "The company's adjusted operating margin of 15.7% lags significantly behind peer Praxair's 21.6% [D06].",
+    "Current management strategy emphasizes productivity and portfolio pruning, indicating an awareness of the need for change [D01].",
+    "The market is focused on declining underlying volumes and perceived complexity rather than the potential for operational margin expansion [D03, D05]."
+   ],
+   "market_narrative_we_disagree_with": "The company's performance is fundamentally capped by its industrial gas business model and exposure to declining sectors, justifying its current valuation [D03, D05].",
+   "what_must_be_true": [
+    "The margin gap with industry leaders is primarily operational rather than structural.",
+    "Management is willing to aggressively pursue productivity initiatives and portfolio optimization.",
+    "The US$3 billion backlog can be converted into improved cash-flow generation rather than just future capex requirements [D05]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "pre_2018_sum_of_parts",
+   "entry_multiple": "17.9x FY2012 adjusted P/E [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2013",
+    "base_value": "US$5.53 (midpoint of guidance) [D03]",
+    "growth_assumption": "EPS growth to US$7.50 via margin expansion to 20% (closing half the gap with Praxair) and productivity improvements [D06].",
+    "year_3_to_5_value": "US$7.50",
+    "assumptions": [
+     "Operating margin expansion from 16.0% to 20% [D02, D06]",
+     "Successful conversion of US$3 billion backlog [D05]",
+     "Operational efficiencies from portfolio pruning [D01]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 18,
+    "why": "Reflects the company's transition toward peer-level margins and high barriers to entry, though tempered by high capital intensity [D01, D06]."
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 28
+   },
+   "downside_case": "If the margin gap is structural, valuation compresses toward 14x; however, long-term contracts in Tonnage provide a floor, limiting permanent loss of capital [D01].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Assuming margin gap is operational and bridgeable to 20% through management action [D06].",
+    "Assuming US$3 billion backlog is high-return rather than commodity-heavy [D05]."
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C3",
+   "catalyst_description": "We will engage in public activism to address the persistent margin gap relative to peer Praxair and the lack of operational accountability [D06]. We will file a 13D and issue a white paper detailing a plan for portfolio optimization, cost restructuring, and capital allocation improvements to unlock shareholder value [D01, D05, D06].",
+   "levers_or_steps": [
+    "Operating margin expansion from 16.0% to 20% by bridging half the gap with Praxair [D06].",
+    "Portfolio pruning to exit lower-margin, non-core assets [D01].",
+    "Centralizing accountability and implementing rigorous productivity initiatives [D01, D05].",
+    "Optimizing the conversion of the US$3 billion backlog into higher-return cash flows [D05]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In the 2004-2017 activist era, we utilize public activism and white papers to drive management change and operational discipline when a company is significantly underperforming its peers and the market fails to recognize the potential for margin expansion [D04, D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Operating margins fail to expand toward the 20% target over an 18-month period [D06].",
+    "Management demonstrates continued reliance on acquisitions to mask underlying volume declines [D03].",
+    "Failure to divest non-core, lower-margin segments as outlined in the productivity plan [D01].",
+    "Capital intensity remains elevated with FCF yield failing to improve from the current 1.2% level [D02, D04]."
+   ],
+   "portfolio_fit": "The position fits the 2004-2017 activist era mandate as a large-cap, underperforming business susceptible to operational improvement. It complements our portfolio by providing exposure to industrial infrastructure, though we must manage overlap with existing industrial or cyclical holdings in the book.",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 15
+   },
+   "liquidity_assessment": "Given a US$20.38 billion market cap, a 5-10% stake represents a manageable position size; building it within 1-3 months is feasible at typical daily liquidity levels without significant market impact [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that the margin gap to peers like Praxair is structural and intrinsic to the company's asset base rather than a consequence of fixable operational inefficiencies [D04, D06]."
+  }
+ },
+ "final": {
+  "as_of_date": "2013-07-15",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "opportunity_template": [
+   "T2"
+  ],
+  "catalyst_role": "C3",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "17.9x FY2012 adjusted P/E",
+   "eps_path": "Growth from US$5.53 to US$7.50 via margin expansion and efficiency",
+   "terminal_multiple": "18x",
+   "irr_pct": 22,
+   "downside_case": "Valuation compression to 14x P/E if margin gap is structural; downside protected by Tonnage contracts"
+  },
+  "drivers": [
+   {
+    "driver": "A dominant, global industrial gas provider with high barriers to entry and long-term, predictable Tonnage contracts [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Significant operational margin gap versus peers like Praxair indicates latent earnings power that can be unlocked through management focus [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "Market misperception of the business as a low-growth commodity player overlooks the potential for significant FCF expansion via portfolio pruning and productivity [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Clear path to EPS growth by closing half the margin gap with industry leaders, driving earnings toward US$7.50 per share [D06].",
+    "citations": [
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Operating margins fail to expand toward 20% over 18 months [D06].",
+   "Continued reliance on acquisitions to mask underlying volume declines [D03].",
+   "Failure to divest non-core segments as per the productivity plan [D01].",
+   "FCF yield fails to improve from 1.2% [D02, D04]."
+  ],
+  "what_would_change_our_mind": "Evidence that the margin gap compared to peers is structural and non-correctable despite management intervention, confirming the business is a low-margin commodity enterprise.",
+  "memo": "The Company is a dominant provider of industrial gases and technology, operating in a global market with high barriers to entry due to its significant installed assets and deep customer integration [D01]. Despite its market position, the firm currently produces an adjusted operating margin of 16.0%, which lags significantly behind its peer, Praxair, at 21.6% [D02, D06].\n\nWe believe the current market valuation reflects a misguided view of the business as a low-growth, capital-intensive commodity producer [D06]. The market is focused on declining underlying volumes and historical margin trends, failing to recognize that the performance gap is largely a function of operational inefficiencies that can be corrected through better portfolio management and increased accountability [D01, D03, D05, D06].\n\nAt a purchase price reflecting 17.9x FY2012 earnings, we see a compelling opportunity to drive EPS to US$7.50 by capturing half of the margin delta to our peers and optimizing the US$3 billion backlog [D04, D05, D06]. We anticipate an IRR of 22% as the company transitions toward a more profitable, disciplined operating model with a terminal multiple of 18x [D03, D06].\n\nAs active owners, we will engage with management to implement a rigorous productivity plan and portfolio optimization strategy, including the divestment of non-core assets [D01, D06]. Our role is to ensure the conversion of the backlog into high-return cash flows rather than capital-intensive commodity projects [D05].\n\nOur primary risk is that the margin gap is structural and inherent to the asset base, which would limit our upside [D04, D06]. However, the presence of long-term Tonnage contracts provides a stable floor that limits the risk of permanent capital impairment [D01].\n\nWe are initiating a 10% position in the Company. We have high conviction that operational discipline will transform the business and deliver superior shareholder returns [D06].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

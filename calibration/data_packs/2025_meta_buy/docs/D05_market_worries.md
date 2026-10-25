@@ -1,0 +1,15 @@
+Title: The contemporary bear case — spending returns, not an advertising collapse
+Source: compiled from: https://www.cnbc.com/2025/10/30/meta-stock-earnings-ai-spend.html; https://www.reuters.com/business/metas-profit-hit-by-16-billion-one-time-tax-charge-2025-10-29/; https://investor.atmeta.com/investor-news/press-release-details/2025/Meta-Reports-Third-Quarter-2025-Results/default.aspx
+Date: 2025-10-30
+
+CNBC's Samantha Subin, October 30, reported Meta's worst one-day share performance since October 2022, with the shares down more than 11%. The article describes “skepticism about the payoff from its aggressive artificial intelligence spending plans” overshadowing strong results. The dated report is about the investment-return debate, not evidence that the app revenue engine has stopped growing.
+
+Reuters' October 29 report, updated October 30, was headed “Meta forecasts bigger capital costs next year as Zuckerberg lays out aggressive AI buildout.” It highlights the larger 2026 capital program and the fact that Q3 cost growth exceeded revenue growth. Those are observable points of pressure: expenses up 32%, sales up 26%, and operating margin down three percentage points. A sustainable business can still be overpriced if maintenance needs, competitive research spending or depreciation consume too much of its growth.
+
+The bear argument has three components. First, useful ad-ranking improvements may not justify the entire frontier-AI budget. Second, if competitors all add capacity, compute returns can fall even while usage rises. Third, compensation, depreciation and cloud commitments can lag spending decisions, so today's operating margin may not represent mature economics. These are analytical interpretations of the disclosed commitments, not verbatim analyst quotations.
+
+CNBC quotes Zuckerberg: “It's pretty early, but I think we're seeing the returns in the core business.” He also says those returns create confidence that Meta should invest more and avoid underinvestment. Investors must assess how much of the budget supports already monetizing recommendations and advertising, versus speculative new models, consumer assistants and devices.
+
+Reality Labs is a separate source of concern: $4.432 billion lost in Q3, against only $470 million revenue. It would be misleading either to ignore those losses or to treat their indefinite continuation as established fact. Management's capital-allocation willingness, rather than accounting presentation alone, determines whether an ex-RL valuation is realizable.
+
+Regulatory risk is not just theoretical in the earnings outlook. Meta warns EU changes to its Less Personalized Ads offering could materially affect European revenue as early as Q4. It also identifies US youth-related trials scheduled for 2026 that could create material losses. Neither outcome is resolved at the cutoff. The $15.93 billion tax charge is another headline concern, but its noncash nature and projected cash-tax reduction distinguish it from recurring operating deterioration.

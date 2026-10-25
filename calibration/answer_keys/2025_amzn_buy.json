@@ -1,0 +1,21 @@
+{
+  "id": "2025_amzn_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Approximately $1 billion initial exposure / approximately 5.8 million reportable shares; exact first-day NAV weight unavailable.",
+  "first_action_date": "2025-04-21",
+  "disclosure_date": "2025-05 (exact first public day unverified)",
+  "reason_class": null,
+  "opportunity_template": ["T1", "T4"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Tariff-driven selling supplied an unusual entry valuation.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/18175039/Pershing-Square-Holdings-Ltd.-2025-Annual-Report.pdf (2026-02-18 retrospective)", "quote": "only 25 times forward earnings"},
+    {"driver": "AWS and retail are exceptional category-defining franchises.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/18175039/Pershing-Square-Holdings-Ltd.-2025-Annual-Report.pdf (2026-02-18 retrospective)", "quote": "two of the world’s great, category-defining franchises"},
+    {"driver": "Cloud migration and AI demand support AWS growth.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/18175039/Pershing-Square-Holdings-Ltd.-2025-Annual-Report.pdf (2026-02-18 retrospective)", "quote": null},
+    {"driver": "Retail logistics productivity and advertising offer margin expansion.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/18175039/Pershing-Square-Holdings-Ltd.-2025-Annual-Report.pdf (2026-02-18 retrospective)", "quote": null},
+    {"driver": "Incremental growth capex should be evaluated by returns rather than headline FCF compression.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/18175039/Pershing-Square-Holdings-Ltd.-2025-Annual-Report.pdf (2026-02-18; later holding rationale)", "quote": null}
+  ],
+  "entry_valuation_stated": "25.4x NTM consensus earnings at April 21 inception; $178 average cost at announcement, February 2026 presentation.",
+  "outcome_note": "PSH gross NAV contribution +2.4 percentage points during 2025; open in June 2026.",
+  "pack_quality_notes": "User expressly requested April7 instead of actual April21 cutoff. Actual decision is therefore not an exactly timed trade replay. Exact April7 forward consensus, twenty-year low claim, peer multiples and country-level tariff exposure not established. No post-April7 price rises, tariff pauses, results or seller interviews included."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "ctl_2023_pfe_pass",
+  "actual_decision": "PASS",
+  "conviction": "medium",
+  "size_pct_nav": 0,
+  "first_action_date": null,
+  "disclosure_date": null,
+  "reason_class": null,
+  "decision_basis": "Constructed discipline control; not an authenticated historical refusal or a blanket pharmaceutical/biotech prohibition.",
+  "drivers": [
+    {"driver": "Exceptional COVID profits, return/inventory effects and the replacement-product task prevent the old10x screen from establishing a predictable recurring owner-cash base.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf (2015-03-24)", "quote": "simple, predictable, free-cash-flow generative businesses"},
+    {"driver": "A diversified approved portfolio is valuable counterevidence, but long-term pipeline/commercial and Seagen acquisition returns still need independently conservative probabilities before concentrated ownership.", "source": "https://assets.pershingsquareholdings.com/2022/04/20184527/Letter-to-Shareholders-4.20.2022.pdf (2022-04-20)", "quote": "We require a high degree of predictability in the businesses in which we invest due to the highly concentrated nature of our portfolio."},
+    {"driver": "Scientific, regulatory and demand outcomes cannot be guaranteed through activism; an announced cost program and dividend do not bound those economics.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf", "quote": "extrinsic factors we cannot control"}
+  ],
+  "ackman_public_statement": {
+    "quote": "actually bearish",
+    "source": "https://www.foxbusiness.com/markets/bill-ackman-just-made-another-massive-bet-on-a-new-covid-19-surge",
+    "date": "2020-11-10",
+    "context": "FT conference comment reported November11 about the macro behavioral reaction to Pfizer's vaccine announcement and possible complacency/more infections; not a Pfizer stock recommendation or proof of an actual PASS."
+  },
+  "outcome_note": "No later company results, acquisition closing, activism or share return used. New guided P/E is20–23x but includes unusual transition effects; it is not assumed to be permanent. PASS tests forecast quality and price, not a view that every drug company is a binary speculative business.",
+  "sources": ["https://www.sec.gov/Archives/edgar/data/78003/000007800323000099/ex99_pressrelease1013.htm", "https://www.sec.gov/Archives/edgar/data/78003/000007800323000088/pfe-20230702.htm", "https://assets.pershingsquareholdings.com/2022/04/20184527/Letter-to-Shareholders-4.20.2022.pdf"]
+}

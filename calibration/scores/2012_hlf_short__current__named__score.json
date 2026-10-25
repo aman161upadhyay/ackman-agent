@@ -1,0 +1,47 @@
+{
+ "trade_id": "2012_hlf_short",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Alleged compensation primarily rewarded recruitment rather than genuine outside retail demand. → \"This multi-level marketing scheme prioritizes inventory loading over the actual consumption of products by third-party customers\"",
+   "Questioned distributor success claims, retail-sales measurement and losses borne by lower-level participants. → \"The business operates as a pyramid scheme where growth is driven by recruitment rather than sustainable retail demand\"",
+   "Expected regulatory shutdown or collapse to destroy equity value; this was Pershing's allegation, not an adjudicated fact. → \"We expect the stock price to trend toward zero once the public and regulators recognize the deception regarding its core operations\""
+  ],
+  "missed": [
+   "Expected economic deterioration to validate the thesis, but later acknowledged fundamental analysis alone was insufficient for a viable short."
+  ],
+  "extra_agent_drivers": [
+   "Retail demand is indistinguishable from recruitment-driven inventory loading, making the company's reported financial performance deceptive"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Herbalife Ltd. presents itself as a nutritional product company operating in over 80 countries",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company reports healthy margins and strong sales growth",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Investors currently view the company as a legitimate, high-growth retailer trading at a seemingly attractive valuation of approximately 9.3x to 9.7x 2013 earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 13,
+  "share": 1
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We expect the stock price to trend toward zero once the public and regulators recognize the deception regarding its core operations [D01][D05].",
+ "grader_notes": "The agent correctly identified the core thesis: that the company is a pyramid scheme driven by recruitment rather than retail sales, necessitating a regulatory collapse to zero. The agent missed the nuanced secondary point that Ackman later highlighted regarding the insufficiency of fundamental analysis alone without considering technical market factors.",
+ "run": "2012_hlf_short__current__named"
+}

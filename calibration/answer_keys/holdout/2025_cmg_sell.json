@@ -1,0 +1,20 @@
+{
+  "id": "2025_cmg_sell",
+  "size_pct_nav": null,
+  "sources": ["https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/11144917/2026-Annual-Investor-Presentation.pdf"],
+  "actual_decision": "SELL",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Unknown residual cost weight. December 2024 PSH market weight 10.19%, subsequently reduced.",
+  "first_action_date": "2025-11-12 final residual exit (compendium chronology); earlier monetizations separate",
+  "disclosure_date": "2025-11-21 public reporting",
+  "reason_class": ["S2"],
+  "opportunity_template": null,
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Struggles under the successor management team clouded the earnings forecast.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/11144917/2026-Annual-Investor-Presentation.pdf (2026-02-11)", "quote": "Recent struggles under new management have clouded the earnings outlook"},
+    {"driver": "The distribution of potential future outcomes became too wide for concentrated ownership.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/11144917/2026-Annual-Investor-Presentation.pdf (2026-02-11)", "quote": "While Pershing Square believes Chipotle remains a great business with a long growth runway, the wide range of potential future outcomes led us to sell our remaining shares"},
+    {"driver": "Remaining franchise quality and a long development runway were insufficient to offset the reduced forecast confidence; this was not a claim of permanent brand destruction.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/11144917/2026-Annual-Investor-Presentation.pdf (2026-02-11)", "quote": "remains a great business with a long growth runway"}
+  ],
+  "outcome_note": "Long-lived successful investment begun August 2016, substantially monetized before final exit. Do not confuse the residual's weak 2025 contribution with the lifetime result. Earlier 85% monetization at about 22% IRR and later total-life about 16% IRR are different scopes. Presentation reports gross/net 634%/429%; no independent IRR recomputation.",
+  "pack_quality_notes": "10 documents with original primary thesis, split reconciliation, three-year financial/cash tables, Q3 traffic and margin data, post-results press, two operating peers and dated portfolio context. Forward EPS/multiple, exact 52-week range and own historical multiple distribution unavailable. Exact November 12 execution and November 21 reporting dates rely on compendium/public report rather than a trade blotter. Public report's claim original purchase was 2015 is rejected; primary letter/presentation establish 2016. S3/S1 not asserted without explicit evidence for final residual."
+}

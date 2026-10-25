@@ -1,0 +1,45 @@
+{
+ "trade_id": "2025_uber_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 5,
+  "matched": [
+   "Dara's leadership created a profitable, cash-generative growth business. → Management's profitable growth strategy and $7 billion share-repurchase program are driving significant FCF per share growth.",
+   "Capital-light growth and fixed-cost leverage support substantial earnings compounding. → A capital-light marketplace leader with high FCF conversion and a powerful network effect of 161 million monthly active consumers.",
+   "AV developers can benefit from Uber demand aggregation rather than displace its marketplace. → The market incorrectly fears that autonomous vehicle operators will bypass the platform, ignoring the company's role as the essential demand aggregator."
+  ],
+  "missed": [
+   "Dense marketplace networks improve waits, pricing and earner utilization.",
+   "Disruption fears created an attractive price for a high-quality business."
+  ],
+  "extra_agent_drivers": [
+   "Successful integration of AV partnerships like Waymo demonstrates the platform's value in maximizing fleet utilization."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company acts as a vital demand-aggregation layer that AV operators will find necessary to optimize fleet utilization.",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Market sentiment is currently clouded by the perception that autonomous vehicle (AV) operators represent an existential threat.",
+    "citation": "D05",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [
+   "The agent references '161 million monthly active consumers' and specific 2024 FCF data, which may involve information beyond the AS_OF_DATE of 2025-01-06."
+  ],
+  "sentences": 14,
+  "cited": 5,
+  "share": 0.36
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Rather than being bypassed, the company acts as a vital demand-aggregation layer that AV operators will find necessary to optimize fleet utilization [D01].",
+ "grader_notes": "The agent's reasoning aligns well with Ackman's thesis regarding the 'demand aggregator' role of Uber in the context of AVs and the capital-light nature of the business. The agent's decision is rated as PARTIAL directionally because, while the action (BUY) matches, the sizing (6% NAV) is materially lower than Ackman's initial 8-12% conviction. The agent misses specific drivers regarding network density benefits and explicit mention of the 'high quality' bargain thesis.",
+ "run": "2025_uber_buy__current__masked"
+}

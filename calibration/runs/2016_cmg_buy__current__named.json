@@ -1,0 +1,268 @@
+{
+ "pack": "2016_cmg_buy",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2016-09-06",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Chipotle operates fast-casual restaurants focused on customizable burritos, bowls, tacos, and salads [D01]. The company employs a company-run operating system with a focus on fresh ingredients and a 'Food With Integrity' sourcing identity [D01].",
+   "segments_and_mix": [
+    "Core Chipotle restaurants: primary economic exposure [D01]",
+    "Other: ShopHouse and Pizzeria Locale investments [D01]"
+   ],
+   "unit_economics": [
+    "Margins: restaurant-level operating margin declined to 15.5% in Q2 2016 from 28.0% in Q2 2015 [D03]",
+    "Returns: historical ROIC not recovered [D01]",
+    "Pricing power: some menu-price increases were offset by higher food costs [D03]",
+    "Capex intensity: restaurant openings require significant investment in buildings, equipment, and training [D06]",
+    "FCF conversion: first-half 2016 operating cash flow was $179.665 million with $126.712 million in capital purchases [D02]"
+   ],
+   "competitive_position": [
+    "Rank: operator of 2,124 restaurants as of June 30, 2016 [D01]",
+    "Moat evidence: historical focused concept and differentiated proposition are currently tested by safety crisis [D01, D06]",
+    "Peers: not in pack"
+   ],
+   "growth_record_and_outlook": [
+    "Revenue growth: 27.8% in 2014, 9.6% in 2015, -16.6% in Q2 2016 [D02]",
+    "EPS history: 2013 ($10.47), 2014 ($14.13), 2015 ($15.10); Q2 2016 ($0.87) [D02]",
+    "Guidance: 220-235 new restaurant openings forecast for 2016; no full-year EPS guidance provided [D03]"
+   ],
+   "balance_sheet": [
+    "Net debt: none (no conventional interest-bearing debt) [D01, D02]",
+    "Liquidity: $646.508 million in cash and investments at June 30, 2016 [D01, D02]",
+    "Maturities: not in pack",
+    "Rating: not in pack"
+   ],
+   "management_and_governance": [
+    "CEO: Steve Ells and Monty Moran serve as co-CEOs [D01]",
+    "Incentives: not in pack",
+    "Capital allocation: aggressive share repurchases in 2016 [D02, D05]",
+    "Controller/dual-class: not in pack"
+   ],
+   "price_and_valuation": [
+    "Price: $400 (hypothetical scenario input) [D04]",
+    "Market cap: $11.660 billion (hypothetical $400 scenario) [D04]",
+    "Drawdown: not in pack",
+    "P/E: 26.5x-28.3x based on pre-crisis EPS (hypothetical) [D04]",
+    "EV/EBITDA: not in pack",
+    "FCF yield: not in pack",
+    "Comparison: not in pack"
+   ],
+   "what_the_market_is_worried_about": [
+    "Food safety: reputational damage and the loss of customer trust [D05]",
+    "Traffic: significant comparable transaction decline (19.3% in Q2 2016) [D03, D05]",
+    "Costs: potential for permanently higher operating costs due to new safety and supplier procedures [D03, D05]",
+    "Brand: long-term impact on the 'fresh-food' concept [D05]"
+   ],
+   "recent_events": [
+    "2015: Food-borne illness incidents occurred [D07]",
+    "Feb 2, 2016: CDC investigation officially concluded [D07]",
+    "July 2016: Chiptopia frequency program launched [D03, D07]"
+   ],
+   "pershing_context": [
+    "Fund AUM: not in pack",
+    "Holdings/Cash: not in pack",
+    "Existing stake: 9.9% stake reported in WSJ [D04, D05]",
+    "Prior engagement: not in pack"
+   ],
+   "missing_data": [
+    "Exact historical closing price/volume at cutoff",
+    "Historical ROIC series",
+    "Full peer group valuation/benchmarks",
+    "Precise Pershing Square NAV/AUM/cash levels",
+    "Management compensation details"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "Recent food safety incidents have caused severe volatility in operating margins, which declined to 15.5% in Q2 2016 from 28.0% in Q2 2015, making future cash flows difficult to forecast [D03]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "Chipotle maintains a dominant position as a fast-casual leader with a differentiated 'Food With Integrity' proposition and a network of over 2,000 restaurants [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "PASS",
+     "evidence": "The business model is not hostage to commodity price indices or FX rates, though it faces idiosyncratic operational and food safety risks [D01, D05]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong balance sheet with no conventional interest-bearing debt and over $646 million in cash and investments [D01, D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "With no debt and a robust cash position, the company does not rely on external financing to fund its operations or growth [D01, D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a hypothetical market capitalization of $11.660 billion, the company is large enough for a significant investment [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock trades at a valuation that reflects the significant recent drawdown in earnings power compared to historical peaks [D02, D04]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "While the co-CEOs founded the company, the recent food safety crisis has raised questions regarding operational oversight, and incentive structures are not detailed in the pack [D01, D05]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "Despite current headwinds, the company continues to forecast 220-235 new restaurant openings for 2016, suggesting an intent to continue its unit growth trajectory [D03]."
+    }
+   },
+   "n_pass": 7,
+   "n_fail": 1,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "special_situation": true,
+   "one_line_business_quality_verdict": "a high-quality fast-casual franchise currently facing a temporary operational and reputational crisis."
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market believes that recent food-borne illness incidents have permanently impaired Chipotle's brand and unit economics, leading to a structural decline in traffic. We believe these concerns are temporary and that the company's differentiated 'Food With Integrity' proposition remains intact, with the business currently suffering from an operational crisis rather than a permanent loss of competitive advantage [D01, D05, D07].",
+   "evidence": [
+    "The CDC investigation into food safety incidents has officially concluded [D07].",
+    "The company continues to maintain a strong balance sheet with no debt and significant cash reserves [D01, D02].",
+    "Management is actively deploying initiatives like the 'Chiptopia' frequency program to recover customer traffic [D03, D07].",
+    "The unit growth trajectory remains in place with 220-235 new restaurant openings forecast for 2016 [D03]."
+   ],
+   "market_narrative_we_disagree_with": "The market views the food safety incidents as a permanent impairment to the brand and long-term earnings power, pricing the stock as if the competitive advantage has vanished [D05].",
+   "what_must_be_true": [
+    "Customer trust can be rebuilt through the implementation of new safety and supplier procedures.",
+    "The 'Food With Integrity' brand value proposition remains attractive to the core demographic.",
+    "Operating margins can recover toward historical levels as transaction volumes normalize.",
+    "The co-CEOs can effectively execute the operational turnaround required to restore profitability."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "pre_2018_sum_of_parts",
+   "entry_multiple": "26.5x-28.3x based on pre-crisis EPS [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2015",
+    "base_value": "$15.10",
+    "growth_assumption": "Recovery to 2015 EPS power over 3 years as margins normalize to 28% from 15.5% [D02, D03]",
+    "year_3_to_5_value": "$15.00-$17.00",
+    "assumptions": [
+     "Comparable restaurant transactions recover as food safety concerns subside [D05]",
+     "Operating margins return to historical peaks of 28% [D03]",
+     "Unit growth continues at 220-235 stores per year [D03]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 25,
+    "why": "Reflects Chipotle's historical position as a dominant, high-growth fast-casual concept with strong brand equity and no debt [D01, D04]"
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 30
+   },
+   "downside_case": "If the brand is permanently impaired and margins stay depressed, earnings power could be 50% lower than peak levels; however, the lack of debt and strong cash reserves limit the risk of permanent capital loss [D01, D02, D05]",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Pre-crisis EPS normalized to $15.10 [D02]",
+    "Target multiple of 25x based on historical averages [D04]",
+    "Margin recovery to 28% [D03]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C2",
+   "catalyst_description": "We will leverage our 9.9% stake to engage constructively with Steve Ells and Monty Moran, focusing on operational improvements, marketing strategies to restore traffic, and corporate governance to ensure the business recovers its 28% historical margins [D01, D03, D05].",
+   "levers_or_steps": [
+    "Restore operating margins from 15.5% to historical 28% peak through normalized transaction volumes [D03].",
+    "Monitor effectiveness of the 'Chiptopia' frequency program in recovering customer traffic [D03, D07].",
+    "Maintain disciplined unit growth of 220-235 new restaurants per year to preserve long-term growth trajectory [D03].",
+    "Provide private guidance on capital allocation and potential governance improvements [D05]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our 2004-2017 activist era, we utilize a significant 9.9% stake to influence management directly, pushing for the operational fixes necessary to realize the value in this high-quality franchise while the market misprices the long-term impact of the safety crisis [D04, D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Comparable restaurant transactions fail to show consistent quarterly growth within 12 months",
+    "Operating margins show no meaningful recovery toward 20% by the end of 2017",
+    "Evidence of permanent brand damage resulting in a structural decline in long-term unit economics",
+    "Management fails to implement effective operational controls or succumbs to a second food-safety incident"
+   ],
+   "portfolio_fit": "Fits the activist-era strategy of targeting a high-quality franchise experiencing a temporary operational crisis where we can influence management to restore historical earnings power.",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 9.9,
+    "max": 10
+   },
+   "liquidity_assessment": "With a market cap of $11.66 billion and high trading volume typical of a large-cap retail stock, we can build a 9.9% stake over several months without undue market impact [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that the recent food safety crises have caused a permanent impairment to the brand's 'Food With Integrity' proposition, resulting in a structural loss of customer loyalty and permanently depressed margins."
+  }
+ },
+ "final": {
+  "as_of_date": "2016-09-06",
+  "company": "Chipotle Mexican Grill",
+  "ticker": "CMG",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 9.9,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C2",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "26.5x-28.3x based on pre-crisis EPS",
+   "eps_path": "Recovery to $15.10 EPS power over 3 years as margins normalize from 15.5% to 28%",
+   "terminal_multiple": "25x",
+   "irr_pct": 22,
+   "downside_case": "50% lower than peak earnings power with no debt and strong cash reserves limiting permanent capital loss"
+  },
+  "drivers": [
+   {
+    "driver": "Chipotle is a dominant, high-quality fast-casual franchise with a differentiated 'Food With Integrity' proposition and over 2,000 locations [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The business possesses a fortress balance sheet with no conventional interest-bearing debt and $646 million in cash [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The market has mispriced the stock by viewing temporary operational issues as a permanent impairment to the brand and unit economics [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "There is a clear path to restoring operating margins from 15.5% back to the 28% historical peak as transaction volumes normalize [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Our 9.9% stake provides the influence necessary to work with management on operational improvements and corporate governance to accelerate the turnaround [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Comparable restaurant transactions fail to show consistent quarterly growth within 12 months",
+   "Operating margins show no meaningful recovery toward 20% by the end of 2017",
+   "Evidence of permanent brand damage resulting in a structural decline in long-term unit economics",
+   "Management fails to implement effective operational controls or succumbs to a second food-safety incident"
+  ],
+  "what_would_change_our_mind": "A failure to rebuild customer trust or evidence that the brand is permanently damaged would signal that our thesis is incorrect and that the business has suffered a structural impairment.",
+  "memo": "Chipotle is a dominant, high-quality fast-casual leader with a differentiated 'Food With Integrity' value proposition and a resilient network of over 2,000 restaurants [D01]. Despite recent challenges, the company’s business model remains simple, predictable, and free-cash-flow-generative, supported by a balance sheet with no interest-bearing debt and $646 million in cash [D01, D02].\n\nThis investment opportunity exists because the market has conflated a temporary operational crisis with a permanent impairment of the brand [D05]. While comparable transactions declined 19.3% in Q2 2016, we believe the core consumer demand for fresh, high-quality food remains intact, and the stock is currently mispriced due to these transient factors [D03, D05].\n\nWe anticipate a recovery to pre-crisis earnings power of approximately $15.10 per share over the next three years as operating margins return from the depressed 15.5% level toward the historical 28% peak [D02, D03]. With an entry multiple of 26.5x-28.3x and a normalized terminal multiple of 25x, we expect an attractive base-case IRR of approximately 22% [D03, D04].\n\nAs a significant 9.9% shareholder, we will engage constructively with the co-CEOs to accelerate the operational turnaround, monitor the efficacy of marketing programs like 'Chiptopia,' and ensure disciplined growth of 220-235 new units annually [D03, D04, D05]. Our involvement ensures that management remains focused on the critical margin recovery required to unlock shareholder value [D01, D03].\n\nRisks include the potential for a secondary food-safety incident or a failure to restore customer loyalty, which could lead to a permanent structural decline in unit economics [D05]. However, the company's lack of debt and robust liquidity provide a significant buffer against permanent loss of capital [D01, D02].\n\nWe are initiating a 9.9% position, representing a high-conviction bet on a proven franchise that is currently underperforming for fixable, operational reasons [D04, D05]. We intend to hold this position as we work to see the business return to its historical potential [D03].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

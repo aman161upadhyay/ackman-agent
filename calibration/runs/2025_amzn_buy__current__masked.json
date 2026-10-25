@@ -1,0 +1,245 @@
+{
+ "pack": "2025_amzn_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2025-04-07",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company operates as a global retail marketplace and a major cloud-computing provider [D01]. It integrates retail services, third-party seller support, advertising, and cloud infrastructure under a unified business strategy [D01].",
+   "segments_and_mix": [
+    "North America: Revenue of $115.6bn in Q4 2024, operating income of $9.3bn [D01]",
+    "International: Revenue of $43.4bn in Q4 2024, operating income of $1.3bn [D01]",
+    "the Company Web Services: Revenue of $28.8bn in Q4 2024, operating income of $10.6bn [D01]"
+   ],
+   "unit_economics": [
+    "Q4 2024 calculated operating margins: North America ~8.0%, International ~3.0%, the Company Web Services ~36.8% [D01]",
+    "Capex: 2024 gross cash purchases of property and equipment were ~$83.0bn; company-defined FCF was $38.219bn [D02]",
+    "Cloud economics depend on workload availability, switching effort, and security; high initial capex supports recurring revenue [D01]"
+   ],
+   "competitive_position": [
+    "Retail: Advantages include broad selection, Prime membership, and fulfillment network density [D01]",
+    "Cloud: Competes with Microsoft Azure and Google Cloud [D06]",
+    "Moat: Fulfillment network density reduces cost per package; scale and custom chips provide cloud defensibility [D01, D06]"
+   ],
+   "growth_record_and_outlook": [
+    "Annual revenue: $513.983bn (2022), $574.785bn (2023), $637.959bn (2024) [D02]",
+    "Operating income: $12.248bn (2022), $36.852bn (2023), $68.593bn (2024) [D02]",
+    "Guidance: Q1 2025 net sales of $151.0bn–$155.5bn; operating income of $14.0bn–$18.0bn [D03]"
+   ],
+   "balance_sheet": [
+    "Cash, equivalents, and marketable securities: ~$101.2bn (as of Dec 31, 2024) [D02]",
+    "Long-term debt: ~$52.6bn (excluding lease liabilities and current maturities) [D02]"
+   ],
+   "management_and_governance": [
+    "CEO: Andy Jassy [D01]",
+    "Governance: Founder Jeff Bezos remains executive chair [D01]",
+    "Strategy: Emphasis on innovation and long-term capacity investment alongside retail productivity [D01]"
+   ],
+   "price_and_valuation": [
+    "Price: $175.26 (close as of April 7, 2025) [D04]",
+    "Market Cap: Illustrative $1.888 trillion based on Q4 diluted shares [D04]",
+    "P/E: ~31.7x trailing 2024 EPS of $5.53 [D04]",
+    "FCF Yield: ~2.0% trailing FCF yield [D04]",
+    "Drawdown: ~27.7%–33.2% from February intraday peak [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Cloud: High AI spending with uncertain return timing; capacity constraints [D05, D07]",
+    "Retail: Potential negative impact of April 2 US tariff announcement on merchandise costs and consumer demand [D05, D07]",
+    "Macro: Concerns over the ability to pass through sudden cost increases [D05]"
+   ],
+   "recent_events": [
+    "February 6, 2025: Q4 2024 results released [D03]",
+    "February 6, 2025: Announcement of ~$100bn capex plan for 2025 [D03]",
+    "April 2, 2025: US tariff announcement [D07]",
+    "April 6, 2025: Bill Ackman warns of potential negative macro impact from rapid tariff increases [D05, D07]"
+   ],
+   "pershing_context": [
+    "Firm AUM: $18,498.8 million (as of Sept 30, 2024) [D08]",
+    "Holdings: Portfolio includes Brookfield, Restaurant Brands, Chipotle, Hilton, Alphabet, Nike, Howard Hughes, Canadian Pacific Kansas City, Seaport Entertainment, Universal Music, Fannie/Freddie, and Uber [D08]",
+    "Engagement: No prior the Company-specific engagement or recommendation identified [D08]"
+   ],
+   "missing_data": [
+    "Verified April 7 consensus forward EPS and forward P/E",
+    "Comparable EV/EBITDA",
+    "Point-in-time twenty-year forward-multiple series",
+    "Quantified tariff-adjusted profit forecast",
+    "Current April 2025 portfolio weights and cash balance"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable": {
+     "score": "PASS",
+     "evidence": "The company operates dominant, essential retail and cloud computing platforms with recurring demand patterns [D01]."
+    },
+    "fcf_generative_capital_light": {
+     "score": "UNSURE",
+     "evidence": "While FCF is significant, the business is highly capital-intensive with massive annual capex requirements of ~$83bn [D02]."
+    },
+    "dominant_durable_moat": {
+     "score": "PASS",
+     "evidence": "The firm maintains #1/#2 market positions in cloud and retail with strong network effects and infrastructure density [D01, D06]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "The business faces material uncertainty from recent tariff announcements and potential macro-driven cost pressures [D05, D07]."
+    },
+    "strong_balance_sheet": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong balance sheet with ~$101.2bn in cash against ~$52.6bn in long-term debt [D02]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "The firm is led by Andy Jassy with founder Jeff Bezos serving as executive chair, ensuring long-term strategic continuity [D01]."
+    },
+    "size_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$1.888 trillion, the stock is highly liquid and suitable for a large position [D04]."
+    },
+    "growth_runway": {
+     "score": "PASS",
+     "evidence": "Consistent historical revenue and operating income growth demonstrate a durable secular runway in cloud and retail [D02]."
+    }
+   },
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "one_line_business_quality_verdict": "a dominant, mission-critical infrastructure provider in cloud and retail with a powerful moat and massive reinvestment capacity."
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market is currently punishing the stock due to panic over near-term tariff-induced cost pressures and skepticism regarding the long-term ROI of aggressive AI-driven capital expenditures [D05, D07]. We believe these factors are temporary exogenous shocks that do not impair the company's long-term intrinsic value as the dominant infrastructure provider for cloud and retail [D01, D05]. As the company demonstrates its ability to pass through costs and scale its AI services effectively, the market will re-rate the stock as these capital-intensive investments yield predictable, recurring free cash flow [D01, D03].",
+   "evidence": [
+    "Significant ~27.7%-33.2% drawdown from recent peaks suggests market overreaction to macro and capex news [D04].",
+    "The firm maintains dominant #1/#2 market positions with high barriers to entry and strong network effects that are not structurally undermined by tariffs [D01, D06].",
+    "The company possesses a powerful balance sheet with ~$101.2bn in cash to navigate short-term volatility [D02]."
+   ],
+   "market_narrative_we_disagree_with": "The market is pricing in sustained margin compression from the April 2025 tariff announcement and viewing the ~$100bn 2025 capex plan as a destructive drain on FCF rather than a necessary investment to sustain a durable competitive moat in cloud computing [D03, D05, D07].",
+   "what_must_be_true": [
+    "The company retains its ability to pass through a majority of tariff-related cost increases to the end consumer or offset them through operational efficiencies.",
+    "AI-related infrastructure spending proves to be accretive to long-term cloud margins rather than a permanent drag on ROIC.",
+    "Competitive advantages in fulfillment network density and cloud switching costs remain intact despite macro headwinds."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "31.7x trailing 2024 EPS vs illustrative historical range; S&P 500 P/E ~21x [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2024",
+    "base_value": "$5.53 EPS [D04]",
+    "growth_assumption": "15% CAGR based on cloud margin scaling and retail productivity gains [D01]",
+    "year_3_to_5_value": "$9.65 - $11.11 EPS (3-year target)",
+    "assumptions": [
+     "Cloud operating income continues to scale at ~36%+ margins [D01]",
+     "Operating income growth from $68.6bn in 2024 maintains momentum [D02]",
+     "Tariff impacts are successfully passed through or offset by efficiencies [D05, D07]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 25,
+    "why": "Reflects dominant market position in cloud and retail, offset by high capex requirements and regulatory/tariff sensitivity"
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 28
+   },
+   "downside_case": "Permanent margin compression in retail due to tariffs and failure of AI capex to generate sufficient cloud ROI, leading to multiple contraction toward 18-20x.",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Forward consensus EPS not provided, used 2024 EPS as base",
+    "Assumed 15% EPS growth based on strategic trajectory",
+    "Historical 10-year P/E average for the company is not in pack"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We are investing in a mega-cap quality compounder that has suffered a significant ~27.7%-33.2% drawdown due to temporary exogenous shocks [D04]. The primary catalyst is the normalization of the stock's valuation as the market realizes that the company's dominant infrastructure position in cloud and retail is resilient to tariff-related cost pressures and that its massive capital expenditures are driving long-term, high-return growth rather than margin erosion [D01, D03, D05, D07]. We expect a re-rating toward a 25x multiple as growth in cloud operating income continues to scale at ~36%+ margins and retail productivity gains materialize [D01, D02].",
+   "levers_or_steps": [
+    "Continued scaling of cloud operating margins through high-margin service growth [D01].",
+    "Effective pass-through of tariff-related cost increases to end consumers to protect retail margins [D05, D07].",
+    "Optimizing fulfillment network density to maintain competitive advantages and reduce cost per package [D01]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our 'Pershing Square 3.0' and current era, we focus on owning dominant, high-quality businesses for the long term. This investment fits our strategy of buying high-quality compounders on temporary dislocations without the need for active intervention, relying instead on the company's inherent ability to reinvest capital for durable growth [D01, D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent impairment of the cloud business model due to an inability to achieve adequate ROI on massive AI infrastructure spend.",
+    "Structural inability to pass through tariff-related cost increases, leading to sustained margin compression in the core retail segments.",
+    "Capital allocation shift prioritizing aggressive, value-destructive M&A over core business reinvestment."
+   ],
+   "portfolio_fit": "The position aligns with our existing strategy of holding dominant, high-quality compounders [D08]. It provides exposure to cloud and retail infrastructure, complementing existing holdings in consumer and technology platforms like Alphabet and Uber [D08].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 12
+   },
+   "liquidity_assessment": "Given the company's ~$1.888 trillion market cap and high daily trading volumes, a core position can be built over several weeks without significant market impact [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that the massive $100bn 2025 capex program fails to generate sufficient cloud returns while simultaneous retail tariff pressures structurally depress free cash flow margins [D03, D07]."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-04-07",
+  "company": "the Company",
+  "ticker": "AMZN",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "31.7x trailing 2024 EPS",
+   "eps_path": "15% CAGR based on cloud margin scaling and retail productivity",
+   "terminal_multiple": "25x",
+   "irr_pct": 22,
+   "downside_case": "Permanent margin compression in retail and failure of AI capex to generate ROI, leading to 18-20x multiple contraction."
+  },
+  "drivers": [
+   {
+    "driver": "The company operates dominant, essential retail and cloud computing platforms with powerful network effects and massive infrastructure density [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The stock has experienced a 27.7%-33.2% drawdown due to temporary market panic over exogenous tariff risks and near-term capex intensity [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "We believe the cloud business will continue to scale with ~36%+ operating margins, providing a durable engine for long-term earnings growth [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Management’s focus on retail productivity and efficient capacity investment provides a clear path to mid-teens EPS growth [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent impairment of the cloud business model due to an inability to achieve adequate ROI on massive AI infrastructure spend.",
+   "Structural inability to pass through tariff-related cost increases, leading to sustained margin compression in the core retail segments.",
+   "Capital allocation shift prioritizing aggressive, value-destructive M&A over core business reinvestment."
+  ],
+  "what_would_change_our_mind": "Evidence that the $100bn capex program is structurally value-destructive or that the company has lost its ability to maintain pricing power in the face of macro headwinds.",
+  "memo": "The Company is a world-class enterprise, operating dominant, mission-critical infrastructure in both global retail and cloud computing [D01]. With a fortress balance sheet holding ~$101.2bn in cash, it possesses the unique capacity to fund massive, multi-year infrastructure investments that further entrench its competitive moat [D01, D02].\n\nRecent market volatility, driven by concerns over 2025 tariff announcements and the scale of planned capital expenditures, has created a compelling entry point [D03, D05, D07]. We believe the market is misjudging these investments; rather than a drag on value, this spending is a necessary component of sustaining the company’s leadership in AI and cloud services [D03].\n\nAt current levels, we are acquiring a stake at roughly 31.7x trailing 2024 earnings [D04]. Given the company’s ability to scale cloud margins at 36%+ and the potential for significant retail productivity gains, we project a compelling path for durable, mid-teens EPS growth [D01, D02]. We see a clear re-rating opportunity toward a 25x multiple as these investments bear fruit [D03].\n\nOur role is that of a long-term owner of a high-quality compounder, requiring no immediate intervention [D01]. We will monitor the company's ability to pass through tariff costs and ensure that cloud ROI metrics remain accretive [D01, D05, D07]. We are initiating a 5% position today with the intention of scaling to 10% as our thesis is validated by operational execution [D04].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

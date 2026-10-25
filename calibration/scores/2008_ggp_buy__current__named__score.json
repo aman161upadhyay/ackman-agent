@@ -1,0 +1,57 @@
+{
+ "trade_id": "2008_ggp_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "The immediate problem was an unprecedented credit-market disruption coinciding with maturities, not a destroyed mall franchise → The market has incorrectly priced the equity for insolvency due to near-term liquidity constraints rather than a permanent impairment of asset quality",
+   "Long-lease mall cash flows could support value through a restructuring rather than a forced sale → We have identified a clear path to value realization through a negotiated debt restructuring to extend maturities",
+   "Assets exceeding creditor claims can preserve a residual for common shareholders in bankruptcy → The underlying business continues to generate significant NOI of approximately $1.8 billion annually, which supports a valuation well in excess of the total debt burden"
+  ],
+  "missed": [
+   "A small dollar commitment at a distressed share price offers a bounded equity loss against very large residual-value upside."
+  ],
+  "extra_agent_drivers": [
+   "General Growth Properties owns a dominant, high-quality portfolio of over 200 regional shopping centers."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "General Growth Properties, Inc. holds a portfolio of over 200 regional shopping centers.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Market cap $118M vs $27.767B debt.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Debt maturity of $958 million by December 1, 2008.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Market prices the equity as a binary bankruptcy outcome with zero recovery.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Pershing Square has experience in real-estate-adjacent businesses.",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 15,
+  "cited": 5,
+  "share": 0.33
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "This opportunity exists because the market has conflated a temporary liquidity crisis with a permanent impairment of value.",
+ "grader_notes": "The agent correctly identified the core thesis drivers regarding liquidity versus fundamental asset quality and the viability of the mall portfolio's NOI. The agent was farthest from Ackman's thesis by focusing on an 'activist' role with specific management demands, whereas Ackman's initial thesis centered on the asymmetric risk-reward profile of the distressed equity itself.",
+ "run": "2008_ggp_buy__current__named"
+}

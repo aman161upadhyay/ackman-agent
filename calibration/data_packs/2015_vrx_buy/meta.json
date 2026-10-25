@@ -1,0 +1,12 @@
+{
+  "id": "2015_vrx_buy",
+  "company": "Valeant Pharmaceuticals International, Inc.",
+  "ticker": "VRX",
+  "aliases": ["Valeant", "Bausch Health", "BHC"],
+  "as_of_date": "2015-02-27",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "March 2015 disclosure describes purchases beginning February 9, 2015 and approximately 5% ownership. This cutoff intentionally precedes public disclosure, not all actual buying. Disclosure coverage: https://www.reuters.com/article/business/ackmans-pershing-square-takes-5-percent-stake-in-valeant-idUSKBN0LY2BE/",
+  "pershing_aum_usd_bn": 18,
+  "notes": "Eight documents. Primary original February 25 2015 10-K and February 22 release, not subsequently restated statements. February 23 Salix financing/earnings call is crucial. No Philidor, later political investigation, 2016 restatement or 2017 exit in docs. Historical Yahoo BHC series is the predecessor VRX series; quote extraction through February 27 only. AUM is January 29 contemporary Reuters estimate. Firm portfolio and closed-end PSH NAV are distinguished."
+}

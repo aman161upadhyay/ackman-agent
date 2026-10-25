@@ -1,0 +1,53 @@
+{
+ "trade_id": "ctl_2019_ba_pass",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Unresolved safety, certification and liability range defeats high-confidence cash-flow underwriting even in a duopoly.",
+   "Independent regulator/technical outcomes cannot be delivered through ordinary operating activism. The post-shock risk must be bounded rather than assumed temporary from historical earnings.",
+   "Pre-grounding cash guidance is not funding capacity under a prolonged delivery pause; financing resilience needs separate stress analysis."
+  ],
+  "extra_agent_drivers": [
+   "Boeing is a dominant global duopolist with high barriers to entry, benefiting from long-term secular growth in aviation.",
+   "The market has mispriced the 737 MAX grounding as a permanent impairment rather than a fixable, transitory regulatory hurdle.",
+   "We are able to acquire a stake at approximately 18.9x NTM EPS following a 15% drawdown from recent highs.",
+   "The company maintains a strong balance sheet with only US$5.2 billion in net debt, providing a cushion for near-term operational costs."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Boeing operates as one of two global manufacturers of large commercial aircraft",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "market is misinterpreting this as a permanent impairment",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "15% discount to recent highs",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "US$5.2 billion in net debt",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 14,
+  "share": 1
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We believe the market is misinterpreting this as a permanent impairment to the franchise, rather than a fixable technical and regulatory challenge [D01], [D04].",
+ "grader_notes": "The agent takes a long position based on the view that the grounding is a transitory valuation dislocation, whereas the answer key suggests a strict pass due to the inability to underwrite cash flows amidst unpredictable regulatory outcomes. The agent's reasoning is diametrically opposed to the Ackman framework provided, which emphasizes that operating activism cannot solve for external regulatory and technical dependencies.",
+ "run": "ctl_2019_ba_pass__current__named"
+}

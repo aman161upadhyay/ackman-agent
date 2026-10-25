@@ -1,0 +1,12 @@
+{
+  "id": "2026_hlt_sell",
+  "company": "Hilton Worldwide Holdings",
+  "ticker": "HLT",
+  "aliases": ["Hilton", "Hilton Worldwide"],
+  "as_of_date": "2026-01-15",
+  "mode": "existing",
+  "era": "E",
+  "first_action_window": "Existing position publicly announced October 25, 2018: 10.9 million shares and 3.7% ownership. Decision-window evidence is sealed in the answer key.",
+  "pershing_aum_usd_bn": 19.187,
+  "notes": "Retained requested January 15 cutoff. Timing research does not establish that the decision followed the February earnings release, so no February results or disclosure are injected. PSH gross AUM December 31, published January 15. Original detailed 2018 thesis incomplete; earliest recovered primary updates explicitly dated."
+}

@@ -1,0 +1,39 @@
+{
+ "trade_id": "2020_sbux_sell",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Share-price appreciation compressed prospective returns as the investment approached estimated value. → The stock's significant appreciation to a ~30x forward multiple has compressed prospective returns below our 15% hurdle [D05, D07].",
+   "Release capital after attractive realized returns rather than retain the same valuation discount assumption indefinitely. → We are trimming the position to harvest gains as the stock price has outpaced the near-term growth in intrinsic value, and we believe our capital can be more effectively deployed in opportunities offering higher prospective returns [D05, D07]."
+  ],
+  "missed": [
+   "The operating recovery and brand thesis worked; the exit did not require a conclusion that Starbucks was a broken business."
+  ],
+  "extra_agent_drivers": []
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Starbucks trading at 30.3x FY2020 adjusted EPS guidance",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "US same-store sales growth has recovered to 6% in Q4",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are trimming the position to harvest gains as the stock price has outpaced the near-term growth in intrinsic value, and we believe our capital can be more effectively deployed in opportunities offering higher prospective returns [D05, D07].",
+ "grader_notes": "The agent correctly identified the primary drivers regarding valuation compression and opportunistic capital reallocation. It failed to explicitly acknowledge that the exit was a validation of the original thesis rather than a negative reflection on the business quality, which was a specific nuance in Ackman's rationale. Direction is marked as PARTIAL because the agent performed a 'trim' while Ackman performed a 'full exit'.",
+ "run": "2020_sbux_sell__current__named"
+}

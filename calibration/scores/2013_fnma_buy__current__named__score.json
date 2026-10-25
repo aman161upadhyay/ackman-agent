@@ -1,0 +1,47 @@
+{
+ "trade_id": "2013_fnma_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Essential guarantee infrastructure and the prepayable 30-year fixed mortgage cannot readily be replaced. → Fannie Mae represents an essential component of the American housing finance system, providing vital liquidity by guaranteeing residential mortgages [D01].",
+   "Challenge the sweep and restore a route from enterprise profits to shareholder value → Our assessment is based on the potential for successful litigation to overturn the Net Worth Sweep and allow for the rebuilding of capital [D06].",
+   "Large potential valuation gap conditional on capital structure and policy → We believe the current market valuation drastically misprices the equity by assuming a perpetual state of liquidation and total seizure of shareholder value under the Net Worth Sweep [D06]."
+  ],
+  "missed": [
+   "Recapitalize and eventually release the enterprises; Treasury warrant ownership could align taxpayer upside with common."
+  ],
+  "extra_agent_drivers": [
+   "The company remains highly profitable, demonstrating that the underlying business is economically viable once capital constraints are normalized"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Fannie Mae is a critical financial utility that remains the essential backbone of the U.S. housing market",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The core guarantee business continues to generate significant profits",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The investment loses 100% of its value if the courts uphold the Net Worth Sweep and the government proceeds with the liquidation of the enterprise",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 16,
+  "cited": 9,
+  "share": 0.56
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Our assessment is based on the potential for successful litigation to overturn the Net Worth Sweep and allow for the rebuilding of capital [D06].",
+ "grader_notes": "The agent correctly identified the core thesis drivers regarding the essential nature of the franchise, the legal challenge to the net worth sweep, and the valuation discount. The reasoning diverged slightly by emphasizing the firm's ongoing profitability as a stand-alone driver and failing to incorporate the specific nuance of the Treasury warrant alignment described in the key.",
+ "run": "2013_fnma_buy__current__named"
+}

@@ -1,0 +1,50 @@
+{
+ "trade_id": "ctl_2023_el_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Channel inventory, China travel retail and a failed near-term recovery assumption leave an insufficiently narrow cash-flow range for a concentrated position. → Current performance is suffering from severe volatility in the Asia travel-retail channel and working-capital-related cash flow pressures [D01, D02].",
+   "Valuable brands are necessary positive evidence, not sufficient owner-cash proof; near61x reduced adjusted EPS requires a substantial, unverified normalization. Require predictable cash after investment rather than anchor to the old share price. → The valuation at ~60x forward earnings is excessive, particularly given the high degree of uncertainty regarding whether recent guidance cuts represent a trough or a structural reset [D03].",
+   "Recovery depends on travel/channel conditions beyond shareholder control; family voting control also limits an assumed activist remedy. Neither is itself a blanket category exclusion. → A dual-class share structure effectively insulates management from external shareholder oversight, preventing the active engagement required for our investment model [D01, D04]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The company maintains a strong prestige brand portfolio with significant consumer loyalty and enduring market appeal [D01]."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company maintains a strong prestige brand portfolio with significant consumer loyalty and enduring market appeal",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Current performance is suffering from severe volatility in the Asia travel-retail channel",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The valuation at ~60x forward earnings is excessive",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "A dual-class share structure effectively insulates management from external shareholder oversight",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 4,
+  "share": 0.33
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Given the combination of an elevated valuation, governance restrictions, and high sensitivity to external factors we cannot control, we have elected to pass on the investment [D01, D03, D04].",
+ "grader_notes": "The agent perfectly aligns with Ackman’s disciplined approach, identifying the same three core drivers: macro-sensitive channel volatility, valuation misalignment with cash flow predictability, and governance constraints preventing activist engagement. The reasoning is consistent across all points, with the agent additionally noting the brand quality as a neutral/positive attribute that does not override the fundamental investment risks.",
+ "run": "ctl_2023_el_pass__current__named"
+}

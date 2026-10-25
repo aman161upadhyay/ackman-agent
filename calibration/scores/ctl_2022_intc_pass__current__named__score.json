@@ -1,0 +1,45 @@
+{
+ "trade_id": "ctl_2022_intc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Process-roadmap and competitive-reset uncertainty make long-term distributable cash difficult to bound; incumbent scale alone is insufficient. → The IDM 2.0 manufacturing transformation introduces massive execution risk and capital reinvestment requirements [D01, D03, D04].",
+   "Large manufacturing investment and negative adjusted FCF weaken the fit with self-funding long investments; low earnings multiple/dividend does not fix reinvestment economics. → The business fails our requirement for simple, predictable, and free-cash-flow-generative economics due to negative FCF and high capex intensity [D02, D03].",
+   "PC cyclicality and technological execution dominate outcomes beyond ordinary operating activism; pass unless a separately justified bounded special situation can be demonstrated. → Intel is highly sensitive to cyclical PC demand and inventory corrections, representing extrinsic factors we cannot control [D01, D04]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "We lack an identifiable edge because the business is undergoing a complex turnaround without a demonstrated return to positive free cash flow [D02, D03]."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "company is forecasting negative free cash flow of US$2–4 billion for 2022",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market has punished the stock with a 48% drawdown",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "cost reduction targets of US$8–10 billion by 2025",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 18,
+  "cited": 4,
+  "share": 0.22
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We have decided to PASS.",
+ "grader_notes": "The agent correctly matched all three of Ackman's drivers, specifically focusing on the incompatibility of Intel's negative FCF/high capex transformation with the requirement for simple, predictable, self-funding businesses. The agent's reasoning was closest to Ackman's in its emphasis on 'extrinsic factors' like cyclicality and execution risks, though the agent added an extra driver regarding the lack of an 'identifiable edge'.",
+ "run": "ctl_2022_intc_pass__current__named"
+}

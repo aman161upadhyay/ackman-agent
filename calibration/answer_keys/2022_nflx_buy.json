@@ -1,0 +1,21 @@
+{
+  "id": "2022_nflx_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "More than 3.1 million shares, approximately $1.1 billion across funds; precise initial NAV percentage not established.",
+  "first_action_date": "2022-01-21",
+  "disclosure_date": "2022-01-26",
+  "reason_class": null,
+  "opportunity_template": ["T1", "T4"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Recurring subscriptions and the transition from linear viewing create substantial long-term growth.", "source": "https://assets.pershingsquareholdings.com/2022/01/26170421/Pershing-Square-Capital-Management-L.P.-Releases-Letter-to-Investors-01-26-2022.pdf (2022-01-26)", "quote": "its subscription-based, highly recurring revenues, which have enormous future growth potential"},
+    {"driver": "Scale and content quality strengthen the moat.", "source": "https://assets.pershingsquareholdings.com/2022/01/26170421/Pershing-Square-Capital-Management-L.P.-Releases-Letter-to-Investors-01-26-2022.pdf (2022-01-26)", "quote": "economies of scale and superb quality in its industry-leading content"},
+    {"driver": "The customer value proposition supports pricing power.", "source": "https://assets.pershingsquareholdings.com/2022/01/26170421/Pershing-Square-Capital-Management-L.P.-Releases-Letter-to-Investors-01-26-2022.pdf (2022-01-26)", "quote": "pricing power derived from the enormous value it delivers to consumers compared with other alternatives"},
+    {"driver": "A trusted adaptive management team and high-performance culture can execute.", "source": "https://assets.pershingsquareholdings.com/2022/01/26170421/Pershing-Square-Capital-Management-L.P.-Releases-Letter-to-Investors-01-26-2022.pdf (2022-01-26)", "quote": "a truly best-in-class management team and unique high-performance culture"},
+    {"driver": "Margin leverage and improving free cash flow support both growth and distributions.", "source": "https://assets.pershingsquareholdings.com/2022/01/26170421/Pershing-Square-Capital-Management-L.P.-Releases-Letter-to-Investors-01-26-2022.pdf (2022-01-26)", "quote": "an improving free cash flow profile which should allow for continued investments in growth as well as the return of cash to shareholders"}
+  ],
+  "entry_valuation_stated": "January letter says attractive valuation after sharp decline, without a numeric multiple. January 24 trailing P/E calculation is 34.4x; timestamped forward multiple not recovered.",
+  "outcome_note": "Entire holding sold April 20, 2022 following Q1 results; manager cited loss of predictability. Contemporary dollar-loss estimates exceeded $400 million.",
+  "pack_quality_notes": "Eight dated documents. January 27 annual filing excluded. January 26 purchase letter confined to key. Cutoff falls during actual accumulation. Forward consensus, volume, full high/low, S&P forward multiple and current cash unavailable. Current unverified claims of 50% closing drawdown corrected to 44.7% versus $700 reference."
+}

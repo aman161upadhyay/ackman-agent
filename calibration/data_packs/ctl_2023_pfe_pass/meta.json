@@ -1,0 +1,12 @@
+{
+  "id": "ctl_2023_pfe_pass",
+  "company": "Pfizer Inc.",
+  "ticker": "PFE",
+  "aliases": ["Pfizer", "Paxlovid", "Comirnaty"],
+  "as_of_date": "2023-10-16",
+  "mode": "new",
+  "era": "D",
+  "first_action_window": "Not applicable: constructed discipline control, no authenticated historical action.",
+  "pershing_aum_usd_bn": null,
+  "notes": "Constructed discipline control, not authenticated historical rejection. Five documents. October13 guidance update and August-released Q2 financials only. Q3 full results not yet available; Seagen pending, not completed. New guided P/E is about20–23x, not old10x; October16 shares rise. Public2020 vaccine macro comment distinguished from stock recommendation."
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2015_vrx_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": null,
+  "size_pct_nav_at_cost": "Large, approximately US$3.2bn initial purchase commitment reported March 2015 against approximately US$18bn January firm AUM; ratio approximately 18% is contextual, not an authenticated trade-date NAV weight. Later peak and added exposure excluded.",
+  "first_action_date": "2015-02-09",
+  "disclosure_date": "2015-03-09",
+  "reason_class": null,
+  "opportunity_template": ["T2", "T3"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {
+      "driver": "Viewed existing assets as bought at a modest discount, but compounding through future acquisitions as the major source of additional intrinsic value.",
+      "source": "https://assets.pershingsquareholdings.com/2022/10/07154952/2016-Annual-Report-Letter-Only.pdf (2017-03-28 retrospective)",
+      "quote": null
+    },
+    {
+      "driver": "Trusted Pearson and the acquisition/operating playbook after working together during the Allergan campaign.",
+      "source": "https://assets.pershingsquareholdings.com/2022/10/07154952/2016-Annual-Report-Letter-Only.pdf (2017-03-28 retrospective)",
+      "quote": null
+    },
+    {
+      "driver": "Expected efficient cost structure, low tax burden and disciplined capital allocation to compound cash earnings.",
+      "source": "https://www.sec.gov/Archives/edgar/data/885590/000119312515059044/d879266dex991.htm (2015-02-23 management plan, not an Ackman quotation); https://assets.pershingsquareholdings.com/2022/10/07154952/2016-Annual-Report-Letter-Only.pdf (Ackman retrospective)",
+      "quote": null
+    },
+    {
+      "driver": "Mistake: highly acquisitive complexity made the result unusually dependent on managerial execution and judgment.",
+      "source": "https://assets.pershingsquareholdings.com/2022/10/07154952/2016-Annual-Report-Letter-Only.pdf (2017-03-28)",
+      "quote": "The highly acquisitive nature of Valeant’s business required flawless capital allocation and operational execution, and therefore, a larger than normal degree of reliance on management. In retrospect, we misjudged the prior management team and this contributed to our loss."
+    }
+  ],
+  "entry_valuation_stated": "Retrospective says modest discount to existing assets and larger discount assuming continued successful high-return acquisitions. This is not a quantified safety margin. At cutoff US$197.48 is 23.7x original FY2014 Cash EPS and 19.0–19.6x January 2015 pre-Salix guidance; actual trading began earlier.",
+  "outcome_note": "Sold March 2017, widely reported approximately US$4bn aggregate loss; exact fund-level realized loss calculation not reconstructed here. Ackman's March 28 letter: 'Clearly, our investment in Valeant was a huge mistake.' Lessons include over-reliance on historical management performance, political/reimbursement exposure, sensitivity to assumptions, overpaying for Salix and permanent business/reputation damage after a price collapse. A good prior record was not an asset that guaranteed a stream of future high-return deals. Unlike the GGP legal/asset-coverage thesis, substantial Valeant value depended on future management action and a fragile pricing/acquisition model. Later investigations, Philidor and restatements are excluded from documents.",
+  "pack_quality_notes": "Eight dated documents, original February 25 2015 10-K, earnings release, call, hostile-target critique, three-peer comparison and dated portfolio context. Cash EPS/CFO/reinvestment distinctions explicit; analyst consensus on Q4 reported, forward multiples use labeled pre-Salix management guidance. Historical rolling prices retrieved under successor symbol with cutoff bounded. Gaps: exact trade-date NAV weight, complete seven-position dollar table, consensus forward valuation and consistently acquisition-inclusive ROIC. The archival letter's bullet-page extraction is garbled, so entry-driver quotations are null/paraphrase rather than invented verbatim.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/885590/000088559015000015/0000885590-15-000015.txt",
+    "https://www.sec.gov/Archives/edgar/data/885590/000119312515059044/d879266dex991.htm",
+    "https://www.reuters.com/article/business/ackmans-pershing-square-takes-5-percent-stake-in-valeant-idUSKBN0LY2BE/",
+    "https://assets.pershingsquareholdings.com/2022/10/07154952/2016-Annual-Report-Letter-Only.pdf"
+  ]
+}

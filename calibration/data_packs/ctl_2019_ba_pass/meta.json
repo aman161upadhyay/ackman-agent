@@ -1,0 +1,12 @@
+{
+  "id": "ctl_2019_ba_pass",
+  "company": "The Boeing Company",
+  "ticker": "BA",
+  "aliases": ["Boeing", "737 MAX"],
+  "as_of_date": "2019-03-15",
+  "mode": "new",
+  "era": "D",
+  "first_action_window": "Not applicable: constructed discipline control, no authenticated historical action.",
+  "pershing_aum_usd_bn": null,
+  "notes": "Constructed discipline control, not documented historical rejection. Five documents. January forecasts explicitly pre-grounding and not freshly validated. No later return-to-service date, liabilities, production halt or pandemic. Later2020 Ackman comment confined to key."
+}

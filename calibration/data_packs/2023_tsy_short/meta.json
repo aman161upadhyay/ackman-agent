@@ -1,0 +1,12 @@
+{
+  "id": "2023_tsy_short",
+  "company": "US long-duration interest rates",
+  "ticker": "US 30-year Treasury rates",
+  "aliases": ["Long Treasury hedge", "30-year payer swaptions"],
+  "as_of_date": "2023-08-02",
+  "mode": "hedge",
+  "era": "D",
+  "first_action_window": "Position predates August2 disclosure and already existed at start2023; exact initial execution/rolling dates unknown. Replay as maintain/add/cover, not clean initiation.",
+  "pershing_aum_usd_bn": 16.1545,
+  "notes": "June30 total firm AUM includes PSH bond principal and UMG co-investors; not equity NAV or dry powder. Same-day public directional post excluded to avoid label leakage. End-of-day August2 data allowed."
+}

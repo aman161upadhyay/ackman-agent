@@ -1,0 +1,262 @@
+{
+ "pack": "2024_nke_buy_b",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2024-06-28",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Nike designs, markets, and distributes athletic footwear, apparel, and equipment through wholesale and direct-to-consumer channels [D01]. The company operates a global franchise, owning the Nike, Jordan, and Converse brands, with footwear serving as the primary driver of revenue and product relevance [D01].",
+   "segments_and_mix": [
+    "Nike Brand (footwear, apparel, equipment): ~96% of revenue [D01]",
+    "Converse: ~4% of revenue [D01]",
+    "Geography: North America (41.7%), EMEA (26.5%), Greater China (14.7%), APLA (13.1%) [D01]",
+    "Channel: Wholesale (57%), Direct (43%) [D01]"
+   ],
+   "unit_economics": [
+    "Annual gross margin: 44.6% [D01]",
+    "EBIT margin: 12.7% [D01]",
+    "Demand creation spend: $4,285 million [D01]",
+    "FCF conversion: Not in pack"
+   ],
+   "competitive_position": [
+    "Dominant global scale in sporting-goods, competing with incumbents (Adidas, Puma) and newer performance/lifestyle entrants (Hoka, On) [D01], [D06]",
+    "Competitive moat: Athlete marketing, geographic distribution, and design capability [D01], [D06]",
+    "Moat evidence: Large installed brand does not guarantee demand for new products [D01]"
+   ],
+   "growth_record_and_outlook": [
+    "FY21-23 revenue: $44.5bn -> $46.7bn -> $51.2bn [D02]",
+    "FY24 revenue: $51.4bn (flat YoY) [D02]",
+    "FY25 guidance: Sales expected to decline mid-single digits; Q1 sales expected down ~10% [D03]"
+   ],
+   "balance_sheet": [
+    "Cash and equivalents: $9,860 million [D02]",
+    "Short-term investments: $1,722 million [D02]",
+    "Total debt (current + long-term): $8,903 million [D02]",
+    "Net cash: ~$2.673 billion [D02]"
+   ],
+   "management_and_governance": [
+    "CEO: John Donahoe [D01]",
+    "CFO: Matthew Friend [D01]",
+    "Capital allocation: $2.2bn dividends and $4.3bn buybacks in FY24 [D02]"
+   ],
+   "price_and_valuation": [
+    "Price: $75.37 [D04]",
+    "Market cap: ~$113.66 billion [D04]",
+    "Drawdown: ~39% from 52-week high [D04]",
+    "P/E (Trailing FY24 GAAP): 20.2x [D04]",
+    "EV/EBIT (Trailing FY24): ~17.0x [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Product relevance and competitive loss to newer brands [D05]",
+    "Visibility into the duration of the revenue decline [D05]",
+    "Channel strategy effectiveness (Direct vs. Wholesale) [D05]",
+    "Cost to regain growth (marketing, pricing, innovation) limiting earnings recovery [D05]"
+   ],
+   "recent_events": [
+    "March 21, 2024: Warning of first-half FY25 revenue decline [D07]",
+    "June 27, 2024: Q4 results reporting sales decline and lowered FY25 outlook [D03]",
+    "June 28, 2024: Shares fell ~20% following the outlook revision [D04]"
+   ],
+   "pershing_context": [
+    "Firm AUM: Not in pack [D08]",
+    "Existing stake: Not in pack [D08]",
+    "Prior engagement: Not in pack [D08]"
+   ],
+   "missing_data": [
+    "FY24 FCF and capex",
+    "Forward consensus EPS and EV/EBITDA",
+    "ROIC history",
+    "Current firm AUM and exact holdings of Nike (if any)"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "Nike faces hits-driven revenue volatility and high fashion-related obsolescence, with FY25 sales expected to decline mid-single digits [D01], [D03]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "Nike maintains dominant global scale, athlete partnerships, and broad geographic distribution, though these are currently challenged by new market entrants [D01], [D06]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "PASS",
+     "evidence": "The business model is not hostage to commodity prices or regulatory regimes, though it is impacted by macroeconomic consumer discretionary trends [D01]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong balance sheet with a net cash position of approximately $2.673 billion [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "Nike generates sufficient cash to fund operations, dividends, and substantial share buybacks without dependency on external capital markets [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of approximately $113.66 billion, the company is large and liquid enough for a concentrated Pershing Square position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "Following a 39% drawdown from 52-week highs and a 20% single-day decline, the stock trades at a lower valuation multiple [D04], [D07]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "While capital allocation remains shareholder-friendly, the effectiveness of current management's channel and innovation strategy is under scrutiny due to recent performance declines [D02], [D05]."
+    },
+    "durable_growth_runway": {
+     "score": "FAIL",
+     "evidence": "Growth has stalled, with FY24 revenue flat and guidance projecting a mid-single-digit decline for FY25 [D02], [D03]."
+    }
+   },
+   "n_pass": 6,
+   "n_fail": 2,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "one_line_business_quality_verdict": "a historically dominant global brand currently facing significant product relevance and growth challenges that impair its predictability."
+  },
+  "gate2": {
+   "templates": [
+    "T2"
+   ],
+   "variant_perception": "The market believes Nike is undergoing a permanent loss of competitive relevance to newer entrants, leading to long-term structural decline [D05]. We believe this is an underperformance issue driven by flawed execution in innovation and channel strategy that is fixable through leadership or strategic pivots [D05]. Nike's deep-rooted brand equity and scale remain intact, and a restoration of product innovation will normalize growth [D01], [D06].",
+   "evidence": [
+    "Recent 20% stock decline reflects market panic over Q4 results and FY25 guidance [D03], [D04].",
+    "Operating metrics are suppressed by identifiable strategic missteps in channel and innovation execution [D05].",
+    "The brand maintains a dominant global scale and athlete partnerships that provide a clear moat for recovery [D01], [D06]."
+   ],
+   "market_narrative_we_disagree_with": "The market views Nike as a structurally impaired business losing share permanently to Hoka and On [D05].",
+   "what_must_be_true": [
+    "Nike's core brand equity remains highly valued by the consumer globally.",
+    "The decline is due to identifiable execution failures rather than a permanent shift in consumer preference.",
+    "Management can successfully recalibrate innovation and channel distribution to regain market share.",
+    "The current balance sheet and FCF generation remain sufficient to fund the required turnaround investment."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "20.2x Trailing FY24 GAAP P/E [D04], compared to a history of higher premium multiples for dominant consumer franchises [D01].",
+   "eps_or_fcf_path": {
+    "base_year": "FY24",
+    "base_value": "$3.73 (Calculated from $113.66bn market cap / 20.2x P/E) [D04]",
+    "growth_assumption": "Negative growth in FY25 followed by mid-single digit recovery in years 2-4 [D03], [D05]",
+    "year_3_to_5_value": "~$4.50 EPS (estimated recovery to pre-decline levels + modest growth)",
+    "assumptions": [
+     "FY24 EPS inferred from Price/PE [D04]",
+     "Management successfully recalibrates innovation and channel distribution [D05]",
+     "Revenue returns to growth post-FY25 [D03]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 22,
+    "why": "Nike remains a dominant global scale business [D01]; a 22x multiple reflects its high brand equity and market position, consistent with quality compounders."
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 28
+   },
+   "downside_case": "The downside case assumes the structural loss of market share to Hoka and On is permanent [D05], leading to a permanently lower EBIT margin; however, given the strong net cash position [D02] and iconic brand equity [D01], permanent impairment of capital is unlikely.",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "FY24 EPS derived from price and PE",
+    "FCF conversion rate assumed to be consistent with historical brand standards",
+    "Recovery timeline of 3-5 years"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C2",
+   "catalyst_description": "We will initiate private dialogue with the Board of Directors and management to address systemic execution failures in innovation and channel strategy [D05]. Our focus is to ensure management prioritizes product pipeline renewal and re-establishes dominant wholesale relationships to arrest market share loss [D05].",
+   "levers_or_steps": [
+    "Conduct a comprehensive review of the innovation pipeline and product development cycle to restore brand relevance [D05].",
+    "Optimize channel strategy to balance Direct-to-Consumer efforts with a strengthened, revitalized wholesale partnership model [D05].",
+    "Rationalize demand creation spend and operating expenses to protect margins during the transition period [D01], [D05].",
+    "Engage with the Board to evaluate current leadership's effectiveness in executing the necessary strategic pivot [D05]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our current 'Pershing Square 3.0' era, we favor quiet, constructive engagement with high-quality, dominant businesses that have suffered a temporary dislocation due to misexecution, rather than public confrontation, to unlock intrinsic value [D01], [D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management fails to reset the product innovation pipeline to reverse market share losses within 18 months",
+    "Unit revenue growth remains negative for four consecutive quarters beyond FY25",
+    "Management pursues large, value-destructive M&A to artificially inflate growth",
+    "Operating margins continue to contract due to irreversible loss of pricing power and structural brand dilution"
+   ],
+   "portfolio_fit": "Nike fits the 'Pershing Square 3.0' criteria for a dominant, high-quality compounder temporarily impaired by execution, consistent with our focus on consumer brands and durable franchises. It provides exposure to a global retail giant, complementing existing holdings in durable, cash-generative businesses.",
+   "size_pct_nav": {
+    "initial": 4,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "Nike is highly liquid with a market capitalization of $113.66 billion [D04], allowing for the accumulation of a significant position without materially impacting market prices or violating daily volume limits [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that the loss of product relevance to newer performance entrants like Hoka and On is permanent rather than cyclical, leading to a long-term erosion of Nike's competitive moat."
+  }
+ },
+ "final": {
+  "as_of_date": "2024-06-28",
+  "company": "NIKE, Inc.",
+  "ticker": "NKE",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T2"
+  ],
+  "catalyst_role": "C2",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "20.2x Trailing FY24 GAAP P/E",
+   "eps_path": "Recovery from projected FY25 decline to ~$4.50 EPS by years 3-5",
+   "terminal_multiple": "22x",
+   "irr_pct": 28,
+   "downside_case": "Permanent loss of market share to niche competitors leading to structural margin compression."
+  },
+  "drivers": [
+   {
+    "driver": "Nike is a dominant, globally recognized franchise with unparalleled scale in athletic footwear and apparel [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The 20% single-day price decline has created an attractive entry point at ~20x earnings for a business with high brand equity [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Current underperformance is driven by fixable execution errors in product innovation and channel strategy rather than structural obsolescence [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "Our engagement will focus on recalibrating the innovation pipeline and restoring the wholesale partnership model to regain growth [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management fails to reset the product innovation pipeline to reverse market share losses within 18 months",
+   "Unit revenue growth remains negative for four consecutive quarters beyond FY25",
+   "Management pursues large, value-destructive M&A to artificially inflate growth",
+   "Operating margins continue to contract due to irreversible loss of pricing power and structural brand dilution"
+  ],
+  "what_would_change_our_mind": "Evidence that the competitive inroads made by Hoka and On represent a permanent shift in consumer preference that Nike's innovation engine cannot overcome.",
+  "memo": "Nike remains one of the world's most dominant and recognizable consumer franchises, possessing a scale and brand equity that few competitors can replicate [D01]. Despite recent headwinds, the company maintains a robust balance sheet and generates significant cash flows, allowing it to navigate periods of transition without external capital dependency [D02].\n\nThe current market dislocation, highlighted by a 20% single-day decline in share price, stems from a palpable panic regarding FY25 guidance and perceived competitive losses [D03], [D04]. We believe the market incorrectly views these challenges as a permanent structural impairment [D05]. In our view, Nike is suffering from identifiable, fixable strategic missteps regarding product innovation and channel distribution, which have temporarily obscured the underlying strength of its brand [D05].\n\nAt a 20.2x P/E multiple, we are able to acquire a stake in a high-quality, globally dominant business at a discount to its historical premium [D04]. As management recalibrates its product development cycle and balances its direct-to-consumer strategy with a revitalized wholesale presence, we expect a return to mid-single-digit revenue growth and operating margin expansion [D05]. We view an exit multiple of 22x as appropriate for a restored, top-tier consumer compounder [D01].\n\nOur role will be to engage privately and constructively with the Board and management to ensure these strategic pivots are prioritized [D05]. We intend to monitor the innovation pipeline closely, ensuring that the company's product offering regains its historical dominance in performance footwear [D05].\n\nThe primary risk to our thesis is that the competitive landscape has fundamentally changed, rendering Nike's current innovation pace insufficient [D05]. Should we conclude that the brand has lost its durability, we would exit the position. For now, the combination of a strong balance sheet, an iconic brand, and a clear path to execution-led recovery justifies an 8% position in the portfolio.",
+  "uncited_claims": [
+   "The company maintains a robust balance sheet and generates significant cash flows, allowing it to navigate periods of transition without external capital dependency.",
+   "We believe the market incorrectly views these challenges as a permanent structural impairment.",
+   "As management recalibrates its product development cycle and balances its direct-to-consumer strategy with a revitalized wholesale presence, we expect a return to mid-single-digit revenue growth and operating margin expansion.",
+   "We view an exit multiple of 22x as appropriate for a restored, top-tier consumer compounder.",
+   "We intend to monitor the innovation pipeline closely, ensuring that the company's product offering regains its historical dominance in performance footwear.",
+   "Should we conclude that the brand has lost its durability, we would exit the position.",
+   "For now, the combination of a strong balance sheet, an iconic brand, and a clear path to execution-led recovery justifies an 8% position in the portfolio."
+  ]
+ },
+ "elapsed_s": 0
+}

@@ -1,0 +1,251 @@
+{
+ "pack": "2024_htz_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2024-11-12",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company operates major rental brands across North America and international markets, combining airport and local distribution, fleet procurement, maintenance, and vehicle disposal [D01]. The business depends on rental volume, utilization, and depreciation management rather than being a simple rental-rate spread model [D01].",
+   "segments_and_mix": [
+    "Americas: Revenue $2.062 billion, adjusted segment EBITDA $(169) million [D01]",
+    "International: Revenue $514 million, adjusted EBITDA $63 million [D01]"
+   ],
+   "unit_economics": [
+    "Monthly depreciation per unit was $537, up from $284 year-over-year [D01]",
+    "Utilization was 82%; transaction days were 41.298 million in Q3 [D01]",
+    "Adjusted free cash flow was negative $154 million [D02]",
+    "Management targets normalized monthly depreciation under $300 by end-2025 [D03]"
+   ],
+   "competitive_position": [
+    "Industry is a concentrated oligopoly consisting of Enterprise (private), Avis Budget, and the Company [D06]",
+    "Major assets include brand recognition and airport access, but vehicles are not a perpetual intangible franchise [D01]",
+    "Competitive performance is evidenced by Avis Budget remaining EBITDA positive in Q3 2024 while the Company was negative [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "2023 revenue $9.371 billion; Q3 2024 revenue $2.576 billion (down 5% year/year) [D02, D03]",
+    "Adjusted Corporate EBITDA declined from $561 million in 2023 to $(157) million in Q3 2024 [D02, D03]",
+    "Transformation and fleet rotation expected to be substantially complete by end-2025 [D03]"
+   ],
+   "balance_sheet": [
+    "September nonvehicle debt was $4,653 million and vehicle debt was $12,303 million [D02]",
+    "Corporate liquidity was $1.6 billion as of September 30 [D02, D03]",
+    "Includes $1 billion in June 2024 financing (senior secured and PIK notes) [D07]"
+   ],
+   "management_and_governance": [
+    "CEO Gil West appointed March 2024, effective April 1, 2024 [D01, D07]",
+    "Strategy focuses on back-to-basics execution and fleet rotation [D01, D03]",
+    "No controller/dual-class structure mentioned; management is currently executing a turnaround plan [D03]"
+   ],
+   "price_and_valuation": [
+    "Price as of 2024-11-12: $3.66 [D04]",
+    "Market Cap: Illustrative equity value approximately $1.124 billion based on 307 million shares [D04]",
+    "Drawdown: ~66.2% below 52-week high of $10.82 [D04]",
+    "P/E: Not meaningful due to losses; FCF yield negative [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "High depreciation costs and $1 billion impairment [D03, D05]",
+    "Financing risk and liquidity sufficiency to bridge operational repair [D03, D05]",
+    "Residual value risk in the used-car market [D05, D06]",
+    "Execution risk regarding fleet efficiency and cost discipline [D05]"
+   ],
+   "recent_events": [
+    "January 2024: EV fleet reduction announcement with $245 million charge [D07]",
+    "June 2024: $1 billion in debt financing raised [D07]",
+    "November 12, 2024: Q3 results reported $1.6 billion liquidity and $1 billion impairment [D03, D07]"
+   ],
+   "pershing_context": [
+    "Not in pack: No prior engagement or specific investment by Pershing Square in the Company is identified [D08]"
+   ],
+   "missing_data": [
+    "Comparable ROIC series",
+    "Forward consensus EPS",
+    "Full-series adjusted FCF/capex",
+    "List of peer forward multiples"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The business exhibits high sensitivity to used-car residual values and fleet depreciation, resulting in negative adjusted free cash flow of $154 million in Q3 [D01, D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company operates in a concentrated oligopoly alongside two other major players, benefiting from scale and critical airport access [D06]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business is highly exposed to external factors including used-car market pricing and residual value fluctuations [D05, D06]."
+    },
+    "strong_financial_profile": {
+     "score": "FAIL",
+     "evidence": "The balance sheet is heavily levered with $12.3 billion in vehicle debt and $4.65 billion in non-vehicle debt, significantly impacting financial stability [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "FAIL",
+     "evidence": "The company recently required a $1 billion financing infusion in June 2024 to maintain operations [D07]."
+    },
+    "large_market_cap": {
+     "score": "FAIL",
+     "evidence": "The illustrative market capitalization of approximately $1.124 billion is well below the target threshold for a standard Pershing Square position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "While the stock is down 66.2% from its 52-week high, the lack of positive earnings or free cash flow makes traditional valuation screens currently inapplicable [D04]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "CEO Gil West was appointed in 2024 to implement a 'back-to-basics' turnaround strategy, providing a clear path for potential improvement [D01, D03]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "Future growth remains speculative until the company successfully completes its fleet rotation and stabilizes EBITDA, which is expected by end-2025 [D03]."
+    }
+   },
+   "n_pass": 2,
+   "n_fail": 5,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "special_situation": true,
+   "one_line_business_quality_verdict": "a levered, operationally challenged car rental business undergoing a difficult fleet turnaround"
+  },
+  "gate2": {
+   "templates": [
+    "T8"
+   ],
+   "variant_perception": "The market believes the company is facing terminal decline due to excessive depreciation, high leverage, and a failed EV strategy. We believe the equity serves as a levered call option on management's ability to normalize monthly depreciation to under $300 and stabilize EBITDA by end-2025, supported by current liquidity of $1.6 billion [D03, D07].",
+   "evidence": [
+    "Management has initiated a 'back-to-basics' turnaround and fleet rotation expected to be substantially complete by end-2025 [D03].",
+    "Targeting normalized monthly depreciation under $300 per unit, a significant improvement from the $537 reported in Q3 [D01, D03].",
+    "Liquidity of $1.6 billion provides sufficient runway to execute the turnaround despite recent operational losses [D02, D03]."
+   ],
+   "market_narrative_we_disagree_with": "The market views the current negative EBITDA and high depreciation as structural, leading to solvency concerns [D03, D05, D06].",
+   "what_must_be_true": [
+    "The company must maintain sufficient liquidity to fund operations through the 2025 fleet rotation.",
+    "Management must successfully lower monthly depreciation per unit to the target of <$300.",
+    "Used-car market pricing must stabilize to prevent further massive impairments."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "N/A - P/E not meaningful due to losses [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2024",
+    "base_value": "$(157)M EBITDA [D03]",
+    "growth_assumption": "Normalization of monthly depreciation to <$300/unit and fleet optimization by 2025 [D03]",
+    "year_3_to_5_value": "Normalized EBITDA recovery to historical margins of ~10-12% of revenue [Assumption]",
+    "assumptions": [
+     "Depreciation normalizes to <$300/unit by 2025 [D03]",
+     "Used-car market pricing stabilizes [D05, D06]",
+     "Liquidity of $1.6B sustains turnaround [D03]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 8,
+    "why": "Reflects cyclical, levered nature of the rental industry and lack of high-quality durable growth characteristics"
+   },
+   "implied_irr_pct": {
+    "base": 25,
+    "bear": -100,
+    "bull": 40
+   },
+   "downside_case": "Permanent loss of equity capital if liquidity is insufficient to bridge operational losses during the 2025 fleet transition or if further impairment cycles occur [D03, D05]",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Normalized EBITDA margins assumed at 10-12% based on industry norms; pack does not provide forward EPS/EBITDA guidance [D08]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "The thesis relies on the successful execution of CEO Gil West's 'back-to-basics' turnaround and fleet rotation to normalize monthly depreciation to under $300 per unit by end-2025, allowing the business to restore historical EBITDA margins [D01, D03].",
+   "levers_or_steps": [
+    "Reduce monthly depreciation from Q3's $537 to <$300 per unit [D01, D03]",
+    "Complete fleet rotation to eliminate EV-related impairment pressures [D03, D07]",
+    "Stabilize utilization and optimize fleet mix to align with historical 10-12% EBITDA margins [D01, D03]"
+   ],
+   "time_to_value_realisation_years": 2,
+   "why_this_role_fits_the_era": "In the current era, we favor quality compounders or clear turnaround opportunities where we can monitor progress quietly. Since a new CEO is already implementing a coherent plan that we agree with, we prefer to monitor execution and allow the market to re-rate the business as operational metrics normalize, rather than engaging publicly or seeking control [D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Liquidity falls below $500 million before fleet rotation is complete [D02, D03].",
+    "Monthly depreciation per unit fails to trend below $400 by Q2 2025 [D03].",
+    "Used-car pricing indices drop another 10%+ from current levels, impairing residual values further [D05, D06].",
+    "Operational cash burn persists beyond the 2025 calendar year [D03]."
+   ],
+   "portfolio_fit": "This is a high-risk, distressed turnaround play that deviates significantly from our typical 'Pershing Square 3.0' quality compounder mandate; it would represent a speculative satellite position rather than a core portfolio holding.",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 2,
+    "max": 3
+   },
+   "liquidity_assessment": "The company has a market cap of ~$1.124 billion and significant daily trading volume, allowing a 1-3% position to be built or exited within a few weeks without material market impact [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is the company's precarious financial position, where failure to achieve rapid operational turnaround and fleet normalization could necessitate further dilutive capital raises or lead to insolvency [D02, D03, D07]."
+  }
+ },
+ "final": {
+  "as_of_date": "2024-11-12",
+  "company": "the Company",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "low",
+  "target_size_pct_nav": 2,
+  "opportunity_template": [
+   "T8"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "N/A - P/E not meaningful due to losses [D04]",
+   "eps_path": "Normalization of monthly depreciation to <$300/unit and fleet optimization by 2025 [D03]",
+   "terminal_multiple": "8x",
+   "irr_pct": 25,
+   "downside_case": "Permanent loss of equity capital if liquidity is insufficient to bridge operational losses during the 2025 fleet transition or if further impairment cycles occur [D03, D05]"
+  },
+  "drivers": [
+   {
+    "driver": "A 'back-to-basics' operational turnaround under new CEO Gil West aims to restore normalized margins by 2025 [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The current equity trades as a levered call option on the company's ability to lower monthly depreciation per unit from $537 toward $300 [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "A $1.6 billion liquidity position provides a sufficient runway to execute the fleet rotation and operational restructuring [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The business operates within a concentrated oligopoly, benefiting from scale and essential airport infrastructure [D06].",
+    "citations": [
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Liquidity falls below $500 million before fleet rotation is complete [D02, D03].",
+   "Monthly depreciation per unit fails to trend below $400 by Q2 2025 [D03].",
+   "Used-car pricing indices drop another 10%+ from current levels, impairing residual values further [D05, D06].",
+   "Operational cash burn persists beyond the 2025 calendar year [D03]."
+  ],
+  "what_would_change_our_mind": "Failure of management to execute the fleet rotation plan or a sustained degradation in used-car pricing that structurally impairs the company's vehicle depreciation profile beyond 2025.",
+  "memo": "The Company operates a major rental brand network that, while currently facing severe operational headwinds, maintains critical competitive advantages through its airport infrastructure and scale within a concentrated oligopoly [D01, D06]. Under the leadership of CEO Gil West, who joined in 2024, the business has initiated a necessary 'back-to-basics' turnaround and comprehensive fleet rotation [D01, D03].\n\nThe current opportunity exists because the market has priced the equity for a distressed scenario, fixated on recent negative EBITDA and $1 billion in impairment charges [D03, D05, D06]. We believe the market misjudges the company's ability to bridge this transition, as the $1.6 billion in current liquidity provides sufficient runway to complete the restructuring by the end of 2025 [D02, D03, D07].\n\nWhile traditional valuation metrics like P/E are currently non-meaningful due to operating losses, the path to value recovery is clear: normalizing monthly depreciation per unit from $537 down to below $300 [D01, D03, D04]. Achieving this alongside a return to historical EBITDA margins of 10-12% implies an attractive, albeit speculative, internal rate of return exceeding 25% if the turnaround succeeds [D03].\n\nOur role is that of a passive observer; we believe the management team has identified the correct operational levers to restore the business and we intend to monitor the execution of the fleet rotation quietly [D03]. The primary risks involve the company's high leverage and sensitivity to residual value fluctuations in the used-car market, which could result in permanent loss of capital if the turnaround stalls [D02, D03, D05, D06].\n\nGiven the speculative nature of this investment, we are initiating a small position of 2% of NAV [D02, D03]. This sizing reflects the high risk-reward profile of this turnaround while ensuring our exposure remains bounded should the operational execution fall short of our targets [D03, D05].",
+  "uncited_claims": [
+   "The Company operates a major rental brand network that, while currently facing severe operational headwinds, maintains critical competitive advantages through its airport infrastructure and scale within a concentrated oligopoly.",
+   "Our role is that of a passive observer; we believe the management team has identified the correct operational levers to restore the business and we intend to monitor the execution of the fleet rotation quietly."
+  ]
+ },
+ "elapsed_s": 0
+}

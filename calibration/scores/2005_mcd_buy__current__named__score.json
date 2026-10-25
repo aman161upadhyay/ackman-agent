@@ -1,0 +1,50 @@
+{
+ "trade_id": "2005_mcd_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 4,
+  "matched": [],
+  "missed": [
+   "Separate restaurant operations from franchise/property economics; good management had already delivered an operating recovery.",
+   "Normalize corporate restaurants for market rent and franchise fees to reveal true economics.",
+   "Original November plan proposes 65% McOpCo IPO and US$14.7bn property-backed borrowing for repurchases; not simply a REIT spin.",
+   "Adapt means to stakeholder constraints, later withdrawing the IPO demand in favor of management actions/refranchising rather than insisting on the initial transaction."
+  ],
+  "extra_agent_drivers": [
+   "McDonald's is a dominant, global, free-cash-flow-generative consumer franchise with high-margin royalty-like franchise fees.",
+   "The market misprices the business as a slow-growth operator, ignoring the immense value hidden in its vast real estate portfolio.",
+   "Management's current focus on operational 'Plan to Win' metrics ignores the superior returns available through a more capital-light, franchised model.",
+   "A transition to a franchised model could expand margins from ~15% to 80%+ at the unit level, driving significant EPS growth.",
+   "We have identified clear catalysts to unlock value, including a potential real estate spin-off or REIT conversion."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "McDonald's represents a quintessential high-quality, dominant global franchise, operating 31,561 locations",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "14.8% margins compared to 80.2% in its franchise business",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We acquired our stake at approximately 18.7x 2004 earnings",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We intend to engage with the board to accelerate the transition to a franchise-first model, which would permanently improve the firm's capital-light characteristics and margin profile [D01, D05].",
+ "grader_notes": "The agent correctly identifies the direction (BUY). However, the reasoning is entirely mismatched; the agent focuses on a REIT/spin-off thesis and market mispricing, whereas Ackman's actual drivers focused on specific structural IPO/leverage proposals and a willingness to adapt the engagement strategy based on management feedback. There is zero overlap in the specific mechanisms cited.",
+ "run": "2005_mcd_buy__current__named"
+}

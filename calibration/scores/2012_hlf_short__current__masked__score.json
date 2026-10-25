@@ -1,0 +1,42 @@
+{
+ "trade_id": "2012_hlf_short",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Alleged compensation primarily rewarded recruitment rather than genuine outside retail demand. → our analysis suggests that the business model is fundamentally flawed, as it relies on a multi-level distributor recruitment structure that prioritizes growth in the distributor network over genuine retail demand [D01, D05].",
+   "Questioned distributor success claims, retail-sales measurement and losses borne by lower-level participants. → We have identified a lack of transparency and verifiable evidence regarding actual end-user consumption of products [D01, D05]."
+  ],
+  "missed": [
+   "Expected regulatory shutdown or collapse to destroy equity value; this was Pershing's allegation, not an adjudicated fact.",
+   "Expected economic deterioration to validate the thesis, but later acknowledged fundamental analysis alone was insufficient for a viable short."
+  ],
+  "extra_agent_drivers": [
+   "High executive compensation, specifically US$89.4 million realized by the CEO, is misaligned with the significant risks facing the business model [D07]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "the business model relies on a multi-level marketing structure that incentivizes distributor recruitment over genuine retail demand",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "High executive compensation, specifically US$89.4 million realized by the CEO",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 2,
+  "share": 0.22
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Our decision is to initiate a short position, as the business model functions as a pyramid scheme that is highly susceptible to regulatory intervention [D01, D05].",
+ "grader_notes": "The agent correctly identified the core thesis of the business model relying on recruitment over retail sales. However, it failed to capture Ackman's explicit focus on the necessity of technical factors (not just fundamental analysis) and missed the regulatory/collapse narrative as a primary driver, focusing instead on executive compensation as an extra driver.",
+ "run": "2012_hlf_short__current__masked"
+}

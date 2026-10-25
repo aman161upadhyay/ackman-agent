@@ -1,0 +1,37 @@
+{
+ "pack": "2025_cmg_sell",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2025-11-03",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-11-03",
+  "company": "Chipotle Mexican Grill",
+  "ticker": "CMG",
+  "decision": "TRIM",
+  "reason_class": "S3",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Brand relevance: Intact, but frequency is under pressure [D06, D10]",
+   "Unit growth: Intact with 350-370 openings planned for 2026 [D04]",
+   "Management execution: New leadership following Brian Niccol's departure; execution path requires validation [D02, D10]",
+   "Economic moat: Strong restaurant economics persist, but operating leverage poses risks to profitability when traffic declines [D06, D10]"
+  ],
+  "forward_irr_estimate_pct": 12,
+  "valuation_now": "28.4x FY2024 GAAP EPS, which is lower after the recent selloff but uncertain due to current traffic headwinds [D05, D10]",
+  "drivers": [
+   {
+    "driver": "Trim position to manage risk and increase capital flexibility given reduced visibility into same-store traffic and leadership transition impacts [D06, D09, D10].",
+    "citations": [
+     "D06",
+     "D09",
+     "D10"
+    ]
+   }
+  ],
+  "memo": "We maintain a long-term belief in Chipotle as a dominant, free-cash-flow-generative business with a durable moat, evidenced by its robust unit-growth pipeline and strong historical performance [D02, D10]. However, the current environment presents a material shift in the predictability of the business [D06, D10]. The departure of Brian Niccol introduces a period of management transition, and the recent slowdown in transaction frequency—particularly among younger consumers—has compromised the near-term comparable-sales trajectory [D02, D04, D06]. \n\nWhile the company continues to generate significant cash, the convergence of negative transaction growth and persistent cost pressures has resulted in margin compression, highlighting the risks of operating leverage in a company-operated model [D03, D04, D06]. With 2025 guidance reduced to a comparable-sales decline, the margin of safety at current valuation levels has narrowed relative to our required thresholds for a concentrated position [D04, D05, D10]. \n\nWe have decided to trim our position to prioritize capital flexibility [D09]. This action allows us to maintain exposure to a high-quality franchise while acknowledging the current uncertainty in the traffic-recovery path [D06, D10]. We will continue to monitor restaurant execution and unit-level returns, as our decision to remain invested hinges on the ability of the new management team to restore traffic and justify the business's long-term growth potential [D06, D10].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

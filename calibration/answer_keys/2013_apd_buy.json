@@ -1,0 +1,43 @@
+{
+  "id": "2013_apd_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": null,
+  "size_note": "July31 disclosed9.8% issuer exposure approximatelyUS$2.2bn, record investment by cost. Approximately18% of July8 US$12bn manager AUM is contextual only; co-investment vehicles and denominator prevent calling it verified fund NAV.",
+  "first_action_date": null,
+  "disclosure_date": "2013-07-31",
+  "reason_class": null,
+  "opportunity_template": ["T2", "T3"],
+  "catalyst_role": "C3",
+  "drivers": [
+    {
+      "driver": "Quality industrial-gas franchise with durable barriers and capacity to improve without relying on a stronger economy.",
+      "source": "https://assets.pershingsquareholdings.com/2022/10/07154952/2016-Annual-Report-Letter-Only.pdf (2017-03-28 later retrospective)",
+      "quote": "APD’s business is extremely high-quality, reasonably priced and run by outstanding management."
+    },
+    {
+      "driver": "Install a capable operating leader; Seifi Ghasemi appointedJuly1 2014, not a known result in2013.",
+      "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf (2015-03-24)",
+      "quote": "Seifi is the ideal leader to transform Air Products"
+    },
+    {
+      "driver": "Close margin gap through overhead and productivity, with later approximately16% to22.5% benchmark against Praxair. This is a2014–15 campaign update, not authenticated July2013 target.",
+      "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf",
+      "quote": null
+    },
+    {
+      "driver": "Decentralized accountability, incentive alignment and noncore separation improve focus and returns.",
+      "source": "https://assets.pershingsquareholdings.com/2022/10/07154952/2016-Annual-Report-Letter-Only.pdf",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact weighted-average initial cost and original detailed target unauthenticated. July8 public solicitation describes unnamed high-barrier business below peer multiple, without identifying it. Do not substitute later targets for entry facts.",
+  "outcome_note": "Ghasemi-led operating changes and2016 materials separation/sales followed. Fiscal2016 adjusted margin23.1%, up400bp, includes businesses subsequently divested/spun and is not directly comparable with later continuing-only margins. 2016 shareholder total return24% including Versum/dividends is not cumulative Pershing return. Exited2017 at a gain; exact total realized P&L and last sale date unknown. Original named thesis mechanism was broadly realized, but not every result is attributable to activism alone.",
+  "pack_quality_notes": "Eight docs. Exact original2012 and fiscalQ2 financials, debt addition checked, continuing/total and adjusted EPS separated, contemporaneous Praxair margin, dated analyst estimates, public unnamed fundraising. Unknown rolling extrema/live consensus and full maintenance-capex/peer valuation remain explicit. Snapshot precedes disclosure, not demonstrably first buy.",
+  "sources": [
+    "https://dealbook.nytimes.com/2013/07/31/ackman-acquires-9-8-stake-in-air-products",
+    "https://www.sec.gov/Archives/edgar/data/2969/000119312512476878/d409668d10k.htm",
+    "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf",
+    "https://assets.pershingsquareholdings.com/2022/10/07155606/2017-Annual-Report-Letter-Only.pdf"
+  ]
+}

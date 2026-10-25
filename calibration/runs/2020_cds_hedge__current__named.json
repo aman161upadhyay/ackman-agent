@@ -1,0 +1,22 @@
+{
+ "pack": "2020_cds_hedge",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "2020-02-24",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-02-24",
+  "decision": "SHORT_HEDGE",
+  "risk": "A pandemic-induced, self-reinforcing contraction in global mobility, consumer spending, and supply chains leading to a severe credit and economic shock [D01].",
+  "market_implied_probability": "While specific credit spread levels are not in the pack, equity markets have begun to reprice with a 3.35% drop in the S&P 500 and a ~46% increase in the VIX [D02].",
+  "our_probability_and_why": "We assign a high enough probability to a severe economic interruption to justify hedging, as current international clusters in Italy and South Korea signal that the risk is no longer confined to China [D01, D07]. The market previously looked past the outbreak; the recent spike in volatility suggests a paradigm-shifting risk is now becoming visible but may not yet fully reflect the potential for a systemic credit event [D02].",
+  "instrument": "Credit default swaps (CDS) on investment-grade and high-yield credit indices [D03].",
+  "premium_pct_nav": 2,
+  "payoff_multiple_in_scenario": 20,
+  "exit_rule": "Monetize when credit spreads reach levels that adequately compensate for the stressed economic scenario or when the fundamental risk of a systemic shutdown has passed [D06].",
+  "memo": "As of February 24, we are observing an abrupt transition in market sentiment as international contagion becomes apparent [D02]. While our portfolio remains concentrated in high-quality, free-cash-flow-generative businesses, a broad economic shock—characterized by a self-reinforcing contraction in mobility and consumption—poses a meaningful threat to short-term liquidity [D01, D04]. Our discipline is to protect the portfolio against paradigm-shifting risks that the market is only beginning to price, using instruments that provide asymmetric payoffs [D04, D06].\n\nWe favor CDS protection because it offers a direct way to capitalize on the widening of credit spreads that would accompany a systemic financial shock [D03, D05]. Unlike selling our long-term holdings, which would crystallize losses and force us to exit positions in high-quality compounders, a credit hedge allows us to generate liquidity precisely when other opportunities might arise [D04, D05]. We acknowledge the uncertainty regarding exact entry spreads and liquidity; therefore, our commitment is limited to a defined premium that keeps our carrying cost affordable while providing significant upside in the event of a market dislocation [D02, D06].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

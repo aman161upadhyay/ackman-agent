@@ -1,0 +1,36 @@
+{
+ "pack": "2022_nflx_sell",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2022-04-20",
+ "stages": {},
+ "final": {
+  "as_of_date": "2022-04-20",
+  "company": "the Company (Netflix)",
+  "ticker": "NFLX",
+  "decision": "SELL",
+  "reason_class": "S2",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Subscription-based, highly recurring revenues: broken/weakened by subscriber loss and guidance of further declines [D04], [D06]",
+   "Predictable subscriber growth/streaming beneficiary: broken; management cited new constraints including penetration, competition, and account sharing [D04], [D06]",
+   "Margin expansion as global subscriber base grows: broken; management now expects to hold margins steady rather than expand [D04], [D10]",
+   "Best-in-class management: intact; management is taking proactive, if unproven, strategic steps to address the growth slowdown [D02], [D04], [D10]"
+  ],
+  "forward_irr_estimate_pct": 0,
+  "valuation_now": "The stock trades at ~20x trailing EPS [D05], but the earnings growth trajectory is highly uncertain due to shifting business model drivers [D04], [D06]",
+  "drivers": [
+   {
+    "driver": "The fundamental growth thesis has changed, leading to a loss of predictability in the company's core subscription model [D04], [D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   }
+  ],
+  "memo": "Our investment in the Company was predicated on a thesis of predictable, recurring, high-margin subscriber growth, underpinned by a dominant streaming franchise and best-in-class management [D00]. The Q1 results and the forward guidance of further subscriber losses fundamentally challenge this core underwriting [D04]. The company has moved from a predictable growth trajectory to one where the management must now explore unproven initiatives—namely advertising-supported tiers and paid-account sharing—to compensate for saturation and competitive pressure [D04], [D06], [D10].\n\nWhile management remains high-quality and the business remains profitable, the shift away from an automatic, scale-driven margin expansion path reduces the predictability of our long-term earnings forecast [D02], [D04], [D10]. Our standards require that we be able to forecast a business's free-cash-flow generation with sufficient certainty to justify a concentrated position; we can no longer do so here until these new monetization models are tested and the subscriber churn stabilizes [D00], [D06], [D10]. \n\nWe do not hold positions when the business model or its drivers have changed to the extent that we can no longer forecast with confidence [D00]. Consequently, we are exiting the position today, notwithstanding the significant decline in the stock price, as we must prioritize capital allocation to opportunities that fit our strict quality and predictability criteria [D05], [D06], [D10].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

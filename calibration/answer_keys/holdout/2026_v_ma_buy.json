@@ -1,0 +1,21 @@
+{
+  "id": "2026_v_ma_buy",
+  "size_pct_nav": null,
+  "sources": ["https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf"],
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Unknown. June consolidated reportable-book market weights V5.76%, MA5.61%; not PSH/PSUS NAV at cost.",
+  "first_action_date": "2026-Q2, exact first days unresolved",
+  "disclosure_date": "2026-08-13",
+  "reason_class": null,
+  "opportunity_template": ["T1", "T4"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Dense global acceptance networks support capital-light transaction tolls without ordinary lender credit exposure.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13)", "quote": "capital-light ‘toll-takers’"},
+    {"driver": "Cash displacement, e-commerce, nominal spending and faster-growing services support compounding.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13)", "quote": null},
+    {"driver": "Agentic commerce and stablecoins need not bypass trusted authorization, recourse and acceptance; networks can integrate the new technology.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13)", "quote": null},
+    {"driver": "Regulatory and disruption fears created an attractive roughly22x forward entry valuation.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/08/13002306/Pershing-Square-Holdings-Ltd.-June-2026-Interim.pdf (2026-08-13)", "quote": "among the highest-quality businesses in the world"}
+  ],
+  "outcome_note": "Open. June30 filing: Visa3,270,470 shares/$1.122066bn; Mastercard2,124,646/$1.091218bn. PSH marks +6%/+5% from average cost through June, not realized outcomes. Manager medium-term EPS-plus-yield estimates16%/18%.",
+  "pack_quality_notes": "8 joint documents, separate three-year fiscal calendars/cash tables and precise historical closes. Pre-Q2 March31 cutoff avoids unpinned entry-day hindsight. Forward consensus, exact historical/52week ranges and peer forward valuations missing. Latest call guidance not recovered. August services-mix and regulatory-stalling claims excluded from March documents. Joint key does not assume identical sizes or executions."
+}

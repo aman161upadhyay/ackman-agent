@@ -1,0 +1,50 @@
+{
+ "trade_id": "ctl_2022_dis_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 2,
+  "matched": [
+   "DTC losses, pricing/ad-tier changes and legacy distribution decline widen the forecast range beyond a simple brand-quality argument → Despite the strength of the underlying IP, the business currently faces a challenging, capital-intensive transition of its legacy model, which limits the predictability of its free-cash-flow generation",
+   "Require owner cash after content and parks reinvestment, not subscriber scale or adjusted EPS alone. Current FCF yield and leverage do not provide an obvious margin of safety. → At an entry multiple of 26.9x adjusted P/E, the valuation is not sufficiently compelling to ignore the substantial execution risks associated with the streaming roll-out... the lack of current free-cash-flow yield—at approximately 0.6%—leaves little margin for error."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The company owns a world-class, irreplaceable portfolio of intellectual property and destination-based assets",
+   "Management's path to profitability in the direct-to-consumer segment by 2024 requires successful execution"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Walt Disney Company possesses a unique portfolio of irreplaceable intellectual property and world-class destination assets",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Free cash flow generation is significantly pressured, with a yield of only 0.6% in 2022",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "At an entry multiple of 26.9x adjusted P/E, the valuation is not sufficiently compelling",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We require more certainty in the consolidated cash conversion before committing capital",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 12,
+  "share": 0.92
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "While the quality of the assets is undeniable, the structural uncertainty surrounding the transition and the heavy debt load of US$48.369 billion lead us to conclude that our standard for a simple, predictable, and free-cash-flow-generative business is not yet met.",
+ "grader_notes": "The agent correctly identifies the two core pillars of the decision key: the lack of predictable free cash flow and the structural uncertainty of the streaming transition. While the agent includes extra positive commentary regarding asset quality which was not a primary driver in the key, it correctly concludes that the business does not meet Ackman's standard for investment.",
+ "run": "ctl_2022_dis_pass__current__named"
+}

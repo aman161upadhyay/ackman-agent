@@ -1,0 +1,12 @@
+{
+  "id": "2024_nke_buy_a",
+  "company": "NIKE",
+  "ticker": "NKE",
+  "aliases": ["Nike", "Jordan", "Converse"],
+  "as_of_date": "2024-05-14",
+  "mode": "new",
+  "era": "E",
+  "first_action_window": "May15 2024 first purchase per February11 2026 PSH inception chart. May14 is preceding trading day. A quarterly13F alone establishes only Q2 ownership, not May15; the precise date comes from the retrospective chart.",
+  "pershing_aum_usd_bn": null,
+  "notes": "Literal pre-entry pack. Excludes June2024 results, subsequent management change and later prices. March2024 guidance warning and December2023 cut form the contemporaneous dislocation. Firm AUM missing; PSH NAV and cash kept distinct."
+}

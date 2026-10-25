@@ -1,0 +1,21 @@
+{
+  "id": "2026_hlt_sell",
+  "size_pct_nav": null,
+  "sources": ["https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/11144917/2026-Annual-Investor-Presentation.pdf"],
+  "actual_decision": "SELL",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Full remaining position exited; original October 2018 announcement described 13.9% PSH NAV at then-market value, not cost weight.",
+  "first_action_date": "2026-02 (exact sale day not established)",
+  "disclosure_date": "2026-02-11",
+  "reason_class": "S1",
+  "opportunity_template": [],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "At the prevailing valuation, prospective returns no longer met the required return threshold.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/11144917/2026-Annual-Investor-Presentation.pdf (2026-02-11)", "quote": "we expect prospective returns are unlikely to meet our high return threshold given current valuation levels"},
+    {"driver": "Multiple expansion had realized a substantial part of the original value opportunity.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/11144917/2026-Annual-Investor-Presentation.pdf (2026-02-11)", "quote": "Valuation multiple expanded from ~20x at the time of our initial investment to ~32x in recent months (+65%)"},
+    {"driver": "The investment was successful rather than a business-quality reversal.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/11144917/2026-Annual-Investor-Presentation.pdf (2026-02-11)", "quote": "Hilton was a highly successful investment for Pershing Square"}
+  ],
+  "entry_valuation_stated": "About 20x at October 2018 inception; approximately 32x in recent months per February 2026 presentation. These are manager comparisons, not January 15 calculated guidance-year multiples.",
+  "outcome_note": "February 11 presentation discloses exit earlier in 2026; February 18 annual report explicitly says February 2026. Presentation chart ends February 2 but that is not authenticated as final execution day. Q4/FY2025 release was February 11 at 06:00 ET, same day as disclosure; no evidence establishes sale occurred after that release.",
+  "pack_quality_notes": "10 documents including D00 and changes-since-purchase. Retained January 15 because an after-results sale cannot be proven. No February release or exit language in agent documents. Original announcement retrieved; original detailed 2018 thesis not recovered, subsequent primary quotations explicitly dated. Three-year financials, Q3 release, price/liquidity verified. Missing reconciled CFO/FCF, cutoff 52-week range, consensus, full own-history multiples and peer valuation. S3 funding motive not independently substantiated for Hilton and not asserted."
+}

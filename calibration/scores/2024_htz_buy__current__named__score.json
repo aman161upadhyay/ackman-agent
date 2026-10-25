@@ -1,0 +1,60 @@
+{
+ "trade_id": "2024_htz_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 5,
+  "matched": [],
+  "missed": [
+   "Concentrated rental industry and rational pricing can support normalized profitability.",
+   "Gil West and fleet rotation can repair depreciation and operating costs.",
+   "A leveraged vehicle portfolio creates large equity sensitivity to residual values.",
+   "Liquidity and distant principal maturities provide time for the turnaround, subject to cash burn.",
+   "AV servicing is additional optionality, not a signed contract or a November2024 fact."
+  ],
+  "extra_agent_drivers": [
+   "The business model is highly capital-intensive and exhibits negative free cash flow",
+   "The company carries extreme leverage with significant debt obligations",
+   "Sensitivity to used-vehicle residual values and macroeconomic cycles",
+   "Operational performance lags significantly behind peers"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The business fails to meet our criteria for a high-quality, free-cash-flow-generative company, as it remains highly capital-intensive.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Hertz posts weaker-than-expected quarterly results; shares fall.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operational performance lags significantly behind peers, as evidenced by a (6)% adjusted corporate EBITDA margin compared to 14% at Avis.",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Monthly fleet depreciation exceeds $300 per unit beyond 2025.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market views the recent $1.332 billion quarterly loss and negative free cash flow as terminal indicators.",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 3,
+  "share": 0.23
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We have decided to PASS.",
+ "grader_notes": "The agent missed the investment decision entirely, choosing to PASS while Ackman initiated a position. The reasoning was farthest from Ackman's because the agent treated the company as a failed quality-compounder candidate rather than the asymmetric turnaround opportunity Ackman identified, failing to engage with any of the specific bullish drivers provided in the key.",
+ "run": "2024_htz_buy__current__named"
+}

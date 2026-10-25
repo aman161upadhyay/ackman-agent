@@ -1,0 +1,225 @@
+{
+ "pack": "2018_low_buy",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2018-04-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Lowe's is a large home-improvement retailer serving household and professional repair, renovation and maintenance demand [D01]. It operates 2,152 home-improvement and hardware stores, leveraging scale in sourcing, distribution and local store access [D01].",
+   "segments_and_mix": [
+    "Not in pack"
+   ],
+   "unit_economics": [
+    "FY2017 operating margin 9.6% [D01]; FY2017 CFO $5.065 billion and capex $1.123 billion [D02]; FCF (CFO-Capex) $3.942 billion [D02]; pricing power limited by competitive environment and structural peer gap [D01, D05]"
+   ],
+   "competitive_position": [
+    "Home Depot is the primary competitor/benchmark, with a 14.5% operating margin compared to Lowe's 9.6% [D01, D06]; moats include scale in sourcing, distribution, assortment and store network [D01]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2017 sales grew 5.5% (4.0% comparable sales) [D02]; FY2018 outlook expects 4% sales growth and diluted EPS $5.40-$5.50 [D02, D03]"
+   ],
+   "balance_sheet": [
+    "Total stated debt $16.995 billion [D02]; cash/investments $1.098 billion [D04]; net debt approximately $15.897 billion before lease adjustments [D02]"
+   ],
+   "management_and_governance": [
+    "CEO Robert Niblock announced retirement plans on 03/26/18 with a search for a successor initiated [D01]; board refreshed with new members effective 03/22/18 [D01]"
+   ],
+   "price_and_valuation": [
+    "Price $84.59 on 04/02/18 [D04]; P/E 20.7x FY2017 GAAP EPS and 15.5x FY2018 guidance [D04]; FCF yield proxy ~5.6% [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Operating margin gap vs. Home Depot [D01]; execution risk and weak earnings conversion [D03, D05]; management transition uncertainty [D05]; exposure to housing cycle [D05]; debt levels [D05]"
+   ],
+   "recent_events": [
+    "Jan 19: Board additions announced [D07]; Feb 28: FY2017 results reported [D07]; Mar 22: New directors joined board [D07]; Mar 26: CEO retirement plan announced [D07]"
+   ],
+   "pershing_context": [
+    "Not in pack"
+   ],
+   "missing_data": [
+    "Current Pershing Square AUM/holdings; specific competitor P/E multiples; full consolidated ROIC; exact breakdown of professional vs. DIY customer mix"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "The business benefits from stable demand for home repair and maintenance, generating consistent FCF, though it faces execution challenges compared to its peer [D01, D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "Lowe's benefits from massive scale in sourcing, distribution, and a large store footprint as the #2 player in the home improvement industry [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "While not a commodity producer, the business has significant exposure to the cyclicality of the housing market [D05]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a solid balance sheet with manageable leverage relative to its scale and cash flow generation [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The business is free-cash-flow generative and does not rely on capital markets for ongoing operations [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a large national store footprint, it is a significant, liquid, and large-cap business suitable for a concentrated position [D01]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock trades at 15.5x 2018 guidance, which appears reasonable for a dominant retailer with a clear self-help improvement thesis [D04]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "The company is currently in a management transition period with the CEO announcing retirement, though recent board refreshes signal potential for improvement [D01, D07]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The business operates in a large, durable market with the potential for margin expansion if it closes the performance gap with its primary competitor [D01]."
+    }
+   },
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant home improvement retailer with significant scale and a clear self-help opportunity to improve margins through operational execution"
+  },
+  "gate2": {
+   "templates": [
+    "T2"
+   ],
+   "variant_perception": "The market believes Lowe's is structurally inferior to its primary competitor, Home Depot, due to a persistent 490 basis point operating margin gap [D01]. We believe this gap is not structural but rather a result of remediable operational underperformance that can be narrowed through improved management and strategic focus. With a board refresh and a CEO transition underway, the catalyst for closing this performance gap is now in place [D01, D07].",
+   "evidence": [
+    "Lowe's 9.6% FY2017 operating margin vs. Home Depot's 14.5% [D01, D06]",
+    "Recent board refreshes effective March 2018 provide oversight for operational improvements [D01, D07]",
+    "CEO transition initiated in March 2018 allows for new leadership to execute on margin expansion [D01, D07]"
+   ],
+   "market_narrative_we_disagree_with": "The market views the operating margin gap between Lowe's and Home Depot as a fixed competitive disadvantage [D01, D05].",
+   "what_must_be_true": [
+    "New leadership is capable of implementing operational changes to bridge the margin gap",
+    "The home improvement market remains sufficiently stable to allow for margin improvement efforts",
+    "The current 15.5x FY2018 P/E guidance underprices the potential for earnings conversion improvements"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "15.5x FY2018 EPS guidance vs. S&P 500 approx 21x [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2018",
+    "base_value": "$5.45",
+    "growth_assumption": "Mid-to-high single-digit revenue growth plus 300-400 bps margin expansion toward peer levels [D01]",
+    "year_3_to_5_value": "$8.00 - $8.50",
+    "assumptions": [
+     "FY2018 EPS based on mid-point of $5.40-$5.50 guidance [D02]",
+     "Operating margin improves from 9.6% toward 14.5% peer benchmark over 3-5 years [D01, D06]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 18,
+    "why": "Discounted vs. high-growth 20x+ peers due to execution risk and housing cycle sensitivity, but reflects premium for home-improvement oligopoly [D01, D05]"
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 28
+   },
+   "downside_case": "If margin gap proves structural rather than operational, earnings growth stagnates at market rates and multiple contracts to 12-14x, leading to limited upside but minimal permanent capital loss due to strong scale moats [D01, D05]",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Specific competitor P/E multiples not in pack",
+    "Exact timeframe for bridge to 14.5% operating margin is an estimate based on management transition"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C1",
+   "catalyst_description": "The recent retirement announcement of CEO Robert Niblock [D01, D07] and the appointment of new directors effective March 2018 [D01, D07] provide a unique window to drive a change in operational strategy and close the 490 basis point operating margin gap with Home Depot [D01].",
+   "levers_or_steps": [
+    "Identify and install a best-in-class CEO with a proven track record of retail operational excellence [D01]",
+    "Rationalize the supply chain and distribution network to align with peer-level benchmarks [D01]",
+    "Improve inventory management and professional customer engagement to drive operating margins from 9.6% toward the 14.5% peer benchmark [D01, D06]"
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In the 'Pershing Square 3.0' era, we prioritize quiet engagement and the support of high-quality businesses undergoing management transitions to unlock intrinsic value, rather than public confrontation, unless private efforts fail [Rule 5]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "New management fails to articulate or execute a credible plan to close the operating margin gap within 24 months [D01].",
+    "Comparable sales growth turns negative for two consecutive quarters, signaling a loss of competitive standing [D02].",
+    "The company initiates significant debt-funded acquisitions that deviate from the core home-improvement focus [D01].",
+    "The housing market experiences a structural downturn that impairs long-term FCF generation capacity [D05]."
+   ],
+   "portfolio_fit": "The position fits the 'Pershing Square 3.0' criteria as a high-quality, free-cash-flow-generative compounder in a duopoly, currently underperforming its potential; it adds exposure to the home improvement sector, which is not currently represented in our concentrated portfolio of 8-15 names.",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 12
+   },
+   "liquidity_assessment": "With a market capitalization supporting significant daily volume and our target position size, we can build the initial stake over several weeks without significant price impact while maintaining the ability to exit within a quarter [D01].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The operating margin gap between Lowe's and Home Depot may be structural due to legacy operational inefficiencies that a new management team may struggle to remediate as effectively as anticipated [D01, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2018-04-02",
+  "company": "Lowe's Companies",
+  "ticker": "LOW",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "opportunity_template": [
+   "T2"
+  ],
+  "catalyst_role": "C1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "15.5x FY2018 EPS guidance",
+   "eps_path": "Mid-to-high single-digit revenue growth plus 300-400 bps margin expansion, targeting $8.00-$8.50 in 3-5 years",
+   "terminal_multiple": "18x",
+   "irr_pct": 22,
+   "downside_case": "Multiple contraction to 12-14x if margin gap persists, but limited permanent capital loss due to scale moats"
+  },
+  "drivers": [
+   {
+    "driver": "Lowe's is a dominant, free-cash-flow-generative home improvement retailer with significant scale and durable competitive advantages.",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "A 490 basis point operating margin gap compared to Home Depot represents a major, remediable operational underperformance rather than a structural disadvantage.",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Recent board refreshes and the announced CEO transition provide a powerful catalyst to drive operational change and margin parity.",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The stock trades at an attractive 15.5x 2018 guidance, offering significant upside as earnings power is unlocked.",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "New management fails to articulate or execute a credible plan to close the operating margin gap within 24 months.",
+   "Comparable sales growth turns negative for two consecutive quarters.",
+   "The company initiates significant debt-funded acquisitions that deviate from the core home-improvement focus.",
+   "The housing market experiences a structural downturn that impairs long-term FCF generation capacity."
+  ],
+  "what_would_change_our_mind": "Evidence that the margin gap is structurally locked due to unavoidable operational inefficiencies that new leadership cannot fix.",
+  "memo": "Lowe's Companies is a dominant player in the home improvement industry, operating over 2,100 stores that provide stable, recurring demand for repair and renovation [D01]. The business is inherently simple and cash-generative, underpinned by massive scale in sourcing and distribution that creates significant barriers to entry [D01, D02].\n\nWe believe the market significantly misjudges Lowe's, viewing its 9.6% operating margin as structurally inferior to Home Depot’s 14.5% [D01, D06]. Our analysis suggests this 490 basis point gap is not a permanent feature of the business, but a symptom of remediable operational underperformance [D01].\n\nWith the recent retirement announcement of the CEO and the appointment of new board members in March 2018, the necessary catalysts for change are now in place [D01, D07]. We expect new leadership to prioritize supply chain rationalization and inventory management to bridge this performance gap over the next three to five years [D01].\n\nWe have acquired our position at 15.5x FY2018 earnings guidance, a valuation that does not fully reflect the potential for normalized margins and mid-to-high single-digit earnings growth [D01, D04]. We anticipate this will drive substantial value creation, with expected returns in the low-twenties percent range [D03].\n\nThe primary risk remains that the margin differential proves more structural than expected, limiting our ability to drive convergence [D01, D05]. However, given the strength of the company's core franchise and its resilient balance sheet, we view the downside as protected [D01, D02].\n\nWe are initiating a 10% position in Lowe's, consistent with our strategy of investing in high-quality businesses undergoing positive management transitions [D01, Rule 5]. We will work quietly with the board and new management to support the execution of these improvements.",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

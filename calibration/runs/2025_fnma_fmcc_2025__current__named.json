@@ -1,0 +1,51 @@
+{
+ "pack": "2025_fnma_fmcc_2025",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2025-01-15",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-01-15",
+  "company": "Fannie Mae and Freddie Mac",
+  "ticker": "FNMA/FMCC",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Necessity of franchise: intact [D00]",
+   "Earnings and capital accumulation: strengthened [D03], [D04]",
+   "Policy path toward recapitalization: improved catalyst [D08], [D09]",
+   "Economic participation: remains contingent/unresolved [D02], [D06]"
+  ],
+  "forward_irr_estimate_pct": 20,
+  "valuation_now": "Market price reflects early-stage optimism; intrinsic value estimated by management at ~$34/share based on hypothetical scenarios [D05], [D09]",
+  "drivers": [
+   {
+    "driver": "The election of a new administration provides a viable policy catalyst for recapitalization that was previously absent [D08], [D09].",
+    "citations": [
+     "D08",
+     "D09"
+    ]
+   },
+   {
+    "driver": "Both enterprises have successfully rebuilt significant net worth while continuing to fulfill their essential guarantee function [D03], [D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "While the recent rally reflects shifting expectations, the potential for an asymmetric return remains if the government adopts a negotiated recapitalization path [D05], [D06], [D09].",
+    "citations": [
+     "D05",
+     "D06",
+     "D09"
+    ]
+   }
+  ],
+  "memo": "After more than a decade of ownership, the GSEs are finally approaching a potential inflection point [D09]. While our investment has not historically been a great success, the incoming administration offers a plausible path toward exiting conservatorship, a development that has long been the primary missing catalyst for realizing intrinsic value [D08], [D09]. The underlying guarantee businesses continue to prove their necessity and have successfully accumulated significant capital, strengthening the platform for a eventual recapitalization [D02], [D03].\n\nWe recognize the risks inherent in this position remain high, including uncertainty regarding the treatment of senior preferred liquidation preferences, warrant dilution, and the exact regulatory capital requirements that will be imposed [D02], [D06], [D10]. The recent amendments requiring Treasury consent for release, while adding procedural steps, do not break the thesis but rather underscore that any resolution must be a negotiated, orderly process [D06], [D08].\n\nGiven the significant appreciation since October, the market is beginning to price in a more favorable outcome, but we believe the gap between current prices and our estimated intrinsic value in a successful scenario remains sufficiently wide to justify maintaining our position [D05], [D09]. As we have cautioned, this remains a situation where shareholders should limit their exposure to what they can afford to lose, as political objectives may still diverge from shareholder outcomes [D06], [D09]. We maintain our conviction that the alignment of taxpayer and shareholder interests in a successful recapitalization remains the most logical path forward [D06].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

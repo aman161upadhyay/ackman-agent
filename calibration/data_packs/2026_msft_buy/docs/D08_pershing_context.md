@@ -1,0 +1,15 @@
+Title: Public portfolio context at January 30
+Source: compiled from: https://assets.pershingsquareholdings.com/wp-content/uploads/2026/01/15162701/PSH-Fact-Sheet-December-2025-Website.pdf; https://assets.pershingsquareholdings.com/wp-content/uploads/2025/08/20192925/Pershing-Square-Holdings-Ltd.-June-2025-Interim.pdf; https://www.institutionalinvestor.com/article/facing-losses-ackman-exits-chipotle-and-nike; https://finance.yahoo.com/news/bill-ackman-bets-2-magnificent-212245570.html
+Date: 2026-01-15
+
+The December 31 PSH fact sheet was published January 15. It reports $15.536 billion equity before accrued performance-fee deductions and $19.187 billion gross AUM including debt principal. Debt-to-total-capital was 19.5%. Neither number is the manager's total firm AUM; nor does gross AUM represent cash available for a new purchase.
+
+Publicly disclosed holdings listed are Alphabet, Amazon, Brookfield, Fannie Mae, Freddie Mac, Hertz, Hilton, Howard Hughes, Pershing Square SPARC, Restaurant Brands, Seaport, Uber and Universal Music. The fact sheet explicitly updates the holdings list only after an investment is disclosed, and removes a position only after an exit is disclosed. It is therefore a public-information set, not a guarantee of complete current economic exposure.
+
+The latest US 13F available by January 30 is the September-quarter filing made November 14; the December-quarter filing is not yet public. Complete independently authenticated line-item weights from that filing are not included here. An older June-quarter secondary report gave rough reported-book weights of 21% Uber, 19% Brookfield, 11% Restaurant Brands and 9.3% Amazon. Those are stale perimeter-specific observations, not January NAV weights. Exact January cash is unavailable. H1 reported $1.404 billion June 30 cash against $14.715 billion net assets.
+
+Public November 21 Institutional Investor coverage of the November investor call says Chipotle and Nike exposure was exited, with Nike's remaining exposure in options. This predates the cutoff. The story incorrectly says the original Chipotle purchase was in 2015; that incidental date is not relied upon. Canadian Pacific's April exit was already disclosed in the August H1 report.
+
+The fact sheet states that the substantial majority of the portfolio is normally allocated to 8–12 core positions, typically liquid listed North American large caps. It emphasizes “high-quality growth businesses” with limited downside and “predictable, recurring cash flows.” It describes normally only one to three new core investments per year and selective governance/operating intervention, with opportunistic hedging.
+
+Existing Alphabet and Amazon exposures make additional enterprise-platform exposure relevant to concentration and correlated AI capital-spending risk. No authenticated Microsoft-specific pre-cutoff Ackman thesis quotation is available in these materials. Later letters or filings cannot be used to fill the January information gap. This context supplies capital-allocation constraints, not a recommendation about Microsoft.

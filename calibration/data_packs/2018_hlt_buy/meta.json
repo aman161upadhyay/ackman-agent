@@ -1,0 +1,12 @@
+{
+  "id": "2018_hlt_buy",
+  "company": "Hilton Worldwide",
+  "ticker": "HLT",
+  "aliases": ["Hilton"],
+  "as_of_date": "2018-10-15",
+  "mode": "new",
+  "era": "D",
+  "first_action_window": "First purchase October 8 per retrospective 2026 presentation; cutoff October 15 is during accumulation. October 25 public announcement excluded.",
+  "pershing_aum_usd_bn": 4.1149,
+  "notes": "AUM is June 30 PSH vehicle AUM, not total manager AUM or fresh equity. January 2017 spins and January 2018 revenue accounting changes prevent naive historical comparisons. Cutoff close $72.99 and volume recovered."
+}

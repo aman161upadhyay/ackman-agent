@@ -1,0 +1,53 @@
+{
+ "trade_id": "2021_umg_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 5,
+  "matched": [
+   "Leading global music-rights/catalog platform acts as a royalty on growing consumption. → The Company represents a premier global music intellectual property business, commanding a leadership position through a deep, durable catalog and significant scale in artist development",
+   "Paid streaming penetration and improved monetization offer a long runway. → It meets our standard for a high-quality compounder, underpinned by the secular growth of paid streaming which continues to drive industry-wide expansion",
+   "Negotiated pre-listing ownership and separation can unlock independent valuation. → The spin-off process serves as our primary catalyst, expected to resolve governance uncertainties and allow the market to re-rate the entity as a standalone asset"
+  ],
+  "missed": [
+   "Repeat licensing, scale and operating leverage support capital-light cash growth.",
+   "Lucian Grainge and patient ownership align with long-duration compounding."
+  ],
+  "extra_agent_drivers": [
+   "Market mispricing due to short-term hit-driven volatility"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "UMG is a dominant global leader in music intellectual property with a vast catalog and strong market position",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The secular tailwind of paid music streaming provides a durable runway for long-term growth",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The spin-off from Vivendi acts as a catalyst to resolve governance concerns and unlock standalone valuation",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Implied enterprise value of €30 billion",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 3,
+  "share": 0.23
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We have decided to PASS on this investment at this time.",
+ "grader_notes": "The agent identifies the core qualitative drivers (catalog, streaming growth, spin-off catalyst) accurately in line with Ackman. However, it fails on the decision (PASS vs BUY) and cites a lack of financial transparency as a reason, which deviates from Ackman's high-conviction purchase thesis based on the quality of the assets and the negotiated entry terms.",
+ "run": "2021_umg_buy__current__masked"
+}

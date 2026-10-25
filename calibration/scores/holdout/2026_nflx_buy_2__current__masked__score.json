@@ -1,0 +1,55 @@
+{
+ "trade_id": "2026_nflx_buy_2",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Advertising broadens monetization and the lower-priced tier expands the addressable audience. → The company is successfully executing a pivot to an advertising-supported model to supplement its core subscription growth.",
+   "A large valuation reset overdiscounted engagement, AI-content and competitive concerns. → We are acquiring the business at an attractive 19.3x NTM P/E following a 29.3% market-driven drawdown."
+  ],
+  "missed": [
+   "Scale and competitive position had become sufficiently established to restore confidence after 2022.",
+   "Content-spend discipline and stronger earnings-to-FCF conversion changed the underlying financial evidence."
+  ],
+  "extra_agent_drivers": [
+   "The earnings path is supported by a consistent 15% revenue growth algorithm and disciplined capital allocation, including $1.3 billion in Q1 2026 share repurchases.",
+   "The market is incorrectly pricing in governance risk following the board departure of a founder, whereas the co-CEO structure has demonstrated operational stability."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "We view the recent 29.3% drawdown as a temporary dislocation rather than an impairment of the business's fundamental trajectory.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "governance transition following the departure of Reed Hastings from the board",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "15% annual EPS growth sustained by continued revenue expansion and disciplined 31.5% operating margins",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "balance sheet, with only $2.14 billion in net debt",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 9,
+  "share": 0.75
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We view the recent 29.3% drawdown as a temporary dislocation rather than an impairment of the business's fundamental trajectory [D05].",
+ "grader_notes": "The agent correctly identified the BUY direction and captured two of the four primary drivers, specifically regarding valuation dislocation and advertising growth. The agent's reasoning was farthest from Ackman's by focusing heavily on governance transitions and short-term capital allocation metrics which were not highlighted in the provided answer key.",
+ "run": "2026_nflx_buy_2__current__masked",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

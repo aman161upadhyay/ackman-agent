@@ -1,0 +1,53 @@
+{
+ "trade_id": "2013_fnma_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Essential guarantee infrastructure and the prepayable 30-year fixed mortgage cannot readily be replaced. → Fannie Mae is a dominant, essential pillar of the American housing market, providing the scale and infrastructure necessary for liquid mortgage issuance [D01].",
+   "Challenge the sweep and restore a route from enterprise profits to shareholder value; this is Ackman's position, not a final legal holding. → Our role is to support the ongoing legal challenges and engage with stakeholders to ensure that any reform preserves the rights of common shareholders rather than prioritizing a total wind-down [D05, D06]."
+  ],
+  "missed": [
+   "Recapitalize and eventually release the enterprises; Treasury warrant ownership could align taxpayer upside with common.",
+   "Large potential valuation gap conditional on capital structure and policy; later 2014 US$23–47 scenarios must not be imported as 2013 prices or realized returns."
+  ],
+  "extra_agent_drivers": [
+   "The market incorrectly views the government's conservatorship and net-worth sweep as a permanent, terminal impairment of value, failing to price the option value of shareholder rights",
+   "The current equity valuation is highly asymmetric, offering significant upside relative to the downside of a total loss should legal or political resolution prove favorable"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Fannie Mae is a dominant, essential pillar of the American housing market",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the company has proven its fundamental vitality by generating six consecutive quarters of profitability",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "market has mispriced this asset as having zero value",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the primary threat is a government-led liquidation that leaves nothing for common shareholders",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 5,
+  "share": 0.36
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are initiating a 5% position in the common equity [D05].",
+ "grader_notes": "The agent correctly identifies the essential nature of the GSE infrastructure and the necessity of challenging the net-worth sweep to restore shareholder rights. However, the agent's reasoning diverges by focusing on 'asymmetric option value' and market mispricing rather than the specific Ackman-stated drivers regarding the alignment of Treasury warrants with common equity and the long-term recapitalization release model.",
+ "run": "2013_fnma_buy__current__masked"
+}

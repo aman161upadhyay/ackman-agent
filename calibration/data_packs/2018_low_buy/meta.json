@@ -1,0 +1,12 @@
+{
+  "id": "2018_low_buy",
+  "company": "Lowe's Companies",
+  "ticker": "LOW",
+  "aliases": ["Lowe's", "Lowes"],
+  "as_of_date": "2018-04-02",
+  "mode": "new",
+  "era": "D",
+  "first_action_window": "First 2018 purchase day unknown; public approximately $1bn position disclosed May23. April2 is an assigned pre-disclosure decision proxy.",
+  "pershing_aum_usd_bn": null,
+  "notes": "CEO search known; May22 Ellison appointment NOT available. Dated February earnings and March26 retirement announcement used. Exact first purchase and current fund AUM unavailable."
+}

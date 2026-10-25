@@ -1,0 +1,244 @@
+{
+ "pack": "2012_hlf_short",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2012-12-18",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Herbalife sells weight-management, nutritional, and personal-care products through a network of independent distributors in over 80 countries [D01]. Its distribution model relies on distributors who may resell products, consume them, or recruit others, with compensation tied to sales and network activity [D01].",
+   "segments_and_mix": [
+    "Weight management: 62.5% of sales [D01]",
+    "Targeted nutrition: 22.8% of sales [D01]",
+    "Energy/sports/fitness: 4.9% of sales [D01]",
+    "Outer nutrition: 4.3% of sales [D01]",
+    "Other: 5.5% of sales [D01]"
+   ],
+   "unit_economics": [
+    "Distributor discounts range from 25% to 50% [D01]",
+    "Operating margins: 12.7% (2009), 14.2% (2010), 16.3% (2011), 15.8% (Q3 2012) [D02]",
+    "FCF conversion: CFO less cash PP&E was US$418.9m in 2011 [D02]"
+   ],
+   "competitive_position": [
+    "Operates in over 80 countries [D01]",
+    "Competes with other direct-selling firms like Nu Skin, USANA, and Avon [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "Sales growth: 17.6% (2010), 26.3% (2011) [D02]",
+    "2013 outlook: 10–12% net-sales growth and EPS of US$4.40–US$4.55 [D03]"
+   ],
+   "balance_sheet": [
+    "Net debt as of Sept 30, 2012: US$178.715 million [D02]",
+    "Total debt: US$500.437 million [D02]"
+   ],
+   "management_and_governance": [
+    "CEO: Michael Johnson [D01]",
+    "Governance: CNBC reported on high realized compensation for CEO Johnson, including option exercises [D07]"
+   ],
+   "price_and_valuation": [
+    "Price as of Dec 18, 2012: US$42.50 [D04]",
+    "Market cap: Approximately US$4.83 billion [D04]",
+    "P/E (2012 guidance): 10.5–10.7x [D04]",
+    "P/E (2013 guidance): 9.3–9.7x [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Lack of visibility into final product consumption outside the distributor network [D01][D05]",
+    "Distributor compensation incentives versus genuine retail demand [D01][D05]",
+    "Concerns regarding the legitimacy of the multilevel marketing model [D05]"
+   ],
+   "recent_events": [
+    "May 1, 2012: Stock declined ~20% following questions from David Einhorn [D05][D07]",
+    "May 3, 2012: Announced US$427.9 million repurchase agreement [D07]",
+    "October 29, 2012: Reported record Q3 results and provided 2013 guidance [D03]"
+   ],
+   "pershing_context": [
+    "AUM: ~US$11 billion (Nov 2012) [D08]",
+    "Existing stake: Not in pack (Herbalife not listed in Nov 2012 13F filing) [D08]"
+   ],
+   "missing_data": [
+    "Independent retail customer count",
+    "Net-profit distribution across all distributors",
+    "Acquisition-inclusive ROIC",
+    "Contemporaneous short-interest borrow fees and utilization rates",
+    "Verified street consensus estimates"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The business model relies on a multi-level marketing structure where retail demand is indistinguishable from recruitment-driven inventory loading, making future cash flows unpredictable [D01][D05]."
+    },
+    "barriers_to_entry": {
+     "score": "FAIL",
+     "evidence": "The company competes in a commoditized direct-selling sector with low barriers to entry and direct competitors like Nu Skin and USANA [D06]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business is highly sensitive to regulatory scrutiny regarding the legitimacy of its compensation and distribution model across 80+ jurisdictions [D01][D05]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains modest leverage with net debt of US$178.7 million against a market cap of nearly US$5 billion [D02][D04]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The company generates sufficient cash flow and maintains liquidity to self-fund operations and execute large share repurchases [D02][D07]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The market capitalization of approximately US$4.83 billion provides sufficient liquidity for a position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock trades at a low forward P/E of approximately 9.3–9.7x based on 2013 guidance [D04]."
+    },
+    "management_governance": {
+     "score": "FAIL",
+     "evidence": "Governance concerns exist regarding high executive compensation and the sustainability of the distribution incentives [D05][D07]."
+    },
+    "durable_growth_runway": {
+     "score": "FAIL",
+     "evidence": "Growth is tied to the recruitment-heavy business model which faces existential regulatory risk, calling into question the durability of the growth [D01][D05]."
+    }
+   },
+   "n_pass": 4,
+   "n_fail": 5,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a questionable multi-level marketing scheme with high regulatory risk and opaque underlying demand"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "variant_perception": "The market views Herbalife as a legitimate nutritional products company trading at an attractive earnings multiple [D04]. We believe the market is wrong because the business model is a pyramid scheme where growth is driven by recruitment rather than sustainable retail demand, which will eventually lead to regulatory intervention [D01][D05].",
+   "evidence": [
+    "The business model relies on a multi-level marketing structure where retail demand is indistinguishable from recruitment-driven inventory loading [D01][D05].",
+    "The company faces existential regulatory risk regarding the legitimacy of its compensation and distribution model across 80+ jurisdictions [D01][D05].",
+    "Growth in distributor recruitment is the primary driver of performance, calling into question the durability of the business [D05]."
+   ],
+   "market_narrative_we_disagree_with": "The company is a fast-growing, high-margin nutritional product retailer trading at a cheap valuation [D03][D04].",
+   "what_must_be_true": [
+    "Regulators classify the distribution and compensation model as an illegal pyramid scheme.",
+    "True retail demand is significantly lower than reported sales figures suggest.",
+    "The current recruitment-led incentive structure collapses under legal or regulatory scrutiny."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "pre_2018_sum_of_parts",
+   "entry_multiple": "9.3x-9.7x 2013 EPS guidance vs S&P 500 approx 14x [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2012",
+    "base_value": "$4.40-$4.55",
+    "growth_assumption": "Regulatory collapse implies earnings go to $0",
+    "year_3_to_5_value": "$0",
+    "assumptions": [
+     "Regulatory intervention terminates pyramid scheme business model [D01][D05]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 0,
+    "why": "The business model is a pyramid scheme destined for regulatory closure; intrinsic value is zero [D01][D05]"
+   },
+   "implied_irr_pct": {
+    "base": -100,
+    "bear": -100,
+    "bull": -100
+   },
+   "downside_case": "Complete loss of capital as the stock price trends toward zero upon the identification of the business as an illegal pyramid scheme by regulators [D01][D05].",
+   "valuation_verdict": "EXPENSIVE_BELOW_10",
+   "flagged_assumptions": [
+    "Assumption that the regulatory environment will lead to the total cessation of business operations [D01][D05]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C3",
+   "catalyst_description": "We are initiating a public short position to expose the business as an illegal pyramid scheme, which will trigger regulatory investigation and enforcement actions by the FTC and other authorities [D01][D05].",
+   "levers_or_steps": [
+    "1. Publicly present evidence that the business model relies on recruitment rather than genuine retail demand [D01][D05].",
+    "2. Stimulate regulatory review by the FTC [D05].",
+    "3. Impact investor confidence as the market realizes the business is not a high-growth retailer but a fraudulent scheme [D05]."
+   ],
+   "time_to_value_realisation_years": 2,
+   "why_this_role_fits_the_era": "In our 2004-2012 activist era, we utilize public research and direct engagement with regulators to surface the truth about companies with fundamentally broken business models, targeting a zero-value outcome for this short position [D01][D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "FTC or other major regulatory authority determines the compensation and distribution structure is an illegal pyramid scheme [D01][D05].",
+    "Evidence emerges that a majority of product purchases are driven by distributor loading rather than external retail demand, leading to a collapse in the recruitment model [D01][D05].",
+    "Management takes action that significantly limits our ability to effect change or increases company legitimacy without addressing core structural fraud [D05]."
+   ],
+   "portfolio_fit": "This is a new, large-scale activist short position. It does not overlap with our existing long-only portfolio and serves as a targeted outcome-based investment within our activist era mandate [D05][D08].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 15
+   },
+   "liquidity_assessment": "Given the market cap of US$4.83 billion and average daily trading volume, we believe we can establish a significant short position over several weeks while keeping trade sizes within manageable percentage limits of daily volume [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that the market and regulators continue to view the business as a legitimate nutritional retailer, leading to a short squeeze or failure to trigger the necessary enforcement action to validate our thesis [D01][D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2012-12-18",
+  "company": "Herbalife Ltd.",
+  "ticker": "HLF",
+  "decision": "SHORT_HEDGE",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C3",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "9.3x-9.7x 2013 EPS guidance",
+   "eps_path": "Regulatory intervention is expected to terminate the business model, reducing long-term earnings to zero.",
+   "terminal_multiple": "0",
+   "irr_pct": -100,
+   "downside_case": "The stock price trends to zero as the company is exposed as an illegal pyramid scheme."
+  },
+  "drivers": [
+   {
+    "driver": "The business operates as a pyramid scheme where growth is driven by recruitment rather than sustainable retail demand [D01][D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The model faces existential regulatory risk across 80+ jurisdictions which will ultimately lead to enforcement actions [D01][D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Retail demand is indistinguishable from recruitment-driven inventory loading, making the company's reported financial performance deceptive [D01][D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The company’s high-margin profile and growth metrics are artificial outcomes of a compensation structure that incentivizes distributor loading [D01][D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "FTC or other major regulatory authority determines the compensation and distribution structure is an illegal pyramid scheme [D01][D05].",
+   "Evidence emerges that a majority of product purchases are driven by distributor loading rather than external retail demand, leading to a collapse in the recruitment model [D01][D05].",
+   "Management takes action that significantly limits our ability to effect change or increases company legitimacy without addressing core structural fraud [D05]."
+  ],
+  "what_would_change_our_mind": "Evidence that a substantial majority of product sales are made to external retail customers who are not part of the distributor recruitment network, proving the business model is not a pyramid scheme.",
+  "memo": "Herbalife Ltd. presents itself as a nutritional product company operating in over 80 countries, but our analysis reveals a fundamentally fraudulent business model [D01][D06]. While the company reports healthy margins and strong sales growth, its compensation and distribution structure is driven by distributor recruitment rather than genuine retail demand [D01][D05]. This multi-level marketing scheme prioritizes inventory loading over the actual consumption of products by third-party customers [D01][D05].\n\nThe market has been misled by reported financial metrics that fail to reflect the underlying instability of the business [D03][D05]. Investors currently view the company as a legitimate, high-growth retailer trading at a seemingly attractive valuation of approximately 9.3x to 9.7x 2013 earnings [D03][D04]. However, this valuation is fundamentally flawed because it assumes a sustainable business, whereas we believe the company is an illegal pyramid scheme destined for regulatory closure [D01][D04].\n\nOur analysis suggests the intrinsic value of the business is zero, as the current model cannot survive legal or regulatory scrutiny [D01][D05]. We expect the stock price to trend toward zero once the public and regulators recognize the deception regarding its core operations [D01][D05]. We are initiating a short position to expose these facts and stimulate necessary oversight [D01][D05].\n\nThe primary risk to our position is the possibility that regulators fail to take decisive enforcement action, allowing the market to remain misinformed [D01][D05]. Nonetheless, we are committing 10% of our NAV to this short position, as the evidence of a fraudulent structure is compelling and the opportunity to expose it is substantial [D05][D08]. We remain prepared to increase our conviction as our thesis is validated by external investigations [D05].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

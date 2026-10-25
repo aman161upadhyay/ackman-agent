@@ -1,0 +1,21 @@
+{
+  "id": "2024_htz_buy",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav_at_cost": "Smaller asymmetric turnaround; 19.8% economic stake in company announced April17 2025 via common and swaps, not19.8% fund NAV. Exact initial NAV allocation unavailable.",
+  "first_action_date": "2024-11-11",
+  "disclosure_date": "2025-04-17",
+  "reason_class": null,
+  "opportunity_template": ["T8", "T2"],
+  "catalyst_role": "C1",
+  "drivers": [
+    {"driver": "Concentrated rental industry and rational pricing can support normalized profitability.", "source": "https://x.com/BillAckman/status/1912955549542744462 (2025-04-17)", "quote": null},
+    {"driver": "Gil West and fleet rotation can repair depreciation and operating costs.", "source": "https://x.com/BillAckman/status/1912955549542744462 (2025-04-17)", "quote": null},
+    {"driver": "A leveraged vehicle portfolio creates large equity sensitivity to residual values.", "source": "https://x.com/BillAckman/status/1912955549542744462 (2025-04-17)", "quote": "Hertz can be thought of as an operating company combined with a highly leveraged portfolio of automobiles."},
+    {"driver": "Liquidity and distant principal maturities provide time for the turnaround, subject to cash burn.", "source": "https://x.com/BillAckman/status/1912955549542744462 (2025-04-17)", "quote": null},
+    {"driver": "AV servicing is additional optionality, not a signed contract or a November2024 fact.", "source": "https://x.com/BillAckman/status/1912955549542744462 (2025-04-17)", "quote": "What if UBER partnered with Hertz on an AV fleet roll out over time?"}
+  ],
+  "entry_valuation_stated": "$3.81 average cost at announcement, retrospective February2026 presentation; April2025 $30 scenario not a pre-entry valuation.",
+  "outcome_note": "Exited July2026; August2026 interim reports -1.1 percentage points gross NAV contribution through August11 and management/financing confidence deterioration.",
+  "pack_quality_notes": "User-requested November12 after-release pack deliberately follows actual November11 first purchase. Q3 correctly dated; literal pre-entry replay would use November8 and Q2. April2025 tariffs and AV argument excluded from pack. Industry adjusted EBITDA benchmarks sourced; full adjusted FCF history, forward multiples and exact initial sizing missing."
+}

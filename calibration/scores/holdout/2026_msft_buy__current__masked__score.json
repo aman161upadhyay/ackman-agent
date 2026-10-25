@@ -1,0 +1,56 @@
+{
+ "trade_id": "2026_msft_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Copilot and consumption-based monetization can expand the valuable existing enterprise bundle → We expect a 15% EPS CAGR over the next several years as AI-integrated products like Copilot move from development to scale"
+  ],
+  "missed": [
+   "M365 is an embedded enterprise workflow platform rather than an easily displaced point solution.",
+   "Azure benefits from secular migration and AI demand, with multiple-model distribution.",
+   "The post-results decline offered an attractive multiple with additional OpenAI equity value."
+  ],
+  "extra_agent_drivers": [
+   "The company maintains a dominant position in essential enterprise software and cloud infrastructure with high margins and a fortress balance sheet.",
+   "A 22.5% drawdown from July 2025 highs provides an attractive entry point for a high-quality compounder growing cloud revenue at 39%.",
+   "Satya Nadella has demonstrated exceptional stewardship, prioritizing long-term lifetime value over short-term quarterly results."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "With a net cash position of $49.200bn",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "22.5% drawdown from the July 2025 peak",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "consolidated operating margin of ~47%",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "cloud growth at 39%",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 10,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We expect a natural re-rating as the market shifts its focus from infrastructure spending cycles to the tangible monetization of cloud-based AI [D03].",
+ "grader_notes": "The agent correctly identified the BUY direction but failed to articulate the specific core drivers regarding M365's defensive moats and the OpenAI equity value contribution. The agent's reasoning was closest to Ackman regarding the Copilot monetization opportunity but relied heavily on generalized quality-compounder characteristics rather than the specific enterprise workflow arguments Ackman emphasized.",
+ "run": "2026_msft_buy__current__masked",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

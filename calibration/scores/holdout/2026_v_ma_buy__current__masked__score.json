@@ -1,0 +1,51 @@
+{
+ "trade_id": "2026_v_ma_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 4,
+  "matched": [
+   "Dense global acceptance networks support capital-light transaction tolls without ordinary lender credit exposure. → The Company and the Companystercard operate the world's most important global payment networks, facilitating the movement of money through secure, multi-sided ecosystems [D01].",
+   "Cash displacement, e-commerce, nominal spending and faster-growing services support compounding. → Given the secular tailwinds in cash digitization, e-commerce, and cross-border volume, we expect the companies to deliver double-digit EPS growth over the next five years, supplemented by consistent share repurchases [D01, D02, D03].",
+   "Agentic commerce and stablecoins need not bypass trusted authorization, recourse and acceptance; networks can integrate the new technology. → We believe these concerns are overstated, as the networks are already aggressively deploying tokenization and identity services to ensure their infrastructure remains the bedrock of future global payments [D01, D07].",
+   "Regulatory and disruption fears created an attractive roughly22x forward entry valuation. → Currently, the market is mispricing these franchises due to misplaced fears regarding the Credit Card Competition Act and the emergence of alternative payment technologies like AI-agents and stablecoins [D05, D07]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": []
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company and the Companystercard operate the world's most important global payment networks, facilitating the movement of money through secure, multi-sided ecosystems.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We were able to acquire our stake at approximately 30x prior-year earnings, a valuation that we view as highly attractive for businesses of this quality.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Currently, the market is mispricing these franchises due to misplaced fears regarding the Credit Card Competition Act and the emergence of alternative payment technologies like AI-agents and stablecoins.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Given the secular tailwinds in cash digitization, e-commerce, and cross-border volume, we expect the companies to deliver double-digit EPS growth over the next five years.",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 5,
+  "share": 0.42
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Currently, the market is mispricing these franchises due to misplaced fears regarding the Credit Card Competition Act and the emergence of alternative payment technologies like AI-agents and stablecoins [D05, D07].",
+ "grader_notes": "The agent correctly identified all four of Ackman's drivers, showing a strong conceptual understanding of the investment thesis. The reasoning was closest in its characterization of the networks as essential infrastructure and furthest in its specific valuation metrics (30x vs Ackman's ~22x), though the investment decision and conviction level were aligned.",
+ "run": "2026_v_ma_buy__current__masked",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ctl_2022_cvna_pass",
+  "actual_decision": "PASS",
+  "conviction": "high",
+  "size_pct_nav": 0,
+  "first_action_date": null,
+  "disclosure_date": null,
+  "reason_class": null,
+  "decision_basis": "Constructed discipline control, not a documented rejection or an instruction to short.",
+  "drivers": [
+    {"driver": "Negative operating cash, capacity spending and acquisition funding make survival/growth dependent on capital access rather than self-funding owner earnings.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf (2015-03-24)", "quote": "do not need access to the capital markets to survive and thrive"},
+    {"driver": "Long-term unit economics and network returns are unproven; revenue growth or customer satisfaction is not predictable distributable cash.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf", "quote": "simple, predictable, free-cash-flow generative businesses"},
+    {"driver": "Used-car values, consumer credit and securitization/funding spreads can dominate returns outside an activist's control.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf", "quote": "extrinsic factors we cannot control"}
+  ],
+  "ackman_public_statement": "none found — discipline control",
+  "outcome_note": "No later restructuring, refinancing or share recovery informs the control. PASS is not a bankruptcy forecast; a business may ultimately succeed while the current financing path fails a concentrated investor's requirements.",
+  "sources": ["https://www.sec.gov/Archives/edgar/data/1690820/000169082022000139/ex99_1q12022.htm", "https://investors.carvana.com/news-releases/2022/04-28-2022-052107506", "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf"]
+}

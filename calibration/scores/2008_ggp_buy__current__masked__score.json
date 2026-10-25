@@ -1,0 +1,58 @@
+{
+ "trade_id": "2008_ggp_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Assets exceeding creditor claims can preserve a residual for common shareholders in bankruptcy → the market assumes that because the company warned of potential bankruptcy, the equity is worthless; we believe this ignores the significant intrinsic value of the real estate, which we estimate exceeds the US$27.7 billion in debt claims",
+   "A small dollar commitment at a distressed share price offers a bounded equity loss against very large residual-value upside → We believe this position offers a highly asymmetric return profile."
+  ],
+  "missed": [
+   "The immediate problem was an unprecedented credit-market disruption coinciding with maturities, not a destroyed mall franchise.",
+   "Long-lease mall cash flows could support value through a restructuring rather than a forced sale."
+  ],
+  "extra_agent_drivers": [
+   "Governance is in flux following the resignation of key leadership",
+   "We have the ability to negotiate a standstill agreement and debt-for-equity swap"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "General Growth Properties is the second-largest owner of regional shopping malls in the United States",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "company faces a liquidity trap with nearly US$1 billion in debt maturing by December 1, 2008",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "stock down 99.1% to a valuation of 0.15x P/FFO",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "estimate exceeds the US$27.7 billion in debt claims",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Our role is to act as a catalyst for a comprehensive financial restructuring, including a debt-for-equity swap",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 3,
+  "share": 0.23
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We believe this position offers a highly asymmetric return profile.",
+ "grader_notes": "The agent correctly identified the 'option-like' nature of the distressed equity and the core argument that asset value exceeds debt liabilities. However, the agent focused heavily on active governance and board intervention as primary drivers, whereas Ackman's stated thesis emphasized the macro-driven nature of the liquidity crisis and the fundamental quality of the underlying mall cash flows.",
+ "run": "2008_ggp_buy__current__masked"
+}

@@ -1,0 +1,56 @@
+{
+ "trade_id": "2018_hlt_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 4,
+  "matched": [
+   "Asset-light, high-margin franchise and management-fee economics. → Hilton Worldwide is a premier global hospitality company operating an asset-light, high-margin franchise and management system [D01].",
+   "Brands, loyalty and distribution attract owners and guests. → Hilton maintains a significant competitive advantage through its global scale and the Hilton Honors loyalty platform [D01].",
+   "Net-unit growth and development pipeline support long-duration compounding. → Given the company’s ability to grow earnings per share in the mid-teens through a combination of 6.5% net-unit growth and aggressive share repurchases, we anticipate a high rate of return [D01, D03].",
+   "Chris Nassetta's team and disciplined cash returns. → Under CEO Christopher Nassetta, the company has successfully optimized its balance sheet and structure to maximize long-term intrinsic value [D01, D03]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The market misprices Hilton as a cyclical, leveraged hotel operator rather than a durable, high-quality compounder"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Hilton Worldwide is a premier global hospitality company operating an asset-light, high-margin franchise and management system",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Hilton maintains a significant competitive advantage through its global scale and the Hilton Honors loyalty platform",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market currently misinterprets Hilton as a cyclical, high-leverage hotel operator",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We acquired our position at an implied 2018 P/E of approximately 26.9x",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Under CEO Christopher Nassetta, the company has successfully optimized its balance sheet and structure",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 7,
+  "share": 0.58
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Hilton Worldwide is a premier global hospitality company operating an asset-light, high-margin franchise and management system [D01].",
+ "grader_notes": "The agent correctly identified all four of Ackman's primary investment drivers and provided a matching 'BUY' decision. The reasoning is well-aligned with the provided answer key, focusing on the asset-light business model, unit growth, capital allocation, and leadership. No leakage was detected in the claims.",
+ "run": "2018_hlt_buy__current__named"
+}

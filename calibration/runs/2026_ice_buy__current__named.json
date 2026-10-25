@@ -1,0 +1,244 @@
+{
+ "pack": "2026_ice_buy",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2026-06-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Intercontinental Exchange (ICE) operates a diverse portfolio of exchanges, clearing services, fixed-income/data businesses, and mortgage technology [D01]. The company leverages network effects in exchange liquidity, recurring data revenue, and integrated clearing to support its market infrastructure operations [D01].",
+   "segments_and_mix": [
+    "Exchanges: ~$1.8bn revenue / ~$1.4bn operating income (Q1 2026) [D01, D03]",
+    "Fixed Income/Data Services: $657m revenue / $275m operating income (Q1 2026) [D01, D03]",
+    "Mortgage Technology: $539m revenue / ($13m) operating loss (Q1 2026) [D01, D03]"
+   ],
+   "unit_economics": [
+    "Margins: 79% for Exchanges, 42% for Fixed Income/Data (Q1 2026) [D01]; consolidated adjusted operating margin 65% (Q1 2026) [D03]",
+    "Capex Intensity: Physical capex and capitalized software totaled $791m in 2025 [D02]",
+    "FCF Conversion: Reported 2025 adjusted FCF approximately $4.2bn [D02]; Q1 2026 defined FCF was $1.150bn [D02, D03]"
+   ],
+   "competitive_position": [
+    "Rank: Major operator of energy derivatives and the New York Stock Exchange [D01]",
+    "Moat Evidence: Significant network effects in liquidity and clearing; high barriers to entry via regulation and established market conventions [D01, D05]",
+    "Peers: CME Group, Cboe Global Markets [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "Revenue: Net revenue $9.931bn in 2025 [D02]; Q1 2026 revenue grew 20% year-over-year [D03]",
+    "EPS: FY2025 reported EPS $5.77; adjusted EPS $6.95 [D02, D07]"
+   ],
+   "balance_sheet": [
+    "Net Debt: Approximately $19.537bn (Q1 2026) [D02]",
+    "Rating: Not in pack",
+    "Maturities: Not in pack"
+   ],
+   "management_and_governance": [
+    "CEO: Jeffrey Sprecher (founder/chair/CEO) [D01]",
+    "Incentives/Allocation: Active capital allocation including dividends ($1.105bn in 2025) and repurchases ($1.294bn in 2025) [D02]",
+    "Controller: Not in pack"
+   ],
+   "price_and_valuation": [
+    "Price: $123.11 (June 30, 2026) [D04]",
+    "Market Cap: ~$70.173bn (equity-value proxy) [D04]",
+    "Drawdown: ~4% decline in early June 2026 related to perpetual futures scare [D04, D05]",
+    "P/E: 21.3x (Price/FY2025 reported EPS); 17.7x (Price/FY2025 adjusted EPS) [D04]",
+    "FCF Yield: Approximately 6.0% (based on FY2025 adjusted FCF) [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Competitive/Regulatory: CFTC enabling perpetual crypto futures creating potential for broader margin/fee compression [D05, D07]",
+    "Technological: Potential for AI to disrupt data/workflow products [D05]",
+    "Cyclical: Mortgage segment operating loss and sensitivity to origination/refinancing conditions [D01, D03, D05]"
+   ],
+   "recent_events": [
+    "May 19, 2026: Announcement of GPU compute futures contracts [D07]",
+    "June 2, 2026: Market selloff following news of perpetual futures approval [D05, D07]"
+   ],
+   "pershing_context": [
+    "AUM: $19.748bn core-fund AUM reported Feb 2026; $5bn raised via April 2026 IPO of Pershing Square USA/Inc [D08]",
+    "Prior Engagement: Not in pack"
+   ],
+   "missing_data": [
+    "Verified full-year 2026 EPS consensus, exact credit ratings, harmonized EV/EBITDA, and detailed debt maturity schedule."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "ICE generates strong recurring revenue through exchange liquidity, clearing, and data services with high consolidated operating margins of 65% [D01, D03]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company holds a dominant position as a major operator of energy derivatives and the NYSE, protected by significant network effects and regulatory barriers [D01, D05]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "PASS",
+     "evidence": "While the mortgage segment is cyclical, the core exchange and data businesses are resilient, and the company benefits from diversified revenue streams [D01, D03, D05]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company demonstrates consistent FCF generation ($4.2bn in 2025) which supports capital allocation, despite carrying $19.537bn in net debt [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The company's strong cash flow generation enables it to self-fund dividends and repurchases, minimizing the need for equity or debt reliance [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a market cap of approximately $70.173bn, it is sufficiently liquid for a concentrated Pershing Square position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock trades at approximately 17.7x adjusted FY2025 EPS with a 6% FCF yield, offering an attractive entry point following recent market dislocations [D04]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "Founder and CEO Jeffrey Sprecher has a proven track record of effective capital allocation and long-term value creation [D01, D02]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "Growth is supported by recurring revenue in data services and long-term expansion in mortgage technology and new financial products [D01, D07]."
+    }
+   },
+   "n_pass": 9,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant, high-margin market infrastructure franchise with significant network effects and durable recurring revenue streams."
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market is overreacting to the potential impact of CFTC-approved perpetual crypto futures on ICE's core exchange and clearing business [D05, D07]. We believe this regulatory development creates negligible long-term impairment to ICE's durable competitive moat, which relies on deep liquidity and massive network effects that perpetual crypto futures are unlikely to disrupt [D01, D05]. As the market realizes that ICE's dominant infrastructure position remains intact, the valuation multiple will expand from its current depressed levels [D04].",
+   "evidence": [
+    "ICE's consolidated adjusted operating margin of 65% reflects a powerful, entrenched business model that is not easily displaced by new financial product innovations [D03].",
+    "The 4% drawdown following the perpetual futures announcement represents a temporary macro-sentiment scare rather than a change in fundamental intrinsic value [D04, D05].",
+    "ICE continues to demonstrate strong 20% year-over-year revenue growth as of Q1 2026, signaling that core franchise momentum remains robust [D03]."
+   ],
+   "market_narrative_we_disagree_with": "The market fears that perpetual crypto futures will lead to broad margin and fee compression across ICE's exchange and clearing segments [D05, D07].",
+   "what_must_be_true": [
+    "ICE's exchange and clearing liquidity remains sticky despite shifts in crypto-asset trading venues.",
+    "Management continues to successfully integrate and pivot the mortgage technology business toward profitability.",
+    "Regulatory barriers remain high, preventing a meaningful erosion of ICE's existing market infrastructure dominant position."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "17.7x 2025 adjusted EPS vs S&P 500 historical average of ~21x [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2025",
+    "base_value": "6.95",
+    "growth_assumption": "12% per annum compound growth driven by exchange volume, recurring data revenue, and mortgage segment breakeven/profitability [D01, D03]",
+    "year_3_to_5_value": "10.93 (projected 2029 adjusted EPS)",
+    "assumptions": [
+     "20% YOY revenue growth in Q1 2026 indicates strong underlying momentum [D03]",
+     "Consolidated 65% operating margin supports sustained earnings power [D03]",
+     "Mortgage technology segment turns to contribution positive [D01, D03]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 22,
+    "why": "Reflects ICE's dominant market infrastructure position, high barriers to entry, and durable, predictable free-cash-flow generation [D01]"
+   },
+   "implied_irr_pct": {
+    "base": 24,
+    "bear": 12,
+    "bull": 30
+   },
+   "downside_case": "If perpetual futures cause structural fee compression, ICE remains a cash-generative utility with a 6% FCF yield, limiting permanent capital loss to valuation compression rather than business model collapse [D04, D05]",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Assumption of 12% annual growth based on Q1 2026 performance and historical moat strength [D03]",
+    "Assumption that mortgage technology segment becomes profitable by year 3 [D03]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We expect a re-rating of ICE's valuation multiple from 17.7x to 22x adjusted EPS as the market recognizes the durability of ICE's moat and the temporary nature of the fears surrounding perpetual crypto futures [D01, D04]. The core exchange and clearing business remains a high-barrier-to-entry franchise that will continue to compound earnings through secular growth in data and the stabilization of mortgage technology [D01, D03, D07].",
+   "levers_or_steps": [
+    "Scale recurring revenue in fixed income and data services to offset cyclical mortgage volatility [D01, D03].",
+    "Achieve profitability in the mortgage technology segment to improve consolidated operating margins [D01, D03].",
+    "Maintain disciplined capital allocation, including opportunistic share repurchases and dividends, supported by $4.2bn in annual FCF [D02]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our Pershing Square 3.0 era, we focus on investing in high-quality compounders during market dislocations without the need for active interference when the management team is proven and the business model is resilient [D01, D02]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Structural fee compression occurs in core exchange or clearing segments due to new derivative product competition.",
+    "Mortgage technology segment fails to achieve sustained profitability within 18 months, indicating a failed integration or flawed business model.",
+    "Management shifts capital allocation away from disciplined buybacks and dividends toward value-destructive M&A funded by excessive leverage."
+   ],
+   "portfolio_fit": "Fits the 'Pershing Square 3.0' quality compounder mandate, adding exposure to financial market infrastructure that complements existing holdings in durable, cash-generative businesses.",
+   "size_pct_nav": {
+    "initial": 4,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "The position can be comfortably built within weeks given the company's multi-billion dollar market cap and strong average daily trading volume, allowing for efficient exit if required [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "A structural change in the regulatory or competitive landscape for derivatives could erode ICE's fee-based moat and result in long-term earnings volatility."
+  }
+ },
+ "final": {
+  "as_of_date": "2026-06-30",
+  "company": "Intercontinental Exchange (ICE)",
+  "ticker": "ICE",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "17.7x 2025 adjusted EPS",
+   "eps_path": "12% CAGR driven by exchange volume and mortgage technology profitability",
+   "terminal_multiple": "22x",
+   "irr_pct": 24,
+   "downside_case": "Valuation compression to a floor justified by a 6% FCF yield"
+  },
+  "drivers": [
+   {
+    "driver": "ICE is a dominant market infrastructure franchise with significant network effects in clearing and energy derivatives, generating 65% consolidated operating margins [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The market is mispricing ICE due to temporary fears regarding perpetual crypto futures, providing an entry point at an attractive 17.7x adjusted 2025 EPS [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "CEO Jeffrey Sprecher has a proven track record of effective capital allocation, returning capital via dividends and buybacks while expanding the business [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The company’s growth algorithm is supported by secular tailwinds in data services and the path to profitability in the mortgage technology segment [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Structural fee compression occurs in core exchange or clearing segments due to new derivative product competition.",
+   "Mortgage technology segment fails to achieve sustained profitability within 18 months.",
+   "Management shifts capital allocation away from disciplined buybacks and dividends toward value-destructive M&A funded by excessive leverage."
+  ],
+  "what_would_change_our_mind": "A fundamental erosion of ICE's competitive moat through regulatory or technological shifts that lead to sustained fee compression in its core exchange and clearing business.",
+  "memo": "Intercontinental Exchange (ICE) is a premier market infrastructure provider, operating a collection of essential assets including the NYSE and global energy derivatives exchanges [D01]. The business model is exceptionally attractive, characterized by high barriers to entry, significant network effects, and robust, recurring free-cash-flow generation [D01, D05]. With consolidated operating margins of 65%, ICE functions as a critical utility for global capital markets that is difficult to replicate [D03, D05].\n\nWe are able to acquire our stake at an attractive 17.7x adjusted 2025 EPS, a valuation that does not fully reflect the long-term durability of the franchise [D04]. The market is currently overreacting to the potential impact of CFTC-approved perpetual crypto futures, which we believe will have a negligible long-term effect on ICE’s core, high-barrier businesses [D05, D07]. This dislocation provides a compelling entry point for a business that continues to demonstrate 20% year-over-year revenue growth as of Q1 2026 [D03, D04].\n\nOur investment thesis relies on ICE’s continued earnings growth of approximately 12% per annum, driven by volume growth in its exchange segment, expanding data services, and the anticipated turnaround to profitability of its mortgage technology business [D01, D03]. Given the company's strong FCF generation of $4.2bn in 2025, we anticipate disciplined capital allocation to continue supporting per-share value creation [D02]. We expect a re-rating of the multiple toward 22x as the market recognizes the stability of the core business [D01, D04].\n\nAs a long-term investor, our role is to provide capital and patience while management executes its strategy, leveraging its dominant position without the need for operational interference [D01]. The primary risks involve structural fee compression or a failure in the mortgage technology integration, both of which we will monitor closely [D01, D05]. With a target position size of 8% of NAV, we believe this investment offers an asymmetric risk-reward profile, with high upside as the market sentiment normalizes [D04].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

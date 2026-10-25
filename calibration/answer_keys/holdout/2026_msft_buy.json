@@ -1,0 +1,22 @@
+{
+  "id": "2026_msft_buy",
+  "size_pct_nav": null,
+  "sources": ["https://x.com/BillAckman/status/2055206659849437592"],
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Original PSH cost weight unavailable; Q1 reportable book approximately 15.3%, not PSH NAV.",
+  "first_action_date": "2026-02 (exact day unknown)",
+  "disclosure_date": "2026-05-15",
+  "reason_class": null,
+  "opportunity_template": ["T1", "T4"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "M365 is an embedded enterprise workflow platform rather than an easily displaced point solution.", "source": "https://x.com/BillAckman/status/2055206659849437592 (2026-05-15; verified in compendium)", "quote": "Unlike point software solutions, which may be vulnerable to disintermediation by better-performing AI alternatives, M365 is tightly integrated into the daily workflow of nearly every large enterprise"},
+    {"driver": "Azure benefits from secular migration and AI demand, with multiple-model distribution.", "source": "https://x.com/BillAckman/status/2055206659849437592 (2026-05-15)", "quote": null},
+    {"driver": "Copilot and consumption-based monetization can expand the valuable existing enterprise bundle.", "source": "https://x.com/BillAckman/status/2055206659849437592 (2026-05-15)", "quote": null},
+    {"driver": "The post-results decline offered an attractive multiple with additional OpenAI equity value.", "source": "https://x.com/BillAckman/status/2055206659849437592 (2026-05-15; verified in compendium)", "quote": "We were able to establish our position at a valuation of 21 times forward earnings"}
+  ],
+  "entry_valuation_stated": "21x forward EPS per May 15 post, not authenticated as January 30 market consensus.",
+  "outcome_note": "June 30 consolidated 13F reports 6,206,730 shares and $2.315bn. H1 letter reports -8% from average cost through June 30 and +3.3 percentage-point contribution through August 11; different measurement periods.",
+  "pack_quality_notes": "8 documents. Changed cutoff to January 30, first trading day after January 29 ~10% drop, before February purchases. January 30 $430.29 historical close authenticated. Forward multiple, own-history range, cutoff peer multiples and exact current cash/portfolio weights unavailable; not filled with later manager numbers. Three-year financials primary-source verified. Drivers with null quote are paraphrases, not invented verbatim text. No February/May spending budgets or April OpenAI amendments in pack."
+}

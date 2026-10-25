@@ -1,0 +1,22 @@
+{
+  "id": "ctl_2022_dis_pass",
+  "actual_decision": "PASS",
+  "conviction": "medium",
+  "size_pct_nav": 0,
+  "first_action_date": null,
+  "disclosure_date": null,
+  "reason_class": null,
+  "decision_basis": "Constructed discipline control, not a documented November2022 refusal. Strong IP/parks are genuine counterevidence; the case hinges on uncertain transition economics.",
+  "drivers": [
+    {"driver": "DTC losses, pricing/ad-tier changes and legacy distribution decline widen the forecast range beyond a simple brand-quality argument.", "source": "https://assets.pershingsquareholdings.com/2022/04/20184527/Letter-to-Shareholders-4.20.2022.pdf (2022-04-20)", "quote": "We require a high degree of predictability in the businesses in which we invest due to the highly concentrated nature of our portfolio."},
+    {"driver": "Require owner cash after content and parks reinvestment, not subscriber scale or adjusted EPS alone. Current FCF yield and leverage do not provide an obvious margin of safety.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf (2015-03-24)", "quote": "simple, predictable, free-cash-flow generative businesses"}
+  ],
+  "ackman_public_statement": {
+    "quote": "Only the company and its advisors have access to how shareholders have voted before the day of the annual meeting",
+    "source": "https://www.cnbc.com/2024/04/02/disney-proxy-fight-vanguard-voting-for-management-over-peltz.html",
+    "date": "2024-04-02",
+    "context": "Later public governance/proxy comment supporting Peltz, not a November2022 buy/pass statement; confined to key."
+  },
+  "outcome_note": "No subsequent leadership change, cost savings, proxy result or return is used. PASS tests forecast discipline, not a universal Disney/media exclusion or a prediction the shares cannot recover.",
+  "sources": ["https://investors.thewaltdisneycompany.com/news/news-details/2022/The-Walt-Disney-Company-Reports-Fourth-Quarter-and-Full-Year-Earnings-for-Fiscal-2022-11-08-2022/default.aspx", "https://assets.pershingsquareholdings.com/2022/04/20184527/Letter-to-Shareholders-4.20.2022.pdf"]
+}

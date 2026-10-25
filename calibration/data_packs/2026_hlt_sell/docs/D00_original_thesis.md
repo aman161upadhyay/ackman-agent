@@ -1,0 +1,13 @@
+Title: Original position and the earliest recovered primary thesis updates
+Source: compiled from: https://assets.pershingsquareholdings.com/2018/10/25020540/Pershing-Square-Announces-Position-in-Hilton-Worldwide-Holdings-Inc.pdf; https://assets.pershingsquareholdings.com/2022/10/07150943/2018-Annual-Report-Letter-Only.pdf; https://assets.pershingsquareholdings.com/2022/10/07155526/2019-Semiannual-Financials-Letter-to-Shareholders.pdf; https://assets.pershingsquareholdings.com/wp-content/uploads/2025/08/20192925/Pershing-Square-Holdings-Ltd.-June-2025-Interim.pdf
+Date: 2025-08-20
+
+The October 25, 2018 announcement establishes a new investment of 10.9 million Hilton shares, 3.7% of the company. At then-current market value it represented approximately 13.9% of PSH NAV, with smaller weights in the private funds. The release does not itself give the detailed underwriting thesis; it promises discussion in the third-quarter letter and call. That original detailed document was not recovered. The quotations below are explicitly dated subsequent primary updates, not invented purchase-day language.
+
+March 19, 2019 letter: “We took advantage of the year-end market downdraft by making a large new investment in Hilton Worldwide Holdings while other investors became forced or irrational sellers.” This attributes part of the opportunity to market conditions and patient capital. It does not say every share was bought at the year-end low.
+
+The August 2019 H1 letter describes the core economics as an “assetlight, fee-based business model” able to compound EPS at a “mid-to-high teens’ growth rate for years to come.” The same update says a large development pipeline, substantial buybacks and a strong management team were underappreciated. Its valuation observation was 23 times consensus 2019 earnings, below its stated view of intrinsic value. That is a 2019 valuation, not a timeless hurdle.
+
+By August 20, 2025, the H1 report continued to call Hilton an “incredible business that offers a unique combination of predictability, resiliency and capital light growth.” This is an ongoing favorable assessment of the business, not a commitment to own at any price.
+
+The thesis can therefore be evaluated on distinct dimensions: owners fund most hotel investment; the brand/distribution system collects recurring fees; net room additions supplement RevPAR; modest corporate reinvestment leaves capital for repurchases; management executes without sacrificing brand economics. A comparison with current information should ask both whether these mechanisms remain intact and whether their expected growth is already capitalized in the share price. Historical thesis continuity alone does not answer the valuation question.

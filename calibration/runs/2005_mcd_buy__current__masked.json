@@ -1,0 +1,246 @@
+{
+ "pack": "2005_mcd_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2005-09-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company operates a global quick-service restaurant system through company-operated, franchised, and affiliated restaurants [D01]. It combines a familiar consumer brand, purchasing scale, and a large physical network with two distinct earnings streams: direct restaurant sales and rent/royalty-type revenue [D01].",
+   "segments_and_mix": [
+    "Company-operated: US$14.224 billion revenue (2004) [D01]",
+    "Franchised/affiliated: US$4.841 billion revenue (2004) [D01]"
+   ],
+   "unit_economics": [
+    "Company-operated restaurant margin: 14.8% (Q2 2005) [D01]",
+    "Franchise margin: 80.2% (Q2 2005) [D01]",
+    "Capex intensity: Improving; capital expenditures declined from US$2.004 billion in 2002 to US$1.419 billion in 2004 [D02]",
+    "FCF conversion: US$2.485 billion calculated CFO less capex in 2004 [D02]"
+   ],
+   "competitive_position": [
+    "Systemwide restaurants: 31,561 (year-end 2004) [D01]",
+    "Moat: Dominant global brand, purchasing scale, and extensive physical network including ownership of ~37% of restaurant land and ~59% of buildings [D01]"
+   ],
+   "growth_record_and_outlook": [
+    "Revenue: US$19.065 billion (2004) [D02]",
+    "Growth objectives: 3–5% annual sales growth and 6–7% operating-income growth [D03]",
+    "Record: 29 consecutive months of positive US comparable sales (as of Sept 2005) [D03]"
+   ],
+   "balance_sheet": [
+    "Total debt: US$8.5569 billion (June 2005) [D02]",
+    "Net debt: US$6.9963 billion (June 2005) [D02]",
+    "Cash: US$1.5606 billion (June 2005) [D02]"
+   ],
+   "management_and_governance": [
+    "CEO: Jim Skinner, overseeing an ongoing recovery [D01]",
+    "Capital allocation: Repurchased US$605 million in stock (2004); increased annual dividend by 22% to US$0.67 in Sept 2005 [D02, D07]"
+   ],
+   "price_and_valuation": [
+    "Price: US$33.49 (Sept 30, 2005) [D04]",
+    "Market cap: ~US$41.865 billion [D04]",
+    "P/E (trailing): 18.7x (based on 2004 EPS of US$1.79) [D04]",
+    "FCF yield: 5.9% (based on 2004 CFO less capex) [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Management refusal to restructure core real estate assets [D05, D07]",
+    "Operating risks including slowing growth in Europe/UK and weak performance in China/Japan [D03, D05]",
+    "Uncertainty regarding hurricane impacts, fuel prices, and franchisee relations [D03, D05]",
+    "Tough year-over-year sales comparisons [D03]"
+   ],
+   "recent_events": [
+    "Sept 9, 2005: August global comparable sales up 3.4% [D07]",
+    "Sept 21, 2005: Management announced intent for minority Chipotle IPO and 22% dividend increase [D07]",
+    "Sept 21, 2005: Management explicitly rejected property restructuring [D05, D07]"
+   ],
+   "pershing_context": [
+    "Firm role: Reported rumors of a 4.9% stake, though not confirmed by either party [D07, D08]",
+    "Activist history: Active in Wendy's; seeking structural improvements and capital returns [D06, D08]"
+   ],
+   "missing_data": [
+    "Independently authenticated current appraisal of real estate holdings [D01]",
+    "Full Pershing Square firm AUM, NAV, and exact current stake size [D08]",
+    "Matched current cost-of-capital/maintenance-capex analysis [D02]"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "The company operates a global system with a significant high-margin franchise stream and 29 consecutive months of positive US comparable sales [D01, D03]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company maintains a dominant global brand, purchasing scale, and ownership of a significant portion of its restaurant land and buildings [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "The business faces exposure to commodity prices, fuel costs, and potential impact from weather events like hurricanes [D03, D05]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a solid balance sheet with US$1.56 billion in cash and demonstrated ability to return capital to shareholders [D02, D07]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The business is free-cash-flow-generative, producing US$2.485 billion in 2004, reducing the need for external financing [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of approximately US$41.865 billion, the asset is highly liquid [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "A P/E of 18.7x and FCF yield of 5.9% offer an attractive entry point for a dominant franchise [D04]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "While management is executing a recovery, they have explicitly rejected structural real estate improvements sought by some investors [D01, D05, D07]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company projects 3–5% annual sales growth and 6–7% operating-income growth with a proven global footprint [D03]."
+    }
+   },
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant global franchisor with high-margin royalty streams and significant real estate ownership"
+  },
+  "gate2": {
+   "templates": [
+    "T3"
+   ],
+   "variant_perception": "The market believes the company's real estate holdings are inseparable from its restaurant operations and that management's rejection of a spin-off or REIT structure is final [D05, D07]. We believe the market fails to value the hidden asset value of the company's ~37% land and ~59% building ownership, which could be unlocked through a separation of the lower-margin company-operated segment from the high-margin royalty-based real estate business [D01, D05]. A change in strategic direction or continued pressure for capital efficiency will force the realization of this intrinsic value [D07].",
+   "evidence": [
+    "Company owns ~37% of restaurant land and ~59% of buildings [D01]",
+    "Franchise margin is significantly higher (80.2%) than company-operated margin (14.8%) [D01]",
+    "Management explicitly rejected property restructuring on Sept 21, 2005, despite investor interest [D05, D07]",
+    "Pershing Square has a history of seeking structural improvements and capital returns in the sector [D06, D08]"
+   ],
+   "market_narrative_we_disagree_with": "The market assumes the current integrated corporate structure is necessary for operational success and that real estate should not be separated from the brand [D05, D07].",
+   "what_must_be_true": [
+    "The market valuation of the real estate assets, if separated, would significantly exceed their current implied contribution to the equity price.",
+    "The restaurant brand's performance remains durable regardless of ownership structure.",
+    "Management eventually adopts a more shareholder-friendly stance on capital structure, or shareholders successfully advocate for change.",
+    "Operational metrics (comparable sales) maintain positive momentum to support the valuation floor [D03, D07]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "pre_2018_sum_of_parts",
+   "entry_multiple": "18.7x trailing P/E based on 2004 EPS of US$1.79 [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2004",
+    "base_value": "US$1.79 EPS",
+    "growth_assumption": "6-7% operating income growth [D03]",
+    "year_3_to_5_value": "US$2.25 - US$2.40 EPS",
+    "assumptions": [
+     "Operating income growth of 6-7% translates to mid-single digit EPS growth [D03]",
+     "FCF conversion continues to benefit from capex rationalization [D02]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 20,
+    "why": "Reflects a valuation for a dominant, FCF-generative global brand with improved capital allocation, aligning with historical restaurant peer multiples adjusted for the potential of real estate separation."
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 30
+   },
+   "downside_case": "Downside is limited to the current multiple of 18-19x on core earnings if restructuring is permanently rejected; permanent loss is unlikely given the strong brand moat, improving FCF, and dividend yield [D01, D02, D07].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Estimated appraisal of real estate assets at 1.5x-2x current book value [D01]",
+    "Market re-rating of the franchise component post-restructuring [D05]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C3",
+   "catalyst_description": "We will pursue public activism to pressure management to unlock the value of the company's real estate assets, which they explicitly rejected on Sept 21, 2005 [D05, D07]. By separating the high-margin royalty-based real estate business from the company-operated restaurant segment, we can achieve a significant valuation re-rating of the overall franchise [D01, D07].",
+   "levers_or_steps": [
+    "Initiate a 13D filing to declare our stake and influence [D08]",
+    "Launch a public campaign or white paper articulating the value of a REIT or spin-off structure to shareholders [D05, D06]",
+    "Pressure for capital allocation reform, including potential divestiture of non-core assets or optimized debt utilization [D01, D07]"
+   ],
+   "time_to_value_realisation_years": 2,
+   "why_this_role_fits_the_era": "In the 2004-2012 activist era, our strategy involves identifying undervalued assets, such as hidden real estate value in restaurant chains, and using public activism and 13D filings to force management to adopt more shareholder-friendly capital structures [D06, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Comparable store sales growth turns negative for two consecutive quarters [D03].",
+    "Management pursues large, debt-funded acquisitions that dilute the franchise quality [D02].",
+    "Operating margins in the company-operated segment degrade further due to cost pressures [D01]."
+   ],
+   "portfolio_fit": "This is a classic activist-era target fitting our focus on underperforming businesses with hidden real estate value; it shares themes with our previous work in the restaurant sector, such as Wendy's [D06, D08].",
+   "size_pct_nav": {
+    "initial": 8,
+    "target": 15,
+    "max": 20
+   },
+   "liquidity_assessment": "With a market cap of US$41.865 billion and high daily trading volume, we can build a substantial activist stake over several months without exceeding 15-25% of daily volume [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "Management remains entrenched in its refusal to unlock the value of the owned real estate, potentially capping the valuation at the current market multiple [D05, D07]."
+  }
+ },
+ "final": {
+  "as_of_date": "2005-09-30",
+  "company": "McDonald's Corporation",
+  "ticker": "MCD",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 15,
+  "opportunity_template": [
+   "T3"
+  ],
+  "catalyst_role": "C3",
+  "gate1_hard_fail": false,
+  "special_situation": false,
+  "valuation": {
+   "entry_multiple": "18.7x trailing P/E",
+   "eps_path": "6-7% operating income growth annually",
+   "terminal_multiple": "20x",
+   "irr_pct": 22,
+   "downside_case": "Limited to 18-19x P/E on core earnings if restructuring is rejected"
+  },
+  "drivers": [
+   {
+    "driver": "A dominant global franchisor with high-margin royalty streams and significant real estate ownership [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The market misprices the company by failing to value the ~37% land and ~59% building ownership separately from the operating business [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "We were able to acquire our stake at an attractive 18.7x trailing P/E for a free-cash-flow-generative business [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Significant opportunity exists to unlock value by separating the high-margin royalty business from the lower-margin company-operated segment [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Comparable store sales growth turns negative for two consecutive quarters [D03].",
+   "Management pursues large, debt-funded acquisitions that dilute the franchise quality [D02].",
+   "Operating margins in the company-operated segment degrade further due to cost pressures [D01]."
+  ],
+  "what_would_change_our_mind": "A sustained deterioration in comparable store sales or evidence that the core franchise brand has permanently lost its competitive moat.",
+  "memo": "McDonald's is a dominant global quick-service restaurant system that combines a powerful brand with a unique, high-margin royalty-based franchise model [D01]. With 31,561 locations and 29 consecutive months of positive US comparable sales, the business remains exceptionally predictable and free-cash-flow-generative [D01, D03]. Despite its scale, the company maintains a robust balance sheet with $1.56 billion in cash, allowing for consistent capital returns to shareholders [D02, D07].\n\nWe believe the market significantly undervalues the business by failing to separate the intrinsic value of its real estate assets from the restaurant operations [D05, D07]. While management has explicitly rejected a property restructuring, we see this as an opportunity to engage and advocate for a strategy that unlocks the hidden value in the company’s ownership of ~37% of its land and ~59% of its buildings [D01, D05, D07]. The current structure obscures the fact that the franchise business earns margins of 80.2%, far exceeding the 14.8% margins of the company-operated segment [D01].\n\nAt an entry multiple of 18.7x trailing earnings, we are purchasing a premier franchise at an attractive valuation [D04]. Based on 6-7% operating income growth and the potential for a re-rating toward a 20x multiple upon structural improvement, we anticipate a high rate of return for our investors [D03, D04]. Downside risk is well-protected by the business’s strong cash flow and dividend yield, which provide a valuation floor even in the absence of an immediate restructuring [D01, D02, D07].\n\nWe intend to act as catalysts for this transformation by filing a 13D and launching a public campaign to outline the benefits of a REIT or spin-off structure [D05, D08]. Our experience in similar restaurant sector turnarounds provides us the conviction that structural, shareholder-friendly capital allocation is the correct path forward [D06, D08]. We are establishing a 15% target position, reflecting our high confidence in the business quality and the value-unlock thesis [D04, D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

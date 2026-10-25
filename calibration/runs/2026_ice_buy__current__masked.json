@@ -1,0 +1,258 @@
+{
+ "pack": "2026_ice_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2026-06-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates a diversified financial infrastructure business including energy and equity exchanges, clearing services, fixed-income/data platforms, and mortgage technology [D01]. It provides critical market infrastructure where liquidity creates network effects, and recurring data/software services support revenue stability [D01].",
+   "segments_and_mix": [
+    "Exchanges: ~$1.8B revenue / ~$1.4B operating income in Q1 2026 [D01]",
+    "Fixed Income/Data: ~$657M revenue / ~$275M operating income in Q1 2026 [D01]",
+    "Mortgage Technology: ~$539M revenue / ($13M) operating loss in Q1 2026 [D01]"
+   ],
+   "unit_economics": [
+    "Exchanges margin: 79% [D01]",
+    "Fixed Income/Data margin: 42% [D01]",
+    "FCF conversion: Defined FCF was $1.150 billion in Q1 2026 against $2.977 billion net revenue [D02, D03]",
+    "Capex intensity: Q1 2026 included $64M physical capex and $112M software development [D02]"
+   ],
+   "competitive_position": [
+    "Dominant positions in energy derivatives and the NYSE [D01]",
+    "Moat: Network effects in liquidity and clearing; reference contracts and established market conventions [D01]",
+    "Peers: CME, Cboe [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2025 net revenue: $9,931M (vs $9,279M in 2024) [D02]",
+    "Q1 2026 revenue growth: 20% year-over-year [D03]",
+    "Outlook: Mortgage normalization is a potential recovery path; growth sensitive to transaction activity [D01, D03]"
+   ],
+   "balance_sheet": [
+    "Net debt: Approx. $19.537 billion [D02]",
+    "Unrestricted cash: $863 million [D02]",
+    "Note: Clearing-member deposits are not discretionary corporate cash [D02, D03]"
+   ],
+   "management_and_governance": [
+    "CEO: Jeffrey Sprecher (Founder) [D01]",
+    "Capital allocation: Active repurchases ($1.294B in 2025) and dividends ($1.105B in 2025) [D02]"
+   ],
+   "price_and_valuation": [
+    "Price: $123.11 [D04]",
+    "Market cap proxy: $70.173B [D04]",
+    "EV proxy: $89.710B [D04]",
+    "P/E (FY2025 adjusted): 17.7x [D04]",
+    "FCF yield (FY2025 adjusted): ~6.0% [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Market structure: Potential disruption from perpetual futures [D05]",
+    "AI threat: Potential displacement of data and workflow products [D05]",
+    "Mortgage segment: Operating losses and sensitivity to origination volumes [D05]",
+    "Regulatory: Fee competition and new contract structures [D01]"
+   ],
+   "recent_events": [
+    "2026-04-30: Q1 2026 earnings release reporting strong growth [D01, D03]",
+    "2026-05-19: Announced plans for GPU compute futures [D07]",
+    "2026-06-02: Shares declined following CFTC enablement of perpetual crypto futures [D05, D07]"
+   ],
+   "pershing_context": [
+    "AUM: Core fund AUM ~$19.7B as of February 2026 [D08]",
+    "Engagement: No prior engagement identified [D08]",
+    "Context: Investing framework prioritizes durable barriers and predictable cash flow, requiring testing of the exchange's competitive durability against current market-structure threats [D08]"
+   ],
+   "missing_data": [
+    "Forward EPS consensus",
+    "Historical forward-multiple distribution",
+    "Current rolling 52-week range",
+    "Detailed segment-level organic growth vs. acquisition contribution",
+    "Exact current deployable cash for Pershing Square"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "The company operates as a critical market infrastructure provider with recurring revenue from data and software services alongside strong exchange margins [D01]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "It maintains dominant market positions with powerful network effects in liquidity and clearing, reinforced by established market conventions [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "PASS",
+     "evidence": "As a core financial infrastructure provider, it benefits from secular market activity rather than being hostage to a single commodity or FX movement [D01]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "Despite significant debt, the business generates substantial free cash flow (e.g., $1.15B in Q1 2026) and maintains investment-grade scale [D02, D03, D04]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The company is highly cash-generative, supporting consistent dividends and share repurchases, indicating no need for external capital [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of approximately $70.17 billion, it is highly liquid and suitable for a large position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "A 17.7x P/E ratio and 6.0% FCF yield offer a reasonable entry point for a dominant high-quality franchise [D04]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "Founder-led by Jeffrey Sprecher, the company has a strong record of capital allocation through buybacks and dividends [D01, D02]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "Growth is driven by secular financial market trends and potential recovery paths in its mortgage technology segment [D01, D03]."
+    }
+   },
+   "n_pass": 9,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "A dominant, high-margin financial infrastructure franchise with strong network effects and significant free cash flow generation."
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market fears that perpetual futures and AI-driven displacement threaten the core moat and data franchises of the exchange [D05]. We believe the market misjudges the structural resilience of the company's network effects in liquidity and clearing, which are protected by high barriers to entry and established market conventions [D01]. As transaction volumes normalize and the mortgage segment recovers from current lows, these durable growth drivers will reassert themselves, driving value beyond the current 17.7x multiple [D01, D03, D04].",
+   "evidence": [
+    "Share price decline following CFTC enablement of perpetual crypto futures [D05, D07]",
+    "Market concerns regarding potential displacement of data/workflow products by AI [D05]",
+    "Q1 2026 revenue grew 20% YoY despite segment-specific headwinds [D03]",
+    "Strong free cash flow generation of $1.15B in Q1 2026 supports capital return and growth investment [D02, D03]"
+   ],
+   "market_narrative_we_disagree_with": "The market views the exchange as vulnerable to technological disintermediation from perpetual futures and AI, leading to a de-rating of its multiple [D05].",
+   "what_must_be_true": [
+    "The core liquidity and clearing network effects remain durable against new market structures [D01]",
+    "The mortgage technology segment achieves a path back to profitability as origination volumes normalize [D01, D03]",
+    "Data and workflow products maintain pricing power and relevance in an AI-integrated financial landscape [D01, D05]"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "17.7x FY2025 adjusted P/E vs S&P 500 21x [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2025",
+    "base_value": "6.95",
+    "growth_assumption": "12% CAGR, driven by mortgage normalization and data segment pricing power [D01, D03]",
+    "year_3_to_5_value": "11.00",
+    "assumptions": [
+     "FY2025 EPS derived from $70.173B Market Cap at 17.7x [D04]",
+     "Mortgage segment returns to profitability [D01]",
+     "Core exchange volumes and data services maintain historical mid-teens margins [D01]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 22,
+    "why": "Reflects dominant market position in energy and equity clearing, balanced by ongoing regulatory and technological headwinds."
+   },
+   "implied_irr_pct": {
+    "base": 24,
+    "bear": 8,
+    "bull": 31
+   },
+   "downside_case": "If perpetual futures and AI-driven displacement permanently impair the exchange's core moat, the multiple could compress to 12-14x, leading to a permanent loss of capital as the network effect erodes.",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Forward EPS consensus not in pack; estimated from market cap and P/E",
+    "Historical forward-multiple distribution not in pack"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We are looking for the market to normalize its perception of the exchange's competitive moat against the perceived threats of perpetual futures and AI [D01, D05]. As these fears prove overblown and the mortgage technology segment recovers from current losses toward profitability, we expect a re-rating of the P/E multiple from 17.7x toward our 22x target, consistent with the company's historical position as a dominant, high-margin infrastructure franchise [D01, D04].",
+   "levers_or_steps": [
+    "Mortgage technology segment recovery through origination volume normalization [D01, D03]",
+    "Continued compounding of core exchange and data/software revenues [D01]",
+    "Consistent capital allocation through dividends and share repurchases [D02]"
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In the Pershing Square 3.0 era, we focus on compounding high-quality, dominant businesses that are temporarily mispriced due to market-structure scares [D08]. No activism is required for this franchise; management is founder-led, capital allocation is disciplined, and the intrinsic value is anchored by powerful network effects that we believe will outlast the current narrative of technological disintermediation [D01, D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent impairment of the core clearing and liquidity network effects due to successful perpetual futures market penetration",
+    "Pricing power erosion in data and workflow services as AI-integrated solutions commoditize the offering",
+    "Mortgage technology segment fails to reach profitability within six quarters despite normalized origination volumes"
+   ],
+   "portfolio_fit": "The position fits the 'Pershing Square 3.0' criteria for a dominant, high-quality compounder, aligning with our preference for infrastructure-like franchises. It complements existing high-conviction core holdings by adding exposure to financial market volatility and data-driven secular growth, with no identified overlap in our current core book.",
+   "size_pct_nav": {
+    "initial": 4,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "With a market capitalization of $70.17 billion [D04], the stock is highly liquid; a 4% initial stake (~$800M based on $19.7B AUM [D08]) can be built over several weeks without exceeding 25% of average daily volume.",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is a structural shift in financial markets that permanently impairs the company's exchange and clearing network effects, leading to a long-term erosion of its competitive moat."
+  }
+ },
+ "final": {
+  "as_of_date": "2026-06-30",
+  "company": "The Company (Intercontinental Exchange)",
+  "ticker": "ICE",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "17.7x FY2025 adjusted P/E",
+   "eps_path": "12% CAGR, driven by mortgage normalization and data segment pricing power",
+   "terminal_multiple": "22x",
+   "irr_pct": 24,
+   "downside_case": "Multiple compression to 12-14x if network effects are permanently impaired by perpetual futures or AI-driven disintermediation."
+  },
+  "drivers": [
+   {
+    "driver": "A dominant, capital-light financial infrastructure franchise with powerful network effects in liquidity and clearing [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Recurring revenue from data and software services provides stability and predictable free cash flow generation [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The market has mispriced the equity due to temporary fears regarding perpetual futures and AI-driven displacement [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Management, led by founder Jeffrey Sprecher, demonstrates disciplined capital allocation through consistent buybacks and dividends [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "We were able to acquire our stake at a compelling 17.7x P/E ratio, creating an asymmetric entry point [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent impairment of the core clearing and liquidity network effects due to successful perpetual futures market penetration",
+   "Pricing power erosion in data and workflow services as AI-integrated solutions commoditize the offering",
+   "Mortgage technology segment fails to reach profitability within six quarters despite normalized origination volumes"
+  ],
+  "what_would_change_our_mind": "Evidence that technological shifts like perpetual futures are structurally eroding the exchange's core moat and clearing network effects, or that data pricing power is irreversibly commoditized by AI.",
+  "memo": "The Company is a world-class financial infrastructure provider, operating critical energy and equity exchanges, clearing houses, and fixed-income data platforms [D01]. Its business is characterized by high barriers to entry, deep-seated network effects in liquidity and clearing, and substantial, predictable free-cash-flow generation [D01, D02]. We find the company’s ability to extract royalty-like fees from its indispensable infrastructure to be a hallmark of a dominant, high-quality compounder [D01].\n\nRecent market volatility, spurred by the CFTC’s enablement of perpetual crypto futures and concerns regarding AI’s impact on data products, has created an attractive entry point [D05, D07]. We believe the market is misjudging the structural resilience of the company’s network effects, which are protected by established market conventions that are not easily disrupted [D01]. While the mortgage technology segment currently faces cyclical headwinds, we expect a recovery toward profitability as origination volumes normalize [D01, D03].\n\nWe were able to acquire our stake at 17.7x FY2025 adjusted earnings, a valuation that significantly understates the business’s long-term earnings power [D04]. With our expected 12% EPS CAGR, driven by mortgage normalization and pricing power in data services, we anticipate a re-rating toward our 22x terminal multiple target [D01, D03]. This path supports an attractive expected IRR of approximately 24% [D03].\n\nOur role is that of a long-term, supportive shareholder in a founder-led business that requires no activist intervention to succeed [D01]. We will monitor the mortgage segment’s recovery and the resilience of our data services’ margins as primary markers of success [D01, D03]. We have initiated a position targeting 8% of NAV, providing us with a meaningful stake in a high-quality franchise while maintaining a disciplined margin of safety [D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

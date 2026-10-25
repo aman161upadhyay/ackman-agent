@@ -1,0 +1,39 @@
+{
+ "trade_id": "2020_cds_hedge",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 4,
+  "matched": [
+   "Pandemic interruption risk was not adequately reflected in credit protection pricing → The market previously looked past the outbreak; the recent spike in volatility suggests a paradigm-shifting risk is now becoming visible but may not yet fully reflect the potential for a systemic credit event",
+   "Limited premiums offered an unusually asymmetric potential stress payoff → Our discipline is to protect the portfolio against paradigm-shifting risks that the market is only beginning to price, using instruments that provide asymmetric payoffs",
+   "Protect concentrated quality-equity holdings without forced liquidation → Unlike selling our long-term holdings, which would crystallize losses and force us to exit positions in high-quality compounders, a credit hedge allows us to generate liquidity precisely when other opportunities might arise",
+   "Create liquidity to redeploy into attractive long investments when risk repriced → a credit hedge allows us to generate liquidity precisely when other opportunities might arise"
+  ],
+  "missed": [],
+  "extra_agent_drivers": []
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "equity markets have begun to reprice with a 3.35% drop in the S&P 500 and a ~46% increase in the VIX",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "current international clusters in Italy and South Korea signal that the risk is no longer confined to China",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 6,
+  "cited": 1,
+  "share": 0.17
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Unlike selling our long-term holdings, which would crystallize losses and force us to exit positions in high-quality compounders, a credit hedge allows us to generate liquidity precisely when other opportunities might arise.",
+ "grader_notes": "The agent perfectly captured the four key drivers cited by Ackman, identifying the hedge as an asymmetric liquidity tool to avoid liquidating high-quality assets. The reasoning is internally consistent and aligns with the strategy of using CDS to manage tail risk in a concentrated portfolio.",
+ "run": "2020_cds_hedge__current__named"
+}

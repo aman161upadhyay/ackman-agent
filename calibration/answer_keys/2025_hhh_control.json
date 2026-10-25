@@ -1,0 +1,20 @@
+{
+  "id": "2025_hhh_control",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Control/strategic transaction, not ordinary passive sizing. Final May2025 $900m commitment from Pershing Square Holdco for9m new shares at$100/share; combined ownership46.9%. These are not PSH NAV percentages.",
+  "first_action_date": "2025-01-13 formal proposal; August2024 prior exploration; pre-existing ownership",
+  "disclosure_date": "2025-01-13",
+  "reason_class": null,
+  "opportunity_template": ["T3", "T2"],
+  "catalyst_role": "C4",
+  "drivers": [
+    {"driver": "Long-duration real assets and development cash can support a compounder rather than a narrow cyclical property valuation.", "source": "https://www.businesswire.com/news/home/20250218932320/en/Pershing-Square-Announces-Revised-Proposal-to-Howard-Hughes-Holdings (2025-02-18 retrospective to cutoff)", "quote": null},
+    {"driver": "Control-like influence enables strategic capital allocation and a diversified holding-company design.", "source": "https://www.sec.gov/Archives/edgar/data/1981792/000110465925044710/tm2513988d1_ex99-1.htm (2025-05-06)", "quote": null},
+    {"driver": "Potential insurance investments can supply additional compounding economics and permanent-capital characteristics; not a known January10 plan or acquired float.", "source": "https://www.businesswire.com/news/home/20250218932320/en/Pershing-Square-Announces-Revised-Proposal-to-Howard-Hughes-Holdings (2025-02-18)", "quote": null},
+    {"driver": "Permanent ownership and disciplined reinvestment address the gap between asset value and realized shareholder returns.", "source": "https://www.sec.gov/Archives/edgar/data/1981792/000110465925044710/tm2513988d1_ex99-1.htm (2025-05-06)", "quote": null}
+  ],
+  "entry_valuation_stated": "Jan13 proposal differs from February revision and finalMay agreement; final injection$100/share cannot be described as Jan10 market price($71.78).",
+  "outcome_note": "Transaction agreedMay2025: Ackman executive chairman, Ryan Israel CIO, PershingHoldco$900m capital. Later Vantage insurance acquisition was announcedDecember2025, not part of pre-Jan10 public facts.",
+  "pack_quality_notes": "Eight short docs; new-control mode despite pre-existing equity. Public Augustreview and independentcommittee included. Specific holding-company/insurance plan is answer-key-only to preserve strict Jan10 cutoff. Asset sensitivity is analyst illustration, not appraisedNAV. Historical impairment/perimeter changes and missingFCF/ROIC/peermultiples explicit."
+}

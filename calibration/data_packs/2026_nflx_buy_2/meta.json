@@ -1,0 +1,12 @@
+{
+  "id": "2026_nflx_buy_2",
+  "company": "Netflix",
+  "ticker": "NFLX",
+  "aliases": ["Netflix Inc.", "Netflix re-entry"],
+  "as_of_date": "2026-04-20",
+  "mode": "new",
+  "era": "E",
+  "first_action_window": "Transaction evidence sealed in answer key. April 20 is the first trading day after the independently documented April 17 results-related drop; not asserted to be an execution date.",
+  "pershing_aum_usd_bn": 19.748,
+  "notes": "Cutoff chosen from earliest authenticated Q2 earnings dislocation, rather than forcing a later roughly halved-price observation into April. Exact acquisition day unresolved. Gross core-fund AUM as of February 9, disclosed February 11. Includes historical 2022 thesis and predictability reversal."
+}

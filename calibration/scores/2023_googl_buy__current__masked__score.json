@@ -1,0 +1,57 @@
+{
+ "trade_id": "2023_googl_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Search intent and distribution underpin a durable advertising franchise → The company maintains a dominant search monopoly protected by massive scale and an unrivaled data advantage.",
+   "The market overestimated the disruption threat from generative AI → We believe the market is overreacting to short-term noise and temporary execution errors.",
+   "YouTube, Cloud and operating efficiency offer additional earnings levers → With the company focusing on disciplined cost management—highlighted by its recent 12,000-person headcount reduction—and sustained share repurchases, we anticipate a path to mid-teens annual EPS growth."
+  ],
+  "missed": [
+   "Proprietary data, technical AI capabilities and optimized infrastructure support adaptation rather than inevitable displacement."
+  ],
+  "extra_agent_drivers": [
+   "Massive free cash flow generation of $60 billion in 2022 allows for aggressive and persistent share repurchases."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is a world-class, free-cash-flow-generative business that sits at the center of the global internet economy.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company’s historical ability to adapt its technology and integrate new interfaces into its existing, highly profitable ecosystem remains underestimated by current market participants.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We have the opportunity to acquire this dominant franchise at an attractive ~15.0x EV/EBIT, a significant discount to our view of its long-term intrinsic value.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We believe the market is overreacting to short-term noise and temporary execution errors.",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The balance sheet, featuring $99 billion in net cash, provides significant downside protection and optionality.",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 10,
+  "share": 0.83
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We believe the market is overreacting to short-term noise and temporary execution errors [D07].",
+ "grader_notes": "The agent correctly identified the investment direction and captured the core arguments regarding the durable search franchise, market overreaction to AI threats, and cost-restructuring levers. The reasoning deviated only by focusing on specific cash flow/repurchase mechanics rather than the broader point on proprietary AI infrastructure.",
+ "run": "2023_googl_buy__current__masked"
+}

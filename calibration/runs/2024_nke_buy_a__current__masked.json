@@ -1,0 +1,247 @@
+{
+ "pack": "2024_nke_buy_a",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2024-05-14",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company designs, markets and distributes athletic footwear, apparel and equipment [D01]. It operates primarily through the Company Brand and the Company, leveraging athlete relationships, product innovation and global distribution [D01].",
+   "segments_and_mix": [
+    "the Company Brand: 95.2% of FY2023 revenue [D01]",
+    "the Company (subsidiary): 4.8% of FY2023 revenue [D01]"
+   ],
+   "unit_economics": [
+    "FY2023 gross margin: 43.5% [D02]",
+    "FY2023 operating margin: 10.9% [D01]",
+    "high capex intensity for demand creation/marketing and digital infrastructure [D01]",
+    "FCF conversion impacted by inventory, promotions, and restructuring costs [D02]"
+   ],
+   "competitive_position": [
+    "global incumbent with strong brand and sponsorship resources [D06]",
+    "facing competition from challengers like On in premium categories [D06]",
+    "moat relies on cultural relevance and distribution scale [D01]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2021-FY2023 revenue growth: 19%, 5%, 10% [D02]",
+    "Q3 FY2024 revenue flat [D03]",
+    "guidance: expected low-single-digit sales decline in first-half fiscal 2025 [D03]"
+   ],
+   "balance_sheet": [
+    "long-term debt: $8.930 billion [D02]",
+    "cash and short-term investments: ~$10.6 billion [D05]",
+    "inventories: $7.726 billion [D02]"
+   ],
+   "management_and_governance": [
+    "CEO: John Donahoe; CFO: Matthew Friend [D01]",
+    "founder-associated governance and multiple share classes present [D01]",
+    "levers identified: innovation cycle, brand storytelling, and wholesale partnership elevation [D03]"
+   ],
+   "price_and_valuation": [
+    "price: $92.79 (May 14, 2024) [D04]",
+    "market cap: ~$140.41 billion [D04]",
+    "drawdown: 24.8% from 52-week high [D04]",
+    "P/E (trailing): ~27.3x [D04]",
+    "FCF yield: ~3.5% (historical) [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "slowing demand and weaker digital commerce [D05]",
+    "product transition gap while replacing older styles [D03]",
+    "execution risks in direct-to-consumer strategy [D01]",
+    "market share pressure from innovative competitors [D06]"
+   ],
+   "recent_events": [
+    "Dec 2023: announced $2 billion cost-savings program [D05]",
+    "Mar 2024: reported flat revenue and restructuring charges [D03]",
+    "Mar 2024: guidance of low-single-digit sales decline in H1 2025 [D03]"
+   ],
+   "pershing_context": [
+    "not in pack (no existing position disclosed)"
+   ],
+   "missing_data": [
+    "consensus forward P/E, reliable forward EPS, 5-10 year forward multiple range, and official firm-wide AUM as of May 2024."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "Free cash flow conversion is impacted by inventory, promotions, and restructuring costs, and revenue is facing a near-term decline [D02], [D03]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company is a global incumbent with a strong brand and significant distribution scale [D06], [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "PASS",
+     "evidence": "The business is a global consumer brand with recurring demand and does not rely on commodity prices or rate direction [D01]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong balance sheet with $10.6 billion in cash and short-term investments against $8.93 billion in long-term debt [D05], [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The company has a strong cash position and does not show a reliance on issuing equity or rolling debt [D05]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The market capitalization is approximately $140.41 billion, which is well above the threshold for a concentrated position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "While the stock is down 24.8% from its 52-week high, the trailing P/E of 27.3x requires further analysis against growth prospects to determine if it is truly attractive [D04]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "The presence of founder-associated governance and multiple share classes requires further review to determine alignment [D01]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "Recent revenue growth has decelerated to flat levels with guidance for a sales decline in the first half of fiscal 2025, creating uncertainty regarding the durability of growth [D03]."
+    }
+   },
+   "n_pass": 4,
+   "n_fail": 1,
+   "n_unsure": 3,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant global athletic footwear and apparel brand currently navigating a period of cyclical weakness and competitive pressure on innovation."
+  },
+  "gate2": {
+   "templates": [
+    "T2"
+   ],
+   "variant_perception": "The market believes the company's competitive advantage has permanently eroded due to the rise of new, innovative challengers and a failed direct-to-consumer strategy. We believe this is a temporary underperformance caused by misaligned wholesale partnerships and a sluggish innovation cycle that can be corrected through the company's massive cost-savings program and renewed investment in brand storytelling [D03], [D06].",
+   "evidence": [
+    "The company has identified specific levers including accelerating the innovation cycle, refreshing brand storytelling, and elevating wholesale partnerships to drive growth [D03].",
+    "A $2 billion cost-savings program has been initiated to address operating inefficiencies and restructuring costs [D05].",
+    "The stock is trading at a 24.8% drawdown from its 52-week high, pricing in significant pessimism regarding its long-term competitive position [D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market views the recent flat revenue growth and reliance on discounting as evidence of a structural loss of dominance to nimble competitors like On [D03], [D06].",
+   "what_must_be_true": [
+    "The innovation pipeline successfully launches new, high-demand products in the upcoming quarters.",
+    "Wholesale channel improvements restore growth without significantly cannibalizing direct-to-consumer margins.",
+    "The $2 billion cost-savings plan is executed without damaging the long-term brand equity or marketing effectiveness."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "27.3x trailing P/E vs S&P 500 ~21x [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2023",
+    "base_value": "3.39",
+    "growth_assumption": "7% CAGR based on recovery from restructuring and operational efficiency gains",
+    "year_3_to_5_value": "4.50",
+    "assumptions": [
+     "FY2023 EPS derived from market cap and P/E [D04]",
+     "$2 billion cost-savings realized by 2026 [D05]",
+     "Revenue growth returns to mid-single digits post-restructuring [D03]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 22,
+    "why": "Reflects a quality compounder premium balanced against increased competition and recent execution headwinds"
+   },
+   "implied_irr_pct": {
+    "base": 14,
+    "bear": 5,
+    "bull": 21
+   },
+   "downside_case": "Permanent loss is unlikely due to the $10.6B cash position [D05] and dominant brand equity; downside case assumes multiple compression to 18x and stagnant EPS, limiting potential loss to a drawdown of 15-20% from entry.",
+   "valuation_verdict": "FULL_10_15",
+   "flagged_assumptions": [
+    "FY2023 EPS calculated as $140.41B / 27.3x = ~$5.1B net income or ~$3.39/share assuming ~1.5B shares",
+    "Forward growth rates are estimated based on management's stated recovery levers"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C2",
+   "catalyst_description": "We will pursue constructive engagement with management and the board to ensure the $2 billion cost-savings program is effectively executed and to advocate for a sharpened focus on the product innovation cycle and wholesale partnerships to restore growth [D03], [D05].",
+   "levers_or_steps": [
+    "Execute $2 billion cost-savings program to improve operating margin from 10.9% toward historical peak levels [D01], [D05].",
+    "Accelerate the innovation pipeline to replace stagnant styles and counter competitive pressures from new entrants [D03], [D06].",
+    "Pivot from an over-reliance on direct-to-consumer to a balanced model that elevates key wholesale partnerships to improve brand reach and storytelling [D03], [D06]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In the 'Pershing Square 3.0' era, we favor private, constructive engagement with high-quality, dominant businesses that are experiencing temporary operational dislocations, avoiding public activism unless absolutely necessary [Pershing Square 3.0 rule]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Continued deceleration of revenue growth beyond the projected H1 2025 decline [D03].",
+    "Failure to achieve meaningful operating margin expansion from the 10.9% base following the $2 billion cost-savings program [D01], [D05].",
+    "Market share loss to competitors like On continues despite increased innovation and retail channel investments [D06].",
+    "Evidence that cost-cutting measures are eroding brand equity or long-term marketing effectiveness [D03], [D05]."
+   ],
+   "portfolio_fit": "The position fits the 'Pershing Square 3.0' criteria as a dominant, high-quality consumer brand undergoing a temporary operational dislocation, though we will monitor for potential factor overlap with existing retail/consumer holdings in the 8-15 name portfolio.",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "With a market capitalization of $140.41 billion and significant daily trading volume, a $10B+ position can be built over several months without exceeding 15-25% of daily volume [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that the recent revenue stagnation and market share loss represent a permanent shift in consumer preference rather than a fixable cycle, rendering our operational turnaround thesis ineffective."
+  }
+ },
+ "final": {
+  "as_of_date": "2024-05-14",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "HOLD",
+  "conviction": "medium",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T2"
+  ],
+  "catalyst_role": "C2",
+  "gate1_hard_fail": false,
+  "special_situation": false,
+  "valuation": {
+   "entry_multiple": "27.3x trailing P/E",
+   "eps_path": "7% CAGR recovery from restructuring and efficiency gains",
+   "terminal_multiple": "22x",
+   "irr_pct": 14,
+   "downside_case": "15-20% drawdown assuming 18x multiple and stagnant EPS"
+  },
+  "drivers": [
+   {
+    "driver": "The company remains a dominant global athletic brand with massive scale and cultural relevance [D01], [D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "A $2 billion cost-savings program provides a clear path to margin expansion from current 10.9% levels [D01], [D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The current 24.8% drawdown from 52-week highs offers an entry point into a franchise undergoing temporary cyclical weakness [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Operating leverage will improve as the innovation pipeline refreshes and wholesale partnerships are optimized [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Continued deceleration of revenue growth beyond the projected H1 2025 decline [D03].",
+   "Failure to achieve meaningful operating margin expansion from the 10.9% base following the $2 billion cost-savings program [D01], [D05].",
+   "Market share loss to competitors like On continues despite increased innovation [D06].",
+   "Evidence that cost-cutting measures are eroding brand equity [D03], [D05]."
+  ],
+  "what_would_change_our_mind": "Evidence that the revenue stagnation and market share loss are the result of a permanent shift in consumer preference away from the brand's core offerings rather than a temporary execution cycle.",
+  "memo": "The Company is a dominant global leader in athletic footwear and apparel with unmatched brand equity and distribution scale [D01], [D06]. Despite recent headwinds, the business maintains a fortress balance sheet with $10.6 billion in cash, providing significant stability while management executes its recovery [D05].\n\nWe believe the market has incorrectly extrapolated recent flat revenue growth and competitive pressures as a permanent loss of market dominance [D03], [D06]. In reality, the company is navigating a fixable period of sluggish innovation and misaligned wholesale partnerships, which the current leadership is actively addressing [D03].\n\nWith the stock trading at a 24.8% discount to its 52-week high, we see an attractive opportunity to build a position in a high-quality compounder [D04]. We project a mid-single-digit recovery in revenue and a return to historical operating margins of 10.9% as the $2 billion cost-savings initiative takes hold [D01], [D05].\n\nOur role will be to engage constructively with management to ensure the successful execution of the cost-savings program and to advocate for a renewed focus on product innovation and wholesale channel health [D03], [D05]. This pivot is essential to countering new entrants and restoring durable, long-term growth [D03], [D06].\n\nThe primary risk to our thesis is that recent performance reflects a structural, rather than cyclical, decline in brand relevance [D03]. We will monitor revenue and margin trends closely; should the company fail to show progress in its innovation cycle or margin expansion, we will reassess our investment [D03], [D05].\n\nGiven the current valuation and the need to observe initial execution data, we will establish a holding in the company with an eye toward increasing our position to 8% of NAV as our thesis is validated [D04].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

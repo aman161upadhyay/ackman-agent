@@ -1,0 +1,242 @@
+{
+ "pack": "2013_apd_buy",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2013-07-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Air Products and Chemicals, Inc. supplies industrial gases, performance materials, equipment, and related technology to industries including refineries, chemical plants, steelmakers, and electronics manufacturers [D01]. The company operates through four segments: Merchant Gases, Tonnage Gases, Electronics and Performance Materials, and Equipment and Energy [D01].",
+   "segments_and_mix": [
+    "Merchant Gases: $3.662 billion sales [D01]",
+    "Tonnage Gases: $3.207 billion sales [D01]",
+    "Electronics and Performance Materials: $2.323 billion sales [D01]",
+    "Equipment and Energy: $420 million sales [D01]"
+   ],
+   "unit_economics": [
+    "Merchant margins benefit from local plant density and distribution efficiency [D01]; Tonnage involves long-term contracts with energy pass-through [D01]",
+    "FY2012 adjusted operating margin was 16.0% [D02]",
+    "High capital intensity; FY2012 issuer GAAP capex was $2.560 billion [D02]",
+    "FCF conversion is impacted by heavy growth capex and acquisitions [D02]"
+   ],
+   "competitive_position": [
+    "Dominant infrastructure and long-duration customer relationships [D01]",
+    "High barriers to entry via installed plant/integration [D01]",
+    "Praxair serves as an industry peer, reporting a 21.6% adjusted operating margin versus APD's 15.7% (fiscal Q2) [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2012 sales were $9.612 billion [D01]; FY2013 guidance is adjusted EPS of $5.45–$5.60 [D03]",
+    "Underlying sales comparison as of Q2 2013 was negative 2%, masked by acquisitions [D03]"
+   ],
+   "balance_sheet": [
+    "Total debt is $5.981.2 million; net debt is $5.579.6 million (as of March 31, 2013) [D02]"
+   ],
+   "management_and_governance": [
+    "CEO John McGlade emphasizes productivity and emerging-market projects [D01]",
+    "Company is currently pruning portfolio, including exit from polyurethane intermediates [D01]"
+   ],
+   "price_and_valuation": [
+    "Price: $96.61 (July 15, 2013) [D04]",
+    "Market Cap (approx): $20.38 billion [D04]",
+    "EV (approx): $25.96 billion [D04]",
+    "P/E (FY2012 adjusted): 17.9x [D04]",
+    "FCF yield (simple CFO less plant additions): ~1.2% [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Weak underlying demand/volumes and regional softness (US, Europe, China, Electronics) [D05]",
+    "Capital intensity and acquisition integration [D05]",
+    "Profitability gap compared to peers like Praxair [D05, D06]",
+    "High capital expenditure relative to free cash flow [D02, D04]"
+   ],
+   "recent_events": [
+    "November 2012: Audited annual filing [D07]",
+    "April 23, 2013: Fiscal Q2 results showing 6% sales rise but 2% underlying decline [D03, D07]",
+    "June 24, 2013: Announced expanded PRISM hydrogen-generator capacity [D07]"
+   ],
+   "pershing_context": [
+    "Pershing Square (AUM ~$12 billion) is actively soliciting $1 billion for a co-investment vehicle targeting a company that is simple, predictable, and free-cash-flow-generative [D08]",
+    "No authenticated existing stake in APD or named recommendation in pack [D08]"
+   ],
+   "missing_data": [
+    "Standardized ROIC bridge, clean maintenance versus growth capex breakdown, and independently verified rolling 52-week range."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "FCF conversion is consistently burdened by high capital intensity and substantial growth-related capex [D02], limiting the predictability of cash flow generation [D04]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company maintains dominant infrastructure and long-duration customer relationships with high barriers created by installed plant integration [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "PASS",
+     "evidence": "Tonnage gases utilize long-term contracts with energy pass-through mechanisms, reducing direct commodity exposure [D01]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "Total net debt of ~$5.6 billion against a $20.38 billion market cap reflects a manageable investment-grade-like leverage profile [D02, D04]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The company's stable operating segments do not suggest a reliance on external equity or frequent refinancing in difficult markets [D01]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of approximately $20.38 billion, the company is sufficiently liquid for a concentrated position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "While the P/E of 17.9x is noted [D04], the significant profitability gap versus peers like Praxair suggests the current multiple may not fully account for performance deficits [D06]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "Management is actively pruning the portfolio, yet the ongoing margin gap compared to competitors leaves the effectiveness of current execution open to question [D01, D06]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "Underlying sales growth is currently negative, and future EPS expansion remains dependent on successful project execution and productivity improvements [D01, D03]."
+    }
+   },
+   "n_pass": 4,
+   "n_fail": 1,
+   "n_unsure": 4,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant infrastructure player in industrial gases currently struggling with capital intensity and a profitability gap relative to its peers"
+  },
+  "gate2": {
+   "templates": [
+    "T2"
+   ],
+   "variant_perception": "The market views Air Products as a slow-growth industrial conglomerate with poor capital allocation and structurally lower margins compared to its peers [D05, D06]. We believe the current operating margin gap versus best-in-class peers like Praxair is fixable through aggressive portfolio rationalization, management of growth-related capex, and operational discipline [D01, D06].",
+   "evidence": [
+    "Industry peer Praxair reports a 21.6% adjusted operating margin compared to Air Products' 15.7% [D06].",
+    "The company is currently pruning its portfolio to exit lower-margin business lines like polyurethane intermediates [D01].",
+    "FCF conversion is burdened by heavy growth capex, which can be optimized to improve returns [D02, D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market assumes the current profitability gap is structural and that the firm's capital-intensive nature inherently precludes a valuation re-rating [D05, D06].",
+   "what_must_be_true": [
+    "Management can successfully narrow the 600bps+ operating margin gap to best-in-class peers",
+    "Capital allocation policy shifts toward maximizing FCF conversion rather than prioritizing growth-capex",
+    "Divestiture of non-core assets successfully improves overall returns on invested capital"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "pre_2018_sum_of_parts",
+   "entry_multiple": "17.9x FY2012 adjusted EPS [D04], compared to industrial peers typically trading at 15-20x.",
+   "eps_or_fcf_path": {
+    "base_year": "2012",
+    "base_value": "$5.40 (adjusted EPS)",
+    "growth_assumption": "4-6% organic growth plus 200-300bps margin expansion through productivity initiatives [D01, D06].",
+    "year_3_to_5_value": "$7.00 - $7.50 EPS by 2016-2017.",
+    "assumptions": [
+     "Operating margins narrow from 16% [D02] toward peer benchmark of 21.6% [D06].",
+     "Capex efficiency improves as growth-related spend is disciplined [D02, D04]."
+    ]
+   },
+   "terminal_multiple": {
+    "value": 18,
+    "why": "Reflects a high-quality industrial gas utility with improved margin structure and dominant infrastructure, consistent with peer multiples."
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 28
+   },
+   "downside_case": "Downside is limited by the long-term, contractual nature of the tonnage business and high barriers to entry [D01]. Permanent loss unlikely given the essential infrastructure and global demand for industrial gases [D01].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Maintenance versus growth capex breakdown not provided; assumed significant portion of $2.56B capex [D02] is discretionary/growth.",
+    "Normalized earnings power based on peer-parity margin improvement."
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C3",
+   "catalyst_description": "We will initiate a public activist campaign to advocate for aggressive operational restructuring and margin improvement to close the valuation gap with peer Praxair [D06]. We will push for a more disciplined capital allocation policy, focusing on optimizing high growth-related capex to drive free cash flow conversion [D02, D04].",
+   "levers_or_steps": [
+    "Engage the Board to implement a margin improvement program, targeting a shift from 16% margins toward the 21.6% benchmark achieved by Praxair [D02, D06].",
+    "Demand a strategic review to accelerate portfolio rationalization, exiting sub-scale or lower-margin segments [D01].",
+    "Appoint new leadership or board members with proven industrial gas turnaround experience to oversee operating efficiency and discipline."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our 2004-2017 activist era, we utilize public activism and board engagement to force operational change in underperforming, capital-intensive businesses where management has failed to realize intrinsic value [D01, D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Operating margins fail to show sustained expansion toward the 20%+ benchmark over four consecutive quarters",
+    "Management persists with high-capex, low-return project growth instead of pivoting to FCF optimization",
+    "Return on Invested Capital (ROIC) fails to improve as portfolio rationalization progresses"
+   ],
+   "portfolio_fit": "The position aligns with our activist mandate to unlock value in underperforming industrial franchises; however, it competes for capital with other high-conviction core positions and requires significant bandwidth for board engagement.",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 12,
+    "max": 15
+   },
+   "liquidity_assessment": "The company’s $20.38 billion market capitalization and average daily trading volume allow for a $1-2 billion stake to be accumulated over 2-3 months while staying within typical volume constraints [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that the current profitability gap is structural and deeply embedded in the company's asset base rather than being a result of fixable management underperformance."
+  }
+ },
+ "final": {
+  "as_of_date": "2013-07-15",
+  "company": "Air Products and Chemicals, Inc.",
+  "ticker": "APD",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 12,
+  "opportunity_template": [
+   "T2"
+  ],
+  "catalyst_role": "C3",
+  "gate1_hard_fail": false,
+  "special_situation": false,
+  "valuation": {
+   "entry_multiple": "17.9x FY2012 adjusted EPS",
+   "eps_path": "$7.00 - $7.50 EPS by 2016-2017 driven by margin expansion and productivity",
+   "terminal_multiple": "18.0x",
+   "irr_pct": 22,
+   "downside_case": "Limited downside due to long-term tonnage gas contracts and high infrastructure barriers"
+  },
+  "drivers": [
+   {
+    "driver": "Air Products is a dominant provider of industrial gases with high barriers to entry and long-duration, defensive customer relationships [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "A persistent 600bps operating margin gap compared to peer Praxair represents a significant, fixable opportunity for earnings growth [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "We can drive value by advocating for portfolio rationalization, disciplined capital allocation, and operational efficiency [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "At 17.9x FY2012 earnings, the stock is attractively priced for a high-quality infrastructure business undergoing a transformation [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Operating margins fail to show sustained expansion toward the 20%+ benchmark over four consecutive quarters",
+   "Management persists with high-capex, low-return project growth instead of pivoting to FCF optimization",
+   "Return on Invested Capital (ROIC) fails to improve as portfolio rationalization progresses"
+  ],
+  "what_would_change_our_mind": "Evidence that the current profitability deficit is structural and tied to the inherent nature of the assets rather than management underperformance.",
+  "memo": "Air Products and Chemicals is a dominant infrastructure player in the industrial gases industry, benefiting from long-duration customer relationships and significant barriers to entry [D01]. Despite the essential nature of its business, the firm has failed to achieve the profitability levels of its peers [D06]. We believe this gap is not structural but the result of insufficient management focus on operational discipline and capital allocation [D01, D06].\n\nThe opportunity exists because the market incorrectly views the firm's current underperformance as permanent [D05, D06]. While underlying sales growth has been soft, we see a clear path to mid-teens EPS growth through margin expansion and improved capital efficiency [D01, D03, D06]. We believe the firm can close the 600bps operating margin gap to best-in-class peer Praxair through aggressive portfolio rationalization [D01, D06].\n\nWe are able to acquire our stake at 17.9x FY2012 adjusted earnings, a valuation that does not reflect the earnings power of a fully optimized industrial gas franchise [D04]. With margin improvement initiatives, we expect to see EPS of $7.00 to $7.50 by 2016-2017 [D01, D06]. This path, combined with a rerating of the multiple as the company transitions to a more disciplined cash-flow-generative profile, supports an expected annual return of over 20% [D03, D04].\n\nAs active shareholders, we intend to engage with the Board to accelerate the transition to a more efficient operating model [D06]. We will push for a strategic review of all non-core assets and advocate for a change in capital allocation policy to maximize free cash flow conversion rather than prioritizing high-capex growth [D01, D02, D04]. We are prepared to advocate for new leadership or board members if the current team cannot demonstrate meaningful improvement in operating margins [D06].\n\nThe risks are mitigated by the long-term, contractual nature of the tonnage gas segment, which provides a durable floor for the business [D01]. While the company's capital intensity remains a challenge, we are confident that a focus on productivity can mitigate this issue [D02, D06]. We will monitor progress closely and change our view if we conclude that the current profitability gap is deeply embedded in the company's asset base and beyond management's control.\n\nWe are initiating a position today with an intent to scale to 12% of NAV as we engage with management to unlock this value [D04, D08]. This represents a high-conviction bet on the ability to transform an underperforming, yet high-quality, industrial asset into a best-in-class performer [D06].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

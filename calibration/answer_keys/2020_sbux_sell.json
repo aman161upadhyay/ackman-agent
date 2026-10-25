@@ -1,0 +1,19 @@
+{
+  "id": "2020_sbux_sell",
+  "actual_decision": "SELL",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Full exit of first investment. Initial all-funds stake about 15.2m shares/$900m; PSH $495m at average $51.30. Not a verified January exit weight.",
+  "first_action_date": "2020-01 (exact days unknown)",
+  "disclosure_date": "2020-02-05",
+  "reason_class": "S1",
+  "opportunity_template": ["T1"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Share-price appreciation compressed prospective returns as the investment approached estimated value.", "source": "https://www.businessinsider.com/bill-ackmans-pershing-square-sold-its-starbucks-adp-stakes-2020-2 (2020-02-05)", "quote": null},
+    {"driver": "The operating recovery and brand thesis worked; the exit did not require a conclusion that Starbucks was a broken business.", "source": "https://assets.pershingsquareholdings.com/2020/04/06175615/Pershing-Square-Holdings-Ltd.-2019-Annual-Report.pdf (2020-04-06)", "quote": null},
+    {"driver": "Release capital after attractive realized returns rather than retain the same valuation discount assumption indefinitely.", "source": "https://www.businessinsider.com/bill-ackmans-pershing-square-sold-its-starbucks-adp-stakes-2020-2 (2020-02-05)", "quote": null}
+  ],
+  "entry_valuation_stated": "Original average $51.30; manager described entry at 25% below historical 26x forward earnings.",
+  "outcome_note": "Approximately 73% total return reported over 19 months. Separate March 2020 re-entry at lower valuation; do not label January exit a COVID short.",
+  "pack_quality_notes": "Eight documents including D00 and explicit thesis-change comparison. January15 $91.54/volume recovered; company full financials and forward guide used. Precise sale timing, current fund weights/AUM and full peer multiples missing. No January28 China closures or future pandemic evidence."
+}

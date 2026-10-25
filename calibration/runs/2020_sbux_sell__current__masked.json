@@ -1,0 +1,38 @@
+{
+ "pack": "2020_sbux_sell",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2020-01-15",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-01-15",
+  "company": "the Company",
+  "ticker": "the Company",
+  "decision": "TRIM",
+  "reason_class": "S1",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "US operations: strengthened, evidenced by traffic growth and sustained same-store sales recovery [D06, D07]",
+   "China growth: intact, with continued store expansion and comparable sales growth [D04, D07]",
+   "Operating initiatives: intact, with rewards membership growth and successful overhead simplification [D04, D07]",
+   "Valuation: broken (in terms of entry thesis), as the stock has appreciated significantly and now trades at a high multiple [D05, D07]"
+  ],
+  "forward_irr_estimate_pct": 10,
+  "valuation_now": "30.3x FY2020 adjusted EPS guidance, a significant rerating from the original purchase [D05, D07]",
+  "drivers": [
+   {
+    "driver": "The stock has experienced significant appreciation, causing the forward IRR to fall below our 15% threshold for new or maintained high-conviction positions [D05, D07].",
+    "citations": [
+     "D05",
+     "D07"
+    ]
+   }
+  ],
+  "memo": "Our investment in the Company was predicated on a high-quality, habit-based business with significant runway for growth, which we were able to acquire at an attractive 25% discount to historical valuation [D00, D07]. Since our entry, the management team has successfully executed on our thesis, driving improved US traffic, increasing rewards membership, and expanding the franchise in China [D04, D06, D07]. These operational improvements are clear, and the core moat remains robust [D07].\n\nHowever, the investment landscape has shifted significantly. The stock has appreciated roughly 78% since our average entry price [D05]. It now trades at approximately 30.3x our estimate of FY2020 adjusted earnings, a valuation that no longer offers the asymmetric upside we seek [D05, D07]. While the business remains a high-quality compounder, the current price largely reflects the successful execution of the operating turnaround, reducing the prospective forward return [D05, D07].\n\nAs stewards of our partners' capital, we must be disciplined in our hurdle rates. Given the substantial appreciation, the forward IRR no longer meets our 15% target for maintaining a concentrated position [D07]. We are trimming our holding to reallocate capital toward opportunities that offer more compelling risk-adjusted returns, while retaining a position in what remains an excellent franchise [D05, D07].",
+  "uncited_claims": [
+   "The decision to trim is based on the discipline of harvesting gains when a valuation gap closes, even when the underlying business fundamentals remain strong."
+  ]
+ },
+ "elapsed_s": 0
+}

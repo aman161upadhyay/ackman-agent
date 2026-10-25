@@ -1,0 +1,20 @@
+{
+  "id": "2024_nke_buy_b",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav_at_cost": "Approximately 3% initial; built toward approximately 11% by year-end; options replaced common shares in early 2025, not a verified year-end-2024 options position.",
+  "first_action_date": "2024-05-15",
+  "disclosure_date": "2024-08-14",
+  "reason_class": null,
+  "opportunity_template": ["T1", "T2"],
+  "catalyst_role": "C1",
+  "drivers": [
+    {"driver": "Nike's global brand and scale remain valuable despite operational underperformance.", "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03 retrospective)", "quote": null},
+    {"driver": "Innovation and repair of wholesale distribution can restore demand.", "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03 retrospective)", "quote": null},
+    {"driver": "Depressed profitability offers recovery potential.", "source": "https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03 retrospective)", "quote": null},
+    {"driver": "Elliott Hill's operating knowledge strengthens the management repair thesis after September appointment, not at initial purchase.", "source": "https://www.sec.gov/Archives/edgar/data/320187/000032018724000053/exhibit991-pressreleasesep.htm (2024-09-19); https://pershingsquareholdings.com/wp-content/uploads/2025/07/Pershing-Square-Holdings-Ltd.-2024-Annual-Report-1.pdf (2025-03)", "quote": null}
+  ],
+  "entry_valuation_stated": "$91 average cost at announcement; exact initial forward multiple unverified.",
+  "outcome_note": "Exited November11 2025. February2026 presentation reports underlying total return approximately -30% and acknowledges underestimating prior management's problems.",
+  "pack_quality_notes": "June28 is a requested alternative scenario after actual initiation. No Hill or later tariff information leaks into pack. Initial sizing approximate. Compendium places options conversion in early2025; year-end2024 common shares were 18.8m. Forward consensus, peer valuation table and exact firm AUM missing. FY24 FCF excluded because not supplied in dated June release."
+}

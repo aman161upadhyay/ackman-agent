@@ -1,0 +1,35 @@
+{
+ "pack": "2020_sbux_sell",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2020-01-15",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-01-15",
+  "company": "Starbucks",
+  "ticker": "SBUX",
+  "decision": "TRIM",
+  "reason_class": "S1",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Durable franchise: intact [D02]",
+   "Operating improvement: strengthened [D04, D07]",
+   "China growth runway: intact [D04, D07]",
+   "Discounted valuation: broken [D05, D07]"
+  ],
+  "forward_irr_estimate_pct": 10,
+  "valuation_now": "30.3x FY2020 adjusted EPS guidance [D05]",
+  "drivers": [
+   {
+    "driver": "The stock's significant appreciation to a ~30x forward multiple has compressed prospective returns below our 15% hurdle [D05, D07].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "memo": "Starbucks has been a successful investment, with the company delivering on the operational turnaround we anticipated [D04, D07]. US same-store sales growth has recovered to 6% in Q4, and the company continues to execute on its digital and loyalty initiatives, validating our original thesis regarding the franchise's durability and fixable operational path [D04, D07]. The growth runway in China remains significant, notwithstanding the competitive and macro risks [D04, D06, D07].\n\nHowever, the valuation has shifted substantially since our initial investment at an average price of $51.30 [D05]. With the shares trading at $91.54, or approximately 30.3x FY2020 adjusted earnings guidance, the margin of safety provided by the entry discount has been entirely realized [D05, D07]. Given current growth guidance of 6-8% in adjusted EPS, the forward rate of return is no longer consistent with our 15% threshold for new or maintained high-conviction positions [D04, D07].\n\nWhile the business remains a high-quality, free-cash-flow-generative compounder, we must be disciplined regarding opportunity cost [D07]. We are trimming the position to harvest gains as the stock price has outpaced the near-term growth in intrinsic value, and we believe our capital can be more effectively deployed in opportunities offering higher prospective returns [D05, D07].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

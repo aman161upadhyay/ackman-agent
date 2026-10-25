@@ -1,0 +1,12 @@
+{
+  "id": "2026_ice_buy",
+  "company": "Intercontinental Exchange",
+  "ticker": "ICE",
+  "aliases": ["NYSE parent", "Intercontinental Exchange Inc."],
+  "as_of_date": "2026-06-30",
+  "mode": "new",
+  "era": "E",
+  "first_action_window": "Exact first day unresolved. June30 conservative freeze precedes primary-source-bounded later window; timing correction sealed in key.",
+  "pershing_aum_usd_bn": 19.748,
+  "notes": "AUM is dated February9 gross core-fund scale, not June buying power; later IPO is discussed separately without double counting. June perpetual-futures selloff and April earnings included. No August thesis or later results in documents."
+}

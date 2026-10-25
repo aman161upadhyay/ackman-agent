@@ -1,0 +1,253 @@
+{
+ "pack": "2021_umg_buy",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2021-06-03",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Universal Music Group (UMG) is a leading global recorded-music and music-publishing business [D01]. It generates economics by developing artists, owning and licensing recordings and compositions, and monetizing consumption through physical, digital, and performance channels [D01].",
+   "segments_and_mix": [
+    "Recorded music: primary revenue driver, includes subscription/streaming, physical, and digital formats [D01, D03]",
+    "Music publishing: composition rights [D01]",
+    "Merchandising/other: secondary revenue [D01, D03]"
+   ],
+   "unit_economics": [
+    "EBITA margin expanded from 15.0% in 2018 to 17.9% in 2020 [D02, D04]",
+    "High incremental economics from catalog licensing [D01]",
+    "Material cash outflows for content spend and working capital [D03, D05]",
+    "Capital-light model with ongoing artist royalty and advance obligations [D01, D03]"
+   ],
+   "competitive_position": [
+    "Leading global market position in recorded music and publishing [D01]",
+    "Moat evidence includes talent relationships, marketing/distribution scale, rights administration, and valuable catalog [D01]",
+    "Peers include Warner Music and Sony Music [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "2020 actual revenue growth 3.8% [D02]",
+    "Q1 2021 revenue grew 9.4% at constant currency/perimeter [D03]",
+    "Growth driven by streaming, with 443 million paid subscribers globally at end of 2020 [D01, D06]"
+   ],
+   "balance_sheet": [
+    "Net debt, leverage, maturities, and rating: not in pack"
+   ],
+   "management_and_governance": [
+    "Led by Lucian Grainge [D01]",
+    "Proposed public governance includes one share/one vote, no poison pill, and majority-independent board [D01, D07]"
+   ],
+   "price_and_valuation": [
+    "Price/Market cap: not in pack",
+    "Private transaction anchor: Tencent-led consortium invested at €30 billion enterprise value [D04]",
+    "2020 EV/Revenue: 4.04x; 2020 EV/EBITA: 22.6x [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Transaction structure and minority shareholder returns [D05]",
+    "Bargaining power of streaming platforms and artists [D05]",
+    "Potential for content spending and acquisition costs to capture growth [D03, D05]",
+    "Dependence on hit repertoire and renewal risk [D03]"
+   ],
+   "recent_events": [
+    "2021-03-03: Vivendi reported 2020 results [D01]",
+    "2021-05-18: Vivendi provided update on proposed UMG distribution/listing [D01]",
+    "2021-05-25: Reports of activist pressure regarding distribution terms [D05]"
+   ],
+   "pershing_context": [
+    "Fund AUM and holdings: PSH core funds total AUM $13.562 billion as of February 16, 2021 [D07]",
+    "Existing stake: not in pack"
+   ],
+   "missing_data": [
+    "Standalone CFO, capex, net debt, share count, diluted EPS, consolidated ROIC, and forward P/E estimates."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "UMG operates a high-margin, capital-light business model with highly recurring revenue from subscription and streaming platforms [D01, D03]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "UMG holds a leading global market position supported by talent relationships, distribution scale, and a vast, valuable catalog [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "PASS",
+     "evidence": "The business is driven by secular growth in music consumption rather than commodity prices or rate direction, though it faces moderate streaming platform bargaining power [D01, D05]."
+    },
+    "strong_financial_profile": {
+     "score": "UNSURE",
+     "evidence": "Specific data on net debt, leverage, and refinancing maturities for UMG on a standalone basis is not in pack [D01]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The company's established market leadership and cash-generative model suggest it does not depend on equity issuance, though specific financial covenants are not in pack [D01]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "A €30 billion enterprise value valuation confirms the business is large and liquid enough for a concentrated position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "While private transaction pricing is available, insufficient standalone earnings and forward P/E data prevent a definitive screen [D04]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "UMG is led by Lucian Grainge, and the proposed governance structure includes one share/one vote and a majority-independent board [D01, D07]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "Growth is supported by the secular tailwind of streaming, with 443 million paid subscribers globally at the end of 2020 [D01, D06]."
+    }
+   },
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant, capital-light global music leader benefiting from the secular tailwind of streaming subscriptions"
+  },
+  "gate2": {
+   "templates": [
+    "T3",
+    "T5"
+   ],
+   "variant_perception": "The market views Universal Music Group (UMG) primarily as a subsidiary component of Vivendi, creating a conglomerate discount and complexity overhang ahead of its spin-off [D01, D05]. We believe the market fails to fully price UMG as a standalone, high-margin, dominant royalty-like business with durable growth, as the upcoming distribution will eliminate the parent company discount and technical selling pressure from passive holders who cannot hold the new listing [D01, D07].",
+   "evidence": [
+    "Vivendi provides an update on the proposed UMG distribution and listing, suggesting a catalyst for unlocking value [D01].",
+    "Activist pressure regarding distribution terms indicates market disagreement with current corporate structuring [D05].",
+    "Tencent-led investment at a €30 billion valuation provides a private-market anchor for intrinsic value [D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market is concerned about the transaction structure and minority shareholder returns following the spin-off from Vivendi, and fears streaming platform bargaining power will erode margins [D05].",
+   "what_must_be_true": [
+    "The distribution to shareholders proceeds as planned without prohibitive tax or regulatory friction.",
+    "Streaming growth continues to outpace potential declines in physical/legacy revenue channels.",
+    "UMG maintains its market leadership and competitive moat despite streaming platform bargaining power.",
+    "The standalone governance structure effectively protects minority shareholder interests."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "22.6x 2020 EV/EBITA based on €30B valuation anchor [D04]; historical peer/market averages for music majors not in pack",
+   "eps_or_fcf_path": {
+    "base_year": "2020",
+    "base_value": "EBITA €1.33B (derived from €30B EV at 22.6x [D04])",
+    "growth_assumption": "Mid-teens revenue/EBITA growth supported by global streaming adoption [D01, D06]",
+    "year_3_to_5_value": "EBITA €2.2B - €2.5B",
+    "assumptions": [
+     "Streaming revenue continues to outpace physical declines [D01, D03]",
+     "Margins continue to expand due to operating leverage [D02, D04]",
+     "Music publishing and recorded music maintain market leadership [D01]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 22,
+    "why": "Reflects UMG's position as a dominant, high-margin, royalty-like business with durable growth in a streaming-centric environment [D01]"
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 12,
+    "bull": 28
+   },
+   "downside_case": "Permanent loss is unlikely given the €30B private transaction anchor [D04] and the durable nature of the music catalog; downside risk is tied to streaming platform power bargaining for lower splits, potentially compressing margins [D05].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Standalone CFO, capex, net debt, share count, diluted EPS, and consolidated ROIC not provided [D01-D07]",
+    "2020 EBITA derived from provided EV and multiple [D04]",
+    "2020 standalone net debt assumed neutral for simplicity in EV calculation"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C1",
+   "catalyst_description": "The spin-off and public listing of UMG as a standalone entity from Vivendi, which will eliminate the conglomerate discount and remove technical selling pressure from passive holders who cannot own the new listing [D01, D07].",
+   "levers_or_steps": [
+    "Execution of the planned distribution of 60% of UMG shares to Vivendi shareholders [D01].",
+    "Admission of UMG shares to trading on Euronext Amsterdam [D01].",
+    "Realization of the market's re-rating of UMG as a pure-play, high-margin, capital-light music leader rather than a subsidiary component [D01, D07]."
+   ],
+   "time_to_value_realisation_years": 1,
+   "why_this_role_fits_the_era": "In the Pershing Square 3.0 era, we focus on identifying high-quality compounders where a structural or episodic dislocation—in this case, a spin-off from a parent conglomerate—provides an entry point into a dominant, free-cash-flow-generative business at an attractive valuation without the need for aggressive public activism."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Streaming platform bargaining power forces a material, structural reduction in royalty splits.",
+    "The business model shifts away from high-margin recurring royalties toward high-capex content acquisition or unsustainable advances.",
+    "Market share in recorded music declines significantly due to failure to retain key talent or acquire new hit repertoire.",
+    "The spin-off is cancelled or restructured in a manner that creates significant, long-term tax or regulatory disadvantages for shareholders."
+   ],
+   "portfolio_fit": "This investment serves as a dominant, high-quality compounder, fitting our 3.0 strategy of backing market leaders with durable growth runways; it provides a unique content-focused exposure that complements our existing portfolio of consumer-facing and platform-centric businesses.",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 15
+   },
+   "liquidity_assessment": "As a large-cap global leader [D01], building a 10% stake in UMG, which maintains a €30B enterprise valuation [D04], is actionable over several weeks without significant market impact given the expected public float post-listing.",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is a potential increase in bargaining power for streaming platforms that could compress margins and erode the long-term royalty economics of the recorded music business [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-06-03",
+  "company": "Universal Music Group",
+  "ticker": "UMG",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "opportunity_template": [
+   "T3"
+  ],
+  "catalyst_role": "C1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "22.6x 2020 EV/EBITA",
+   "eps_path": "Mid-teens annual revenue and EBITA growth",
+   "terminal_multiple": "22x",
+   "irr_pct": 20,
+   "downside_case": "Margin compression from streaming platform power, mitigated by €30B transaction anchor"
+  },
+  "drivers": [
+   {
+    "driver": "Universal Music Group is the world's leading music entertainment company, possessing an unmatched, durable catalog and a dominant global market position [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The business operates a high-margin, capital-light model that acts as a global royalty stream, directly benefiting from the secular growth of music streaming [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "We have identified an attractive entry point at an enterprise value of €30 billion, consistent with recent private market transactions, offering an asymmetric risk-reward profile [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The upcoming spin-off from Vivendi acts as a powerful catalyst, removing the conglomerate discount and technical overhang, allowing the market to re-rate UMG as a standalone pure-play leader [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Management, led by Lucian Grainge, has demonstrated a strong record of scaling the business and navigating the transition to digital, supported by robust governance [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Structural reduction in royalty splits forced by streaming platforms",
+   "Shift toward high-capex content acquisition business models",
+   "Significant loss of market share or failure to retain core talent",
+   "Cancellation or disadvantageous restructuring of the spin-off"
+  ],
+  "what_would_change_our_mind": "A fundamental shift in the streaming royalty economic model that materially reduces margins, or a failure to maintain UMG's competitive moat against other majors and independent labels.",
+  "memo": "Universal Music Group is the dominant global leader in music, boasting an extensive, high-quality catalog and a capital-light business model that serves as a royalty-like engine for the digital age [D01]. By developing world-class talent and monetizing content across platforms, the company captures the compounding benefits of secular streaming adoption [D01, D03]. With 443 million paid subscribers globally at the end of 2020, UMG is uniquely positioned to benefit from the ongoing expansion of the music ecosystem [D01, D06].\n\nHistorically, the market has mispriced UMG by burying it within the Vivendi conglomerate, resulting in a persistent complexity discount [D01, D05]. The pending spin-off is the catalyst required to unlock this value, as it will eliminate the parent company overhang and alleviate technical selling pressure from passive holders unable to own the new security [D01, D07]. We are acquiring our stake at an enterprise value of approximately €30 billion, a valuation anchored by recent third-party investments that we believe significantly underestimates the company's long-term intrinsic value [D04].\n\nOur investment thesis is built on an earnings path of mid-teens EBITA growth, driven by streaming revenue outstripping legacy declines and continued margin expansion [D01, D04]. At an entry multiple of 22.6x 2020 EV/EBITA, we view the valuation as attractive for a business of this quality, providing an expected annual return exceeding our 20% threshold [D04]. The risk of margin compression due to streaming platform bargaining power is the primary headwind, yet we believe UMG’s indispensability to these platforms provides sufficient protection [D05].\n\nWe are initiating a 10% position in Universal Music Group, reflecting our high conviction in the business’s durable growth and the clarity of the pending spin-off catalyst [D01]. We intend to hold this as a long-term core compounder in the Pershing Square portfolio, benefiting from its dominant, free-cash-flow-generative economics [D01, D04].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

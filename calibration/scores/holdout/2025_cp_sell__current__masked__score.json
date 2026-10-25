@@ -1,0 +1,49 @@
+{
+ "trade_id": "2025_cp_sell",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Tariffs and macro exposure widened the risk range of the cross-border railway. → The emergence of potential tariffs on cross-border trade introduces extrinsic factors that we cannot control."
+  ],
+  "missed": [
+   "Business quality remained high; the exit should not be labeled established franchise destruction.",
+   "Capital could be deployed into more attractive alternatives, including Amazon."
+  ],
+  "extra_agent_drivers": [
+   "Integration progress and synergy realization",
+   "Management guidance and EPS growth targets"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "integration is delivering tangible value, with over $800 million in run-rate revenue synergies realized",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "stock trading at approximately 21.4–22.6x our 2025 earnings estimate",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "precedent of the first Trump administration suggests that the Company is well-positioned to maintain mid-teens EPS growth even in periods of trade policy flux",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 2,
+  "share": 0.18
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "Given the strength of the underlying franchise and the management team’s proven execution, we continue to hold our position with high conviction.",
+ "grader_notes": "The agent reached a HOLD decision, missing the actual exit completely. While the agent correctly identified tariff uncertainty as a risk, it failed to incorporate the primary drivers of the exit: the availability of more attractive capital allocation opportunities (Amazon) and the decision to rotate funds, rather than hold based on franchise quality.",
+ "run": "2025_cp_sell__current__masked",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

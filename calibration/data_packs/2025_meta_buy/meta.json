@@ -1,0 +1,12 @@
+{
+  "id": "2025_meta_buy",
+  "company": "Meta Platforms",
+  "ticker": "META",
+  "aliases": ["Meta", "Facebook", "Instagram", "WhatsApp"],
+  "as_of_date": "2025-11-03",
+  "mode": "new",
+  "era": "E",
+  "first_action_window": "Timing evidence is sealed in the hold-out answer key; this snapshot is not an execution-date assertion.",
+  "pershing_aum_usd_bn": 20.7111,
+  "notes": "Core-strategy gross AUM at August 31, 2025, not PSH NAV. Historical market observations are restricted to the cutoff. Some requested consensus and historical-multiple fields could not be authenticated and are explicitly unavailable. Research-ready with gaps, not an exact entry-price replay."
+}

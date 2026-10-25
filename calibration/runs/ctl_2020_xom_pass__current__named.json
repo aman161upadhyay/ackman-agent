@@ -1,0 +1,241 @@
+{
+ "pack": "ctl_2020_xom_pass",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2020-10-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "ExxonMobil is an integrated energy company engaged in oil and gas exploration, production, refining, fuel marketing, and chemical manufacturing [D01]. Its integrated operations provide scale and technical capabilities across the energy chain while remaining subject to commodity price and demand volatility [D01].",
+   "segments_and_mix": [
+    "Upstream: earnings dependent on realized oil/gas prices, production, costs, and investment [D01]",
+    "Downstream: earnings dependent on refining margins and utilization [D01]",
+    "Chemical: earnings dependent on feedstock prices and industry capacity [D01]"
+   ],
+   "unit_economics": [
+    "Margins/returns: subject to energy price/margin environment [D01]",
+    "Capex intensity: substantial; first nine months 2020 capital and exploration expenditures were $16.603 billion [D02]",
+    "FCF conversion: currently negative; dividends exceed operating cash flow before capital requirements [D02]"
+   ],
+   "competitive_position": [
+    "Rank: large-scale global operator with technical expertise and long-lived assets [D01]",
+    "Moat evidence: narrow-moat rating (per analyst), though replacement cost of assets does not guarantee economic earnings [D01], [D03]",
+    "Peers: not in pack"
+   ],
+   "growth_record_and_outlook": [
+    "Revenue/EPS history: Q3 2020 GAAP loss of $0.68 billion; first nine months 2020 net loss of $2.370 billion [D02]",
+    "Guidance: 2021 capital program target of $16–19 billion [D02]"
+   ],
+   "balance_sheet": [
+    "Net debt/leverage: no specific net-debt/EBITDA figure in pack [D02]",
+    "Maturities/rating: not in pack"
+   ],
+   "management_and_governance": [
+    "CEO: not in pack",
+    "Capital allocation: prioritizing dividend and balance sheet protection through spending and cost reductions [D01], [D02]",
+    "Controller/dual-class: not in pack"
+   ],
+   "price_and_valuation": [
+    "Price: $32.62 (Oct 30, 2020) [D03]",
+    "Market cap: not in pack",
+    "Drawdown: ~55.4% from observed high of $73.12 [D03]",
+    "P/E: not in pack (due to losses)",
+    "FCF yield: negative (dividends not covered by operating cash flow) [D02], [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Dividend sustainability due to lack of cash coverage [D02], [D04]",
+    "Extended low-price/margin environment [D04]",
+    "Demand impact from pandemic [D01], [D04]",
+    "Removal from Dow Jones Industrial Average [D04]"
+   ],
+   "recent_events": [
+    "August 2020: S&P Dow Jones announced removal from the Dow Jones Industrial Average effective August 31 [D04]",
+    "Q3 2020: Reported loss of $0.68 billion [D02]"
+   ],
+   "pershing_context": [
+    "Fund AUM: not in pack",
+    "Current holdings/cash: not in pack",
+    "Existing stake/prior engagement: not in pack"
+   ],
+   "missing_data": [
+    "Exact net debt/EBITDA figures",
+    "Current Pershing Square portfolio and fund liquidity",
+    "Specific management incentive structures"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The company suffers from commodity price volatility and reported negative free cash flow where dividends exceed operating cash flow [D01], [D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "It is a large-scale global operator with significant technical expertise and long-lived assets [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "Earnings are directly and significantly dependent on commodity prices, refining margins, and pandemic-driven demand impacts [D01], [D04]."
+    },
+    "strong_financial_profile": {
+     "score": "UNSURE",
+     "evidence": "While prioritizing balance sheet protection, the pack lacks specific net debt/EBITDA figures and the company is currently generating losses [D01], [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "There is no stated requirement to issue equity, though capital programs remain substantial [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "As a former Dow Jones Industrial Average constituent, the company remains a large-scale global operator [D01], [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock has experienced a 55.4% drawdown from its observed high [D03]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "The identity of the CEO and specific governance/incentive structures are not in the pack [D02]."
+    },
+    "durable_growth_runway": {
+     "score": "FAIL",
+     "evidence": "The company reported a net loss for the first nine months of 2020 and faces an extended low-price and low-margin environment [D02], [D04]."
+    }
+   },
+   "n_pass": 4,
+   "n_fail": 3,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a capital-intensive integrated energy company hostage to volatile commodity prices and lacking predictable free cash flow"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "variant_perception": "The market is reacting to the immediate impact of the pandemic and the removal from the Dow Jones Industrial Average, viewing the stock as a distressed energy play with an unsustainable dividend [D02], [D04]. We cannot refute this narrative because the business model remains inherently linked to volatile commodity prices and lacks free cash flow generation, failing our core investment criteria [D01], [D02].",
+   "evidence": [
+    "Reported a net loss of $2.370 billion for the first nine months of 2020 [D02]",
+    "Dividends currently exceed operating cash flow before capital requirements [D02]",
+    "Earnings are directly dependent on volatile commodity prices and refining margins [D01]"
+   ],
+   "market_narrative_we_disagree_with": "The market views this as a cyclical opportunity in a dominant franchise; however, the lack of predictable free cash flow and dependency on extrinsic commodity factors make this an unattractive long-term compounder [D01], [D04].",
+   "what_must_be_true": [
+    "A sustained, multi-year recovery in global energy demand and commodity pricing",
+    "A structural change to the capital expenditure model that allows for positive free cash flow generation",
+    "The preservation of the dividend through operating cash flow rather than balance sheet utilization"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "N/A (Net loss in 2020) [D02]",
+   "eps_or_fcf_path": {
+    "base_year": "2020",
+    "base_value": "Negative [D02]",
+    "growth_assumption": "Highly dependent on unpredictable commodity pricing and refining margins [D01]",
+    "year_3_to_5_value": "Not in pack",
+    "assumptions": [
+     "Requires sustained multi-year recovery in global energy demand [Gate 2]",
+     "Requires structural change to capex model for positive FCF [Gate 2]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 0,
+    "why": "Business lacks predictable free cash flow and core quality characteristics required for our compounder criteria [D01], [D02]"
+   },
+   "implied_irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "downside_case": "Permanent loss of capital is possible if the company cannot sustain its dividend via operating cash flow and continues to rely on balance sheet utilization [D02], [Gate 2].",
+   "valuation_verdict": "EXPENSIVE_BELOW_10",
+   "flagged_assumptions": [
+    "No forward-looking EPS projection possible due to lack of predictability and negative base earnings [D02]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We choose to PASS on this investment because the business fails our core criteria of being a predictable, free-cash-flow-generative compounder [Gate 1, Gate 2]. As such, no catalyst is relevant as we would not initiate a position [D01], [D02].",
+   "levers_or_steps": [
+    "Not applicable as we are passing on the opportunity [Gate 2]"
+   ],
+   "time_to_value_realisation_years": 0,
+   "why_this_role_fits_the_era": "In our Pershing Square 3.0 era, we focus exclusively on high-quality compounders with predictable free cash flow [Instruction 4]. This business is a capital-intensive commodity producer currently generating losses, which is fundamentally inconsistent with our investment mandate [Gate 1, Gate 2]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management abandons balance sheet discipline to fund the dividend",
+    "Operating cash flow remains insufficient to cover dividends over a full fiscal year",
+    "Structural decline in long-term oil and gas demand outpaces company's ability to adjust capex"
+   ],
+   "portfolio_fit": "Not applicable as we are passing on this investment due to failure to meet our quality compounder criteria [Gate 1].",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "liquidity_assessment": "Not applicable as we are passing on the opportunity [Gate 4].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The company's business model is fundamentally hostage to volatile commodity prices and lacks the predictable, free-cash-flow-generative profile required for a Pershing Square 3.0 investment [Gate 1, Gate 4]."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-10-30",
+  "company": "Exxon Mobil Corporation",
+  "ticker": "XOM",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "N/A (Net loss in 2020) [D02]",
+   "eps_path": "Highly dependent on unpredictable commodity pricing and refining margins [D01]",
+   "terminal_multiple": "0",
+   "irr_pct": 0,
+   "downside_case": "Permanent loss of capital is possible if the company cannot sustain its dividend via operating cash flow and continues to rely on balance sheet utilization [D02]."
+  },
+  "drivers": [
+   {
+    "driver": "The business lacks the simple, predictable, and free-cash-flow-generative profile required for a Pershing Square 3.0 investment [D01], [D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "Earnings are directly and significantly exposed to volatile commodity prices and refining margins, which we cannot control [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The company reported a net loss of $2.370 billion for the first nine months of 2020, with dividends currently exceeding operating cash flow [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "Despite the 55.4% drawdown, the lack of free cash flow and structural dependency on extrinsic factors prevent us from identifying a durable long-term compounder [D01], [D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management abandons balance sheet discipline to fund the dividend",
+   "Operating cash flow remains insufficient to cover dividends over a full fiscal year",
+   "Structural decline in long-term oil and gas demand outpaces company's ability to adjust capex"
+  ],
+  "what_would_change_our_mind": "A sustained, multi-year recovery in global energy demand coupled with a structural change to the capital expenditure model that consistently allows for significant free cash flow generation.",
+  "memo": "Exxon Mobil is an integrated energy company with operations spanning oil and gas exploration, production, refining, and chemical manufacturing [D01]. While the company possesses significant scale and long-lived assets, it fails to meet our core standard of being a simple, predictable, and free-cash-flow-generative business [D01].\n\nCurrently, the company's financial performance is challenged, as evidenced by a net loss of $2.370 billion for the first nine months of 2020 [D02]. Furthermore, dividends currently exceed operating cash flow before capital requirements, creating a reliance on balance sheet utilization to maintain payouts [D02].\n\nThe market’s current sentiment reflects concerns over the sustainability of the dividend, the impact of the global pandemic on energy demand, and the company's removal from the Dow Jones Industrial Average [D02], [D04]. While the stock has experienced a 55.4% drawdown, the fundamental volatility inherent in commodity prices and refining margins makes the earnings path unpredictable [D01], [D03].\n\nGiven the capital-intensive nature of the business and our inability to control the extrinsic commodity factors that drive its profitability, we find no compelling entry point [D01]. We therefore choose to pass on this investment, as it does not align with our mandate to invest in high-quality, durable compounders [D01], [Gate 4].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

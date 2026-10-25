@@ -1,0 +1,255 @@
+{
+ "pack": "2026_alc_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2026-06-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company is an eye-care company operating in Surgical and Vision Care segments [D01]. Its portfolio includes surgical equipment, procedure-related consumables, implantables, contact lenses, and ocular-health products [D01].",
+   "segments_and_mix": [
+    "Surgical: $1.460 billion revenue in Q1 2026 (54% of total) [D01, D03]",
+    "Vision Care: $1.225 billion revenue in Q1 2026 (46% of total) [D01, D03]"
+   ],
+   "unit_economics": [
+    "Q1 2026 core operating margin: 21.2% [D01, D02]",
+    "Q1 2026 reported operating margin: 10.9% [D01, D02]",
+    "Capex: Expected in the mid-single digits as a share of sales [D03]",
+    "FCF: $1.733 billion defined FCF in 2025; $279 million in Q1 2026 [D02, D03]"
+   ],
+   "competitive_position": [
+    "Moat based on installed workflows, clinical trust, product breadth, distribution, and manufacturing scale [D01]",
+    "Competitors include CooperCompanies and Bausch+Lomb [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2025 sales: $10.319 billion [D01, D02]",
+    "Guidance: 5-7% constant-currency sales growth, 10-13% constant-currency core EPS growth [D03]"
+   ],
+   "balance_sheet": [
+    "Total financial debt (as of March 31, 2026): $4.734 billion [D02]",
+    "Net debt: $3.156 billion [D02, D04]"
+   ],
+   "management_and_governance": [
+    "CEO: David Endicott [D01]",
+    "Capital Allocation: $1.5 billion repurchase authorization over three years (May 2026) [D03]"
+   ],
+   "price_and_valuation": [
+    "Price: $67.10 (as of June 30, 2026) [D04]",
+    "Market cap proxy: $32.892 billion [D04]",
+    "P/E (Price/FY2025 reported EPS): 33.9x [D04]",
+    "P/E (Price/FY2025 core EPS): 21.9x [D04]",
+    "FCF yield: 5.3% based on 2025 defined FCF [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Weak underlying implantable momentum [D01, D03]",
+    "Gap between core and reported profitability [D02, D05]",
+    "Failure of margin expansion to meet expectations [D05]",
+    "Clinical and regulatory uncertainty regarding AURN001 [D05, D09]",
+    "Impact of tariffs and launch-related expenses [D03, D05]"
+   ],
+   "recent_events": [
+    "May 5, 2026: Reported Q1 2026 results with 10% reported sales growth and raised core EPS guidance [D03, D07]",
+    "April 8, 2026: First patients dosed in ASTRA Phase 3 trial for AURN001 [D07, D09]",
+    "May 2026: Announced $1.5 billion repurchase authorization [D03]"
+   ],
+   "pershing_context": [
+    "Not in pack"
+   ],
+   "missing_data": [
+    "Exact USD EPS guidance range",
+    "Matched-date S&P 500 forward multiple for relative valuation",
+    "Segment-level ROIC",
+    "Independent verification of current fund NAV weights or cash position"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "The company operates with recurring revenue from consumables and implantables, generating significant free cash flow with low maintenance capital requirements [D01, D03]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company benefits from a deep moat defined by installed surgical workflows, clinical trust, and significant manufacturing scale [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "The business faces exposure to clinical and regulatory uncertainty regarding its pipeline product AURN001, which represents a potential binary outcome [D05, D09]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a manageable leverage position with net debt of $3.156 billion against a market capitalization of $32.892 billion [D02, D04]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The company is free-cash-flow generative and recently initiated a $1.5 billion share repurchase program, indicating no reliance on external equity [D03, D04]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of $32.892 billion, the company is sufficiently liquid for a concentrated Pershing Square position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The core P/E ratio of 21.9x is reasonable for a dominant franchise with durable growth, especially when accounting for recent operational improvements [D03, D04]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "Management has demonstrated proactive capital allocation through a $1.5 billion repurchase authorization and successfully raised core EPS guidance [D03, D07]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company targets 5-7% sales growth and 10-13% core EPS growth, supported by steady demand in surgical and vision care segments [D03]."
+    }
+   },
+   "n_pass": 8,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a high-quality, free-cash-flow-generative dominant player in the eye-care space with a recurring revenue model."
+  },
+  "gate2": {
+   "templates": [
+    "T2"
+   ],
+   "variant_perception": "The market is overly focused on the discrepancy between core and reported operating margins and temporary launch-related expenses, leading to a valuation that ignores the underlying quality of the franchise. We believe the gap between core and reported profitability is transitory and that management's operational improvements will drive margin expansion toward peer levels as scale benefits materialize [D02, D03, D05].",
+   "evidence": [
+    "Core operating margin of 21.2% versus reported operating margin of 10.9% in Q1 2026 highlights the potential for margin bridge as one-time expenses abate [D01, D02]",
+    "Raised core EPS guidance demonstrates confidence in the underlying earnings power despite recent headwinds [D03, D07]",
+    "Management has initiated a $1.5 billion share repurchase program, signaling that the intrinsic value is not reflected in the current share price [D03]"
+   ],
+   "market_narrative_we_disagree_with": "The market believes that current margin compression and regulatory uncertainty regarding AURN001 indicate long-term structural weakness or a permanently lower earnings trajectory [D05, D09].",
+   "what_must_be_true": [
+    "The margin gap between reported and core results must narrow as launch-related and one-time costs diminish.",
+    "Surgical and Vision Care segments must sustain their 5-7% sales growth trajectory.",
+    "The company must maintain its dominant competitive position despite competitive pressures.",
+    "The AURN001 pipeline asset must not suffer a catastrophic clinical failure that impairs the long-term investment thesis."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "21.9x 2025 core EPS vs S&P 500 average (not in pack) [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2025",
+    "base_value": "3.06 per share (derived from $32.892B market cap / 21.9x P/E)",
+    "growth_assumption": "11.5% midpoint of 10-13% core EPS growth guidance",
+    "year_3_to_5_value": "4.24 per share (at year 3)",
+    "assumptions": [
+     "Midpoint of 10-13% core EPS growth guidance [D03]",
+     "Constant-currency core EPS growth maintained [D03]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 25,
+    "why": "Dominant eye-care franchise with high barriers to entry and durable growth profile warrants a premium multiple within the 25-35x range [D01, D03]"
+   },
+   "implied_irr_pct": {
+    "base": 24,
+    "bear": 12,
+    "bull": 30
+   },
+   "downside_case": "Downside is limited by the $1.5 billion share repurchase program and steady free-cash-flow generation [D03]. Permanent loss is unlikely given the dominant market position and essential nature of surgical/vision products, assuming AURN001 does not suffer catastrophic regulatory failure [D01, D09].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "2025 core EPS derived from provided P/E and market cap",
+    "S&P 500 forward multiple not available in pack",
+    "Market cap as a proxy for equity value"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We expect a re-rating of the company's valuation as the gap between reported and core operating margins narrows and the market gains confidence in the sustainability of the 10-13% core EPS growth trajectory [D03, D05]. As launch-related costs diminish and scale benefits materialize, the market will recognize the underlying earnings power of this dominant eye-care franchise, shifting the multiple toward a 25x-35x range commensurate with high-quality compounders [D01, D03, D04].",
+   "levers_or_steps": [
+    "Normalization of operating margins through the reduction of transitory launch-related expenses and one-time costs [D02, D03, D05]",
+    "Continued execution on the 5-7% sales growth target in Surgical and Vision Care segments [D03]",
+    "Disciplined capital allocation via the $1.5 billion share repurchase program to capitalize on the current valuation dislocation [D03]"
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "Aligned with the 'Pershing Square 3.0' era strategy of identifying high-quality compounders during periods of market dislocation where the thesis relies on earnings growth and multiple expansion rather than required public activism [Instruction 5]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Clinical or regulatory failure of the AURN001 pipeline asset",
+    "Persistent margin compression failing to bridge the gap between reported and core operating results due to structural rather than transitory costs",
+    "Deceleration of surgical and vision care segment sales growth below the 5-7% target for two consecutive quarters",
+    "Material deterioration of the balance sheet or abandonment of the share repurchase commitment"
+   ],
+   "portfolio_fit": "This business fits our 'Pershing Square 3.0' criteria as a high-quality, free-cash-flow-generative dominant compounder in the medical device/eye-care space, providing diversification away from our existing large-cap holdings while adhering to our preference for durable, predictable growth models.",
+   "size_pct_nav": {
+    "initial": 4,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "The company has a market capitalization of $32.892 billion and robust daily trading volumes, which allow us to build a position of 8-10% of NAV over several weeks without significant market impact [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is a potential clinical or regulatory failure of the AURN001 pipeline asset, which would impair the company's long-term growth trajectory and invalidate our valuation thesis."
+  }
+ },
+ "final": {
+  "as_of_date": "2026-06-30",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T2"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "21.9x 2025 core EPS",
+   "eps_path": "10-13% annual core EPS growth",
+   "terminal_multiple": "25x",
+   "irr_pct": 24,
+   "downside_case": "Limited by share repurchases and consistent FCF generation; downside protected by dominant market position in eye-care."
+  },
+  "drivers": [
+   {
+    "driver": "A high-quality, free-cash-flow-generative dominant player in the eye-care space with a recurring revenue model.",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The valuation is attractive at 21.9x core EPS, representing a dislocation from its underlying quality and growth potential.",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Management is actively driving shareholder value through a $1.5 billion share repurchase program and operational efficiency improvements.",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "A clear earnings growth algorithm driven by 5-7% sales growth in surgical and vision care segments.",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The market is overly focused on transitory margin discrepancies and launch-related expenses rather than long-term intrinsic value.",
+    "citations": [
+     "D02",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Clinical or regulatory failure of the AURN001 pipeline asset",
+   "Persistent margin compression failing to bridge the gap between reported and core operating results due to structural rather than transitory costs",
+   "Deceleration of surgical and vision care segment sales growth below the 5-7% target for two consecutive quarters",
+   "Material deterioration of the balance sheet or abandonment of the share repurchase commitment"
+  ],
+  "what_would_change_our_mind": "A failure of the AURN001 clinical program or a structural, non-transitory impairment to operating margins would invalidate our thesis.",
+  "memo": "The Company is a dominant leader in the eye-care industry, providing essential surgical equipment, implantables, and vision care products [D01]. Its business model is exceptionally attractive, characterized by recurring revenue from consumables and high-moat surgical workflows that generate significant, predictable free cash flow [D01, D03].\n\nWe have identified a compelling entry opportunity due to a market dislocation centered on the gap between reported and core operating margins [D02, D05]. While the market is distracted by temporary launch-related expenses and regulatory uncertainty surrounding the AURN001 pipeline asset, it has overlooked the company's underlying earnings power and its demonstrated ability to raise guidance in the face of these headwinds [D03, D05, D07].\n\nAt our entry price, the stock trades at approximately 21.9x core 2025 EPS [D04]. Given the company's durable growth runway and dominant competitive position, we believe a 25x multiple is appropriate, supporting an expected IRR of 24% in our base case [D01, D03, D04].\n\nOur role as investors is to benefit from the eventual re-rating of the company as the margin bridge closes and investors gain conviction in the 10-13% core EPS growth trajectory [D03, D05]. Management's disciplined capital allocation, specifically the $1.5 billion share repurchase authorization, provides a meaningful catalyst and floor to the valuation [D03].\n\nWe are mindful of the risks, particularly regarding the AURN001 pipeline, which represents a potential binary outcome [D05, D09]. However, the company's essential nature and strong cash flow profile limit our downside and provide a margin of safety [D01, D03].\n\nWe are initiating an 8% target position in the Company, as we are confident in its status as a high-quality compounder that is currently misunderstood by the market [D04].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

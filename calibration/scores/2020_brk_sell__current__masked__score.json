@@ -1,0 +1,50 @@
+{
+ "trade_id": "2020_brk_sell",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Pershing's smaller scale permits more nimble allocation than Berkshire.",
+   "Berkshire faces a difficult task deploying its enormous cash pool.",
+   "Use flexibility while preserving liquidity for more attractive direct opportunities."
+  ],
+  "extra_agent_drivers": [
+   "The Company's massive liquidity provides a unique, risk-free competitive advantage to deploy capital during continued market uncertainty."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "operating earnings increased in Q1 2020 despite pandemic effects",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the company’s aggregate operating earnings grew in Q1 2020",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "record $137 billion cash reserve",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "company continues to trade at a price/book proxy of approximately 1.18x",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 9,
+  "share": 1
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "Given our confidence in the company’s durability and our expectation for double-digit annualized returns, we maintain our position [D00], [D10].",
+ "grader_notes": "The agent failed to capture the core of Ackman's decision, which was driven by a strategic shift to prioritize his own fund's nimbleness and liquidity needs over Berkshire's capital deployment challenges. Instead, the agent provided a thesis defending Berkshire's management and liquidity as a long-term hold, directly contradicting Ackman's actual exit.",
+ "run": "2020_brk_sell__current__masked"
+}

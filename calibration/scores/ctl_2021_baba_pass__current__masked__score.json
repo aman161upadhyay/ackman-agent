@@ -1,0 +1,47 @@
+{
+ "trade_id": "ctl_2021_baba_pass",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 2,
+  "matched": [],
+  "missed": [
+   "Regulatory changes and offshore/VIE enforceability can dominate the value reaching ADS holders; ordinary shareholder activism cannot control them.",
+   "A profitable commerce engine is not sufficient if future shareholder rights, merchant rules and distributable cash cannot be forecast narrowly enough. No independently bounded special-situation payoff established."
+  ],
+  "extra_agent_drivers": [
+   "Dominant digital-commerce ecosystem with network effects",
+   "High-quality, free-cash-flow-generative business model",
+   "Attractive valuation multiples",
+   "Market mispricing of regulatory adjustments"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is a dominant digital-commerce ecosystem serving over one billion annual active consumers",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "fortress balance sheet holding over RMB 473 billion in cash and short-term investments",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The stock trades at an attractive 19.6x adjusted P/E",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 12,
+  "share": 1
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We have decided to initiate a position with a 5% target weight, reflecting our high conviction in the business's long-term utility, tempered by the unique jurisdictional and structural risks present in this environment [D05].",
+ "grader_notes": "The agent focused entirely on valuation and fundamental quality, failing to address the primary driver of the control/predictability risk that necessitated a pass in the answer key. The agent identified the risks (VIE/intervention) but dismissed them as temporary market mispricing rather than unmanageable structural factors.",
+ "run": "ctl_2021_baba_pass__current__masked"
+}

@@ -1,0 +1,47 @@
+{
+ "trade_id": "2013_apd_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Quality industrial-gas franchise with durable barriers → Air Products is a dominant infrastructure player in the industrial gases industry, benefiting from long-duration customer relationships and significant barriers to entry",
+   "Close margin gap through overhead and productivity → We believe the firm can close the 600bps operating margin gap to best-in-class peer Praxair through aggressive portfolio rationalization",
+   "Decentralized accountability, incentive alignment and noncore separation improve focus and returns → We will push for a strategic review of all non-core assets and advocate for a change in capital allocation policy to maximize free cash flow conversion rather than prioritizing high-capex growth"
+  ],
+  "missed": [
+   "Install a capable operating leader"
+  ],
+  "extra_agent_drivers": [
+   "Valuation-based drivers (17.9x FY2012 earnings) which Ackman did not explicitly cite as a thesis driver in the key"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Air Products is a dominant provider of industrial gases with high barriers to entry and long-duration, defensive customer relationships",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "A persistent 600bps operating margin gap compared to peer Praxair represents a significant, fixable opportunity for earnings growth",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "At 17.9x FY2012 earnings, the stock is attractively priced for a high-quality infrastructure business undergoing a transformation",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 18,
+  "cited": 8,
+  "share": 0.44
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We believe this gap is not structural but the result of insufficient management focus on operational discipline and capital allocation [D01, D06].",
+ "grader_notes": "The agent correctly matched three of the four core drivers identified in the Answer Key, focusing on the quality of the franchise, the margin gap to Praxair, and the need for capital allocation/noncore separation. It missed the specific driver regarding the installation of a new operating leader (which was a later 2014 event). The reasoning is closest to Ackman's in its emphasis on operational transformation, though the agent provided significantly more granular valuation analysis than was present in the provided Answer Key drivers.",
+ "run": "2013_apd_buy__current__named"
+}

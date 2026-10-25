@@ -1,0 +1,244 @@
+{
+ "pack": "2024_bn_buy",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2024-04-10",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Brookfield Corporation is a diversified owner and allocator of capital with economic streams spanning asset management, insurance, listed operating affiliates, direct real estate, and carried interest [D01]. It operates as a holding company following the 2022 distribution of a 25% interest in its asset management business to BAM [D01, D07].",
+   "segments_and_mix": [
+    "Asset management: Recurring fees on $457B fee-bearing capital and carried interest [D01]",
+    "Insurance: Approximately $60B in assets earning a spread [D01]",
+    "Operating businesses: Distributions from listed affiliates and direct real estate [D01]"
+   ],
+   "unit_economics": [
+    "Asset management: 6% growth in fee-related earnings [D03]",
+    "Insurance: 5.5% investment yield with a 2% spread over cost of capital [D01]",
+    "Overall: Management uses Distributable Earnings (DE) as a non-IFRS measure of performance; $4.806B total DE in 2023 [D02, D03]"
+   ],
+   "competitive_position": [
+    "Moat: Access to institutional capital, operating expertise in real assets, and ability to execute large transactions [D01]",
+    "Peers: Blackstone and KKR are relevant benchmarks for alternative management but differ in capital intensity and balance sheet structure [D06]"
+   ],
+   "growth_record_and_outlook": [
+    "2023 DE before realizations per share grew 12% on an adjusted comparable basis [D02, D03]",
+    "Management targets 15%+ long-term per-share returns and a $163 per-share plan value by 2028 [D03, D04]"
+   ],
+   "balance_sheet": [
+    "Corporate borrowings: $12.16B; nonrecourse borrowings: $221.55B [D02]",
+    "Liquidity: Reported $38B in cash, financial assets, and undrawn facilities at BN and affiliates [D02]"
+   ],
+   "management_and_governance": [
+    "Leadership: Bruce Flatt (CEO), Nick Goodman (President) [D01]",
+    "Incentives: Active capital allocation including $600M in 2023 share repurchases; $1B+ forecast for 2024 [D02, D03]",
+    "Structure: Dual-class/controlled elements implied by affiliated transactions and 75% manager retention [D01]"
+   ],
+   "price_and_valuation": [
+    "Price: $39.18 (as of 2024-04-10) [D04]",
+    "P/E (Trailing): 12.9x based on total DE ($3.03) or 14.7x based on DE before realizations ($2.66) [D04]",
+    "Valuation: Trading at ~47% discount to management's September 2023 plan value ($74/share) [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Real estate: Defaults on office-property mortgages and vacancy/valuation pressure [D05, D07]",
+    "Complexity: Reliance on management-defined DE and private valuation marks [D05]",
+    "Insurance: Risks associated with long-duration liabilities and asset/liability management [D05]"
+   ],
+   "recent_events": [
+    "2024-02-08: Reported 2023 annual results with $4.806B total DE [D03]",
+    "2023-09: Investor day set $74 per-share plan value [D04, D07]",
+    "2023-04-18: Reported default on $161.4M office mortgage [D05, D07]"
+   ],
+   "pershing_context": [
+    "No verified BN-specific Ackman recommendation in pack [D08]",
+    "Pershing Square (PSH) strategy focuses on high-quality compounders with long holding periods and capital-light models [D08]"
+   ],
+   "missing_data": [
+    "Comparable forward multiples for BN relative to peers",
+    "Consistently defined FRE margins for the alternative manager segment",
+    "Parent-only FCF, maintenance-capex, and ROIC series"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The business relies on complex, management-defined Distributable Earnings and private valuation marks, lacking the straightforward, high-conversion free-cash-flow characteristics we target [D05]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company possesses a strong moat driven by its significant institutional capital base, specialized operating expertise in real assets, and ability to execute large-scale transactions [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "The business has significant exposure to commercial real estate valuations and office-property mortgage performance, which are subject to broader market and rate trends [D05, D07]."
+    },
+    "strong_financial_profile": {
+     "score": "UNSURE",
+     "evidence": "While liquidity is reported at $38B, the balance sheet involves high levels of nonrecourse debt ($221.55B) and corporate borrowings, complicating our assessment of underlying financial strength [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The firm operates as a diversified allocator of capital with recurring fee streams and significant cash resources, indicating limited dependency on external equity issuance [D01, D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "Brookfield Corporation is a substantial, liquid entity suitable for a concentrated position within our portfolio [D01]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock trades at approximately a 47% discount to management's internal plan value of $74 per share [D04]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "The firm's dual-class controlled structure and complexity in affiliated transactions create governance considerations that diverge from our preference for transparent, aligned management [D01]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "Management has established a track record of growth, including a 12% increase in DE before realizations in 2023, and targets long-term returns exceeding 15% [D02, D03]."
+    }
+   },
+   "n_pass": 5,
+   "n_fail": 1,
+   "n_unsure": 3,
+   "hard_fail": false,
+   "one_line_business_quality_verdict": "a complex, diversified alternative asset manager and holding company with strong competitive positioning but significant opacity and real-estate sensitivities."
+  },
+  "gate2": {
+   "templates": [
+    "T3"
+   ],
+   "variant_perception": "The market heavily discounts Brookfield Corporation due to concerns over office real estate exposure, structural complexity, and reliance on private valuation marks [D05, D07]. We believe the market fails to properly attribute value to the firm's diversified, high-quality asset management and insurance franchises, which continue to generate predictable fee streams [D01]. The discount will narrow as the firm continues its track record of growth and demonstrates the resilience of its cash flows through realized distributions [D03, D04].",
+   "evidence": [
+    "Trading at a ~47% discount to management's internal plan value of $74 per share [D04].",
+    "Market focus on office-property mortgage defaults and vacancy pressure in direct real estate holdings [D05, D07].",
+    "Asset management business continues to grow fee-related earnings despite broader market concerns [D03].",
+    "Management targets 15%+ long-term per-share returns, supported by active share repurchases [D02, D03]."
+   ],
+   "market_narrative_we_disagree_with": "The market views Brookfield Corporation primarily as a troubled, opaque real estate holding company rather than a sophisticated, diversified alternative asset manager with durable, fee-generative characteristics [D05, D07].",
+   "what_must_be_true": [
+    "The underlying asset management and insurance segments continue to grow fee-bearing capital and spreads without significant impairment from real estate headwinds.",
+    "The 47% discount to internal plan value is fundamentally unjustified by the actual risk of the non-recourse debt portfolio.",
+    "Management continues to execute on capital allocation, specifically through share repurchases and sustained per-share return targets."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "14.7x 2023 DE before realizations vs management plan value implying >25x [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2023",
+    "base_value": "$2.66 (DE before realizations)",
+    "growth_assumption": "15% compound annual growth target per share [D03]",
+    "year_3_to_5_value": "$4.50 - $5.35 per share (based on 5-year growth trajectory)",
+    "assumptions": [
+     "Management targets 15%+ long-term per-share returns [D03]",
+     "Continued growth in fee-bearing capital [D01]",
+     "Sustained share repurchases [D02, D03]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 15,
+    "why": "Reflects the holding company discount, cyclical exposure in real estate, and structural complexity, while accounting for the high-quality asset management and insurance growth profile."
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 30
+   },
+   "downside_case": "If the real estate office portfolio results in sustained capital impairment and the market maintains a persistent conglomerate discount, the stock could remain range-bound; however, permanent loss is mitigated by the diversified fee-earning asset management business and strong liquidity [D01, D02, D05].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Assuming management's 15% growth target is achievable despite current real estate headwinds [D03]",
+    "Assuming 47% discount to internal plan value represents a mispricing of the asset management/insurance value [D04]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We expect the ~47% discount to management's internal plan value to narrow as the company continues to execute on its 15%+ long-term per-share return targets and demonstrates the resilience of its fee-bearing capital growth [D03, D04].",
+   "levers_or_steps": [
+    "Continued growth in fee-bearing capital and fee-related earnings within the asset management segment [D01, D03]",
+    "Sustained, accretive share repurchases, with over $1B forecasted for 2024 [D02, D03]",
+    "Successful realization of the $74 per-share internal plan value through sustained performance and market recognition of the insurance and asset management value [D04, D07]"
+   ],
+   "time_to_value_realisation_years": 5,
+   "why_this_role_fits_the_era": "In our Pershing Square 3.0 era, we focus on high-quality compounders with long runways for growth. Brookfield's status as a dominant, diversified allocator with recurring fee streams allows us to benefit from compounding alone as the market eventually bridges the disconnect between the current price and intrinsic value, consistent with our strategy for mega-cap quality entities [D01, D03, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management abandons the target of 15%+ long-term per-share returns",
+    "Persistent decline in fee-bearing capital growth for two consecutive quarters",
+    "Material impairment of the asset management/insurance value driven by systemic failure in the real estate portfolio",
+    "Shift in capital allocation strategy away from accretive share repurchases despite the deep discount to plan value"
+   ],
+   "portfolio_fit": "Fits the Pershing Square 3.0 mandate as a large-cap, compounding allocator of capital. It offers exposure to alternative asset management and insurance, providing diversification against our current holding list while maintaining the high-quality, long-runway characteristics we target.",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "Brookfield Corporation is a highly liquid mega-cap entity, allowing for an initial 3% position to be built over a few weeks without significant market impact [D01].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that the market's discount reflects a fundamental impairment of the underlying real estate assets that management's internal valuation and growth targets fail to adequately account for [D05, D07]."
+  }
+ },
+ "final": {
+  "as_of_date": "2024-04-10",
+  "company": "Brookfield Corporation",
+  "ticker": "BN",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T3"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "14.7x 2023 DE before realizations",
+   "eps_path": "15% compound annual growth target per share",
+   "terminal_multiple": "15x",
+   "irr_pct": 22,
+   "downside_case": "Persistent conglomerate discount and potential capital impairment in the real estate office portfolio."
+  },
+  "drivers": [
+   {
+    "driver": "Brookfield is a dominant, diversified global allocator of capital with a massive moat built on specialized operating expertise in real assets and deep institutional relationships [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The market has mispriced the company as a distressed real estate entity, ignoring the high-quality, recurring fee-generative nature of its asset management and insurance businesses [D01, D05, D07].",
+    "citations": [
+     "D01",
+     "D05",
+     "D07"
+    ]
+   },
+   {
+    "driver": "We are able to initiate a position at a substantial 47% discount to management's internal plan value, providing an attractive margin of safety for a quality compounder [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Management's track record of 12% annual growth in DE before realizations and a stated 15%+ return target are supported by accretive capital allocation, including over $1B in forecasted 2024 share repurchases [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management abandons the target of 15%+ long-term per-share returns",
+   "Persistent decline in fee-bearing capital growth for two consecutive quarters",
+   "Material impairment of the asset management/insurance value driven by systemic failure in the real estate portfolio",
+   "Shift in capital allocation strategy away from accretive share repurchases despite the deep discount to plan value"
+  ],
+  "what_would_change_our_mind": "A fundamental breakdown in the growth of fee-bearing capital or evidence that the real estate office portfolio is causing structural impairment to the firm's overall earnings power rather than serving as a manageable, cyclical headwind.",
+  "memo": "Brookfield Corporation represents a unique, dominant allocator of capital with a massive footprint in alternative asset management and real assets [D01]. The business benefits from a significant moat underpinned by its ability to execute large-scale, complex transactions and a recurring stream of fee-related earnings [D01]. While the company maintains exposure to direct real estate, the core engine of the business is increasingly driven by durable, fee-bearing capital and a growing insurance spread [D01].\n\nThe market currently characterizes the firm as an opaque, troubled real estate holder, leading to a valuation gap of approximately 47% relative to management’s internal plan value of $74 per share [D04, D05, D07]. We believe this discount is a mispricing of the firm’s sophisticated asset management and insurance franchises, which continue to demonstrate growth despite broader macro headwinds [D01, D03].\n\nAt an entry multiple of 14.7x 2023 DE before realizations, we are acquiring a compounder at an attractive valuation [D04]. With management’s 15%+ long-term return target and a commitment to aggressive share repurchases—exceeding $1B in 2024—the per-share earnings growth algorithm is compelling [D02, D03]. We anticipate that the discount will narrow as the firm executes on its plan and clarifies the resilience of its various segments [D04].\n\nOur role is that of a long-term compounder, allowing the inherent value of the platform to accrue to shareholders [D03]. We acknowledge the risks associated with commercial real estate, but believe the firm’s $38B of liquidity and diversified structure provide significant downside protection [D01, D02, D05]. We are initiating a position at 3% of NAV, with a target size of 8% as we observe continued execution [D02].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

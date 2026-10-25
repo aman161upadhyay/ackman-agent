@@ -1,0 +1,47 @@
+{
+ "trade_id": "2024_bn_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Holding-company complexity created a discount to underlying economic value. → Currently, the market has mispriced the business due to structural complexity, an aversion to consolidated real estate exposure, and skepticism toward its accounting metrics [D05].",
+   "Bruce Flatt and his team are strong long-term capital allocators. → Our role is that of a long-term, quiet partner supporting a management team with a stellar track record [D01, D03].",
+   "Insurance growth and future carried interest add value not captured by simple current multiples. → A clear earnings growth algorithm supported by growing fee-bearing capital and a projected $1.3B insurance earnings run rate [D01, D03]."
+  ],
+  "missed": [
+   "BAM supplies capital-light recurring fee earnings and growth."
+  ],
+  "extra_agent_drivers": [
+   "Management’s demonstrated discipline in capital allocation, specifically executing share repurchases while the stock trades at a discount to plan value [D02, D03]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "With $457B in fee-bearing capital and a significant, growing insurance platform, the business generates predictable, durable earnings streams",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the firm’s underlying business remains robust, supported by a strong $11.2B cash position",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "market has mispriced the business due to structural complexity",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 4,
+  "share": 0.33
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Currently, the market has mispriced the business due to structural complexity, an aversion to consolidated real estate exposure, and skepticism toward its accounting metrics [D05].",
+ "grader_notes": "The agent correctly identified the investment opportunity and matched three of the four primary drivers identified by Ackman, particularly focusing on the structural complexity discount and management quality. The agent's reasoning diverged slightly by placing heavy emphasis on share repurchases as a standalone driver, whereas Ackman's drivers centered more on the core nature of the BAM recurring fee business and the specific value of the insurance growth. The conviction level was appropriately categorized as medium vs high.",
+ "run": "2024_bn_buy__current__masked"
+}

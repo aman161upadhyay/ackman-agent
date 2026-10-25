@@ -1,0 +1,54 @@
+{
+ "trade_id": "2026_nflx_buy_2",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Advertising broadens monetization and the lower-priced tier expands the addressable audience → Netflix remains the dominant global streaming leader, commanding over 325 million paid memberships through its unparalleled content library and superior recommendation technology",
+   "A large valuation reset overdiscounted engagement, AI-content and competitive concerns → Recent market volatility, including a 29.3% drawdown from its April high, has created a significant dislocation in Netflix's valuation"
+  ],
+  "missed": [
+   "Scale and competitive position had become sufficiently established to restore confidence after 2022.",
+   "Content-spend discipline and stronger earnings-to-FCF conversion changed the underlying financial evidence."
+  ],
+  "extra_agent_drivers": [
+   "Management’s disciplined capital allocation"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "producing $9.461 billion in FCF during 2025",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "recent 29.3% drawdown from its April high",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "co-founder's departure",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "failed attempt at a major acquisition",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 15,
+  "cited": 8,
+  "share": 0.53
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Recent market volatility, including a 29.3% drawdown from its April high, has created a significant dislocation in Netflix's valuation [D05].",
+ "grader_notes": "The agent correctly identified the BUY direction and captured the valuation reset driver effectively. The reasoning was farthest from Ackman's regarding the specific thematic drivers (scale restoration and FCF conversion) which were replaced by general financial metrics and capital allocation focus.",
+ "run": "2026_nflx_buy_2__current__named",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

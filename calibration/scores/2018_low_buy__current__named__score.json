@@ -1,0 +1,52 @@
+{
+ "trade_id": "2018_low_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Scaled home-improvement franchise with durable repair/renovation demand. → Lowe's is a dominant, free-cash-flow-generative home improvement retailer with significant scale and durable competitive advantages.",
+   "Close operating-margin and productivity gap to Home Depot through merchandising, inventory/supply chain, pro-customer service and expense execution. → A 490 basis point operating margin gap compared to Home Depot represents a major, remediable operational underperformance rather than a structural disadvantage.",
+   "Cash generation and buybacks improve per-share value alongside operating repair. → The stock trades at an attractive 15.5x 2018 guidance, offering significant upside as earnings power is unlocked."
+  ],
+  "missed": [
+   "Confidence in Marvin Ellison's relevant Home Depot experience and management upgrade; this was not yet public at April2 cutoff."
+  ],
+  "extra_agent_drivers": [
+   "Recent board refreshes and the announced CEO transition provide a powerful catalyst to drive operational change and margin parity."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Lowe's operates over 2,100 stores.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Lowe's 9.6% operating margin vs Home Depot's 14.5% (490bps gap).",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "CEO retirement and board appointments occurred in March 2018.",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Entry at 15.5x FY2018 earnings guidance.",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 5,
+  "share": 0.38
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We believe the market significantly misjudges Lowe's, viewing its 9.6% operating margin as structurally inferior to Home Depot’s 14.5% [D01, D06].",
+ "grader_notes": "The agent correctly identified the investment direction and captured the primary drivers regarding franchise quality and the Home Depot margin gap. It missed the specific forward-looking driver regarding Marvin Ellison because that event occurred after the prompt's AS_OF_DATE. The agent effectively used the provided March 2018 documents to structure its catalyst argument.",
+ "run": "2018_low_buy__current__named"
+}

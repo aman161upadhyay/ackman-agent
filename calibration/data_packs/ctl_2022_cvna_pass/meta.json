@@ -1,0 +1,12 @@
+{
+  "id": "ctl_2022_cvna_pass",
+  "company": "Carvana Co.",
+  "ticker": "CVNA",
+  "aliases": ["Carvana"],
+  "as_of_date": "2022-06-15",
+  "mode": "new",
+  "era": "D",
+  "first_action_window": "Not applicable: constructed discipline control, no authenticated historical action.",
+  "pershing_aum_usd_bn": null,
+  "notes": "Constructed discipline control; not documented historical Ackman rejection. Five docs. Q1, April financing, May acquisition/layoffs only. Prices normalized to original share units. No subsequent refinancing, restructuring, earnings or stock recovery. Up-C/noncontrolling interests prevent a simplistic class-A-only valuation."
+}

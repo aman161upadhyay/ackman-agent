@@ -1,0 +1,249 @@
+{
+ "pack": "2013_fnma_buy",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2013-10-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Fannie Mae purchases and guarantees residential mortgages, issuing mortgage-backed securities that investors can trade without individual borrower underwriting [D01]. It supports purchase, refinance, and rental housing finance, with Freddie Mac performing a comparable role under a separate charter [D01].",
+   "segments_and_mix": [
+    "single-family: majority of book, US$2.84 trillion [D01]",
+    "multifamily: not in pack",
+    "capital-markets: activities related to mortgage investments [D01]"
+   ],
+   "unit_economics": [
+    "guarantee fees: primary revenue driver, currently being increased [D01]",
+    "credit losses: significant variable based on book quality and home prices [D01]",
+    "FCF conversion: not supplied [D02]",
+    "capex intensity: not supplied [D02]"
+   ],
+   "competitive_position": [
+    "scale: difficult to replicate; essential infrastructure [D01]",
+    "moat: high barriers to entry via lender relationships, data, and servicing infrastructure [D01]",
+    "peers: Freddie Mac is the primary operating and policy benchmark [D03]"
+   ],
+   "growth_record_and_outlook": [
+    "revenue/EPS growth: not a sustainable growth business due to mandated portfolio reduction [D01]",
+    "guidance: expects to remain profitable for the foreseeable future, but quarterly earnings may vary [D03]"
+   ],
+   "balance_sheet": [
+    "net debt: not applicable as a traditional metric due to consolidation rules [D02]",
+    "senior preferred: US$117.1 billion owed to Treasury [D03]",
+    "capital: US$3 billion reserve [D02]"
+   ],
+   "management_and_governance": [
+    "CEO: not in pack",
+    "governance: under FHFA conservatorship; management is directed to act in taxpayers' interest, not common shareholders' [D01]"
+   ],
+   "price_and_valuation": [
+    "price: US$2.34 [D04]",
+    "market cap: US$2.710 billion (common shares outstanding) [D04]",
+    "P/E: not applicable due to non-distributable earnings and senior claims [D02, D04]",
+    "FCF yield: not supplied [D02]"
+   ],
+   "what_the_market_is_worried_about": [
+    "policy risk: administration and Congressional bills (PATH Act, Corker-Warner) favor winding down the enterprises [D05]",
+    "legal risk: Net Worth Sweep and litigation outcomes are highly uncertain [D06]",
+    "dilution: Treasury warrants for 79.9% of common [D04]",
+    "capital distribution: no right to retain earnings beyond US$3 billion reserve [D06]"
+   ],
+   "recent_events": [
+    "2013-07: Fairholme/Perry lawsuits filed [D06]",
+    "2013-08-06: President Obama supports winding down the enterprises [D05]",
+    "2013-08-07: Q2 earnings released, large profits swept to Treasury [D03, D07]"
+   ],
+   "pershing_context": [
+    "fund AUM: approximately US$11 billion [D08]",
+    "holdings: includes CP, GGP, Beam, Air Products, Burger King, P&G, Howard Hughes, Matson [D08]",
+    "engagement: no prior engagement with Fannie/Freddie in pack [D08]"
+   ],
+   "missing_data": [
+    "actual cash available for new investment",
+    "normalized earnings power for the guarantee franchise post-recapitalization",
+    "any definitive legal settlement timeline or probability of success for shareholders"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The business's economics are dictated by mandated portfolio reduction, uncertain policy outcomes, and non-distributable earnings [D01, D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "Fannie Mae represents essential infrastructure with high barriers to entry due to lender relationships, data, and servicing scale [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "The thesis is entirely dependent on a bounded political/regulatory outcome regarding the conservatorship and wind-down legislation [D05, D06]."
+    },
+    "strong_financial_profile": {
+     "score": "FAIL",
+     "evidence": "The company operates under severe capital constraints with a $117.1 billion senior preferred claim owed to the Treasury and a $3 billion reserve limit [D03, D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "FAIL",
+     "evidence": "The enterprise is subject to the Net Worth Sweep, meaning it has no right to retain earnings and is entirely dependent on political/Treasury decisions [D06]."
+    },
+    "large_market_cap": {
+     "score": "FAIL",
+     "evidence": "The common equity market capitalization is approximately $2.71 billion, well below the $10 billion threshold typically required for Pershing Square positions [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "Valuation is not applicable or meaningful due to non-distributable earnings, senior Treasury claims, and the high uncertainty of legal outcomes [D02, D04, D06]."
+    },
+    "management_governance": {
+     "score": "FAIL",
+     "evidence": "Management is currently under FHFA conservatorship and is legally directed to prioritize taxpayers over common shareholders [D01]."
+    },
+    "durable_growth_runway": {
+     "score": "FAIL",
+     "evidence": "The enterprise is not a sustainable growth business as it is mandated to reduce its portfolio [D01]."
+    }
+   },
+   "n_pass": 1,
+   "n_fail": 6,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a critical financial utility currently trapped in a regulatory and political conservatorship with no control over its own capital or long-term solvency."
+  },
+  "gate2": {
+   "templates": [
+    "T6"
+   ],
+   "variant_perception": "The market believes Fannie Mae is a failing utility destined for wind-down and perpetual state control under the Net Worth Sweep [D01, D05, D06]. We believe the legal rights of shareholders to the company's retained earnings and the ultimate resolution of the conservatorship will be determined by litigation outcomes and evolving political necessity, creating asymmetric upside from current distressed pricing [D06].",
+   "evidence": [
+    "Litigation challenging the Net Worth Sweep initiated in 2013 [D06].",
+    "Administration and Congressional focus on wind-down vs. reform indicates high policy volatility [D05].",
+    "Company remains profitable despite severe capital constraints [D03]."
+   ],
+   "market_narrative_we_disagree_with": "The narrative that Fannie Mae's common equity has zero value because it is currently under government conservatorship and subject to a perpetual Net Worth Sweep [D06].",
+   "what_must_be_true": [
+    "The courts uphold shareholder rights regarding the legality of the Net Worth Sweep.",
+    "Political consensus shifts toward re-privatization or a viable capital structure rather than complete liquidation.",
+    "The core guarantee franchise remains profitable and essential to the US housing market."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "pre_2018_sum_of_parts",
+   "entry_multiple": "N/A (distressed asset pricing based on litigation/political optionality rather than P/E multiple [D04, D06])",
+   "eps_or_fcf_path": {
+    "base_year": "2013",
+    "base_value": "Not applicable (earnings are currently swept to Treasury [D06, D07])",
+    "growth_assumption": "Not applicable (mandated portfolio reduction [D01])",
+    "year_3_to_5_value": "Assumed terminal value of US$15-25 per share based on potential for re-privatization and retained earnings capacity (Assumption)",
+    "assumptions": [
+     "Litigation successfully overturns the Net Worth Sweep [D06].",
+     "Fannie Mae retains its core guarantee franchise and is permitted to rebuild capital [D01, D06].",
+     "Political resolution preserves the private shareholder interest in the business [D06]."
+    ]
+   },
+   "terminal_multiple": {
+    "value": 8,
+    "why": "Reflects a stressed/re-emerging financial institution multiple in a post-conservatorship normalized state (Assumption)"
+   },
+   "implied_irr_pct": {
+    "base": 40,
+    "bear": -100,
+    "bull": 80
+   },
+   "downside_case": "The investment loses 100% of its value if the courts uphold the Net Worth Sweep and the government proceeds with the liquidation of the enterprise, rendering common equity worthless [D04, D06].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "No definitive legal settlement timeline or probability of success [D06].",
+    "Assumed terminal value of US$15-25 per share post-recapitalization.",
+    "Assumed 8x normalized earnings multiple for a re-privatized entity.",
+    "Missing normalized earnings power for the guarantee franchise [D02]."
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C1",
+   "catalyst_description": "A successful legal ruling in shareholder litigation (e.g., Fairholme/Perry) challenging the legality of the Net Worth Sweep, which would restore shareholder rights to retained earnings and normalize the capital structure [D06].",
+   "levers_or_steps": [
+    "File and prosecute litigation challenging the Net Worth Sweep [D06].",
+    "Advocate for policy shifts that transition the enterprises from liquidation toward a viable, re-privatized capital structure [D05, D06].",
+    "Ensure the core guarantee franchise remains profitable to demonstrate the enterprise's essential utility value [D03]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our 2004-2017 activist era, we utilize public activism and legal pressure to resolve complex, distressed situations where the market is mispricing the legal and political optionality of common equity."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Courts definitively rule that the Net Worth Sweep is legal and the FHFA has absolute authority over equity [D06].",
+    "Legislative action (e.g., passage of the PATH Act) formally liquidates the enterprise without shareholder compensation [D05].",
+    "The core guarantee franchise ceases to be profitable, eliminating the economic value that would underpin a post-conservatorship firm [D03]."
+   ],
+   "portfolio_fit": "This is a unique, speculative political-legal event-driven position that deviates from our standard focus on high-quality compounders, but it serves as an asymmetric, high-convexity catalyst play within our activist strategy [D06].",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "liquidity_assessment": "Given the market capitalization of approximately US$2.7 billion and high volatility, the position can be scaled thoughtfully over several weeks, provided we remain within volume constraints to avoid disrupting the price of this highly sensitive, news-driven security [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The government successfully maintains the Net Worth Sweep, resulting in the permanent seizure of all shareholder value and a total loss of capital [D06]."
+  }
+ },
+ "final": {
+  "as_of_date": "2013-10-31",
+  "company": "Fannie Mae",
+  "ticker": "FNMA",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "opportunity_template": [
+   "T6"
+  ],
+  "catalyst_role": "C1",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "N/A (distressed asset pricing based on litigation/political optionality rather than P/E multiple [D04, D06])",
+   "eps_path": "Not applicable (earnings are currently swept to Treasury [D06, D07])",
+   "terminal_multiple": "8",
+   "irr_pct": 40,
+   "downside_case": "The investment loses 100% of its value if the courts uphold the Net Worth Sweep and the government proceeds with the liquidation of the enterprise [D04, D06]."
+  },
+  "drivers": [
+   {
+    "driver": "Fannie Mae is a critical financial utility that remains the essential backbone of the U.S. housing market [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The market incorrectly views the common equity as having zero value, ignoring the substantial intrinsic value of the guarantee franchise [D03, D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Pending litigation provides a clear legal path to challenge the Net Worth Sweep and restore shareholder rights to retained earnings [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "The company remains highly profitable, demonstrating that the underlying business is economically viable once capital constraints are normalized [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Courts definitively rule that the Net Worth Sweep is legal and the FHFA has absolute authority over equity [D06].",
+   "Legislative action formally liquidates the enterprise without shareholder compensation [D05].",
+   "The core guarantee franchise ceases to be profitable [D03]."
+  ],
+  "what_would_change_our_mind": "A definitive judicial or legislative determination that confirms the permanent expropriation of shareholder equity and the exclusion of private capital from the GSEs.",
+  "memo": "Fannie Mae represents an essential component of the American housing finance system, providing vital liquidity by guaranteeing residential mortgages [D01]. While the company is currently under conservatorship, it maintains a dominant competitive position backed by insurmountable barriers to entry, including deep lender relationships and proprietary data infrastructure [D01]. Despite the constraints of the conservatorship, the core guarantee business continues to generate significant profits [D03].\n\nWe believe the current market valuation drastically misprices the equity by assuming a perpetual state of liquidation and total seizure of shareholder value under the Net Worth Sweep [D06]. The market has incorrectly concluded that the government’s present control equates to a permanent termination of private rights [D06]. In reality, the legal standing of shareholders remains a critical issue currently being addressed in the courts [D06].\n\nOur assessment is based on the potential for successful litigation to overturn the Net Worth Sweep and allow for the rebuilding of capital [D06]. Assuming a successful resolution, we believe a re-privatized entity could command a normalized earnings multiple of approximately 8x, suggesting substantial upside from current distressed trading levels [D03, D06]. While the bear case involves a total loss of capital, the asymmetric risk-reward profile is compelling [D04, D06].\n\nOur role is to advocate for a policy shift that moves the enterprises away from a liquidation trajectory toward a viable, re-privatized capital structure [D05, D06]. We will actively support legal efforts to protect shareholder rights and clarify the limits of the FHFA’s conservatorship authority [D06]. By demonstrating the essential utility value of the franchise, we aim to build a consensus for reform [D03, D05].\n\nRisks remain high, particularly regarding political volatility and the potential for the PATH Act or similar legislation to finalize a liquidation [D05, D06]. We are prepared to exit the position if the courts definitively validate the Net Worth Sweep or if the core franchise loses its fundamental profitability [D03, D06].\n\nWe are initiating a 2% position, with a target size of 5% of NAV, reflecting the speculative, event-driven nature of this investment [D04, D06].",
+  "uncited_claims": [
+   "We believe a re-privatized entity could command a normalized earnings multiple of approximately 8x."
+  ]
+ },
+ "elapsed_s": 0
+}

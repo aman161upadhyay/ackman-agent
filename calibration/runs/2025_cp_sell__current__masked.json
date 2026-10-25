@@ -1,0 +1,49 @@
+{
+ "pack": "2025_cp_sell",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2025-03-17",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-03-17",
+  "company": "Canadian Pacific Kansas City",
+  "ticker": "CP.TO",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Merger approval and control: achieved [D08]",
+   "Synergy realization: execution ahead of expectations with $800 million in run-rate revenue synergies [D04]",
+   "Management execution: leadership continuing to deliver operational improvements [D04]",
+   "North American integration: remains a valid structural driver despite near-term policy volatility [D09]"
+  ],
+  "forward_irr_estimate_pct": 15,
+  "valuation_now": "21.4–22.6x the company's 2025 guidance of C$4.76–5.015 EPS [D05]",
+  "drivers": [
+   {
+    "driver": "The original investment thesis centered on the transformational trilateral network combination and synergy realization, both of which are successfully progressing [D04, D10].",
+    "citations": [
+     "D00",
+     "D10"
+    ]
+   },
+   {
+    "driver": "Management guidance for 12-18% adjusted EPS growth in 2025 provides a clear path to double-digit returns, supported by realized operational improvements [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "While tariff volatility creates extrinsic uncertainty, the business retains its high barriers to entry and scarcity value, with the core thesis of integrated North American supply chains remaining resilient [D06, D09].",
+    "citations": [
+     "D06",
+     "D09"
+    ]
+   }
+  ],
+  "memo": "Our investment in the Company remains a conviction position as the operational thesis has played out successfully since we reinitiated our investment in late 2021 [D00, D08]. The Company has achieved the critical milestone of operating control over the combined trilateral network, and the integration is delivering tangible value, with over $800 million in run-rate revenue synergies realized [D04, D08, D10]. These operational gains supported 11% EPS growth in 2024 despite a challenging freight environment, demonstrating the resilience of our thesis [D04].\n\nWe acknowledge the current policy backdrop is more complex than originally assumed. The emergence of potential tariffs on cross-border trade introduces extrinsic factors that we cannot control [D06, D10]. However, we agree with management’s assessment that the North American supply chain is structurally dependent on rail, and the precedent of the first Trump administration suggests that the Company is well-positioned to maintain mid-teens EPS growth even in periods of trade policy flux [D04, D06]. The temporary exemptions for USMCA-compliant goods further mitigate the immediate threat to the network's volume predictability [D06, D08].\n\nWith the stock trading at approximately 21.4–22.6x our 2025 earnings estimate, we are paying a fair price for a high-quality, free-cash-flow-generative business with durable growth prospects [D05, D09]. The Company's capital requirements are substantial, but its strong cash generation and disciplined management give us confidence in its ability to navigate cyclical and policy-driven headwinds [D02, D10]. Given the strength of the underlying franchise and the management team’s proven execution, we continue to hold our position with high conviction [D09, D10].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

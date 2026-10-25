@@ -1,0 +1,262 @@
+{
+ "pack": "2013_fnma_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2013-10-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Fannie Mae purchases and guarantees residential mortgages, issuing mortgage-backed securities that support purchase, refinance and rental housing finance [D01]. The enterprise operates in a government-mandated conservatorship overseen by the FHFA, with Treasury providing a funding backstop in exchange for senior preferred interests and warrants [D01].",
+   "segments_and_mix": [
+    "single-family: majority of book, approx US$2.84 trillion [D01]",
+    "multifamily: part of operating activities [D01]",
+    "capital-markets: part of operating activities [D01]"
+   ],
+   "unit_economics": [
+    "margin: dependent on guaranty fees, credit losses, and operating costs [D01]",
+    "returns: net income of US$10.1bn in Q2 2013, though heavily impacted by tax valuation allowance releases [D02, D03]",
+    "pricing power: higher guaranty fees on new acquisitions are a key profitability driver [D01]",
+    "capex intensity: not in pack",
+    "FCF conversion: industrial-style FCF is not supplied [D02]"
+   ],
+   "competitive_position": [
+    "share: dominant role in mortgage-backed security issuance [D01]",
+    "rank: primary mortgage guarantor alongside Freddie Mac [D01]",
+    "moat evidence: significant scale, lender relationships, underwriting data, and servicing infrastructure [D01]",
+    "peers: Freddie Mac is a broadly comparable entity [D01, D03]"
+   ],
+   "growth_record_and_outlook": [
+    "revenue/EPS growth: recent six consecutive profitable quarters [D03]",
+    "guidance: management expects to remain profitable for the foreseeable future [D03]"
+   ],
+   "balance_sheet": [
+    "net debt: not in pack (consolidation rules make standard measures poor [D02])",
+    "leverage: high; net worth US$13.2bn at June 30 vs US$117.1bn senior preferred liquidation preference [D02, D03]",
+    "maturities: not in pack",
+    "rating: not in pack"
+   ],
+   "management_and_governance": [
+    "CEO tenure: not in pack",
+    "incentives: not in pack",
+    "capital allocation record: currently controlled by FHFA/Treasury; net-worth sweep restricts common capital accumulation [D01, D06]",
+    "controller/dual-class: government-controlled via conservatorship [D01]"
+   ],
+   "price_and_valuation": [
+    "price: US$2.34 [D04]",
+    "market cap: US$2.710 billion [D04]",
+    "drawdown from high: approx 57% from US$5.44 high [D04]",
+    "P/E: not meaningful for common given net-worth sweep [D02, D04]",
+    "EV/EBITDA: not applicable [D02]",
+    "FCF yield: not in pack",
+    "own-history/peer/S&P comparison: no ordinary listed-peer valuation table exists [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "policy/reform: legislative proposals (PATH Act, Corker-Warner) seek to wind down existing GSEs [D05]",
+    "political risk: administration supports replacing enterprises with private-capital-centric models [D05]",
+    "legal risk: potential for unfavorable outcomes in pending shareholder lawsuits [D06]",
+    "capital structure: Treasury sweep of net worth precludes common shareholder returns [D02, D06]",
+    "dilution: potential for significant dilution from Treasury warrants and future recapitalization [D04]"
+   ],
+   "recent_events": [
+    "2013-04: FY2012 report confirmed return to profitability [D07]",
+    "2013-07: Fairholme and Perry Capital initiated lawsuits [D06, D07]",
+    "2013-08: Presidential remarks supported winding down the enterprises [D05, D07]",
+    "2013-08: Q2 2013 earnings release [D03, D07]"
+   ],
+   "pershing_context": [
+    "fund AUM: approx US$11 billion [D08]",
+    "current holdings: includes Canadian Pacific, General Growth, Beam, Air Products, Burger King, P&G, Howard Hughes [D08]",
+    "cash: not in pack",
+    "existing stake: not in pack",
+    "any prior engagement: no prior engagement with Fannie/Freddie disclosed in pack [D08]"
+   ],
+   "missing_data": [
+    "fully diluted share count including potential recapitalization effects",
+    "specific legal counsel opinions on the likelihood of success for shareholder suits",
+    "internal Pershing Square valuation models for GSE common equity",
+    "precise current cash position of the fund"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The business operates under a government-mandated conservatorship with a net-worth sweep that prevents the generation of FCF for common shareholders [D01, D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "Fannie Mae maintains a dominant role in mortgage-backed security issuance with significant scale and servicing infrastructure [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "The thesis relies on a bounded political/regulatory option regarding the outcome of conservatorship and potential legislative wind-down [D01, D05]."
+    },
+    "strong_financial_profile": {
+     "score": "FAIL",
+     "evidence": "The enterprise is highly levered with a US$117.1bn senior preferred liquidation preference and limited net worth [D02, D03]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "FAIL",
+     "evidence": "The company relies on a Treasury funding backstop and is subject to potential significant dilution from warrants [D01, D04]."
+    },
+    "large_market_cap": {
+     "score": "FAIL",
+     "evidence": "The market capitalization is approximately US$2.71 billion, falling below the typical threshold for a concentrated position [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "P/E and traditional metrics are not meaningful due to the net-worth sweep, making current valuation highly speculative [D02, D04]."
+    },
+    "management_governance": {
+     "score": "FAIL",
+     "evidence": "The company is under government control via conservatorship with no independent capital allocation authority [D01]."
+    },
+    "durable_growth_runway": {
+     "score": "FAIL",
+     "evidence": "Legislative and political efforts are actively seeking to wind down the existing GSE model [D05]."
+    }
+   },
+   "n_pass": 1,
+   "n_fail": 6,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a government-controlled, high-leverage entity currently precluded from generating shareholder value due to regulatory and legislative uncertainty"
+  },
+  "gate2": {
+   "templates": [
+    "T6"
+   ],
+   "variant_perception": "The market views Fannie Mae common equity as a worthless instrument destined for liquidation due to the government's conservatorship and the net-worth sweep [D01, D02, D05]. We believe the market fails to price the potential for a favorable legal or legislative resolution that restores shareholder rights, as the underlying business has returned to profitability and represents a vital, irreplaceable piece of the US housing infrastructure [D01, D03, D07].",
+   "evidence": [
+    "Significant regulatory and legislative uncertainty regarding the future of the GSEs, which the market treats as a terminal impairment of value [D05].",
+    "Legal challenges initiated by investors argue that the government's actions exceed its statutory authority [D06, D07].",
+    "The enterprise has demonstrated six consecutive quarters of profitability, proving the core business model remains viable [D03].",
+    "P/E metrics are considered not meaningful by the market due to the net-worth sweep, despite the business's fundamental recovery [D02, D04]."
+   ],
+   "market_narrative_we_disagree_with": "The market assumes the government will successfully wind down the GSEs and that the common equity is effectively wiped out by the Treasury's senior preferred interest and warrant position [D04, D05].",
+   "what_must_be_true": [
+    "The ongoing shareholder litigation must have a non-zero probability of forcing the government to limit or cease the net-worth sweep.",
+    "Legislative efforts to replace the GSEs must either fail or result in a transition that preserves some value for existing shareholders.",
+    "The FHFA and Treasury must refrain from taking actions that would fully extinguish the common equity while the legal cases are pending."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "pre_2018_sum_of_parts",
+   "entry_multiple": "N/A - P/E not meaningful due to net-worth sweep [D02, D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2013",
+    "base_value": "US$10.1bn Q2 net income [D03]",
+    "growth_assumption": "Profitability expected to continue [D03], but EPS growth for common shareholders is restricted by net-worth sweep [D01, D06]",
+    "year_3_to_5_value": "Undeterminable due to government control and net-worth sweep [D01, D02]",
+    "assumptions": [
+     "Core business remains viable [D03]",
+     "Shareholder litigation or legislative change ends net-worth sweep [D06, D07]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 0,
+    "why": "Standard multiple analysis is inapplicable as the common equity currently has no claim on earnings due to the net-worth sweep [D02, D04]"
+   },
+   "implied_irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "downside_case": "The investment is a total loss (100% of capital) if the GSEs are liquidated and common equity is wiped out by the Treasury's senior preferred interest [D04, D05].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "No internal Pershing Square valuation model for GSE common equity exists in pack [missing_data]",
+    "Probability of success for shareholder litigation is not provided [missing_data]",
+    "Future capital structure and dilution from warrants are not defined [missing_data]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C1",
+   "catalyst_description": "The primary catalyst is a favorable resolution of ongoing shareholder litigation [D06, D07] or legislative action that halts the net-worth sweep, thereby restoring shareholder rights and access to the company's underlying earnings power [D01, D06].",
+   "levers_or_steps": [
+    "Monitor progress of Fairholme and Perry Capital lawsuits challenging the government's statutory authority [D06, D07].",
+    "Engage with legislative stakeholders to influence outcomes that preserve existing common equity value rather than implementing a full wind-down [D05].",
+    "Advocate for the termination of the net-worth sweep to allow for capital accumulation and eventual recapitalization [D02, D06]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In the 2013 activist era, we utilize public activism and legal pressure to address mispriced regulatory dislocations, specifically targeting government overreach to unlock intrinsic value that the market deems terminal [D05, D06, D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Legislative passage of a GSE wind-down bill that explicitly prioritizes Treasury interests and wipes out common shareholders [D05].",
+    "Judicial ruling in Fairholme or Perry Capital litigation that upholds the government's authority to conduct the net-worth sweep indefinitely [D06].",
+    "FHFA or Treasury takes specific steps to execute a plan that definitively precludes any path for common shareholder participation in future recapitalization [D02, D05]."
+   ],
+   "portfolio_fit": "The position functions as a binary, high-alpha regulatory and legal option rather than a fundamental compounding business; it does not overlap with our existing core holdings in Canadian Pacific, General Growth, or Air Products [D08].",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 5
+   },
+   "liquidity_assessment": "The market cap is US$2.71 billion with significant daily volatility; a 2-5% position is liquid enough to build over several weeks without excessive slippage [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The government successfully executes a full wind-down of the GSEs, resulting in a total loss of common equity value."
+  }
+ },
+ "final": {
+  "as_of_date": "2013-10-31",
+  "company": "Fannie Mae",
+  "ticker": "FNMA",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "opportunity_template": [
+   "T6"
+  ],
+  "catalyst_role": "C1",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "N/A - P/E not meaningful due to net-worth sweep [D02, D04]",
+   "eps_path": "Profitability has returned with six consecutive profitable quarters [D03], though EPS is currently fully diverted by the net-worth sweep [D01, D06].",
+   "terminal_multiple": "N/A",
+   "irr_pct": 0,
+   "downside_case": "Total loss of capital if the GSEs are liquidated and common equity is extinguished [D04, D05]."
+  },
+  "drivers": [
+   {
+    "driver": "The underlying business is an essential and dominant piece of the US housing infrastructure, currently demonstrating a return to consistent profitability [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The market incorrectly views the government's conservatorship and net-worth sweep as a permanent, terminal impairment of value, failing to price the option value of shareholder rights [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Active shareholder litigation and potential legislative shifts provide a pathway to challenge government overreach and restore access to the firm's earnings power [D06, D07].",
+    "citations": [
+     "D06",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The current equity valuation is highly asymmetric, offering significant upside relative to the downside of a total loss should legal or political resolution prove favorable [D05, D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Legislative passage of a GSE wind-down bill that explicitly prioritizes Treasury interests and wipes out common shareholders [D05].",
+   "Judicial ruling in Fairholme or Perry Capital litigation that upholds the government's authority to conduct the net-worth sweep indefinitely [D06].",
+   "FHFA or Treasury takes specific steps to execute a plan that definitively precludes any path for common shareholder participation in future recapitalization [D02, D05]."
+  ],
+  "what_would_change_our_mind": "A definitive judicial or legislative ruling that confirms the government's permanent, unchecked right to extract all economic value from the entity for the Treasury, rendering common equity essentially worthless.",
+  "memo": "Fannie Mae is a dominant, essential pillar of the American housing market, providing the scale and infrastructure necessary for liquid mortgage issuance [D01]. Despite the current government-mandated conservatorship, the company has proven its fundamental vitality by generating six consecutive quarters of profitability [D03]. This is a business that, absent regulatory distortion, would be a core, high-quality, free-cash-flow-generative financial institution [D01, D03].\n\nToday, the market has mispriced this asset as having zero value, operating under the assumption that the government’s current trajectory will inevitably lead to a total wipeout of common equity [D01, D05]. We believe the market is wrong to ignore the significant legal and political tension currently building, which provides a meaningful, if binary, opportunity for the restoration of shareholder rights [D05, D06].\n\nWhile traditional valuation metrics like P/E are not currently meaningful due to the net-worth sweep, we evaluate this as a high-alpha, asymmetric option on the normalization of the GSEs [D02, D04]. The potential for a favorable legal resolution in pending litigation or a change in legislative stance represents a catalyst that could unlock substantial value from current distressed levels [D06, D07].\n\nOur role is to support the ongoing legal challenges and engage with stakeholders to ensure that any reform preserves the rights of common shareholders rather than prioritizing a total wind-down [D05, D06]. We are prepared to use the tools of activism to defend the intrinsic value of this irreplaceable business [D06, D07].\n\nWe recognize the risks: the primary threat is a government-led liquidation that leaves nothing for common shareholders [D04, D05]. However, the current valuation reflects a complete disregard for the probability of a more equitable resolution [D04].\n\nWe are initiating a 5% position in the common equity [D05]. This is an asymmetric bet on the integrity of the law and the future of the American housing finance system, which we view as one of the most compelling risk-reward setups in our current universe [D06, D07].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

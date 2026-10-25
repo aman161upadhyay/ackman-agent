@@ -1,0 +1,43 @@
+{
+ "trade_id": "2025_nke_sell",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Competition and tariff-related margin pressure made historical earnings targets less reliable. → We recognize that the path to normalized profitability is more demanding than initially modeled, with new challenges such as tariffs and increased competitive intensity from peers like Adidas and On forcing a more disciplined approach to margin restoration [D04, D07, D10]."
+  ],
+  "missed": [
+   "Initial diligence underestimated inherited strategic and operating problems and the cost of repairing them.",
+   "The medium-term return to prior profitability could no longer be confidently underwritten."
+  ],
+  "extra_agent_drivers": [
+   "Thesis of a fixable turnaround remains intact as early signs of wholesale and North American stabilization appear under new leadership"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The return of Elliott Hill as CEO has provided the necessary leadership to refocus the organization",
+    "citation": "D08",
+    "verdict": "supported"
+   },
+   {
+    "claim": "new challenges such as tariffs and increased competitive intensity from peers like Adidas and On",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 1,
+  "share": 0.1
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "As long as the earnings-recovery path remains credible and the fundamental moat of the Nike brand remains intact, we are content to hold and support the management team's execution [D02, D10].",
+ "grader_notes": "The agent missed the direction entirely, opting to hold while Ackman sold due to a loss of confidence in the underwriting of a medium-term recovery. The agent's reasoning was closest to Ackman's regarding the headwinds of tariffs and competition, but it failed to reach the same conclusion regarding the severity of the turnaround failure.",
+ "run": "2025_nke_sell__current__named",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

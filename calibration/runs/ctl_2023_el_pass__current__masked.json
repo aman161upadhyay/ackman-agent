@@ -1,0 +1,242 @@
+{
+ "pack": "ctl_2023_el_pass",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2023-05-05",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company sells prestige skin care, makeup, fragrance, and hair-care products through a portfolio of brands including the Company, MAC, and others [D01]. It operates through various distribution channels, including department stores, specialty retail, travel retail, and online [D01].",
+   "segments_and_mix": [
+    "not in pack"
+   ],
+   "unit_economics": [
+    "Brand equity, innovation, and distribution support pricing and repeat purchasing [D01]",
+    "Current FCF is pressured by lower earnings and working capital movements [D02]",
+    "Recent Q3 adjusted diluted EPS of 0.47 [D02]",
+    "Nine-month operating cash flow of 1.017 billion and capex of 0.652 billion [D02]"
+   ],
+   "competitive_position": [
+    "Strong brand portfolio considered a real competitive asset [D01]",
+    "Competes in the prestige beauty category where consumer preference and execution can change [D01]",
+    "Moat is evidenced by brand equity and consumer loyalty [D01]"
+   ],
+   "growth_record_and_outlook": [
+    "Full-year reported net sales expected to fall 10-12% [D02]",
+    "Adjusted diluted EPS guidance cut to 3.29-3.39 from prior 4.87-5.02 range [D02]"
+   ],
+   "balance_sheet": [
+    "March 31 cash: 5.531 billion [D02]",
+    "Total debt: 7.371 billion (2.243 billion current, 5.128 billion long-term) [D02]",
+    "Net debt: 1.840 billion (pre-Tom Ford closing) [D02]"
+   ],
+   "management_and_governance": [
+    "Class-A and class-B stock structure with unequal voting rights [D01]",
+    "Controlling family influence limits the ability of outside shareholders to influence governance or strategy [D01], [D04]"
+   ],
+   "price_and_valuation": [
+    "Price (May 5): 203.54 [D03]",
+    "Market cap: not in pack",
+    "Drawdown from high: 28.4% [D03]",
+    "P/E (Forward, based on new guidance): ~60.0-61.9x [D03]",
+    "FCF yield: not in pack",
+    "Dividend yield: ~1.3% [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Slower and more volatile Asia travel-retail recovery, specifically in Hainan and Korea [D01], [D04]",
+    "Retailer inventory destocking [D01], [D04]",
+    "Uncertainty regarding the impact of the Tom Ford acquisition on resources and returns [D04]",
+    "Margin and tax-rate volatility [D02], [D04]"
+   ],
+   "recent_events": [
+    "April 28: Completed Tom Ford brand acquisition for approximately 2.25 billion [D01]",
+    "May 3: Reported Q3 results, lowered full-year guidance, and announced share price decline [D02], [D03]"
+   ],
+   "pershing_context": [
+    "No authenticated company-specific Ackman comment or existing position found in pack [D05]"
+   ],
+   "missing_data": [
+    "Market capitalization",
+    "Precise post-closing enterprise-value bridge",
+    "Combined post-acquisition share count",
+    "Specific segment-level revenue/profit splits"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "Recent performance shows high volatility with significant guidance cuts and pressured FCF due to inventory and operational issues, making long-term forecasting difficult [D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company holds a strong brand portfolio and equity which serve as competitive assets and moats [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business is currently highly sensitive to volatile external factors including Asia travel-retail recovery, retail inventory destocking, and tax-rate fluctuations [D01], [D02], [D04]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "While carrying debt, the net debt position remains manageable at 1.84 billion relative to cash holdings of 5.531 billion [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "There is no indication of immediate reliance on capital markets to fund ongoing operations despite the Tom Ford acquisition [D01], [D02]."
+    },
+    "large_market_cap": {
+     "score": "UNSURE",
+     "evidence": "The precise market capitalization is not in pack, though the scale of the company suggests it is a large-cap entity [D01], [Missing Data]."
+    },
+    "attractive_valuation_screen": {
+     "score": "FAIL",
+     "evidence": "The forward P/E ratio of ~60x is elevated and does not reflect a typical value opportunity given current earnings pressure [D03]."
+    },
+    "management_governance": {
+     "score": "FAIL",
+     "evidence": "The dual-class stock structure and controlling family influence significantly limit shareholder governance and ability to drive change [D01], [D04]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "While prestige beauty has long-term potential, the current operational setbacks and reliance on uncertain travel-retail recovery obscure the near-term growth path [D01], [D04]."
+    }
+   },
+   "n_pass": 3,
+   "n_fail": 4,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a prestige beauty portfolio with strong brand equity currently hampered by operational volatility, poor governance, and high valuation"
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "variant_perception": "The market is currently pricing the stock for a recovery that is hindered by structural governance issues and operational volatility. Given the dual-class share structure, we lack the ability to influence the management or strategy necessary to force a turnaround [D01], [D04]. Consequently, despite the recent drawdown, the high forward P/E multiple does not offer the margin of safety required for a Pershing Square investment [D03].",
+   "evidence": [
+    "The dual-class stock structure and controlling family influence prevent shareholder activism [D01], [D04].",
+    "Forward P/E ratio of ~60x is elevated and does not reflect a typical value opportunity [D03].",
+    "Operational setbacks, guidance cuts, and reliance on unpredictable travel-retail recovery create significant forecasting uncertainty [D01], [D02]."
+   ],
+   "market_narrative_we_disagree_with": "The market narrative assumes that the prestige beauty franchise will inevitably recover to its prior growth and margin profile once the inventory destocking and travel-retail headwinds subside [D01], [D04].",
+   "what_must_be_true": [
+    "The governance structure would need to change to allow for operational influence.",
+    "The company would need to demonstrate a return to predictable free-cash-flow growth.",
+    "The valuation would need to compress significantly to provide the required 20% annualized rate of return."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "60x forward EPS vs S&P 500 21x [D03]",
+   "eps_or_fcf_path": {
+    "base_year": "2023",
+    "base_value": "3.34 (midpoint of 3.29-3.39 guidance) [D02]",
+    "growth_assumption": "Uncertain; recovery dependent on travel-retail and destocking [D01], [D02]",
+    "year_3_to_5_value": "Not reliably projectable due to operational volatility [D01]",
+    "assumptions": [
+     "Guidance cut to 3.29-3.39 for current year [D02]",
+     "Operational headwinds in travel retail and destocking [D01]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 20,
+    "why": "Reflects the prestige beauty sector as a quality consumer discretionary, capped due to lack of operational control and structural governance issues [D01]"
+   },
+   "implied_irr_pct": {
+    "base": 5,
+    "bear": -5,
+    "bull": 10
+   },
+   "downside_case": "Permanent loss is possible if operational volatility persists and competitive moats erode due to management's inability to adapt; significant valuation compression is required to reach an attractive IRR",
+   "valuation_verdict": "EXPENSIVE_BELOW_10",
+   "flagged_assumptions": [
+    "Market capitalization not provided",
+    "Combined post-acquisition share count missing",
+    "Specific segment-level margins and future growth rates assumed to be volatile/unpredictable based on current guidance cuts [D02]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We are passing on this investment because the structural governance limitations (dual-class shares) preclude the constructive engagement required to fix operational volatility [D01], [D04]. Even if the business were to recover, the current 60x forward P/E multiple fails our valuation threshold for quality compounders, leaving no margin of safety for the high degree of execution risk currently present [D03].",
+   "levers_or_steps": [
+    "Not applicable as this is a PASS decision [GATE 2], [GATE 3]."
+   ],
+   "time_to_value_realisation_years": 0,
+   "why_this_role_fits_the_era": "In our current 'Pershing Square 3.0' era, we seek high-quality compounders with clear, durable growth runways and shareholder-aligned governance; this opportunity lacks both the required governance to influence necessary turnarounds and the valuation attractiveness needed for a potential 20% IRR [D01], [D03], [D04]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Dual-class share structure prevents shareholder influence on operational or strategic changes",
+    "Forward P/E valuation remains excessively high relative to free-cash-flow growth prospects",
+    "Operational volatility in prestige beauty persists without clear signs of margin stabilization"
+   ],
+   "portfolio_fit": "N/A (PASS decision)",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "liquidity_assessment": "Not applicable as we are passing on the investment [D01], [GATE 4].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The combination of structural governance limitations and high valuation multiples makes this an unattractive investment for our 3.0 era criteria."
+  }
+ },
+ "final": {
+  "as_of_date": "2023-05-05",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [
+   "NONE"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "60x forward EPS",
+   "eps_path": "3.34 midpoint guidance, highly volatile",
+   "terminal_multiple": "20x",
+   "irr_pct": 5,
+   "downside_case": "Continued operational volatility and lack of governance influence leading to permanent loss of capital."
+  },
+  "drivers": [
+   {
+    "driver": "The company suffers from structural governance limitations, specifically a dual-class share structure that precludes the influence necessary to drive operational change [D01], [D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The valuation at approximately 60x forward earnings is excessive and fails to provide the margin of safety required for our 20% IRR threshold [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Operational volatility is high, evidenced by significant recent guidance cuts and reliance on uncertain factors like Asia travel-retail recovery [D01], [D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The business lacks the simple, predictable, and free-cash-flow-generative characteristics we require for our long-term compounder portfolio [D02].",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Dual-class share structure prevents shareholder influence on operational or strategic changes",
+   "Forward P/E valuation remains excessively high relative to free-cash-flow growth prospects",
+   "Operational volatility in prestige beauty persists without clear signs of margin stabilization"
+  ],
+  "what_would_change_our_mind": "A fundamental shift toward shareholder-aligned governance, the demonstration of a return to predictable and durable free-cash-flow growth, and a significant compression in valuation multiples.",
+  "memo": "The Company operates a portfolio of prestige beauty brands which, while possessing strong brand equity and consumer loyalty, currently fails to meet our high standards for simple, predictable, and free-cash-flow-generative business models [D01]. We prioritize businesses with dominant market positions and high barriers to entry, yet the current operational environment here is characterized by significant volatility and unpredictable performance [D01], [D02].\n\nThe opportunity exists currently due to a market dislocation, with the stock trading down 28.4% from its highs [D03]. However, the market’s narrative regarding an inevitable recovery in Asia travel-retail and retail inventory destocking remains highly speculative, and we believe the current earnings guidance of 3.29-3.39 reflects substantial ongoing execution risk [D01], [D02].\n\nAt the current price of 203.54, the stock trades at approximately 60x forward earnings, which is an elevated multiple that does not offer an adequate margin of safety [D03]. Given the lack of reliable free-cash-flow growth, we cannot identify a path to a 20% annualized rate of return, even under optimistic scenarios [D03].\n\nWe require the ability to engage constructively with management to drive change, yet the dual-class stock structure and controlling family influence effectively bar shareholder activism [D01], [D04]. Without a seat at the table to influence strategy or governance, we are unable to serve as the catalysts necessary for a successful turnaround [D01], [D04].\n\nRisks remain high, including the integration of the recent 2.25 billion Tom Ford acquisition and continued margin pressure [D01], [D02]. If operational performance continues to deteriorate and the company fails to adapt to changing consumer preferences, there is a risk of a permanent impairment of intrinsic value [D01].\n\nConsequently, we have decided to pass on this investment. We continue to seek high-quality compounders with better shareholder alignment and more attractive valuations for our 3.0 era portfolio [D01], [D03].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

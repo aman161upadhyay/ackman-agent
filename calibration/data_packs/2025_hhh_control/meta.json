@@ -1,0 +1,12 @@
+{
+  "id": "2025_hhh_control",
+  "company": "Howard Hughes Holdings",
+  "ticker": "HHH",
+  "aliases": ["Howard Hughes", "HHC", "Summerlin", "Ward Village"],
+  "as_of_date": "2025-01-10",
+  "mode": "new",
+  "era": "E",
+  "first_action_window": "January13 2025 formal control proposal; January10 preceding trading day. Pershing already owned a large stake and had publicly explored a transaction in August2024. Mode new means new control/holding-company strategy, not initial common-stock purchase.",
+  "pershing_aum_usd_bn": 18.4988,
+  "notes": "Control case kept short: eight documents. January13 proposal details, later insurance/holding-company plan, February revision and May agreement are answer-key-only because cutoff precedes their disclosure. It would be lookahead to place the later specific plan in the input. September2024 AUM is historical and not available deal capital."
+}

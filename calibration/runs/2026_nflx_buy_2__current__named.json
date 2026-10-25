@@ -1,0 +1,262 @@
+{
+ "pack": "2026_nflx_buy_2",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2026-04-20",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Netflix sells access to entertainment through recurring memberships and an advertising-supported plan across a global distribution system [D02]. It operates as a portfolio business where economics depend on acquiring and retaining an audience across a wide library of licensed and internally commissioned content [D02].",
+   "segments_and_mix": [
+    "Consolidated financials: No separate public subscription and advertising profit segments [D02]"
+   ],
+   "unit_economics": [
+    "Operating margin: 32.3% in Q1 2026 [D02]",
+    "Returns: Not in pack",
+    "Pricing power: Derived from value delivered compared to alternatives; recent price changes described by management as going well [D00, D04]",
+    "Capex intensity: Low physical capex ($688m in 2025), but content cash expenditure is recurrent and significant (approx. 1.1x amortization) [D03, D04]",
+    "FCF conversion: FCF of $9.461 billion in 2025; content cash-versus-expense timing is central to earnings-to-FCF comparison [D03]"
+   ],
+   "competitive_position": [
+    "Share: More than 325 million paid memberships [D02]",
+    "Rank: Leading global subscription streamer [D02]",
+    "Moat evidence: Large audience spreads costs; distribution and recommendation capabilities; content scale [D02]",
+    "Peers: YouTube, social video, other streaming services (Disney, Warner Bros. Discovery), games, traditional entertainment [D02, D07]"
+   ],
+   "growth_record_and_outlook": [
+    "Revenue growth: 15.65% in 2024, 15.85% in 2025, and 16% in Q1 2026 [D03]",
+    "Guidance: FY2026 revenue $50.7–51.7 billion (12–14% growth), operating margin 31.5% [D04]"
+   ],
+   "balance_sheet": [
+    "Net debt: Approx. $5.429 billion at year-end 2025 (Gross debt $14.463 billion less $9.034 billion cash) [D03]",
+    "Maturities: Not in pack",
+    "Rating: Not in pack"
+   ],
+   "management_and_governance": [
+    "CEO tenure: Ted Sarandos and Greg Peters are co-CEOs [D02]",
+    "Incentives: Not in pack",
+    "Capital allocation record: $9.127 billion repurchased in 2025; abandoned $82.7 billion enterprise value acquisition of Warner operations in 2026 [D03, D08]",
+    "Controller/dual-class: Reed Hastings, co-founder, announced he will not seek reelection to the board at the June annual meeting [D02, D04]"
+   ],
+   "price_and_valuation": [
+    "Price: $94.83 (April 20, 2026) [D05]",
+    "Market cap: ~$407.58 billion (proxy) [D05]",
+    "Drawdown from high: 29.3% from April 1 high [D05]",
+    "P/E (trailing/forward): 37.5x (trailing 2025) [D05]",
+    "EV/EBITDA: Not in pack",
+    "FCF yield: ~2.3-2.4% (based on 2025/2026 estimates) [D05]",
+    "Own-history/peer/S&P comparison: Not in pack"
+   ],
+   "what_the_market_is_worried_about": [
+    "Growth moderation and tepid revenue forecasts [D06]",
+    "Governance uncertainty following Reed Hastings' planned board departure [D06]",
+    "Uncertainty over the next growth driver as the company expands beyond traditional subscription models [D06]",
+    "Engagement concerns (aggregate viewing hours growth of 2% in H2 2025) [D06]",
+    "Sustainability of premium multiple without Warner synergies [D06]"
+   ],
+   "recent_events": [
+    "February 26, 2026: Netflix walked away from the Warner transaction after a superior offer was made [D08]",
+    "April 16, 2026: Reported Q1 results and announced Reed Hastings will not stand for reelection [D04]",
+    "April 17, 2026: Share price fell over 10% following earnings/forecast release [D06, D08]"
+   ],
+   "pershing_context": [
+    "Fund AUM: $19.748 billion core-fund AUM as of Feb 2026 [D09]",
+    "Current holdings: Amazon, Meta, Hertz, Alphabet, Brookfield, Uber, Restaurant Brands, Universal Music, Howard Hughes, Fannie/Freddie [D09]",
+    "Cash: Not in pack",
+    "Existing stake: Sold entire Netflix position in April 2022 [D00]",
+    "Any prior engagement: Not in pack"
+   ],
+   "missing_data": [
+    "Forward EPS consensus, verified peer forward multiples, harmonized FCF yields, exact current tax-adjusted recurring trailing EPS, and detailed management incentive structure"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "The business exhibits recurring, subscription-based economics with strong operating margins and consistent FCF generation [D02, D03]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "As the leading global streamer with over 325 million members, its scale in content production and recommendation technology creates significant barriers [D02]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "PASS",
+     "evidence": "Revenue is driven by global memberships and advertising, showing resilience despite competitive pressures [D02, D03]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "With net debt of approximately $5.429 billion against a market cap of over $400 billion, the leverage profile is conservative [D03, D05]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The company is self-funding, evidenced by $9.127 billion in share repurchases in 2025 [D03]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The market capitalization is approximately $407.58 billion, well above the $10 billion threshold [D05]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "While the stock has experienced a 29.3% drawdown, the forward valuation relative to peers and the S&P 500 is not explicitly defined in the pack [D05, D06]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "The upcoming departure of co-founder Reed Hastings from the board introduces governance uncertainty that needs further assessment [D04, D06]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company continues to demonstrate double-digit revenue growth and is expanding into advertising-supported models [D03, D04]."
+    }
+   },
+   "n_pass": 7,
+   "n_fail": 0,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant, free-cash-flow-generative global streaming leader with massive scale and a proven ability to self-fund growth."
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market views the recent growth moderation, Reed Hastings' departure, and the failed Warner acquisition as structural threats to Netflix's premium valuation [D06]. We believe the market is overreacting to short-term news and failing to appreciate the strength of the underlying streaming franchise, which continues to demonstrate double-digit revenue growth and strong cash generation [D03, D04]. The 29.3% drawdown provides a compelling entry point for a business that remains the dominant global streaming player with significant pricing power and self-funding capability [D02, D05].",
+   "evidence": [
+    "Netflix reported 16% revenue growth in Q1 2026, demonstrating continued strong demand [D03].",
+    "The business model remains highly cash-generative, with $9.461 billion in FCF in 2025, enabling $9.127 billion in share repurchases [D03].",
+    "The 29.3% drawdown from the April 1 high is a temporary market reaction to earnings/forecasts rather than an impairment of long-term intrinsic value [D05, D06].",
+    "The company maintains dominant global scale with over 325 million paid members [D02]."
+   ],
+   "market_narrative_we_disagree_with": "The market believes that Netflix's best growth days are behind it and that the company faces a governance crisis following the co-founder's departure and the failure to complete a major acquisition [D06].",
+   "what_must_be_true": [
+    "Netflix maintains its dominant position in the global streaming market despite competition [D02].",
+    "Operating margins remain resilient at or above the guided 31.5% level [D04].",
+    "The content investment strategy continues to drive subscriber retention and engagement growth [D02].",
+    "Management continues to prioritize disciplined capital allocation, including share repurchases, despite the departure of Reed Hastings [D03, D04]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "37.5x trailing 2025 P/E [D05]; peer/historical comparisons not in pack",
+   "eps_or_fcf_path": {
+    "base_year": "2025",
+    "base_value": "$9.461B FCF [D03]",
+    "growth_assumption": "12-14% revenue growth guidance for 2026 [D04], modeled at 12% FCF growth annually",
+    "year_3_to_5_value": "$14.88B (Year 4 FCF projection)",
+    "assumptions": [
+     "Revenue growth of 12-14% maintained [D04]",
+     "Operating margins maintained at or above 31.5% [D04]",
+     "FCF conversion scales with revenue [D03]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 25,
+    "why": "Reflects Netflix's status as a dominant global streaming player with significant pricing power and self-funding capability, despite recent growth moderation [D02, D03, D05]."
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 28
+   },
+   "downside_case": "If competitive pressure or governance changes significantly erode the 31.5% margin profile, the multiple could contract to 15-18x, leading to a permanent loss of capital if the core streaming franchise's dominant position is impaired [D02, D04, D06].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Forward EPS consensus not in pack",
+    "Verified peer forward multiples not in pack",
+    "Harmonized FCF yields not in pack",
+    "Exact current tax-adjusted recurring trailing EPS not in pack",
+    "Management incentive structure not in pack"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We expect a re-rating as the market recognizes the durability of Netflix's double-digit revenue growth and consistent free-cash-flow generation [D03, D04], moving past the irrational pessimism surrounding management transition and the failed Warner acquisition [D06].",
+   "levers_or_steps": [
+    "Maintain disciplined content investment to drive subscriber retention and engagement [D02]",
+    "Scale advertising-supported models to unlock additional revenue streams [D02, D04]",
+    "Continue rigorous capital allocation, utilizing strong FCF to repurchase shares at attractive valuation levels [D03]"
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In our 'Pershing Square 3.0' era, we focus on quality compounders with dominant market positions. Netflix is a self-funding global leader that has successfully navigated a temporary dislocation; our role is to lean into the long-term compounding of FCF rather than initiating public activism [D02, D03, D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Operating margins compress below 30% due to inefficient content spend or increased competitive churn [D02, D04]",
+    "Subscriber growth turns negative on an annual basis as the advertising model fails to offset saturation in core markets [D02, D04]",
+    "Management abandons the disciplined, self-funding capital allocation policy in favor of debt-fueled M&A or excessive share dilution [D03, D04]",
+    "Engagement metrics (viewing hours) demonstrate a sustained downward trend rather than plateauing [D06]"
+   ],
+   "portfolio_fit": "This fits our 'Pershing Square 3.0' focus on dominant, FCF-generative quality compounders [D02, D03]. While we currently hold other technology-adjacent names like Alphabet, Amazon, and Meta, Netflix provides distinct exposure to the pure-play entertainment streaming segment [D09].",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 8,
+    "max": 12
+   },
+   "liquidity_assessment": "Given the market capitalization of approximately $407.58 billion and consistent trading activity, we can build a core position over several weeks without significant market impact [D05].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The market's perception of a permanent growth slowdown, combined with governance uncertainty post-Hastings, could lead to sustained multiple compression if the company fails to reignite subscriber engagement and advertising revenue growth [D04, D06]."
+  }
+ },
+ "final": {
+  "as_of_date": "2026-04-20",
+  "company": "Netflix",
+  "ticker": "NFLX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "special_situation": false,
+  "valuation": {
+   "entry_multiple": "37.5x trailing 2025 P/E",
+   "eps_path": "12-14% revenue growth guidance and margin resilience driving double-digit FCF growth",
+   "terminal_multiple": "25x",
+   "irr_pct": 22,
+   "downside_case": "Multiple contraction to 15-18x if margins erode below 30% or dominant position is impaired"
+  },
+  "drivers": [
+   {
+    "driver": "Netflix is a dominant, free-cash-flow-generative global streaming leader with a massive, hard-to-replicate content and technology moat [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The business exhibits simple, predictable, subscription-based economics with strong 32.3% operating margins and a robust self-funding capability [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The recent 29.3% drawdown presents a compelling entry point for a premium business that has successfully transitioned to an advertising-supported growth model [D02, D05].",
+    "citations": [
+     "D02",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Management’s disciplined capital allocation is evidenced by the $9.127 billion returned through share repurchases in 2025 and the prudent decision to walk away from an overvalued M&A deal [D03, D08].",
+    "citations": [
+     "D03",
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Operating margins compress below 30% due to inefficient content spend or increased competitive churn [D02, D04]",
+   "Subscriber growth turns negative on an annual basis as the advertising model fails to offset saturation [D02, D04]",
+   "Management abandons the disciplined, self-funding capital allocation policy in favor of debt-fueled M&A or excessive share dilution [D03, D04]",
+   "Engagement metrics (viewing hours) demonstrate a sustained downward trend [D06]"
+  ],
+  "what_would_change_our_mind": "A fundamental erosion of Netflix’s dominant global streaming position, a breakdown in disciplined capital allocation following the leadership transition, or a sustained inability to grow viewing hours and advertising revenue.",
+  "memo": "Netflix remains the dominant global streaming leader, commanding over 325 million paid memberships through its unparalleled content library and superior recommendation technology [D02]. The business is highly free-cash-flow-generative, producing $9.461 billion in FCF during 2025, which allows the company to self-fund its growth while consistently returning capital to shareholders [D03]. Its ability to maintain margins at or above 31.5% while expanding its advertising-supported model confirms our view of it as a high-quality, predictable compounder [D02, D04].\n\nRecent market volatility, including a 29.3% drawdown from its April high, has created a significant dislocation in Netflix's valuation [D05]. The market is fixated on short-term governance concerns following the co-founder's departure and the failed attempt at a major acquisition, incorrectly viewing these as structural impairments [D04, D06, D08]. We believe the market is failing to appreciate the strength of the underlying franchise, which continues to demonstrate double-digit revenue growth and dominant market scale [D02, D03].\n\nAt a trailing P/E of 37.5x, the stock is attractively priced relative to its long-term compounding potential [D05]. With a growth algorithm driven by disciplined content spend, pricing power, and ongoing share repurchases, we model a compelling IRR of approximately 22% [D03, D04, D05]. We believe the market will eventually re-rate the business as the durability of its FCF generation becomes more evident over the next three years [D03, D04].\n\nOur role is to lean into this high-quality compounder as the market looks past recent irrational pessimism [D06]. We will continue to monitor the company’s operating margins and engagement metrics as key indicators of continued dominance [D02, D04, D06]. Risks include a potential margin compression due to content inefficiencies or a failure of the advertising model to offset market saturation, both of which would force us to re-evaluate our position [D02, D04].\n\nWe are initiating a target position of 8% of NAV, reflecting our high conviction in Netflix’s long-term intrinsic value [D05]. This position will be built systematically to capture the current market dislocation [D05].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

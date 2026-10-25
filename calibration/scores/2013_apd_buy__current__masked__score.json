@@ -1,0 +1,47 @@
+{
+ "trade_id": "2013_apd_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Quality industrial-gas franchise with durable barriers → A dominant, global industrial gas provider with high barriers to entry",
+   "Close margin gap through overhead and productivity → Significant operational margin gap versus peers like Praxair indicates latent earnings power that can be unlocked through management focus",
+   "Decentralized accountability, incentive alignment and noncore separation → Market misperception of the business as a low-growth commodity player overlooks the potential for significant FCF expansion via portfolio pruning and productivity"
+  ],
+  "missed": [
+   "Install a capable operating leader"
+  ],
+  "extra_agent_drivers": [
+   "Clear path to EPS growth by closing half the margin gap with industry leaders"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The firm currently produces an adjusted operating margin of 16.0%, which lags significantly behind its peer, Praxair, at 21.6%.",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market is focused on declining underlying volumes",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are initiating a 10% position in the Company.",
+    "citation": "D06",
+    "verdict": "unsupported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "As active owners, we will engage with management to implement a rigorous productivity plan and portfolio optimization strategy, including the divestment of non-core assets [D01, D06].",
+ "grader_notes": "The agent closely aligned with Ackman's thesis regarding margin improvement through productivity and portfolio optimization. It fell short by missing the specific emphasis on installing new leadership as a core driver, which was a central pillar of the historical investment.",
+ "run": "2013_apd_buy__current__masked"
+}

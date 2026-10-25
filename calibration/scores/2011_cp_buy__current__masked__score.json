@@ -1,0 +1,47 @@
+{
+ "trade_id": "2011_cp_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Close a large operating-efficiency gap in a durable rail franchise rather than underwrite an inferior franchise → Despite the high quality of the underlying asset, the company suffers from chronic operational underperformance, with an operating ratio of 81.8% that lags best-in-class peers by nearly 2,000 basis points.",
+   "Use board change to enable an operational plan focused on service, utilization and costs → We intend to act as an active owner, engaging with the Board to accelerate the implementation of an operational review and a rigorous, time-bound plan to reach benchmark-level efficiency.",
+   "Translate improved operating performance into materially higher per-share earnings → As management executes on the necessary operational improvements, we expect a substantial increase in earnings per share, providing an expected IRR of approximately 22% in our base case."
+  ],
+  "missed": [
+   "Recruit Hunter Harrison, whose prior operating record makes the management-change case concrete."
+  ],
+  "extra_agent_drivers": [
+   "The market views operational failures as structural, whereas we identify them as fixable execution and management issues"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company operates a scarce, transcontinental freight rail network protected by significant barriers to entry.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The current 81.8% operating ratio lags industry peers like Canadian National at 63.6%.",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are acquiring our stake at a 15.1x trailing multiple.",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 5,
+  "share": 0.5
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We believe the gap is fundamentally a management and execution issue [D03, D06].",
+ "grader_notes": "The agent correctly identified the investment thesis centered on operational turnaround and margin expansion. The reasoning was closest to Ackman regarding the identification of an operating efficiency gap and the intent to use active engagement to improve earnings. It was farthest from Ackman by missing the explicit strategy of recruiting Hunter Harrison as the catalyst for management change.",
+ "run": "2011_cp_buy__current__masked"
+}

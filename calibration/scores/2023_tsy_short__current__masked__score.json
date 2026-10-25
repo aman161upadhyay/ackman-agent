@@ -1,0 +1,40 @@
+{
+ "trade_id": "2023_tsy_short",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Structural inflation nearer 3% than 2% could justify materially higher long yields → Persistently elevated core inflation requires a term-premium risk adjustment not yet fully reflected in long-bond yields.",
+   "Large deficits and Treasury supply add long-rate/term-premium pressure → Increased Treasury net marketable borrowing supply creates technical pressure on long-duration yields.",
+   "Protect equity duration while taking an attractive standalone asymmetric exposure → Existing option protection provides essential tail-risk coverage for our concentrated equity positions at an established cost."
+  ],
+  "missed": [
+   "Retained payer swaptions as portfolio insurance rather than simply an outright linear cash-bond short."
+  ],
+  "extra_agent_drivers": []
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Increased Treasury net marketable borrowing supply creates technical pressure on long-duration yields.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Existing option protection provides essential tail-risk coverage for our concentrated equity positions at an established cost.",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 6,
+  "cited": 6,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Given that we have already deployed capital into long-rate payer swaptions to protect against the paradigm-shifting risk of inflation and term-premium expansion, we view this as a decision to maintain our hedge [D04], [D05].",
+ "grader_notes": "The agent correctly identified the core macro drivers regarding inflation, Treasury supply, and the strategic purpose of the hedge for equity duration. The direction was scored as PARTIAL because the agent identified the existing position as a 'HOLD' rather than explicitly recognizing the active nature of the short strategy Ackman disclosed.",
+ "run": "2023_tsy_short__current__masked"
+}

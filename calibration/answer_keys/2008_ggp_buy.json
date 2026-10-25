@@ -1,0 +1,43 @@
+{
+  "id": "2008_ggp_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": null,
+  "size_pct_nav_at_cost": "Initial trade-level NAV weight unverified; approximately US$60m at-risk framing is requested but an original dated quotation was not authenticated. Later recapitalization capital is separate.",
+  "first_action_date": "2008-11-13",
+  "disclosure_date": "2008-12 (exact filing day not independently authenticated)",
+  "reason_class": null,
+  "opportunity_template": ["T1", "T3"],
+  "catalyst_role": "C3",
+  "drivers": [
+    {
+      "driver": "The immediate problem was an unprecedented credit-market disruption coinciding with maturities, not a destroyed mall franchise.",
+      "source": "https://10xebitda.com/wp-content/uploads/2016/11/Pershing-Square-General-Growth-Properties-First-Presentation-May-2009.pdf (2009-05-27, post-entry elaboration)",
+      "quote": "GGP’s bankruptcy is the result of the unprecedented disruption in the credit markets coinciding with large near-term debt maturities."
+    },
+    {
+      "driver": "Long-lease mall cash flows could support value through a restructuring rather than a forced sale.",
+      "source": "https://10xebitda.com/wp-content/uploads/2016/11/Pershing-Square-General-Growth-Properties-First-Presentation-May-2009.pdf (2009-05-27)",
+      "quote": null
+    },
+    {
+      "driver": "Assets exceeding creditor claims can preserve a residual for common shareholders in bankruptcy.",
+      "source": "https://10xebitda.com/wp-content/uploads/2016/11/Pershing-Square-General-Growth-Properties-First-Presentation-May-2009.pdf (2009-05-27)",
+      "quote": "When a debtor’s asset value exceeds the amount of its liabilities, equity holders are entitled to the residual value."
+    },
+    {
+      "driver": "A small dollar commitment at a distressed share price offers a bounded equity loss against very large residual-value upside.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1336528/000119312512366295/d401719dex994.htm (2012-08-23 retrospective)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "First November 13 purchases at approximately US$0.35; amended trade data filed later corroborate. Requested 'lose approximately US$60m, make billions' is a thesis summary, not an authenticated original verbatim quote.",
+  "outcome_note": "GGP filed Chapter 11 April 2009. Brookfield-led 2010 recapitalization preserved equity; Pershing contributed US$1.061bn additional capital. August 23, 2012 letter reports creditors received par plus accrued interest and calculates 77-fold total shareholder return since the initial purchase date including HHC/Rouse distributions and dividends. This is not the IRR or multiple of all Pershing capital. No hindsight facts enter docs.",
+  "pack_quality_notes": "Nine documents of compact point-in-time analysis. Primary three-year financials, Q3 supplemental, maturity ladder, portfolio 13F, historical quote and 2007 bankruptcy statute. Portfolio common-equivalent and preferred claims distinguished. Cap-rate table is explicitly a sensitivity using annualized nine-month 2008 NOI, not future NOI. Firm AUM, exact rolling 52-week extrema, historical/forward P/E range, full maintenance-capex breakdown and original November Ackman thesis remain unavailable. Contemporary Simon acquisition speculation is paired with contemporaneous denial. Letter is third-party transcription; quotes and provenance identified.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/895648/000095012308014370/c47435exv99w1.htm",
+    "https://www.sec.gov/Archives/edgar/data/895648/000095012308017154/y00728exv99w1.htm",
+    "https://10xebitda.com/wp-content/uploads/2016/11/Pershing-Square-General-Growth-Properties-First-Presentation-May-2009.pdf",
+    "https://www.sec.gov/Archives/edgar/data/1336528/000119312512366295/d401719dex994.htm"
+  ]
+}

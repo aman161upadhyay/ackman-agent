@@ -1,0 +1,22 @@
+{
+  "id": "2025_meta_buy",
+  "size_pct_nav": null,
+  "sources": ["https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/18175039/Pershing-Square-Holdings-Ltd.-2025-Annual-Report.pdf"],
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Significant position; original PSH NAV cost percentage not independently recovered.",
+  "first_action_date": "2025-11-24",
+  "disclosure_date": "2026-02-11",
+  "reason_class": null,
+  "opportunity_template": ["T1", "T4"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Entrenched audiences and advertising data create a durable network moat.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/18175039/Pershing-Square-Holdings-Ltd.-2025-Annual-Report.pdf (2026-02-18)", "quote": "creating an exceptionally durable competitive advantage"},
+    {"driver": "AI directly improves engagement, recommendations and monetization.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/18175039/Pershing-Square-Holdings-Ltd.-2025-Annual-Report.pdf (2026-02-18)", "quote": "Meta is one of the clearest beneficiaries of AI"},
+    {"driver": "Capex fears created an attractive valuation that still includes substantial Reality Labs losses.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/18175039/Pershing-Square-Holdings-Ltd.-2025-Annual-Report.pdf (2026-02-18)", "quote": "the implied market valuation for Meta’s core advertising business was less than 16 times earnings per share"},
+    {"driver": "Infrastructure and talent spending can be front-loaded while management retains expense flexibility.", "source": "https://assets.pershingsquareholdings.com/wp-content/uploads/2026/02/18175039/Pershing-Square-Holdings-Ltd.-2025-Annual-Report.pdf (2026-02-18)", "quote": "supports front-loading investments in infrastructure and talent"}
+  ],
+  "entry_valuation_stated": "February report: just 20 times EPS including Reality Labs losses; core advertising less than 16x. February 11 presentation: November 24 inception, 21.1x NTM consensus EPS and $625 average cost at announcement. These are not November 3 market multiples.",
+  "outcome_note": "PSH reported +0.7 percentage points gross 2025 NAV contribution; position remained open in June 2026. No final realized outcome.",
+  "pack_quality_notes": "8 documents; historical November 3 close $637.71 authenticated. Snapshot intentionally precedes November 24 entry by three weeks. Original purchase timing kept only here, not in agent-visible metadata. Consensus forward EPS, exact November 3 common shares, peer cutoff forward multiples and full own-history multiple range unavailable. D04 calculated normalization and equity-value proxy explicitly labeled. D08 uses H1 and Q2 disclosures; CP exit public, CMG/NKE exits excluded."
+}

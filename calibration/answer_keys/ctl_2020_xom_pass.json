@@ -1,0 +1,18 @@
+{
+  "id": "ctl_2020_xom_pass",
+  "actual_decision": "PASS",
+  "conviction": "high",
+  "size_pct_nav": 0,
+  "first_action_date": null,
+  "disclosure_date": null,
+  "reason_class": null,
+  "decision_basis": "Constructed discipline control, not authenticated historical refusal.",
+  "drivers": [
+    {"driver": "Commodity prices and refining/chemical margins dominate normalized value and cannot be controlled through operating activism.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf (2015-03-24)", "quote": "extrinsic factors we cannot control"},
+    {"driver": "A double-digit indicated dividend does not establish predictable FCF after sustaining investment. Coverage requires uncertain recovery and/or financing/spending changes.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf", "quote": "simple, predictable, free-cash-flow generative businesses"},
+    {"driver": "Stress the ability to fund distributions and investment without favorable capital markets rather than capitalize an uncovered dividend as a permanent yield.", "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf", "quote": "do not need access to the capital markets to survive and thrive"}
+  ],
+  "ackman_public_statement": "none found — discipline control",
+  "outcome_note": "No subsequent commodity rally, payout result or activist campaign used. The same-day bullish Morningstar analysis remains counterevidence. PASS concerns strategy fit, not a claim the stock cannot rise or the dividend must be cut.",
+  "sources": ["https://investor.exxonmobil.com/sec-filings/all-sec-filings/content/0000034088-20-000087/f8k3q991.htm", "https://www.morningstar.com/stocks/losses-continue-exxon-q3-dividend-is-safe", "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf"]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "2011_cp_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": null,
+  "size_pct_nav_at_cost": "Initial NAV weight not verified; later approximately 14.2% of issuer voting stock is NOT a NAV weight.",
+  "first_action_date": "2011-09-23",
+  "disclosure_date": "2011-10-28",
+  "reason_class": null,
+  "opportunity_template": ["T2"],
+  "catalyst_role": "C3",
+  "drivers": [
+    {
+      "driver": "Close a large operating-efficiency gap in a durable rail franchise rather than underwrite an inferior franchise.",
+      "source": "https://caia.org/sites/default/files/8_pershing_11-13-17.pdf (2017-11-13 retrospective case)",
+      "quote": null
+    },
+    {
+      "driver": "Recruit Hunter Harrison, whose prior operating record makes the management-change case concrete.",
+      "source": "https://corpgov.law.harvard.edu/2016/12/23/a-successful-case-of-activism-at-the-canadian-pacific-railway-lessons-in-corporate-governance/ (2016-12-23 retrospective)",
+      "quote": null
+    },
+    {
+      "driver": "Use board change to enable an operational plan focused on service, utilization and costs.",
+      "source": "https://www.sec.gov/Archives/edgar/data/16875/000095014212000206/eh1200233_ex9901.htm (2012-02-06 incumbent response to campaign)",
+      "quote": null
+    },
+    {
+      "driver": "Translate improved operating performance into materially higher per-share earnings.",
+      "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf (2015-03-24, retrospective description)",
+      "quote": "At the inception of our investment in 2011, CP earned $3.15 per share."
+    }
+  ],
+  "entry_valuation_stated": "Original entry multiple not authenticated. Pack calculates 12.6x FY2010 EPS and approximately 15.1x depressed trailing EPS using September 23 Toronto price.",
+  "outcome_note": "Exited remaining 9.8 million shares August 4, 2016. The 2016 annual letter, published March 28, 2017, reports issuer TSR of 318.9% during ownership; retrospective case reports approximately US$2.6bn aggregate profit. FY2011 81.3% CP vs 63.5% CN ratios and the 2012 65% campaign objective were not public September 23, 2011 and are excluded from pack.",
+  "pack_quality_notes": "Eight documents. Strong primary quarterly operating data and four-peer ratio table. Exact September forward EPS, peer multiples, historical multiple range, full annual cash-flow series and original Ackman entry quotations not recovered. Driver quotations not invented: three drivers are attributed paraphrases using explicitly later sources, confined to this answer key. Latest portfolio weights are contemporary CNBC reporting of June 13F, not direct 13F extraction. Historical Yahoo observations reconstructed in original share units; valuation and returns explicitly calculated. No future operator appointment, campaign target or stake disclosure in docs.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/16875/000095012311068899/o72585e6vk.htm",
+    "https://www.sec.gov/Archives/edgar/data/16868/000001686811000027/form6k.htm",
+    "https://corpgov.law.harvard.edu/2016/12/23/a-successful-case-of-activism-at-the-canadian-pacific-railway-lessons-in-corporate-governance/",
+    "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf",
+    "https://assets.pershingsquareholdings.com/2022/10/07154952/2016-Annual-Report-Letter-Only.pdf"
+  ]
+}

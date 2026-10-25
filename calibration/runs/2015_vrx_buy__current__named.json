@@ -1,0 +1,252 @@
+{
+ "pack": "2015_vrx_buy",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2015-02-27",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Valeant is a Canadian-headquartered multinational specialty pharmaceutical company focused on dermatology, eye-health, neurology, and branded-generic products [D01]. It operates a decentralized platform that prioritizes disciplined acquisition-driven growth over internally expensed early-stage research [D01].",
+   "segments_and_mix": [
+    "Developed Markets: 74.6% of FY2014 revenue [D01]",
+    "Emerging Markets: 25.4% of FY2014 revenue [D01]"
+   ],
+   "unit_economics": [
+    "FY2014 consolidated operating margin: 24.7% [D02]",
+    "Annual R&D expenditure: ~3.0% of revenue [D01]",
+    "Acquisition strategy substitutes purchased intangible assets for internally expensed R&D [D01]",
+    "FCF conversion: GAAP operating cash flow of US$2,294.7M vs US$913.5M net income in 2014 [D02]"
+   ],
+   "competitive_position": [
+    "Diversified portfolio with no individual product exceeding 4% of revenue [D01]",
+    "Strengths: brand awareness, physician relationships, and approved indications [D01]",
+    "Vulnerabilities: dependence on integration, patent expirations, generic competition, and financing costs [D01]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2014 revenue growth: 43%, primarily acquisition-driven [D02]",
+    "Q4 2014 organic growth: 16% same-store, 8% Bausch + Lomb [D03]",
+    "2015 guidance (pre-Salix): US$9.2–US$9.3B revenue and US$10.10–US$10.40 Cash EPS [D03]"
+   ],
+   "balance_sheet": [
+    "Net debt: ~US$15.3B pre-Salix [D02]",
+    "Net leverage: ~3.5x adjusted pro-forma EBITDA pre-Salix, expected to reach ~5.6x post-Salix [D02, D03]",
+    "Targeting below 4x net leverage by 2H 2016 [D03]"
+   ],
+   "management_and_governance": [
+    "CEO: J. Michael Pearson; CFO: Howard Schiller [D01]",
+    "Philosophy: decentralized operations, limited speculative R&D, and aggressive acquisition-led capital allocation [D01]"
+   ],
+   "price_and_valuation": [
+    "Price: US$197.48 (as of Feb 27, 2015) [D04]",
+    "Market Cap: ~US$66.04B [D04]",
+    "Trailing P/E: 74.0x (GAAP), 23.7x (Cash EPS) [D04]",
+    "FCF yield: 3.0% (unadjusted CFO less PP&E) [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Sustainability of acquisition-led growth [D05]",
+    "Organic growth definitions and reliability of adjusted financial metrics [D05]",
+    "Reimbursement/insurer resistance and list-price dependency [D05]",
+    "High leverage and integration risks from frequent large transactions [D03, D05]"
+   ],
+   "recent_events": [
+    "Jan 8, 2015: Raised 2015 guidance [D07]",
+    "Feb 22, 2015: Agreement to acquire Salix for ~US$14.5B EV [D07]",
+    "Feb 25, 2015: Filed 2014 10-K [D07]"
+   ],
+   "pershing_context": [
+    "Fund AUM: ~US$18B complex [D08]",
+    "Existing stake: Not in pack; no public disclosure of a Valeant stake exists as of Feb 27, 2015 [D08]",
+    "Related activity: Collaborated with Valeant on unsuccessful Allergan bid [D07, D08]"
+   ],
+   "missing_data": [
+    "Independently reconciled ROIC and detailed buyback series",
+    "Date-matched consensus forward EPS",
+    "Historical multiple distribution"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The business model relies on aggressive, acquisition-driven growth and purchased intangible assets rather than internal research and predictable organic development [D01]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company maintains a diversified portfolio with strong brand awareness, established physician relationships, and a variety of approved indications [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business faces significant vulnerabilities regarding reimbursement resistance, list-price dependency, and sensitivity to financing costs [D01, D05]."
+    },
+    "strong_financial_profile": {
+     "score": "FAIL",
+     "evidence": "Net leverage is expected to reach approximately 5.6x adjusted pro-forma EBITDA following the Salix acquisition, which exceeds typical investment-grade standards [D02, D03]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "FAIL",
+     "evidence": "The business model requires frequent large-scale M&A activity and carries inherent risks related to financing costs and integration [D01, D05]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of approximately US$66.04 billion, the company is sufficiently large and liquid [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "While the Cash EPS multiple is 23.7x, the reliance on acquisition-driven growth makes historical comparability and quality-adjusted valuation uncertain [D04, D05]."
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "Management follows a disciplined, decentralized philosophy focused on capital allocation that avoids speculative R&D [D01]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "Growth is primarily driven by acquisitions rather than organic internal development, leading to market concerns regarding sustainability [D02, D05]."
+    }
+   },
+   "n_pass": 3,
+   "n_fail": 4,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a decentralized pharmaceutical platform reliant on debt-funded acquisitions and price increases rather than internal R&D-led innovation"
+  },
+  "gate2": {
+   "templates": [
+    "T4"
+   ],
+   "variant_perception": "The market views Valeant’s acquisition-led business model as unsustainable and overly dependent on financial engineering and price increases. We believe the market fails to appreciate the superior economics of its decentralized platform, which creates a highly efficient, cash-flow-generative machine that compounds earnings through disciplined capital allocation rather than speculative R&D [D01, D02]. As management successfully integrates acquisitions like Salix and deleverages, the market will re-rate the stock as the organic growth and FCF generation of the underlying franchises become undeniable [D03, D07].",
+   "evidence": [
+    "Organic growth of 16% in core segments and 8% in Bausch + Lomb demonstrates the underlying strength of the assets [D03].",
+    "Management maintains a disciplined, decentralized philosophy that avoids the low-return, high-risk outcomes typical of speculative R&D [D01].",
+    "The company consistently converts GAAP earnings to significant FCF, providing the necessary capital to de-lever the balance sheet to below 4x by 2H 2016 [D02, D03]."
+   ],
+   "market_narrative_we_disagree_with": "The market assumes Valeant's acquisition-driven growth is a temporary gimmick prone to failure due to leverage and integration risks [D05].",
+   "what_must_be_true": [
+    "Management successfully executes the integration of Salix without material cost overruns.",
+    "The company meets its stated goal of reducing net leverage to below 4x by the second half of 2016.",
+    "Reimbursement and pricing environments remain stable enough to support the acquired product portfolios."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "pre_2018_sum_of_parts",
+   "entry_multiple": "23.7x 2014 Cash EPS vs S&P 500 P/E of ~18x [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2015",
+    "base_value": "US$10.25",
+    "growth_assumption": "High double-digit growth via platform integration and cash deployment",
+    "year_3_to_5_value": "US$18.00 - US$20.00",
+    "assumptions": [
+     "2015 guidance mid-point US$10.25 Cash EPS [D03]",
+     "Organic growth of 16% in core segments [D03]",
+     "Successful Salix integration and deleveraging [D03]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 18,
+    "why": "Reflects the transition from an acquisition-heavy model to a high-margin specialty pharmaceutical platform with durable FCF, though capped by regulatory/leveraged risk profile."
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 30
+   },
+   "downside_case": "If integration fails or debt remains elevated, the multiple could compress to 12-14x Cash EPS, risking permanent loss if management cannot pivot; however, high FCF conversion supports debt paydown [D02, D03].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Used midpoint of 2015 Cash EPS guidance as base [D03]",
+    "Assumed sustained organic growth post-Salix acquisition [D03]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We expect a re-rating of the stock as the market gains confidence in the sustainability of Valeant's organic growth and as the company successfully integrates the Salix acquisition to deleverage the balance sheet toward a sub-4x net leverage ratio by 2H 2016 [D02, D03].",
+   "levers_or_steps": [
+    "Successful integration of Salix to capture synergies and improve margins [D03].",
+    "Continued organic growth in core segments (16%) and Bausch + Lomb (8%) demonstrating the strength of the underlying portfolio [D03].",
+    "Disciplined allocation of free cash flow to pay down debt from 5.6x post-acquisition to below 4x by 2H 2016 [D02, D03]."
+   ],
+   "time_to_value_realisation_years": 2,
+   "why_this_role_fits_the_era": "In the 2004-2017 activist era, we leverage our reputation and influence to support management teams that execute disciplined capital allocation strategies, allowing the market to eventually recognize and reward the underlying cash-flow-generative power of the decentralized platform [D01, D02]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Net leverage fails to show a clear downward trend toward 4x by 2H 2016 due to integration failures or operating cash flow shortfalls [D03].",
+    "Evidence of pricing power erosion or significant insurer/reimbursement pushback that impairs organic growth below mid-single digits [D05].",
+    "Management abandons the decentralized platform or pivots toward high-risk, speculative internal R&D that deviates from the proven capital-allocation model [D01]."
+   ],
+   "portfolio_fit": "The position aligns with our activist-era focus on platform companies with strong cash flow conversion. As this is a new large-cap pharmaceutical investment, we must ensure it does not create excessive factor concentration with existing healthcare or consumer-facing assets in the current 8-15 name portfolio [D08].",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 10,
+    "max": 15
+   },
+   "liquidity_assessment": "Given the company's US$66.04B market capitalization and robust trading volume, a significant core position can be established over several weeks without impacting the market [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that the market remains permanently skeptical of the sustainability of our acquisition-driven growth model, leading to multiple compression if management cannot successfully deleverage the balance sheet post-Salix acquisition [D02, D03, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-02-27",
+  "company": "Valeant Pharmaceuticals International, Inc.",
+  "ticker": "VRX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 10,
+  "opportunity_template": [
+   "T4"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "23.7x 2014 Cash EPS [D04]",
+   "eps_path": "High double-digit growth via platform integration and cash deployment, targeting US$18.00 - US$20.00 in 3-5 years [D03]",
+   "terminal_multiple": "18x",
+   "irr_pct": 22,
+   "downside_case": "Multiple compression to 12-14x Cash EPS if integration fails or deleveraging stalls [D02, D03]"
+  },
+  "drivers": [
+   {
+    "driver": "A decentralized pharmaceutical platform that generates significant free cash flow by prioritizing disciplined, acquisition-led capital allocation over speculative, high-cost R&D [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The business possesses a diversified portfolio with no single product exceeding 4% of revenue, underpinned by strong physician relationships and established brands [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Strong organic growth, with core segments achieving 16% and Bausch + Lomb 8% as of Q4 2014, demonstrating the underlying health of the franchise [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Management’s disciplined track record of converting GAAP earnings into robust cash flow to rapidly deleverage the balance sheet post-acquisition [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The market mischaracterizes Valeant’s model as unsustainable financial engineering, failing to appreciate the superior economics of its high-margin, capital-light platform [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Net leverage fails to trend toward 4x by 2H 2016 [D03].",
+   "Pricing power erodes due to insurer/reimbursement pushback, dropping organic growth below mid-single digits [D05].",
+   "Management abandons the decentralized model for speculative, high-risk R&D [D01]."
+  ],
+  "what_would_change_our_mind": "A failure in Salix integration resulting in persistent elevated leverage above 5x, or structural regulatory changes that permanently impair the firm's ability to execute its acquisition-based growth strategy.",
+  "memo": "Valeant is a best-in-class, decentralized pharmaceutical platform that has radically redefined industry standards by substituting inefficient, speculative R&D with a disciplined, capital-allocation-focused acquisition strategy [D01]. The company maintains a highly diversified portfolio of high-barrier-to-entry products, with no single asset exceeding 4% of total revenue [D01]. This model produces exceptional free-cash-flow conversion, with 2014 GAAP operating cash flow of US$2,294.7M significantly outstripping net income of US$913.5M [D02].\n\nThe market currently holds a distorted view of Valeant, fearing its acquisition-heavy growth is unsustainable and overly reliant on leverage [D05]. We believe this narrative is fundamentally flawed as it ignores the company's proven organic growth, which reached 16% in core segments and 8% in Bausch + Lomb in Q4 2014 [D03]. As the company integrates the Salix acquisition, the market will realize that the underlying cash-flow-generative power of the business is far more durable than current multiples suggest [D03, D07].\n\nWe are acquiring our stake at 23.7x 2014 Cash EPS, an attractive entry point given our expectations for high double-digit EPS growth over the next several years [D03, D04]. We anticipate that as the platform matures and leverage ratios decline, the stock will re-rate, supporting an expected IRR of approximately 22% [D03]. Our terminal value assumption of 18x reflects a transition to a mature, high-margin specialty pharmaceutical leader, tempered by the realities of its leveraged profile [D03].\n\nOur role as activists is to support management’s continued execution of their decentralized platform and capital allocation strategy [D01, D02]. We expect to see a clear catalyst as the company deleverages the balance sheet from a post-Salix pro-forma peak of 5.6x toward its target of below 4x by the second half of 2016 [D02, D03].\n\nThe primary risk remains the market’s skepticism toward the sustainability of the acquisition-driven model [D05]. We would reconsider our position should we observe pricing power erosion or a material deviation from the current, disciplined capital-allocation model [D01, D05].\n\nGiven the company’s US$66.04B market capitalization and robust liquidity, we are initiating a position today with a target size of 10% of NAV [D04]. We believe this level provides appropriate exposure to one of the most compelling, misunderstood growth platforms in the sector [D01, D08].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

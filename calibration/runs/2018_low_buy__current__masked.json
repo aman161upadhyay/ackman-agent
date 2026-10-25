@@ -1,0 +1,227 @@
+{
+ "pack": "2018_low_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2018-04-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Companye's is a large-scale home-improvement retailer with 2,152 stores and 214.9 million square feet of selling space [D01]. The business serves household and professional repair, renovation, and maintenance demand through a store and distribution network [D01].",
+   "segments_and_mix": [
+    "Not in pack"
+   ],
+   "unit_economics": [
+    "FY2017 operating margin 9.6% [D01]; FY2017 CFO $5.065 billion and capex $1.123 billion [D02]; FCF (CFO-Capex) $3.942 billion [D02]"
+   ],
+   "competitive_position": [
+    "Large scale retailer in a duopoly with Home Depot; 490bp operating margin gap vs Home Depot [D01, D04, D06]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2017 revenue $68.619 billion, 5.5% growth; comparable sales 4.0% [D02]; 2018 outlook: ~4% sales growth, operating margin decline of ~30bp [D02, D03]"
+   ],
+   "balance_sheet": [
+    "Total debt $16.995 billion, net debt $15.897 billion [D02]"
+   ],
+   "management_and_governance": [
+    "CEO Robert Niblock announced retirement plans 3/26/18; search for successor underway [D01, D07]; Board refreshed with new directors in March 2018 [D01, D07]"
+   ],
+   "price_and_valuation": [
+    "Price $84.59 [D04]; trailing P/E 20.7x; forward P/E 15.5x [D04]; equity proxy $70.125 billion [D04]; FCF yield proxy ~5.6% [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Weak earnings conversion and declining operating margin guidance [D03, D05]; execution risk in a potential turnaround [D05]; CEO transition uncertainty [D05]; housing cycle exposure [D05]; competitive disadvantages vs Home Depot [D05]"
+   ],
+   "recent_events": [
+    "1/19/18: Board appointments announced [D07]; 2/28/18: FY2017 earnings/guidance miss [D03]; 3/26/18: CEO succession plan announced [D07]"
+   ],
+   "pershing_context": [
+    "Not in pack"
+   ],
+   "missing_data": [
+    "Exact current Pershing Square AUM and holdings; specific segment profitability; detailed ROIC series; full peer valuation benchmarking"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "The company generates substantial free cash flow, with $3.942 billion produced in FY2017 [D02]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "It operates as a large-scale retailer in a duopoly, leveraging a vast store and distribution network [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business has significant exposure to the housing cycle, an extrinsic factor that creates market worry [D05]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "With $16.995 billion in debt against a $70.125 billion market cap, the leverage remains manageable [D02, D04]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "The company generates billions in FCF, providing sufficient internal capital for operations without documented reliance on new equity issuance [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The equity proxy is $70.125 billion, well above the $10B threshold [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The forward P/E of 15.5x suggests a reasonable entry point compared to broader market valuations [D04]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "The CEO is retiring and a successor is currently being sought, introducing transition uncertainty [D01, D05, D07]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company maintains consistent revenue growth of 5.5% and comparable sales growth of 4.0% [D02]."
+    }
+   },
+   "n_pass": 7,
+   "n_fail": 1,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant home-improvement retailer in a duopoly with high free cash flow generation, currently facing management transition and execution headwinds."
+  },
+  "gate2": {
+   "templates": [
+    "T2"
+   ],
+   "variant_perception": "The market believes the company's margin gap versus its primary competitor is structural and that the CEO transition will exacerbate execution issues [D05]. We believe the 490bp operating margin gap represents a fixable performance deficit rather than a permanent competitive failure [D01, D06]. The appointment of new directors and the upcoming CEO search provide the necessary governance catalyst to implement operational improvements and close this efficiency gap [D01, D07].",
+   "evidence": [
+    "490bp operating margin gap vs Home Depot [D01, D04, D06]",
+    "CEO Robert Niblock announced retirement plans 3/26/18; search for successor underway [D01, D07]",
+    "Board refreshed with new directors in March 2018 [D01, D07]",
+    "FY2017 operating margin 9.6% [D01]"
+   ],
+   "market_narrative_we_disagree_with": "The market views the current operating margin decline and competitive disadvantage as intrinsic to the business model and insurmountable in the face of leadership changes [D03, D05].",
+   "what_must_be_true": [
+    "The current management/strategy gap is the primary cause of the 490bp margin deficit vs peer",
+    "The board is committed to selecting a CEO capable of executing an operational turnaround",
+    "The duopoly competitive position remains robust despite recent earnings guidance misses",
+    "Capital allocation and operational efficiency improvements can be implemented without disrupting the core business"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "15.5x NTM EPS [D04], significantly below high-quality retail compounders and historically attractive for a dominant duopoly player [D01].",
+   "eps_or_fcf_path": {
+    "base_year": "2017",
+    "base_value": "$3.942 billion FCF [D02]",
+    "growth_assumption": "4% revenue growth [D02] plus 100-200bp margin improvement from closing the 490bp gap [D01, D06]",
+    "year_3_to_5_value": "Estimated $5.5-6.0 billion FCF by year 4",
+    "assumptions": [
+     "Operating margin gap vs Home Depot is fixable [D01, D06]",
+     "Successful management turnaround following CEO transition [D01, D07]",
+     "Comp sales growth persists at ~4% [D02]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 20,
+    "why": "Reflects a durable, dominant duopoly business after margins are optimized closer to peer levels."
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 28
+   },
+   "downside_case": "Downside is limited by the duopoly position and strong FCF generation [D01, D02]. Permanent loss is unlikely as current valuation already prices in margin degradation [D03, D05].",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "FCF growth projection assumes successful execution of margin expansion; market multiple assumes successful CEO turnaround [D01, D07]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C2",
+   "catalyst_description": "We will leverage our position as a significant shareholder to engage privately with the newly refreshed board and management during the CEO succession process to ensure the appointment of an operator capable of closing the 490bp operating margin gap [D01, D07].",
+   "levers_or_steps": [
+    "Engage with the newly appointed board members to advocate for a CEO with a proven track record of operational excellence in retail [D01, D07].",
+    "Advocate for a strategic focus on closing the 490bp operating margin gap relative to Home Depot to drive shareholder value [D01, D06].",
+    "Monitor progress on capital allocation and operational efficiency initiatives to align operating margins toward peer-leading levels [D01, D06]."
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In the 'Pershing Square 3.0' era, we favor quiet engagement with boards of quality businesses facing temporary, fixable underperformance, avoiding public activism unless absolutely necessary [D01, D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "New CEO fails to prioritize or execute on closing the operating margin gap against the primary competitor",
+    "Comparable sales growth turns negative for two consecutive quarters, signaling a loss of competitive standing in the duopoly",
+    "The company resorts to significant debt-funded acquisitions or capital-allocation policies that degrade the balance sheet"
+   ],
+   "portfolio_fit": "The position aligns with our 'Pershing Square 3.0' focus on high-quality, dominant businesses with fixable operational deficits; it complements existing holdings by adding exposure to the home-improvement sector while remaining within our 8-15 name portfolio limit.",
+   "size_pct_nav": {
+    "initial": 4,
+    "target": 8,
+    "max": 12
+   },
+   "liquidity_assessment": "Given the equity proxy of $70.125 billion [D04], the stock possesses sufficient liquidity to build a core position over several weeks without exceeding typical daily volume constraints.",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that the operating margin gap is structural rather than execution-based, meaning even a new CEO and refreshed board cannot achieve peer-level profitability."
+  }
+ },
+ "final": {
+  "as_of_date": "2018-04-02",
+  "company": "Lowe's Companies, Inc.",
+  "ticker": "LOW",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T2"
+  ],
+  "catalyst_role": "C2",
+  "gate1_hard_fail": false,
+  "special_situation": false,
+  "valuation": {
+   "entry_multiple": "15.5x NTM EPS",
+   "eps_path": "4% revenue growth combined with 100-200bp margin expansion as the efficiency gap closes",
+   "terminal_multiple": "20x",
+   "irr_pct": 22,
+   "downside_case": "Limited by duopoly market position and strong FCF generation"
+  },
+  "drivers": [
+   {
+    "driver": "The company is a dominant, cash-generative player in a stable home-improvement duopoly with high barriers to entry.",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "We are able to acquire our stake at 15.5x forward earnings, which is a significant discount to historical levels and peer multiples for a business of this quality.",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The current 490bp operating margin gap compared to Home Depot is a fixable performance deficit rather than a structural failure.",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The CEO succession process and recent board refreshment provide a catalyst to drive operational improvement and capital allocation efficiency.",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "New CEO fails to prioritize or execute on closing the operating margin gap against the primary competitor.",
+   "Comparable sales growth turns negative for two consecutive quarters.",
+   "The company resorts to significant debt-funded acquisitions or capital-allocation policies that degrade the balance sheet."
+  ],
+  "what_would_change_our_mind": "Evidence that the 490bp operating margin gap is structural and immutable, or a fundamental deterioration in the duopoly competitive dynamic.",
+  "memo": "Lowe's is a dominant, free-cash-flow-generative home-improvement retailer that operates in a stable duopoly with high barriers to entry [D01]. Despite generating $3.942 billion in free cash flow in 2017, the company has significantly underperformed its primary competitor in operational efficiency [D01, D02].\n\nThe market currently views Lowe's 490bp operating margin disadvantage as a permanent competitive failure and is further deterred by the uncertainty surrounding the CEO transition [D01, D05, D07]. We believe this perspective is incorrect, as the margin gap represents a fixable performance deficit that can be addressed through better operational execution [D01, D06].\n\nWe have the opportunity to acquire shares at approximately 15.5x forward earnings [D04]. With consistent 4% comparable sales growth and the potential for 100-200bp of margin expansion, we expect to achieve an attractive double-digit internal rate of return as the market re-rates the business toward a 20x multiple upon successful turnaround [D01, D02, D06].\n\nOur role as a shareholder will be to engage privately with the newly refreshed board to ensure the appointment of a leader capable of executing on operational improvements [D01, D07]. We intend to advocate for a clear strategy focused on closing the margin gap and optimizing capital allocation [D01, D06].\n\nWe recognize the primary risk is that the margin gap may prove structural; however, the business's strong cash flow and duopoly position provide a significant cushion against downside [D01, D02]. We are initiating a position today with a target of 8% of our portfolio, as we believe this is a high-quality compounder temporarily mispriced due to fixable execution headwinds [D01, D05].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

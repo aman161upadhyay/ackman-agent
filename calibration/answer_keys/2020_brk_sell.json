@@ -1,0 +1,19 @@
+{
+  "id": "2020_brk_sell",
+  "actual_decision": "SELL",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Full exit; initial about 11% PSH NAV. Added 39% more shares in March before May exit.",
+  "first_action_date": "2020-05 (exact day unknown)",
+  "disclosure_date": "2020-05-27",
+  "reason_class": "S3",
+  "opportunity_template": ["T6"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Pershing's smaller scale permits more nimble allocation than Berkshire.", "source": "https://www.cnbc.com/2020/05/27/bill-ackman-dumps-berkshire-adds-to-other-holdings-with-hedge-fund-up-more-than-20percent-this-year.html (2020-05-27)", "quote": "The one advantage we have over Berkshire is just relative scale"},
+    {"driver": "Berkshire faces a difficult task deploying its enormous cash pool.", "source": "https://www.cnbc.com/2020/05/27/bill-ackman-dumps-berkshire-adds-to-other-holdings-with-hedge-fund-up-more-than-20percent-this-year.html (2020-05-27)", "quote": "Berkshire has the problem, if you will, of deploying $130 billion of capital."},
+    {"driver": "Use flexibility while preserving liquidity for more attractive direct opportunities.", "source": "https://www.cnbc.com/2020/05/27/bill-ackman-dumps-berkshire-adds-to-other-holdings-with-hedge-fund-up-more-than-20percent-this-year.html (2020-05-27)", "quote": "our view was we should take advantage of that nimbleness, preserve some extra liquidity in the event that prices get more attractive again"}
+  ],
+  "entry_valuation_stated": "Original August 2019 letter: 14x next-12-month manager-estimated economic EPS, under 12x net excess cash, assuming 7% normalized insurance-investment returns. This is stronger sourced evidence than an unsourced 1.2x entry book shorthand.",
+  "outcome_note": "Full exit May 2020. PSH 2020 gross NAV contribution -3.1 percentage points; not a lifetime dollar P&L. Exact realized loss not independently recovered.",
+  "pack_quality_notes": "Ten documents. Original August 2019 thesis recovered directly, with short exact extracts. May 27 disclosure excluded. Class A historical price provides explicitly labeled valuation proxy, not invented Class B close. Peer multiples and full annual FCF series unavailable. AUM is dated strategy AUM; exact current cash/weights missing. Recovery preference is opportunity-cost interpretation, not fabricated verbatim wording."
+}

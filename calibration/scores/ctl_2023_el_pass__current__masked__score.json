@@ -1,0 +1,45 @@
+{
+ "trade_id": "ctl_2023_el_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Channel inventory, China travel retail and a failed near-term recovery assumption leave an insufficiently narrow cash-flow range for a concentrated position. → The market’s narrative regarding an inevitable recovery in Asia travel-retail and retail inventory destocking remains highly speculative, and we believe the current earnings guidance of 3.29-3.39 reflects substantial ongoing execution risk.",
+   "Valuable brands are necessary positive evidence, not sufficient owner-cash proof; near61x reduced adjusted EPS requires a substantial, unverified normalization. Require predictable cash after investment rather than anchor to the old share price. → At the current price of 203.54, the stock trades at approximately 60x forward earnings, which is an elevated multiple that does not offer an adequate margin of safety.",
+   "Recovery depends on travel/channel conditions beyond shareholder control; family voting control also limits an assumed activist remedy. → We require the ability to engage constructively with management to drive change, yet the dual-class stock structure and controlling family influence effectively bar shareholder activism."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The business lacks the simple, predictable, and free-cash-flow-generative characteristics we require for our long-term compounder portfolio."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company suffers from structural governance limitations, specifically a dual-class share structure that precludes the influence necessary to drive operational change",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The valuation at approximately 60x forward earnings is excessive and fails to provide the margin of safety required for our 20% IRR threshold",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operational volatility is high, evidenced by significant recent guidance cuts and reliance on uncertain factors like Asia travel-retail recovery",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 12,
+  "share": 0.92
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We require the ability to engage constructively with management to drive change, yet the dual-class stock structure and controlling family influence effectively bar shareholder activism.",
+ "grader_notes": "The agent correctly identified all primary drivers mentioned in the answer key, specifically focusing on the lack of predictability, the governance limitations, and the disconnect between valuation and cash-flow certainty. The reasoning is well-aligned with the core tenets of the Pershing Square investment philosophy provided in the key.",
+ "run": "ctl_2023_el_pass__current__masked"
+}

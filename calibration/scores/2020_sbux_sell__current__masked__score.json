@@ -1,0 +1,41 @@
+{
+ "trade_id": "2020_sbux_sell",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Share-price appreciation compressed prospective returns as the investment approached estimated value. → The stock has appreciated roughly 78% since our average entry price [D05]."
+  ],
+  "missed": [
+   "The operating recovery and brand thesis worked; the exit did not require a conclusion that Starbucks was a broken business.",
+   "Release capital after attractive realized returns rather than retain the same valuation discount assumption indefinitely."
+  ],
+  "extra_agent_drivers": [
+   "Forward IRR no longer meets 15% target for maintaining a concentrated position."
+  ]
+ },
+ "discipline": "PARTIAL",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The stock has appreciated roughly 78% since our average entry price",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "It now trades at approximately 30.3x our estimate of FY2020 adjusted earnings",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 4,
+  "share": 0.36
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are trimming our holding to reallocate capital toward opportunities that offer more compelling risk-adjusted returns, while retaining a position in what remains an excellent franchise [D05, D07].",
+ "grader_notes": "The agent correctly identified valuation compression due to share-price appreciation, aligning with Ackman's driver regarding prospective returns. However, the agent failed to capture the broader strategic intent of a full exit versus a partial trim and framed the decision around an internal 15% IRR hurdle rate, which was not explicitly cited in the provided Ackman drivers.",
+ "run": "2020_sbux_sell__current__masked"
+}

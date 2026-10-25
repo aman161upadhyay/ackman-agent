@@ -1,0 +1,53 @@
+{
+ "trade_id": "2016_cmg_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "The differentiated restaurant franchise has a strong brand and substantial growth potential. → Chipotle is a dominant, high-quality fast-casual business that has created a unique, predictable, and cash-generative model centered on fresh, high-quality ingredients.",
+   "A great business in temporary trouble can recover while its moat remains intact. → The current opportunity exists because of a temporary food-safety crisis that has caused a significant, yet fixable, dislocation in the business’s performance."
+  ],
+  "missed": [
+   "The shares are undervalued relative to the franchise's earnings potential.",
+   "Engage on governance, operations, management and capital allocation."
+  ],
+  "extra_agent_drivers": [
+   "The CDC has concluded its investigation.",
+   "Management is actively utilizing free cash flow for aggressive share repurchases."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Chipotle possesses significant barriers to entry and a proven runway for durable growth through new unit expansion.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Restaurant-level margins collapsed from 28.0% in Q2 2015 to 15.5% in Q2 2016.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "CDC investigation is closed.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Entry multiple of approximately 26.5x 2015 earnings.",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 5,
+  "share": 0.36
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We have high conviction that the temporary nature of the current challenges provides an attractive entry point for this market-leading franchise.",
+ "grader_notes": "The agent correctly matched the 'temporary trouble' and 'strong brand/growth' drivers. It failed to articulate the explicit governance engagement plans Ackman highlighted in the 13D filing and relied on proprietary valuation metrics not present in the answer key.",
+ "run": "2016_cmg_buy__current__masked"
+}

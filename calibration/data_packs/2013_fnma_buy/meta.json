@@ -1,0 +1,12 @@
+{
+  "id": "2013_fnma_buy",
+  "company": "Fannie Mae / Freddie Mac common stock",
+  "ticker": "FNMA",
+  "aliases": ["FMCC", "Federal National Mortgage Association", "Federal Home Loan Mortgage Corporation"],
+  "as_of_date": "2013-10-31",
+  "mode": "new",
+  "era": "B",
+  "pershing_aum_usd_bn": 11,
+  "first_action_window": "Exact first purchase unknown; November15 2013 public disclosures followed the snapshot. ApproximatelyUS$500m aggregate commitment reported November16. https://www.reuters.com/article/markets/stocks/ackmans-pershing-square-takes-big-stakes-in-freddie-fannie-idUSBRE9AE0TO",
+  "notes": "Eight documents; Q2 is latest available quarter. Never import November2013 Q3 profits/tax release. US$11bn manager AUM Reuters October3, not exact same-day NAV. Common stock distinct from preferreds, existing 79.9% warrant dilution explicit. Policy/legal views presented as contested, not winning outcomes."
+}

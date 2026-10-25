@@ -1,0 +1,20 @@
+{
+  "id": "2023_tsy_short",
+  "actual_decision": "SHORT_LONG_DURATION_VIA_OPTIONS",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Described as short in size; exact premium/notional unknown. Year-end2022 $330.722m option fair value is not initial cost or August size.",
+  "first_action_date": "Before2023; exact inception and rolls unknown",
+  "disclosure_date": "2023-08-02",
+  "reason_class": null,
+  "opportunity_template": ["T7"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Structural inflation nearer3% than2% could justify materially higher long yields, around5.5% in the public framework.", "source": "https://www.reuters.com/markets/us/billionaire-investor-ackman-says-he-is-shorting-30-year-treasuries-2023-08-03/ (reports August2post)", "quote": null},
+    {"driver": "Large deficits and Treasury supply add long-rate/term-premium pressure.", "source": "https://www.reuters.com/markets/us/billionaire-investor-ackman-says-he-is-shorting-30-year-treasuries-2023-08-03/", "quote": null},
+    {"driver": "Protect equity duration while taking an attractive standalone asymmetric exposure.", "source": "https://www.reuters.com/markets/us/billionaire-investor-ackman-says-he-is-shorting-30-year-treasuries-2023-08-03/", "quote": "We are short in size the 30-year T."},
+    {"driver": "Retained payer swaptions as portfolio insurance rather than simply an outright linear cash-bond short.", "source": "https://assets.pershingsquareholdings.com/2024/03/22201541/Pershing-Square-Holdings-Ltd.-2023-Annual-Report.pdf (2024-03-22)", "quote": null}
+  ],
+  "entry_valuation_stated": "Exact initial terms unknown. August2 benchmark30-year4.17%, not original option entry. Position stood92% above cost at start2023 per subsequent annual report.",
+  "outcome_note": "Covered October23 as geopolitical/growth risk favored bonds. Annual report says thirty-year payer options sold33% above cost, not verified$200m profit. Full2023 hedging program lost187bp; do not portray this winner as aggregate hedge result.",
+  "pack_quality_notes": "Seven hedge-specific documents. Authentic vintage macro/supply/curve and pre-existing public option disclosure. Not a clean new inception; score maintain/add/cover interpretation. No current option surface/strike/premium/notional, no forced 5-10x claim. Direct X scrape unavailable; Reuters verifies original statement and date."
+}

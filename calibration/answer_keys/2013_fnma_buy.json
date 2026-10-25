@@ -1,0 +1,43 @@
+{
+  "id": "2013_fnma_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": null,
+  "size_note": "ApproximatelyUS$500m aggregate common commitment, about4.5% of approximateUS$11bn manager AUM, not verified same-day NAV. Initial9.98% FNMA and9.77% FMCC were outstanding issuer-share percentages before Treasury warrant dilution.",
+  "first_action_date": null,
+  "disclosure_date": "2013-11-15",
+  "reason_class": null,
+  "opportunity_template": ["T6", "T3"],
+  "catalyst_role": "C3",
+  "drivers": [
+    {
+      "driver": "Essential guarantee infrastructure and the prepayable30-year fixed mortgage cannot readily be replaced.",
+      "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf (2015-03-24 retrospective)",
+      "quote": "there is no credible alternative to replace them"
+    },
+    {
+      "driver": "Challenge the sweep and restore a route from enterprise profits to shareholder value; this is Ackman's position, not a final legal holding.",
+      "source": "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf (2015-03-24)",
+      "quote": "We view this net worth sweep as an unlawful taking of shareholders’ private property"
+    },
+    {
+      "driver": "Recapitalize and eventually release the enterprises; Treasury warrant ownership could align taxpayer upside with common.",
+      "source": "https://assets.pershingsquareholdings.com/2025/01/16112701/Fannie-Mae-Freddie-Mac-01-16-2025-Presentation.pdf (2025-01-16 later detailed thesis, not an entry-date model)",
+      "quote": null
+    },
+    {
+      "driver": "Large potential valuation gap conditional on capital structure and policy; later2014 US$23–47 scenarios must not be imported as2013 prices or realized returns.",
+      "source": "https://www.reuters.com/article/markets/stocks/ackmans-pershing-square-takes-big-stakes-in-freddie-fannie-idUSBRE9AE0TO (2013-11-16 disclosure account)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact first date, weighted-average entry prices and fully specified2013 recapitalization valuation not authenticated. ApproximatelyUS$500m aggregate investment reported. Treasury79.9% warrants and senior preferred must remain explicit.",
+  "outcome_note": "Long-duration ongoing investment, not a completed release/realized multibagger. Multiple legal setbacks and later policy changes; SupremeCourt2021 decision was not an order to privatize. Later preferred purchases are a separate security case. 2025–26 proposed IPO/relisting and capital scenarios are proposals, not completed outcomes. Lesson: profitable essential franchise need not deliver shareholder value on an activist timetable; time, dilution, remedy and policy control matter.",
+  "pack_quality_notes": "Eight docs, latest publishedQ2 only. Strong sweep/warrant distinction, contemporaneous contrary policy and legal opinion, two-enterprise operating comparison. Annual net revenue/CFO/capital details and clean rolling low remain explicit gaps. No futureQ3 tax event, lawsuits outcome, Ackman targets or trade disclosure in docs.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/310522/000031052213000065/fanniemae201210k.htm",
+    "https://www.sec.gov/Archives/edgar/data/310522/000031052213000138/a2013q2pressrelease.htm",
+    "https://www.reuters.com/article/markets/stocks/ackmans-pershing-square-takes-big-stakes-in-freddie-fannie-idUSBRE9AE0TO",
+    "https://assets.pershingsquareholdings.com/2014/09/08113002/PSH-Annual-Report.pdf"
+  ]
+}

@@ -1,0 +1,45 @@
+{
+ "trade_id": "ctl_2022_cvna_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Negative operating cash, capacity spending and acquisition funding make survival/growth dependent on capital access rather than self-funding owner earnings. → We prioritize simple, predictable, and free-cash-flow-generative businesses, a standard this company fails to meet given its high fixed-cost base and reliance on external financing",
+   "Long-term unit economics and network returns are unproven; revenue growth or customer satisfaction is not predictable distributable cash. → The company lacks a proven track record of durable cash returns, and the integration of ADESA adds further execution risk during a period of demand shortfalls.",
+   "Used-car values, consumer credit and securitization/funding spreads can dominate returns outside an activist's control. → We do not see a clear catalyst that would restore intrinsic value, and the company remains highly sensitive to extrinsic factors like interest rates and consumer affordability"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The company faces significant extrinsic risks from interest rates and vehicle price volatility, factors we cannot control."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Carvana is an online used-car retailer that manages a vertically integrated physical network of inspection and reconditioning centers.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management prepared physical capacity six to twelve months in advance of demand, only to experience lower-than-anticipated volumes.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Valuation is not meaningful at this stage as the company is reporting net losses.",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We do not engage in companies that require continuous, massive capital injections to survive.",
+ "grader_notes": "The agent's reasoning is closely aligned with the Pershing Square investment philosophy provided in the key, particularly the focus on free-cash-flow generation and avoidance of capital-market dependence. The agent successfully mapped the conceptual drivers to the specific facts of the Carvana case found in the provided documentation.",
+ "run": "ctl_2022_cvna_pass__current__named"
+}

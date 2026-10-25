@@ -1,0 +1,42 @@
+{
+ "pack": "2023_tsy_short",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "2023-08-02",
+ "stages": {},
+ "final": {
+  "as_of_date": "2023-08-02",
+  "decision": "HOLD",
+  "risk": "Structural inflation and higher-for-longer term premiums on long-duration sovereign debt, exacerbated by increased Treasury supply [D03].",
+  "market_implied_probability": "Implied by the rise in 30-year yields to 4.17% [D02] and recent fiscal downgrade [D03].",
+  "our_probability_and_why": "Moderate-to-high. While disinflation is occurring, the scale of Treasury issuance and the risk of structural inflation suggest that the bond market has not fully priced the long-term term premium [D01], [D03].",
+  "instrument": "Payer swaptions on long-term interest rates [D04].",
+  "premium_pct_nav": 1,
+  "payoff_multiple_in_scenario": 10,
+  "exit_rule": "Exit when the asymmetry is resolved, either through realized rate increases hitting our target or a meaningful shift in the fiscal/inflation paradigm that removes the tail-risk protection requirement [D06].",
+  "drivers": [
+   {
+    "driver": "Persistently elevated core inflation requires a term-premium risk adjustment not yet fully reflected in long-bond yields.",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Increased Treasury net marketable borrowing supply creates technical pressure on long-duration yields.",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Existing option protection provides essential tail-risk coverage for our concentrated equity positions at an established cost.",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "memo": "Our portfolio remains concentrated in high-quality, free-cash-flow-generative businesses that are generally durable, but we remain mindful of the sensitivity of long-duration assets to discount rate volatility [D05]. The current macro environment exhibits a tug-of-war between observed disinflation and the structural risks of significant fiscal deficits and increased Treasury issuance [D01], [D03].\n\nGiven that we have already deployed capital into long-rate payer swaptions to protect against the paradigm-shifting risk of inflation and term-premium expansion, we view this as a decision to maintain our hedge [D04], [D05]. We do not believe the market has adequately compensated for the fiscal outlook or the potential for long-term yields to remain higher than historical averages [D02]. We continue to hold our existing protection to ensure our portfolio is resilient against a sharp, disorderly move in the long end of the curve, rather than attempting to trade the interim noise [D06].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

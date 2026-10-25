@@ -1,0 +1,44 @@
+{
+  "id": "2005_mcd_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": null,
+  "size_note": "November2005 approximately4.9% economic exposure almost entirely options. Issuer economic stake is not common shares purchased, cash cost or fund NAV weight; exact initial premium and average cost unknown.",
+  "first_action_date": null,
+  "first_action_window": "mid-2005 retrospective description; management presentation September22 2005",
+  "disclosure_date": "2005-11-15",
+  "reason_class": null,
+  "opportunity_template": ["T3"],
+  "catalyst_role": "C3",
+  "drivers": [
+    {
+      "driver": "Separate restaurant operations from franchise/property economics; good management had already delivered an operating recovery.",
+      "source": "http://usatoday30.usatoday.com/money/industries/food/2005-11-15-mcdonalds_x.htm (AP2005-11-15)",
+      "quote": "This is not a case at all where we think McDonald's is doing a bad job."
+    },
+    {
+      "driver": "Normalize corporate restaurants for market rent and franchise fees to reveal true economics.",
+      "source": "https://www.10xebitda.com/wp-content/uploads/2016/11/Pershing-Square-McDonalds-Second-Presentation-Jan-2006.pdf (2006-01-18 revised proposal)",
+      "quote": "McOpCo, as a wholly owned subsidiary, is not achieving its full business and financial potential."
+    },
+    {
+      "driver": "Original November plan proposes65% McOpCoIPO andUS$14.7bn property-backed borrowing for repurchases; not simply a REIT spin.",
+      "source": "https://www.10xebitda.com/wp-content/uploads/2016/11/Pershing-Square-McDonalds-First-Presentation-Nov-2005.pdf",
+      "quote": null
+    },
+    {
+      "driver": "Adapt means to stakeholder constraints, later withdrawing the IPO demand in favor of management actions/refranchising rather than insisting on the initial transaction.",
+      "source": "https://www.latimes.com/archives/la-xpm-2006-jan-26-fi-mcdon26-story.html (2006-01-26)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact entry average unknown. November2005 proposedUS$45–50/share andUS$46bn owned/controlled property valuation are later thesis inputs, not September public facts. Snapshot priceUS$33.49 and conventional metrics computed separately.",
+  "outcome_note": "Original McOpCoIPO not adopted. Investor revised the proposal and supported negotiated refranchising/disclosure/capital actions. Q2 2009 original investor letter states prior stake soldQ4 2007 at approximatelyUS$56/share; exact realized P&L unknown. This was a profitable investment despite failure of the original transaction demand. Separate2009 repurchase is a new passive investment, not continuation of2005 options. Key lesson: protect franchise-system economics and adapt engagement; do not equate rejecting a transaction with failed stock performance.",
+  "pack_quality_notes": "Eight documents. PublicSeptember stake speculation necessarily exists before requested cutoff but remains unconfirmed and cannot reveal later instrument/thesis. Primary2002–04/June2005 financials and franchise margins, historical prices, management objections and peer plan. Exact original premium, current firm NAV/13F, independent property appraisal and forward consensus remain gaps.",
+  "sources": [
+    "https://www.10xebitda.com/wp-content/uploads/2016/11/Pershing-Square-McDonalds-First-Presentation-Nov-2005.pdf",
+    "https://www.10xebitda.com/wp-content/uploads/2016/11/Pershing-Square-McDonalds-Second-Presentation-Jan-2006.pdf",
+    "https://www.latimes.com/archives/la-xpm-2006-jan-26-fi-mcdon26-story.html",
+    "https://www.scribd.com/document/20150688/Pershing-Square-Q2-2009-Investor-Letter"
+  ]
+}

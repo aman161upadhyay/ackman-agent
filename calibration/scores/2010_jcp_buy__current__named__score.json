@@ -1,0 +1,49 @@
+{
+ "trade_id": "2010_jcp_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 4,
+  "matched": [],
+  "missed": [
+   "Recover an underperforming department-store franchise's sales productivity and profitability using a large existing asset base.",
+   "Recruit exceptional retail leadership.",
+   "Change merchandising/customer proposition and board accountability.",
+   "Sought faster CEO succession and chairman change after the turnaround failed."
+  ],
+  "extra_agent_drivers": [
+   "Structural competitive pressure from fast-fashion and discounters.",
+   "Operating margin compression.",
+   "Declining returns on invested capital.",
+   "Lack of a defined outside shareholder operating plan."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company lacks a defined outside shareholder operating plan or leadership change necessary to reverse the performance trajectory",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating margins have experienced significant compression, falling from 9.5% in 2007 to 3.8% in 2009",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Returns on beginning invested capital have declined sharply from 15.7% to 7.8% over two years",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 6,
+  "share": 0.55
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "The structural decline in relevance and the inability of management to stem margin pressure from 9.5% down to 3.8% leads us to pass on this opportunity [D02, D05].",
+ "grader_notes": "The agent correctly identified the company's fundamental struggles but missed the thesis of the trade entirely. While Ackman saw an opportunity to unlock value through a turnaround of a legacy asset, the agent viewed the situation as an uninvestable decline, resulting in a total mismatch in investment decision and reasoning.",
+ "run": "2010_jcp_buy__current__named"
+}

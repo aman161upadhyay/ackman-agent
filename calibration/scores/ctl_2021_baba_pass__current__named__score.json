@@ -1,0 +1,45 @@
+{
+ "trade_id": "ctl_2021_baba_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 2,
+  "matched": [
+   "Regulatory changes and offshore/VIE enforceability can dominate the value reaching ADS holders; ordinary shareholder activism cannot control them. → We cannot underwrite the long-term cash flow of a business where the rules of engagement are dictated by state policy rather than market competition.",
+   "A profitable commerce engine is not sufficient if future shareholder rights, merchant rules and distributable cash cannot be forecast narrowly enough. No independently bounded special-situation payoff established. → We prioritize simplicity and predictability in our holdings; Alibaba, while dominant, fails both tests."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The VIE (Variable Interest Entity) governance structure introduces significant legal uncertainty regarding the enforceability of offshore shareholder rights.",
+   "Despite an attractive 19.6x adjusted P/E valuation, the lack of control over the regulatory environment leads us to view the risk-adjusted return as inadequate."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Alibaba represents a dominant digital commerce and cloud ecosystem that touches the lives of one billion consumers",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The business faces profound regulatory and geopolitical headwinds, including significant antitrust penalties and state-directed policy interventions",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Our valuation framework, which includes a conservative terminal multiple to account for these risks, fails to generate the required asymmetric return profile",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 16,
+  "cited": 11,
+  "share": 0.69
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We prioritize simplicity and predictability in our holdings; Alibaba, while dominant, fails both tests [D05].",
+ "grader_notes": "The agent correctly identified the core 'discipline control' logic used in the answer key, focusing on the inability to control extrinsic regulatory factors and the lack of predictability in cash flows. The reasoning was very close to the provided drivers, with the agent's extra drivers acting as more specific elaborations of the core principles defined by Ackman.",
+ "run": "ctl_2021_baba_pass__current__named"
+}

@@ -1,0 +1,53 @@
+{
+ "trade_id": "2026_hlt_sell",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "At the prevailing valuation, prospective returns no longer met the required return threshold → \"Our investment mandate is to achieve high rates of return, and at these levels, the prospective IRR is unlikely to meet our 15-20% thresholds\""
+  ],
+  "missed": [
+   "Multiple expansion had realized a substantial part of the original value opportunity.",
+   "The investment was successful rather than a business-quality reversal."
+  ],
+  "extra_agent_drivers": [
+   "Persistent RevPAR weakness and macro headwinds necessitate a more conservative outlook for long-term compounding."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "stock trades at 37.7x FY2025 EPS guidance",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "8% adjusted EBITDA growth in Q3",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "1.1% decline in system-wide comparable RevPAR",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "515,400 rooms in backlog",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 9,
+  "share": 0.9
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Our investment mandate is to achieve high rates of return, and at these levels, the prospective IRR is unlikely to meet our 15-20% thresholds [D10].",
+ "grader_notes": "The agent correctly identifies that the valuation no longer supports their return threshold, mirroring Ackman's valuation-based exit driver. However, the agent fails to acknowledge that Ackman categorized the investment as a 'successful' outcome, instead framing the decision around macro headwinds and RevPAR weakness, which were not part of Ackman's stated reasoning for the sell.",
+ "run": "2026_hlt_sell__current__masked",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

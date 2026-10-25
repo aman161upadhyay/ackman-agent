@@ -1,0 +1,12 @@
+{
+  "id": "2010_jcp_buy",
+  "company": "J. C. Penney Company, Inc.",
+  "ticker": "JCP",
+  "aliases": ["J.C. Penney", "JCPenney", "Penney's"],
+  "as_of_date": "2010-09-24",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "Retrospective January24 2011 Fortune account dates buying to mid-August2010, before this snapshot; public 16.5% disclosure followed in October. Date is pre-disclosure, not pre-first-trade. https://fortune.com/2011/01/24/penney-saved-earns-ackman-350-million/",
+  "pershing_aum_usd_bn": null,
+  "notes": "Eight documents. Original FY2009 10-K, Q2 2010 10-Q and September2 sales press. No Ron Johnson, future pricing reset, board appointment, later campaign or loss in docs. Latest 13F June30 filed August16. US$3.502bn public equity table is not AUM; a contemporary 'over US$3bn' AUM account is imprecise and not treated as a full reconciliation. Delisted Yahoo series unavailable; historical close uses Exa archive and exact rolling extrema remain gaps."
+}

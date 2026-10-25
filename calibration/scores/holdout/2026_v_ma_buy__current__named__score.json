@@ -1,0 +1,55 @@
+{
+ "trade_id": "2026_v_ma_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Dense global acceptance networks support capital-light transaction tolls without ordinary lender credit exposure. → Visa and Mastercard operate as a dominant, capital-light global payment duopoly with significant competitive moats and highly scalable infrastructure [D01, D02].",
+   "Cash displacement, e-commerce, nominal spending and faster-growing services support compounding. → The core businesses continue to exhibit durable growth, with January 2026 reports confirming robust transaction volumes and cross-border strength [D03, D07].",
+   "Regulatory and disruption fears created an attractive roughly22x forward entry valuation. → The market has incorrectly priced these franchises due to temporary fears regarding the Credit Card Competition Act and AI-driven disintermediation [D05, D07]."
+  ],
+  "missed": [
+   "Agentic commerce and stablecoins need not bypass trusted authorization, recourse and acceptance; networks can integrate the new technology."
+  ],
+  "extra_agent_drivers": [
+   "Operating margins remain sector-leading at 57-60%, providing strong free cash flow to support share repurchases and dividends [D02].",
+   "These companies act as essential, high-trust global infrastructure that is not easily replaced, securing their long-term position in digital commerce [D01]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Visa and Mastercard operate as a dominant, capital-light global payment duopoly",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "January 2026 reports confirming robust transaction volumes",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Credit Card Competition Act on January 13, 2026",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating margins exceeding 57%",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 16,
+  "cited": 5,
+  "share": 0.31
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "The current opportunity exists because of a temporary market dislocation caused by the introduction of the Credit Card Competition Act on January 13, 2026, and speculative fears regarding AI-driven disintermediation [D05, D07].",
+ "grader_notes": "The agent correctly identified the direction and three of the four primary drivers cited in the Ackman rationale. It successfully mapped the regulatory/disruption fears and the fundamental quality of the toll-taking network business model. It failed to articulate the specific nuance regarding the integration of stablecoins and agentic commerce, which was a core Ackman driver.",
+ "run": "2026_v_ma_buy__current__named",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

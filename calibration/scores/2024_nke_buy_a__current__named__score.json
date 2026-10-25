@@ -1,0 +1,52 @@
+{
+ "trade_id": "2024_nke_buy_a",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Global brand and scale remain valuable despite product and distribution missteps. → Nike, Inc. is a dominant global athletic brand with an unmatched combination of brand equity, athlete endorsements, and distribution scale that makes it one of the most durable businesses in the consumer sector.",
+   "Renewed innovation and wholesale cooperation can repair demand. → While the market fears that Nike is suffering from a permanent loss of innovation and share to agile newcomers, we view this as a temporary, cyclical trough caused by a necessary transition away from mature franchises and a period of over-promotion.",
+   "Depressed profits offer recovery upside if execution improves. → By executing a $2 billion cost-savings program and refreshing the product pipeline, we expect a return to mid-teens EPS growth, supporting an IRR in the 20% range as the market re-rates the shares toward a 22x multiple."
+  ],
+  "missed": [
+   "Hill's company knowledge supported the thesis after his September appointment; it was not an observable May catalyst and should not be required in pre-entry reasoning."
+  ],
+  "extra_agent_drivers": [
+   "The company maintains a fortress balance sheet with a net cash position, ensuring resilience during the current pivot to new product platforms."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Nike generates significant free cash flow and maintains a fortress balance sheet with a net cash position of approximately $1.64 billion",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market has misidentified a temporary cyclical innovation and margin transition as a permanent impairment of the business model.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The stock trades at a depressed valuation following a 24.8% drawdown",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "A $2 billion cumulative cost-savings program provides a clear, actionable path to margin expansion",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 5,
+  "share": 0.38
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "While the market fears that Nike is suffering from a permanent loss of innovation and share to agile newcomers, we view this as a temporary, cyclical trough caused by a necessary transition away from mature franchises and a period of over-promotion.",
+ "grader_notes": "The agent correctly identified the core investment direction and the fundamental drivers regarding the brand's durability and the recovery potential from depressed profitability. It correctly ignored the Matthew Hill-specific catalyst which was not available at the AS_OF_DATE, maintaining alignment with the provided answer key. The reasoning is closest to Ackman in its thematic focus on a high-quality franchise suffering from cyclical rather than structural issues.",
+ "run": "2024_nke_buy_a__current__named"
+}

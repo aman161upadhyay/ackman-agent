@@ -1,0 +1,12 @@
+{
+  "id": "ctl_2020_xom_pass",
+  "company": "Exxon Mobil Corporation",
+  "ticker": "XOM",
+  "aliases": ["ExxonMobil", "Exxon"],
+  "as_of_date": "2020-10-30",
+  "mode": "new",
+  "era": "D",
+  "first_action_window": "Not applicable: constructed discipline control, no authenticated historical action.",
+  "pershing_aum_usd_bn": null,
+  "notes": "Constructed discipline control, not documented rejection. Five documents. Same-day morning Q3 release and contemporaneous Morningstar countercase included. No later impairment, commodity recovery, board campaign or dividend outcome. Dow removal is an index event, not proof of operating impairment."
+}

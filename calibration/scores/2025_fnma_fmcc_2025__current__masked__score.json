@@ -1,0 +1,49 @@
+{
+ "trade_id": "2025_fnma_fmcc_2025",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 5,
+  "matched": [
+   "A second Trump administration creates a credible near-term path to release → Recent developments, including the change in the administration and the focus on a negotiated path to release from conservatorship, provide the catalyst we have long awaited",
+   "Large conditional valuation upside remains despite rally, while outcome uncertainty requires limited exposure → While the shares have rallied significantly since the November election, they continue to trade at a substantial discount to our estimated intrinsic value of approximately $34 per share"
+  ],
+  "missed": [
+   "Credit prior distributions toward repayment of senior preferred rather than leave an unlimited senior claim.",
+   "Retained capital and earnings support recapitalization with manageable new issuance under the proposed2.5%standard.",
+   "Full Treasury warrant exercise aligns taxpayer proceeds with a successful offering."
+  ],
+  "extra_agent_drivers": [
+   "Essential guarantee franchise value",
+   "Earnings power and capital rebuild"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "market price of ~$6 represents a significant discount to the ~$34 intrinsic value scenario",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "new requirements for public input and Treasury consent",
+    "citation": "D08",
+    "verdict": "supported"
+   },
+   {
+    "claim": "balance sheets have been significantly strengthened by years of retained earnings",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 2,
+  "share": 0.2
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Our investment in the GSEs remains a long-term, high-asymmetry proposition that has finally moved from a decade of stagnation toward a plausible policy resolution [D09, D10].",
+ "grader_notes": "The agent correctly matches the HOLD decision and identifies the primary catalyst (Trump administration). However, it misses three of the five specific technical drivers provided by Ackman, focusing instead on broader thesis components like franchise value and earnings strength. Conviction levels differ, with the agent stating 'medium' while the key specifies 'high'.",
+ "run": "2025_fnma_fmcc_2025__current__masked"
+}

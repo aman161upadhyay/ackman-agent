@@ -1,0 +1,12 @@
+{
+  "id": "2025_cp_sell",
+  "company": "Canadian Pacific Kansas City",
+  "ticker": "CP",
+  "aliases": ["CPKC", "Canadian Pacific", "CP.TO"],
+  "as_of_date": "2025-03-17",
+  "mode": "existing",
+  "era": "E",
+  "first_action_window": "Sealed timing evidence in answer key. Cutoff approximately two weeks before the start of Q2, not an inferred execution day.",
+  "pershing_aum_usd_bn": 18.4988,
+  "notes": "Existing late-2021 KCS-related position, not the 2011 activist campaign. AUM is stale September 2024 gross firm AUM; March 14 report supplies December 2024 PSH NAV and holdings. CAD financials and Toronto price are separated from NYSE USD price."
+}

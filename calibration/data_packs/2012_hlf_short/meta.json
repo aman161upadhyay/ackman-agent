@@ -1,0 +1,12 @@
+{
+  "id": "2012_hlf_short",
+  "company": "Herbalife Ltd.",
+  "ticker": "HLF",
+  "aliases": ["Herbalife", "Herbalife Nutrition"],
+  "as_of_date": "2012-12-18",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "Precise first short-sale date unknown. Public presentation December 20, 2012 disclosed an approximately US$1bn stock short. December 18 precedes the public campaign; original presentation belongs only in answer key. https://dealbook.nytimes.com/2012/12/20/ackman-outlines-bet-against-herbalife",
+  "pershing_aum_usd_bn": 11,
+  "notes": "Eight documents. Q3 2012 release and 2011 annual report, Einhorn questions and company response, direct-selling peers, current 13F and dated AUM. No December 19/20 Ackman publicity, Icahn, 2013 investigation, FTC settlement or eventual exit in docs. Exact contemporaneous borrow cost/availability and validated short interest not available. Prices are restored to then-traded basis from later 2:1 split-adjusted series. SHORT is an intentional historical calibration label."
+}

@@ -1,0 +1,35 @@
+{
+ "pack": "2020_brk_sell",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2020-05-26",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-05-26",
+  "company": "Berkshire Hathaway (BRK.B)",
+  "ticker": "BRK.B",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Franchise quality: Intact; core insurance, BNSF, and utility businesses remain dominant and resilient [D02], [D10]",
+   "Operational improvement: Intact; the Jain/Abel structure remains in place to address margin gaps in rail and insurance [D02], [D10]",
+   "Cash-deployment option: Strengthened/Patient; large cash position provides resilience, though deployment pace is slower than originally anticipated [D04], [D10]",
+   "Valuation: Intact; trades at a discount to intrinsic value with a favorable risk-reward profile [D00], [D05]"
+  ],
+  "forward_irr_estimate_pct": 15,
+  "valuation_now": "Attractive relative to intrinsic value; trades near 1.18x price-to-book [D05]",
+  "drivers": [
+   {
+    "driver": "The thesis remains intact as the company continues to provide a unique combination of durable, free-cash-flow-generative businesses and substantial liquidity for future capital allocation [D02], [D10].",
+    "citations": [
+     "D10"
+    ]
+   }
+  ],
+  "memo": "Our investment in Berkshire Hathaway remains a core, high-conviction holding because the fundamental thesis has not been impaired by recent economic volatility [D10]. The conglomerate continues to own a portfolio of simple, predictable, and dominant businesses—spanning insurance, rail, and utilities—that possess high barriers to entry and provide essential services [D02], [D10]. While the pandemic has caused short-term disruption to demand in certain subsidiaries, the underlying competitive advantages of these franchises remain undiminished [D10].\n\nWe continue to monitor the operational improvements under Ajit Jain and Greg Abel [D02]. The previously identified margin gaps at BNSF and GEICO remain valid areas for potential long-term value creation, even if the current environment delays the immediate realization of these improvements [D10]. The management structure remains a key element of our long-term confidence in the organization's efficiency and successor efficacy [D02].\n\nFinally, we view Berkshire's record cash position as a significant source of optionality [D04]. While Buffett's disciplined, albeit cautious, approach to capital deployment during the March market rout differs from a more aggressive stance, it underscores the company's commitment to maintaining financial strength [D04], [D10]. This resilience allows Berkshire to wait for appropriate value-enhancing opportunities, which is a prudent strategy given the prevailing uncertainty [D04], [D06]. We remain comfortable with this approach and see no reason to exit a position that provides such robust protection and durable growth potential [D10].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

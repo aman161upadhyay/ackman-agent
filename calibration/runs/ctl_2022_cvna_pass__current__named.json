@@ -1,0 +1,224 @@
+{
+ "pack": "ctl_2022_cvna_pass",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2022-06-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Carvana is an online used-car retailer that manages a vertically integrated physical network including inspection, reconditioning centers, logistics, and delivery [D01]. The company also originates and monetizes auto loans, creating a model that combines digital customer interfaces with substantial physical capital requirements [D01].",
+   "segments_and_mix": [
+    "not in pack"
+   ],
+   "unit_economics": [
+    "Gross profit per retail unit is US$2,833 [D01]; gross margin is approximately 8.5% [D03]. Operations require significant physical capacity and working capital, with recent results showing negative operating cash flow [D01, D02]."
+   ],
+   "competitive_position": [
+    "The company competes in the large used-car market with a differentiated online experience and physical network [D01]. Potential for scale efficiencies exists but has not been proven as durable cash returns [D01].",
+    "Peers: not in pack"
+   ],
+   "growth_record_and_outlook": [
+    "Q1 2022 retail units sold grew 14% to 105,185 [D01]. Management prepared capacity six to twelve months ahead of demand but experienced lower-than-anticipated volume, leading to compressed margins [D01, D04]."
+   ],
+   "balance_sheet": [
+    "As of March 31, 2022, debt included US$2,786 million in revolving facilities, US$178 million in current long-term debt, and US$3,286 million in other long-term debt [D02]. April 2022 financing added US$3,275 million in notes (10.25% coupon) and approximately US$1.25 billion in equity [D02]."
+   ],
+   "management_and_governance": [
+    "not in pack"
+   ],
+   "price_and_valuation": [
+    "Price as of June 15, 2022: US$24.43 [D03]. Market cap: not in pack. Drawdown: ~93.5% from observed high of US$376.83 [D03]. P/E: Not meaningful due to net loss [D03]. EV/EBITDA/FCF yield: not in pack."
+   ],
+   "what_the_market_is_worried_about": [
+    "Capacity overbuild and high fixed costs [D04]; consumer affordability due to vehicle prices and interest rates [D04]; dependence on external financing [D01, D04]; potential need for further capital [D04]; integration of the ADESA acquisition [D01, D04]."
+   ],
+   "recent_events": [
+    "May 9, 2022: Closed ADESA US acquisition for ~US$2.2 billion [D01].",
+    "May 10, 2022: Announced layoff of approximately 2,500 employees (12% of workforce) [D04]."
+   ],
+   "pershing_context": [
+    "No public Ackman comment or Pershing Square position found in the provided pack [D05]."
+   ],
+   "missing_data": [
+    "Segment revenue/profit splits, exact fully diluted share count/ownership structure, enterprise value, and current Pershing Square firm liquidity."
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "FAIL",
+     "evidence": "The business model is capital-intensive, currently generates negative operating cash flow, and has volatile margins due to reliance on market volume and fixed-cost capacity [D01, D02, D04]."
+    },
+    "barriers_to_entry": {
+     "score": "UNSURE",
+     "evidence": "While the company has built a large, vertically integrated physical and digital network, the scalability and durability of its competitive advantage remain unproven [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business is highly sensitive to consumer affordability, interest rates, and vehicle prices, all of which are external factors outside management's control [D04]."
+    },
+    "strong_financial_profile": {
+     "score": "FAIL",
+     "evidence": "The company carries significant debt and recently required substantial capital raises through high-coupon notes and equity issuance to maintain liquidity [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "FAIL",
+     "evidence": "The business requires ongoing external financing and remains dependent on capital markets to fund its operations and acquisitions like ADESA [D01, D02, D04]."
+    },
+    "large_market_cap": {
+     "score": "UNSURE",
+     "evidence": "Market capitalization is not provided in the pack, though the share price has declined significantly from its highs [D03]."
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "P/E is not meaningful due to net losses and other valuation metrics like FCF yield are not in the pack [D03]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "Information regarding management and governance is not in the pack [D01-D05]."
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "While unit growth has occurred, management recently experienced significant demand shortfalls, making the runway for durable, profitable growth uncertain [D01, D04]."
+    }
+   },
+   "n_pass": 0,
+   "n_fail": 4,
+   "n_unsure": 5,
+   "hard_fail": true,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a capital-intensive, debt-reliant used-car retailer with negative cash flows and high sensitivity to external macro factors."
+  },
+  "gate2": {
+   "templates": [
+    "NONE"
+   ],
+   "variant_perception": "The market is currently pricing in a severe risk of insolvency due to high fixed costs, negative operating cash flows, and heavy reliance on external financing [D01, D02, D04]. Because the business lacks a track record of durable free-cash-flow generation and remains hyper-sensitive to macro volatility, we cannot identify a clear catalyst that would refute the market's current bearish assessment or restore long-term intrinsic value [D01, D04].",
+   "evidence": [
+    "Company generates negative operating cash flow and maintains high fixed-cost capacity [D01, D02].",
+    "Significant reliance on high-coupon debt and recent equity raises to maintain liquidity [D02].",
+    "Management demand forecasting errors led to a material margin compression and subsequent workforce reductions [D04]."
+   ],
+   "market_narrative_we_disagree_with": "We cannot definitively argue against the market's concern regarding the company's capital-intensive business model and ongoing dependency on external capital markets to survive [D01, D04].",
+   "what_must_be_true": [
+    "The company must prove its ability to turn profitable without further massive capital injections.",
+    "The used-car market must stabilize enough to absorb the excess capacity built by management.",
+    "The integration of ADESA must yield immediate, accretive cash flow gains."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "N/A (Net loss) vs S&P 500 17x [D03]",
+   "eps_or_fcf_path": {
+    "base_year": "2021",
+    "base_value": "Negative",
+    "growth_assumption": "Highly speculative due to negative operating cash flow [D01]",
+    "year_3_to_5_value": "Not determinable from pack",
+    "assumptions": [
+     "Must transition from negative to positive operating cash flow [D01]",
+     "ADESA integration must be accretive [D04]",
+     "Unit volume recovery required [D01]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 0,
+    "why": "Business lacks durable free-cash-flow; valuation is speculative rather than multiple-based at this stage [D01, D02]"
+   },
+   "implied_irr_pct": {
+    "base": 0,
+    "bear": -100,
+    "bull": 0
+   },
+   "downside_case": "Permanent loss of capital is highly likely if the company cannot sustain liquidity without further external capital injections, given the high fixed costs and negative operating cash flow [D01, D04].",
+   "valuation_verdict": "EXPENSIVE_BELOW_10",
+   "flagged_assumptions": [
+    "Future path of EPS is not in pack due to current losses",
+    "Enterprise value not in pack",
+    "Share count not in pack"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "We do not see a valid catalyst. We are passing on this investment as the business fails to meet our quality compounder standards, characterized by negative operating cash flow, significant debt, and high sensitivity to external macro factors [D01, D02, D04].",
+   "levers_or_steps": [
+    "N/A"
+   ],
+   "time_to_value_realisation_years": 0,
+   "why_this_role_fits_the_era": "Our 3.0 strategy focuses on quality compounders with durable free cash flow, which this business currently lacks; we do not engage in turnaround situations for businesses with precarious balance sheets [D01, D02, D04]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Continued dependence on external capital markets to fund operations",
+    "Failure to achieve positive operating cash flow within projected timeframes",
+    "Further deterioration in unit economics or inability to successfully integrate the ADESA acquisition"
+   ],
+   "portfolio_fit": "This investment does not fit our 3.0 strategy as we prioritize quality compounders with durable free cash flow rather than speculative, capital-intensive turnaround situations.",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "liquidity_assessment": "The company trades in high volumes, allowing for significant position building, but we are choosing to pass on this investment [D01].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The company's reliance on external financing to cover negative operating cash flows and high fixed costs creates a high probability of permanent capital impairment."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-06-15",
+  "company": "Carvana Co.",
+  "ticker": "CVNA",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "entry_multiple": "N/A (Net loss)",
+   "eps_path": "Highly speculative due to negative operating cash flow",
+   "terminal_multiple": "N/A",
+   "irr_pct": 0,
+   "downside_case": "Permanent loss of capital is highly likely if the company cannot sustain liquidity without further external capital injections."
+  },
+  "drivers": [
+   {
+    "driver": "The business model is capital-intensive and currently generates negative operating cash flow, failing our standard for a free-cash-flow-generative business.",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The company faces significant extrinsic risks from interest rates and vehicle price volatility, factors we cannot control.",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The balance sheet is burdened by significant debt and a recurring, dangerous reliance on external capital markets to fund operations.",
+    "citations": [
+     "D01",
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The company lacks a proven track record of durable cash returns, and the integration of ADESA adds further execution risk during a period of demand shortfalls.",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Continued dependence on external capital markets to fund operations",
+   "Failure to achieve positive operating cash flow within projected timeframes",
+   "Further deterioration in unit economics or inability to successfully integrate the ADESA acquisition"
+  ],
+  "what_would_change_our_mind": "Evidence of consistent, sustainable free-cash-flow generation, a significantly deleveraged balance sheet, and a proven ability to scale profitably without ongoing, massive external financing.",
+  "memo": "Carvana is an online used-car retailer that manages a vertically integrated physical network of inspection and reconditioning centers [D01]. While the company has sought to disrupt the automotive retail market through a digital interface, its model remains capital-intensive and currently generates negative operating cash flow [D01, D02]. We prioritize simple, predictable, and free-cash-flow-generative businesses, a standard this company fails to meet given its high fixed-cost base and reliance on external financing [D01, D04].\n\nThe opportunity exists because of the stock's substantial drawdown, but the market's bearishness is rooted in fundamental concerns regarding solvency and capacity overbuild [D03, D04]. Management prepared physical capacity six to twelve months in advance of demand, only to experience lower-than-anticipated volumes, leading to margin compression and workforce reductions [D01, D04]. We cannot identify the fix to these structural issues, nor can we argue that the market is wrong about the company's dependency on capital markets [D01, D04].\n\nValuation is not meaningful at this stage as the company is reporting net losses [D03]. With significant long-term debt and recent financing rounds featuring high-coupon notes, the risk of permanent capital impairment is material [D02]. We do not see a clear catalyst that would restore intrinsic value, and the company remains highly sensitive to extrinsic factors like interest rates and consumer affordability [D04].\n\nOur investment strategy, particularly in the 3.0 era, focuses on quality compounders with durable growth rather than speculative turnarounds [D01]. We do not engage in companies that require continuous, massive capital injections to survive [D01, D02]. Consequently, we are passing on this investment as it does not meet our fundamental criteria for inclusion in our portfolio.",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

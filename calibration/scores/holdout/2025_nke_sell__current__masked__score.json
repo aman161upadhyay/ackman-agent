@@ -1,0 +1,50 @@
+{
+ "trade_id": "2025_nke_sell",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Competition and tariff-related margin pressure made historical earnings targets less reliable → external factors, including $1.5 billion in gross annualized tariff exposure and competitive pressure from peers like Adidas, demand a more rigorous path to normalized profitability"
+  ],
+  "missed": [
+   "Initial diligence underestimated inherited strategic and operating problems and the cost of repairing them.",
+   "The medium-term return to prior profitability could no longer be confidently underwritten."
+  ],
+  "extra_agent_drivers": [
+   "Leadership is executing a credible turnaround plan.",
+   "North American growth and wholesale revenue improvements suggest the turnaround is gaining traction.",
+   "Challenges represent fixable execution hurdles rather than a permanent loss of market position."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Elliott Hill is executing a refocused strategy on sport and innovation.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Q1 wholesale revenue grew 7% reported.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "External factors, including $1.5 billion in gross annualized tariff exposure... demand a more rigorous path.",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 1,
+  "share": 0.11
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "However, these challenges represent fixable execution and cost-management hurdles rather than a permanent loss of the company's dominant market position [D02, D10].",
+ "grader_notes": "The agent maintains a HOLD stance while the investor-agent (Ackman) exited the position (SELL). The agent's reasoning is farthest from Ackman's because it interprets earnings pressure and tariff headwinds as 'fixable' and maintains conviction in the recovery, whereas Ackman explicitly concluded that the inherited problems were underestimated and a return to prior profitability could no longer be confidently underwritten.",
+ "run": "2025_nke_sell__current__masked",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

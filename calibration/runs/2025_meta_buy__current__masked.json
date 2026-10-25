@@ -1,0 +1,246 @@
+{
+ "pack": "2025_meta_buy",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2025-11-03",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates a digital advertising franchise across its family of apps, including the Company, Messenger, and Threads [D01]. It also maintains a secondary segment, Reality Labs, focused on virtual and augmented reality hardware and software development [D01].",
+   "segments_and_mix": [
+    "Advertising: 97.7% of total revenue [D01]",
+    "FoA other revenue: 1.3% of total revenue [D01]",
+    "Reality Labs: 0.9% of total revenue [D01]"
+   ],
+   "unit_economics": [
+    "Family of Apps operating margin: 49.2% [D01]",
+    "Consolidated operating margin: 40% [D01]",
+    "High reinvestment levels due to infrastructure and AI scaling, impacting free cash flow conversion [D02, D03]"
+   ],
+   "competitive_position": [
+    "Dominant audience scale with 3.54 billion family daily active people [D01]",
+    "Moat based on network effects among users, creators, and advertisers [D01]",
+    "Exposure to competitive risks from mobile operating-system policies, regulation, and third-party data dependency [D01, D05]"
+   ],
+   "growth_record_and_outlook": [
+    "FY2024 revenue growth: 22% [D02]",
+    "Q3 2025 revenue growth: 26% [D03]",
+    "Outlook signals higher capital expenditure and expense growth in 2026 to support AI infrastructure [D03]"
+   ],
+   "balance_sheet": [
+    "Cash and marketable securities: $44.448 billion [D02]",
+    "Long-term debt: $28.834 billion [D02]",
+    "Net cash excluding leases: $15.614 billion [D02]"
+   ],
+   "management_and_governance": [
+    "CEO: Mark Zuckerberg [D01]",
+    "Strategy: Aggressive front-loading of infrastructure capacity for AI timelines [D03]",
+    "Governance concern: Investors must underwrite capital allocation for both core app profitability and speculative frontier research [D01, D05]"
+   ],
+   "price_and_valuation": [
+    "Price: $637.71 (Nov 3, 2025) [D04]",
+    "Illustrative equity value: $1.605 trillion [D04]",
+    "Trailing P/E: 28.2x GAAP; 22.1x tax-normalized [D04]",
+    "Calculated trailing FCF yield: 2.7% [D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Skepticism regarding investment returns on aggressive AI spending [D05]",
+    "Rising infrastructure costs and depreciation impacting operating margins [D03, D05]",
+    "Indefinite and substantial Reality Labs losses [D05]",
+    "Regulatory risks regarding personalized ads and youth-related trials [D05]"
+   ],
+   "recent_events": [
+    "October 29, 2025: Q3 earnings reported 26% revenue growth and raised capex floor to $70 billion [D03]",
+    "October 30, 2025: Shares fell over 11% following earnings call [D05, D07]"
+   ],
+   "pershing_context": [
+    "Current holdings as of June 30, 2025 include Alphabet and Amazon [D08]",
+    "No authenticated pre-cutoff Pershing Square investment thesis or commentary on the Company found in pack [D08]"
+   ],
+   "missing_data": [
+    "Forward-looking consensus EPS, EV/EBITDA, and S&P 500 relative valuation metrics for the Company",
+    "Precise voting control percentages and detailed insider ownership structure",
+    "Full-year 2026 operating-income floor or Reality Labs loss guidance"
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "UNSURE",
+     "evidence": "While the core advertising business has strong network effects, the business faces significant uncertainty and reduced FCF conversion due to aggressive AI infrastructure spending and substantial losses in Reality Labs [D02, D03, D05]."
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company maintains a dominant position with 3.54 billion daily active people and a robust network effect among users, creators, and advertisers [D01]."
+    },
+    "limited_extrinsic_exposure": {
+     "score": "FAIL",
+     "evidence": "The business is significantly exposed to extrinsic regulatory risks, mobile operating-system policies, and third-party data dependencies [D01, D05]."
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong balance sheet with a net cash position of $15.614 billion [D02]."
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "PASS",
+     "evidence": "With a strong net cash position, the company does not rely on external capital markets for its current operations [D02]."
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The company has an illustrative equity value of $1.605 trillion, making it highly liquid [D04]."
+    },
+    "attractive_valuation_screen": {
+     "score": "PASS",
+     "evidence": "The stock trades at 22.1x tax-normalized trailing P/E, which is reasonable for a dominant franchise [D04]."
+    },
+    "management_governance": {
+     "score": "UNSURE",
+     "evidence": "Investors must underwrite aggressive capital allocation toward speculative frontier research and AI infrastructure, which raises governance concerns [D01, D03, D05]."
+    },
+    "durable_growth_runway": {
+     "score": "PASS",
+     "evidence": "The company continues to exhibit strong double-digit revenue growth of 26% as of Q3 2025 [D03]."
+    }
+   },
+   "n_pass": 6,
+   "n_fail": 1,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant digital advertising franchise with massive scale and high-quality margins, currently undergoing heavy capital reinvestment in AI and speculative hardware."
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market is currently punishing the stock due to a spike in capital expenditure and concerns over the ROI of AI-driven infrastructure and ongoing Reality Labs losses [D03, D05]. We believe the market is incorrectly discounting the core advertising franchise's durable growth and its ability to absorb these investments while maintaining a dominant competitive position. As the massive infrastructure investments eventually normalize or demonstrate clear monetization, the underlying free cash flow generation will become more apparent to the market [D03, D05].",
+   "evidence": [
+    "Shares fell over 11% following the Q3 earnings report and increased capex guidance [D05, D07].",
+    "The core advertising business remains a dominant, high-margin franchise with 3.54 billion daily active people [D01].",
+    "The company maintains a strong balance sheet with a net cash position of $15.614 billion, providing significant operational flexibility [D02]."
+   ],
+   "market_narrative_we_disagree_with": "The market views the current aggressive AI infrastructure spending and Reality Labs losses as a permanent impairment to the company's FCF generation rather than a temporary, albeit significant, reinvestment phase [D03, D05].",
+   "what_must_be_true": [
+    "The core advertising business continues to grow at double-digit rates without significant regulatory impairment [D03].",
+    "Management eventually demonstrates a clear path to monetizing AI infrastructure investments.",
+    "Reality Labs losses do not expand indefinitely or consume the cash generated by the Family of Apps segment."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "22.1x tax-normalized trailing P/E vs S&P 500 (~21x) [D04]",
+   "eps_or_fcf_path": {
+    "base_year": "2024",
+    "base_value": "$22.61 (Implied by $1.605T market cap / 28.2x P/E) [D04]",
+    "growth_assumption": "15% annual EPS growth based on 26% revenue growth [D03] and high operating margins [D01], tempered by rising AI-driven capex [D03].",
+    "year_3_to_5_value": "$34.39 (at Year 3)",
+    "assumptions": [
+     "Core advertising maintains double-digit growth [D03]",
+     "AI investments transition to monetization [D03]",
+     "Reality Labs losses capped [D05]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 25,
+    "why": "Reflects dominant market position and durable growth of the advertising franchise, offset by capital-intensive AI requirements."
+   },
+   "implied_irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 28
+   },
+   "downside_case": "If AI infrastructure fails to monetize and Reality Labs losses expand, the multiple could compress to 15-18x, leading to limited upside, though the strong net cash position of $15.6B [D02] mitigates permanent capital loss risk.",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "Forward-looking consensus EPS estimates [missing]",
+    "Exact 2026 tax-normalized EPS [missing]"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "The market's 11% sell-off following the Q3 earnings report reflects a temporary fear regarding the ROI of aggressive AI infrastructure spending and ongoing Reality Labs losses [D03, D05, D07]. We expect a re-rating as the core advertising business—which boasts a dominant network effect with 3.54 billion daily active users—continues to deliver double-digit revenue growth [D01, D03]. As AI-driven infrastructure investments normalize or demonstrate clear monetization, the market will recognize the underlying cash-generative power of the Family of Apps segment [D03, D05].",
+   "levers_or_steps": [
+    "Core advertising segment continues to sustain double-digit growth [D03]",
+    "AI capital expenditure cycles eventually yield tangible monetization paths [D03]",
+    "Reality Labs operational losses are contained or demonstrate improved unit economics over time [D05]"
+   ],
+   "time_to_value_realisation_years": 3,
+   "why_this_role_fits_the_era": "In the 'Pershing Square 3.0' era, we focus on compounding high-quality, dominant franchises bought on temporary market dislocations without public activism [D03, D05]. This position fits our strategy of holding dominant digital platforms that trade at attractive valuations, leveraging our long-term horizon to look through heavy, non-recurring reinvestment phases in AI."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Core advertising revenue growth decelerates to single digits due to structural saturation or ad-load exhaustion [D03].",
+    "Reality Labs operational losses continue to expand as a percentage of Family of Apps (FoA) operating income after 2026 [D05].",
+    "Management significantly increases financial leverage to fund AI infrastructure, compromising the net cash balance sheet [D02].",
+    "Regulatory actions materially restrict personalized advertising capabilities, damaging the core platform's competitive moat [D01, D05]."
+   ],
+   "portfolio_fit": "This investment provides exposure to a dominant digital advertising franchise, complementing existing holdings in Alphabet and Amazon [D08]. It aligns with our focus on high-quality, free-cash-flow-generative compounders, though it increases our aggregate exposure to the 'Magnificent Seven' factor [D08].",
+   "size_pct_nav": {
+    "initial": 4,
+    "target": 8,
+    "max": 10
+   },
+   "liquidity_assessment": "The company's $1.605 trillion market capitalization and high daily trading volume ensure that a position of 8-10% of NAV can be established in weeks without material price impact [D04].",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that the massive capital expenditures in AI infrastructure fail to generate incremental returns, permanently impairing the company's free cash flow conversion and long-term capital efficiency [D03, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-11-03",
+  "company": "the Company (Meta Platforms)",
+  "ticker": "META",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "22.1x tax-normalized trailing P/E",
+   "eps_path": "15% annual growth derived from core advertising strength, offset by AI capex",
+   "terminal_multiple": "25x",
+   "irr_pct": 22,
+   "downside_case": "Multiple compression to 15-18x if AI monetization fails and Reality Labs losses accelerate, mitigated by $15.6B net cash position."
+  },
+  "drivers": [
+   {
+    "driver": "The core advertising franchise is a dominant, high-margin platform with 3.54 billion daily active people that maintains strong network effects [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The market has incorrectly punished the stock following recent earnings, failing to distinguish between durable core growth and temporary, albeit aggressive, AI infrastructure investment [D03, D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The business maintains a superior financial profile with a strong balance sheet and $15.614 billion in net cash, providing significant flexibility for capital allocation [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "We see a path to mid-teens EPS growth as AI investments transition toward monetization and the core advertising engine continues to deliver double-digit revenue growth [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Core advertising revenue growth decelerates to single digits due to structural saturation or ad-load exhaustion [D03].",
+   "Reality Labs operational losses continue to expand as a percentage of Family of Apps operating income after 2026 [D05].",
+   "Management significantly increases financial leverage to fund AI infrastructure, compromising the net cash balance sheet [D02].",
+   "Regulatory actions materially restrict personalized advertising capabilities, damaging the core platform's competitive moat [D01, D05]."
+  ],
+  "what_would_change_our_mind": "A failure to achieve monetization of AI infrastructure coupled with persistently expanding Reality Labs losses that erode the free cash flow of the core Family of Apps segment.",
+  "memo": "The Company represents a dominant digital advertising franchise that possesses one of the most powerful network effects in history, with 3.54 billion people using its platforms daily [D01]. Despite the market's focus on short-term volatility, the business remains exceptionally high-margin, generating robust cash flows from its core Family of Apps segment [D01].\n\nFollowing the Q3 2025 earnings report, the market reacted with an 11% sell-off, driven by fears surrounding increased capital expenditure guidance and speculative losses in Reality Labs [D03, D05, D07]. We believe this dislocation creates an attractive entry point, as the market is mispricing the company by conflating long-term, potentially high-return AI infrastructure investments with permanent impairment of intrinsic value [D03, D05].\n\nWe have acquired our position at a 22.1x tax-normalized trailing P/E, a valuation we find compelling for a business of this quality and growth profile [D04]. With revenue growth at 26% as of Q3 2025, we project a path of double-digit annual EPS growth, assuming disciplined management of Reality Labs losses and successful monetization of AI capacity [D03, D05]. We believe a 25x terminal multiple is appropriate given the durability of the advertising moat [D03].\n\nOur role is that of a long-term compounder, supporting management’s aggressive push into AI while maintaining vigilance on capital efficiency [D03]. The company’s $15.614 billion net cash balance sheet serves as a critical buffer, limiting downside risk should the macro or regulatory environment tighten unexpectedly [D02].\n\nWe are initiating a position today with a target size of 8% of NAV, reflecting our high conviction in the core franchise's competitive endurance [D02, D04]. We will continue to monitor the ROI of AI spending and the trajectory of Reality Labs as key indicators of continued capital allocation discipline [D03, D05].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

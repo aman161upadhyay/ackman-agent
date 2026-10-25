@@ -1,0 +1,57 @@
+{
+ "trade_id": "2022_nflx_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "The business no longer meets the predictability requirement for a concentrated core holding. → We do not hold positions when the business model or its drivers have changed to the extent that we can no longer forecast with confidence [D00].",
+   "Act promptly when new evidence contradicts the original thesis. → Consequently, we are exiting the position today, notwithstanding the significant decline in the stock price, as we must prioritize capital allocation to opportunities that fit our strict quality and predictability criteria [D05], [D06], [D10]."
+  ],
+  "missed": [
+   "Subscriber-growth changes have an outsized effect on intrinsic value because of operating leverage.",
+   "Advertising and account-sharing changes may be sensible but are difficult to forecast."
+  ],
+  "extra_agent_drivers": [
+   "The fundamental growth thesis has changed, leading to a loss of predictability in the company's core subscription model."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Q1 results and the forward guidance of further subscriber losses fundamentally challenge this core underwriting [D04].",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company has moved from a predictable growth trajectory to one where the management must now explore unproven initiatives—namely advertising-supported tiers and paid-account sharing [D04], [D06], [D10].",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "While management remains high-quality and the business remains profitable, the shift away from an automatic, scale-driven margin expansion path reduces the predictability of our long-term earnings forecast [D02], [D04], [D10].",
+    "citation": "D10",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Our standards require that we be able to forecast a business's free-cash-flow generation with sufficient certainty to justify a concentrated position; we can no longer do so here until these new monetization models are tested and the subscriber churn stabilizes [D00], [D06], [D10].",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Consequently, we are exiting the position today, notwithstanding the significant decline in the stock price, as we must prioritize capital allocation to opportunities that fit our strict quality and predictability criteria [D05], [D06], [D10].",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 8,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We do not hold positions when the business model or its drivers have changed to the extent that we can no longer forecast with confidence [D00].",
+ "grader_notes": "The agent correctly identified the decision to exit the position due to the loss of predictability and the need to act on evidence contradicting the thesis. However, it failed to specifically cite the mechanism of operating leverage or the difficulty in forecasting the impact of new monetization strategies, which were key drivers provided by Ackman.",
+ "run": "2022_nflx_sell__current__masked"
+}

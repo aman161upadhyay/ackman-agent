@@ -1,0 +1,44 @@
+{
+ "trade_id": "2026_ice_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Integrated exchange/clearing liquidity and margin-offset economics defend core franchises. → The Company is a world-class financial infrastructure provider, operating critical energy and equity exchanges, clearing houses, and fixed-income data platforms.",
+   "Perpetual-futures and AI fears overstate risk to the dominant profit pools; mortgage normalization is additional upside. → Recent market volatility, spurred by the CFTC’s enablement of perpetual crypto futures and concerns regarding AI’s impact on data products, has created an attractive entry point.",
+   "Approximately 17x entry versus 25x a year earlier plus capital return supports attractive prospective compounding. → We were able to acquire our stake at 17.7x FY2025 adjusted earnings, a valuation that significantly understates the business’s long-term earnings power."
+  ],
+  "missed": [
+   "Energy hedging, volatility and established institutional contract needs support growth."
+  ],
+  "extra_agent_drivers": [
+   "Management, led by founder Jeffrey Sprecher, demonstrates disciplined capital allocation through consistent buybacks and dividends."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Recent market volatility, spurred by the CFTC’s enablement of perpetual crypto futures and concerns regarding AI’s impact on data products, has created an attractive entry point.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We were able to acquire our stake at 17.7x FY2025 adjusted earnings.",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 8,
+  "share": 0.62
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We have initiated a position targeting 8% of NAV, providing us with a meaningful stake in a high-quality franchise while maintaining a disciplined margin of safety.",
+ "grader_notes": "The agent correctly identified the direction and the primary drivers regarding valuation, perpetual futures/AI risk perception, and core franchise quality. It missed the driver specifically referencing energy hedging and institutional contract growth. The reasoning overlap is high and the valuation thesis aligns well with the provided answer key.",
+ "run": "2026_ice_buy__current__masked",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

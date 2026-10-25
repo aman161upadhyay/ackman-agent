@@ -1,0 +1,45 @@
+{
+ "trade_id": "ctl_2020_xom_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Commodity prices and refining/chemical margins dominate normalized value and cannot be controlled through operating activism. → Earnings are directly and significantly exposed to volatile commodity prices and refining margins, which we cannot control",
+   "A double-digit indicated dividend does not establish predictable FCF after sustaining investment. Coverage requires uncertain recovery and/or financing/spending changes. → The business lacks the simple, predictable, and free-cash-flow-generative profile required for a Pershing Square 3.0 investment",
+   "Stress the ability to fund distributions and investment without favorable capital markets rather than capitalize an uncovered dividend as a permanent yield. → The company reported a net loss of $2.370 billion for the first nine months of 2020, with dividends currently exceeding operating cash flow"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Despite the 55.4% drawdown, the lack of free cash flow and structural dependency on extrinsic factors prevent us from identifying a durable long-term compounder"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Exxon Mobil is an integrated energy company with operations spanning oil and gas exploration, production, refining, and chemical manufacturing",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "net loss of $2.370 billion for the first nine months of 2020",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "company's removal from the Dow Jones Industrial Average",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 9,
+  "share": 1
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Given the capital-intensive nature of the business and our inability to control the extrinsic commodity factors that drive its profitability, we find no compelling entry point.",
+ "grader_notes": "The agent perfectly captured the core Pershing Square requirement for 'simple, predictable' cash flow and the specific avoidance of businesses dependent on 'extrinsic factors' like commodity pricing. The reasoning is entirely consistent with the provided answer key drivers, effectively mapping the agent's cash flow analysis to the discipline control criteria.",
+ "run": "ctl_2020_xom_pass__current__named"
+}

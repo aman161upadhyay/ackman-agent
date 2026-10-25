@@ -1,0 +1,38 @@
+{
+ "pack": "2025_nke_sell",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2025-11-03",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-11-03",
+  "company": "the Company (XXX)",
+  "ticker": "NKE",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Brand repair: Intact; Elliott Hill is executing a refocused strategy on sport and innovation [D02, D04].",
+   "Wholesale recovery: Strengthened; Q1 wholesale revenue grew 7% reported [D02, D04].",
+   "Earnings normalization: Broken; near-term margins and EPS are pressured by deeper-than-expected repair costs, tariffs, and China weakness [D01, D04, D06].",
+   "Channel strategy: Intact; deliberate reset of direct-to-consumer is underway, though recovery takes longer than originally anticipated [D04, D06]."
+  ],
+  "forward_irr_estimate_pct": 15,
+  "valuation_now": "The stock trades at approximately 29.0x FY2025 EPS, reflecting significant earnings depression; valuation is dependent on the success of the multi-year turnaround [D05].",
+  "drivers": [
+   {
+    "driver": "The original thesis remains valid as leadership is executing a credible turnaround plan, evidenced by early wholesale recovery and North American growth [D04, D10].",
+    "citations": [
+     "D04",
+     "D10"
+    ]
+   }
+  ],
+  "memo": "Our investment in the Company was predicated on a brand-repair thesis, focusing on remediating strategic errors in wholesale neglect and product focus [D01, D10]. Since our purchase, the appointment of Elliott Hill as CEO has provided the leadership change we envisioned, and early indicators—such as North American growth and wholesale revenue improvements—suggest the turnaround is gaining traction [D02, D04, D08]. \n\nWe acknowledge that the depth of the earnings decline and the duration of the repair in channels like the Company Direct have exceeded our initial expectations [D01, D06]. Furthermore, external factors, including $1.5 billion in gross annualized tariff exposure and competitive pressure from peers like Adidas, demand a more rigorous path to normalized profitability [D06, D07, D10]. However, these challenges represent fixable execution and cost-management hurdles rather than a permanent loss of the company's dominant market position [D02, D10]. \n\nOur current exposure, held via deep-in-the-money calls, provides the necessary multi-year duration to allow management to realize the margin expansion and revenue growth we expect [D01, D08]. While the range of outcomes for normalized earnings has widened, the strength of the brand and the balance sheet continue to support our conviction in a recovery [D03, D10]. We will continue to monitor the effectiveness of tariff mitigation and the pace of the direct-channel reset, but we see no reason to abandon the position while the strategic plan is being actively implemented [D04, D06].",
+  "uncited_claims": [
+   "the Company's forward IRR is estimated at approximately 15%."
+  ]
+ },
+ "elapsed_s": 0
+}

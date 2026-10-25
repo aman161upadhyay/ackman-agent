@@ -1,0 +1,12 @@
+{
+  "id": "2025_nke_sell",
+  "company": "Nike",
+  "ticker": "NKE",
+  "aliases": ["NIKE Inc.", "Nike second investment"],
+  "as_of_date": "2025-11-03",
+  "mode": "existing",
+  "era": "E",
+  "first_action_window": "Sealed transaction evidence in answer key. Cutoff follows fiscal Q1 disclosure and precedes the independently documented November window.",
+  "pershing_aum_usd_bn": 20.7111,
+  "notes": "2024 investment, not the profitable 2017 position. Public early-2025 common-to-call conversion is preserved; common-stock disappearance is not equated with an economic exit. AUM is August gross core-fund scale."
+}

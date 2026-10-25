@@ -1,0 +1,12 @@
+{
+  "id": "2026_spgi_buy",
+  "company": "S&P Global",
+  "ticker": "SPGI",
+  "aliases": ["S&P Global second investment", "Standard & Poor's"],
+  "as_of_date": "2026-03-31",
+  "mode": "new",
+  "era": "E",
+  "first_action_window": "Exact day unresolved; sealed timing evidence in answer key. March31 conservatively precedes independently established Q2 window.",
+  "pershing_aum_usd_bn": 19.748,
+  "notes": "AI/financial-information selloff and February guidance included; no completed Mobility separation or later investor earnings-mix assertions inserted. Original 2017 ownership is separate."
+}

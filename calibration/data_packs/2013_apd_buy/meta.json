@@ -1,0 +1,12 @@
+{
+  "id": "2013_apd_buy",
+  "company": "Air Products and Chemicals, Inc.",
+  "ticker": "APD",
+  "aliases": ["Air Products"],
+  "as_of_date": "2013-07-15",
+  "mode": "new",
+  "era": "B",
+  "pershing_aum_usd_bn": 12,
+  "first_action_window": "Exact initial purchase unknown. Public July31 2013 disclosure9.8%, approximatelyUS$2.2bn; June30 holdings later filedAugust14 show buying began before this snapshot. July8 unnamed-target co-investment solicitation is public but target identity remains withheld in docs.",
+  "notes": "Eight documents. Latest earnings April23 fiscalQ2; JulyQ3 and future leadership/targets excluded. AUM ReutersJuly8 approximate manager total. Original financial perimeter retains materials businesses; no later continuing-only comparison. Historical Yahoo spin adjustments not mixed with original price."
+}

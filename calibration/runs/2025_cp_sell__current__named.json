@@ -1,0 +1,37 @@
+{
+ "pack": "2025_cp_sell",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2025-03-17",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-03-17",
+  "company": "Canadian Pacific Kansas City",
+  "ticker": "CP.TO",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Merger approval and control: achieved [D08]",
+   "Synergy realization: exceeding expectations with $800M+ run-rate revenue synergies [D04]",
+   "Management execution: Keith Creel continues to deliver operational outperformance [D04]",
+   "Network scarcity: remains a high-barrier, trilateral advantage [D02]",
+   "Policy environment: transitioning from a favorable integration assumption to a period of heightened tariff uncertainty [D10]"
+  ],
+  "forward_irr_estimate_pct": 15,
+  "valuation_now": "21.4x-22.6x 2025 guided EPS, which remains attractive for a dominant, high-quality compounder [D05]",
+  "drivers": [
+   {
+    "driver": "The core investment thesis is progressing, evidenced by successful network integration, synergy realization, and double-digit management guidance for 2025 EPS growth [D04, D08].",
+    "citations": [
+     "D04",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "Our investment in Canadian Pacific Kansas City remains a cornerstone of the portfolio because the fundamental business quality we underwrote—a scarce, trilateral rail network with high barriers to entry and best-in-class management—has been proven through the successful integration of Kansas City Southern [D02, D08]. Since the merger attained common control in April 2023, management has demonstrably executed on its plan, delivering over $800 million in run-rate revenue synergies and robust operational discipline [D04, D08]. \n\nWe acknowledge the current policy environment introduces noise regarding cross-border trade, but we view the necessity of integrated North American supply chains as a strong buffer [D06, D10]. The management team’s 2025 guidance of 12–18% core adjusted EPS growth, supported by underlying demand for rail, aligns with our expectation for durable, long-term compounding [D04]. While we monitor capital requirements and tariff-related volume volatility, the business remains highly cash-generative and its long-term competitive moat is intact [D02, D10].\n\nWe remain disciplined in our assessment of risk. The valuation, trading at approximately 21.4–22.6x guided 2025 earnings, does not reflect a bubble, and the operational momentum provides us with conviction that the company can navigate the current macro environment [D05, D06]. We choose to hold this position as the thesis is on track and the long-term compounding potential remains consistent with our standards for a core holding [D09, D10].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}

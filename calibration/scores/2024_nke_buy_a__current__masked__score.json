@@ -1,0 +1,48 @@
+{
+ "trade_id": "2024_nke_buy_a",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Global brand and scale remain valuable despite product and distribution missteps. → The Company is a dominant global leader in athletic footwear and apparel with unmatched brand equity and distribution scale [D01], [D06].",
+   "Renewed innovation and wholesale cooperation can repair demand. → Operating leverage will improve as the innovation pipeline refreshes and wholesale partnerships are optimized [D03].",
+   "Depressed profits offer recovery upside if execution improves. → We project a mid-single-digit recovery in revenue and a return to historical operating margins of 10.9% as the $2 billion cost-savings initiative takes hold [D01], [D05]."
+  ],
+  "missed": [
+   "Hill's company knowledge supported the thesis after his September appointment; it was not an observable May catalyst and should not be required in pre-entry reasoning."
+  ],
+  "extra_agent_drivers": [
+   "A $2 billion cost-savings program provides a clear path to margin expansion from current 10.9% levels",
+   "The current 24.8% drawdown from 52-week highs offers an entry point into a franchise undergoing temporary cyclical weakness"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is a dominant global leader in athletic footwear and apparel with unmatched brand equity and distribution scale",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the business maintains a fortress balance sheet with $10.6 billion in cash",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the stock trading at a 24.8% discount to its 52-week high",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 12,
+  "share": 1
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "Given the current valuation and the need to observe initial execution data, we will establish a holding in the company with an eye toward increasing our position to 8% of NAV as our thesis is validated [D04].",
+ "grader_notes": "The agent failed the direction match by deciding to 'HOLD' (wait-and-see) rather than the 'BUY' action taken by Ackman. Reasoning overlaps well regarding the core thesis of brand value, innovation recovery, and profit restoration, but the agent added specific focus on a cost-savings program and current valuation metrics not explicitly emphasized in the Ackman thesis.",
+ "run": "2024_nke_buy_a__current__masked"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "2023_googl_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav_at_cost": "Both GOOG/GOOGL classes; exact initial NAV-at-cost percentage not recovered.",
+  "first_action_date": "2023-03-02",
+  "disclosure_date": "2023-05-15",
+  "reason_class": null,
+  "opportunity_template": ["T4", "T1"],
+  "catalyst_role": "C0",
+  "drivers": [
+    {"driver": "Search intent and distribution underpin a durable advertising franchise.", "source": "https://assets.pershingsquareholdings.com/2024/03/22201541/Pershing-Square-Holdings-Ltd.-2023-Annual-Report.pdf (2024-03-22, retrospective)", "quote": null},
+    {"driver": "Proprietary data, technical AI capabilities and optimized infrastructure support adaptation rather than inevitable displacement.", "source": "https://assets.pershingsquareholdings.com/2024/03/22201541/Pershing-Square-Holdings-Ltd.-2023-Annual-Report.pdf (2024-03-22, retrospective)", "quote": null},
+    {"driver": "The market overestimated the disruption threat from generative AI.", "source": "https://assets.pershingsquareholdings.com/2024/03/22201541/Pershing-Square-Holdings-Ltd.-2023-Annual-Report.pdf (2024-03-22, retrospective)", "quote": null},
+    {"driver": "YouTube, Cloud and operating efficiency offer additional earnings levers.", "source": "https://assets.pershingsquareholdings.com/2024/03/22201541/Pershing-Square-Holdings-Ltd.-2023-Annual-Report.pdf (2024-03-22, retrospective)", "quote": null}
+  ],
+  "entry_valuation_stated": "15.7x NTM consensus EPS at March 2 inception and $94 average at announcement, per retrospective February 11, 2026 PSH presentation; not the requested February 10 forward multiple.",
+  "outcome_note": "Major winner; 2025 gross NAV contribution +10.3 points; fully exited H1 2026 according to interim report. These outcomes are not pack inputs.",
+  "pack_quality_notes": "Eight documents. Important chronology correction: cutoff precedes independently documented March 2 first purchase. GOOG price/volume supplied, GOOGL exact daily quote absent. Alphabet forward consensus, 52-week range and firm AUM unavailable. Key drivers are compendium-grounded retrospective paraphrases, not invented verbatim quotations. S&P forward multiple independently dated."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "2026_msft_buy",
+  "company": "Microsoft",
+  "ticker": "MSFT",
+  "aliases": ["Microsoft Corporation", "Azure", "Microsoft 365"],
+  "as_of_date": "2026-01-30",
+  "mode": "new",
+  "era": "E",
+  "first_action_window": "Execution timing evidence is sealed in the answer key. January 30 is the trading day following the January 29 earnings-related drop.",
+  "pershing_aum_usd_bn": 19.187,
+  "notes": "AUM field is PSH gross AUM at December 31, disclosed January 15, not total manager core AUM. Cutoff changed from requested February 2 to January 30 under the instruction to use the trading day after the main drop. Exact cutoff forward consensus unavailable; no later Ackman multiple imported."
+}

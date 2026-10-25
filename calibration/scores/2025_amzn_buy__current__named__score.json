@@ -1,0 +1,48 @@
+{
+ "trade_id": "2025_amzn_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 5,
+  "matched": [
+   "Tariff-driven selling supplied an unusual entry valuation → We are initiating this position at 31.7x trailing earnings, which we believe is attractive",
+   "AWS and retail are exceptional category-defining franchises → Amazon is a dominant, mission-critical infrastructure franchise that serves as the backbone of the global digital economy",
+   "Incremental growth capex should be evaluated by returns rather than headline FCF compression → The market views this as value-destructive, ignoring that these investments are necessary, temporary phases to secure long-term leadership"
+  ],
+  "missed": [
+   "Cloud migration and AI demand support AWS growth.",
+   "Retail logistics productivity and advertising offer margin expansion."
+  ],
+  "extra_agent_drivers": [
+   "The management team has a proven long-term track record of capital allocation and successful capacity investment"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Amazon is a dominant, mission-critical infrastructure franchise",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "investors are overly fixated on the $100B 2025 capital expenditure plan",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "company's strong balance sheet with $101.2B in cash and marketable securities",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 12,
+  "share": 0.92
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "The current opportunity arises from a market dislocation where investors are overly fixated on the $100B 2025 capital expenditure plan [D03].",
+ "grader_notes": "The agent accurately identified the core investment thesis regarding the temporary nature of capex and the opportunity provided by market volatility. It missed Ackman's explicit drivers concerning specific retail advertising and cloud-AI migration growth catalysts, instead substituting general management track-record points.",
+ "run": "2025_amzn_buy__current__named"
+}

@@ -1,0 +1,49 @@
+{
+ "trade_id": "2025_uber_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 5,
+  "matched": [
+   "Dara's leadership created a profitable, cash-generative growth business. → Management has successfully pivoted the firm toward profitable growth, evidenced by the first $1 billion GAAP operating income quarter and a $7 billion share-repurchase program [D03], [D07].",
+   "AV developers can benefit from Uber demand aggregation rather than displace its marketplace. → The market incorrectly fears that autonomous vehicle fleets will disintermediate the marketplace, whereas we believe Uber will be the essential, high-margin software-enabled aggregator for AV operators [D01], [D05], [D07].",
+   "Dense marketplace networks improve waits, pricing and earner utilization. → Uber is a dominant, capital-light global marketplace that benefits from powerful local network effects, connecting 161 million monthly active consumers with drivers and merchants [D01]."
+  ],
+  "missed": [
+   "Capital-light growth and fixed-cost leverage support substantial earnings compounding.",
+   "Disruption fears created an attractive price for a high-quality business."
+  ],
+  "extra_agent_drivers": [
+   "Valuation at an implied 5% FCF yield.",
+   "Capital allocation through share repurchases."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Uber is a dominant, capital-light global marketplace that benefits from powerful local network effects",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Management has successfully pivoted the firm toward profitable growth",
+    "citation": "D03",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Uber will be the essential, high-margin software-enabled aggregator for AV operators",
+    "citation": "D05",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 9,
+  "share": 0.69
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Our decision is to initiate a position representing 8% of NAV, reflecting our high conviction in the business’s durable growth and the strength of its competitive moat.",
+ "grader_notes": "The agent correctly identified the investment thesis regarding autonomous vehicle aggregation and marketplace network effects. It diverged from the answer key by focusing more on specific FCF yields and recent GAAP milestones rather than the qualitative 'high-quality business' narrative used by Ackman.",
+ "run": "2025_uber_buy__current__named"
+}

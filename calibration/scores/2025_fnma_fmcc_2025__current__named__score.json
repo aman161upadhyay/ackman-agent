@@ -1,0 +1,46 @@
+{
+ "trade_id": "2025_fnma_fmcc_2025",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 5,
+  "matched": [
+   "A second Trump administration creates a credible near-term path to release → The election of a new administration provides a viable policy catalyst for recapitalization that was previously absent [D08], [D09].",
+   "Retained capital and earnings support recapitalization with manageable new issuance under the proposed 2.5% standard → Both enterprises have successfully rebuilt significant net worth while continuing to fulfill their essential guarantee function [D03], [D04].",
+   "Large conditional valuation upside remains despite rally, while outcome uncertainty requires limited exposure → While the recent rally reflects shifting expectations, the potential for an asymmetric return remains if the government adopts a negotiated recapitalization path [D05], [D06], [D09]."
+  ],
+  "missed": [
+   "Credit prior distributions toward repayment of senior preferred rather than leave an unlimited senior claim.",
+   "Full Treasury warrant exercise aligns taxpayer proceeds with a successful offering."
+  ],
+  "extra_agent_drivers": []
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The election of a new administration provides a viable policy catalyst for recapitalization",
+    "citation": "D08",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Both enterprises have successfully rebuilt significant net worth",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Estimated intrinsic value in a successful scenario at ~$34/share",
+    "citation": "D09",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 9,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "While our investment has not historically been a great success, the incoming administration offers a plausible path toward exiting conservatorship, a development that has long been the primary missing catalyst for realizing intrinsic value [D08], [D09].",
+ "grader_notes": "The agent correctly identified the key policy catalyst and the importance of capital accumulation. It missed the specific drivers regarding senior preferred credit and warrant alignment. The conviction was lower than the actual investor, but the holding decision was aligned.",
+ "run": "2025_fnma_fmcc_2025__current__named"
+}

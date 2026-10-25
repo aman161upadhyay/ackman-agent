@@ -1,0 +1,47 @@
+{
+ "trade_id": "ctl_2023_pfe_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Exceptional COVID profits/replacement-product task → The company is currently facing secular challenges from patent expirations and unpredictable post-pandemic revenue patterns",
+   "A diversified approved portfolio is valuable counterevidence, but long-term pipeline/commercial and Seagen acquisition returns still need independently conservative probabilities → We require high-conviction, durable growth, whereas this situation is currently speculative regarding its long-term intrinsic value"
+  ],
+  "missed": [
+   "Scientific, regulatory and demand outcomes cannot be guaranteed through activism; an announced cost program and dividend do not bound those economics."
+  ],
+  "extra_agent_drivers": [
+   "Operating cash flow deterioration",
+   "Seagen acquisition leverage"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is a diversified pharmaceutical firm that researches, develops, manufactures, and markets medicines and vaccines",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The stock currently trades at 20.2-22.9x our revised 2023 EPS estimate",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating cash flow has deteriorated significantly, falling to $4 million in the first half of 2023",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 4,
+  "share": 0.33
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "The company does not fit our 3.0 framework for simple, predictable compounders, as it represents a complex, highly-leveraged turnaround situation with significant execution risk.",
+ "grader_notes": "The agent correctly identified the core 'predictability' concern central to the Ackman framework. The reasoning was farthest from Ackman's regarding the specific focus on activism and cost-control programs, which the agent analyzed more through a fundamental leverage and cash-flow lens than Ackman's focus on extrinsic control factors.",
+ "run": "ctl_2023_pfe_pass__current__masked"
+}

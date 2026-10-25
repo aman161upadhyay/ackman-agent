@@ -1,0 +1,106 @@
+{
+  "title": "Ackman forward-prediction evidence pack",
+  "as_of_date": "2026-10-25",
+  "prediction_horizon_end": "2027-01-31",
+  "latest_completed_us_market_session": "2026-10-23",
+  "cutoff_rule": "Use only information available by 2026-10-25. Future event dates are schedules known at cutoff, never future outcomes.",
+  "documents": [
+    {"id": "D01", "path": "pack/D01_pershing_portfolio_latest.md", "topic": "Latest holdings, portfolio scope, manager theses and valuation review"},
+    {"id": "D02", "path": "pack/D02_ackman_statements_sep_oct_2026.md", "topic": "Public statements since August 1; direct quotes separated from incomplete retrieval"},
+    {"id": "D03", "path": "pack/D03_market_context_oct_2026.md", "topic": "Market regime, rates, AI anxiety, credit and earnings"},
+    {"id": "D04", "path": "pack/D04_dislocation_screen.md", "topic": "46 size/drawdown candidates; broad named-universe checks; quality gates and controls"},
+    {"id": "D05", "path": "pack/D05_library_and_history.md", "topic": "Historical research library and exit/re-entry valuation tests"},
+    {"id": "D06", "path": "pack/D06_capital_and_vehicles.md", "topic": "Capital by legal vehicle, fundraising uncertainty and disclosure calendar"},
+    {"id": "D07", "path": "pack/D07_rotations_and_reentry.md", "topic": "Recent dated action ledger and opportunity-cost versus impairment exits"},
+    {"id": "D08", "path": "pack/D08_external_speculation.md", "topic": "Dated external commentary, attribution and rumor limitations"}
+  ],
+  "latest_verified_disclosures": {
+    "consolidated_13f": {
+      "reporter_cik": "2026053",
+      "holdings_as_of": "2026-06-30",
+      "filed_on": "2026-08-14",
+      "reported_usd": 19465692772,
+      "security_lines": 15,
+      "distinct_issuers": 14,
+      "url": "https://www.sec.gov/Archives/edgar/data/2026053/000117266126003790/0001172661-26-003790.txt",
+      "limitations": "Includes affiliated managers and seed/HHH direct stakes; not a PSH-only NAV portfolio. Does not capture all derivatives, foreign securities or Fannie/Freddie."
+    },
+    "psh_weekly_nav": {
+      "observation_date": "2026-10-20",
+      "issuer_page_header_date": "2026-10-22",
+      "embedded_receipt_date": "2026-10-21",
+      "nav_usd": 78.88,
+      "net_ytd_percent": -6.9,
+      "url": "https://pershingsquareholdings.com/pershing-square-holdings-ltd-releases-regular-weekly-net-asset-value-and-year-to-date-return-as-of-20-october-2026",
+      "limitations": "Performance only, not named trading disclosure."
+    }
+  },
+  "scoring_events": [
+    {
+      "date": "2026-11-02",
+      "event": "PSH and PSUS Q3 portfolio reviews; PS Inc. results planned",
+      "status": "announced",
+      "announced_on": "2026-10-15",
+      "source": "https://pershingsquareholdings.com/pershing-square-holdings-ltd-to-publish-its-quarterly-portfolio-review-on-november-2-2026/",
+      "score_use": "New named holdings, stated theses, capital and exit explanations; preserve actual disclosure time."
+    },
+    {
+      "date": "2026-11-03",
+      "time": "15:30 GMT / 10:30 ET",
+      "event": "Live Q&A following PS Inc. earnings call",
+      "status": "announced; reconfirm webcast timing",
+      "source": "https://finance.yahoo.com/markets/stocks/articles/pershing-square-holdings-ltd-publish-203000285.html",
+      "score_use": "Distinguish executed action from scenario, aspiration or company admiration."
+    },
+    {
+      "date": "2026-11-16",
+      "event": "Q3 Form 13F filing deadline",
+      "status": "SEC calendar",
+      "holdings_date": "2026-09-30",
+      "source": "https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f",
+      "score_use": "Compare matched reporting-manager scope and split-adjusted shares. Never call September holdings November purchases."
+    }
+  ],
+  "recurring_disclosures": [
+    {
+      "event": "PSH weekly NAV",
+      "cadence": "Tuesday close, normally posted following business day; prior business day if Tuesday holiday. Skip weekly publication in weeks containing month-end NAV.",
+      "source": "https://pershingsquareholdings.com/pershing-square-holdings-ltd-releases-regular-weekly-net-asset-value-and-year-to-date-return-as-of-20-october-2026",
+      "score_use": "Performance, not individual trade identification."
+    },
+    {
+      "event": "PSH month-end NAV/performance",
+      "cadence": "Last business day of month; issuer says posted following business day. Exact holiday publication dates not precommitted here.",
+      "score_use": "Exposure counts and aggregate performance; named changes require separate disclosure."
+    },
+    {
+      "event": "Issuer releases, 13D/13G and interviews",
+      "cadence": "Event-driven, not scheduled",
+      "score_use": "Require issuer, vehicle, action and date; absence of beneficial-ownership filing does not establish absence of passive buying."
+    }
+  ],
+  "outside_horizon": {
+    "q4_13f_due": "2027-02-16",
+    "source": "https://www.sec.gov/rules-regulations/staff-guidance/frequently-asked-questions-about-form-13f",
+    "implication": "Q4 transactions may not be observable by January 31. Mark unobserved, not wrong, absent other public confirmation."
+  },
+  "scoring_discipline": {
+    "target": "Fidelity to decisions AND stated reasoning, not short-horizon stock returns.",
+    "evidence_priority": ["SEC/issuer executed action", "Direct dated quotation", "Dated attributed contemporary reporting", "Explicitly labeled analyst inference", "Unverified hypothesis: not scoring truth"],
+    "no_trade_rule": "Praise, a low multiple, NAV movement and third-party speculation are not executed trades.",
+    "no_leakage_rule": "Do not incorporate subsequently published outcomes into this frozen evidence pack.",
+    "unknown_rule": "Missing/ambiguous evidence remains unknown; do not silently fabricate estimates or treat absent disclosures as passes.",
+    "valuation_rule": "D04 five-year multiples are arithmetic five-fiscal-observation proxies, not verified daily five-year averages. EPS forecast years and financial-firm leverage require normalization."
+  },
+  "open_gaps": [
+    "Complete X history and full September/October podcast transcripts; no complete all-statements audit.",
+    "No complete through-cutoff 13D/13G audit or current named PSH/PSUS portfolio weights/cash.",
+    "D04 is not exchange-wide exhaustive; covers broad named US/Western European quality universe but does not certify every company passes the quality gate.",
+    "Many D04 decline causes are labeled research hypotheses and most activist status is unknown, not no activist.",
+    "Historical forward-multiple proxies and stale LVMH forecast require normalization and refresh.",
+    "No verified comprehensive list of mega-cap post-earnings drops above 10%; smaller/non-earnings examples not substituted.",
+    "Recent strategic rotation ledger is not a full matched-scope transaction blotter.",
+    "No authenticated fresh Reddit/Seeking Alpha new-name leak found; external speculation remains commentary.",
+    "Ventures completed launch/committed size and exact current insurance investable capacity unverified."
+  ]
+}

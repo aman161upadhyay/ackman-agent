@@ -1,0 +1,59 @@
+{
+ "trade_id": "2025_cmg_sell",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Struggles under the successor management team clouded the earnings forecast. → The departure of Brian Niccol introduces a period of management transition, and the recent slowdown in transaction frequency—particularly among younger consumers—has compromised the near-term comparable-sales trajectory"
+  ],
+  "missed": [
+   "The distribution of potential future outcomes became too wide for concentrated ownership.",
+   "Remaining franchise quality and a long development runway were insufficient to offset the reduced forecast confidence; this was not a claim of permanent brand destruction."
+  ],
+  "extra_agent_drivers": [
+   "Prioritize capital flexibility",
+   "Margin of safety narrowed relative to thresholds for a concentrated position"
+  ]
+ },
+ "discipline": "PARTIAL",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Unit growth: Intact with 350-370 openings planned for 2026",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The departure of Brian Niccol introduces a period of management transition",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "negative transaction growth and persistent cost pressures has resulted in margin compression",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "2025 guidance reduced to a comparable-sales decline",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We have decided to trim our position to prioritize capital flexibility",
+    "citation": "D09",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 2,
+  "share": 0.22
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We have decided to trim our position to prioritize capital flexibility.",
+ "grader_notes": "The agent correctly identified the management transition and traffic slowdown as key concerns, mirroring the primary thesis drivers of the actual decision. However, the agent failed to capture the core conviction driver regarding the unacceptably wide range of future outcomes, opting instead to maintain a partial position, whereas Ackman proceeded to a full exit.",
+ "run": "2025_cmg_sell__current__named",
+ "holdout": true,
+ "prompt_version": "v1.5"
+}

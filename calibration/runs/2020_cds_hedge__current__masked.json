@@ -1,0 +1,22 @@
+{
+ "pack": "2020_cds_hedge",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "2020-02-24",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-02-24",
+  "decision": "SHORT_HEDGE",
+  "risk": "A pandemic-induced credit shock resulting in a self-reinforcing contraction in global mobility, consumer spending, and supply chains [D01].",
+  "market_implied_probability": "Market is currently repricing risk as evidenced by a 3.35% drop in the S&P 500 and a ~46% increase in the VIX to ~25, but does not yet fully reflect a severe systemic credit crisis [D02].",
+  "our_probability_and_why": "We believe there is an underpriced risk of a paradigm-shifting shock; while international clusters are emerging [D01], the market only recently transitioned from complacency [D02], and we view the probability of a severe economic interruption as sufficiently high to warrant protection [D01].",
+  "instrument": "Credit default swaps (CDS) on investment-grade and high-yield indices [D03].",
+  "premium_pct_nav": 2,
+  "payoff_multiple_in_scenario": 20,
+  "exit_rule": "Monetize when the risk is clearly priced in or the threat passes, as indicated by a normalization of credit spreads or a change in the infectious disease trajectory [D03, D06].",
+  "memo": "On February 24, we face a shift from a localized Chinese supply-chain concern to a global pandemic risk with emerging clusters in Italy and South Korea [D01, D07]. Despite the sharp equity market decline, the potential for a self-reinforcing contraction remains a paradigm-shifting threat that is not yet fully discounted by the credit markets [D01, D02].\n\nOur objective is to secure asymmetric liquidity [D04]. By purchasing protection through credit-index CDS, we aim to offset potential portfolio impairments and generate reinvestment capital without liquidating our high-quality, long-term holdings [D03, D04]. We accept a limited, defined premium to protect against a scenario that the market currently misprices as low-probability, maintaining our discipline to exit once the asymmetry is realized or extinguished [D06].",
+  "uncited_claims": []
+ },
+ "elapsed_s": 0
+}
