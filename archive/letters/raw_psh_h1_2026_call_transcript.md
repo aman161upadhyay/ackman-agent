@@ -1,4 +1,30 @@
-re-posting that, effectively replaying it. You'll be able to listen to it afterwards. Expect that discussion to be more focused on the underlying investments in the Pershing Square portfolio, though we're happy to take some of those questions now.
+Pershing Square Holdings (LON:PSH) H1 2026 Earnings Call Transcript & Audio
+
+# Earnings Call: H1 2026
+
+Aug 13, 2026
+
+ Summary
+
+Long-term compounding from high-quality holdings and opportunistic capital deployment drove strong AUM growth and performance. Strategic initiatives include launching new funds, transforming Howard Hughes into an insurance-led conglomerate, and optimizing capital structure with investment-grade debt.
+
+Operator
+
+ Good day, and welcome to the Pershing Square 2026 second quarter earnings call. Today's call is being recorded. All participants are in a listen-only mode. Following today's presentation, we will be taking questions from our phone audience. If you would like to ask a question, you may press star one on your telephone keypad to join the queue. It is now my pleasure to turn the conference over to Jill Chapman, Head of Corporate Investor Relations for Pershing Square.
+
+Jill Chapman
+
+Head of Corporate Investor Relations, Pershing Square
+
+ Thank you, Taryn. Good morning, everyone, and welcome to Pershing's second quarter 2026 earnings call. Joining me today are CEO and Chairman, Bill Ackman, and CIO, Ryan Israel. Yesterday evening, we issued our earnings presentation and letter to shareholders, which are available on our website at pershingsquareinc.com under the investor section. We expect to file our 10-Q after market close today. Before we begin, I would like to draw your attention to the legal disclaimers at the end of our earnings presentation. Today's call may include forward-looking statements, which involve risks and uncertainties and are not guarantees of future performance. Actual results may differ materially from those expressed or implied in the forward-looking statements due to a variety of factors described under forward-looking statements in our earnings presentation and IPO prospectus filed on April 30th, as updated by our most recently filed Form 10-Q.
+
+ We do not undertake any obligation to update forward-looking statements. We may also reference non-GAAP financial measures in response to questions. Reconciliations are included in our earnings presentation available on our website. Finally, please note that nothing on this call constitutes a prospectus, an offer to sell, or a solicitation of an offer to purchase our common stock, or any interest or security in any Pershing Square fund or securities of any other person. Furthermore, nothing on this call constitutes investment advice or an invitation or inducement to deal in securities. With that, I would like to turn the call over to Bill Ackman.
+
+Bill Ackman
+
+CEO and Chairman, Pershing Square
+
+ Thank you, Jill. Welcome to our first earnings call for Pershing Square Inc. We spent the last 22 years listening to other people's conference calls, and we learn from that, which is why we've taken the approach of the night before releasing earnings, releasing a detailed letter covering what we think are the key issues and considerations for the quarter, leaving the full hour for questions from analysts, shareholders, and other investors. We're going to follow this call with a space on X. You go to X, you can find the link. We're also re-posting that, effectively replaying it. You'll be able to listen to it afterwards. Expect that discussion to be more focused on the underlying investments in the Pershing Square portfolio, though we're happy to take some of those questions now.
 
  The emphasis on our underlying holdings, one of the points we tried to make in the letter, what is interesting about this company is that if we never raise another investment vehicle, we just sit with the three permanent capital vehicles we have today. This business will grow at a very high rate, is our expectation, because the underlying companies in which we have invested, we expect will compound a very high rate over time. In fact, if we do nothing, we do not make another investment, we do not sell another security, we just sit back and allow the compounding of a dozen or more of some of the highest quality businesses we know to occur. Those earnings will compound. We believe those stocks will rerate to a higher valuation. We think they are cheap as of this particular moment.
 

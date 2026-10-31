@@ -1,4 +1,481 @@
-ss": "PASS",
+{
+  "definition": "Canonical direction: BUY/ADD equivalent; SHORT, BUY_PROTECTION and SHORT_LONG_DURATION_VIA_OPTIONS map to SHORT_HEDGE; TRIM != SELL; sizing ignored. Original judge direction separately reported.",
+  "summary": [
+    {
+      "group": "calibration",
+      "masked": false,
+      "n": 28,
+      "agent": {
+        "k": 21,
+        "n": 28,
+        "rate": 0.75,
+        "wilson95": [
+          0.566439747592954,
+          0.8732366505779922
+        ]
+      },
+      "mode_baseline": {
+        "k": 24,
+        "n": 28,
+        "rate": 0.8571428571428571,
+        "wilson95": [
+          0.6850982695512267,
+          0.9430108706929821
+        ]
+      },
+      "always_pass": {
+        "k": 0,
+        "n": 28,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.12064720365810762
+        ]
+      },
+      "heuristic": {
+        "k": 7,
+        "n": 28,
+        "rate": 0.25,
+        "wilson95": [
+          0.12676334942200781,
+          0.433560252407046
+        ]
+      },
+      "reported_agent_match": 20
+    },
+    {
+      "group": "calibration",
+      "masked": true,
+      "n": 28,
+      "agent": {
+        "k": 21,
+        "n": 28,
+        "rate": 0.75,
+        "wilson95": [
+          0.566439747592954,
+          0.8732366505779922
+        ]
+      },
+      "mode_baseline": {
+        "k": 24,
+        "n": 28,
+        "rate": 0.8571428571428571,
+        "wilson95": [
+          0.6850982695512267,
+          0.9430108706929821
+        ]
+      },
+      "always_pass": {
+        "k": 0,
+        "n": 28,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.12064720365810762
+        ]
+      },
+      "heuristic": {
+        "k": 7,
+        "n": 28,
+        "rate": 0.25,
+        "wilson95": [
+          0.12676334942200781,
+          0.433560252407046
+        ]
+      },
+      "reported_agent_match": 19
+    },
+    {
+      "group": "controls",
+      "masked": false,
+      "n": 8,
+      "agent": {
+        "k": 7,
+        "n": 8,
+        "rate": 0.875,
+        "wilson95": [
+          0.5291051942301386,
+          0.9775830911367038
+        ]
+      },
+      "mode_baseline": {
+        "k": 0,
+        "n": 8,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.3244156195108769
+        ]
+      },
+      "always_pass": {
+        "k": 8,
+        "n": 8,
+        "rate": 1.0,
+        "wilson95": [
+          0.6755843804891231,
+          1.0
+        ]
+      },
+      "heuristic": {
+        "k": 8,
+        "n": 8,
+        "rate": 1.0,
+        "wilson95": [
+          0.6755843804891231,
+          1.0
+        ]
+      },
+      "reported_agent_match": 7
+    },
+    {
+      "group": "controls",
+      "masked": true,
+      "n": 8,
+      "agent": {
+        "k": 5,
+        "n": 8,
+        "rate": 0.625,
+        "wilson95": [
+          0.30573785458380187,
+          0.863158240538479
+        ]
+      },
+      "mode_baseline": {
+        "k": 0,
+        "n": 8,
+        "rate": 0.0,
+        "wilson95": [
+          0.0,
+          0.3244156195108769
+        ]
+      },
+      "always_pass": {
+        "k": 8,
+        "n": 8,
+        "rate": 1.0,
+        "wilson95": [
+          0.6755843804891231,
+          1.0
+        ]
+      },
+      "heuristic": {
+        "k": 8,
+        "n": 8,
+        "rate": 1.0,
+        "wilson95": [
+          0.6755843804891231,
+          1.0
+        ]
+      },
+      "reported_agent_match": 5
+    },
+    {
+      "group": "holdout",
+      "masked": false,
+      "n": 11,
+      "agent": {
+        "k": 7,
+        "n": 11,
+        "rate": 0.6363636363636364,
+        "wilson95": [
+          0.35379677689163724,
+          0.8483377638586862
+        ]
+      },
+      "mode_baseline": {
+        "k": 7,
+        "n": 11,
+        "rate": 0.6363636363636364,
+        "wilson95": [
+          0.35379677689163724,
+          0.8483377638586862
+        ]
+      },
+      "always_pass": {
+        "k": 0,
+        "n": 11,
+        "rate": 0.0,
+        "wilson95": [
+          2.7755575615628914e-17,
+          0.2588400172488141
+        ]
+      },
+      "heuristic": {
+        "k": 1,
+        "n": 11,
+        "rate": 0.09090909090909091,
+        "wilson95": [
+          0.01623175226282597,
+          0.3773646254862038
+        ]
+      },
+      "reported_agent_match": 7
+    },
+    {
+      "group": "holdout",
+      "masked": true,
+      "n": 11,
+      "agent": {
+        "k": 7,
+        "n": 11,
+        "rate": 0.6363636363636364,
+        "wilson95": [
+          0.35379677689163724,
+          0.8483377638586862
+        ]
+      },
+      "mode_baseline": {
+        "k": 7,
+        "n": 11,
+        "rate": 0.6363636363636364,
+        "wilson95": [
+          0.35379677689163724,
+          0.8483377638586862
+        ]
+      },
+      "always_pass": {
+        "k": 0,
+        "n": 11,
+        "rate": 0.0,
+        "wilson95": [
+          2.7755575615628914e-17,
+          0.2588400172488141
+        ]
+      },
+      "heuristic": {
+        "k": 1,
+        "n": 11,
+        "rate": 0.09090909090909091,
+        "wilson95": [
+          0.01623175226282597,
+          0.3773646254862038
+        ]
+      },
+      "reported_agent_match": 7
+    }
+  ],
+  "decisions": [
+    {
+      "run": "2005_mcd_buy__current__masked",
+      "pack": "2005_mcd_buy",
+      "group": "calibration",
+      "masked": true,
+      "mode": "new",
+      "key": "BUY",
+      "agent": "BUY",
+      "original_direction": "MATCH",
+      "original_state": "PARTIAL",
+      "original_k": 2,
+      "n": 4,
+      "mode_baseline": "BUY",
+      "always_pass": "PASS",
+      "heuristic": "PASS",
+      "score_path": "calibration/scores/2005_mcd_buy__current__masked__score.json",
+      "run_path": "calibration/runs/2005_mcd_buy__current__masked.json",
+      "key_path": "calibration/answer_keys/2005_mcd_buy.json",
+      "heuristic_features": {
+        "quality": false,
+        "negative_fcf": false
+      }
+    },
+    {
+      "run": "2005_mcd_buy__current__named",
+      "pack": "2005_mcd_buy",
+      "group": "calibration",
+      "masked": false,
+      "mode": "new",
+      "key": "BUY",
+      "agent": "BUY",
+      "original_direction": "MATCH",
+      "original_state": "PARTIAL",
+      "original_k": 0,
+      "n": 4,
+      "mode_baseline": "BUY",
+      "always_pass": "PASS",
+      "heuristic": "PASS",
+      "score_path": "calibration/scores/2005_mcd_buy__current__named__score.json",
+      "run_path": "calibration/runs/2005_mcd_buy__current__named.json",
+      "key_path": "calibration/answer_keys/2005_mcd_buy.json",
+      "heuristic_features": {
+        "quality": false,
+        "negative_fcf": false
+      }
+    },
+    {
+      "run": "2007_tgt_buy__current__masked",
+      "pack": "2007_tgt_buy",
+      "group": "calibration",
+      "masked": true,
+      "mode": "new",
+      "key": "BUY",
+      "agent": "BUY",
+      "original_direction": "MATCH",
+      "original_state": "MATCH",
+      "original_k": 3,
+      "n": 4,
+      "mode_baseline": "BUY",
+      "always_pass": "PASS",
+      "heuristic": "PASS",
+      "score_path": "calibration/scores/2007_tgt_buy__current__masked__score.json",
+      "run_path": "calibration/runs/2007_tgt_buy__current__masked.json",
+      "key_path": "calibration/answer_keys/2007_tgt_buy.json",
+      "heuristic_features": {
+        "quality": false,
+        "negative_fcf": false
+      }
+    },
+    {
+      "run": "2007_tgt_buy__current__named",
+      "pack": "2007_tgt_buy",
+      "group": "calibration",
+      "masked": false,
+      "mode": "new",
+      "key": "BUY",
+      "agent": "PASS",
+      "original_direction": "MISS",
+      "original_state": "MISS",
+      "original_k": 1,
+      "n": 4,
+      "mode_baseline": "BUY",
+      "always_pass": "PASS",
+      "heuristic": "PASS",
+      "score_path": "calibration/scores/2007_tgt_buy__current__named__score.json",
+      "run_path": "calibration/runs/2007_tgt_buy__current__named.json",
+      "key_path": "calibration/answer_keys/2007_tgt_buy.json",
+      "heuristic_features": {
+        "quality": false,
+        "negative_fcf": false
+      }
+    },
+    {
+      "run": "2008_ggp_buy__current__masked",
+      "pack": "2008_ggp_buy",
+      "group": "calibration",
+      "masked": true,
+      "mode": "new",
+      "key": "BUY",
+      "agent": "BUY",
+      "original_direction": "MATCH",
+      "original_state": "PARTIAL",
+      "original_k": 2,
+      "n": 4,
+      "mode_baseline": "BUY",
+      "always_pass": "PASS",
+      "heuristic": "PASS",
+      "score_path": "calibration/scores/2008_ggp_buy__current__masked__score.json",
+      "run_path": "calibration/runs/2008_ggp_buy__current__masked.json",
+      "key_path": "calibration/answer_keys/2008_ggp_buy.json",
+      "heuristic_features": {
+        "quality": false,
+        "negative_fcf": false
+      }
+    },
+    {
+      "run": "2008_ggp_buy__current__named",
+      "pack": "2008_ggp_buy",
+      "group": "calibration",
+      "masked": false,
+      "mode": "new",
+      "key": "BUY",
+      "agent": "BUY",
+      "original_direction": "MATCH",
+      "original_state": "MATCH",
+      "original_k": 3,
+      "n": 4,
+      "mode_baseline": "BUY",
+      "always_pass": "PASS",
+      "heuristic": "PASS",
+      "score_path": "calibration/scores/2008_ggp_buy__current__named__score.json",
+      "run_path": "calibration/runs/2008_ggp_buy__current__named.json",
+      "key_path": "calibration/answer_keys/2008_ggp_buy.json",
+      "heuristic_features": {
+        "quality": false,
+        "negative_fcf": false
+      }
+    },
+    {
+      "run": "2010_jcp_buy__current__masked",
+      "pack": "2010_jcp_buy",
+      "group": "calibration",
+      "masked": true,
+      "mode": "new",
+      "key": "BUY",
+      "agent": "PASS",
+      "original_direction": "MISS",
+      "original_state": "MISS",
+      "original_k": 0,
+      "n": 4,
+      "mode_baseline": "BUY",
+      "always_pass": "PASS",
+      "heuristic": "PASS",
+      "score_path": "calibration/scores/2010_jcp_buy__current__masked__score.json",
+      "run_path": "calibration/runs/2010_jcp_buy__current__masked.json",
+      "key_path": "calibration/answer_keys/2010_jcp_buy.json",
+      "heuristic_features": {
+        "quality": false,
+        "negative_fcf": false
+      }
+    },
+    {
+      "run": "2010_jcp_buy__current__named",
+      "pack": "2010_jcp_buy",
+      "group": "calibration",
+      "masked": false,
+      "mode": "new",
+      "key": "BUY",
+      "agent": "PASS",
+      "original_direction": "MISS",
+      "original_state": "MISS",
+      "original_k": 0,
+      "n": 4,
+      "mode_baseline": "BUY",
+      "always_pass": "PASS",
+      "heuristic": "PASS",
+      "score_path": "calibration/scores/2010_jcp_buy__current__named__score.json",
+      "run_path": "calibration/runs/2010_jcp_buy__current__named.json",
+      "key_path": "calibration/answer_keys/2010_jcp_buy.json",
+      "heuristic_features": {
+        "quality": false,
+        "negative_fcf": false
+      }
+    },
+    {
+      "run": "2011_cp_buy__current__masked",
+      "pack": "2011_cp_buy",
+      "group": "calibration",
+      "masked": true,
+      "mode": "new",
+      "key": "BUY",
+      "agent": "BUY",
+      "original_direction": "MATCH",
+      "original_state": "MATCH",
+      "original_k": 3,
+      "n": 4,
+      "mode_baseline": "BUY",
+      "always_pass": "PASS",
+      "heuristic": "BUY",
+      "score_path": "calibration/scores/2011_cp_buy__current__masked__score.json",
+      "run_path": "calibration/runs/2011_cp_buy__current__masked.json",
+      "key_path": "calibration/answer_keys/2011_cp_buy.json",
+      "heuristic_features": {
+        "quality": true,
+        "negative_fcf": false
+      }
+    },
+    {
+      "run": "2011_cp_buy__current__named",
+      "pack": "2011_cp_buy",
+      "group": "calibration",
+      "masked": false,
+      "mode": "new",
+      "key": "BUY",
+      "agent": "BUY",
+      "original_direction": "MATCH",
+      "original_state": "MATCH",
+      "original_k": 3,
+      "n": 4,
+      "mode_baseline": "BUY",
+      "always_pass": "PASS",
       "heuristic": "BUY",
       "score_path": "calibration/scores/2011_cp_buy__current__named__score.json",
       "run_path": "calibration/runs/2011_cp_buy__current__named.json",
