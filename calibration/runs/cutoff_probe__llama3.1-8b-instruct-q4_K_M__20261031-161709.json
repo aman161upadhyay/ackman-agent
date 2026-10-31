@@ -1,0 +1,221 @@
+{
+ "model": "llama3.1:8b-instruct-q4_K_M",
+ "run_at": "2026-10-31T16:03:48",
+ "general": [
+  {
+   "q": "Who won the 2024 United States presidential election?",
+   "answer": "Unknown (the election has not yet occurred).",
+   "knows": false
+  },
+  {
+   "q": "Which national team won UEFA Euro 2024?",
+   "answer": "Unknown. The tournament has not yet taken place.",
+   "knows": false
+  },
+  {
+   "q": "Who were awarded the 2024 Nobel Prize in Physics?",
+   "answer": "Unknown.",
+   "knows": false
+  },
+  {
+   "q": "Who became Prime Minister of the United Kingdom in July 2024?",
+   "answer": "Unknown.",
+   "knows": false
+  },
+  {
+   "q": "Which company announced in January 2024 that it would acquire Juniper Networks?",
+   "answer": "Unknown.",
+   "knows": false
+  },
+  {
+   "q": "What was the name of the multimodal model OpenAI released in May 2024?",
+   "answer": "I don't have information about a specific multimodal model released by OpenAI in May 2024.",
+   "knows": false
+  },
+  {
+   "q": "Which cybersecurity company's faulty update crashed millions of Windows computers in July 2024?",
+   "answer": "Unknown. I don't have information about a specific incident that occurred in July 2024.",
+   "knows": false
+  },
+  {
+   "q": "Who won the 2024 Formula One World Drivers' Championship?",
+   "answer": "Unknown. The championship has not yet taken place.",
+   "knows": false
+  }
+ ],
+ "positions": [
+  {
+   "company": "Brookfield Corporation",
+   "year": "2024",
+   "real": true,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "NIKE",
+   "year": "2024",
+   "real": true,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time market data or information about Pershing Square Capital Management's current holdings."
+  },
+  {
+   "company": "Hertz Global Holdings",
+   "year": "2024",
+   "real": true,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "Uber Technologies",
+   "year": "2025",
+   "real": true,
+   "answer": "unknown",
+   "detail": "I do not have information about Pershing Square Capital Management's trades in 2025."
+  },
+  {
+   "company": "Howard Hughes Holdings",
+   "year": "2025",
+   "real": true,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "Amazon.com",
+   "year": "2025",
+   "real": true,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "Meta Platforms",
+   "year": "2025",
+   "real": true,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "Microsoft",
+   "year": "2026",
+   "real": true,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "S&P Global",
+   "year": "2026",
+   "real": true,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "Visa and Mastercard",
+   "year": "2026",
+   "real": true,
+   "answer": "unknown",
+   "detail": "I do not have information about Pershing Square Capital Management's trades in 2026."
+  },
+  {
+   "company": "Alcon",
+   "year": "2026",
+   "real": true,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "Intercontinental Exchange",
+   "year": "2026",
+   "real": true,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "The Coca-Cola Company",
+   "year": "2024",
+   "real": false,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "The Coca-Cola Company",
+   "year": "2025",
+   "real": false,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "Exxon Mobil",
+   "year": "2024",
+   "real": false,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "Exxon Mobil",
+   "year": "2025",
+   "real": false,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "Pfizer",
+   "year": "2024",
+   "real": false,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "Pfizer",
+   "year": "2025",
+   "real": false,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "Tesla",
+   "year": "2024",
+   "real": false,
+   "answer": "unknown",
+   "detail": "I do not have information on Pershing Square Capital Management's trades in 2024."
+  },
+  {
+   "company": "Tesla",
+   "year": "2025",
+   "real": false,
+   "answer": "unknown",
+   "detail": "I do not have information on Pershing Square Capital Management's trades in 2025."
+  },
+  {
+   "company": "Walmart",
+   "year": "2024",
+   "real": false,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "Walmart",
+   "year": "2025",
+   "real": false,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "Johnson & Johnson",
+   "year": "2024",
+   "real": false,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  },
+  {
+   "company": "Johnson & Johnson",
+   "year": "2025",
+   "real": false,
+   "answer": "unknown",
+   "detail": "I do not have access to real-time or future market data."
+  }
+ ],
+ "summary": {
+  "general_known": "0/8",
+  "yes_rate_real": 0.0,
+  "yes_rate_decoy": 0.0
+ }
+}

@@ -52,3 +52,16 @@
 - AGENT.md header, Gate 1 override text, T8/T9 templates, CONTROL action and output contract were brought in line with
   prompts v1.3-v1.5. The staged chain used by every run reads prompts/*.md, whose hashes in calibration/PROMPT_HASHES_v1.5.txt
   are unchanged; AGENT.md's hash was updated in the same file. No logic was changed in response to hold-out results.
+
+## Runner 1.5.1 — 2026-10-31 (tools only; no prompt or AGENT.md text changed, hashes unchanged)
+- run_agent.py masking: word-boundary, longest-first replacement; single-word names case-sensitive (plus ALL-CAPS), tickers
+  case-sensitive, one-letter tickers only in ticker contexts; list tickers supported (2026_v_ma_buy crashed); "X and Y"
+  companies also mask X and Y; residue report of name fragments still visible (`--check-mask`). Motivation: v1.5 masking
+  mangled ordinary words in 29 of 47 packs ("cash flow" -> "cash fthe Company" for LOW). Masked v1.5 runs are not comparable.
+- run_agent.py document labels now follow the filename's Dnn (9 packs start at D00 and were shifted by one under v1.5).
+- run_agent.py applies 02_gate1's hard-fail rule and 07's deterministic decision rules in code; the model's own call is kept
+  in final.model_decision. Motivation: in 41 of 74 v1.5 calibration runs gate1 returned hard_fail=true and most memos
+  still bought (CMG/NFLX flip tests). Enforcement changes historical results; grade both calls before comparing to v1.5.
+- Provenance per run: runner version, Ollama model digest, prompt SHA-256s vs PROMPT_HASHES_v1.5.txt, pack hash.
+- grade.py requires --model (was defaulting to the 8B model under test) and takes --decision enforced|model.
+- cutoff_probe.py added; canary.py documented as a grounding check. All tools read and write UTF-8.

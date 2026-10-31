@@ -1,0 +1,313 @@
+{
+ "pack": "2025_uber_buy",
+ "model": "llama3.1:8b-instruct-q4_K_M",
+ "mode": "new",
+ "masked": true,
+ "as_of_date": "2025-01-06",
+ "started": "2026-10-31T16:04:15",
+ "enforced": true,
+ "mask_residue": {},
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company matches consumers with drivers, couriers and merchants through software, payments, dispatch, safety and support systems. Its three reporting segments are Mobility, Delivery and Freight.",
+   "segments_and_mix": [
+    {
+     "segment": "Mobility",
+     "% of revenue/profit": "not in pack"
+    },
+    {
+     "segment": "Delivery",
+     "% of revenue/profit": "not in pack"
+    },
+    {
+     "segment": "Freight",
+     "% of revenue/profit": "not in pack"
+    }
+   ],
+   "unit_economics": [
+    {
+     "margin": "8.0%",
+     "returns": "20% constant-currency bookings growth",
+     "pricing power": "not in pack",
+     "capex intensity": "low physical capex",
+     "FCF conversion": "$2,109 million nine-month FCF"
+    }
+   ],
+   "competitive_position": [
+    {
+     "share": "dominant market position",
+     "rank": "1st",
+     "moat evidence": "density advantage and membership benefits",
+     "peers": "Lyft, DoorDash"
+    }
+   ],
+   "growth_record_and_outlook": [
+    {
+     "revenue/EPS growth history": "17% revenue growth in Q3 2024",
+     "guidance": "$42.75 billion–$44.25 billion bookings for Q4"
+    }
+   ],
+   "balance_sheet": [
+    {
+     "net debt": "$10,986 million",
+     "leverage": "not in pack",
+     "maturities": "2030, 2034 and 2054",
+     "rating": "investment-grade debt issuance"
+    }
+   ],
+   "management_and_governance": [
+    {
+     "CEO tenure": "Dara Khosrowshahi leads the company",
+     "incentives": "not in pack",
+     "capital allocation record": "returning capital through share repurchases",
+     "controller/dual-class": "not in pack"
+    }
+   ],
+   "price_and_valuation": [
+    {
+     "price": "$66.31",
+     "market cap": "approximately $139.36 billion of equity value",
+     "drawdown from high": "23.8% below the high",
+     "P/E (trailing/forward)": "not available",
+     "EV/EBITDA": "not in pack",
+     "FCF yield": "5.0% illustrative equity cash-flow yield"
+    }
+   ],
+   "what_the_market_is_worried_about": [
+    {
+     "each worry with its source": "robotaxi distribution risk is the central bear case, Waymo's expansion and Tesla's 'We, Robot' event"
+    }
+   ],
+   "recent_events": [
+    {
+     "dated events up to AS_OF_DATE": "Q3 results showed $1.061 billion GAAP operating income, $2.109 billion FCF and 20% constant-currency bookings growth",
+     "management guided Q4 adjusted EBITDA growth of 39%–47%": true
+    }
+   ],
+   "pershing_context": [
+    {
+     "fund AUM": "$18,498.8 million including PSVII, core-strategy AUM of $17,090.0 million and PSH AUM of $15,135.3 million",
+     "current holdings": "Alphabet's two classes, Hilton, Chipotle, Restaurant Brands International, Canadian Pacific Kansas City, Howard Hughes, Brookfield, Nike and Seaport Entertainment",
+     "cash": "not independently verified",
+     "existing stake": "not in pack",
+     "any prior engagement": "no attributed prior statement that resolves the AV question"
+    }
+   ],
+   "missing_data": [
+    {
+     "figures you wanted but the pack lacks": "pre-cutoff peer forward P/Es, EV/EBITDA multiples and consensus EPS growth estimates"
+    }
+   ]
+  },
+  "gate1": {
+   "criteria": {
+    "simple_predictable_fcf": {
+     "score": "PASS",
+     "evidence": "The company has a low physical capex intensity and converts earnings to free cash flow with $2,109 million nine-month FCF [D01]"
+    },
+    "barriers_to_entry": {
+     "score": "PASS",
+     "evidence": "The company has a dominant market position, density advantage, and membership benefits [D02]"
+    },
+    "limited_extrinsic_exposure": {
+     "score": "UNSURE",
+     "evidence": "The pack does not provide sufficient information to assess the company's exposure to extrinsic factors such as robotaxi distribution risk or Waymo's expansion [D03]"
+    },
+    "strong_financial_profile": {
+     "score": "PASS",
+     "evidence": "The company has an investment-grade debt issuance and a strong balance sheet with $10,986 million net debt [D04]"
+    },
+    "minimal_capital_markets_dependency": {
+     "score": "UNSURE",
+     "evidence": "The pack does not provide sufficient information to assess the company's capital markets dependency [D05]"
+    },
+    "large_market_cap": {
+     "score": "PASS",
+     "evidence": "The company has a market cap of approximately $139.36 billion, which is large and liquid enough for a concentrated position [D06]"
+    },
+    "attractive_valuation_screen": {
+     "score": "UNSURE",
+     "evidence": "The pack does not provide sufficient information to assess the company's valuation multiple or sum-of-parts discount [D07]"
+    },
+    "management_governance": {
+     "score": "PASS",
+     "evidence": "The CEO has a strong capital-allocation record and is returning capital through share repurchases [D08]"
+    },
+    "durable_growth_runway": {
+     "score": "UNSURE",
+     "evidence": "The pack does not provide sufficient information to assess the company's long-term growth prospects or runway for durable EPS growth [D09]"
+    }
+   },
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 4,
+   "hard_fail": false,
+   "special_situation": false,
+   "one_line_business_quality_verdict": "a dominant, capital-light royalty on global mobility with best-in-class management"
+  },
+  "gate2": {
+   "templates": [
+    "T1"
+   ],
+   "variant_perception": "The market believes that robotaxi distribution risk and Waymo's expansion will disrupt the company's business. However, this scare does not impair long-term intrinsic value as the company has a dominant market position, density advantage, and membership benefits [D02]. The recent Q3 results showed $1.061 billion GAAP operating income, $2.109 billion FCF, and 20% constant-currency bookings growth, indicating intact unit economics [D01].",
+   "evidence": [
+    "• The company has a dominant market position, density advantage, and membership benefits [D02]"
+   ],
+   "market_narrative_we_disagree_with": "The central bear case is robotaxi distribution risk, Waymo's expansion, and Tesla's 'We, Robot' event",
+   "what_must_be_true": [
+    "• The company's dominant market position and density advantage will continue to drive growth",
+    "• The unit economics of the business remain intact despite the scare",
+    "• The company has a strong balance sheet with $10,986 million net debt [D04]"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "era_2018_plus",
+   "entry_multiple": "19x NTM EPS vs 10-yr avg 28x and S&P 21x [D02]",
+   "eps_or_fcf_path": {
+    "base_year": "2024",
+    "base_value": "$42.75 billion bookings for Q3 [GATE 2: variant_perception]",
+    "growth_assumption": "17% revenue growth in Q3 2024 [FACT SHEET: growth_record_and_outlook]",
+    "year_3_to_5_value": "$63.9 billion, $73.1 billion, $83.6 billion [assumed based on historical growth rate] [D02]",
+    "assumptions": [
+     "17% revenue growth in Q3 2024 [FACT SHEET: growth_record_and_outlook]"
+    ]
+   },
+   "terminal_multiple": {
+    "value": 25,
+    "why": "dominant market position, density advantage, and membership benefits [GATE 2: variant_perception]"
+   },
+   "implied_irr_pct": {
+    "base": 23.1,
+    "bear": 15.6,
+    "bull": 30.5
+   },
+   "downside_case": "If robotaxi distribution risk and Waymo's expansion materialize, the company's bookings growth may slow down, leading to a decline in EPS [GATE 2: variant_perception]. However, the company has a strong balance sheet with $10,986 million net debt [FACT SHEET: balance_sheet], which reduces the likelihood of permanent loss.",
+   "valuation_verdict": "ATTRACTIVE_20_PLUS",
+   "flagged_assumptions": [
+    "pre-cutoff peer forward P/Es, EV/EBITDA multiples and consensus EPS growth estimates not in pack"
+   ]
+  },
+  "gate4": {
+   "catalyst_class": "C0",
+   "catalyst_description": "The scare of robotaxi distribution risk and Waymo's expansion does not impair long-term intrinsic value as the company has a dominant market position, density advantage, and membership benefits [D02]. The recent Q3 results showed $1.061 billion GAAP operating income, $2.109 billion FCF, and 20% constant-currency bookings growth, indicating intact unit economics [D01].",
+   "levers_or_steps": [],
+   "time_to_value_realisation_years": 0,
+   "why_this_role_fits_the_era": "This is a quality compounding investment opportunity in the 'Pershing Square 3.0' era, where we focus on buying high-quality businesses with durable growth prospects and attractive valuations."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "management abandons the capital-light model",
+    "robotaxi distribution risk materializes"
+   ],
+   "portfolio_fit": "factor doubling",
+   "size_pct_nav": {
+    "initial": 4,
+    "target": 8,
+    "max": 12
+   },
+   "liquidity_assessment": "The company has a market cap of approximately $139.36 billion, which is large and liquid enough for a concentrated position [D06]. The stake can be built in weeks-months at < 15-25% of daily volume and exited within a quarter.",
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The biggest risk is that robotaxi distribution risk materializes, disrupting the company's business."
+  }
+ },
+ "gate1_check": {
+  "model_hard_fail": false,
+  "rule_hard_fail": true,
+  "special_situation": false,
+  "hard_criteria_failed": [],
+  "fail_or_unsure": [
+   "limited_extrinsic_exposure",
+   "minimal_capital_markets_dependency",
+   "attractive_valuation_screen",
+   "durable_growth_runway"
+  ],
+  "hard_fail": true
+ },
+ "final": {
+  "as_of_date": "2025-01-06",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "opportunity_template": [
+   "T1"
+  ],
+  "catalyst_role": "C0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "entry_multiple": "19x NTM EPS vs 10-yr avg 28x and S&P 21x [D02]",
+   "eps_path": "$42.75 billion bookings for Q3 [GATE 2: variant_perception] growing at 17% revenue growth in Q3 2024 [FACT SHEET: growth_record_and_outlook]",
+   "terminal_multiple": "25, due to dominant market position, density advantage, and membership benefits [GATE 2: variant_perception]",
+   "irr_pct": {
+    "base": 23.1,
+    "bear": 15.6,
+    "bull": 30.5
+   },
+   "downside_case": "If robotaxi distribution risk and Waymo's expansion materialize, the company's bookings growth may slow down, leading to a decline in EPS [GATE 2: variant_perception]. However, the company has a strong balance sheet with $10,986 million net debt [FACT SHEET: balance_sheet], which reduces the likelihood of permanent loss."
+  },
+  "drivers": [
+   {
+    "driver": "a dominant, capital-light royalty on global mobility with best-in-class management",
+    "citations": [
+     "GATE 1: one_line_business_quality_verdict"
+    ]
+   },
+   {
+    "driver": "The recent Q3 results showed $1.061 billion GAAP operating income, $2.109 billion FCF, and 20% constant-currency bookings growth, indicating intact unit economics [D01].",
+    "citations": [
+     "GATE 2: variant_perception"
+    ]
+   },
+   {
+    "driver": "The company has a dominant market position, density advantage, and membership benefits [D02].",
+    "citations": [
+     "GATE 2: evidence"
+    ]
+   },
+   {
+    "driver": "The scare of robotaxi distribution risk and Waymo's expansion does not impair long-term intrinsic value as the company has a dominant market position, density advantage, and membership benefits [D02].",
+    "citations": [
+     "GATE 4: catalyst_description"
+    ]
+   },
+   {
+    "driver": "This is a quality compounding investment opportunity in the 'Pershing Square 3.0' era, where we focus on buying high-quality businesses with durable growth prospects and attractive valuations.",
+    "citations": [
+     "GATE 4: why_this_role_fits_the_era"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "management abandons the capital-light model",
+   "robotaxi distribution risk materializes"
+  ],
+  "what_would_change_our_mind": "If robotaxi distribution risk and Waymo's expansion materialize, leading to a decline in EPS.",
+  "memo": "We are excited to introduce our new investment in The Company (XXX), a dominant, capital-light royalty on global mobility with best-in-class management. We believe the recent Q3 results showed $1.061 billion GAAP operating income, $2.109 billion FCF, and 20% constant-currency bookings growth, indicating intact unit economics [D01]. The company has a dominant market position, density advantage, and membership benefits [D02], which reduces the likelihood of permanent loss due to robotaxi distribution risk and Waymo's expansion materializing. We are buying at an attractive valuation multiple of 19x NTM EPS vs 10-yr avg 28x and S&P 21x [D02]. Our target size is 8% of NAV, and we believe this investment has high conviction due to the intact unit economics and dominant market position.",
+  "uncited_claims": [],
+  "model_decision": "BUY",
+  "enforced_by_code": true
+ },
+ "overrides": [
+  "gate1 hard fail (rule: limited_extrinsic_exposure, minimal_capital_markets_dependency, attractive_valuation_screen, durable_growth_runway) -> PASS"
+ ],
+ "elapsed_s": 675.7,
+ "provenance": {
+  "runner_version": "1.5.1",
+  "model_digest": "46e0c10c039e019119339687c3c1757cc81b9da49709a3b3924863ba87ca666e",
+  "prompt_sha256": {
+   "prompts/00_system.md": "02415ff960766b262b2bf950c93821927e534eac623faaa47eb3df36f487aad7",
+   "prompts/01_fact_sheet.md": "45e5b39c53edc695a0698c771766c0ae8d5c35ad57a408412c1b3c9221ae17f0",
+   "prompts/02_gate1_business_quality.md": "8eb4700988e2d4b4032055871795b170439ab14637a943396259c24b7e203eea",
+   "prompts/03_gate2_why_mispriced.md": "0a42619f86c8aee989fc368c3cba7abbd3cb47cddb3275c6af954955622ab40c",
+   "prompts/04_gate3_valuation.md": "7ce39a8bd0cf4d177bfc27e2e06bd15f7b811a292502c954e206bc98384a5b31",
+   "prompts/05_gate4_catalyst_role.md": "5102b2c22a28f4447f3194675685aa4b92b085300706718c0893c9edf3ccf161",
+   "prompts/06_gate5_risk_sizing.md": "71399916ce6b87038e54a8c8d604bcd098eb9a98993405a6138ad1ca3e4e9b47",
+   "prompts/07_decision_memo.md": "82a450ccc3504c1501d244517a09c2e883bd4281bb3d1b21e28f0d6516f22298"
+  },
+  "prompts_match_frozen_v1_5": true,
+  "pack_sha256": "7f0a2ea996c3fb7b1ec0e9f04a3ca644320d7954b95e729f8683aa24ac2dbcd2",
+  "endpoint": "http://localhost:11434"
+ }
+}

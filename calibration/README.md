@@ -21,8 +21,9 @@
 
 ## Running locally (Mac Mini, Ollama)
   brew install ollama && ollama pull llama3.1:8b
-  python tools/run_agent.py --pack calibration/data_packs/2025_uber_buy --model llama3.1:8b
-  python tools/grade.py --run calibration/runs/<file>.json --key calibration/answer_keys/2025_uber_buy.json --model llama3.1:8b
+  python tools/run_agent.py --pack calibration/data_packs/2025_uber_buy --model llama3.1:8b --mask
+  python tools/cutoff_probe.py --model llama3.1:8b
+  python tools/grade.py --run calibration/runs/<file>.json --key calibration/answer_keys/2025_uber_buy.json --model <strong grader>
   python tools/scoreboard.py
 Context: use num_ctx 16384 (8B q4 fits on 16 GB); packs should stay under ~10k tokens for the 8B model — the fact-sheet
 stage exists so later stages never see the raw pack.

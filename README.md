@@ -11,7 +11,7 @@ Mac Mini with Llama 3.1 8B (training data to Dec 2023).
 |---|---|
 | `AGENT.md` | The agent specification (v1.5): era switch 1992-2026, six-gate pipeline, Pershing's eight published principles, templates T1-T9, sell rules S1-S5 + CONTROL, pass rules, post-mortem rules, output contract, exemplars (calibration trades only). |
 | `prompts/` | The staged prompt chain `00_system` → `01_fact_sheet` → `02`-`06` gates → `07_decision_memo` (new ideas), `08_sell_hold` (existing positions), `09_hedge` (macro), `10_grader`, `11_leakage_check`, `12_forward_next_trade`; `one_shot_full.md` for bigger models; `schema_decision.json`; `CHANGELOG.md` (every prompt change and the calibration case that motivated it); `era_e_update_for_forward_runs.md` (forward runs only). |
-| `tools/` | `run_agent.py` (Ollama / any OpenAI-compatible endpoint; `--mask`, `--one-shot`), `grade.py`, `scoreboard.py` (Wilson CIs), `canary.py` (checks the model does not know post-cutoff facts). |
+| `tools/` | `run_agent.py` (Ollama / any OpenAI-compatible endpoint; `--mask`, `--one-shot`), `grade.py`, `scoreboard.py` (Wilson CIs), `canary.py` (plants a fact in a pack to prove the agent read it), `cutoff_probe.py` (checks the model does not know post-cutoff events or 2024+ Pershing positions). |
 | `calibration/` | 44 point-in-time data packs (`data_packs/<id>/docs/D01..`, `meta.json`), answer keys (`answer_keys/`, sealed set in `answer_keys/holdout/`), runs, scores, `scores/scoreboard.md`, `HOLDOUT_SEALED.md`, `PROMPT_HASHES_v1.5.txt`. |
 | `compendium/` | Trade-by-trade dossiers 1992-2026 (`trades/`, 111 files; indexes by era; `SCHEMA.md`). Each: dates, size, thesis at the time, how/why decided, Ackman's own words, public discussion, outcome, lessons, sources. |
 | `archive/` | Ackman profile, the eight official principles (Jan 2018 slide), 20 reasoning patterns, letters/interviews guides, `x_posts/` (88 authenticated posts, JSON + markdown), `forums/` (Reddit, VIC/COBF/Seeking Alpha/press). |
@@ -35,16 +35,21 @@ measure prompt compliance on a model that may remember the outcomes; the fidelit
 ```bash
 # 1. Install Ollama (https://ollama.com) and pull the model
 ollama pull llama3.1:8b
-# 2. Prove the model is pre-dated (should answer "unknown" to post-2023 canaries)
-python tools/canary.py --model llama3.1:8b
-# 3. Replay one decision, masked, with the staged chain; then grade it
+# 2. Prove the model is pre-dated (general post-2023 facts + 2024+ Pershing positions vs decoys)
+python tools/cutoff_probe.py --model llama3.1:8b
+# 3. Replay one decision, masked, with the staged chain; then grade it with a STRONG grader (not the 8B model)
+python tools/run_agent.py --model llama3.1:8b --pack calibration/data_packs/2025_uber_buy --mask --check-mask   # inspect masking first
 python tools/run_agent.py --model llama3.1:8b --pack calibration/data_packs/2025_uber_buy --mask
-python tools/grade.py calibration/runs/<run>.json calibration/answer_keys/2025_uber_buy.json
+python tools/grade.py --run calibration/runs/<run>.json --key calibration/answer_keys/2025_uber_buy.json --model <grader>
 # 4. Replay everything dated after the model's cutoff and build the scoreboard
 for p in calibration/data_packs/202[4-6]_*; do python tools/run_agent.py --model llama3.1:8b --pack $p --mask; done
-python tools/scoreboard.py calibration/scores > calibration/scores/scoreboard_llama.md
+python tools/scoreboard.py > calibration/scores/scoreboard_llama.md
 ```
 `run_agent.py` also takes `--base-url` / `--api-key` for any OpenAI-compatible server and `--one-shot` for larger models.
+Since runner 1.5.1 the gate rules are applied in code: the run keeps the model's own call in `final.model_decision` and the
+rule-enforced call in `final.decision` (see `overrides`); grade both with `grade.py --decision enforced|model`. `--no-enforce`
+reproduces the v1.5 runner. Each run records model digest, prompt hashes (and whether they match the frozen v1.5 hashes),
+pack hash and any mask residue (name fragments left after masking).
 Keep prompts frozen while scoring hold-outs; log any change in `prompts/CHANGELOG.md` with the calibration case that motivated it.
 
 ## The firewall
